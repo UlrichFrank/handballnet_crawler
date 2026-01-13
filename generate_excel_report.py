@@ -26,7 +26,7 @@ def create_report():
         home_team = game['home']['team_name']
         away_team = game['away']['team_name']
         game_id = game['game_id']
-        date = game['date']
+        order = game.get('order', 0)
         
         if not home_team or not away_team:
             continue
@@ -35,7 +35,7 @@ def create_report():
         if home_team not in team_games:
             team_games[home_team] = OrderedDict()
         team_games[home_team][game_id] = {
-            'date': date,
+            'order': order,
             'opponent': away_team,
             'is_home': True,
             'players': game['home']['players']
@@ -45,7 +45,7 @@ def create_report():
         if away_team not in team_games:
             team_games[away_team] = OrderedDict()
         team_games[away_team][game_id] = {
-            'date': date,
+            'order': order,
             'opponent': home_team,
             'is_home': False,
             'players': game['away']['players']
@@ -70,6 +70,7 @@ def create_report():
     
     labels = ["Tore", "2-Min", "Gelb", "Rot", "Blau"]
     
+    # Sort teams alphabetically, but preserve game order from Spielplan
     for tidx, (team_name, games_dict) in enumerate(sorted(team_games.items()), 1):
         print(f"[{tidx}/{len(team_games)}] {team_name}...")
         
@@ -83,12 +84,19 @@ def create_report():
         
         players = sorted(list(all_players_set))
         
+        # Sort games by order from Spielplan
+        sorted_games = sorted(
+            games_dict.items(),
+            key=lambda x: x[1]['order']
+        )
+        
         print(f"  -> {len(players)} Spieler, {len(games_dict)} Spiele (Heim + Auswärts)")
         
         col = 2
-        for game_id, game_data in games_dict.items():
+        for game_id, game_data in sorted_games:
             home_away = "🏠" if game_data['is_home'] else "🏃"
-            header = f"{game_data['date']}\n{home_away} {team_name}\nvs\n{game_data['opponent']}"
+            order = game_data['order']
+            header = f"Spiel {order+1}\n{home_away} {team_name}\nvs\n{game_data['opponent']}"
             
             ws.merge_cells(start_row=1, start_column=col, end_row=1, end_column=col + 4)
             cell = ws.cell(row=1, column=col)
@@ -101,7 +109,7 @@ def create_report():
             col += 5
         
         col = 2
-        for _ in games_dict:
+        for _ in sorted_games:
             for label in labels:
                 cell = ws.cell(row=2, column=col)
                 cell.value = label
@@ -137,7 +145,7 @@ def create_report():
             
             col = 2
             game_idx = 0
-            for game_id, game_data in games_dict.items():
+            for game_id, game_data in sorted_games:
                 if game_idx not in game_totals:
                     game_totals[game_idx] = [0, 0, 0, 0, 0]
                 

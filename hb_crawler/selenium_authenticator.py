@@ -225,10 +225,11 @@ class HandballNetSeleniumAuthenticator:
             print(f"✗ Authentication error: {e}")
             import traceback
             traceback.print_exc()
-            return False
-        finally:
             if self.driver:
                 self.driver.quit()
+            return False
+        
+        # SUCCESS: Don't quit driver - we need it for further navigation!
     
     def _is_logged_in(self) -> bool:
         """Check if user is logged in"""

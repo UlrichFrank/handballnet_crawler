@@ -32,12 +32,18 @@ def create_report():
         if not home_team or not away_team:
             continue
         
+        # Calculate score from player data
+        home_goals = sum(p['goals'] for p in game['home']['players'])
+        away_goals = sum(p['goals'] for p in game['away']['players'])
+        score = f"{home_goals}:{away_goals}"
+        
         # Home game
         if home_team not in team_games:
             team_games[home_team] = OrderedDict()
         team_games[home_team][game_id] = {
             'order': order,
             'date': date,
+            'score': score,
             'opponent': away_team,
             'is_home': True,
             'players': game['home']['players']
@@ -49,6 +55,7 @@ def create_report():
         team_games[away_team][game_id] = {
             'order': order,
             'date': date,
+            'score': score,
             'opponent': home_team,
             'is_home': False,
             'players': game['away']['players']
@@ -97,10 +104,18 @@ def create_report():
         
         col = 2
         for game_id, game_data in sorted_games:
-            home_away = "🏠" if game_data['is_home'] else "🏃"
             order = game_data['order']
             date = game_data.get('date', 'Unknown')
-            header = f"{date}\n{home_away} {team_name}\nvs\n{game_data['opponent']}"
+            score = game_data.get('score', 'Unknown')
+            
+            # Show teams in correct order: home vs away
+            # But ONLY show icon for the current team (the one this tab is for)
+            if game_data['is_home']:
+                # Home game: our team at home (show icon for our team)
+                header = f"{date}\n🏠 {team_name}\nvs\n{game_data['opponent']}\n{score}"
+            else:
+                # Away game: opponent at home, our team away (show icon for our team)
+                header = f"{date}\n{game_data['opponent']}\nvs\n🏃 {team_name}\n{score}"
             
             ws.merge_cells(start_row=1, start_column=col, end_row=1, end_column=col + 4)
             cell = ws.cell(row=1, column=col)
@@ -123,6 +138,17 @@ def create_report():
                 cell.border = border
                 col += 1
         
+        # Add summary headers
+        summary_labels = ["Tore\nGesamt", "2-Min\nGesamt", "Gelb", "Rot", "Blau"]
+        for label in summary_labels:
+            cell = ws.cell(row=2, column=col)
+            cell.value = label
+            cell.font = s_font
+            cell.fill = s_fill
+            cell.alignment = c_align
+            cell.border = border
+            col += 1
+        
         a1 = ws.cell(row=1, column=1)
         a1.value = "Match"
         a1.font = h_font
@@ -138,6 +164,7 @@ def create_report():
         a2.border = border
         
         game_totals = {}
+        player_game_stats = {}  # Track per-player, per-game stats for summary
         
         for prow, player_name in enumerate(players, start=3):
             ca = ws.cell(row=prow, column=1)
@@ -149,6 +176,8 @@ def create_report():
             
             col = 2
             game_idx = 0
+            player_all_stats = [0, 0, 0, 0, 0]  # Total stats for this player across all games
+            
             for game_id, game_data in sorted_games:
                 if game_idx not in game_totals:
                     game_totals[game_idx] = [0, 0, 0, 0, 0]
@@ -169,6 +198,7 @@ def create_report():
                     ]
                     for i, val in enumerate(stats):
                         game_totals[game_idx][i] += val
+                        player_all_stats[i] += val
                 else:
                     stats = [0, 0, 0, 0, 0]
                 
@@ -180,6 +210,16 @@ def create_report():
                     col += 1
                 
                 game_idx += 1
+            
+            # Add summary columns for this player
+            for stat_val in player_all_stats:
+                cell = ws.cell(row=prow, column=col)
+                cell.value = stat_val if stat_val > 0 else "-"
+                cell.alignment = c_align
+                cell.border = border
+                cell.fill = PatternFill(start_color="F0F0F0", end_color="F0F0F0", fill_type="solid")
+                cell.font = Font(bold=True)
+                col += 1
         
         totals_row = len(players) + 3
         
@@ -201,6 +241,22 @@ def create_report():
                 cell.alignment = c_align
                 cell.border = border
                 col += 1
+        
+        # Add totals for summary columns
+        summary_totals = [0, 0, 0, 0, 0]
+        for game_idx in range(len(games_dict)):
+            stats = game_totals[game_idx]
+            for i, stat_val in enumerate(stats):
+                summary_totals[i] += stat_val
+        
+        for stat_val in summary_totals:
+            cell = ws.cell(row=totals_row, column=col)
+            cell.value = stat_val if stat_val > 0 else "-"
+            cell.font = total_font
+            cell.fill = total_fill
+            cell.alignment = c_align
+            cell.border = border
+            col += 1
         
         ws.column_dimensions['A'].width = 25
         for c in range(2, col):

@@ -1,3 +1,0 @@
-Ich möchte mit einen Webcrawler basteln, der anhand einer konfigurierten Query für konfigurierte Liga alle Spieler aller Mannschaften und Spielerdaten extrahiert und in ein File schreibt.
-Über https://www.handball.net/anmelden kann ich mich per Web Formular anmelden. 
-Beispiel https://www.handball.net/ligen/handball4all.baden-wuerttemberg.mc-ol-3-bw_bwhv/spielplan?dateFrom=2025-07-01&dateTo=2026-06-30

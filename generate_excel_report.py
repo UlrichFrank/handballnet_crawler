@@ -262,7 +262,7 @@ def create_report():
         for c in range(2, col):
             ws.column_dimensions[openpyxl.utils.get_column_letter(c)].width = 10
         
-        ws.row_dimensions[1].height = 50
+        ws.row_dimensions[1].height = 80
         ws.row_dimensions[2].height = 20
     
     wb.save('handball_players_report.xlsx')

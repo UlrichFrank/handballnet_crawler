@@ -203,9 +203,10 @@ def main():
                 html = driver.page_source
                 players_by_team = extract_players_from_aufstellung(html)
                 
-                # Extract game date from HTML
+                # Extract game date and opponent info from HTML
                 soup = BeautifulSoup(html, 'html.parser')
                 game_date = "Unknown"
+                opponent_teams = list(players_by_team.keys()) if players_by_team else []
                 
                 # Try to find game date - look for various date patterns
                 # Check for date in meta tags or page content
@@ -230,6 +231,7 @@ def main():
                 game_data = {
                     'game_id': game_id,
                     'date': game_date,
+                    'opponent_teams': opponent_teams,
                     'teams': {}
                 }
                 
@@ -265,6 +267,7 @@ def main():
                         stats['games'].append({
                             'game_id': game_id,
                             'date': game_date,
+                            'opponent_teams': opponent_teams,
                             'goals': player['goals'],
                             'two_min_penalties': player['two_min_penalties'],
                             'yellow_cards': player['yellow_cards'],

@@ -27,6 +27,7 @@ def create_report():
         away_team = game['away']['team_name']
         game_id = game['game_id']
         order = game.get('order', 0)
+        date = game.get('date', 'Unknown')
         
         if not home_team or not away_team:
             continue
@@ -36,6 +37,7 @@ def create_report():
             team_games[home_team] = OrderedDict()
         team_games[home_team][game_id] = {
             'order': order,
+            'date': date,
             'opponent': away_team,
             'is_home': True,
             'players': game['home']['players']
@@ -46,6 +48,7 @@ def create_report():
             team_games[away_team] = OrderedDict()
         team_games[away_team][game_id] = {
             'order': order,
+            'date': date,
             'opponent': home_team,
             'is_home': False,
             'players': game['away']['players']
@@ -96,7 +99,8 @@ def create_report():
         for game_id, game_data in sorted_games:
             home_away = "🏠" if game_data['is_home'] else "🏃"
             order = game_data['order']
-            header = f"Spiel {order+1}\n{home_away} {team_name}\nvs\n{game_data['opponent']}"
+            date = game_data.get('date', 'Unknown')
+            header = f"{date}\n{home_away} {team_name}\nvs\n{game_data['opponent']}"
             
             ws.merge_cells(start_row=1, start_column=col, end_row=1, end_column=col + 4)
             cell = ws.cell(row=1, column=col)

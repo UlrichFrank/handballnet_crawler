@@ -12,6 +12,9 @@ from bs4 import BeautifulSoup
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.chrome.service import Service
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
+from selenium.webdriver.common.by import By
 from webdriver_manager.chrome import ChromeDriverManager
 import warnings
 warnings.filterwarnings('ignore')
@@ -46,71 +49,118 @@ def setup_driver():
     )
 
 def extract_game_ids_from_spielplan(driver):
-    """Load Spielplan and extract all game IDs with teams - preserving order from Spielplan"""
-    games_with_teams = []  # List of {'game_id': ..., 'home_team': ..., 'away_team': ..., 'order': ...}
-    seen_ids = set()       # Track what we've seen
-    page = 0
+    """Load Spielplan with pagination (page=1, page=2, etc) and extract all game IDs with teams, dates, and order"""
+    games_with_teams = []
+    seen_ids = set()
     order = 0
     
     spielplan_url = f"{BASE_URL}/ligen/{LEAGUE_ID}/spielplan?dateFrom={DATE_FROM}&dateTo={DATE_TO}"
+    page = 1
+    total_games = None
     
     while True:
         print(f"📄 Loading Spielplan page {page}...")
         
-        offset = page * 50
-        url = f"{spielplan_url}&offset={offset}" if offset > 0 else spielplan_url
+        url = f"{spielplan_url}&page={page}"
         driver.get(url)
         time.sleep(2)
         
         soup = BeautifulSoup(driver.page_source, 'html.parser')
+        
+        # Extract total games count on first page
+        if total_games is None:
+            game_count_div = soup.find('div', class_='text-sm', string=re.compile(r'Spiele gefunden'))
+            if game_count_div:
+                match = re.search(r'(\d+)\s*Spiele gefunden', game_count_div.get_text())
+                if match:
+                    total_games = int(match.group(1))
+                    print(f"   ℹ️  Total games: {total_games}")
+        
         page_games = []
         
-        # Find all game links - they maintain order on the page
-        for link in soup.find_all('a', href=True):
-            href = link['href']
-            if '/spiele/handball4all' in href:
-                parts = href.split('/')
-                try:
-                    spiele_idx = parts.index('spiele')
-                    if spiele_idx + 1 < len(parts):
-                        game_id = parts[spiele_idx + 1]
-                        if game_id.startswith('handball4all') and game_id not in seen_ids:
-                            # Try to extract team names from link context
-                            # Since it's dynamically loaded, we might not always get team data
-                            home_team = None
-                            away_team = None
-                            
-                            # Try parent div or other containers
-                            parent = link.find_parent(['div', 'li', 'tr'])
-                            if parent:
-                                # Look for text that might be team names
-                                text = parent.get_text(strip=True)
-                                # This is a fallback - we'll get better data from Aufstellung page
-                            
-                            page_games.append({
-                                'game_id': game_id,
-                                'home_team': home_team,
-                                'away_team': away_team,
-                                'order': order
-                            })
-                            seen_ids.add(game_id)
-                            games_with_teams.append({
-                                'game_id': game_id,
-                                'home_team': home_team,
-                                'away_team': away_team,
-                                'order': order
-                            })
-                            order += 1
-                except (ValueError, IndexError):
-                    pass
+        # Find all game links from spielbericht
+        game_links = soup.find_all('a', href=re.compile(r'/spiele/handball4all.*spielbericht'))
         
-        print(f"  ✓ Found {len(page_games)} new games (total: {len(games_with_teams)})")
+        for link in game_links:
+            href = link.get('href', '')
+            parts = href.split('/')
+            
+            try:
+                spiele_idx = parts.index('spiele')
+                game_id = parts[spiele_idx + 1]
+                
+                if game_id not in seen_ids:
+                    # Find parent container with game info
+                    parent = link.parent
+                    game_info_text = None
+                    
+                    for _ in range(15):
+                        if parent is None:
+                            break
+                        parent_text = parent.get_text(strip=True)
+                        # Check if this level has date
+                        if re.search(r'[A-Za-z]{2},\s*\d{1,2}\.\d{1,2}\.', parent_text):
+                            game_info_text = parent_text
+                            break
+                        parent = parent.parent
+                    
+                    if not game_info_text:
+                        continue
+                    
+                    # Parse the game info text
+                    date_match = re.search(r'([A-Za-z]{2},\s*\d{1,2}\.\d{1,2}\.)', game_info_text)
+                    date_text = date_match.group(1) if date_match else "Unknown"
+                    
+                    # Extract score pattern to identify team split
+                    score_match = re.search(r'(\d+):(\d+)', game_info_text)
+                    
+                    home_team = None
+                    away_team = None
+                    
+                    if score_match:
+                        score_pos = score_match.start()
+                        # Everything between date and score is likely home team
+                        text_after_date = game_info_text[date_match.end() if date_match else 0:score_pos].strip()
+                        home_team = text_after_date
+                        
+                        # Everything after score is likely away team
+                        text_after_score = game_info_text[score_match.end():].strip()
+                        away_team = text_after_score
+                    
+                    page_games.append({
+                        'game_id': game_id,
+                        'home_team': home_team,
+                        'away_team': away_team,
+                        'date': date_text,
+                        'order': order
+                    })
+                    seen_ids.add(game_id)
+                    games_with_teams.append({
+                        'game_id': game_id,
+                        'home_team': home_team,
+                        'away_team': away_team,
+                        'date': date_text,
+                        'order': order
+                    })
+                    order += 1
+            except (ValueError, IndexError):
+                pass
+        
+        print(f"  ✓ Found {len(page_games)} new games on page {page} (total: {len(games_with_teams)})")
         
         if len(page_games) == 0:
+            print(f"  ℹ️  No games found on this page, stopping")
+            break
+        
+        # Check if we should continue to next page
+        # If we have total_games count, check if we've reached it
+        if total_games and len(games_with_teams) >= total_games:
+            print(f"  ✓ Reached total game count ({total_games})")
             break
         
         page += 1
-        if page > 20:
+        if page > 20:  # Safety limit
+            print(f"  ⚠️  Reached page limit (20), stopping")
             break
     
     return games_with_teams
@@ -249,6 +299,7 @@ def scrape_all_games(driver, games_with_teams):
         game_id = game_info['game_id']
         spielplan_home = game_info['home_team']
         spielplan_away = game_info['away_team']
+        date = game_info.get('date', 'Unknown')
         order = game_info['order']
         
         try:
@@ -290,6 +341,7 @@ def scrape_all_games(driver, games_with_teams):
             game = {
                 'game_id': game_id,
                 'order': order,
+                'date': date,
                 'home': {
                     'team_name': home_team,
                     'players': home_players
@@ -301,7 +353,7 @@ def scrape_all_games(driver, games_with_teams):
             }
             
             games.append(game)
-            print(f"  [{idx:3d}/{len(games_with_teams)}] ✅ Spiel {order+1} | {home_team} ({len(home_players)}) vs {away_team} ({len(away_players)})")
+            print(f"  [{idx:3d}/{len(games_with_teams)}] ✅ {date} | {home_team} ({len(home_players)}) vs {away_team} ({len(away_players)})")
         
         except Exception as e:
             print(f"  [{idx:3d}/{len(games_with_teams)}] ❌ {game_id}: {str(e)[:40]}")

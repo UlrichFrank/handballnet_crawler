@@ -1,32 +1,60 @@
 #!/usr/bin/env python3
+"""
+Generate Excel report from game-centric handball_games.json
+Shows for each team: HOME and AWAY games with all player statistics
+"""
+
 import json
 import openpyxl
 from openpyxl.styles import Font, PatternFill, Alignment, Border, Side
 from collections import OrderedDict
 
-def load_data():
-    with open('output/handball_players_detailed.json', 'r') as f:
+def load_games_data():
+    """Load game-centric data"""
+    with open('output/handball_games.json', 'r') as f:
         return json.load(f)
 
-def get_teams_in_game(all_teams, game_id):
-    teams = set()
-    for tname, tdata in all_teams.items():
-        for player in tdata['players']:
-            for game in player.get('game_details', []):
-                if game['game_id'] == game_id:
-                    teams.add(tname)
-                    break
-    return list(teams)
-
 def create_report():
-    print("📊 Lade Daten...")
-    data = load_data()
-    all_teams = data['teams']
+    print("📊 Lade Spieldaten...")
+    data = load_games_data()
+    games = data['games']
+    
+    # Collect all teams and their games (home and away)
+    team_games = {}
+    
+    for game in games:
+        home_team = game['home']['team_name']
+        away_team = game['away']['team_name']
+        game_id = game['game_id']
+        date = game['date']
+        
+        if not home_team or not away_team:
+            continue
+        
+        # Home game
+        if home_team not in team_games:
+            team_games[home_team] = OrderedDict()
+        team_games[home_team][game_id] = {
+            'date': date,
+            'opponent': away_team,
+            'is_home': True,
+            'players': game['home']['players']
+        }
+        
+        # Away game
+        if away_team not in team_games:
+            team_games[away_team] = OrderedDict()
+        team_games[away_team][game_id] = {
+            'date': date,
+            'opponent': home_team,
+            'is_home': False,
+            'players': game['away']['players']
+        }
+    
+    print(f"📋 {len(team_games)} Teams gefunden\n")
     
     wb = openpyxl.Workbook()
     wb.remove(wb.active)
-    
-    print(f"📋 {len(all_teams)} Teams gefunden\n")
     
     h_fill = PatternFill(start_color="4472C4", end_color="4472C4", fill_type="solid")
     h_font = Font(color="FFFFFF", bold=True, size=10)
@@ -37,41 +65,30 @@ def create_report():
     c_align = Alignment(horizontal="center", vertical="center", wrap_text=True)
     l_align = Alignment(horizontal="left", vertical="center", wrap_text=True)
     border = Border(left=Side(style='thin'), right=Side(style='thin'), top=Side(style='thin'), bottom=Side(style='thin'))
+    total_fill = PatternFill(start_color="FFF2CC", end_color="FFF2CC", fill_type="solid")
+    total_font = Font(bold=True, size=10)
     
-    for tidx, (tname, tdata) in enumerate(sorted(all_teams.items()), 1):
-        print(f"[{tidx}/{len(all_teams)}] {tname}...")
+    labels = ["Tore", "2-Min", "Gelb", "Rot", "Blau"]
+    
+    for tidx, (team_name, games_dict) in enumerate(sorted(team_games.items()), 1):
+        print(f"[{tidx}/{len(team_games)}] {team_name}...")
         
-        sname = tname.replace('/', '-').replace('?', '').replace('[', '').replace(']', '')[:31]
+        sname = team_name.replace('/', '-').replace('?', '').replace('[', '').replace(']', '')[:31]
         ws = wb.create_sheet(title=sname)
         
-        players = sorted(tdata['players'], key=lambda p: p['name'])
+        all_players_set = set()
+        for game_data in games_dict.values():
+            for player in game_data['players']:
+                all_players_set.add(player['name'])
         
-        tgames = OrderedDict()
-        for player in players:
-            for game in player.get('game_details', []):
-                if game['game_id'] not in tgames:
-                    tgames_in = get_teams_in_game(all_teams, game['game_id'])
-                    tgames[game['game_id']] = {
-                        'date': game['date'],
-                        'teams': tgames_in
-                    }
+        players = sorted(list(all_players_set))
         
-        print(f"  -> {len(players)} Spieler, {len(tgames)} Spiele")
-        
-        labels = ["Tore", "2-Min", "Gelb", "Rot", "Blau"]
+        print(f"  -> {len(players)} Spieler, {len(games_dict)} Spiele (Heim + Auswärts)")
         
         col = 2
-        game_num = 1
-        for gid, ginfo in tgames.items():
-            opp = [t for t in ginfo['teams'] if t != tname]
-            opp_str = opp[0] if len(opp) == 1 else " vs ".join(opp) if opp else "Unknown"
-            
-            # Format header with date if available
-            if ginfo['date'] and ginfo['date'] != 'Unknown':
-                header = f"{ginfo['date']}\n{tname} vs {opp_str}"
-            else:
-                # Fallback: Just use team names without date
-                header = f"{tname}\nvs\n{opp_str}"
+        for game_id, game_data in games_dict.items():
+            home_away = "🏠" if game_data['is_home'] else "🏃"
+            header = f"{game_data['date']}\n{home_away} {team_name}\nvs\n{game_data['opponent']}"
             
             ws.merge_cells(start_row=1, start_column=col, end_row=1, end_column=col + 4)
             cell = ws.cell(row=1, column=col)
@@ -82,10 +99,9 @@ def create_report():
             cell.border = border
             
             col += 5
-            game_num += 1
         
         col = 2
-        for _ in tgames:
+        for _ in games_dict:
             for label in labels:
                 cell = ws.cell(row=2, column=col)
                 cell.value = label
@@ -96,55 +112,64 @@ def create_report():
                 col += 1
         
         a1 = ws.cell(row=1, column=1)
-        a1.value = "Spieler"
+        a1.value = "Match"
         a1.font = h_font
         a1.fill = h_fill
         a1.alignment = c_align
         a1.border = border
-        ws.merge_cells('A1:A2')
         
-        # Collect stats for totals row
-        game_totals = {}  # {game_idx: [goals, 2min, yellow, red, blue]}
+        a2 = ws.cell(row=2, column=1)
+        a2.value = "Player"
+        a2.font = s_font
+        a2.fill = s_fill
+        a2.alignment = c_align
+        a2.border = border
         
-        for prow, player in enumerate(players, start=3):
+        game_totals = {}
+        
+        for prow, player_name in enumerate(players, start=3):
             ca = ws.cell(row=prow, column=1)
-            ca.value = player['name']
+            ca.value = player_name
             ca.font = p_font
             ca.fill = p_fill
             ca.alignment = l_align
             ca.border = border
             
-            gmap = {g['game_id']: g for g in player.get('game_details', [])}
-            
             col = 2
             game_idx = 0
-            for gid in tgames.keys():
+            for game_id, game_data in games_dict.items():
                 if game_idx not in game_totals:
                     game_totals[game_idx] = [0, 0, 0, 0, 0]
                 
-                if gid in gmap:
-                    g = gmap[gid]
-                    stats = [g['goals'], g['two_min_penalties'], g['yellow_cards'], g['red_cards'], g['blue_cards']]
+                player_stats = None
+                for player in game_data['players']:
+                    if player['name'] == player_name:
+                        player_stats = player
+                        break
+                
+                if player_stats:
+                    stats = [
+                        player_stats['goals'],
+                        player_stats['two_min_penalties'],
+                        player_stats['yellow_cards'],
+                        player_stats['red_cards'],
+                        player_stats['blue_cards']
+                    ]
+                    for i, val in enumerate(stats):
+                        game_totals[game_idx][i] += val
                 else:
                     stats = [0, 0, 0, 0, 0]
                 
-                # Accumulate totals
-                for i, sv in enumerate(stats):
-                    game_totals[game_idx][i] += sv
-                
-                for sv in stats:
+                for stat_val in stats:
                     cell = ws.cell(row=prow, column=col)
-                    cell.value = sv if sv > 0 else "-"
+                    cell.value = stat_val if stat_val > 0 else "-"
                     cell.alignment = c_align
                     cell.border = border
                     col += 1
                 
                 game_idx += 1
         
-        # Add totals row
         totals_row = len(players) + 3
-        total_fill = PatternFill(start_color="FFF2CC", end_color="FFF2CC", fill_type="solid")
-        total_font = Font(bold=True, size=10)
         
         ta = ws.cell(row=totals_row, column=1)
         ta.value = "GESAMT"
@@ -154,11 +179,11 @@ def create_report():
         ta.border = border
         
         col = 2
-        for game_idx in range(len(tgames)):
+        for game_idx in range(len(games_dict)):
             stats = game_totals[game_idx]
-            for sv in stats:
+            for stat_val in stats:
                 cell = ws.cell(row=totals_row, column=col)
-                cell.value = sv if sv > 0 else "-"
+                cell.value = stat_val if stat_val > 0 else "-"
                 cell.font = total_font
                 cell.fill = total_fill
                 cell.alignment = c_align
@@ -169,15 +194,15 @@ def create_report():
         for c in range(2, col):
             ws.column_dimensions[openpyxl.utils.get_column_letter(c)].width = 10
         
-        ws.row_dimensions[1].height = 40
+        ws.row_dimensions[1].height = 50
         ws.row_dimensions[2].height = 20
     
     wb.save('handball_players_report.xlsx')
     print(f"\n✅ Excel Report: handball_players_report.xlsx")
     print(f"   - Ein Tab pro Team")
-    print(f"   - Spalte A: Spielernamen")
-    print(f"   - Zeile 1: Datum + Gegner")
-    print(f"   - Zeile 2: Tore, 2-Min, Gelb, Rot, Blau")
+    print(f"   - ALLE Spiele (Heim 🏠 + Auswärts 🏃)")
+    print(f"   - Spielerdaten aus beiden Aufstellungen")
+    print(f"   - GESAMT-Zeile mit Summen")
 
 if __name__ == '__main__':
     create_report()

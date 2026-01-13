@@ -35,49 +35,84 @@ DATE_FROM = config['league']['date_from']
 DATE_TO = config['league']['date_to']
 USERNAME = config['authentication']['username']
 PASSWORD = config['authentication']['password']
-MAX_GAMES = 50  # Set to 50 to extract all games
+MAX_GAMES = 500  # Extract ALL games (unlimited)
 
 print(f"📋 Konfiguration geladen:")
 print(f"   League: {config['league']['display_name']}")
 print(f"   Zeitraum: {DATE_FROM} bis {DATE_TO}")
-print(f"   Max Games: {MAX_GAMES}")
+print(f"   Max Games: {MAX_GAMES} (unlimited)")
 
 # ============================================================================
 # EXTRACTION FUNCTIONS
 # ============================================================================
 
-def extract_games_from_spielplan(html):
-    """Extract game IDs from Spielplan page and try to capture game data"""
-    soup = BeautifulSoup(html, 'html.parser')
-    game_ids = set()
-    game_dates = {}  # {game_id: date}
+def extract_games_from_spielplan(driver):
+    """Extract ALL game IDs from Spielplan page using pagination"""
+    import re
+    all_game_ids = set()
+    all_game_dates = {}
+    page = 0
     
-    for link in soup.find_all('a', href=True):
-        href = link['href']
-        if '/spiele/handball4all' in href:
-            parts = href.split('/')
-            try:
-                spiele_idx = parts.index('spiele')
-                if spiele_idx + 1 < len(parts):
-                    game_id = parts[spiele_idx + 1]
-                    if game_id and game_id.startswith('handball4all'):
-                        game_ids.add(game_id)
-                        
-                        # Try to extract date from parent elements or text
-                        parent = link.find_parent(['div', 'tr', 'td'], recursive=False)
-                        if not parent:
-                            parent = link.find_parent()
-                        
-                        if parent:
-                            import re
-                            parent_text = parent.get_text()
-                            date_match = re.search(r'(\d{1,2}\.\d{1,2}\.\d{4})', parent_text)
-                            if date_match:
-                                game_dates[game_id] = date_match.group(1)
-            except (ValueError, IndexError):
-                pass
+    spielplan_url = f"{BASE_URL}/ligen/{LEAGUE_ID}/spielplan?dateFrom={DATE_FROM}&dateTo={DATE_TO}"
     
-    return list(game_ids), game_dates
+    while True:
+        print(f"  📄 Loading page {page}...")
+        
+        # Build URL with pagination (offset)
+        offset = page * 50
+        url = f"{spielplan_url}&offset={offset}" if offset > 0 else spielplan_url
+        driver.get(url)
+        time.sleep(2)
+        
+        html = driver.page_source
+        soup = BeautifulSoup(html, 'html.parser')
+        
+        # Extract games from this page
+        page_game_ids = set()
+        for link in soup.find_all('a', href=True):
+            href = link['href']
+            if '/spiele/handball4all' in href:
+                parts = href.split('/')
+                try:
+                    spiele_idx = parts.index('spiele')
+                    if spiele_idx + 1 < len(parts):
+                        game_id = parts[spiele_idx + 1]
+                        if game_id and game_id.startswith('handball4all'):
+                            if game_id not in all_game_ids:  # Avoid duplicates
+                                page_game_ids.add(game_id)
+                                all_game_ids.add(game_id)
+                                
+                                # Try to extract date from parent elements
+                                parent = link.find_parent(['div', 'tr', 'td'])
+                                if parent:
+                                    parent_text = parent.get_text()
+                                    date_match = re.search(r'(\d{1,2}\.\d{1,2}\.\d{4})', parent_text)
+                                    if date_match:
+                                        all_game_dates[game_id] = date_match.group(1)
+                except (ValueError, IndexError):
+                    pass
+        
+        print(f"    ✓ Found {len(page_game_ids)} new games on this page (total: {len(all_game_ids)})")
+        
+        # Check if there's a next page button
+        next_button = soup.find('a', string=re.compile(r'next|weiter|›', re.IGNORECASE))
+        if not next_button or not next_button.get('href'):
+            # Alternative: check for pagination info
+            pagination = soup.find('div', class_=re.compile('pagina|page', re.IGNORECASE))
+            if not pagination:
+                print(f"    ✓ No more pages found")
+                break
+        
+        if len(page_game_ids) == 0:
+            print(f"    ✓ No new games on this page, stopping pagination")
+            break
+        
+        page += 1
+        if page > 20:  # Safety limit
+            print(f"    ⚠ Reached page limit (20 pages), stopping")
+            break
+    
+    return list(all_game_ids), all_game_dates
 
 def extract_players_from_aufstellung(html):
     """Extract players from AUFSTELLUNG page with statistics"""
@@ -182,15 +217,10 @@ def main():
             options=options
         )
         
-        # Load Spielplan
-        print("📋 Loading Spielplan...")
-        spielplan_url = f"{BASE_URL}/ligen/{LEAGUE_ID}/spielplan?dateFrom={DATE_FROM}&dateTo={DATE_TO}"
-        driver.get(spielplan_url)
-        time.sleep(3)
-        
-        html = driver.page_source
-        game_ids, game_dates_from_spielplan = extract_games_from_spielplan(html)
-        print(f"✓ Found {len(game_ids)} games")
+        # Load Spielplan with pagination
+        print("📋 Loading Spielplan (with pagination)...")
+        game_ids, game_dates_from_spielplan = extract_games_from_spielplan(driver)
+        print(f"✓ Found {len(game_ids)} games across all pages")
         print(f"✓ Found dates for {len(game_dates_from_spielplan)} games from Spielplan")
         
         # Limit to MAX_GAMES

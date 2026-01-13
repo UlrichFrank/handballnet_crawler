@@ -1,0 +1,26 @@
+{
+  "authentication": {
+    "username": "your_username",
+    "password": "your_password",
+    "base_url": "https://www.handball.net"
+  },
+  "ssl": {
+    "verify_ssl": true,
+    "cert_path": "~/root-ca.crt"
+  },
+  "league": {
+    "name": "mc-ol-3-bw_bwhv",
+    "display_name": "Handball4all Baden-Württemberg MC-OL 3",
+    "date_from": "2025-07-01",
+    "date_to": "2026-06-30"
+  },
+  "crawler": {
+    "timeout": 30,
+    "retry_attempts": 3,
+    "delay_between_requests": 1
+  },
+  "output": {
+    "format": "json",
+    "file": "handball_players.json"
+  }
+}

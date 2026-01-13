@@ -61,10 +61,17 @@ def create_report():
         labels = ["Tore", "2-Min", "Gelb", "Rot", "Blau"]
         
         col = 2
+        game_num = 1
         for gid, ginfo in tgames.items():
             opp = [t for t in ginfo['teams'] if t != tname]
             opp_str = opp[0] if len(opp) == 1 else " vs ".join(opp) if opp else "Unknown"
-            header = f"{ginfo['date']}\n{opp_str}"
+            
+            # Format header with date if available
+            if ginfo['date'] and ginfo['date'] != 'Unknown':
+                header = f"{ginfo['date']}\n{tname} vs {opp_str}"
+            else:
+                # Fallback: Just use team names without date
+                header = f"{tname}\nvs\n{opp_str}"
             
             ws.merge_cells(start_row=1, start_column=col, end_row=1, end_column=col + 4)
             cell = ws.cell(row=1, column=col)
@@ -75,6 +82,7 @@ def create_report():
             cell.border = border
             
             col += 5
+            game_num += 1
         
         col = 2
         for _ in tgames:

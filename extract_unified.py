@@ -47,28 +47,37 @@ print(f"   Max Games: {MAX_GAMES}")
 # ============================================================================
 
 def extract_games_from_spielplan(html):
-    """Extract game IDs from Spielplan page"""
+    """Extract game IDs from Spielplan page and try to capture game data"""
     soup = BeautifulSoup(html, 'html.parser')
     game_ids = set()
+    game_dates = {}  # {game_id: date}
     
     for link in soup.find_all('a', href=True):
         href = link['href']
-        # Match pattern: /spiele/{game_id} (but avoid /aufstellung, /spielbericht etc.)
         if '/spiele/handball4all' in href:
-            # Extract the game ID part
             parts = href.split('/')
-            # Find "spiele" position and get the next part
             try:
                 spiele_idx = parts.index('spiele')
                 if spiele_idx + 1 < len(parts):
                     game_id = parts[spiele_idx + 1]
                     if game_id and game_id.startswith('handball4all'):
-                        # Remove any trailing path components (like /aufstellung)
                         game_ids.add(game_id)
+                        
+                        # Try to extract date from parent elements or text
+                        parent = link.find_parent(['div', 'tr', 'td'], recursive=False)
+                        if not parent:
+                            parent = link.find_parent()
+                        
+                        if parent:
+                            import re
+                            parent_text = parent.get_text()
+                            date_match = re.search(r'(\d{1,2}\.\d{1,2}\.\d{4})', parent_text)
+                            if date_match:
+                                game_dates[game_id] = date_match.group(1)
             except (ValueError, IndexError):
                 pass
     
-    return list(game_ids)
+    return list(game_ids), game_dates
 
 def extract_players_from_aufstellung(html):
     """Extract players from AUFSTELLUNG page with statistics"""
@@ -180,8 +189,9 @@ def main():
         time.sleep(3)
         
         html = driver.page_source
-        game_ids = extract_games_from_spielplan(html)
+        game_ids, game_dates_from_spielplan = extract_games_from_spielplan(html)
         print(f"✓ Found {len(game_ids)} games")
+        print(f"✓ Found dates for {len(game_dates_from_spielplan)} games from Spielplan")
         
         # Limit to MAX_GAMES
         game_ids = game_ids[:MAX_GAMES]
@@ -205,25 +215,35 @@ def main():
                 
                 # Extract game date and opponent info from HTML
                 soup = BeautifulSoup(html, 'html.parser')
-                game_date = "Unknown"
+                game_date = game_dates_from_spielplan.get(game_id, "Unknown")  # Use date from Spielplan if available
                 opponent_teams = list(players_by_team.keys()) if players_by_team else []
                 
-                # Try to find game date - look for various date patterns
-                # Check for date in meta tags or page content
-                date_text = soup.get_text()
-                
-                # Look for date pattern in various places
-                import re
-                date_patterns = [
-                    r'(\d{1,2}\.\d{1,2}\.\d{4})',  # DD.MM.YYYY
-                    r'(\d{1,2}\.\s+\w+\s+\d{4})',  # DD. Month YYYY
-                ]
-                
-                for pattern in date_patterns:
-                    match = re.search(pattern, date_text)
-                    if match:
-                        game_date = match.group(1)
-                        break
+                # If date is still Unknown, try to find it from AUFSTELLUNG page
+                if game_date == "Unknown":
+                    # Try to find game date from various sources
+                    import re
+                    
+                    # 1. Look for date in page text
+                    date_text = soup.get_text()
+                    date_patterns = [
+                        r'(\d{1,2}\.\d{1,2}\.\d{4})',  # DD.MM.YYYY
+                        r'(\d{1,2}\.\s+\w+\s+\d{4})',  # DD. Month YYYY
+                    ]
+                    
+                    for pattern in date_patterns:
+                        match = re.search(pattern, date_text)
+                        if match:
+                            game_date = match.group(1)
+                            break
+                    
+                    # 2. If not found, try to extract from h1/h2 titles
+                    if game_date == "Unknown":
+                        for heading in soup.find_all(['h1', 'h2', 'h3']):
+                            heading_text = heading.get_text()
+                            match = re.search(r'(\d{1,2}\.\d{1,2}\.\d{4})', heading_text)
+                            if match:
+                                game_date = match.group(1)
+                                break
                 
                 teams_str = " | ".join([f"{t}: {len(p)}" for t, p in players_by_team.items()])
                 print(f"  [{idx:2d}/{len(game_ids)}] {game_id}: {teams_str}")

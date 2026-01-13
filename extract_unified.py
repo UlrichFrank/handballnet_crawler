@@ -39,12 +39,20 @@ def extract_games_from_spielplan(html):
     
     for link in soup.find_all('a', href=True):
         href = link['href']
-        if '/spiele/' in href and '/aufstellung' not in href:
+        # Match pattern: /spiele/{game_id} (but avoid /aufstellung, /spielbericht etc.)
+        if '/spiele/handball4all' in href:
+            # Extract the game ID part
             parts = href.split('/')
-            if len(parts) >= 3 and parts[-2] == 'spiele':
-                game_id = parts[-1]
-                if game_id and game_id.startswith('handball4all'):
-                    game_ids.add(game_id)
+            # Find "spiele" position and get the next part
+            try:
+                spiele_idx = parts.index('spiele')
+                if spiele_idx + 1 < len(parts):
+                    game_id = parts[spiele_idx + 1]
+                    if game_id and game_id.startswith('handball4all'):
+                        # Remove any trailing path components (like /aufstellung)
+                        game_ids.add(game_id)
+            except (ValueError, IndexError):
+                pass
     
     return list(game_ids)
 
@@ -220,11 +228,20 @@ def main():
         print(f"\n  Total unique players: {total_unique}")
         
         # Export to JSON
+        import os
+        os.makedirs('output', exist_ok=True)
+        
         output_file = f'extracted_players_{len(game_results)}_games.json'
         with open(output_file, 'w', encoding='utf-8') as f:
             json.dump(final_data, f, ensure_ascii=False, indent=2)
         
+        # Also save to output directory
+        output_dir_file = os.path.join('output', 'handball_players.json')
+        with open(output_dir_file, 'w', encoding='utf-8') as f:
+            json.dump(final_data, f, ensure_ascii=False, indent=2)
+        
         print(f"\n✅ Results saved to: {output_file}")
+        print(f"✅ Also saved to: {output_dir_file}")
         
         return final_data
         

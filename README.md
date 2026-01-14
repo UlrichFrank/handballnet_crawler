@@ -167,40 +167,6 @@ Excel-Datei mit Tabs pro Team:
 - 🏠 = Heimspiel (Team spielt zu Hause)
 - 🏃 = Auswärtsspiel (Team spielt auswärts)
 
-## 🔍 Technische Details
-
-### scraper.py
-
-**extract_game_ids_from_spielplan(driver)**
-- Lädt Spielplan-Seite mit Pagination (page=1, page=2, etc.)
-- Extrahiert alle Spiel-Links
-- Parsed Datum, Heim- und Auswärtsteams aus dem Spielplan
-- Speichert Spielreihenfolge für später
-
-**extract_players_from_aufstellung(html)**
-- Findet h3-Headings für Teamnamen (filtert Duplikate)
-- Matched die folgenden Tabellen mit Teams
-- Extrahiert Spielerdaten aus Tabellen
-- Bereinigt Navigationselemente und ungültige Teams
-
-**scrape_all_games(driver, games_with_teams)**
-- Lädt Aufstellungsseite für jedes Spiel
-- Extrahiert Spieler von Home und Away
-- Bestimmt korrekte Home/Away-Zuordnung basierend auf Spielplan
-- Speichert strukturierte Spieldaten
-
-### generate_excel_report.py
-
-**load_games_data()**
-- Lädt JSON-Datei
-
-**create_report()**
-- Erstellt Workbook und Sheets pro Team
-- Berechnet automatisch Spielergebnisse aus Torstatistiken
-- Erstellt Spalten für jedes Spiel (5 Spalten: Tore, 2-Min, Gelb, Rot, Blau)
-- Erstellt Summen-Spalten für Gesamt-Statistiken
-- Formatiert mit Farben, Borders, Ausrichtung
-
 ## ⚙️ Konfiguration
 
 ### config/config.json
@@ -222,22 +188,6 @@ Excel-Datei mit Tabs pro Team:
 1. Öffnen Sie handball.net und navigieren Sie zur gewünschten Liga
 2. Schauen Sie auf die URL: `https://www.handball.net/ligen/{LIGA_ID}/spielplan`
 3. Kopieren Sie die LIGA_ID
-
-## 📝 Problemlösung
-
-### "ModuleNotFoundError: No module named 'selenium'"
-```bash
-pip install selenium webdriver-manager beautifulsoup4 openpyxl
-```
-
-### Scraper bleibt hängen
-- Stellen Sie sicher, dass Sie eine aktive Internet-Verbindung haben
-- Erhöhen Sie die Wartezeiten in scraper.py (ändern Sie `time.sleep()` Werte)
-- Prüfen Sie, ob die handball.net Website verfügbar ist
-
-### Leere Excel-Datei
-- Stellen Sie sicher, dass `output/handball_games.json` vorhanden ist
-- Führen Sie `python3 scraper.py` aus, bevor Sie `python3 generate_excel_report.py` ausführen
 
 ## 🛠️ Entwicklung
 
@@ -269,13 +219,3 @@ hb_grabber/
 - **BeautifulSoup4** - HTML-Parsing
 - **openpyxl** - Excel-Erstellung
 
-## 👤 Author
-
-Ulrich Frank
-
-## 📞 Support
-
-Bei Fragen oder Problemen:
-1. Prüfen Sie die Konfiguration in `config/config.json`
-2. Vergewissern Sie sich, dass alle Abhängigkeiten installiert sind
-3. Führen Sie den Scraper in verbose Mode aus und prüfen Sie die Fehlermeldungen

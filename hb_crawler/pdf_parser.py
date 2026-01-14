@@ -148,10 +148,10 @@ def _parse_pdf(pdf_path: str) -> Dict[str, Dict[str, int]]:
                                 seven_meter_data[player_name]['goals'] += 1
         
         if seven_meter_data:
-        
+            pass
+    
     except Exception as e:
         print(f"    ⚠️  PDF parsing error: {str(e)[:60]}")
-        pass
     
     return seven_meter_data
 

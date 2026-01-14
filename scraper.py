@@ -407,7 +407,6 @@ def extract_spielbericht_pdf_url(driver, game_id):
             # Look for "Spielbericht herunterladen" or similar
             if 'spielbericht' in href or 'spielbericht' in text:
                 spielbericht_link = link.get('href')
-                print(f"    📄 Found Spielbericht link: {spielbericht_link}")
                 break
         
         if not spielbericht_link:
@@ -418,11 +417,9 @@ def extract_spielbericht_pdf_url(driver, game_id):
                 
                 if 'pdf' in href.lower() and ('download' in text or 'bericht' in text):
                     spielbericht_link = link.get('href')
-                    print(f"    📄 Found PDF download link: {spielbericht_link}")
                     break
         
         if not spielbericht_link:
-            print(f"    ℹ️  No Spielbericht link found on SPIELINFO page")
             return None
         
         # Handle relative URLs
@@ -432,17 +429,14 @@ def extract_spielbericht_pdf_url(driver, game_id):
             spielbericht_url = spielbericht_link
         
         # Follow the Spielbericht link - it may redirect or have a form submission
-        print(f"    🔗 Following Spielbericht link...")
         driver.get(spielbericht_url)
         time.sleep(1)  # Give page time to render/redirect
         
         # Check the current URL after navigation
         current_url = driver.current_url
-        print(f"    📍 Current URL after navigation: {current_url}")
         
         # Check if we're on an external report page
         if 'spo.handball4all.de' in current_url:
-            print(f"    📄 Got external report URL: {current_url}")
             return current_url
         
         # Try to find PDF link on the current page
@@ -453,7 +447,6 @@ def extract_spielbericht_pdf_url(driver, game_id):
             href = link.get('href', '')
             # Look for spo.handball4all.de PDF reports or direct PDF links
             if 'spo.handball4all.de' in href or href.endswith('.pdf'):
-                print(f"    📄 Found PDF URL: {href}")
                 return href
         
         # Try to extract from JavaScript or look for report link
@@ -465,12 +458,9 @@ def extract_spielbericht_pdf_url(driver, game_id):
         spo_links = regex_module.findall(r'https?://spo\.handball4all\.de[^\s"\'<>]+', html_content)
         if spo_links:
             pdf_url = spo_links[0]
-            print(f"    📄 Found PDF URL in page source: {pdf_url}")
             return pdf_url
         
         # No PDF URL found
-        print(f"    ℹ️  Could not extract PDF URL from Spielbericht page")
-        print(f"       Page title: {soup.title.string if soup.title else 'N/A'}")
         return None
     
     except Exception as e:
@@ -530,18 +520,12 @@ def scrape_all_games(driver, games_with_teams):
             # Try to fetch and parse Spielbericht PDF for seven meter data
             pdf_url = extract_spielbericht_pdf_url(driver, game_id)
             if pdf_url:
-                print(f"    🔍 Parsing PDF for seven meter data...")
                 seven_meter_data = extract_seven_meters_from_pdf(pdf_url, BASE_URL)
                 
                 if seven_meter_data:
-                    print(f"    ✅ Found {len(seven_meter_data)} players with 7m data")
                     # Add seven meter data to players
                     home_players = add_seven_meters_to_players(home_players, seven_meter_data)
                     away_players = add_seven_meters_to_players(away_players, seven_meter_data)
-                else:
-                    print(f"    ℹ️  No seven meter data extracted from PDF")
-            else:
-                print(f"    ℹ️  Skipping PDF processing - no PDF found")
             
             game = {
                 'game_id': game_id,

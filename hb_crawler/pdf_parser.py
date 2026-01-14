@@ -34,8 +34,6 @@ def extract_seven_meters_from_pdf(pdf_url: str, base_url: str = "https://www.han
         if pdf_url.startswith('/'):
             pdf_url = base_url + pdf_url
         
-        print(f"    ⬇️  Downloading PDF from: {pdf_url[:80]}...")
-        
         # Download PDF - certificate is configured via environment variable
         # For spo.handball4all.de, we may need to allow redirects
         response = requests.get(pdf_url, timeout=10, verify=True, allow_redirects=True)
@@ -44,7 +42,6 @@ def extract_seven_meters_from_pdf(pdf_url: str, base_url: str = "https://www.han
         # Check if we actually got a PDF
         content_type = response.headers.get('content-type', '').lower()
         if 'pdf' not in content_type and not response.content.startswith(b'%PDF'):
-            print(f"    ⚠️  Downloaded content is not a PDF (Content-Type: {content_type})")
             return {}
         
         # Create temporary file for PDF
@@ -151,10 +148,6 @@ def _parse_pdf(pdf_path: str) -> Dict[str, Dict[str, int]]:
                                 seven_meter_data[player_name]['goals'] += 1
         
         if seven_meter_data:
-            print(f"    ✓ Extracted 7m data: {len(seven_meter_data)} players")
-            # Debug: show details
-            for player, stats in list(seven_meter_data.items())[:5]:
-                print(f"       - {player}: {stats['goals']}/{stats['attempts']}")
         
     except Exception as e:
         print(f"    ⚠️  PDF parsing error: {str(e)[:60]}")

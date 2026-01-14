@@ -39,11 +39,6 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
       
-      - name: Set up ChromeDriver
-        uses: nanasess/setup-chromedriver@master
-        with:
-          chromedriver-version: '131.0.6778.86'
-      
       - name: Update config for ${{ matrix.league.label }}
         run: |
           python3 << EOF

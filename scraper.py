@@ -16,7 +16,6 @@ from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.common.by import By
-from webdriver_manager.chrome import ChromeDriverManager
 import warnings
 warnings.filterwarnings('ignore')
 
@@ -52,11 +51,10 @@ if cert_path:
     else:
         print(f"[WARNING] Certificate file not found: {cert_path}")
 
-# Ensure webdriver-manager can download without cert issues
+# Ensure SSL bundle env vars are clean during driver setup
 # We'll apply the certificate AFTER ChromeDriver is initialized
 os.environ.pop('REQUESTS_CA_BUNDLE', None)
 os.environ.pop('CURL_CA_BUNDLE', None)
-os.environ['WDM_SSL_VERIFY'] = '0'
 
 print("=" * 70)
 print("HANDBALL GAMES SCRAPER - Game-Centric Format")
@@ -95,42 +93,25 @@ def setup_driver():
             return driver
     except Exception as e:
         print(f"[Chrome] System Chrome failed: {str(e)[:100]}")
-        print("[Chrome] Falling back to webdriver-manager...\n")
+        print("[Chrome] Falling back to Selenium's built-in manager...\n")
     
-    # Strategy 2: Try webdriver-manager with retry logic
-    os.environ['WDM_LOG'] = '0'  # Disable verbose logging
-    os.environ['WDM_TIMEOUT'] = '15'  # Set timeout
-    # IMPORTANT: Keep SSL verification disabled for webdriver-manager download
-    os.environ['WDM_SSL_VERIFY'] = '0'
-    
-    max_retries = 3
-    for attempt in range(1, max_retries + 1):
-        try:
-            print(f"[Chrome] Initializing ChromeDriver via webdriver-manager (attempt {attempt}/{max_retries})...")
-            driver_path = ChromeDriverManager().install()
-            print(f"[Chrome] Using ChromeDriver: {driver_path}")
-            
-            driver = webdriver.Chrome(
-                service=Service(driver_path),
-                options=options
-            )
-            print(f"✓ ChromeDriver initialized successfully")
-            
-            # Now that we have the driver, apply SSL certificate for subsequent requests
-            if resolved_cert_path:
-                os.environ['REQUESTS_CA_BUNDLE'] = resolved_cert_path
-                os.environ['CURL_CA_BUNDLE'] = resolved_cert_path
-            
-            return driver
-        except Exception as e:
-            error_msg = str(e)[:100]
-            print(f"[Chrome] Attempt {attempt} failed: {error_msg}")
-            if attempt < max_retries:
-                print(f"[Chrome] Retrying in 2 seconds...")
-                time.sleep(2)
-            else:
-                print(f"\n[ERROR] All Chrome initialization attempts failed!")
-                raise
+    # Strategy 2: Use Selenium's built-in selenium-manager
+    # This automatically handles ChromeDriver download on all platforms (Linux, macOS, Windows)
+    try:
+        print("[Chrome] Initializing ChromeDriver via Selenium's built-in manager...")
+        driver = webdriver.Chrome(options=options)
+        print(f"✓ ChromeDriver initialized successfully")
+        
+        # Apply SSL certificate for subsequent requests
+        if resolved_cert_path:
+            os.environ['REQUESTS_CA_BUNDLE'] = resolved_cert_path
+            os.environ['CURL_CA_BUNDLE'] = resolved_cert_path
+        
+        return driver
+    except Exception as e:
+        error_msg = str(e)[:100]
+        print(f"\n[ERROR] Chrome initialization failed: {error_msg}")
+        raise
 
 def extract_game_ids_from_spielplan(driver):
     """Load Spielplan with pagination (page=1, page=2, etc) and extract all game IDs with teams, dates, and order"""

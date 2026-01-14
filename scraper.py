@@ -24,7 +24,7 @@ config_path = Path(__file__).parent / "config" / "config.json"
 with open(config_path, 'r') as f:
     config = json.load(f)
 
-BASE_URL = config['authentication']['base_url']
+BASE_URL = config['ref']['base_url']
 LEAGUE_ID = f"handball4all.baden-wuerttemberg.{config['league']['name']}"
 DATE_FROM = config['league']['date_from']
 DATE_TO = config['league']['date_to']

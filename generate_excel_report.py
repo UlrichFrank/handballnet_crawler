@@ -8,11 +8,19 @@ import json
 import openpyxl
 from openpyxl.styles import Font, PatternFill, Alignment, Border, Side
 from collections import OrderedDict
+from pathlib import Path
 
 def load_games_data():
     """Load game-centric data"""
     with open('output/handball_games.json', 'r') as f:
         return json.load(f)
+
+def get_output_excel_path():
+    """Get Excel output path from config"""
+    config_path = Path(__file__).parent / "config" / "config.json"
+    with open(config_path, 'r') as f:
+        config = json.load(f)
+    return config['output'].get('xls', 'handball_players_report.xlsx')
 
 def create_report():
     print("📊 Lade Spieldaten...")
@@ -265,8 +273,9 @@ def create_report():
         ws.row_dimensions[1].height = 80
         ws.row_dimensions[2].height = 20
     
-    wb.save('handball_players_report.xlsx')
-    print(f"\n✅ Excel Report: handball_players_report.xlsx")
+    excel_path = get_output_excel_path()
+    wb.save(excel_path)
+    print(f"\n✅ Excel Report: {excel_path}")
     print(f"   - Ein Tab pro Team")
     print(f"   - ALLE Spiele (Heim 🏠 + Auswärts 🏃)")
     print(f"   - Spielerdaten aus beiden Aufstellungen")

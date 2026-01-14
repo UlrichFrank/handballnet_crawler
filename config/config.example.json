@@ -1,7 +1,5 @@
 {
-  "authentication": {
-    "username": "your_username",
-    "password": "your_password",
+  "ref": {
     "base_url": "https://www.handball.net"
   },
   "ssl": {
@@ -21,6 +19,7 @@
   },
   "output": {
     "format": "json",
-    "file": "handball_players.json"
+    "file": "handball_players.json",
+    "xls": "handball_matches.xlsx"
   }
 }

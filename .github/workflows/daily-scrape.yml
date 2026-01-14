@@ -46,10 +46,19 @@ jobs:
           python3 << EOF
           import json
           config = {
+            "ref": {
+              "base_url": "https://www.handball.net"
+            },
             "league": {
               "name": "${{ matrix.league.name }}",
+              "display_name": "${{ matrix.league.label }}",
               "date_from": "2025-07-01",
               "date_to": "2026-06-30"
+            },
+            "output": {
+              "format": "json",
+              "file": "handball_games.json",
+              "xls": "handball_players_report.xlsx"
             }
           }
           with open('config/config.json', 'w') as f:

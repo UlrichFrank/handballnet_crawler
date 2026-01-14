@@ -10,6 +10,10 @@ on:
   # Allow manual trigger
   workflow_dispatch:
 
+permissions:
+  contents: write
+  releases: write
+
 jobs:
   scrape-and-report:
     runs-on: ubuntu-latest

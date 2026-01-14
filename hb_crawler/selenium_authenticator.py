@@ -5,7 +5,6 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.chrome.service import Service
-from webdriver_manager.chrome import ChromeDriverManager
 from typing import Optional
 from pathlib import Path
 import time
@@ -13,12 +12,7 @@ import os
 import subprocess
 import shutil
 
-# Disable SSL verification for webdriver-manager
-os.environ['WDM_SSL_VERIFY'] = '0'
-# Disable verbose logging from webdriver-manager
-os.environ['WDM_LOG'] = '0'
-# Set timeout for webdriver-manager
-os.environ['WDM_TIMEOUT'] = '10'
+
 
 
 class HandballNetSeleniumAuthenticator:
@@ -49,8 +43,11 @@ class HandballNetSeleniumAuthenticator:
         """
         Get ChromeDriver path with fallback strategy
         
+        Uses Selenium's built-in selenium-manager (Selenium 4.10+)
+        to automatically handle ChromeDriver downloads on all platforms.
+        
         Returns:
-            Optional[str]: Path to chromedriver or None if all attempts fail
+            Optional[str]: Path to chromedriver or None (let Selenium handle it)
         """
         # Strategy 1: Try system chromedriver first
         system_chromedriver = shutil.which('chromedriver')
@@ -58,45 +55,10 @@ class HandballNetSeleniumAuthenticator:
             print(f"[Chrome] Using system chromedriver: {system_chromedriver}")
             return system_chromedriver
         
-        # Strategy 2: Try webdriver-manager (first attempt)
-        try:
-            print("[Chrome] Initializing ChromeDriver via webdriver-manager (attempt 1/3)...")
-            driver_path = ChromeDriverManager().install()
-            if driver_path and os.path.exists(driver_path):
-                print(f"✓ ChromeDriver downloaded: {driver_path}")
-                return driver_path
-        except Exception as e:
-            error_msg = str(e)[:150]  # Get more of the error message
-            print(f"[Chrome] Attempt 1 failed: {error_msg}")
-            print("[Chrome] Retrying in 2 seconds...")
-            time.sleep(2)
-        
-        # Strategy 3: Try webdriver-manager again (second attempt)
-        try:
-            print("[Chrome] Initializing ChromeDriver via webdriver-manager (attempt 2/3)...")
-            driver_path = ChromeDriverManager().install()
-            if driver_path and os.path.exists(driver_path):
-                print(f"✓ ChromeDriver downloaded: {driver_path}")
-                return driver_path
-        except Exception as e:
-            error_msg = str(e)[:150]
-            print(f"[Chrome] Attempt 2 failed: {error_msg}")
-            print("[Chrome] Retrying in 2 seconds...")
-            time.sleep(2)
-        
-        # Strategy 3: Try to find system chromedriver
-        try:
-            print("[Chrome] Initializing ChromeDriver (attempt 3/3)...")
-            system_chromedriver = shutil.which('chromedriver')
-            if system_chromedriver:
-                print(f"✓ Found system ChromeDriver: {system_chromedriver}")
-                return system_chromedriver
-        except Exception as e:
-            print(f"[Chrome] Attempt 3 failed: {str(e)}")
-        
-        # Final fallback: Return None to use Service without explicit path
-        print("[WARNING] webdriver-manager failed after 3 attempts")
-        print("         Falling back to system Chrome...")
+        # Strategy 2: Let Selenium's built-in selenium-manager handle it
+        # This is more reliable than webdriver-manager across platforms
+        print("[Chrome] Using Selenium's built-in manager for ChromeDriver...")
+        # Return None to let WebDriver use selenium-manager automatically
         return None
     
     def login(self) -> bool:

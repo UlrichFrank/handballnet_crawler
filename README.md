@@ -1,6 +1,6 @@
 # Handball Spiele Scraper & Report Generator
 
-Ein Projekt zur automatisierten Extraktion von Handballspieldaten von handball.net mit detaillierten Spielerstatistiken und Excel-Berichtsgenerierung.
+Leider bietet handball.net keine API, so dass dieses Projekt zur weiteren Auswertung von Ligadaten verwendet werden kann mit detaillierten Spielerstatistiken und Excel-Berichtsgenerierung.
 
 ## 🎯 Funktionen
 

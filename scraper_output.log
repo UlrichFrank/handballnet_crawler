@@ -1,0 +1,99 @@
+[SSL] Using certificate: /Users/ulrich.frank/root-ca.crt
+======================================================================
+HANDBALL GAMES SCRAPER - Game-Centric Format
+======================================================================
+League: handball4all.baden-wuerttemberg.mc-ol-3-bw_bwhv
+Date Range: 2025-07-01 to 2026-06-30
+
+
+[WARNING] ChromeDriver setup error: Could not reach host. Are you offline?
+         Attempting to use system Chrome/Chromium...
+
+
+🌐 FETCHING GAMES FROM SPIELPLAN
+📄 Loading Spielplan page 1...
+  ✓ Found 50 new games on page 1 (total: 50)
+📄 Loading Spielplan page 2...
+  ✓ Found 6 new games on page 2 (total: 56)
+📄 Loading Spielplan page 3...
+  ✓ Found 0 new games on page 3 (total: 56)
+  ℹ️  No games found on this page, stopping
+
+✓ Total games found: 56
+
+👥 EXTRACTING GAME DETAILS
+  [  1/56] ✅ Sa, 20.09. | Jugendhandball-Akademie Neuhausen-Ostfildern 2 (14) vs HSG Böblingen/Sindelfingen (12)
+  [  2/56] ✅ Sa, 20.09. | SV Leonberg/Eltingen (11) vs DJK Singen (11)
+  [  3/56] ✅ Sa, 20.09. | SV Vaihingen (11) vs Team Stuttgart (15)
+  [  4/56] ✅ So, 21.09. | Spvgg Mössingen (12) vs HSG Schönbuch (12)
+  [  5/56] ✅ Sa, 27.09. | HSG Böblingen/Sindelfingen (12) vs Spvgg Mössingen (11)
+  [  6/56] ✅ Sa, 27.09. | HSG Konstanz (16) vs SV Vaihingen (10)
+  [  7/56] ✅ Sa, 27.09. | HSG Schönbuch (11) vs TV Überlingen (10)
+  [  8/56] ✅ So, 28.09. | Team Stuttgart (13) vs SV Leonberg/Eltingen (12)
+  [  9/56] ✅ So, 28.09. | DJK Singen (11) vs Jugendhandball-Akademie Neuhausen-Ostfildern 2 (13)
+  [ 10/56] ✅ Sa, 04.10. | SV Leonberg/Eltingen (13) vs HSG Konstanz (14)
+  [ 11/56] ✅ Sa, 04.10. | Jugendhandball-Akademie Neuhausen-Ostfildern 2 (14) vs Team Stuttgart (14)
+  [ 12/56] ✅ So, 05.10. | SV Vaihingen (14) vs HSG Schönbuch (11)
+  [ 13/56] ✅ So, 05.10. | DJK Singen (11) vs HSG Böblingen/Sindelfingen (12)
+  [ 14/56] ✅ Sa, 11.10. | Spvgg Mössingen (14) vs SV Vaihingen (12)
+  [ 15/56] ✅ So, 12.10. | Team Stuttgart (13) vs DJK Singen (12)
+  [ 16/56] ✅ So, 12.10. | HSG Konstanz (16) vs Jugendhandball-Akademie Neuhausen-Ostfildern 2 (12)
+  [ 17/56] ✅ So, 12.10. | HSG Schönbuch (11) vs SV Leonberg/Eltingen (13)
+  [ 18/56] ✅ Sa, 18.10. | SV Leonberg/Eltingen (14) vs Spvgg Mössingen (10)
+  [ 19/56] ✅ Sa, 18.10. | Team Stuttgart (13) vs HSG Böblingen/Sindelfingen (12)
+  [ 20/56] ✅ So, 19.10. | SV Vaihingen (13) vs TV Überlingen (9)
+  [ 21/56] ✅ So, 19.10. | Jugendhandball-Akademie Neuhausen-Ostfildern 2 (13) vs HSG Schönbuch (11)
+  [ 22/56] ✅ So, 19.10. | DJK Singen (13) vs HSG Konstanz (15)
+  [ 23/56] ✅ Sa, 25.10. | TV Überlingen (10) vs Spvgg Mössingen (9)
+  [ 24/56] ✅ So, 26.10. | SV Leonberg/Eltingen (11) vs HSG Böblingen/Sindelfingen (13)
+  [ 25/56] ✅ Sa, 08.11. | HSG Böblingen/Sindelfingen (12) vs SV Vaihingen (11)
+  [ 26/56] ✅ Sa, 08.11. | TV Überlingen (10) vs SV Leonberg/Eltingen (12)
+  [ 27/56] ✅ Sa, 08.11. | HSG Konstanz (15) vs Team Stuttgart (11)
+  [ 28/56] ✅ So, 09.11. | HSG Schönbuch (11) vs DJK Singen (11)
+  [ 29/56] ✅ So, 09.11. | Spvgg Mössingen (12) vs Jugendhandball-Akademie Neuhausen-Ostfildern 2 (12)
+  [ 30/56] ✅ Sa, 15.11. | SV Leonberg/Eltingen (15) vs SV Vaihingen (13)
+  [ 31/56] ✅ Sa, 15.11. | Jugendhandball-Akademie Neuhausen-Ostfildern 2 (12) vs TV Überlingen (10)
+  [ 32/56] ✅ So, 16.11. | HSG Konstanz (16) vs HSG Böblingen/Sindelfingen (12)
+  [ 33/56] ✅ So, 16.11. | Team Stuttgart (14) vs HSG Schönbuch (12)
+  [ 34/56] ✅ So, 16.11. | DJK Singen (11) vs Spvgg Mössingen (11)
+  [ 35/56] ✅ So, 23.11. | TV Überlingen (10) vs DJK Singen (11)
+  [ 36/56] ✅ So, 23.11. | Spvgg Mössingen (12) vs Team Stuttgart (14)
+  [ 37/56] ✅ So, 23.11. | HSG Schönbuch (13) vs HSG Konstanz (14)
+  [ 38/56] ✅ So, 23.11. | SV Vaihingen (14) vs Jugendhandball-Akademie Neuhausen-Ostfildern 2 (12)
+  [ 39/56] ✅ Sa, 29.11. | Jugendhandball-Akademie Neuhausen-Ostfildern 2 (12) vs SV Leonberg/Eltingen (14)
+  [ 40/56] ✅ Sa, 29.11. | HSG Konstanz (16) vs Spvgg Mössingen (10)
+  [ 41/56] ✅ So, 30.11. | HSG Böblingen/Sindelfingen (12) vs HSG Schönbuch (11)
+  [ 42/56] ✅ So, 30.11. | Team Stuttgart (14) vs TV Überlingen (9)
+  [ 43/56] ✅ Sa, 06.12. | SV Leonberg/Eltingen (13) vs Team Stuttgart (12)
+  [ 44/56] ✅ Sa, 06.12. | TV Überlingen (10) vs HSG Schönbuch (12)
+  [ 45/56] ✅ Sa, 06.12. | SV Vaihingen (14) vs HSG Konstanz (12)
+  [ 46/56] ✅ So, 07.12. | Jugendhandball-Akademie Neuhausen-Ostfildern 2 (14) vs DJK Singen (12)
+  [ 47/56] ✅ So, 07.12. | Spvgg Mössingen (12) vs HSG Böblingen/Sindelfingen (12)
+  [ 48/56] ✅ Fr, 12.12. | HSG Böblingen/Sindelfingen (12) vs TV Überlingen (8)
+  [ 49/56] ✅ Sa, 13.12. | HSG Schönbuch (11) vs Spvgg Mössingen (10)
+  [ 50/56] ✅ Sa, 13.12. | DJK Singen (12) vs SV Leonberg/Eltingen (13)
+  [ 51/56] ✅ So, 14.12. | Team Stuttgart (14) vs SV Vaihingen (12)
+  [ 52/56] ✅ So, 14.12. | HSG Böblingen/Sindelfingen (12) vs Jugendhandball-Akademie Neuhausen-Ostfildern 2 (12)
+  [ 53/56] ✅ So, 14.12. | HSG Konstanz (15) vs TV Überlingen (10)
+  [ 54/56] ✅ Sa, 20.12. | TV Überlingen (9) vs HSG Konstanz (14)
+  [ 55/56] ✅ Sa, 20.12. | DJK Singen (12) vs SV Vaihingen (13)
+  [ 56/56] ✅ Sa, 10.01. | TV Überlingen (9) vs Jugendhandball-Akademie Neuhausen-Ostfildern 2 (13)
+
+======================================================================
+✅ SCRAPING COMPLETE
+======================================================================
+✓ 56 games with complete data
+
+Teams (10):
+  DJK Singen: 6 Home + 5 Away = 11
+  HSG Böblingen/Sindelfingen: 5 Home + 6 Away = 11
+  HSG Konstanz: 6 Home + 5 Away = 11
+  HSG Schönbuch: 5 Home + 6 Away = 11
+  Jugendhandball-Akademie Neuhausen-Ostfildern 2: 6 Home + 6 Away = 12
+  SV Leonberg/Eltingen: 6 Home + 5 Away = 11
+  SV Vaihingen: 5 Home + 6 Away = 11
+  Spvgg Mössingen: 5 Home + 6 Away = 11
+  TV Überlingen: 6 Home + 6 Away = 12
+  Team Stuttgart: 6 Home + 5 Away = 11
+
+✅ Saved: output/handball_games.json

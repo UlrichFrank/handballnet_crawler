@@ -7,6 +7,7 @@ Extract all games with complete player statistics directly to game-centric JSON
 import time
 import json
 import re
+import os
 from pathlib import Path
 from bs4 import BeautifulSoup
 from selenium import webdriver
@@ -19,6 +20,8 @@ from webdriver_manager.chrome import ChromeDriverManager
 import warnings
 warnings.filterwarnings('ignore')
 
+from hb_crawler.pdf_parser import extract_seven_meters_from_pdf, add_seven_meters_to_players
+
 # Load config
 config_path = Path(__file__).parent / "config" / "config.json"
 with open(config_path, 'r') as f:
@@ -29,24 +32,105 @@ LEAGUE_ID = f"handball4all.baden-wuerttemberg.{config['league']['name']}"
 DATE_FROM = config['league']['date_from']
 DATE_TO = config['league']['date_to']
 
+# Handle SSL configuration - use certificate if provided
+ssl_config = config.get('ssl', {})
+cert_path = ssl_config.get('cert_path', '')
+verify_ssl = True  # Always verify SSL with certificate
+
+# Store cert_path for later (after ChromeDriver download)
+resolved_cert_path = None
+if cert_path:
+    cert_path = os.path.expanduser(cert_path)
+    if os.path.exists(cert_path):
+        resolved_cert_path = cert_path
+        # Disable requests warnings about SSL
+        import requests
+        requests.packages.urllib3.disable_warnings()
+        # Try to apply certificate to urllib3 at module level
+        import urllib3
+        urllib3.disable_warnings()
+    else:
+        print(f"[WARNING] Certificate file not found: {cert_path}")
+
+# Ensure webdriver-manager can download without cert issues
+# We'll apply the certificate AFTER ChromeDriver is initialized
+os.environ.pop('REQUESTS_CA_BUNDLE', None)
+os.environ.pop('CURL_CA_BUNDLE', None)
+os.environ['WDM_SSL_VERIFY'] = '0'
+
 print("=" * 70)
 print("HANDBALL GAMES SCRAPER - Game-Centric Format")
 print("=" * 70)
 print(f"League: {LEAGUE_ID}")
-print(f"Date Range: {DATE_FROM} to {DATE_TO}\n")
+print(f"Date Range: {DATE_FROM} to {DATE_TO}")
+print()
 
 def setup_driver():
-    """Setup Chrome driver"""
+    """Setup Chrome driver with SSL certificate support"""
     options = Options()
     options.add_argument('--headless')
     options.add_argument('--disable-blink-features=AutomationControlled')
     options.add_argument('--no-sandbox')
     options.add_argument('--disable-dev-shm-usage')
     
-    return webdriver.Chrome(
-        service=Service(ChromeDriverManager().install()),
-        options=options
-    )
+    # Use certificate if available
+    if resolved_cert_path:
+        options.add_argument(f'--ssl-version=TLSv1.2')
+        print(f"[SSL] Using certificate: {resolved_cert_path}")
+    
+    # Strategy 1: Try system Chrome first (most reliable on macOS)
+    try:
+        print("[Chrome] Trying system Chrome first...")
+        chrome_path = "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome"
+        if os.path.exists(chrome_path):
+            options.binary_location = chrome_path
+            driver = webdriver.Chrome(options=options)
+            print(f"✓ Using system Chrome: {chrome_path}")
+            
+            # Apply SSL certificate for system Chrome
+            if resolved_cert_path:
+                os.environ['REQUESTS_CA_BUNDLE'] = resolved_cert_path
+                os.environ['CURL_CA_BUNDLE'] = resolved_cert_path
+            
+            return driver
+    except Exception as e:
+        print(f"[Chrome] System Chrome failed: {str(e)[:100]}")
+        print("[Chrome] Falling back to webdriver-manager...\n")
+    
+    # Strategy 2: Try webdriver-manager with retry logic
+    os.environ['WDM_LOG'] = '0'  # Disable verbose logging
+    os.environ['WDM_TIMEOUT'] = '15'  # Set timeout
+    # IMPORTANT: Keep SSL verification disabled for webdriver-manager download
+    os.environ['WDM_SSL_VERIFY'] = '0'
+    
+    max_retries = 3
+    for attempt in range(1, max_retries + 1):
+        try:
+            print(f"[Chrome] Initializing ChromeDriver via webdriver-manager (attempt {attempt}/{max_retries})...")
+            driver_path = ChromeDriverManager().install()
+            print(f"[Chrome] Using ChromeDriver: {driver_path}")
+            
+            driver = webdriver.Chrome(
+                service=Service(driver_path),
+                options=options
+            )
+            print(f"✓ ChromeDriver initialized successfully")
+            
+            # Now that we have the driver, apply SSL certificate for subsequent requests
+            if resolved_cert_path:
+                os.environ['REQUESTS_CA_BUNDLE'] = resolved_cert_path
+                os.environ['CURL_CA_BUNDLE'] = resolved_cert_path
+            
+            return driver
+        except Exception as e:
+            error_msg = str(e)[:100]
+            print(f"[Chrome] Attempt {attempt} failed: {error_msg}")
+            if attempt < max_retries:
+                print(f"[Chrome] Retrying in 2 seconds...")
+                time.sleep(2)
+            else:
+                print(f"\n[ERROR] All Chrome initialization attempts failed!")
+                raise
 
 def extract_game_ids_from_spielplan(driver):
     """Load Spielplan with pagination (page=1, page=2, etc) and extract all game IDs with teams, dates, and order"""
@@ -265,7 +349,9 @@ def extract_players_from_aufstellung(html):
                     'two_min_penalties': two_min_penalties,
                     'yellow_cards': yellow_cards,
                     'red_cards': red_cards,
-                    'blue_cards': blue_cards
+                    'blue_cards': blue_cards,
+                    'seven_meters': 0,
+                    'seven_meters_goals': 0
                 }
                 players.append(player)
         
@@ -290,6 +376,109 @@ def extract_game_date(html):
         return match.group(1)
     
     return "Unknown"
+
+def extract_spielbericht_pdf_url(driver, game_id):
+    """
+    Extract the Spielbericht PDF download link from the game's SPIELINFO page.
+    
+    Navigates to /spiele/{game_id}/info (SPIELINFO tab) to find the PDF link.
+    The link leads to a redirect page which contains the actual PDF URL.
+    
+    Returns:
+        URL to PDF or None if not found
+    """
+    try:
+        # Navigate to SPIELINFO page where the Spielbericht download link is
+        url = f"{BASE_URL}/spiele/{game_id}/info"
+        print(f"    🔍 Checking SPIELINFO page for PDF...")
+        driver.get(url)
+        time.sleep(0.5)
+        
+        soup = BeautifulSoup(driver.page_source, 'html.parser')
+        
+        # Look for link with "Spielbericht" text or href containing spielbericht
+        all_links = soup.find_all('a', href=True)
+        
+        spielbericht_link = None
+        for link in all_links:
+            href = link.get('href', '').lower()
+            text = link.get_text(strip=True).lower()
+            
+            # Look for "Spielbericht herunterladen" or similar
+            if 'spielbericht' in href or 'spielbericht' in text:
+                spielbericht_link = link.get('href')
+                print(f"    📄 Found Spielbericht link: {spielbericht_link}")
+                break
+        
+        if not spielbericht_link:
+            # Alternative: Look for any download link
+            for link in all_links:
+                href = link.get('href', '')
+                text = link.get_text(strip=True).lower()
+                
+                if 'pdf' in href.lower() and ('download' in text or 'bericht' in text):
+                    spielbericht_link = link.get('href')
+                    print(f"    📄 Found PDF download link: {spielbericht_link}")
+                    break
+        
+        if not spielbericht_link:
+            print(f"    ℹ️  No Spielbericht link found on SPIELINFO page")
+            return None
+        
+        # Handle relative URLs
+        if spielbericht_link.startswith('/'):
+            spielbericht_url = BASE_URL + spielbericht_link
+        else:
+            spielbericht_url = spielbericht_link
+        
+        # Follow the Spielbericht link - it may redirect or have a form submission
+        print(f"    🔗 Following Spielbericht link...")
+        driver.get(spielbericht_url)
+        time.sleep(1)  # Give page time to render/redirect
+        
+        # Check the current URL after navigation
+        current_url = driver.current_url
+        print(f"    📍 Current URL after navigation: {current_url}")
+        
+        # Check if we're on an external report page
+        if 'spo.handball4all.de' in current_url:
+            print(f"    📄 Got external report URL: {current_url}")
+            return current_url
+        
+        # Try to find PDF link on the current page
+        soup = BeautifulSoup(driver.page_source, 'html.parser')
+        all_links = soup.find_all('a', href=True)
+        
+        for link in all_links:
+            href = link.get('href', '')
+            # Look for spo.handball4all.de PDF reports or direct PDF links
+            if 'spo.handball4all.de' in href or href.endswith('.pdf'):
+                print(f"    📄 Found PDF URL: {href}")
+                return href
+        
+        # Try to extract from JavaScript or look for report link
+        # Sometimes the link is in a form or data attribute
+        html_content = driver.page_source
+        
+        # Look for spo.handball4all.de URLs in the HTML source
+        import re as regex_module
+        spo_links = regex_module.findall(r'https?://spo\.handball4all\.de[^\s"\'<>]+', html_content)
+        if spo_links:
+            pdf_url = spo_links[0]
+            print(f"    📄 Found PDF URL in page source: {pdf_url}")
+            return pdf_url
+        
+        # No PDF URL found
+        print(f"    ℹ️  Could not extract PDF URL from Spielbericht page")
+        print(f"       Page title: {soup.title.string if soup.title else 'N/A'}")
+        return None
+    
+    except Exception as e:
+        # Log the error for debugging
+        print(f"    ⚠️  Error fetching PDF URL: {str(e)[:80]}")
+        import traceback
+        print(f"       {traceback.format_exc().split(chr(10))[-2]}")
+        return None
 
 def scrape_all_games(driver, games_with_teams):
     """Scrape all games and return game-centric data - use Spielplan order"""
@@ -337,6 +526,22 @@ def scrape_all_games(driver, games_with_teams):
                 # Fallback: just use order from HTML
                 home_team, home_players = team1_name, team1_players
                 away_team, away_players = team2_name, team2_players
+            
+            # Try to fetch and parse Spielbericht PDF for seven meter data
+            pdf_url = extract_spielbericht_pdf_url(driver, game_id)
+            if pdf_url:
+                print(f"    🔍 Parsing PDF for seven meter data...")
+                seven_meter_data = extract_seven_meters_from_pdf(pdf_url, BASE_URL)
+                
+                if seven_meter_data:
+                    print(f"    ✅ Found {len(seven_meter_data)} players with 7m data")
+                    # Add seven meter data to players
+                    home_players = add_seven_meters_to_players(home_players, seven_meter_data)
+                    away_players = add_seven_meters_to_players(away_players, seven_meter_data)
+                else:
+                    print(f"    ℹ️  No seven meter data extracted from PDF")
+            else:
+                print(f"    ℹ️  Skipping PDF processing - no PDF found")
             
             game = {
                 'game_id': game_id,

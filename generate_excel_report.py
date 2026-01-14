@@ -86,7 +86,7 @@ def create_report():
     total_fill = PatternFill(start_color="FFF2CC", end_color="FFF2CC", fill_type="solid")
     total_font = Font(bold=True, size=10)
     
-    labels = ["Tore", "2-Min", "Gelb", "Rot", "Blau"]
+    labels = ["Tore", "2-Min", "Gelb", "Rot", "Blau", "7m Vers.", "7m Tore"]
     
     # Sort teams alphabetically, but preserve game order from Spielplan
     for tidx, (team_name, games_dict) in enumerate(sorted(team_games.items()), 1):
@@ -125,7 +125,7 @@ def create_report():
                 # Away game: opponent at home, our team away (show icon for our team)
                 header = f"{date}\n{game_data['opponent']}\nvs\n🏃 {team_name}\n{score}"
             
-            ws.merge_cells(start_row=1, start_column=col, end_row=1, end_column=col + 4)
+            ws.merge_cells(start_row=1, start_column=col, end_row=1, end_column=col + 6)
             cell = ws.cell(row=1, column=col)
             cell.value = header
             cell.font = h_font
@@ -133,7 +133,7 @@ def create_report():
             cell.alignment = c_align
             cell.border = border
             
-            col += 5
+            col += 7
         
         col = 2
         for _ in sorted_games:
@@ -147,7 +147,7 @@ def create_report():
                 col += 1
         
         # Add summary headers
-        summary_labels = ["Tore\nGesamt", "2-Min\nGesamt", "Gelb", "Rot", "Blau"]
+        summary_labels = ["Tore\nGesamt", "2-Min\nGesamt", "Gelb", "Rot", "Blau", "7m\nVers.", "7m\nTore"]
         for label in summary_labels:
             cell = ws.cell(row=2, column=col)
             cell.value = label
@@ -184,11 +184,11 @@ def create_report():
             
             col = 2
             game_idx = 0
-            player_all_stats = [0, 0, 0, 0, 0]  # Total stats for this player across all games
+            player_all_stats = [0, 0, 0, 0, 0, 0, 0]  # Total stats for this player across all games
             
             for game_id, game_data in sorted_games:
                 if game_idx not in game_totals:
-                    game_totals[game_idx] = [0, 0, 0, 0, 0]
+                    game_totals[game_idx] = [0, 0, 0, 0, 0, 0, 0]
                 
                 player_stats = None
                 for player in game_data['players']:
@@ -202,13 +202,15 @@ def create_report():
                         player_stats['two_min_penalties'],
                         player_stats['yellow_cards'],
                         player_stats['red_cards'],
-                        player_stats['blue_cards']
+                        player_stats['blue_cards'],
+                        player_stats.get('seven_meters', 0),
+                        player_stats.get('seven_meters_goals', 0)
                     ]
                     for i, val in enumerate(stats):
                         game_totals[game_idx][i] += val
                         player_all_stats[i] += val
                 else:
-                    stats = [0, 0, 0, 0, 0]
+                    stats = [0, 0, 0, 0, 0, 0, 0]
                 
                 for stat_val in stats:
                     cell = ws.cell(row=prow, column=col)
@@ -251,7 +253,7 @@ def create_report():
                 col += 1
         
         # Add totals for summary columns
-        summary_totals = [0, 0, 0, 0, 0]
+        summary_totals = [0, 0, 0, 0, 0, 0, 0]
         for game_idx in range(len(games_dict)):
             stats = game_totals[game_idx]
             for i, stat_val in enumerate(stats):

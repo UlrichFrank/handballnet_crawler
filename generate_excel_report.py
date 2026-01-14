@@ -86,7 +86,7 @@ def create_report():
     total_fill = PatternFill(start_color="FFF2CC", end_color="FFF2CC", fill_type="solid")
     total_font = Font(bold=True, size=10)
     
-    labels = ["Tore", "2-Min", "Gelb", "Rot", "Blau", "7m Vers.", "7m Tore"]
+    labels = ["Tore", "7m Vers.", "7m Tore", "2-Min", "Gelb", "Rot", "Blau"]
     
     # Sort teams alphabetically, but preserve game order from Spielplan
     for tidx, (team_name, games_dict) in enumerate(sorted(team_games.items()), 1):
@@ -147,7 +147,7 @@ def create_report():
                 col += 1
         
         # Add summary headers
-        summary_labels = ["Tore\nGesamt", "2-Min\nGesamt", "Gelb", "Rot", "Blau", "7m\nVers.", "7m\nTore"]
+        summary_labels = ["Tore\nGesamt", "7m\nVers.", "7m\nTore", "2-Min\nGesamt", "Gelb", "Rot", "Blau"]
         for label in summary_labels:
             cell = ws.cell(row=2, column=col)
             cell.value = label
@@ -199,12 +199,12 @@ def create_report():
                 if player_stats:
                     stats = [
                         player_stats['goals'],
+                        player_stats.get('seven_meters', 0),
+                        player_stats.get('seven_meters_goals', 0),
                         player_stats['two_min_penalties'],
                         player_stats['yellow_cards'],
                         player_stats['red_cards'],
-                        player_stats['blue_cards'],
-                        player_stats.get('seven_meters', 0),
-                        player_stats.get('seven_meters_goals', 0)
+                        player_stats['blue_cards']
                     ]
                     for i, val in enumerate(stats):
                         game_totals[game_idx][i] += val
@@ -212,9 +212,19 @@ def create_report():
                 else:
                     stats = [0, 0, 0, 0, 0, 0, 0]
                 
-                for stat_val in stats:
+                for idx, stat_val in enumerate(stats):
                     cell = ws.cell(row=prow, column=col)
-                    cell.value = stat_val if stat_val > 0 else "-"
+                    # Tore (idx=0): "-" only if not participated (player_stats is None)
+                    if idx == 0:
+                        cell.value = stat_val if player_stats else "-"
+                    # 7m Tore (idx=2): "-" only if no 7m Vers. attempt (stats[1] == 0)
+                    elif idx == 2:
+                        cell.value = stat_val if stats[1] > 0 else "-"
+                    # 7m Vers., 2-Min, Gelb, Rot, Blau (idx=1,3,4,5,6): "-" if 0
+                    elif idx in [1, 3, 4, 5, 6]:
+                        cell.value = stat_val if stat_val > 0 else "-"
+                    else:
+                        cell.value = stat_val
                     cell.alignment = c_align
                     cell.border = border
                     col += 1
@@ -222,9 +232,19 @@ def create_report():
                 game_idx += 1
             
             # Add summary columns for this player
-            for stat_val in player_all_stats:
+            for idx, stat_val in enumerate(player_all_stats):
                 cell = ws.cell(row=prow, column=col)
-                cell.value = stat_val if stat_val > 0 else "-"
+                # Tore (idx=0): "-" only if no goals in any game
+                if idx == 0:
+                    cell.value = stat_val if stat_val > 0 else "-"
+                # 7m Tore (idx=2): "-" only if no 7m Vers. attempts (player_all_stats[1] == 0)
+                elif idx == 2:
+                    cell.value = stat_val if player_all_stats[1] > 0 else "-"
+                # 7m Vers., 2-Min, Gelb, Rot, Blau (idx=1,3,4,5,6): "-" if 0
+                elif idx in [1, 3, 4, 5, 6]:
+                    cell.value = stat_val if stat_val > 0 else "-"
+                else:
+                    cell.value = stat_val
                 cell.alignment = c_align
                 cell.border = border
                 cell.fill = PatternFill(start_color="F0F0F0", end_color="F0F0F0", fill_type="solid")
@@ -243,9 +263,19 @@ def create_report():
         col = 2
         for game_idx in range(len(games_dict)):
             stats = game_totals[game_idx]
-            for stat_val in stats:
+            for idx, stat_val in enumerate(stats):
                 cell = ws.cell(row=totals_row, column=col)
-                cell.value = stat_val if stat_val > 0 else "-"
+                # Tore (idx=0): "-" if no goals scored
+                if idx == 0:
+                    cell.value = stat_val if stat_val > 0 else "-"
+                # 7m Tore (idx=2): "-" only if no 7m Vers. attempts (stats[1] == 0)
+                elif idx == 2:
+                    cell.value = stat_val if stats[1] > 0 else "-"
+                # 7m Vers., 2-Min, Gelb, Rot, Blau (idx=1,3,4,5,6): "-" if 0
+                elif idx in [1, 3, 4, 5, 6]:
+                    cell.value = stat_val if stat_val > 0 else "-"
+                else:
+                    cell.value = stat_val
                 cell.font = total_font
                 cell.fill = total_fill
                 cell.alignment = c_align

@@ -23,7 +23,7 @@ jobs:
       
       - name: Create config.json from secret
         run: |
-          echo "${{ secrets.HANDBALL_CONFIG }}" > config/config.json
+          echo "${{ secrets.HANDBALL_CONFIG }}" | base64 -d > config/config.json
       
       - name: Set up Python
         uses: actions/setup-python@v4

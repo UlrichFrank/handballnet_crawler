@@ -8,6 +8,7 @@ import time
 import json
 import re
 import os
+import sys
 from pathlib import Path
 from bs4 import BeautifulSoup
 from selenium import webdriver
@@ -27,9 +28,29 @@ with open(config_path, 'r') as f:
     config = json.load(f)
 
 BASE_URL = config['ref']['base_url']
-LEAGUE_ID = f"handball4all.baden-wuerttemberg.{config['league']['name']}"
-DATE_FROM = config['league']['date_from']
-DATE_TO = config['league']['date_to']
+
+# Get league from command-line argument or use first league as default
+if len(sys.argv) > 1:
+    league_name_arg = sys.argv[1]
+    # Find the league config
+    league_config = None
+    for league in config['leagues']:
+        if league['name'] == league_name_arg:
+            league_config = league
+            break
+    if not league_config:
+        print(f"Error: League '{league_name_arg}' not found in config")
+        sys.exit(1)
+else:
+    # Use first league as default
+    league_config = config['leagues'][0]
+
+LEAGUE_NAME = league_config['name']
+LEAGUE_DISPLAY_NAME = league_config['display_name']
+OUT_NAME = league_config['out_name']
+LEAGUE_ID = f"handball4all.baden-wuerttemberg.{LEAGUE_NAME}"
+DATE_FROM = config['crawler']['date_from']
+DATE_TO = config['crawler']['date_to']
 
 # Handle SSL configuration - use certificate if provided
 ssl_config = config.get('ssl', {})
@@ -59,8 +80,9 @@ os.environ.pop('CURL_CA_BUNDLE', None)
 print("=" * 70)
 print("HANDBALL GAMES SCRAPER - Game-Centric Format")
 print("=" * 70)
-print(f"League: {LEAGUE_ID}")
+print(f"League: {LEAGUE_DISPLAY_NAME} ({LEAGUE_ID})")
 print(f"Date Range: {DATE_FROM} to {DATE_TO}")
+print(f"Output: {OUT_NAME}.json")
 print()
 
 def setup_driver():
@@ -567,10 +589,11 @@ def main():
         output = {'games': games_sorted}
         Path('output').mkdir(exist_ok=True)
         
-        with open('output/handball_games.json', 'w') as f:
+        output_file = f'output/{OUT_NAME}.json'
+        with open(output_file, 'w') as f:
             json.dump(output, f, indent=2)
         
-        print(f"\n✅ Saved: output/handball_games.json")
+        print(f"\n✅ Saved: {output_file}")
         
     finally:
         if driver:

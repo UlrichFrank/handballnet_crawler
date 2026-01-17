@@ -9,6 +9,8 @@ import json
 import re
 import os
 import sys
+import calendar
+from datetime import datetime
 from pathlib import Path
 from bs4 import BeautifulSoup
 from selenium import webdriver
@@ -180,8 +182,8 @@ def extract_game_ids_from_spielplan(driver, league_id):
                         if parent is None:
                             break
                         parent_text = parent.get_text(strip=True)
-                        # Check if this level has date
-                        if re.search(r'[A-Za-z]{2},\s*\d{1,2}\.\d{1,2}\.', parent_text):
+                        # Check if this level has date (including "Heute" or "Today" indicator)
+                        if re.search(r'([A-Za-z]{2},\s*\d{1,2}\.\d{1,2}\.|Heute)', parent_text):
                             game_info_text = parent_text
                             break
                         parent = parent.parent
@@ -189,9 +191,17 @@ def extract_game_ids_from_spielplan(driver, league_id):
                     if not game_info_text:
                         continue
                     
-                    # Parse the game info text
-                    date_match = re.search(r'([A-Za-z]{2},\s*\d{1,2}\.\d{1,2}\.)', game_info_text)
-                    date_text = date_match.group(1) if date_match else "Unknown"
+                    # Parse the game info text - handle both regular dates and "Heute"
+                    date_match = re.search(r'([A-Za-z]{2},\s*\d{1,2}\.\d{1,2}\.|Heute)', game_info_text)
+                    if date_match:
+                        date_text = date_match.group(1)
+                        # Convert "Heute" to today's date in the format needed
+                        if date_text == "Heute":
+                            today = datetime.now()
+                            day_name = calendar.day_name[today.weekday()][:2].capitalize()
+                            date_text = f"{day_name}, {today.day:02d}.{today.month:02d}."
+                    else:
+                        date_text = "Unknown"
                     
                     # Extract score pattern to identify team split
                     score_match = re.search(r'(\d+):(\d+)', game_info_text)

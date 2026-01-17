@@ -28,11 +28,13 @@ with open(config_path, 'r') as f:
     config = json.load(f)
 
 BASE_URL = config['ref']['base_url']
+DATE_FROM = config['crawler']['date_from']
+DATE_TO = config['crawler']['date_to']
 
-# Get league from command-line argument or use first league as default
+# Get leagues to process from command-line argument or use all configured leagues
 if len(sys.argv) > 1:
     league_name_arg = sys.argv[1]
-    # Find the league config
+    # Find the specific league config
     league_config = None
     for league in config['leagues']:
         if league['name'] == league_name_arg:
@@ -41,16 +43,10 @@ if len(sys.argv) > 1:
     if not league_config:
         print(f"Error: League '{league_name_arg}' not found in config")
         sys.exit(1)
+    leagues_to_process = [league_config]
 else:
-    # Use first league as default
-    league_config = config['leagues'][0]
-
-LEAGUE_NAME = league_config['name']
-LEAGUE_DISPLAY_NAME = league_config['display_name']
-OUT_NAME = league_config['out_name']
-LEAGUE_ID = f"handball4all.baden-wuerttemberg.{LEAGUE_NAME}"
-DATE_FROM = config['crawler']['date_from']
-DATE_TO = config['crawler']['date_to']
+    # Process all configured leagues
+    leagues_to_process = config['leagues']
 
 # Handle SSL configuration - use certificate if provided
 ssl_config = config.get('ssl', {})
@@ -80,9 +76,8 @@ os.environ.pop('CURL_CA_BUNDLE', None)
 print("=" * 70)
 print("HANDBALL GAMES SCRAPER - Game-Centric Format")
 print("=" * 70)
-print(f"League: {LEAGUE_DISPLAY_NAME} ({LEAGUE_ID})")
+print(f"Verarbeite {len(leagues_to_process)} Liga(n)")
 print(f"Date Range: {DATE_FROM} to {DATE_TO}")
-print(f"Output: {OUT_NAME}.json")
 print()
 
 def setup_driver():
@@ -135,13 +130,13 @@ def setup_driver():
         print(f"\n[ERROR] Chrome initialization failed: {error_msg}")
         raise
 
-def extract_game_ids_from_spielplan(driver):
+def extract_game_ids_from_spielplan(driver, league_id):
     """Load Spielplan with pagination (page=1, page=2, etc) and extract all game IDs with teams, dates, and order"""
     games_with_teams = []
     seen_ids = set()
     order = 0
     
-    spielplan_url = f"{BASE_URL}/ligen/{LEAGUE_ID}/spielplan?dateFrom={DATE_FROM}&dateTo={DATE_TO}"
+    spielplan_url = f"{BASE_URL}/ligen/{league_id}/spielplan?dateFrom={DATE_FROM}&dateTo={DATE_TO}"
     page = 1
     total_games = None
     
@@ -552,48 +547,73 @@ def scrape_all_games(driver, games_with_teams):
     
     return games
 
+def scrape_league(driver, league_config):
+    """Scrape a single league"""
+    league_name = league_config['name']
+    league_display_name = league_config['display_name']
+    out_name = league_config['out_name']
+    league_id = f"handball4all.baden-wuerttemberg.{league_name}"
+    
+    print(f"\n{'=' * 70}")
+    print(f"SCRAPING: {league_display_name}")
+    print(f"League ID: {league_id}")
+    print(f"Output: {out_name}.json")
+    print(f"{'=' * 70}\n")
+    
+    # Get all game IDs with team info from Spielplan
+    print("🌐 FETCHING GAMES FROM SPIELPLAN")
+    games_info = extract_game_ids_from_spielplan(driver, league_id)
+    print(f"\n✓ Total games found: {len(games_info)}\n")
+    
+    if not games_info:
+        print(f"⚠️  No games found for {league_display_name}")
+        return
+    
+    # Scrape each game
+    print("👥 EXTRACTING GAME DETAILS")
+    games = scrape_all_games(driver, games_info)
+    
+    print(f"\n" + "=" * 70)
+    print(f"✅ SCRAPING COMPLETE for {league_display_name}")
+    print(f"=" * 70)
+    print(f"✓ {len(games)} games with complete data\n")
+    
+    # Summary
+    teams = set()
+    for game in games:
+        teams.add(game['home']['team_name'])
+        teams.add(game['away']['team_name'])
+    
+    print(f"Teams ({len(teams)}):")
+    for team in sorted(teams):
+        home_count = sum(1 for g in games if g['home']['team_name'] == team)
+        away_count = sum(1 for g in games if g['away']['team_name'] == team)
+        total = home_count + away_count
+        print(f"  {team}: {home_count} Home + {away_count} Away = {total}")
+    
+    # Save to JSON (sorted by order)
+    games_sorted = sorted(games, key=lambda g: g.get('order', float('inf')))
+    output = {'games': games_sorted}
+    Path('output').mkdir(exist_ok=True)
+    
+    output_file = f'output/{out_name}.json'
+    with open(output_file, 'w') as f:
+        json.dump(output, f, indent=2)
+    
+    print(f"\n✅ Saved: {output_file}")
+
 def main():
     driver = None
     try:
         driver = setup_driver()
         
-        # Get all game IDs with team info from Spielplan
-        print("\n🌐 FETCHING GAMES FROM SPIELPLAN")
-        games_info = extract_game_ids_from_spielplan(driver)
-        print(f"\n✓ Total games found: {len(games_info)}\n")
+        # Process each league
+        for league_config in leagues_to_process:
+            scrape_league(driver, league_config)
         
-        # Scrape each game
-        print("👥 EXTRACTING GAME DETAILS")
-        games = scrape_all_games(driver, games_info)
-        
-        print(f"\n" + "=" * 70)
-        print(f"✅ SCRAPING COMPLETE")
-        print(f"=" * 70)
-        print(f"✓ {len(games)} games with complete data\n")
-        
-        # Summary
-        teams = set()
-        for game in games:
-            teams.add(game['home']['team_name'])
-            teams.add(game['away']['team_name'])
-        
-        print(f"Teams ({len(teams)}):")
-        for team in sorted(teams):
-            home_count = sum(1 for g in games if g['home']['team_name'] == team)
-            away_count = sum(1 for g in games if g['away']['team_name'] == team)
-            total = home_count + away_count
-            print(f"  {team}: {home_count} Home + {away_count} Away = {total}")
-        
-        # Save to JSON (sorted by order)
-        games_sorted = sorted(games, key=lambda g: g.get('order', float('inf')))
-        output = {'games': games_sorted}
-        Path('output').mkdir(exist_ok=True)
-        
-        output_file = f'output/{OUT_NAME}.json'
-        with open(output_file, 'w') as f:
-            json.dump(output, f, indent=2)
-        
-        print(f"\n✅ Saved: {output_file}")
+        print(f"\n{'=' * 70}")
+        print(f"✅ ALL LEAGUES SCRAPED")
+        print(f"{'=' * 70}\n")
         
     finally:
         if driver:

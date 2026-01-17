@@ -4,14 +4,19 @@ Leider bietet handball.net keine API, so dass dieses Projekt zur weiteren Auswer
 
 ## 🎯 Funktionen
 
+✅ **Mehrere Ligas**
+- Konfigurieren Sie mehrere Ligas in einer Config-Datei
+- Globale Time Range für alle Ligas
+- Separate JSON- und Excel-Dateien pro Liga
+
 ✅ **Spiele-Datenerfassung**
-- Extrahiert alle Spiele aus dem Spielplan einer Liga
+- Extrahiert alle Spiele aus dem Spielplan jeder Liga
 - Unterstützt Pagination (multiple Seiten)
 - Speichert Spieldatum, Teams und Spielereihenfolge
 
 ✅ **Spielerdaten-Erfassung**
 - Extrahiert Spielerdaten aus den Aufstellungsseiten
-- Erfasst: Tore, 2-Minuten-Strafen, gelbe/rote/blaue Karten
+- Erfasst: Tore, 7-Meter-Versuche/-Tore, 2-Minuten-Strafen, gelbe/rote/blaue Karten
 - Trennt Home und Away Spieler korrekt
 
 ✅ **Excel-Bericht**
@@ -19,7 +24,7 @@ Leider bietet handball.net keine API, so dass dieses Projekt zur weiteren Auswer
 - Alle Spiele (Heim 🏠 und Auswärts 🏃)
 - Spielerdaten nach Spiel sortiert
 - Automatische Summen pro Spieler und pro Spiel
-- Spielergebnisse in den Spiel-Headern
+- Fixierte Spalten (Spielername) und Zeile (Header) für komfortables Scrollen
 
 ## 📦 Installation
 
@@ -36,63 +41,99 @@ pip install selenium webdriver-manager beautifulsoup4 openpyxl
 
 ### Konfiguration
 
-Erstellen Sie eine Datei `config/config.json`:
+Erstellen Sie eine Datei `config/config.json` basierend auf `config/config.example.json`:
 
 ```json
 {
-  "authentication": {
+  "ref": {
     "base_url": "https://www.handball.net"
   },
-  "league": {
-    "name": "mc-ol-3-bw_bwhv",
-    "date_from": "2025-07-01",
-    "date_to": "2026-06-30"
-  }
+  "ssl": {
+    "verify_ssl": true,
+    "cert_path": "~/root-ca.crt"
+  },
+  "crawler": {
+    "timeout": 30,
+    "retry_attempts": 3,
+    "delay_between_requests": 1,
+    "date_from": "2025-09-13",
+    "date_to": "2026-05-10"
+  },
+  "leagues": [
+    {
+      "name": "mc-ol-3-bw_bwhv",
+      "display_name": "Handball4all Baden-Württemberg MC-OL 3",
+      "out_name": "spiele_c_jugend"
+    },
+    {
+      "name": "gd-bol-srm_srm",
+      "display_name": "Handball4all Baden-Württemberg MD-BOL",
+      "out_name": "spiele_d_jugend"
+    }
+  ]
 }
 ```
 
-Passen Sie `name`, `date_from` und `date_to` an Ihre Liga an.
+Passen Sie `leagues`, `date_from` und `date_to` an.
 
 ## 🚀 Verwendung
 
 ### 1. Spiele und Spielerdaten scrapen
 
 ```bash
+# Alle Ligas scrapen
 python3 scraper.py
+
+# Nur eine spezifische Liga scrapen
+python3 scraper.py mc-ol-3-bw_bwhv
 ```
 
 Dies wird:
-- Alle Spiele der Liga vom Spielplan extrahieren
+- Für jede Liga alle Spiele vom Spielplan extrahieren
 - Pagination durchlaufen (alle Seiten laden)
 - Für jedes Spiel die Aufstellungsseite laden
 - Spielerdaten extrahieren
-- Ergebnisse in `output/handball_games.json` speichern
+- Ergebnisse in `output/{out_name}.json` speichern (eine Datei pro Liga)
 
 **Ausgabe:**
 ```
 ======================================================================
 HANDBALL GAMES SCRAPER - Game-Centric Format
 ======================================================================
-League: handball4all.baden-wuerttemberg.mc-ol-3-bw_bwhv
-Date Range: 2025-07-01 to 2026-06-30
+Verarbeite 2 Liga(n)
+Date Range: 2025-09-13 to 2026-05-10
+
+======================================================================
+SCRAPING: Handball4all Baden-Württemberg MC-OL 3
+League ID: handball4all.baden-wuerttemberg.mc-ol-3-bw_bwhv
+Output: spiele_c_jugend.json
+======================================================================
 
 🌐 FETCHING GAMES FROM SPIELPLAN
 📄 Loading Spielplan page 1...
   ✓ Found 50 new games on page 1 (total: 50)
-📄 Loading Spielplan page 2...
-  ✓ Found 6 new games on page 2 (total: 56)
+...
 
-✓ Total games found: 56
+✅ Saved: output/spiele_c_jugend.json
 
-👥 EXTRACTING GAME DETAILS
-  [  1/56] ✅ Sa, 20.09. | Team A (14) vs Team B (12)
-  ...
+======================================================================
+SCRAPING: Handball4all Baden-Württemberg MD-BOL
+...
+✅ Saved: output/spiele_d_jugend.json
+
+======================================================================
+✅ ALL LEAGUES SCRAPED
+======================================================================
 ```
 
 ### 2. Excel-Bericht generieren
 
 ```bash
+# Excel für alle Ligas generieren
 python3 generate_excel_report.py
+
+# Excel nur für eine spezifische Liga generieren
+python3 generate_excel_report.py mc-ol-3-bw_bwhv
 ```
 
 Dies wird:
@@ -100,23 +141,29 @@ Dies wird:
 - Pro Team ein Arbeitsblatt erstellen
 - Spielerdaten formatieren
 - Summen berechnen
-- Datei als `handball_players_report.xlsx` speichern
+- Dateien als `output/{out_name}.xlsx` speichern (eine Datei pro Liga)
 
 **Ausgabe:**
 ```
-📊 Lade Spieldaten...
-📋 10 Teams gefunden
+📊 Generiere Excel Report für: Handball4all Baden-Württemberg MC-OL 3
+   Lade Spieldaten...
+   📋 12 Teams gefunden
+   [1/12] DJK Singen...
+      -> 15 Spieler, 22 Spiele (Heim + Auswärts)
+   [2/12] HSG Konstanz...
+   ...
+   ✅ Gespeichert: output/spiele_c_jugend.xlsx
 
-[1/10] DJK Singen...
-  -> 15 Spieler, 11 Spiele (Heim + Auswärts)
-...
+📊 Generiere Excel Report für: Handball4all Baden-Württemberg MD-BOL
+   ...
+   ✅ Gespeichert: output/spiele_d_jugend.xlsx
 
-✅ Excel Report: handball_players_report.xlsx
+✅ Alle Excel Reports erstellt
 ```
 
 ## 📊 Ausgabedateien
 
-### handball_games.json
+### {out_name}.json (z.B. spiele_c_jugend.json)
 
 Game-zentrierte Struktur mit allen Spielerdaten:
 
@@ -133,6 +180,8 @@ Game-zentrierte Struktur mit allen Spielerdaten:
           {
             "name": "Player Name",
             "goals": 5,
+            "seven_meters": 2,
+            "seven_meters_goals": 1,
             "two_min_penalties": 1,
             "yellow_cards": 0,
             "red_cards": 0,
@@ -149,19 +198,30 @@ Game-zentrierte Struktur mit allen Spielerdaten:
 }
 ```
 
-### handball_players_report.xlsx
+### {out_name}.xlsx (z.B. spiele_c_jugend.xlsx)
 
 Excel-Datei mit Tabs pro Team:
 
-| Player | Spiel 1 🏠<br>Team A vs B<br>28:50 | Spiel 2 🏃<br>C vs Team A<br>25:30 | ... | Tore Gesamt | 2-Min Gesamt | Gelb | Rot | Blau |
-|--------|-------|-------|-----|-------|--------|------|-----|------|
-| Spieler 1 | 5 | 3 | ... | 8 | 1 | 0 | 0 | 0 |
-| Spieler 2 | 0 | 4 | ... | 4 | 2 | 1 | 0 | 0 |
-| GESAMT | 5 | 7 | ... | 12 | 3 | 1 | 0 | 0 |
+| Player | Spiel 1 🏠<br>Team A vs B<br>28:50 | Spiel 2 🏃<br>C vs Team A<br>25:30 | ... | Tore<br>Gesamt | 7m<br>Vers. | 7m<br>Tore | 2-Min<br>Gesamt | Gelb | Rot | Blau |
+|--------|-------|-------|-----|-------|--------|-------|--------|------|-----|------|
+| Spieler 1 | 5 | 3 | ... | 8 | 2 | 1 | 1 | 0 | 0 | 0 |
+| Spieler 2 | 0 | 4 | ... | 4 | 3 | 2 | 2 | 1 | 0 | 0 |
+| GESAMT | 5 | 7 | ... | 12 | 5 | 3 | 3 | 1 | 0 | 0 |
 
-**Spalten:**
-- **Tore, 2-Min, Gelb, Rot, Blau** pro Spiel (5 Spalten pro Spiel)
-- **Tore Gesamt, 2-Min Gesamt, Gelb, Rot, Blau** - Summen pro Spieler über alle Spiele
+**Spalten pro Spiel:**
+- **Tore** - Anzahl geworfener Tore
+- **7m Vers.** - 7-Meter-Versuche
+- **7m Tore** - Erfolgreiche 7-Meter-Würfe
+- **2-Min** - 2-Minuten-Strafen
+- **Gelb** - Gelbe Karten
+- **Rot** - Rote Karten
+- **Blau** - Blaue Karten
+
+**Besonderheiten:**
+- **Fixierte Spalte A** - Spielername bleibt sichtbar beim Scrollen nach rechts
+- **Fixierte Zeile 2** - Header bleibt sichtbar beim Scrollen nach unten
+- **Tore Gesamt** - Zeigt 0 statt "-" für Spieler ohne Tore
+- Andere Spalten zeigen "-" wenn der Wert 0 ist
 
 **Icons:**
 - 🏠 = Heimspiel (Team spielt zu Hause)
@@ -173,16 +233,50 @@ Excel-Datei mit Tabs pro Team:
 
 ```json
 {
-  "authentication": {
+  "ref": {
     "base_url": "https://www.handball.net"
   },
-  "league": {
-    "name": "mc-ol-3-bw_bwhv",        // Liga-Bezeichner aus handball.net URL
-    "date_from": "2025-07-01",        // Saison-Start (YYYY-MM-DD)
-    "date_to": "2026-06-30"           // Saison-Ende (YYYY-MM-DD)
-  }
+  "ssl": {
+    "verify_ssl": true,
+    "cert_path": "~/root-ca.crt"
+  },
+  "crawler": {
+    "timeout": 30,
+    "retry_attempts": 3,
+    "delay_between_requests": 1,
+    "date_from": "2025-09-13",        // Saison-Start (YYYY-MM-DD) - gilt für alle Ligas
+    "date_to": "2026-05-10"           // Saison-Ende (YYYY-MM-DD) - gilt für alle Ligas
+  },
+  "leagues": [
+    {
+      "name": "mc-ol-3-bw_bwhv",              // Liga-Bezeichner aus handball.net URL
+      "display_name": "C-Jugend",             // Anzeigename
+      "out_name": "spiele_c_jugend"           // Basis für Ausgabedateien (json + xlsx)
+    },
+    {
+      "name": "gd-bol-srm_srm",
+      "display_name": "D-Jugend",
+      "out_name": "spiele_d_jugend"
+    }
+  ]
 }
 ```
+
+**Konfigurationsoptionen:**
+
+| Option | Beschreibung |
+|--------|-------------|
+| `ref.base_url` | handball.net URL (normalerweise nicht ändern) |
+| `ssl.verify_ssl` | SSL-Zertifikat-Validierung aktivieren |
+| `ssl.cert_path` | Pfad zu benutzerdefiniertem SSL-Zertifikat (optional) |
+| `crawler.timeout` | Timeout für Selenium in Sekunden |
+| `crawler.retry_attempts` | Wiederholungsversuche bei Fehlern |
+| `crawler.delay_between_requests` | Verzögerung zwischen Requests in Sekunden |
+| `crawler.date_from` | Saisonstartdatum (YYYY-MM-DD) |
+| `crawler.date_to` | Saisonendatum (YYYY-MM-DD) |
+| `leagues[].name` | Liga-ID von handball.net |
+| `leagues[].display_name` | Anzeigename für Logs |
+| `leagues[].out_name` | Basis für Ausgabedateien (ohne Erweiterung) |
 
 **Liga-ID finden:**
 1. Öffnen Sie handball.net und navigieren Sie zur gewünschten Liga
@@ -195,15 +289,27 @@ Excel-Datei mit Tabs pro Team:
 
 ```
 hb_grabber/
-├── scraper.py                      # Haupt-Scraper
-├── generate_excel_report.py        # Excel-Generator
+├── scraper.py                         # Haupt-Scraper (verarbeitet alle Ligas)
+├── generate_excel_report.py           # Excel-Generator (verarbeitet alle Ligas)
 ├── config/
-│   └── config.json                 # Konfiguration
+│   ├── config.json                    # Konfiguration (mehrere Ligas)
+│   └── config.example.json            # Beispiel-Konfiguration
 ├── output/
-│   └── handball_games.json         # Extrahierte Daten
-├── handball_players_report.xlsx    # Excel-Report
-└── README.md                       # Diese Datei
+│   ├── spiele_c_jugend.json           # JSON für C-Jugend
+│   ├── spiele_c_jugend.xlsx           # Excel für C-Jugend
+│   ├── spiele_d_jugend.json           # JSON für D-Jugend
+│   └── spiele_d_jugend.xlsx           # Excel für D-Jugend
+├── .github/workflows/
+│   └── daily-scrape.yml               # GitHub Actions Workflow
+└── README.md                          # Diese Datei
 ```
+
+### Workflow
+
+1. **Scraper läuft**: Iteriert durch alle konfigurierten Ligas und erzeugt pro Liga ein JSON
+2. **Excel-Generator läuft**: Iteriert durch alle JSONs und erzeugt pro Liga ein Excel-Report
+3. **GitHub Actions**: Automatisiert beide Schritte täglich (Samstag und Sonntag)
+4. **Artifacts**: Alle Dateien sind in GitHub als Artifacts verfügbar
 
 ### Code-Style
 

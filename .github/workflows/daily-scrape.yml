@@ -17,16 +17,13 @@ jobs:
   scrape-and-report:
     runs-on: ubuntu-latest
     
-    strategy:
-      matrix:
-        league:
-          - { name: "mc-ol-3-bw_bwhv", label: "C-Jugend", dir: "c-jugend" }
-          - { name: "gd-bol-srm_srm", label: "D-Jugend", dir: "d-jugend" }
-      fail-fast: false
-    
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
+      
+      - name: Create config.json from secret
+        run: |
+          echo "${{ secrets.HANDBALL_CONFIG }}" > config/config.json
       
       - name: Set up Python
         uses: actions/setup-python@v4
@@ -39,32 +36,17 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
       
-      - name: Run Handball Scraper for ${{ matrix.league.label }}
+      - name: Run Handball Scraper
         run: |
-          python3 scraper.py ${{ matrix.league.name }}
+          python3 scraper.py
       
-      - name: Generate Excel Report for ${{ matrix.league.label }}
+      - name: Generate Excel Reports
         run: |
-          python3 generate_excel_report.py ${{ matrix.league.name }}
+          python3 generate_excel_report.py
       
-      - name: Rename output files for ${{ matrix.league.label }}
-        run: |
-          mkdir -p output/${{ matrix.league.dir }}
-          # Get out_name from config
-          OUT_NAME=$(python3 -c "import json; config = json.load(open('config/config.json')); league = [l for l in config['leagues'] if l['name'] == '${{ matrix.league.name }}'][0]; print(league['out_name'])")
-          mv output/${OUT_NAME}.xlsx output/${{ matrix.league.dir }}/handball_players_report_${{ matrix.league.label }}.xlsx
-          mv output/${OUT_NAME}.json output/${{ matrix.league.dir }}/handball_games_${{ matrix.league.label }}.json
-      
-      - name: Upload Excel Report as Artifact
+      - name: Upload artifacts
         uses: actions/upload-artifact@v4
         with:
-          name: handball_report_${{ matrix.league.dir }}
-          path: output/${{ matrix.league.dir }}/handball_players_report_${{ matrix.league.label }}.xlsx
-          retention-days: 30
-      
-      - name: Upload JSON Data as Artifact
-        uses: actions/upload-artifact@v4
-        with:
-          name: handball_data_${{ matrix.league.dir }}
-          path: output/${{ matrix.league.dir }}/handball_games_${{ matrix.league.label }}.json
+          name: handball_reports
+          path: output/
           retention-days: 30

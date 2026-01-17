@@ -39,44 +39,21 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
       
-      - name: Update config for ${{ matrix.league.label }}
-        run: |
-          python3 << EOF
-          import json
-          config = {
-            "ref": {
-              "base_url": "https://www.handball.net"
-            },
-            "league": {
-              "name": "${{ matrix.league.name }}",
-              "display_name": "${{ matrix.league.label }}",
-              "date_from": "2025-07-01",
-              "date_to": "2026-06-30"
-            },
-            "output": {
-              "format": "json",
-              "file": "handball_games.json",
-              "xls": "handball_players_report.xlsx"
-            }
-          }
-          with open('config/config.json', 'w') as f:
-            json.dump(config, f, indent=2)
-          print(f"Config updated for ${{ matrix.league.label }}")
-          EOF
-      
       - name: Run Handball Scraper for ${{ matrix.league.label }}
         run: |
-          python3 scraper.py
+          python3 scraper.py ${{ matrix.league.name }}
       
       - name: Generate Excel Report for ${{ matrix.league.label }}
         run: |
-          python3 generate_excel_report.py
+          python3 generate_excel_report.py ${{ matrix.league.name }}
       
       - name: Rename output files for ${{ matrix.league.label }}
         run: |
           mkdir -p output/${{ matrix.league.dir }}
-          mv handball_players_report.xlsx output/${{ matrix.league.dir }}/handball_players_report_${{ matrix.league.label }}.xlsx
-          mv output/handball_games.json output/${{ matrix.league.dir }}/handball_games_${{ matrix.league.label }}.json
+          # Get out_name from config
+          OUT_NAME=$(python3 -c "import json; config = json.load(open('config/config.json')); league = [l for l in config['leagues'] if l['name'] == '${{ matrix.league.name }}'][0]; print(league['out_name'])")
+          mv output/${OUT_NAME}.xlsx output/${{ matrix.league.dir }}/handball_players_report_${{ matrix.league.label }}.xlsx
+          mv output/${OUT_NAME}.json output/${{ matrix.league.dir }}/handball_games_${{ matrix.league.label }}.json
       
       - name: Upload Excel Report as Artifact
         uses: actions/upload-artifact@v4
@@ -91,29 +68,3 @@ jobs:
           name: handball_data_${{ matrix.league.dir }}
           path: output/${{ matrix.league.dir }}/handball_games_${{ matrix.league.label }}.json
           retention-days: 30
-      
-      - name: Create Release for ${{ matrix.league.label }}
-        if: success()
-        uses: softprops/action-gh-release@v1
-        with:
-          files: |
-            output/${{ matrix.league.dir }}/handball_players_report_${{ matrix.league.label }}.xlsx
-            output/${{ matrix.league.dir }}/handball_games_${{ matrix.league.label }}.json
-          tag_name: handball-${{ matrix.league.dir }}-${{ github.run_number }}
-          body: |
-            # Handball Daten Report - ${{ matrix.league.label }}
-            
-            **Liga:** ${{ matrix.league.label }}
-            **Liga-ID:** ${{ matrix.league.name }}
-            **Datum:** ${{ github.event.repository.updated_at }}
-            **Aktion:** Automatisierte tägliche Extraktion
-            
-            Die extrahierten Daten:
-            - `handball_players_report_${{ matrix.league.label }}.xlsx` - Excel Report mit allen Spielerdaten
-            - `handball_games_${{ matrix.league.label }}.json` - Rohdaten im JSON-Format
-            
-            **Daten:**
-            - Spielplan und Aufstellungen von handball.net
-            - Alle Teams, Spieler und Statistiken
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

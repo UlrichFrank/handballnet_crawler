@@ -6,25 +6,50 @@ Shows for each team: HOME and AWAY games with all player statistics
 
 import json
 import openpyxl
+import sys
 from openpyxl.styles import Font, PatternFill, Alignment, Border, Side
 from collections import OrderedDict
 from pathlib import Path
 
-def load_games_data():
-    """Load game-centric data"""
-    with open('output/handball_games.json', 'r') as f:
-        return json.load(f)
-
-def get_output_excel_path():
-    """Get Excel output path from config"""
+def load_config():
+    """Load config"""
     config_path = Path(__file__).parent / "config" / "config.json"
     with open(config_path, 'r') as f:
-        config = json.load(f)
-    return config['output'].get('xls', 'handball_players_report.xlsx')
+        return json.load(f)
+
+def get_league_config(league_name_arg=None):
+    """Get league configuration"""
+    config = load_config()
+    
+    if league_name_arg:
+        for league in config['leagues']:
+            if league['name'] == league_name_arg:
+                return league
+        print(f"Error: League '{league_name_arg}' not found in config")
+        sys.exit(1)
+    else:
+        # Use first league as default
+        return config['leagues'][0]
+
+def load_games_data(out_name):
+    """Load game-centric data"""
+    filepath = f'output/{out_name}.json'
+    with open(filepath, 'r') as f:
+        return json.load(f)
 
 def create_report():
+    # Get league from command-line argument or use first league as default
+    if len(sys.argv) > 1:
+        league_name_arg = sys.argv[1]
+        league_config = get_league_config(league_name_arg)
+    else:
+        league_config = get_league_config()
+    
+    out_name = league_config['out_name']
+    output_file = f"output/{out_name}.xlsx"
+    
     print("📊 Lade Spieldaten...")
-    data = load_games_data()
+    data = load_games_data(out_name)
     games = data['games']
     
     # Collect all teams and their games (home and away)
@@ -234,9 +259,9 @@ def create_report():
             # Add summary columns for this player
             for idx, stat_val in enumerate(player_all_stats):
                 cell = ws.cell(row=prow, column=col)
-                # Tore (idx=0): "-" only if no goals in any game
+                # Tore (idx=0): Always show number (0 instead of "-")
                 if idx == 0:
-                    cell.value = stat_val if stat_val > 0 else "-"
+                    cell.value = stat_val
                 # 7m Tore (idx=2): "-" only if no 7m Vers. attempts (player_all_stats[1] == 0)
                 elif idx == 2:
                     cell.value = stat_val if player_all_stats[1] > 0 else "-"
@@ -304,10 +329,12 @@ def create_report():
         
         ws.row_dimensions[1].height = 80
         ws.row_dimensions[2].height = 20
+        
+        # Freeze panes: column A and row 2
+        ws.freeze_panes = 'B3'
     
-    excel_path = get_output_excel_path()
-    wb.save(excel_path)
-    print(f"\n✅ Excel Report: {excel_path}")
+    wb.save(output_file)
+    print(f"\n✅ Excel Report: {output_file}")
     print(f"   - Ein Tab pro Team")
     print(f"   - ALLE Spiele (Heim 🏠 + Auswärts 🏃)")
     print(f"   - Spielerdaten aus beiden Aufstellungen")

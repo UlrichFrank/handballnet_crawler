@@ -156,6 +156,139 @@ def _parse_pdf(pdf_path: str) -> Dict[str, Dict[str, int]]:
     return seven_meter_data
 
 
+def extract_goals_timeline_from_pdf(pdf_url: str, base_url: str = "https://www.handball.net", verify_ssl: bool = True) -> List[Dict]:
+    """
+    Download and parse Spielbericht PDF to extract goal timeline.
+    
+    Returns:
+        List of goals with {minute, second, scorer, team, seven_meter}
+    """
+    
+    if pdfplumber is None:
+        print("    ⚠️  pdfplumber not installed, skipping goal timeline extraction")
+        return []
+    
+    try:
+        if pdf_url.startswith('/'):
+            pdf_url = base_url + pdf_url
+        
+        response = requests.get(pdf_url, timeout=10, verify=True, allow_redirects=True)
+        response.raise_for_status()
+        
+        content_type = response.headers.get('content-type', '').lower()
+        if 'pdf' not in content_type and not response.content.startswith(b'%PDF'):
+            return []
+        
+        with tempfile.NamedTemporaryFile(delete=False, suffix='.pdf') as tmp:
+            tmp.write(response.content)
+            tmp_path = tmp.name
+        
+        try:
+            goals = _extract_goals_from_pdf(tmp_path)
+            return goals
+        finally:
+            Path(tmp_path).unlink(missing_ok=True)
+    
+    except Exception as e:
+        print(f"    ⚠️  Goal timeline extraction failed: {str(e)[:80]}")
+        return []
+
+
+def _extract_goals_from_pdf(pdf_path: str, home_team_abbrev: str = None, away_team_abbrev: str = None) -> List[Dict]:
+    """
+    Parse PDF and extract all goals with timestamps.
+    
+    Row format: [Zeit, Spielzeit, Spielstand, Aktion]
+    Goal patterns:
+      - "Tor durch SPIELER (NUMBER, TEAM)"
+      - "7m-Tor durch SPIELER (NUMBER, TEAM)"
+    
+    Args:
+        pdf_path: Path to PDF file
+        home_team_abbrev: Home team abbreviation from PDF (for team detection)
+        away_team_abbrev: Away team abbreviation from PDF (for team detection)
+    """
+    
+    goals = []
+    home_abbrev = None
+    away_abbrev = None
+    
+    try:
+        with pdfplumber.open(pdf_path) as pdf:
+            for page_num, page in enumerate(pdf.pages[2:] if len(pdf.pages) > 2 else []):
+                tables = page.extract_tables()
+                
+                if not tables:
+                    continue
+                
+                for table in tables:
+                    for row in table:
+                        if not row or len(row) < 4:
+                            continue
+                        
+                        spielzeit = row[1] if len(row) > 1 else None
+                        aktion = row[3] if len(row) > 3 else None
+                        
+                        if not spielzeit or not aktion:
+                            continue
+                        
+                        # Check if it's a goal (not 7m attempt that failed)
+                        is_seven_meter = False
+                        scorer = None
+                        team_abbrev = None
+                        
+                        if "7m-Tor durch" in aktion:
+                            is_seven_meter = True
+                            match = re.search(
+                                r'7m-Tor durch\s+(\w+(?:\s+\w+)*)\s+\(\d+,\s*([^)]+)\)',
+                                aktion
+                            )
+                            if match:
+                                scorer = match.group(1).strip()
+                                team_abbrev = match.group(2).strip()
+                        
+                        elif "Tor durch" in aktion and "7m" not in aktion:
+                            match = re.search(
+                                r'Tor durch\s+(\w+(?:\s+\w+)*)\s+\(\d+,\s*([^)]+)\)',
+                                aktion
+                            )
+                            if match:
+                                scorer = match.group(1).strip()
+                                team_abbrev = match.group(2).strip()
+                        
+                        # Learn team abbreviations from first few goals
+                        if scorer and team_abbrev:
+                            if not home_abbrev and not away_abbrev:
+                                home_abbrev = team_abbrev
+                            elif not away_abbrev and team_abbrev != home_abbrev:
+                                away_abbrev = team_abbrev
+                            
+                            try:
+                                time_parts = spielzeit.split(':')
+                                if len(time_parts) == 2:
+                                    minute = int(time_parts[0])
+                                    second = int(time_parts[1])
+                                    
+                                    # Determine team based on abbreviation
+                                    team = "home" if team_abbrev == home_abbrev else "away"
+                                    
+                                    goals.append({
+                                        'minute': minute,
+                                        'second': second,
+                                        'scorer': scorer,
+                                        'team': team,
+                                        'team_abbrev': team_abbrev,
+                                        'seven_meter': is_seven_meter
+                                    })
+                            except (ValueError, IndexError):
+                                pass
+    
+    except Exception as e:
+        print(f"    ⚠️  Goal extraction error: {str(e)[:60]}")
+    
+    return goals
+
+
 def add_seven_meters_to_players(players: List[Dict], seven_meter_data: Dict) -> List[Dict]:
     """
     Add seven meter statistics to player objects.

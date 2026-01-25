@@ -46,14 +46,9 @@ def generate_goal_timeline_graphic(game_data: Dict, output_path: str = None, hal
     
     game_date = game_data.get('date', 'Unknown')
     
-    # Create figure
-    fig, axes = plt.subplots(2, 1, figsize=(16, 8))
-    fig.suptitle(
-        f"{home_team} vs {away_team} - {final_score}\n{game_date}",
-        fontsize=16,
-        fontweight='bold',
-        y=0.98
-    )
+    # Create figure - reduced height, no title
+    fig, axes = plt.subplots(2, 1, figsize=(16, 4))
+    # Remove the figure title completely
     
     # Render both halves
     for half_idx, (ax, half_data) in enumerate(zip(axes, graphic_data['halves'])):
@@ -66,7 +61,8 @@ def generate_goal_timeline_graphic(game_data: Dict, output_path: str = None, hal
             half_data['home_goals'],
             half_data['away_goals'],
             home_team,
-            away_team
+            away_team,
+            half_number=half_idx + 1
         )
     
     plt.tight_layout()
@@ -99,7 +95,8 @@ def generate_goal_timeline_graphic(game_data: Dict, output_path: str = None, hal
 
 def _render_half(ax, duration: int, 
                  home_goals: list, away_goals: list,
-                 home_team: str, away_team: str):
+                 home_team: str, away_team: str,
+                 half_number: int = 1):
     """
     Render a single half (top = home, bottom = away).
     
@@ -110,6 +107,7 @@ def _render_half(ax, duration: int,
         away_goals: List of away team goals
         home_team: Home team name
         away_team: Away team name
+        half_number: 1 for first half, 2 for second half (for minute labels)
     """
     
     from goal_visualization import determine_circle_color, calculate_circle_size
@@ -119,24 +117,35 @@ def _render_half(ax, duration: int,
     ax.set_ylim(-1.5, 1.5)
     ax.set_aspect('equal')
     
-    # Remove y-axis
-    ax.set_yticks([-0.5, 0.5])
-    ax.set_yticklabels([away_team[:30], home_team[:30]], fontsize=10)
+    # Remove y-axis completely - no team names displayed
+    ax.set_yticks([])
+    ax.set_yticklabels([])
     
     # X-axis (minutes) - remove all ticks and labels
     ax.set_xticks([])
     ax.set_xticklabels([])
     ax.set_xlabel('')
+    ax.set_ylabel('')
     
-    # Remove ALL grid lines (both major and minor)
+    # Remove ALL grid lines
     ax.grid(False)
     
-    # Add minute labels at bottom (without grid lines)
-    for minute in range(0, duration + 1, 5):
-        ax.text(minute, -1.3, f"{minute}'", ha='center', fontsize=9)
+    # Calculate actual minute labels based on half number
+    start_minute = (half_number - 1) * duration
+    
+    # Add minute labels at bottom - show actual game minutes
+    for minute_offset in range(0, duration + 1, 5):
+        actual_minute = start_minute + minute_offset
+        ax.text(minute_offset, -1.3, f"{actual_minute}'", ha='center', fontsize=9)
     
     # Add dotted horizontal line between teams (separator line)
     ax.plot([-1, duration + 1], [0, 0], 'k--', linewidth=1, alpha=0.3, zorder=1)
+    
+    # Remove all spines (no visible borders except dotted line)
+    ax.spines['top'].set_visible(False)
+    ax.spines['right'].set_visible(False)
+    ax.spines['left'].set_visible(False)
+    ax.spines['bottom'].set_visible(False)
     
     # Draw goals for home team (top)
     for goal in home_goals:
@@ -185,9 +194,3 @@ def _render_half(ax, duration: int,
         if goal['momentum'] > 3:
             ax.text(x, y, str(goal['momentum']), 
                    ha='center', va='center', fontsize=7, fontweight='bold', color='white')
-    
-    # Remove top and right spines
-    ax.spines['top'].set_visible(False)
-    ax.spines['right'].set_visible(False)
-    ax.spines['left'].set_linewidth(2)
-    ax.spines['bottom'].set_linewidth(2)

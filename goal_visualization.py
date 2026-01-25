@@ -46,13 +46,24 @@ def calculate_game_flow(goals_timeline: List[Dict]) -> Dict:
         else:
             away_score += 1
         
-        # Determine game situation
-        if home_score > away_score:
-            situation = 'home_lead'
-        elif away_score > home_score:
-            situation = 'away_lead'
-        else:
-            situation = 'tie'
+        # Determine game situation based on which team scores and current score
+        # 'lead': Team in Führung gehen/bleiben
+        # 'tie': Ausgleich
+        # 'deficit': Team in Rückstand geraten/bleiben
+        if team == 'home':
+            if home_score > away_score:
+                situation = 'lead'      # Home team now leads
+            elif home_score == away_score:
+                situation = 'tie'       # Game is now tied
+            else:
+                situation = 'deficit'   # Home team still behind
+        else:  # away team scored
+            if away_score > home_score:
+                situation = 'lead'      # Away team now leads
+            elif away_score == home_score:
+                situation = 'tie'       # Game is now tied
+            else:
+                situation = 'deficit'   # Away team still behind
         
         # Calculate momentum (consecutive goals by same team)
         if last_scorer_team == team:
@@ -154,34 +165,40 @@ def prepare_graphic_data(game_flow: Dict, half_duration: int = 30) -> Dict:
 
 def determine_circle_color(situation: str, team: str) -> Dict:
     """
-    Determine circle color/style based on game situation.
+    Determine circle color based on game situation.
+    
+    Three situations (same for both teams):
+    - lead: Team in Führung (Blau)
+    - tie: Gleichstand (Grau)
+    - deficit: Team im Rückstand (Orange)
     
     Returns:
         Dict with {fill_color, edge_color, alpha, pattern}
     """
     
     colors = {
-        'home_lead': {
-            'fill': '#1f77b4',  # Blue
-            'edge': '#1f77b4',
-            'alpha': 1.0,
-            'pattern': 'solid'
-        },
-        'away_lead': {
-            'fill': '#ff7f0e',  # Orange
-            'edge': '#ff7f0e',
-            'alpha': 1.0,
+        'lead': {
+            'fill': '#3498db',      # Blue - team in lead
+            'edge': '#2980b9',
+            'alpha': 0.9,
             'pattern': 'solid'
         },
         'tie': {
-            'fill': '#e0e0e0',  # Gray
-            'edge': '#808080',
+            'fill': '#95a5a6',      # Gray - tied game
+            'edge': '#7f8c8d',
             'alpha': 0.8,
-            'pattern': 'half'
+            'pattern': 'solid'
+        },
+        'deficit': {
+            'fill': '#e67e22',      # Orange - team in deficit
+            'edge': '#d35400',
+            'alpha': 0.9,
+            'pattern': 'solid'
         }
     }
     
     return colors.get(situation, colors['tie'])
+
 
 
 def calculate_circle_size(momentum: int) -> float:

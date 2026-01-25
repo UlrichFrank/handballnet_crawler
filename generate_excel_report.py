@@ -33,64 +33,6 @@ def get_league_config(league_name_arg=None):
         return config['leagues'][0]
 
 
-def _create_documentation_sheet(ws, h_font, h_fill, border, c_align, l_align):
-    """Create documentation sheet with legend for graphics"""
-    
-    row = 1
-    
-    # Title
-    cell = ws.cell(row=row, column=1)
-    cell.value = "DOKUMENTATION"
-    cell.font = Font(color="FFFFFF", bold=True, size=14)
-    cell.fill = h_fill
-    ws.merge_cells(start_row=row, start_column=1, end_row=row, end_column=3)
-    row += 2
-    
-    # Legende Header
-    cell = ws.cell(row=row, column=1)
-    cell.value = "LEGENDE: Tor-Visualisierungs-Grafiken"
-    cell.font = Font(bold=True, size=12)
-    row += 2
-    
-    # Erklärungen
-    explanations = [
-        ("Grafik-Struktur:", "Jede Grafik zeigt den Spielverlauf mit Toren einer Begegnung"),
-        ("", "Oben: Heimteam | Unten: Auswärtsteam"),
-        ("", "Gepunktete Linie: Trennlinie zwischen Heimteam und Auswärtsteam"),
-        ("", ""),
-        ("Kreise (Tore):", "Jeder Kreis stellt ein Tor dar"),
-        ("Position (X-Achse):", "Gibt die Spielminute an"),
-        ("Größe:", "Kleinere Kreise = einzelne Tore"),
-        ("", "Größere Kreise = mehrere Tore hintereinander (Momentum)"),
-        ("", ""),
-        ("Farb-Kodierung:", "Die Farbe zeigt die Spielsituation nach dem Tor:"),
-        ("", ""),
-        ("  🔵 BLAU:", "Das Team führt nach diesem Tor"),
-        ("  ⚪ GRAU:", "Ausgleich - Spielstand ist jetzt gleich"),
-        ("  🟠 ORANGE:", "Das Team ist nach diesem Tor im Rückstand"),
-        ("", ""),
-        ("Beispiel:", "HOME schießt Tor und führt 2:1 → 🔵 BLAU oben"),
-        ("", "AWAY schießt Tor und ist im Rückstand 3:2 → 🟠 ORANGE unten"),
-        ("", "AWAY schießt Tor und es ist 3:3 → ⚪ GRAU unten"),
-        ("", ""),
-        ("Minute-Markierungen:", "Labels unten zeigen die Spielminuten (0, 5, 10, ...)"),
-    ]
-    
-    for label, text in explanations:
-        cell = ws.cell(row=row, column=1)
-        if label:
-            cell.value = label
-            cell.font = Font(bold=True)
-        else:
-            cell.value = text
-        ws.merge_cells(start_row=row, start_column=1, end_row=row, end_column=3)
-        row += 1
-    
-    ws.column_dimensions['A'].width = 25
-    ws.column_dimensions['B'].width = 50
-    ws.column_dimensions['C'].width = 10
-
-
 def load_config():
     """Load config"""
     config_path = Path(__file__).parent / "config" / "config.json"
@@ -215,10 +157,6 @@ def create_report():
         row_fill_2 = PatternFill(start_color="F0F0F0", end_color="F0F0F0", fill_type="solid")  # Light gray
         
         labels = ["Tore", "7m Vers.", "7m Tore", "2-Min", "Gelb", "Rot", "Blau"]
-        
-        # Create documentation sheet
-        ws_doku = wb.create_sheet(title="Doku", index=0)
-        _create_documentation_sheet(ws_doku, h_font, h_fill, border, c_align, l_align)
         
         # Sort teams alphabetically, but preserve game order from Spielplan
         for tidx, (team_name, games_dict) in enumerate(sorted(team_games.items()), 1):
@@ -443,14 +381,20 @@ def create_report():
                 
                 if graphic_path and Path(graphic_path).exists():
                     try:
-                        # Merge cells for this game (7 columns per game)
+                        # Merge cells HORIZONTALLY only (7 columns per game, 1 row)
                         ws.merge_cells(start_row=current_graphic_row, start_column=col, 
-                                      end_row=current_graphic_row + 15, end_column=col + 6)
+                                      end_row=current_graphic_row, end_column=col + 6)
                         
-                        # Insert image
+                        # Set row height to accommodate the image
+                        # Grafik: 560px wide, 140px high (4:1 ratio)
+                        # Excel: 1 point ≈ 1.33 pixels
+                        # 140 pixels ≈ 105 points
+                        ws.row_dimensions[current_graphic_row].height = 105
+                        
+                        # Insert image - full width, height proportional
                         img = XLImage(graphic_path)
-                        img.width = 500
-                        img.height = 200
+                        img.width = 560   # 7 Spalten × 80 pixels
+                        img.height = 140  # Proportional: 560 × (4/16)
                         
                         ws.add_image(img, f'{openpyxl.utils.get_column_letter(col)}{current_graphic_row}')
                         

@@ -40,6 +40,10 @@ jobs:
         run: |
           python3 scraper.py
       
+      - name: Generate Graphics from JSON
+        run: |
+          python3 generate_graphics_from_json.py
+      
       - name: Generate Excel Reports
         run: |
           python3 generate_excel_report.py

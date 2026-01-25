@@ -19,12 +19,22 @@ Leider bietet handball.net keine API, so dass dieses Projekt zur weiteren Auswer
 - Erfasst: Tore, 7-Meter-Versuche/-Tore, 2-Minuten-Strafen, gelbe/rote/blaue Karten
 - Trennt Home und Away Spieler korrekt
 
+✅ **Tor-Zeitstrahl-Extraktion & Visualisierung** ⭐ *NEU*
+- Extrahiert alle Tore mit genauen Zeitstempeln aus Spielberichten (PDFs)
+- Identifiziert Torschützen, 7m-Tore und Spielsituation
+- Berechnet Momentum (konsekutive Tore eines Teams)
+- Generiert Grafiken zur Visualisierung des Spielverlaufs
+- Konfigurierbare Halbzeit-Dauer je nach Altersgruppe (20-30 Min)
+- Legende in separatem "Doku"-Tab im Excel-Report
+
 ✅ **Excel-Bericht**
 - Ein Arbeitsblatt pro Team
 - Alle Spiele (Heim 🏠 und Auswärts 🏃)
 - Spielerdaten nach Spiel sortiert
 - Automatische Summen pro Spieler und pro Spiel
 - Fixierte Spalten (Spielername) und Zeile (Header) für komfortables Scrollen
+- **Alternating Row Colors** für bessere Lesbarkeit
+- **Eingebettete Tor-Visualisierungs-Grafiken** unter der GESAMT-Zeile
 
 ## 📦 Installation
 
@@ -126,7 +136,43 @@ SCRAPING: Handball4all Baden-Württemberg MD-BOL
 ======================================================================
 ```
 
-### 2. Excel-Bericht generieren
+### 2. Tor-Visualisierungs-Grafiken generieren (automatisch beim Scrapen)
+
+Beim Scrapen werden automatisch Grafiken für die Tor-Progression jedes Spiels generiert:
+
+```
+output/graphics/
+├── Team_A_vs_Team_B_Sa_2009.png
+├── Team_C_vs_Team_D_So_2109.png
+└── ...
+```
+
+**Grafik-Features:**
+- **2 Halbzeiten** als separate Zeilen (0-30 Min, 30-60 Min)
+- **4 Reihen**: H1 Heim (oben), H1 Gast, H2 Heim, H2 Gast (unten)
+- **Kreise** zeigen Tore:
+  - **Position (X-Achse)** = Spielzeit in Minuten
+  - **Größe** = Momentum (Anzahl konsekutiver Tore)
+  - **Farbe**:
+    - 🔵 **Blau** = Team in Führung gegangen/geblieben
+    - 🟠 **Orange** = Team in Führung gegangen/geblieben
+    - ⚪ **Grau** = Ausgleich
+- **Minute-Markierungen** alle 5 Minuten mit Labels
+
+**Beispiel:**
+```
+Team A vs Team B - 29:31
+┌─────────────────────────────────────────┐
+│ 1. HALBZEIT (0-30 Min)                  │
+│                                         │
+│ Team A  ●● ●  ●  ●●●●  ●  ●●●        │
+│ ─────────────────────────────────────   │
+│ Team B       ●●  ●  ●●  ●●● ●●●●       │
+│ 0'  5'  10' 15' 20' 25' 30'             │
+└─────────────────────────────────────────┘
+```
+
+### 3. Excel-Bericht generieren
 
 ```bash
 # Excel für alle Ligas generieren
@@ -165,7 +211,7 @@ Dies wird:
 
 ### {out_name}.json (z.B. spiele_c_jugend.json)
 
-Game-zentrierte Struktur mit allen Spielerdaten:
+Game-zentrierte Struktur mit allen Spielerdaten und Tor-Informationen:
 
 ```json
 {
@@ -192,7 +238,20 @@ Game-zentrierte Struktur mit allen Spielerdaten:
       "away": {
         "team_name": "Team B",
         "players": [...]
-      }
+      },
+      "goals_timeline": [
+        {
+          "minute": 1,
+          "second": 7,
+          "scorer": "Player Name",
+          "team": "home",
+          "seven_meter": false
+        },
+        ...
+      ],
+      "final_score": "29:31",
+      "half_duration": 30,
+      "graphic_path": "output/graphics/Team_A_vs_Team_B_Sa_2009.png"
     }
   ]
 }
@@ -206,7 +265,10 @@ Excel-Datei mit Tabs pro Team:
 |--------|-------|-------|-----|-------|--------|-------|--------|------|-----|------|
 | Spieler 1 | 5 | 3 | ... | 8 | 2 | 1 | 1 | 0 | 0 | 0 |
 | Spieler 2 | 0 | 4 | ... | 4 | 3 | 2 | 2 | 1 | 0 | 0 |
+| Spieler 3 | 2 | 1 | ... | 3 | 0 | 0 | 0 | 0 | 0 | 0 |
 | GESAMT | 5 | 7 | ... | 12 | 5 | 3 | 3 | 1 | 0 | 0 |
+| | | | | | | | | | | |
+| **[Spiel 1 Tor-Grafik]** | | | | **[Spiel 2 Tor-Grafik]** | | | | | | |
 
 **Spalten pro Spiel:**
 - **Tore** - Anzahl geworfener Tore
@@ -218,14 +280,25 @@ Excel-Datei mit Tabs pro Team:
 - **Blau** - Blaue Karten
 
 **Besonderheiten:**
+- **Alternating Row Colors** - Wechselnd weiße und hellgraue Spielerzeilen für bessere Lesbarkeit
 - **Fixierte Spalte A** - Spielername bleibt sichtbar beim Scrollen nach rechts
 - **Fixierte Zeile 2** - Header bleibt sichtbar beim Scrollen nach unten
 - **Tore Gesamt** - Zeigt 0 statt "-" für Spieler ohne Tore
 - Andere Spalten zeigen "-" wenn der Wert 0 ist
+- **Eingebettete Grafiken** - Unter der GESAMT-Zeile werden Tor-Verlauf-Grafiken angezeigt (eine pro Spiel über 7 Spalten)
 
 **Icons:**
 - 🏠 = Heimspiel (Team spielt zu Hause)
 - 🏃 = Auswärtsspiel (Team spielt auswärts)
+
+**Tor-Verlauf-Grafiken** (unter GESAMT-Zeile):
+- Zeigen visuell den Spielverlauf für jede Begegnung
+- 2 Reihen pro Grafik: Oben Heimteam, Unten Auswärtsteam
+- 2 Halbzeiten übereinander (0-30 Min, 30-60 Min)
+- Kreise stellen Tore dar:
+  - Position (X) = Spielminute
+  - Größe = Momentum (mehrere Tore hintereinander)
+  - Farbe = Spielsituation (Führung/Ausgleich)
 
 ## ⚙️ Konfiguration
 
@@ -291,14 +364,26 @@ Excel-Datei mit Tabs pro Team:
 hb_grabber/
 ├── scraper.py                         # Haupt-Scraper (verarbeitet alle Ligas)
 ├── generate_excel_report.py           # Excel-Generator (verarbeitet alle Ligas)
+├── goal_visualization.py              # Spielverlauf-Berechnung & Grafik-Logik ⭐ NEU
+├── generate_goal_graphic.py           # Grafik-Renderer (matplotlib) ⭐ NEU
 ├── config/
 │   ├── config.json                    # Konfiguration (mehrere Ligas)
 │   └── config.example.json            # Beispiel-Konfiguration
 ├── output/
 │   ├── spiele_c_jugend.json           # JSON für C-Jugend
 │   ├── spiele_c_jugend.xlsx           # Excel für C-Jugend
+│   ├── graphics/                      # Tor-Visualisierungs-Grafiken ⭐ NEU
+│   │   ├── Team_A_vs_Team_B_*.png
+│   │   └── ...
 │   ├── spiele_d_jugend.json           # JSON für D-Jugend
 │   └── spiele_d_jugend.xlsx           # Excel für D-Jugend
+├── hb_crawler/
+│   ├── __init__.py
+│   ├── authenticator.py
+│   ├── crawler.py
+│   ├── exporter.py
+│   ├── pdf_parser.py                  # PDF-Parser mit Tor-Extraktion ⭐ ERWEITERT
+│   └── selenium_authenticator.py
 ├── .github/workflows/
 │   └── daily-scrape.yml               # GitHub Actions Workflow
 └── README.md                          # Diese Datei
@@ -325,3 +410,30 @@ hb_grabber/
 - **BeautifulSoup4** - HTML-Parsing
 - **openpyxl** - Excel-Erstellung
 
+
+## 📋 Konfiguration der Halbzeit-Dauer
+
+Die Spiellänge variiert je nach Altersgruppe:
+
+```json
+{
+  "leagues": [
+    {
+      "name": "liga-id",
+      "display_name": "Liga Name",
+      "out_name": "ausgabe-name",
+      "half_duration": 30,
+      "age_group": "A-Jugend (17-18 Jahre)"
+    }
+  ]
+}
+```
+
+**Standard-Halbzeit-Dauer nach Altersgruppe:**
+- A-Jugend (17-18 Jahre): **2 × 30 Minuten**
+- B-Jugend (15-16 Jahre): **2 × 25 Minuten**
+- C-Jugend (13-14 Jahre): **2 × 25 Minuten**
+- D-Jugend (11-12 Jahre): **2 × 20 Minuten**
+- E-Jugend (9-10 Jahre): **2 × 20 Minuten**
+
+Die Grafiken passen sich automatisch an die konfigurierte Dauer an!

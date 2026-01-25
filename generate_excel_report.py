@@ -8,8 +8,30 @@ import json
 import openpyxl
 import sys
 from openpyxl.styles import Font, PatternFill, Alignment, Border, Side
+from openpyxl.drawing.image import Image as XLImage
 from collections import OrderedDict
 from pathlib import Path
+
+def load_config():
+    """Load config"""
+    config_path = Path(__file__).parent / "config" / "config.json"
+    with open(config_path, 'r') as f:
+        return json.load(f)
+
+def get_league_config(league_name_arg=None):
+    """Get league configuration"""
+    config = load_config()
+    
+    if league_name_arg:
+        for league in config['leagues']:
+            if league['name'] == league_name_arg:
+                return league
+        print(f"Error: League '{league_name_arg}' not found in config")
+        sys.exit(1)
+    else:
+        # Use first league as default
+        return config['leagues'][0]
+
 
 def load_config():
     """Load config"""
@@ -83,6 +105,9 @@ def create_report():
             away_goals = sum(p['goals'] for p in game['away']['players'])
             score = f"{home_goals}:{away_goals}"
             
+            # Get graphic path if available
+            graphic_path = game.get('graphic_path')
+            
             # Home game
             if home_team not in team_games:
                 team_games[home_team] = OrderedDict()
@@ -92,7 +117,8 @@ def create_report():
                 'score': score,
                 'opponent': away_team,
                 'is_home': True,
-                'players': game['home']['players']
+                'players': game['home']['players'],
+                'graphic_path': graphic_path
             }
             
             # Away game
@@ -104,7 +130,8 @@ def create_report():
                 'score': score,
                 'opponent': home_team,
                 'is_home': False,
-                'players': game['away']['players']
+                'players': game['away']['players'],
+                'graphic_path': graphic_path
             }
         
         print(f"   📋 {len(team_games)} Teams gefunden")
@@ -117,12 +144,17 @@ def create_report():
         s_fill = PatternFill(start_color="D9E1F2", end_color="D9E1F2", fill_type="solid")
         s_font = Font(bold=True, size=9)
         p_fill = PatternFill(start_color="E7E6E6", end_color="E7E6E6", fill_type="solid")
+        p_fill_alt = PatternFill(start_color="F5F5F5", end_color="F5F5F5", fill_type="solid")
         p_font = Font(bold=True)
         c_align = Alignment(horizontal="center", vertical="center", wrap_text=True)
         l_align = Alignment(horizontal="left", vertical="center", wrap_text=True)
         border = Border(left=Side(style='thin'), right=Side(style='thin'), top=Side(style='thin'), bottom=Side(style='thin'))
         total_fill = PatternFill(start_color="FFF2CC", end_color="FFF2CC", fill_type="solid")
         total_font = Font(bold=True, size=10)
+        
+        # Alternating row fills for players (lighter colors)
+        row_fill_1 = PatternFill(start_color="FFFFFF", end_color="FFFFFF", fill_type="solid")  # White
+        row_fill_2 = PatternFill(start_color="F0F0F0", end_color="F0F0F0", fill_type="solid")  # Light gray
         
         labels = ["Tore", "7m Vers.", "7m Tore", "2-Min", "Gelb", "Rot", "Blau"]
         
@@ -213,10 +245,14 @@ def create_report():
             player_game_stats = {}  # Track per-player, per-game stats for summary
             
             for prow, player_name in enumerate(players, start=3):
+                # Alternating row colors
+                is_even_row = (prow - 3) % 2 == 0  # 0-indexed row from player start
+                row_fill = row_fill_1 if is_even_row else row_fill_2
+                
                 ca = ws.cell(row=prow, column=1)
                 ca.value = player_name
                 ca.font = p_font
-                ca.fill = p_fill
+                ca.fill = row_fill
                 ca.alignment = l_align
                 ca.border = border
                 
@@ -265,6 +301,7 @@ def create_report():
                             cell.value = stat_val
                         cell.alignment = c_align
                         cell.border = border
+                        cell.fill = row_fill
                         col += 1
                     
                     game_idx += 1
@@ -285,7 +322,7 @@ def create_report():
                         cell.value = stat_val
                     cell.alignment = c_align
                     cell.border = border
-                    cell.fill = PatternFill(start_color="F0F0F0", end_color="F0F0F0", fill_type="solid")
+                    cell.fill = row_fill
                     cell.font = Font(bold=True)
                     col += 1
             
@@ -335,6 +372,36 @@ def create_report():
                 cell.alignment = c_align
                 cell.border = border
                 col += 1
+            
+            # Embed graphics under GESAMT row
+            current_graphic_row = totals_row + 2  # Leave one blank row
+            col = 2
+            for game_id, game_data in sorted_games:
+                graphic_path = game_data.get('graphic_path')
+                
+                if graphic_path and Path(graphic_path).exists():
+                    try:
+                        # Merge cells HORIZONTALLY only (7 columns per game, 1 row)
+                        ws.merge_cells(start_row=current_graphic_row, start_column=col, 
+                                      end_row=current_graphic_row, end_column=col + 6)
+                        
+                        # Set row height to accommodate the image
+                        # Grafik: 560px wide, 140px high (4:1 ratio)
+                        # Excel: 1 point ≈ 1.33 pixels
+                        # 140 pixels ≈ 105 points
+                        ws.row_dimensions[current_graphic_row].height = 105
+                        
+                        # Insert image - full width, height proportional
+                        img = XLImage(graphic_path)
+                        img.width = 560   # 7 Spalten × 80 pixels
+                        img.height = 140  # Proportional: 560 × (4/16)
+                        
+                        ws.add_image(img, f'{openpyxl.utils.get_column_letter(col)}{current_graphic_row}')
+                        
+                    except Exception as e:
+                        print(f"       ⚠️  Grafik-Einbettung fehlgeschlagen: {str(e)[:50]}")
+                
+                col += 7
             
             ws.column_dimensions['A'].width = 25
             for c in range(2, col):

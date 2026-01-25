@@ -22,7 +22,7 @@ from selenium.webdriver.common.by import By
 import warnings
 warnings.filterwarnings('ignore')
 
-from hb_crawler.pdf_parser import extract_seven_meters_from_pdf, add_seven_meters_to_players
+from hb_crawler.pdf_parser import extract_seven_meters_from_pdf, add_seven_meters_to_players, extract_goals_timeline_from_pdf
 
 # Load config
 config_path = Path(__file__).parent / "config" / "config.json"
@@ -478,9 +478,16 @@ def extract_spielbericht_pdf_url(driver, game_id):
         print(f"       {traceback.format_exc().split(chr(10))[-2]}")
         return None
 
-def scrape_all_games(driver, games_with_teams):
+def scrape_all_games(driver, games_with_teams, league_config=None):
     """Scrape all games and return game-centric data - use Spielplan order"""
     games = []
+    
+    # Get half duration from league config
+    half_duration = 30  # Default
+    age_group = "Unknown"
+    if league_config:
+        half_duration = league_config.get('half_duration', 30)
+        age_group = league_config.get('age_group', 'Unknown')
     
     for idx, game_info in enumerate(games_with_teams, 1):
         game_id = game_info['game_id']
@@ -525,15 +532,22 @@ def scrape_all_games(driver, games_with_teams):
                 home_team, home_players = team1_name, team1_players
                 away_team, away_players = team2_name, team2_players
             
-            # Try to fetch and parse Spielbericht PDF for seven meter data
+            # Try to fetch and parse Spielbericht PDF for seven meter data and goal timeline
             pdf_url = extract_spielbericht_pdf_url(driver, game_id)
+            goals_timeline = []
+            graphic_path = None
             if pdf_url:
                 seven_meter_data = extract_seven_meters_from_pdf(pdf_url, BASE_URL)
+                goals_timeline = extract_goals_timeline_from_pdf(pdf_url, BASE_URL)
                 
                 if seven_meter_data:
                     # Add seven meter data to players
                     home_players = add_seven_meters_to_players(home_players, seven_meter_data)
                     away_players = add_seven_meters_to_players(away_players, seven_meter_data)
+            
+            # Calculate final score from goals
+            home_score = len([g for g in goals_timeline if g['team'] == 'home'])
+            away_score = len([g for g in goals_timeline if g['team'] == 'away'])
             
             game = {
                 'game_id': game_id,
@@ -546,8 +560,13 @@ def scrape_all_games(driver, games_with_teams):
                 'away': {
                     'team_name': away_team,
                     'players': away_players
-                }
+                },
+                'goals_timeline': goals_timeline,
+                'final_score': f"{home_score}:{away_score}",
+                'half_duration': half_duration,
+                'age_group': age_group
             }
+            
             
             games.append(game)
             print(f"  [{idx:3d}/{len(games_with_teams)}] ✅ {date} | {home_team} ({len(home_players)}) vs {away_team} ({len(away_players)})")
@@ -581,12 +600,14 @@ def scrape_league(driver, league_config):
     
     # Scrape each game
     print("👥 EXTRACTING GAME DETAILS")
-    games = scrape_all_games(driver, games_info)
+    games = scrape_all_games(driver, games_info, league_config)
     
     print(f"\n" + "=" * 70)
     print(f"✅ SCRAPING COMPLETE for {league_display_name}")
     print(f"=" * 70)
-    print(f"✓ {len(games)} games with complete data\n")
+    print(f"✓ {len(games)} games with complete data")
+    games_with_goals = sum(1 for g in games if g.get('goals_timeline'))
+    print(f"✓ {games_with_goals} games with goal data\n")
     
     # Summary
     teams = set()

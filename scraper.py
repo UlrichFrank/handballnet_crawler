@@ -23,7 +23,6 @@ import warnings
 warnings.filterwarnings('ignore')
 
 from hb_crawler.pdf_parser import extract_seven_meters_from_pdf, add_seven_meters_to_players, extract_goals_timeline_from_pdf
-from generate_goal_graphic import generate_goal_timeline_graphic
 
 # Load config
 config_path = Path(__file__).parent / "config" / "config.json"
@@ -568,13 +567,6 @@ def scrape_all_games(driver, games_with_teams, league_config=None):
                 'age_group': age_group
             }
             
-            # Generate goal timeline graphic if goals were extracted
-            if goals_timeline:
-                try:
-                    graphic_path = generate_goal_timeline_graphic(game, half_duration=half_duration)
-                    game['graphic_path'] = graphic_path
-                except Exception as e:
-                    print(f"       ⚠️  Grafik-Generierung fehlgeschlagen: {str(e)[:50]}")
             
             games.append(game)
             print(f"  [{idx:3d}/{len(games_with_teams)}] ✅ {date} | {home_team} ({len(home_players)}) vs {away_team} ({len(away_players)})")
@@ -613,18 +605,9 @@ def scrape_league(driver, league_config):
     print(f"\n" + "=" * 70)
     print(f"✅ SCRAPING COMPLETE for {league_display_name}")
     print(f"=" * 70)
-    print(f"✓ {len(games)} games with complete data\n")
-    
-    # Graphic generation summary
-    games_with_graphics = sum(1 for g in games if g.get('graphic_path'))
+    print(f"✓ {len(games)} games with complete data")
     games_with_goals = sum(1 for g in games if g.get('goals_timeline'))
-    if games_with_graphics > 0:
-        total_graphic_size_kb = sum(
-            Path(g['graphic_path']).stat().st_size / 1024 
-            for g in games if g.get('graphic_path') and Path(g.get('graphic_path', '')).exists()
-        )
-        print(f"📊 Grafiken generiert: {games_with_graphics}/{games_with_goals} Spiele")
-        print(f"   Gesamtgröße: {total_graphic_size_kb:.1f} KB\n")
+    print(f"✓ {games_with_goals} games with goal data\n")
     
     # Summary
     teams = set()

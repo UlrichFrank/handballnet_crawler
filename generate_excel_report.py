@@ -54,10 +54,42 @@ def get_league_config(league_name_arg=None):
         return config['leagues'][0]
 
 def load_games_data(out_name):
-    """Load game-centric data"""
-    filepath = f'output/{out_name}.json'
-    with open(filepath, 'r') as f:
-        return json.load(f)
+    """Load game-centric data from frontend/public/data/{liga}/*.json files"""
+    # Determine Liga ID from out_name
+    if 'c_jugend' in out_name or 'c-jugend' in out_name.lower():
+        liga_id = 'c_jugend'
+    elif 'd_jugend' in out_name or 'd-jugend' in out_name.lower():
+        liga_id = 'd_jugend'
+    else:
+        print(f"⚠️  Could not determine Liga from {out_name}, using as-is")
+        liga_id = out_name.replace('spiele_', '')
+    
+    # Load all yyyymmdd.json files for this liga
+    data_dir = Path('frontend/public/data') / liga_id
+    
+    if not data_dir.exists():
+        print(f"   ❌ Data directory not found: {data_dir}")
+        raise FileNotFoundError(f"Data directory not found: {data_dir}")
+    
+    # Collect all games from all date-based files
+    all_games = []
+    date_files = sorted(list(data_dir.glob('*.json')))
+    
+    if not date_files:
+        print(f"   ❌ No spieltag files found in {data_dir}")
+        raise FileNotFoundError(f"No spieltag files found in {data_dir}")
+    
+    print(f"   📂 Loading {len(date_files)} Spieltag(e) from {data_dir}")
+    
+    for date_file in date_files:
+        with open(date_file, 'r') as f:
+            data = json.load(f)
+        games = data.get('games', [])
+        all_games.extend(games)
+        print(f"      ✅ {date_file.name}: {len(games)} games")
+    
+    # Return combined data
+    return {'games': all_games}
 
 def create_report():
     # Get leagues to process

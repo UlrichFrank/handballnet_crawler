@@ -1,9 +1,22 @@
 import { LeagueConfig, GameData, AppConfig } from '../types/handball';
 
-const CONFIG_PATH = '/config.json';
+const CONFIG_PATH = '/hb_grabber/config.json';
+const META_PATH = '/hb_grabber/data/meta.json';
+
+interface MetaIndex {
+  last_updated: string;
+  leagues: {
+    [key: string]: {
+      name: string;
+      spieltage: number[];
+      last_updated: string;
+    };
+  };
+}
 
 class DataService {
   private configCache: AppConfig | null = null;
+  private metaCache: MetaIndex | null = null;
   private gameDataCache: Map<string, GameData> = new Map();
 
   async loadConfig(): Promise<AppConfig> {
@@ -20,23 +33,46 @@ class DataService {
     return config;
   }
 
+  async loadMeta(): Promise<MetaIndex> {
+    if (this.metaCache) {
+      return this.metaCache;
+    }
+
+    const response = await fetch(`${META_PATH}?t=${Date.now()}`);
+    if (!response.ok) {
+      throw new Error(`Failed to load meta index: ${response.statusText}`);
+    }
+    const meta = await response.json();
+    this.metaCache = meta;
+    return meta;
+  }
+
   async getLeagues(): Promise<LeagueConfig[]> {
     const config = await this.loadConfig();
     return config.leagues;
   }
 
-  async getGameData(outName: string): Promise<GameData> {
-    if (this.gameDataCache.has(outName)) {
-      return this.gameDataCache.get(outName)!;
+  async getGameData(outName: string, spieltag: number = 1): Promise<GameData> {
+    const cacheKey = `${outName}_${spieltag}`;
+    if (this.gameDataCache.has(cacheKey)) {
+      return this.gameDataCache.get(cacheKey)!;
     }
 
-    // Add cache-busting query parameter to force fresh data
-    const response = await fetch(`/data/${outName}.json?t=${Date.now()}`);
+    // Mappe outName zu Liga-ID (c_jugend, d_jugend)
+    let ligaId = outName;
+    if (outName.includes('MC-OL') || outName.includes('mc-ol')) {
+      ligaId = 'c_jugend';
+    } else if (outName.includes('Landesliga') || outName.includes('landesliga')) {
+      ligaId = 'd_jugend';
+    }
+
+    // Lade Spieltag JSON
+    const response = await fetch(`/hb_grabber/data/${ligaId}/spieltag_${spieltag}.json?t=${Date.now()}`);
     if (!response.ok) {
-      throw new Error(`Failed to load game data for ${outName}: ${response.statusText}`);
+      throw new Error(`Failed to load game data for ${outName}, Spieltag ${spieltag}: ${response.statusText}`);
     }
     const data = await response.json();
-    this.gameDataCache.set(outName, data);
+    this.gameDataCache.set(cacheKey, data);
     return data;
   }
 

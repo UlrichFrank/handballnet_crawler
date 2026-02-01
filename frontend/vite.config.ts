@@ -5,7 +5,7 @@ import path from 'node:path'
 // https://vite.dev/config/
 export default defineConfig(() => ({
   plugins: [react()],
-  base: './', 
+  base: '/hb_grabber/', 
   build: {
     assetsDir: 'assets',
     rollupOptions: {

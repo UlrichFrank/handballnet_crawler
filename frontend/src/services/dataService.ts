@@ -30,7 +30,8 @@ class DataService {
       return this.gameDataCache.get(outName)!;
     }
 
-    const response = await fetch(`/data/${outName}.json`);
+    // Add cache-busting query parameter to force fresh data
+    const response = await fetch(`/data/${outName}.json?t=${Date.now()}`);
     if (!response.ok) {
       throw new Error(`Failed to load game data for ${outName}: ${response.statusText}`);
     }
@@ -188,6 +189,75 @@ class DataService {
     });
 
     return totals;
+  }
+
+  /**
+   * Get all officials (referees, timekeepers, secretaries) for a league with their games
+   */
+  async getAllOfficials(outName: string): Promise<{
+    referees: Map<string, { count: number; games: Array<{ date: string; home: string; away: string; score: string }> }>;
+    timekeepers: Map<string, { count: number; games: Array<{ date: string; home: string; away: string; score: string }> }>;
+    secretaries: Map<string, { count: number; games: Array<{ date: string; home: string; away: string; score: string }> }>;
+  }> {
+    const gameData = await this.getGameData(outName);
+    console.log('[dataService] getAllOfficials - games count:', gameData.games.length);
+    
+    const referees = new Map<string, { count: number; games: Array<{ date: string; home: string; away: string; score: string }> }>();
+    const timekeepers = new Map<string, { count: number; games: Array<{ date: string; home: string; away: string; score: string }> }>();
+    const secretaries = new Map<string, { count: number; games: Array<{ date: string; home: string; away: string; score: string }> }>();
+
+    gameData.games.forEach((game: any, idx: number) => {
+      const gameInfo = {
+        date: game.date,
+        home: game.home.team_name,
+        away: game.away.team_name,
+        score: game.final_score || '?:?',
+      };
+
+      // Debug: log first 3 games to see if officials exist
+      if (idx < 3) {
+        console.log(`[dataService] Game ${idx}:`, {
+          game_id: game.game_id,
+          has_officials: !!game.officials,
+          officials: game.officials,
+        });
+      }
+
+      if (game.officials) {
+        // Count referees with games
+        game.officials.referees?.forEach((name: string) => {
+          if (!referees.has(name)) {
+            referees.set(name, { count: 0, games: [] });
+          }
+          const data = referees.get(name)!;
+          data.count++;
+          data.games.push(gameInfo);
+        });
+
+        // Count timekeepers with games
+        game.officials.timekeepers?.forEach((name: string) => {
+          if (!timekeepers.has(name)) {
+            timekeepers.set(name, { count: 0, games: [] });
+          }
+          const data = timekeepers.get(name)!;
+          data.count++;
+          data.games.push(gameInfo);
+        });
+
+        // Count secretaries with games
+        game.officials.secretaries?.forEach((name: string) => {
+          if (!secretaries.has(name)) {
+            secretaries.set(name, { count: 0, games: [] });
+          }
+          const data = secretaries.get(name)!;
+          data.count++;
+          data.games.push(gameInfo);
+        });
+      }
+    });
+
+    console.log('[dataService] Final officials - referees:', referees.size, 'timekeepers:', timekeepers.size, 'secretaries:', secretaries.size);
+    return { referees, timekeepers, secretaries };
   }
 }
 

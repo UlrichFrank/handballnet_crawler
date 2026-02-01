@@ -64,12 +64,21 @@
   }
 }
 
-@layer base {
-  * {
-    border-color: hsl(var(--border));
+@layer components {
+  /* Full row hover for tables - higher specificity */
+  table tbody tr:hover td {
+    background-color: rgb(240, 249, 255) !important;
   }
-  body {
-    background-color: hsl(var(--background));
-    color: hsl(var(--foreground));
+  
+  :root.dark table tbody tr:hover td {
+    background-color: rgb(55, 65, 81) !important;
+  }
+  
+  table tbody tr:hover td.total-cell {
+    background-color: rgb(254, 243, 199) !important;
+  }
+  
+  :root.dark table tbody tr:hover td.total-cell {
+    background-color: rgb(120, 53, 15) !important;
   }
 }

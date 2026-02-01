@@ -1,7 +1,67 @@
+import { useState, useEffect } from 'react';
 import { useLeague } from '../contexts/LeagueContext';
+import { dataService } from '../services/dataService';
+
+interface GameInfo {
+  date: string;
+  home: string;
+  away: string;
+  score: string;
+}
+
+interface OfficialData {
+  name: string;
+  count: number;
+  games: GameInfo[];
+}
 
 export function OfficialsPage() {
   const { selectedLeague } = useLeague();
+  const [referees, setReferees] = useState<OfficialData[]>([]);
+  const [timekeepers, setTimekeepers] = useState<OfficialData[]>([]);
+  const [secretaries, setSecretaries] = useState<OfficialData[]>([]);
+  const [loading, setLoading] = useState(true);
+  const [error, setError] = useState<string | null>(null);
+
+  useEffect(() => {
+    const loadOfficials = async () => {
+      if (!selectedLeague) {
+        setLoading(false);
+        return;
+      }
+
+      try {
+        setLoading(true);
+        const officials = await dataService.getAllOfficials(selectedLeague.out_name);
+        console.log('[OfficialsPage] Loaded officials:', officials);
+
+        // Convert maps to sorted arrays
+        setReferees(
+          Array.from(officials.referees.entries())
+            .map(([name, data]) => ({ name, count: data.count, games: data.games }))
+            .sort((a, b) => b.count - a.count)
+        );
+
+        setTimekeepers(
+          Array.from(officials.timekeepers.entries())
+            .map(([name, data]) => ({ name, count: data.count, games: data.games }))
+            .sort((a, b) => b.count - a.count)
+        );
+
+        setSecretaries(
+          Array.from(officials.secretaries.entries())
+            .map(([name, data]) => ({ name, count: data.count, games: data.games }))
+            .sort((a, b) => b.count - a.count)
+        );
+      } catch (err) {
+        setError(err instanceof Error ? err.message : 'Failed to load officials');
+      } finally {
+        setLoading(false);
+      }
+    };
+
+    loadOfficials();
+  }, [selectedLeague]);
 
   if (!selectedLeague) {
     return (
@@ -14,6 +74,73 @@ export function OfficialsPage() {
     );
   }
 
+  if (loading) {
+    return (
+      <div className="flex items-center justify-center py-12">
+        <div className="text-gray-500 dark:text-gray-400">Loading officials...</div>
+      </div>
+    );
+  }
+
+  if (error) {
+    return (
+      <div className="bg-red-50 dark:bg-red-950 border border-red-200 dark:border-red-900 rounded-lg p-4 text-red-700 dark:text-red-200">
+        <strong>Error:</strong> {error}
+      </div>
+    );
+  }
+
+  const renderOfficialsTable = (officials: OfficialData[], emptyMessage: string) => {
+    if (officials.length === 0) {
+      return (
+        <div className="text-gray-500 dark:text-gray-400 italic py-6 text-center">
+          {emptyMessage}
+        </div>
+      );
+    }
+
+    return (
+      <div className="overflow-x-auto">
+        <table className="w-full">
+          <thead>
+            <tr className="bg-gray-100 dark:bg-slate-800 border-b border-gray-200 dark:border-slate-700">
+              <th className="px-4 py-3 text-left font-bold text-gray-900 dark:text-gray-100">Name</th>
+              <th className="px-4 py-3 text-center font-bold text-gray-900 dark:text-gray-100 w-24">Spiele</th>
+              <th className="px-4 py-3 text-left font-bold text-gray-900 dark:text-gray-100">Spiele</th>
+            </tr>
+          </thead>
+          <tbody>
+            {officials.map((official, idx) => (
+              <tr
+                key={official.name}
+                className={idx % 2 === 0 ? 'bg-white dark:bg-slate-900' : 'bg-gray-50 dark:bg-slate-800'}
+              >
+                <td className="px-4 py-3 text-gray-900 dark:text-gray-100 font-semibold border-b border-gray-200 dark:border-slate-700">
+                  {official.name}
+                </td>
+                <td className="px-4 py-3 text-center text-gray-900 dark:text-gray-100 border-b border-gray-200 dark:border-slate-700 font-bold">
+                  {official.count}
+                </td>
+                <td className="px-4 py-3 text-gray-700 dark:text-gray-300 border-b border-gray-200 dark:border-slate-700">
+                  <div className="flex flex-wrap gap-2">
+                    {official.games.map((game, gidx) => (
+                      <span
+                        key={`${official.name}-${gidx}`}
+                        className="inline-block bg-blue-50 dark:bg-blue-900/30 text-blue-900 dark:text-blue-200 px-2 py-1 rounded text-xs border border-blue-200 dark:border-blue-700"
+                      >
+                        {game.date}: {game.home} vs {game.away} ({game.score})
+                      </span>
+                    ))}
+                  </div>
+                </td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
+    );
+  };
+
   return (
     <div className="space-y-6 p-6 bg-gray-50 dark:bg-slate-950 min-h-screen">
       <div>
@@ -25,58 +152,19 @@ export function OfficialsPage() {
         {/* Referees */}
         <div className="bg-white dark:bg-slate-900 rounded-lg shadow-lg p-6">
           <h2 className="text-2xl font-bold text-blue-900 dark:text-blue-400 mb-4">🏆 Schiedsrichter</h2>
-          <div className="space-y-3">
-            <div className="flex justify-between items-center border-b border-gray-200 dark:border-slate-700 pb-3">
-              <span className="text-gray-900 dark:text-gray-100 font-semibold">Schiedsrichter 1</span>
-              <span className="text-gray-600 dark:text-gray-400">12 Spiele geleitet</span>
-            </div>
-            <div className="flex justify-between items-center border-b border-gray-200 dark:border-slate-700 pb-3">
-              <span className="text-gray-900 dark:text-gray-100 font-semibold">Schiedsrichter 2</span>
-              <span className="text-gray-600 dark:text-gray-400">10 Spiele geleitet</span>
-            </div>
-            <div className="flex justify-between items-center border-b border-gray-200 dark:border-slate-700 pb-3">
-              <span className="text-gray-900 dark:text-gray-100 font-semibold">Schiedsrichter 3</span>
-              <span className="text-gray-600 dark:text-gray-400">11 Spiele geleitet</span>
-            </div>
-          </div>
+          {renderOfficialsTable(referees, 'Keine Schiedsrichter gefunden')}
         </div>
 
         {/* Timekeepers */}
         <div className="bg-white dark:bg-slate-900 rounded-lg shadow-lg p-6">
           <h2 className="text-2xl font-bold text-blue-900 dark:text-blue-400 mb-4">⏱️ Zeitnehmer</h2>
-          <div className="space-y-3">
-            <div className="flex justify-between items-center border-b border-gray-200 dark:border-slate-700 pb-3">
-              <span className="text-gray-900 dark:text-gray-100 font-semibold">Zeitnehmer 1</span>
-              <span className="text-gray-600 dark:text-gray-400">8 Spiele</span>
-            </div>
-            <div className="flex justify-between items-center border-b border-gray-200 dark:border-slate-700 pb-3">
-              <span className="text-gray-900 dark:text-gray-100 font-semibold">Zeitnehmer 2</span>
-              <span className="text-gray-600 dark:text-gray-400">9 Spiele</span>
-            </div>
-            <div className="flex justify-between items-center border-b border-gray-200 dark:border-slate-700 pb-3">
-              <span className="text-gray-900 dark:text-gray-100 font-semibold">Zeitnehmer 3</span>
-              <span className="text-gray-600 dark:text-gray-400">10 Spiele</span>
-            </div>
-          </div>
+          {renderOfficialsTable(timekeepers, 'Keine Zeitnehmer gefunden')}
         </div>
 
         {/* Secretaries */}
         <div className="bg-white dark:bg-slate-900 rounded-lg shadow-lg p-6">
           <h2 className="text-2xl font-bold text-blue-900 dark:text-blue-400 mb-4">📋 Sekretäre</h2>
-          <div className="space-y-3">
-            <div className="flex justify-between items-center border-b border-gray-200 dark:border-slate-700 pb-3">
-              <span className="text-gray-900 dark:text-gray-100 font-semibold">Sekretär 1</span>
-              <span className="text-gray-600 dark:text-gray-400">9 Spiele</span>
-            </div>
-            <div className="flex justify-between items-center border-b border-gray-200 dark:border-slate-700 pb-3">
-              <span className="text-gray-900 dark:text-gray-100 font-semibold">Sekretär 2</span>
-              <span className="text-gray-600 dark:text-gray-400">8 Spiele</span>
-            </div>
-            <div className="flex justify-between items-center border-b border-gray-200 dark:border-slate-700 pb-3">
-              <span className="text-gray-900 dark:text-gray-100 font-semibold">Sekretär 3</span>
-              <span className="text-gray-600 dark:text-gray-400">10 Spiele</span>
-            </div>
-          </div>
+          {renderOfficialsTable(secretaries, 'Keine Sekretäre gefunden')}
         </div>
       </div>
     </div>

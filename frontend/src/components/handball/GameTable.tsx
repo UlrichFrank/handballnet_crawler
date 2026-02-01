@@ -45,7 +45,7 @@ export function GameTable({ league, teamName }: GameTableProps) {
 
   if (error) {
     return (
-      <div className="bg-red-50 border border-red-200 rounded-lg p-4 text-red-700">
+      <div className="bg-red-50 dark:bg-red-950 border border-red-200 dark:border-red-900 rounded-lg p-4 text-red-700 dark:text-red-200">
         <strong>Error:</strong> {error}
       </div>
     );
@@ -53,7 +53,7 @@ export function GameTable({ league, teamName }: GameTableProps) {
 
   if (teamGames.length === 0) {
     return (
-      <div className="bg-yellow-50 border border-yellow-200 rounded-lg p-4 text-yellow-700">
+      <div className="bg-yellow-50 dark:bg-yellow-950 border border-yellow-200 dark:border-yellow-900 rounded-lg p-4 text-yellow-700 dark:text-yellow-200">
         No games found for this team.
       </div>
     );

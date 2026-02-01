@@ -36,15 +36,23 @@ DATE_TO = config['crawler']['date_to']
 # Get leagues to process from command-line argument or use all configured leagues
 if len(sys.argv) > 1:
     league_name_arg = sys.argv[1]
-    # Find the specific league config
+    # Find the specific league config - exact match on 'name' field
     league_config = None
     for league in config['leagues']:
         if league['name'] == league_name_arg:
             league_config = league
             break
+    
     if not league_config:
-        print(f"Error: League '{league_name_arg}' not found in config")
+        print(f"Error: League '{league_name_arg}' not found")
+        print(f"\nUsage:")
+        print(f"  python3 scraper.py                    # All leagues")
+        print(f"  python3 scraper.py <league_name>      # Specific league")
+        print(f"\nAvailable leagues:")
+        for league in config['leagues']:
+            print(f"  - {league['name']}")
         sys.exit(1)
+    
     leagues_to_process = [league_config]
 else:
     # Process all configured leagues

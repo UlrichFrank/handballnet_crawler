@@ -36,12 +36,24 @@ export function StatCell({
     }
   }
 
+  // Determine hover class based on base background
+  let hoverClass = '';
+  if (bgClass.includes('bg-white')) {
+    hoverClass = 'hover:bg-blue-50';
+  } else if (bgClass.includes('bg-gray-50')) {
+    hoverClass = 'hover:bg-blue-100';
+  } else if (bgClass.includes('dark:bg-slate-900')) {
+    hoverClass = 'dark:hover:bg-slate-700';
+  } else if (bgClass.includes('dark:bg-slate-800')) {
+    hoverClass = 'dark:hover:bg-slate-600';
+  }
+
   const bgColorClass = total ? 'bg-yellow-100 dark:bg-amber-900 text-gray-900 dark:text-amber-100' : (bgClass || className);
   const textClass = bold ? 'font-bold' : '';
 
   return (
     <td
-      className={`px-2 py-2 text-center text-sm border border-gray-200 dark:border-slate-700 ${bgColorClass} ${textClass}`}
+      className={`px-2 py-2 text-center text-sm border border-gray-200 dark:border-slate-700 ${bgColorClass} ${hoverClass} ${textClass}`}
       style={{ minWidth: '40px' }}
     >
       {displayValue}

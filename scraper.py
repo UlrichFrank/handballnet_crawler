@@ -649,6 +649,92 @@ def scrape_all_games(driver, games_with_teams, league_config=None):
     
     return games
 
+def get_last_scraped_date(liga_id):
+    """Get the last date that was already scraped for this league."""
+    data_dir = Path('frontend/public/data') / liga_id
+    if not data_dir.exists():
+        return None
+    
+    # Find latest Spieltag
+    spieltag_files = sorted(list(data_dir.glob('spieltag_*.json')))
+    if not spieltag_files:
+        return None
+    
+    # Parse latest Spieltag
+    latest_file = spieltag_files[-1]
+    try:
+        with open(latest_file, 'r') as f:
+            data = json.load(f)
+        
+        if not data.get('games'):
+            return None
+        
+        # Find max date in games
+        from datetime import datetime
+        dates = []
+        for game in data['games']:
+            date_str = game.get('date', '')
+            # Parse date like "Sa, 20.09."
+            if date_str:
+                try:
+                    # Convert "Sa, 20.09." to datetime for comparison
+                    day, month = date_str.split()[-2].split('.')
+                    dates.append((int(day), int(month)))
+                except:
+                    pass
+        
+        if dates:
+            max_day, max_month = max(dates)
+            return (max_month, max_day)
+    except:
+        pass
+    
+    return None
+
+def should_scrape_league(liga_id, date_from, date_to):
+    """Determine if we need to scrape this league and if so, what dates to focus on."""
+    from datetime import datetime
+    
+    # Parse date strings like "2025-09-13"
+    try:
+        from_date = datetime.strptime(date_from, '%Y-%m-%d').date()
+        to_date = datetime.strptime(date_to, '%Y-%m-%d').date()
+    except:
+        print(f"⚠️  Invalid date format. Using defaults.")
+        return True, date_from, date_to
+    
+    # If to_date is in future, use today instead
+    today = datetime.now().date()
+    if to_date > today:
+        to_date = today
+    
+    last_scraped = get_last_scraped_date(liga_id)
+    
+    if last_scraped is None:
+        # Never scraped before - start from configured date
+        print(f"   📅 First scrape: Starting from {date_from}")
+        return True, date_from, date_to.strftime('%Y-%m-%d') if hasattr(date_to, 'strftime') else date_to
+    
+    # Already scraped - check if there are new dates
+    last_month, last_day = last_scraped
+    current_year = datetime.now().year
+    
+    # Simple check: if last scraped is before today's date, scrape again
+    if (last_month, last_day) < (to_date.month, to_date.day):
+        # Calculate next day to start from
+        next_day = last_day + 1
+        next_month = last_month
+        if next_day > 28:  # Simple heuristic
+            next_day = 1
+            next_month += 1
+        
+        new_from = f"{current_year}-{next_month:02d}-{next_day:02d}"
+        print(f"   📅 Incremental scrape: Last had data up to {last_month}.{last_day}., continuing from {new_from}")
+        return True, new_from, to_date.strftime('%Y-%m-%d')
+    
+    print(f"   ⏭️  All data already scraped up to {last_month}.{last_day}.")
+    return False, date_from, date_to.strftime('%Y-%m-%d')
+
 def scrape_league(driver, league_config):
     """Scrape a single league"""
     league_name = league_config['name']
@@ -656,11 +742,28 @@ def scrape_league(driver, league_config):
     out_name = league_config['out_name']
     league_id = f"handball4all.baden-wuerttemberg.{league_name}"
     
+    # Determine Liga ID for data folder
+    if 'c_jugend' in out_name or 'c-jugend' in out_name.lower():
+        data_liga_id = 'c_jugend'
+    elif 'd_jugend' in out_name or 'd-jugend' in out_name.lower():
+        data_liga_id = 'd_jugend'
+    else:
+        data_liga_id = out_name.replace('spiele_', '')
+    
     print(f"\n{'=' * 70}")
     print(f"SCRAPING: {league_display_name}")
     print(f"League ID: {league_id}")
     print(f"Output: {out_name}.json")
     print(f"{'=' * 70}\n")
+    
+    # Check what dates need to be scraped
+    should_scrape, scrape_from, scrape_to = should_scrape_league(data_liga_id, DATE_FROM, DATE_TO)
+    
+    if not should_scrape:
+        print(f"✅ No new data needed for {league_display_name} (already up to date)")
+        return
+    
+    print(f"📅 Scraping from {scrape_from} to {scrape_to}\n")
     
     # Get all game IDs with team info from Spielplan
     print("🌐 FETCHING GAMES FROM SPIELPLAN")
@@ -720,7 +823,6 @@ def save_to_frontend_data(out_name, games):
         print(f"⚠️  Could not determine Liga from {out_name}")
         return
     
-    # Find next Spieltag number
     data_dir = Path('frontend/public/data') / liga_id
     data_dir.mkdir(parents=True, exist_ok=True)
     
@@ -729,14 +831,34 @@ def save_to_frontend_data(out_name, games):
         for f in data_dir.glob('spieltag_*.json')
     ]) if data_dir.exists() else []
     
-    next_spieltag = (existing_spieltage[-1] + 1) if existing_spieltage else 1
-    
-    # Save as new Spieltag
-    output_file = data_dir / f'spieltag_{next_spieltag}.json'
-    with open(output_file, 'w') as f:
-        json.dump({'games': games}, f, indent=2)
-    
-    print(f"✅ Saved to frontend: {output_file}")
+    if not existing_spieltage:
+        # First Spieltag
+        spieltag_num = 1
+        output_file = data_dir / f'spieltag_{spieltag_num}.json'
+        with open(output_file, 'w') as f:
+            json.dump({'games': games}, f, indent=2)
+        print(f"✅ Created: {output_file} ({len(games)} games)")
+    else:
+        # Merge with latest Spieltag
+        latest_spieltag = existing_spieltage[-1]
+        spieltag_file = data_dir / f'spieltag_{latest_spieltag}.json'
+        
+        with open(spieltag_file, 'r') as f:
+            existing_data = json.load(f)
+        
+        existing_games = existing_data.get('games', [])
+        existing_ids = {g.get('game_id') for g in existing_games}
+        
+        # Add only new games
+        new_games = [g for g in games if g.get('game_id') not in existing_ids]
+        
+        if new_games:
+            merged_games = existing_games + new_games
+            with open(spieltag_file, 'w') as f:
+                json.dump({'games': merged_games}, f, indent=2)
+            print(f"✅ Updated: {spieltag_file} (+{len(new_games)} new games, total: {len(merged_games)})")
+        else:
+            print(f"✅ No new games to add to: {spieltag_file}")
     
     # Update meta index
     update_meta_index()

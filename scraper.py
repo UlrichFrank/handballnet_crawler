@@ -705,6 +705,78 @@ def scrape_league(driver, league_config):
         json.dump(output, f, indent=2)
     
     print(f"\n✅ Saved: {output_file}")
+    
+    # Also save to frontend data structure
+    save_to_frontend_data(out_name, games_sorted)
+
+def save_to_frontend_data(out_name, games):
+    """Save scraped games to frontend public data structure (by Spieltag)."""
+    # Determine Liga ID from out_name
+    if 'c_jugend' in out_name or 'c-jugend' in out_name.lower():
+        liga_id = 'c_jugend'
+    elif 'd_jugend' in out_name or 'd-jugend' in out_name.lower():
+        liga_id = 'd_jugend'
+    else:
+        print(f"⚠️  Could not determine Liga from {out_name}")
+        return
+    
+    # Find next Spieltag number
+    data_dir = Path('frontend/public/data') / liga_id
+    data_dir.mkdir(parents=True, exist_ok=True)
+    
+    existing_spieltage = sorted([
+        int(f.stem.split('_')[1])
+        for f in data_dir.glob('spieltag_*.json')
+    ]) if data_dir.exists() else []
+    
+    next_spieltag = (existing_spieltage[-1] + 1) if existing_spieltage else 1
+    
+    # Save as new Spieltag
+    output_file = data_dir / f'spieltag_{next_spieltag}.json'
+    with open(output_file, 'w') as f:
+        json.dump({'games': games}, f, indent=2)
+    
+    print(f"✅ Saved to frontend: {output_file}")
+    
+    # Update meta index
+    update_meta_index()
+
+def update_meta_index():
+    """Update meta.json with all available Spieltage."""
+    meta_file = Path('frontend/public/data/meta.json')
+    meta_file.parent.mkdir(parents=True, exist_ok=True)
+    
+    meta = {
+        'last_updated': datetime.now().isoformat() + 'Z',
+        'leagues': {}
+    }
+    
+    data_dir = Path('frontend/public/data')
+    liga_names = {
+        'c_jugend': 'C-Jugend (MC-OL 3)',
+        'd_jugend': 'D-Jugend (Landesliga)'
+    }
+    
+    for liga_folder in sorted(data_dir.iterdir()):
+        if not liga_folder.is_dir():
+            continue
+        
+        spieltage = sorted([
+            int(f.stem.split('_')[1])
+            for f in liga_folder.glob('spieltag_*.json')
+        ])
+        
+        if spieltage:
+            meta['leagues'][liga_folder.name] = {
+                'name': liga_names.get(liga_folder.name, liga_folder.name),
+                'spieltage': spieltage,
+                'last_updated': datetime.now().isoformat() + 'Z'
+            }
+    
+    with open(meta_file, 'w') as f:
+        json.dump(meta, f, indent=2)
+    
+    print(f"✅ Updated meta.json")
 
 def main():
     driver = None

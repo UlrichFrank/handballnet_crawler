@@ -8,7 +8,7 @@ interface MetaIndex {
   leagues: {
     [key: string]: {
       name: string;
-      spieltage: number[];
+      spieltage: string[];
       last_updated: string;
     };
   };
@@ -52,12 +52,7 @@ class DataService {
     return config.leagues;
   }
 
-  async getGameData(outName: string, spieltag: number = 1): Promise<GameData> {
-    const cacheKey = `${outName}_${spieltag}`;
-    if (this.gameDataCache.has(cacheKey)) {
-      return this.gameDataCache.get(cacheKey)!;
-    }
-
+  async getGameData(outName: string, spieltag: string | null = null): Promise<GameData> {
     // Mappe outName zu Liga-ID (c_jugend, d_jugend)
     let ligaId = outName;
     if (outName.includes('MC-OL') || outName.includes('mc-ol')) {
@@ -66,10 +61,28 @@ class DataService {
       ligaId = 'd_jugend';
     }
 
-    // Lade Spieltag JSON
-    const response = await fetch(`/hb_grabber/data/${ligaId}/spieltag_${spieltag}.json?t=${Date.now()}`);
+    // Wenn kein Spieltag angegeben, lade den letzten
+    let spieltagFile = spieltag;
+    if (!spieltagFile) {
+      const meta = await this.loadMeta();
+      const liga = meta.leagues[ligaId];
+      if (liga && liga.spieltage && liga.spieltage.length > 0) {
+        // Lade letzten Spieltag (yyyymmdd)
+        spieltagFile = liga.spieltage[liga.spieltage.length - 1];
+      } else {
+        throw new Error(`No Spieltag data available for ${outName}`);
+      }
+    }
+
+    const cacheKey = `${outName}_${spieltagFile}`;
+    if (this.gameDataCache.has(cacheKey)) {
+      return this.gameDataCache.get(cacheKey)!;
+    }
+
+    // Lade Spieltag JSON (format: yyyymmdd.json)
+    const response = await fetch(`/hb_grabber/data/${ligaId}/${spieltagFile}.json?t=${Date.now()}`);
     if (!response.ok) {
-      throw new Error(`Failed to load game data for ${outName}, Spieltag ${spieltag}: ${response.statusText}`);
+      throw new Error(`Failed to load game data for ${outName}, Spieltag ${spieltagFile}: ${response.statusText}`);
     }
     const data = await response.json();
     this.gameDataCache.set(cacheKey, data);

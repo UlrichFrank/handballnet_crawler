@@ -236,28 +236,18 @@ class DataService {
     secretaries: Map<string, { count: number; games: Array<{ date: string; home: string; away: string; score: string }> }>;
   }> {
     const gameData = await this.getGameData(outName);
-    console.log('[dataService] getAllOfficials - games count:', gameData.games.length);
     
     const referees = new Map<string, { count: number; games: Array<{ date: string; home: string; away: string; score: string }> }>();
     const timekeepers = new Map<string, { count: number; games: Array<{ date: string; home: string; away: string; score: string }> }>();
     const secretaries = new Map<string, { count: number; games: Array<{ date: string; home: string; away: string; score: string }> }>();
 
-    gameData.games.forEach((game: any, idx: number) => {
+    gameData.games.forEach((game: any) => {
       const gameInfo = {
         date: game.date,
         home: game.home.team_name,
         away: game.away.team_name,
         score: game.final_score || '?:?',
       };
-
-      // Debug: log first 3 games to see if officials exist
-      if (idx < 3) {
-        console.log(`[dataService] Game ${idx}:`, {
-          game_id: game.game_id,
-          has_officials: !!game.officials,
-          officials: game.officials,
-        });
-      }
 
       if (game.officials) {
         // Count referees with games
@@ -292,7 +282,6 @@ class DataService {
       }
     });
 
-    console.log('[dataService] Final officials - referees:', referees.size, 'timekeepers:', timekeepers.size, 'secretaries:', secretaries.size);
     return { referees, timekeepers, secretaries };
   }
 }

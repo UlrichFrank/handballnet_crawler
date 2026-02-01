@@ -1,18 +1,20 @@
-import { Button } from '@radix-ui/themes'
-import { MoonIcon, SunIcon } from '@radix-ui/react-icons'
-import { useTheme } from '../contexts/ThemeContext'
+import { MoonIcon, SunIcon } from '@radix-ui/react-icons';
+import { useTheme } from '../contexts/ThemeContext';
 
 export const ThemeToggle = () => {
-  const { theme, toggleTheme } = useTheme()
+  const { theme, toggleTheme } = useTheme();
 
   return (
-    <Button
-      variant="ghost"
-      size="2"
+    <button
       onClick={toggleTheme}
-      style={{ borderRadius: '6px' }}
+      className="p-2 rounded-lg bg-gray-200 dark:bg-slate-800 hover:bg-gray-300 dark:hover:bg-slate-700 transition-colors"
+      aria-label="Toggle theme"
     >
-      {theme === 'dark' ? <SunIcon /> : <MoonIcon />}
-    </Button>
-  )
+      {theme === 'dark' ? (
+        <SunIcon className="w-5 h-5 text-yellow-500" />
+      ) : (
+        <MoonIcon className="w-5 h-5 text-gray-700" />
+      )}
+    </button>
+  );
 }

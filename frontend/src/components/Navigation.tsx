@@ -1,4 +1,3 @@
-import { Flex, Button } from '@radix-ui/themes';
 import { NavLink, useLocation } from 'react-router-dom';
 import { BarChartIcon, TableIcon } from '@radix-ui/react-icons';
 import { LeagueSelector } from './handball/LeagueSelector';
@@ -34,32 +33,28 @@ export function Navigation() {
   };
 
   return (
-    <Flex gap="4" wrap="wrap" align="center" justify="between">
-      <Flex gap="4" wrap="wrap">
+    <div className="flex gap-4 wrap items-center justify-between">
+      <div className="flex gap-4 wrap items-center">
         {navigationItems.map((item) => {
           const Icon = item.icon;
           const active = isActive(item.path);
           
           return (
-            <Button
+            <NavLink
               key={item.path}
-              asChild
-              variant="ghost"
-              size="2"
-              color={active ? "blue" : "gray"}
-              style={{ 
-                backgroundColor: active ? 'var(--accent-3)' : 'transparent',
-                minWidth: 'fit-content'
-              }}
+              to={item.path}
+              className={`flex items-center gap-2 px-4 py-2 rounded-lg font-medium transition-colors ${
+                active
+                  ? 'bg-blue-100 dark:bg-blue-900 text-blue-900 dark:text-blue-100'
+                  : 'bg-transparent text-gray-700 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-slate-800'
+              }`}
             >
-              <NavLink to={item.path} style={{ textDecoration: 'none' }}>
-                <Icon />
-                {item.label}
-              </NavLink>
-            </Button>
+              <Icon className="w-4 h-4" />
+              {item.label}
+            </NavLink>
           );
         })}
-      </Flex>
+      </div>
       
       <div style={{ minWidth: '250px' }}>
         <LeagueSelector
@@ -68,6 +63,6 @@ export function Navigation() {
           onLeagueChange={setSelectedLeague}
         />
       </div>
-    </Flex>
+    </div>
   );
 }

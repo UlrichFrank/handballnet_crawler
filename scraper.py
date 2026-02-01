@@ -478,6 +478,75 @@ def extract_spielbericht_pdf_url(driver, game_id):
         print(f"       {traceback.format_exc().split(chr(10))[-2]}")
         return None
 
+def extract_officials_from_info(driver, game_id):
+    """
+    Extract officials (Schiedsrichter, Zeitnehmer, Sekretär) from the game's SPIELINFO page.
+    Tries multiple HTML structures to find the officials.
+    
+    Returns:
+        dict with keys: 'referees', 'timekeepers', 'secretaries' (or None if not found)
+    """
+    try:
+        url = f"{BASE_URL}/spiele/{game_id}/info"
+        driver.get(url)
+        time.sleep(0.3)
+        
+        soup = BeautifulSoup(driver.page_source, 'html.parser')
+        
+        officials = {
+            'referees': [],
+            'timekeepers': [],
+            'secretaries': []
+        }
+        
+        # Strategy 1: Look for <li class="w-full"> elements with category + name divs
+        list_items = soup.find_all('li', class_='w-full')
+        
+        for li in list_items:
+            divs = li.find_all('div')
+            if len(divs) >= 2:
+                category_div = divs[0]
+                name_div = divs[1]
+                
+                category_text = category_div.get_text(strip=True)
+                name_text = name_div.get_text(strip=True)
+                
+                if not category_text or not name_text:
+                    continue
+                
+                # Validate: category must have official keywords, name must NOT
+                has_category_keyword = any(kw in category_text for kw in ['Schiedsrichter', 'Zeitnehmer', 'Sekretär', 'Sekreter'])
+                has_name_keyword = any(kw in name_text for kw in ['Schiedsrichter', 'Zeitnehmer', 'Sekretär', 'Sekreter'])
+                
+                if not has_category_keyword or has_name_keyword:
+                    continue
+                
+                # Clean up concatenated names like "MarcBeck" → "Marc Beck"
+                name_text = re.sub(r'([a-z])([A-Z])', r'\1 \2', name_text)
+                
+                # Add to officials
+                if 'Schiedsrichter' in category_text:
+                    officials['referees'].append(name_text)
+                elif 'Zeitnehmer' in category_text:
+                    officials['timekeepers'].append(name_text)
+                elif 'Sekretär' in category_text or 'Sekreter' in category_text:
+                    officials['secretaries'].append(name_text)
+        
+        # Return officials only if we found any valid ones (not labels)
+        if officials['referees'] or officials['timekeepers'] or officials['secretaries']:
+            # Final filter: remove any remaining labels
+            officials['referees'] = [r for r in officials['referees'] if 'Schiedsrichter' not in r and 'Zeitnehmer' not in r and 'Sekretär' not in r]
+            officials['timekeepers'] = [t for t in officials['timekeepers'] if 'Schiedsrichter' not in t and 'Zeitnehmer' not in t and 'Sekretär' not in t]
+            officials['secretaries'] = [s for s in officials['secretaries'] if 'Schiedsrichter' not in s and 'Zeitnehmer' not in s and 'Sekretär' not in s]
+            
+            if officials['referees'] or officials['timekeepers'] or officials['secretaries']:
+                return officials
+        
+        return None
+    
+    except Exception as e:
+        return None
+
 def scrape_all_games(driver, games_with_teams, league_config=None):
     """Scrape all games and return game-centric data - use Spielplan order"""
     games = []
@@ -545,6 +614,9 @@ def scrape_all_games(driver, games_with_teams, league_config=None):
                     home_players = add_seven_meters_to_players(home_players, seven_meter_data)
                     away_players = add_seven_meters_to_players(away_players, seven_meter_data)
             
+            # Extract officials from /info page
+            officials = extract_officials_from_info(driver, game_id)
+            
             # Calculate final score from goals
             home_score = len([g for g in goals_timeline if g['team'] == 'home'])
             away_score = len([g for g in goals_timeline if g['team'] == 'away'])
@@ -564,7 +636,8 @@ def scrape_all_games(driver, games_with_teams, league_config=None):
                 'goals_timeline': goals_timeline,
                 'final_score': f"{home_score}:{away_score}",
                 'half_duration': half_duration,
-                'age_group': age_group
+                'age_group': age_group,
+                'officials': officials
             }
             
             
@@ -652,3 +725,4 @@ def main():
 
 if __name__ == '__main__':
     main()
+

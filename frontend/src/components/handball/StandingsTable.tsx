@@ -12,6 +12,8 @@ interface TeamStanding {
   goalsAgainst: number;
   goalDiff: number;
   points: number;
+  pointsFor: number;
+  pointsAgainst: number;
 }
 
 interface StandingsTableProps {
@@ -36,7 +38,9 @@ export function StandingsTable({ league }: StandingsTableProps) {
             draws = 0,
             losses = 0,
             goalsFor = 0,
-            goalsAgainst = 0;
+            goalsAgainst = 0,
+            pointsFor = 0,
+            pointsAgainst = 0;
 
           teamGames.forEach((game) => {
             const [homeGoals, awayGoals] = game.score.split(':').map(Number);
@@ -45,15 +49,35 @@ export function StandingsTable({ league }: StandingsTableProps) {
             if (isHome) {
               goalsFor += homeGoals;
               goalsAgainst += awayGoals;
-              if (homeGoals > awayGoals) wins++;
-              else if (homeGoals < awayGoals) losses++;
-              else draws++;
+              if (homeGoals > awayGoals) {
+                wins++;
+                pointsFor += 2;
+                pointsAgainst += 0;
+              } else if (homeGoals < awayGoals) {
+                losses++;
+                pointsFor += 0;
+                pointsAgainst += 2;
+              } else {
+                draws++;
+                pointsFor += 1;
+                pointsAgainst += 1;
+              }
             } else {
               goalsFor += awayGoals;
               goalsAgainst += homeGoals;
-              if (awayGoals > homeGoals) wins++;
-              else if (awayGoals < homeGoals) losses++;
-              else draws++;
+              if (awayGoals > homeGoals) {
+                wins++;
+                pointsFor += 2;
+                pointsAgainst += 0;
+              } else if (awayGoals < homeGoals) {
+                losses++;
+                pointsFor += 0;
+                pointsAgainst += 2;
+              } else {
+                draws++;
+                pointsFor += 1;
+                pointsAgainst += 1;
+              }
             }
           });
 
@@ -70,6 +94,8 @@ export function StandingsTable({ league }: StandingsTableProps) {
             goalsAgainst,
             goalDiff,
             points,
+            pointsFor,
+            pointsAgainst,
           };
         });
 
@@ -81,6 +107,7 @@ export function StandingsTable({ league }: StandingsTableProps) {
         });
 
         setStandings(standingsData);
+        console.log('[StandingsTable] Loaded standings:', standingsData[0]);
       } catch (err) {
         setError(err instanceof Error ? err.message : 'Failed to load standings');
       } finally {
@@ -119,9 +146,7 @@ export function StandingsTable({ league }: StandingsTableProps) {
             <th className="px-4 py-3 text-center text-sm font-bold">U</th>
             <th className="px-4 py-3 text-center text-sm font-bold">N</th>
             <th className="px-4 py-3 text-center text-sm font-bold">T</th>
-            <th className="px-4 py-3 text-center text-sm font-bold">G</th>
             <th className="px-4 py-3 text-center text-sm font-bold">+/-</th>
-            <th className="px-4 py-3 text-center text-sm font-bold">Punkte</th>
           </tr>
         </thead>
         <tbody>
@@ -149,15 +174,12 @@ export function StandingsTable({ league }: StandingsTableProps) {
                 {standing.losses}
               </td>
               <td className="px-4 py-3 text-center text-gray-900 dark:text-gray-100 border-b border-gray-200 dark:border-slate-700">
-                {standing.goalsFor}:{standing.goalsAgainst}
+                {standing.goalsFor}:{standing.goalsAgainst} <span className={standing.goalDiff > 0 ? 'text-green-600 dark:text-green-400 font-semibold' : standing.goalDiff < 0 ? 'text-red-600 dark:text-red-400 font-semibold' : 'text-gray-500'}>({standing.goalDiff > 0 ? '+' : ''}{standing.goalDiff})</span>
               </td>
               <td className="px-4 py-3 text-center text-gray-900 dark:text-gray-100 border-b border-gray-200 dark:border-slate-700">
-                <span className={standing.goalDiff > 0 ? 'text-green-600 dark:text-green-400' : standing.goalDiff < 0 ? 'text-red-600 dark:text-red-400' : ''}>
-                  {standing.goalDiff > 0 ? '+' : ''}{standing.goalDiff}
-                </span>
-              </td>
-              <td className="px-4 py-3 text-center font-bold text-yellow-700 dark:text-yellow-400 border-b border-gray-200 dark:border-slate-700 bg-yellow-100 dark:bg-amber-900/30">
-                {standing.points}
+                <span>{standing.pointsFor}</span>
+                <span className="text-gray-400 dark:text-gray-500 mx-1">/</span>
+                <span>{standing.pointsAgainst}</span>
               </td>
             </tr>
           ))}

@@ -13,12 +13,15 @@ function AppContent() {
 
     // Apply theme class to HTML element
     useEffect(() => {
+        console.log('[AppContent useEffect] theme changed to:', theme)
         const html = document.documentElement;
         
         if (theme === 'dark') {
-            html.setAttribute('class', 'dark');
+            html.classList.add('dark');
+            console.log('[AppContent] Added dark class, HTML now:', html.className)
         } else {
-            html.setAttribute('class', '');
+            html.classList.remove('dark');
+            console.log('[AppContent] Removed dark class, HTML now:', html.className)
         }
     }, [theme]);
 

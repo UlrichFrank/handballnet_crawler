@@ -33,7 +33,6 @@ export function OfficialsPage() {
       try {
         setLoading(true);
         const officials = await dataService.getAllOfficials(selectedLeague.out_name);
-        console.log('[OfficialsPage] Loaded officials:', officials);
 
         // Convert maps to sorted arrays
         setReferees(

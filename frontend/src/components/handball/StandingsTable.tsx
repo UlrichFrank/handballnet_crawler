@@ -107,7 +107,6 @@ export function StandingsTable({ league }: StandingsTableProps) {
         });
 
         setStandings(standingsData);
-        console.log('[StandingsTable] Loaded standings:', standingsData[0]);
       } catch (err) {
         setError(err instanceof Error ? err.message : 'Failed to load standings');
       } finally {

@@ -727,7 +727,7 @@ def scrape_league(driver, league_config):
     print(f"\n{'=' * 70}")
     print(f"SCRAPING: {league_display_name}")
     print(f"League ID: {league_id}")
-    print(f"Output: {out_name}.json")
+    print(f"Output: frontend/public/data/{data_liga_id}/*.json (by date)")
     print(f"{'=' * 70}\n")
     
     # Check what dates need to be scraped
@@ -772,18 +772,10 @@ def scrape_league(driver, league_config):
         total = home_count + away_count
         print(f"  {team}: {home_count} Home + {away_count} Away = {total}")
     
-    # Save to JSON (sorted by order)
+    # Save to JSON (sorted by order) - directly to frontend data structure
     games_sorted = sorted(games, key=lambda g: g.get('order', float('inf')))
-    output = {'games': games_sorted}
-    Path('output').mkdir(exist_ok=True)
     
-    output_file = f'output/{out_name}.json'
-    with open(output_file, 'w') as f:
-        json.dump(output, f, indent=2)
-    
-    print(f"\n✅ Saved: {output_file}")
-    
-    # Also save to frontend data structure
+    # Save to frontend data structure (yyyymmdd.json format)
     save_to_frontend_data(out_name, games_sorted)
 
 def group_games_by_date(games):

@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react';
 import { Card } from '../components/ui/card';
+import { dataService } from '../services/dataService';
 
 interface MetaData {
   last_updated: string;
@@ -21,33 +22,7 @@ export function StatusPage() {
     const loadMetaData = async () => {
       try {
         setLoading(true);
-        // Try multiple paths
-        const pathsToTry = [
-          '/hb_grabber/data/meta.json',
-          '/data/meta.json',
-          './data/meta.json',
-        ];
-        
-        let response = null;
-        let lastError = null;
-        
-        for (const path of pathsToTry) {
-          try {
-            response = await fetch(path);
-            if (response.ok) {
-              console.log(`✅ Successfully loaded meta.json from: ${path}`);
-              break;
-            }
-          } catch (err) {
-            lastError = err;
-          }
-        }
-        
-        if (!response || !response.ok) {
-          throw new Error(`Failed to load meta.json from any path. Last error: ${lastError}`);
-        }
-        
-        const data = await response.json();
+        const data = await dataService.loadMeta();
         setMeta(data);
         setError(null);
       } catch (err) {

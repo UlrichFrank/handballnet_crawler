@@ -18,7 +18,7 @@ export function GameTable({ league, teamName }: GameTableProps) {
     const loadData = async () => {
       try {
         setLoading(true);
-        const data = await dataService.getGameData(league.out_name);
+        const data = await dataService.getAggregatedGameData(league.out_name);
 
         const games = dataService.getTeamGames(data, teamName);
         setTeamGames(games);

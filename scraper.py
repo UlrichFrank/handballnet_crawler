@@ -110,6 +110,9 @@ def setup_driver():
         if os.path.exists(chrome_path):
             options.binary_location = chrome_path
             driver = webdriver.Chrome(options=options)
+            # Set timeouts
+            driver.set_page_load_timeout(30)  # Page load timeout: 30 seconds
+            driver.implicitly_wait(10)  # Implicit wait: 10 seconds
             print(f"✓ Using system Chrome: {chrome_path}")
             
             # Apply SSL certificate for system Chrome
@@ -127,6 +130,9 @@ def setup_driver():
     try:
         print("[Chrome] Initializing ChromeDriver via Selenium's built-in manager...")
         driver = webdriver.Chrome(options=options)
+        # Set timeouts
+        driver.set_page_load_timeout(30)  # Page load timeout: 30 seconds
+        driver.implicitly_wait(10)  # Implicit wait: 10 seconds
         print(f"✓ ChromeDriver initialized successfully")
         
         # Apply SSL certificate for subsequent requests
@@ -264,6 +270,49 @@ def extract_game_ids_from_spielplan(driver, league_id):
             break
     
     return games_with_teams
+
+def parse_date_to_yyyymmdd(date_text):
+    """
+    Convert date text like "Sa, 20.09." to yyyymmdd format.
+    Handles handball season spanning Sep-May across two calendar years.
+    """
+    from datetime import datetime
+    
+    now = datetime.now()
+    current_year = now.year
+    current_month = now.month
+    
+    try:
+        # Handle "Heute" (today)
+        if date_text == "Heute" or "Heute" in date_text:
+            return now.strftime('%Y%m%d')
+        
+        # Format: "Sa, 20.09." → split by comma
+        if ',' in date_text:
+            date_part = date_text.split(',')[1].strip()
+        else:
+            date_part = date_text
+        
+        # Parse "20.09." → extract day and month
+        day_month = date_part.split('.')
+        day = int(day_month[0])
+        month = int(day_month[1])
+        
+        # Determine year based on handball season (Sep-May spans two calendar years)
+        if current_month <= 8 and month >= 9:
+            # Current time is Jan-Aug, match is Sep-Dec → use previous year
+            year = current_year - 1
+        elif current_month >= 9 and month <= 8:
+            # Current time is Sep-Dec, match is Jan-Aug → use next year
+            year = current_year + 1
+        else:
+            # Same calendar year
+            year = current_year
+        
+        return f"{year}{month:02d}{day:02d}"
+    except Exception as e:
+        print(f"  ⚠️  Could not parse date: '{date_text}' - {e}")
+        return None
 
 def extract_players_from_aufstellung(html):
     """Extract players from AUFSTELLUNG page - match tables to team names"""
@@ -406,9 +455,16 @@ def extract_spielbericht_pdf_url(driver, game_id):
     try:
         # Navigate to SPIELINFO page where the Spielbericht download link is
         url = f"{BASE_URL}/spiele/{game_id}/info"
-        print(f"    🔍 Checking SPIELINFO page for PDF...")
-        driver.get(url)
-        time.sleep(0.5)
+        print(f"    🔍 PDF Check...", end='', flush=True)
+        
+        try:
+            driver.get(url)
+            time.sleep(0.3)
+        except Exception as e:
+            print(f" (timeout/error: {str(e)[:20]})", flush=True)
+            return None
+        
+        print(f" ok", flush=True)
         
         soup = BeautifulSoup(driver.page_source, 'html.parser')
         
@@ -445,8 +501,11 @@ def extract_spielbericht_pdf_url(driver, game_id):
             spielbericht_url = spielbericht_link
         
         # Follow the Spielbericht link - it may redirect or have a form submission
-        driver.get(spielbericht_url)
-        time.sleep(1)  # Give page time to render/redirect
+        try:
+            driver.get(spielbericht_url)
+            time.sleep(0.5)
+        except Exception as e:
+            return None
         
         # Check the current URL after navigation
         current_url = driver.current_url
@@ -481,9 +540,7 @@ def extract_spielbericht_pdf_url(driver, game_id):
     
     except Exception as e:
         # Log the error for debugging
-        print(f"    ⚠️  Error fetching PDF URL: {str(e)[:80]}")
-        import traceback
-        print(f"       {traceback.format_exc().split(chr(10))[-2]}")
+        pass  # Silent fail - PDF is optional
         return None
 
 def extract_officials_from_info(driver, game_id):
@@ -566,6 +623,9 @@ def scrape_all_games(driver, games_with_teams, league_config=None):
         half_duration = league_config.get('half_duration', 30)
         age_group = league_config.get('age_group', 'Unknown')
     
+    print(f"   📝 Starting to extract game details...")
+    sys.stdout.flush()  # Force output flush
+    
     for idx, game_info in enumerate(games_with_teams, 1):
         game_id = game_info['game_id']
         spielplan_home = game_info['home_team']
@@ -575,6 +635,8 @@ def scrape_all_games(driver, games_with_teams, league_config=None):
         
         try:
             url = f"{BASE_URL}/spiele/{game_id}/aufstellung"
+            print(f"  [{idx:3d}/{len(games_with_teams)}] Loading aufstellung...")
+            sys.stdout.flush()
             driver.get(url)
             time.sleep(1)
             
@@ -651,10 +713,16 @@ def scrape_all_games(driver, games_with_teams, league_config=None):
             
             games.append(game)
             print(f"  [{idx:3d}/{len(games_with_teams)}] ✅ {date} | {home_team} ({len(home_players)}) vs {away_team} ({len(away_players)})")
+            sys.stdout.flush()  # Force flush output
         
         except Exception as e:
-            print(f"  [{idx:3d}/{len(games_with_teams)}] ❌ {game_id}: {str(e)[:40]}")
+            error_str = str(e)[:60]
+            print(f"  [{idx:3d}/{len(games_with_teams)}] ❌ {game_id}: {error_str}")
+            sys.stdout.flush()  # Force flush output
+            continue  # Continue with next game
     
+    print(f"\n   ✓ Game extraction complete. {len(games)} games processed.")
+    sys.stdout.flush()
     return games
 
 def get_last_scraped_date(liga_id):
@@ -674,17 +742,30 @@ def get_last_scraped_date(liga_id):
         return date_files[-1]
     return None
 
+def ensure_data_directories(liga_id):
+    """Create data directories for a league if they don't exist."""
+    data_dir = Path('frontend/public/data') / liga_id
+    data_dir.mkdir(parents=True, exist_ok=True)
+    print(f"📁 Verzeichnis vorbereitet: {data_dir.absolute()}")
+    return data_dir
+
 def should_scrape_league(liga_id, date_from, date_to):
-    """Determine if we need to scrape this league and what dates to focus on."""
-    from datetime import datetime
+    """
+    Determine what date range needs to be scraped.
+    
+    Returns:
+        tuple: (start_date, end_date) both as YYYY-MM-DD strings
+        If no scraping needed, start_date > end_date
+    """
+    from datetime import datetime, timedelta
     
     # Parse date strings like "2025-09-13"
     try:
         from_date = datetime.strptime(date_from, '%Y-%m-%d').date()
         to_date = datetime.strptime(date_to, '%Y-%m-%d').date()
     except:
-        print(f"⚠️  Invalid date format. Using defaults.")
-        return True, date_from, date_to
+        print(f"⚠️  Invalid date format.")
+        return to_date.strftime('%Y-%m-%d'), from_date.strftime('%Y-%m-%d')
     
     # If to_date is in future, use today instead
     today = datetime.now().date()
@@ -696,7 +777,7 @@ def should_scrape_league(liga_id, date_from, date_to):
     if last_scraped is None:
         # Never scraped before - start from configured date
         print(f"   📅 First scrape: Starting from {date_from}")
-        return True, date_from, to_date.strftime('%Y-%m-%d')
+        return date_from, to_date.strftime('%Y-%m-%d')
     
     # Parse last_scraped (yyyymmdd format)
     try:
@@ -706,139 +787,72 @@ def should_scrape_league(liga_id, date_from, date_to):
         last_date = datetime(last_year, last_month, last_day).date()
     except:
         print(f"   ⚠️  Could not parse last scraped date: {last_scraped}")
-        return True, date_from, to_date.strftime('%Y-%m-%d')
+        return date_from, to_date.strftime('%Y-%m-%d')
     
-    # If last scraped is before today, continue scraping
+    # If last scraped is before end_date, continue scraping
     if last_date < to_date:
-        next_date = last_date + __import__('datetime').timedelta(days=1)
+        next_date = last_date + timedelta(days=1)
         print(f"   📅 Incremental scrape: Last had data up to {last_date}, continuing from {next_date}")
-        return True, next_date.strftime('%Y-%m-%d'), to_date.strftime('%Y-%m-%d')
+        return next_date.strftime('%Y-%m-%d'), to_date.strftime('%Y-%m-%d')
     
-    print(f"   ⏭️  All data already scraped up to {last_date}")
-    return False, date_from, to_date.strftime('%Y-%m-%d')
+    print(f"   ✅ All data already scraped up to {last_date}")
+    # Return invalid range (start > end) to indicate no scraping needed
+    return to_date.strftime('%Y-%m-%d'), from_date.strftime('%Y-%m-%d')
 
 def scrape_league(driver, league_config):
-    """Scrape a single league"""
+    """Scrape a single league using daily iteration"""
     league_name = league_config['name']
     league_display_name = league_config['display_name']
-    out_name = league_config['out_name']
     league_id = f"handball4all.baden-wuerttemberg.{league_name}"
     
-    # Determine Liga ID for data folder
-    if 'c_jugend' in out_name or 'c-jugend' in out_name.lower():
-        data_liga_id = 'c_jugend'
-    elif 'd_jugend' in out_name or 'd-jugend' in out_name.lower():
-        data_liga_id = 'd_jugend'
-    else:
-        data_liga_id = out_name.replace('spiele_', '')
+    # Use league name as data folder ID
+    data_liga_id = league_name
     
     print(f"\n{'=' * 70}")
-    print(f"SCRAPING: {league_display_name}")
-    print(f"League ID: {league_id}")
-    print(f"Output: frontend/public/data/{data_liga_id}/*.json (by date)")
+    print(f"🏐 {league_display_name}")
+    print(f"   📁 frontend/public/data/{data_liga_id}/")
     print(f"{'=' * 70}\n")
     
-    # Check what dates need to be scraped
-    should_scrape, scrape_from, scrape_to = should_scrape_league(data_liga_id, DATE_FROM, DATE_TO)
+    # Step 1: Ensure directories exist
+    ensure_data_directories(data_liga_id)
     
-    if not should_scrape:
-        print(f"✅ No new data needed for {league_display_name} (already up to date)")
+    # Step 2: Determine what dates to scrape
+    start_date, end_date = should_scrape_league(data_liga_id, DATE_FROM, DATE_TO)
+    
+    # Check if scraping needed (start_date > end_date means already up to date)
+    if start_date > end_date:
+        print(f"✅ Already up to date\n")
         return
     
-    print(f"📅 Scraping from {scrape_from} to {scrape_to}\n")
+    # Step 3: Scrape daily
+    stats = scrape_daily(driver, data_liga_id, league_id, start_date, end_date)
     
-    # Get all game IDs with team info from Spielplan
-    print("🌐 FETCHING GAMES FROM SPIELPLAN")
-    games_info = extract_game_ids_from_spielplan(driver, league_id)
-    print(f"\n✓ Total games found: {len(games_info)}\n")
-    
-    if not games_info:
-        print(f"⚠️  No games found for {league_display_name}")
-        return
-    
-    # Scrape each game
-    print("👥 EXTRACTING GAME DETAILS")
-    games = scrape_all_games(driver, games_info, league_config)
-    
-    print(f"\n" + "=" * 70)
-    print(f"✅ SCRAPING COMPLETE for {league_display_name}")
-    print(f"=" * 70)
-    print(f"✓ {len(games)} games with complete data")
-    games_with_goals = sum(1 for g in games if g.get('goals_timeline'))
-    print(f"✓ {games_with_goals} games with goal data\n")
-    
-    # Summary
-    teams = set()
-    for game in games:
-        teams.add(game['home']['team_name'])
-        teams.add(game['away']['team_name'])
-    
-    print(f"Teams ({len(teams)}):")
-    for team in sorted(teams):
-        home_count = sum(1 for g in games if g['home']['team_name'] == team)
-        away_count = sum(1 for g in games if g['away']['team_name'] == team)
-        total = home_count + away_count
-        print(f"  {team}: {home_count} Home + {away_count} Away = {total}")
-    
-    # Save to JSON (sorted by order) - directly to frontend data structure
-    games_sorted = sorted(games, key=lambda g: g.get('order', float('inf')))
-    
-    # Save to frontend data structure (yyyymmdd.json format)
-    save_to_frontend_data(out_name, games_sorted)
+    # Step 4: Summary
+    print(f"\n{'=' * 70}")
+    print(f"✅ COMPLETE: {league_display_name}")
+    print(f"{'=' * 70}")
+    print(f"   ✓ Spieltage: {stats['spieltage_saved']}")
+    print(f"   ✓ Games: {stats['games_total']}")
+    if stats['spieltage_failed'] > 0:
+        print(f"   ⚠️  Failed: {stats['spieltage_failed']}")
+    print()
 
-def group_games_by_date(games):
-    """Group games by date (Spieltag), return dict with date keys (yyyymmdd)."""
-    from datetime import datetime
-    
-    grouped = {}
-    for game in games:
-        date_str = game.get('date', '')
-        # Parse date like "Sa, 20.09." to get month/day
-        try:
-            parts = date_str.split()
-            if len(parts) >= 2:
-                day_month = parts[-2].split('.')
-                day = int(day_month[0])
-                month = int(day_month[1])
-                # Use current year
-                year = datetime.now().year
-                date_key = f"{year}{month:02d}{day:02d}"
-                
-                if date_key not in grouped:
-                    grouped[date_key] = []
-                grouped[date_key].append(game)
-        except:
-            # If can't parse, skip
-            pass
-    
-    return grouped
 
-def save_to_frontend_data(out_name, games):
-    """Save scraped games grouped by date (yyyymmdd.json per Spieltag)."""
-    # Determine Liga ID from out_name
-    if 'c_jugend' in out_name or 'c-jugend' in out_name.lower():
-        liga_id = 'c_jugend'
-    elif 'd_jugend' in out_name or 'd-jugend' in out_name.lower():
-        liga_id = 'd_jugend'
-    else:
-        print(f"⚠️  Could not determine Liga from {out_name}")
-        return
+def save_spieltag_file(liga_id, date_yyyymmdd, games):
+    """
+    Save games for a single matchday to yyyymmdd.json file.
     
+    Args:
+        liga_id: League identifier
+        date_yyyymmdd: Date in YYYYMMDD format
+        games: List of game dictionaries
+    """
     data_dir = Path('frontend/public/data') / liga_id
     data_dir.mkdir(parents=True, exist_ok=True)
     
-    # Group games by date
-    games_by_date = group_games_by_date(games)
+    output_file = data_dir / f'{date_yyyymmdd}.json'
     
-    if not games_by_date:
-        print(f"⚠️  No games with valid dates")
-        return
-    
-    # Save each date as separate file
-    for date_key in sorted(games_by_date.keys()):
-        games_for_date = games_by_date[date_key]
-        output_file = data_dir / f'{date_key}.json'
-        
+    try:
         # Check if file already exists and merge
         if output_file.exists():
             with open(output_file, 'r') as f:
@@ -847,75 +861,268 @@ def save_to_frontend_data(out_name, games):
             existing_ids = {g.get('game_id') for g in existing_games}
             
             # Add only new games
-            new_games = [g for g in games_for_date if g.get('game_id') not in existing_ids]
+            new_games = [g for g in games if g.get('game_id') not in existing_ids]
             
             if new_games:
                 merged_games = existing_games + new_games
+                print(f"      ✍️  Writing (update): {output_file}")
+                sys.stdout.flush()
                 with open(output_file, 'w') as f:
-                    json.dump({'games': merged_games}, f, indent=2)
-                print(f"✅ Updated: {output_file} (+{len(new_games)} new, total: {len(merged_games)})")
+                    json.dump({'date': date_yyyymmdd, 'games': merged_games}, f, indent=2)
+                print(f"      ✅ Updated (+{len(new_games)} new, total: {len(merged_games)})")
+                sys.stdout.flush()
             else:
-                print(f"✅ No new games for: {output_file}")
+                print(f"      ℹ️  No new games to add")
+                sys.stdout.flush()
         else:
             # Create new file
+            print(f"      ✍️  Writing (new): {output_file}")
+            sys.stdout.flush()
             with open(output_file, 'w') as f:
-                json.dump({'games': games_for_date}, f, indent=2)
-            print(f"✅ Created: {output_file} ({len(games_for_date)} games)")
+                json.dump({'date': date_yyyymmdd, 'games': games}, f, indent=2)
+            print(f"      ✅ Created ({len(games)} games)")
+            sys.stdout.flush()
+        
+        return True
+    except Exception as e:
+        print(f"      ❌ Error saving {output_file}: {e}")
+        sys.stdout.flush()
+        return False
+
+def scrape_daily(driver, liga_id, league_id, start_date_str, end_date_str):
+    """
+    Scrape games chronologically, day by day.
     
-    # Update meta index
-    update_meta_index()
+    Args:
+        driver: Selenium WebDriver
+        liga_id: League identifier (e.g., "mc-ol-3-bw_bwhv")
+        league_id: Full league ID for handball4all
+        start_date_str: Start date (YYYY-MM-DD)
+        end_date_str: End date (YYYY-MM-DD)
+    
+    Returns:
+        dict: Statistics about scraping (games_total, spieltage_saved, errors)
+    """
+    from datetime import datetime, timedelta
+    
+    stats = {
+        'games_total': 0,
+        'spieltage_saved': 0,
+        'spieltage_failed': 0,
+        'games_with_errors': 0
+    }
+    
+    # Parse date range
+    try:
+        current_date = datetime.strptime(start_date_str, '%Y-%m-%d').date()
+        end_date = datetime.strptime(end_date_str, '%Y-%m-%d').date()
+    except Exception as e:
+        print(f"❌ Error parsing dates: {e}")
+        return stats
+    
+    print(f"\n📅 Scraping daily from {start_date_str} to {end_date_str}\n")
+    
+    # Load ALL games from Spielplan once
+    print(f"🌐 FETCHING ALL GAMES FROM SPIELPLAN")
+    try:
+        all_games_info = extract_game_ids_from_spielplan(driver, league_id)
+        print(f"\n✓ Total games found: {len(all_games_info)}\n")
+    except Exception as e:
+        print(f"❌ Error fetching games: {e}")
+        return stats
+    
+    if not all_games_info:
+        print(f"⚠️  No games found")
+        return stats
+    
+    # Iterate day by day with compression for empty days
+    empty_days_start = None
+    empty_days_count = 0
+    
+    while current_date <= end_date:
+        date_str_formatted = current_date.strftime('%Y-%m-%d')
+        date_yyyymmdd = current_date.strftime('%Y%m%d')
+        
+        # Filter games for this specific date
+        games_for_date = [g for g in all_games_info if parse_date_to_yyyymmdd(g.get('date', '')) == date_yyyymmdd]
+        
+        if not games_for_date:
+            # Track empty days
+            if empty_days_start is None:
+                empty_days_start = date_str_formatted
+            empty_days_count += 1
+            current_date += timedelta(days=1)
+            continue
+        
+        # Print accumulated empty days (if any)
+        if empty_days_count > 0:
+            empty_days_end = (current_date - timedelta(days=1)).strftime('%Y-%m-%d')
+            if empty_days_count == 1:
+                print(f"⏭️  No games: {empty_days_start}")
+            else:
+                print(f"⏭️  No games: {empty_days_start} to {empty_days_end} ({empty_days_count} days)")
+            print()
+            empty_days_start = None
+            empty_days_count = 0
+        
+        # Process day with games
+        print(f"📅 {date_str_formatted}")
+        
+        try:
+            print(f"   ✓ Found {len(games_for_date)} game(s)")
+            sys.stdout.flush()
+            
+            # Scrape details for each game
+            print(f"   👥 Scraping game details...")
+            sys.stdout.flush()
+            
+            try:
+                scraped_games = scrape_all_games(driver, games_for_date, None)
+                print(f"   ✓ Scraped {len(scraped_games)} game(s)")
+                sys.stdout.flush()
+            except Exception as e:
+                print(f"   ⚠️  Error scraping games: {e}")
+                sys.stdout.flush()
+                stats['spieltage_failed'] += 1
+                stats['games_with_errors'] += len(games_for_date)
+                current_date += timedelta(days=1)
+                continue
+            
+            # Save to file
+            print(f"   💾 Saving...")
+            sys.stdout.flush()
+            
+            if save_spieltag_file(liga_id, date_yyyymmdd, scraped_games):
+                stats['spieltage_saved'] += 1
+                stats['games_total'] += len(scraped_games)
+            else:
+                stats['spieltage_failed'] += 1
+                stats['games_with_errors'] += len(scraped_games)
+        
+        except Exception as e:
+            print(f"   ❌ Error processing day: {e}")
+            sys.stdout.flush()
+            stats['spieltage_failed'] += 1
+        
+        print()
+        current_date += timedelta(days=1)
+    
+    # Print remaining empty days
+    if empty_days_count > 0:
+        empty_days_end = (current_date - timedelta(days=1)).strftime('%Y-%m-%d')
+        if empty_days_count == 1:
+            print(f"⏭️  No games: {empty_days_start}")
+        else:
+            print(f"⏭️  No games: {empty_days_start} to {empty_days_end} ({empty_days_count} days)")
+    
+    return stats
 
 
-def update_meta_index():
-    """Update meta.json with all available Spieltage."""
+def update_meta_index(liga_id=None):
+    """
+    Update meta.json with all available Spieltage.
+    
+    Args:
+        liga_id: Optional - if provided, update only this league
+                 if None, update all leagues (slower, but complete)
+    """
+    print(f"\n🔄 Updating meta.json...")
+    sys.stdout.flush()
+    
     meta_file = Path('frontend/public/data/meta.json')
     meta_file.parent.mkdir(parents=True, exist_ok=True)
     
-    meta = {
-        'last_updated': datetime.now().isoformat() + 'Z',
-        'leagues': {}
-    }
+    # Try to load existing meta
+    if meta_file.exists():
+        with open(meta_file, 'r') as f:
+            meta = json.load(f)
+    else:
+        meta = {
+            'last_updated': datetime.now().isoformat() + 'Z',
+            'leagues': {}
+        }
+    
+    # Build a map of league names to display names from config
+    league_display_names = {}
+    for league_config in config['leagues']:
+        league_display_names[league_config['name']] = league_config['display_name']
     
     data_dir = Path('frontend/public/data')
-    liga_names = {
-        'c_jugend': 'C-Jugend (MC-OL 3)',
-        'd_jugend': 'D-Jugend (Landesliga)'
-    }
     
-    for liga_folder in sorted(data_dir.iterdir()):
-        if not liga_folder.is_dir():
-            continue
-        
-        # Find all date-based files (format: yyyymmdd.json)
-        date_files = sorted([
-            f.stem
-            for f in liga_folder.glob('*.json')
-            if f.stem.isdigit() and len(f.stem) == 8
-        ])
-        
-        if date_files:
-            meta['leagues'][liga_folder.name] = {
-                'name': liga_names.get(liga_folder.name, liga_folder.name),
-                'spieltage': date_files,
-                'last_updated': datetime.now().isoformat() + 'Z'
-            }
+    # If specific liga_id provided, update only that league
+    if liga_id:
+        liga_folder = data_dir / liga_id
+        if liga_folder.exists() and liga_folder.is_dir():
+            # Find all date-based files (format: yyyymmdd.json)
+            date_files = sorted([
+                f.stem
+                for f in liga_folder.glob('*.json')
+                if f.stem.isdigit() and len(f.stem) == 8
+            ])
+            
+            if date_files:
+                display_name = league_display_names.get(liga_id, liga_id)
+                meta['leagues'][liga_id] = {
+                    'name': display_name,
+                    'spieltage': date_files,
+                    'last_updated': datetime.now().isoformat() + 'Z'
+                }
+                print(f"   ✅ {liga_id}: {len(date_files)} Spieltag(e)")
+                sys.stdout.flush()
+    else:
+        # Update all leagues
+        for liga_folder in sorted(data_dir.iterdir()):
+            if not liga_folder.is_dir():
+                continue
+            
+            liga_id_item = liga_folder.name
+            
+            # Find all date-based files (format: yyyymmdd.json)
+            date_files = sorted([
+                f.stem
+                for f in liga_folder.glob('*.json')
+                if f.stem.isdigit() and len(f.stem) == 8
+            ])
+            
+            if date_files:
+                display_name = league_display_names.get(liga_id_item, liga_id_item)
+                meta['leagues'][liga_id_item] = {
+                    'name': display_name,
+                    'spieltage': date_files,
+                    'last_updated': datetime.now().isoformat() + 'Z'
+                }
+                print(f"   ✅ {liga_id_item}: {len(date_files)} Spieltag(e)")
+                sys.stdout.flush()
     
+    # Update timestamp
+    meta['last_updated'] = datetime.now().isoformat() + 'Z'
+    
+    print(f"   ✍️  Writing: {meta_file.absolute()}")
+    sys.stdout.flush()
     with open(meta_file, 'w') as f:
         json.dump(meta, f, indent=2)
     
-    print(f"✅ Updated meta.json")
+    print(f"   ✅ meta.json updated")
+    sys.stdout.flush()
 
 def main():
     driver = None
+    total_spieltage = 0
+    total_games = 0
+    
     try:
         driver = setup_driver()
         
         # Process each league
         for league_config in leagues_to_process:
             scrape_league(driver, league_config)
+            
+            # Update meta index after each league
+            update_meta_index(league_config['name'])
         
+        # Final summary
         print(f"\n{'=' * 70}")
-        print(f"✅ ALL LEAGUES SCRAPED")
+        print(f"✅ ALL LEAGUES COMPLETE")
         print(f"{'=' * 70}\n")
         
     finally:

@@ -52,29 +52,38 @@ class DataService {
     return config.leagues;
   }
 
-  async getGameData(outName: string, spieltag: string | null = null): Promise<GameData> {
-    // Mappe outName zu Liga-ID (c_jugend, d_jugend)
-    let ligaId = outName;
-    if (outName.includes('MC-OL') || outName.includes('mc-ol')) {
-      ligaId = 'c_jugend';
-    } else if (outName.includes('Landesliga') || outName.includes('landesliga')) {
-      ligaId = 'd_jugend';
+  async getGameData(outNameOrLeagueId: string, spieltag: string | null = null): Promise<GameData> {
+    // Accept both old format (out_name) and new format (data_folder/league name)
+    let ligaId = outNameOrLeagueId;
+    
+    // Try to resolve via meta.json leagues keys
+    const meta = await this.loadMeta();
+    if (!meta.leagues[ligaId]) {
+      // If not found, try old mapping
+      if (outNameOrLeagueId.includes('MC-OL') || outNameOrLeagueId.includes('mc-ol')) {
+        ligaId = 'mc-ol-3-bw_bwhv';
+      } else if (outNameOrLeagueId.includes('Landesliga') || outNameOrLeagueId.includes('landesliga')) {
+        ligaId = 'gd-bol-srm_srm';
+      } else if (outNameOrLeagueId.includes('c_jugend') || outNameOrLeagueId.includes('spiele_c')) {
+        ligaId = 'mc-ol-3-bw_bwhv';
+      } else if (outNameOrLeagueId.includes('d_jugend') || outNameOrLeagueId.includes('spiele_d')) {
+        ligaId = 'gd-bol-srm_srm';
+      }
     }
 
     // Wenn kein Spieltag angegeben, lade den letzten
     let spieltagFile = spieltag;
     if (!spieltagFile) {
-      const meta = await this.loadMeta();
       const liga = meta.leagues[ligaId];
       if (liga && liga.spieltage && liga.spieltage.length > 0) {
         // Lade letzten Spieltag (yyyymmdd)
         spieltagFile = liga.spieltage[liga.spieltage.length - 1];
       } else {
-        throw new Error(`No Spieltag data available for ${outName}`);
+        throw new Error(`No Spieltag data available for ${outNameOrLeagueId}`);
       }
     }
 
-    const cacheKey = `${outName}_${spieltagFile}`;
+    const cacheKey = `${ligaId}_${spieltagFile}`;
     if (this.gameDataCache.has(cacheKey)) {
       return this.gameDataCache.get(cacheKey)!;
     }
@@ -82,7 +91,7 @@ class DataService {
     // Lade Spieltag JSON (format: yyyymmdd.json)
     const response = await fetch(`/hb_grabber/data/${ligaId}/${spieltagFile}.json?t=${Date.now()}`);
     if (!response.ok) {
-      throw new Error(`Failed to load game data for ${outName}, Spieltag ${spieltagFile}: ${response.statusText}`);
+      throw new Error(`Failed to load game data for ${outNameOrLeagueId}, Spieltag ${spieltagFile}: ${response.statusText}`);
     }
     const data = await response.json();
     this.gameDataCache.set(cacheKey, data);
@@ -90,10 +99,65 @@ class DataService {
   }
 
   /**
-   * Get all unique teams for a league sorted alphabetically
+   * Get aggregated game data for entire league (all Spieltage combined)
+   */
+  async getAggregatedGameData(outNameOrLeagueId: string): Promise<GameData> {
+    let ligaId = outNameOrLeagueId;
+    
+    // Try to resolve via meta.json leagues keys
+    const meta = await this.loadMeta();
+    if (!meta.leagues[ligaId]) {
+      // If not found, try old mapping
+      if (outNameOrLeagueId.includes('MC-OL') || outNameOrLeagueId.includes('mc-ol')) {
+        ligaId = 'mc-ol-3-bw_bwhv';
+      } else if (outNameOrLeagueId.includes('Landesliga') || outNameOrLeagueId.includes('landesliga')) {
+        ligaId = 'gd-bol-srm_srm';
+      } else if (outNameOrLeagueId.includes('c_jugend') || outNameOrLeagueId.includes('spiele_c')) {
+        ligaId = 'mc-ol-3-bw_bwhv';
+      } else if (outNameOrLeagueId.includes('d_jugend') || outNameOrLeagueId.includes('spiele_d')) {
+        ligaId = 'gd-bol-srm_srm';
+      }
+    }
+
+    const cacheKey = `${ligaId}_aggregated`;
+    if (this.gameDataCache.has(cacheKey)) {
+      return this.gameDataCache.get(cacheKey)!;
+    }
+
+    const liga = meta.leagues[ligaId];
+    if (!liga || !liga.spieltage || liga.spieltage.length === 0) {
+      throw new Error(`No Spieltag data available for ${outNameOrLeagueId}`);
+    }
+
+    // Load all Spieltag files
+    const allGames: any[] = [];
+    for (const spieltag of liga.spieltage) {
+      try {
+        const response = await fetch(`/hb_grabber/data/${ligaId}/${spieltag}.json?t=${Date.now()}`);
+        if (response.ok) {
+          const data = await response.json();
+          if (data.games && Array.isArray(data.games)) {
+            allGames.push(...data.games);
+          }
+        }
+      } catch (err) {
+        console.warn(`Failed to load Spieltag ${spieltag}:`, err);
+      }
+    }
+
+    const aggregatedData: GameData = {
+      games: allGames,
+    };
+
+    this.gameDataCache.set(cacheKey, aggregatedData);
+    return aggregatedData;
+  }
+
+  /**
+   * Get all unique teams for a league sorted alphabetically (aggregated from all Spieltage)
    */
   async getTeamsForLeague(outName: string): Promise<string[]> {
-    const gameData = await this.getGameData(outName);
+    const gameData = await this.getAggregatedGameData(outName);
     const teams = new Set<string>();
 
     gameData.games.forEach((game) => {
@@ -248,7 +312,7 @@ class DataService {
     timekeepers: Map<string, { count: number; games: Array<{ date: string; home: string; away: string; score: string }> }>;
     secretaries: Map<string, { count: number; games: Array<{ date: string; home: string; away: string; score: string }> }>;
   }> {
-    const gameData = await this.getGameData(outName);
+    const gameData = await this.getAggregatedGameData(outName);
     
     const referees = new Map<string, { count: number; games: Array<{ date: string; home: string; away: string; score: string }> }>();
     const timekeepers = new Map<string, { count: number; games: Array<{ date: string; home: string; away: string; score: string }> }>();

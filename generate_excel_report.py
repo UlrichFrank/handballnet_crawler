@@ -32,40 +32,10 @@ def get_league_config(league_name_arg=None):
         # Use first league as default
         return config['leagues'][0]
 
-
-def load_config():
-    """Load config"""
-    config_path = Path(__file__).parent / "config" / "config.json"
-    with open(config_path, 'r') as f:
-        return json.load(f)
-
-def get_league_config(league_name_arg=None):
-    """Get league configuration"""
-    config = load_config()
-    
-    if league_name_arg:
-        for league in config['leagues']:
-            if league['name'] == league_name_arg:
-                return league
-        print(f"Error: League '{league_name_arg}' not found in config")
-        sys.exit(1)
-    else:
-        # Use first league as default
-        return config['leagues'][0]
-
-def load_games_data(out_name):
-    """Load game-centric data from frontend/public/data/{liga}/*.json files"""
-    # Determine Liga ID from out_name
-    if 'c_jugend' in out_name or 'c-jugend' in out_name.lower():
-        liga_id = 'c_jugend'
-    elif 'd_jugend' in out_name or 'd-jugend' in out_name.lower():
-        liga_id = 'd_jugend'
-    else:
-        print(f"⚠️  Could not determine Liga from {out_name}, using as-is")
-        liga_id = out_name.replace('spiele_', '')
-    
+def load_games_data(data_folder):
+    """Load game-centric data from frontend/public/data/{data_folder}/*.json files"""
     # Load all yyyymmdd.json files for this liga
-    data_dir = Path('frontend/public/data') / liga_id
+    data_dir = Path('frontend/public/data') / data_folder
     
     if not data_dir.exists():
         print(f"   ❌ Data directory not found: {data_dir}")
@@ -105,6 +75,7 @@ def create_report():
     
     # Process each league
     for league_config in leagues_to_process:
+        data_folder = league_config['data_folder']
         out_name = league_config['out_name']
         output_file = f"output/{out_name}.xlsx"
         
@@ -112,7 +83,7 @@ def create_report():
         print(f"   Lade Spieldaten...")
         
         try:
-            data = load_games_data(out_name)
+            data = load_games_data(data_folder)
         except FileNotFoundError:
             print(f"   ⚠️  JSON-Datei nicht gefunden: output/{out_name}.json")
             continue

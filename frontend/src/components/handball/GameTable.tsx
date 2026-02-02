@@ -1,7 +1,9 @@
 import React, { useState, useEffect } from 'react';
 import { dataService } from '../../services/dataService';
-import { LeagueConfig } from '../../types/handball';
+import { LeagueConfig, Game } from '../../types/handball';
 import { StatCell } from './StatCell';
+import { GameTimelineDialog } from './GameTimelineDialog';
+import { Activity } from 'lucide-react';
 
 interface GameTableProps {
   league: LeagueConfig;
@@ -13,12 +15,16 @@ export function GameTable({ league, teamName }: GameTableProps) {
   const [teamGames, setTeamGames] = useState<any[]>([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
+  const [selectedGame, setSelectedGame] = useState<Game | null>(null);
+  const [isTimelineDialogOpen, setIsTimelineDialogOpen] = useState(false);
+  const [allGames, setAllGames] = useState<Game[]>([]);
 
   useEffect(() => {
     const loadData = async () => {
       try {
         setLoading(true);
         const data = await dataService.getAggregatedGameData(league.out_name);
+        setAllGames(data.games);
 
         const games = dataService.getTeamGames(data, teamName);
         setTeamGames(games);
@@ -76,21 +82,43 @@ export function GameTable({ league, teamName }: GameTableProps) {
               >
                 Player
               </th>
-              {teamGames.map((game, idx) => (
-                <th
-                  key={`header_${idx}`}
-                  colSpan={7}
-                  className="bg-blue-900 dark:bg-blue-600 text-white px-3 py-3 text-center text-sm font-bold border border-blue-200 dark:border-blue-700"
-                  style={{ minWidth: '260px' }}
-                >
-                  <div className="text-xs leading-tight">
-                    <div className="font-semibold">{game.date}</div>
-                    <div className="font-bold text-sm">{game.is_home ? '🏠' : '🏃'}</div>
-                    <div className="text-xs font-bold">{game.score}</div>
-                    <div className="text-xs font-normal truncate">vs {game.opponent}</div>
-                  </div>
-                </th>
-              ))}
+                            {teamGames.map((game, idx) => {
+                const fullGame = allGames.find(
+                  (g) =>
+                    g.home.team_name === (game.is_home ? teamName : game.opponent) &&
+                    g.away.team_name === (game.is_home ? game.opponent : teamName) &&
+                    g.date === game.date
+                );
+
+                return (
+                  <th
+                    key={`header_${idx}`}
+                    colSpan={7}
+                    className="bg-blue-900 dark:bg-blue-600 text-white px-3 py-3 text-center text-sm font-bold border border-blue-200 dark:border-blue-700 hover:bg-blue-800 dark:hover:bg-blue-500 transition-colors"
+                    style={{ minWidth: '260px' }}
+                  >
+                    <div className="text-xs leading-tight">
+                      <div className="font-semibold">{game.date}</div>
+                      <div className="font-bold text-sm">{game.is_home ? '🏠' : '🏃'}</div>
+                      <div className="text-xs font-bold">{game.score}</div>
+                      <div className="text-xs font-normal truncate">vs {game.opponent}</div>
+                      {fullGame?.goals_timeline && fullGame.goals_timeline.length > 0 && (
+                        <button
+                          className="mt-1 px-2 py-1 bg-white dark:bg-slate-800 text-blue-900 dark:text-blue-400 text-xs rounded hover:bg-gray-200 dark:hover:bg-slate-700 flex items-center gap-1 justify-center w-full"
+                          onClick={(e) => {
+                            e.stopPropagation();
+                            setSelectedGame(fullGame);
+                            setIsTimelineDialogOpen(true);
+                          }}
+                        >
+                          <Activity size={12} />
+                          Ablauf
+                        </button>
+                      )}
+                    </div>
+                  </th>
+                );
+              })}
               <th
                 colSpan={7}
                 className="bg-blue-900 dark:bg-blue-600 text-white px-3 py-3 text-center text-xs font-bold border border-blue-200 dark:border-blue-700 whitespace-nowrap"
@@ -297,6 +325,14 @@ export function GameTable({ league, teamName }: GameTableProps) {
           </tbody>
         </table>
       </div>
+      {selectedGame && (
+        <GameTimelineDialog
+          game={selectedGame}
+          isOpen={isTimelineDialogOpen}
+          onOpenChange={setIsTimelineDialogOpen}
+          halfDuration={league.half_duration}
+        />
+      )}
     </div>
   );
 }

@@ -10,27 +10,25 @@ from pathlib import Path
 from generate_goal_graphic import generate_goal_timeline_graphic
 
 
-def process_json_file(json_path: Path, league_name: str, half_duration: int):
+def process_json_files(data_folder: Path, league_name: str, half_duration: int):
     """
-    Process a single JSON file and generate graphics.
+    Process all spieltag JSON files in a data folder and generate graphics.
     
     Args:
-        json_path: Path to JSON file with games data
+        data_folder: Path to folder with yyyymmdd.json files
         league_name: Name of the league (for display)
         half_duration: Minutes per half from config
     """
     
-    if not json_path.exists():
-        print(f"   ⚠️  JSON-Datei nicht gefunden: {json_path}")
+    if not data_folder.exists():
+        print(f"   ⚠️  Daten-Ordner nicht gefunden: {data_folder}")
         return 0, 0, 0
     
-    # Load games from JSON
-    with open(json_path, 'r') as f:
-        data = json.load(f)
+    # Get all yyyymmdd.json files
+    json_files = sorted(list(data_folder.glob('*.json')))
     
-    games = data.get('games', [])
-    if not games:
-        print(f"   ⚠️  Keine Spiele in {json_path.name} gefunden")
+    if not json_files:
+        print(f"   ⚠️  Keine Spieltag-Dateien gefunden in {data_folder}")
         return 0, 0, 0
     
     # Generate graphics
@@ -38,34 +36,42 @@ def process_json_file(json_path: Path, league_name: str, half_duration: int):
     skip_count = 0
     total_size_kb = 0
     
-    for idx, game in enumerate(games, 1):
-        # Skip games without goals
-        if not game.get('goals_timeline'):
-            skip_count += 1
+    for json_path in json_files:
+        with open(json_path, 'r') as f:
+            data = json.load(f)
+        
+        games = data.get('games', [])
+        if not games:
             continue
         
-        # Attempt to generate graphic
-        try:
-            graphic_path = generate_goal_timeline_graphic(
-                game,
-                half_duration=half_duration
-            )
+        for idx, game in enumerate(games, 1):
+            # Skip games without goals
+            if not game.get('goals_timeline'):
+                skip_count += 1
+                continue
             
-            if graphic_path and Path(graphic_path).exists():
-                success_count += 1
-                file_size = Path(graphic_path).stat().st_size / 1024
-                total_size_kb += file_size
+            # Attempt to generate graphic
+            try:
+                graphic_path = generate_goal_timeline_graphic(
+                    game,
+                    half_duration=half_duration
+                )
                 
-                # Update game data with graphic path
-                game['graphic_path'] = graphic_path
-            
-        except Exception as e:
-            print(f"   ⚠️  Fehler bei Spiel {idx}: {e}")
-            skip_count += 1
-    
-    # Save updated JSON with graphic paths
-    with open(json_path, 'w') as f:
-        json.dump(data, f, indent=2)
+                if graphic_path and Path(graphic_path).exists():
+                    success_count += 1
+                    file_size = Path(graphic_path).stat().st_size / 1024
+                    total_size_kb += file_size
+                    
+                    # Update game data with graphic path
+                    game['graphic_path'] = graphic_path
+                
+            except Exception as e:
+                print(f"   ⚠️  Fehler bei {json_path.name}: {e}")
+                skip_count += 1
+        
+        # Save updated JSON with graphic paths
+        with open(json_path, 'w') as f:
+            json.dump(data, f, indent=2)
     
     return success_count, skip_count, total_size_kb
 
@@ -73,6 +79,7 @@ def process_json_file(json_path: Path, league_name: str, half_duration: int):
 def main():
     """
     Process all leagues defined in config.json.
+    Load and process all spieltag JSON files from frontend/public/data/{data_folder}/.
     """
     
     # Load config
@@ -90,7 +97,7 @@ def main():
         return
     
     print("\n" + "=" * 70)
-    print(f"📊 GENERIERE GRAFIKEN ({len(leagues)} Ligen)")
+    print(f"🎨 GENERIERE GRAFIKEN ({len(leagues)} Ligen)")
     print("=" * 70 + "\n")
     
     total_success = 0
@@ -98,17 +105,17 @@ def main():
     grand_total_kb = 0
     
     for league in leagues:
-        league_name = league.get('name', 'Unknown')
-        out_name = league.get('out_name', 'unknown')
+        league_name = league.get('display_name', league.get('name', 'Unknown'))
+        data_folder_name = league.get('data_folder', league.get('out_name', 'unknown'))
         half_duration = league.get('half_duration', 30)
         
-        json_file = Path('output') / f"{out_name}.json"
+        data_folder = Path('frontend/public/data') / data_folder_name
         
-        print(f"📂 Verarbeite: {out_name}.json")
-        print(f"   🏐 Liga: {league_name} ({half_duration} Min pro Halbzeit)")
+        print(f"📂 {league_name}")
+        print(f"   🏐 ({half_duration} Min pro Halbzeit)")
         
-        success_count, skip_count, total_size_kb = process_json_file(
-            json_file, 
+        success_count, skip_count, total_size_kb = process_json_files(
+            data_folder, 
             league_name,
             half_duration
         )
@@ -131,8 +138,9 @@ def main():
     print(f"✓ {total_success} Grafiken gesamt generiert")
     if total_skip > 0:
         print(f"⊘ {total_skip} Spiele übersprungen (keine Tore)")
-    print(f"📁 Gesamtgröße: {grand_total_kb:.1f} KB")
-    print(f"📂 Speicherort: output/graphics/")
+    if grand_total_kb > 0:
+        print(f"📁 Gesamtgröße: {grand_total_kb:.1f} KB")
+    print(f"📂 Speicherort: frontend/public/graphics/")
     print(f"📄 JSON-Dateien aktualisiert\n")
 
 

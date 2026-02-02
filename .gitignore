@@ -49,3 +49,5 @@ output/
 *.json
 !config.example.json
 !extract*.json
+
+node_modules/

@@ -17,16 +17,12 @@
     {
       "name": "mc-ol-3-bw_bwhv",
       "display_name": "Handball4all Baden-Württemberg MC-OL 3",
-      "out_name": "spiele_c_jugend",
-      "half_duration": 25,
-      "age_group": "C-Jugend (13-14 Jahre)"
+      "half_duration": 25
     },
     {
       "name": "gd-bol-srm_srm",
       "display_name": "Handball4all Baden-Württemberg MD-BOL",
-      "out_name": "spiele_d_jugend",
-      "half_duration": 20,
-      "age_group": "D-Jugend (11-12 Jahre)"
+      "half_duration": 20
     }
   ]
 }

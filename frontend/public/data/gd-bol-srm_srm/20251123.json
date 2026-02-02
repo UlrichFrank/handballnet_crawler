@@ -1,0 +1,677 @@
+{
+  "date": "20251123",
+  "games": [
+    {
+      "game_id": "handball4all.baden-wuerttemberg.8853072",
+      "order": 24,
+      "date": "So, 23.11.",
+      "home": {
+        "team_name": "SG Remstal",
+        "players": [
+          {
+            "name": "Nico Singer",
+            "goals": 2,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Jannis K\u00fcrner",
+            "goals": 3,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 1,
+            "seven_meters_goals": 1
+          },
+          {
+            "name": "Thilo Hutt",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Liam Brett",
+            "goals": 1,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Sebastian Koch",
+            "goals": 1,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Hendrik Reinders",
+            "goals": 4,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 2,
+            "seven_meters_goals": 1
+          },
+          {
+            "name": "Henrik Manz",
+            "goals": 1,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Maximilian Ferenz",
+            "goals": 1,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Henri Schwandner",
+            "goals": 2,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Aaron Daiber",
+            "goals": 6,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Tian Berndt",
+            "goals": 1,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Emilio Rinaldi",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          }
+        ]
+      },
+      "away": {
+        "team_name": "TV Bittenfeld 1898",
+        "players": [
+          {
+            "name": "Max Blessing",
+            "goals": 9,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Max Randi",
+            "goals": 1,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Mats Streuber",
+            "goals": 1,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "David Klein",
+            "goals": 5,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 1,
+            "seven_meters_goals": 1
+          },
+          {
+            "name": "Maximilian Moldenhauer",
+            "goals": 1,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Levin Lobedank",
+            "goals": 7,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Benjamin Faust",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Paul Stadler",
+            "goals": 7,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Tristan Schepp",
+            "goals": 1,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          }
+        ]
+      },
+      "goals_timeline": [
+        {
+          "minute": 1,
+          "second": 12,
+          "scorer": "Hendrik Reinders",
+          "team": "home",
+          "team_abbrev": "SG Remstal",
+          "seven_meter": false
+        },
+        {
+          "minute": 1,
+          "second": 27,
+          "scorer": "Levin Lobedank",
+          "team": "away",
+          "team_abbrev": "TV Bittenfeld",
+          "seven_meter": false
+        },
+        {
+          "minute": 1,
+          "second": 57,
+          "scorer": "Maximilian Moldenhauer",
+          "team": "away",
+          "team_abbrev": "TV Bittenfeld",
+          "seven_meter": false
+        },
+        {
+          "minute": 2,
+          "second": 50,
+          "scorer": "Hendrik Reinders",
+          "team": "home",
+          "team_abbrev": "SG Remstal",
+          "seven_meter": true
+        },
+        {
+          "minute": 3,
+          "second": 14,
+          "scorer": "Aaron Daiber",
+          "team": "home",
+          "team_abbrev": "SG Remstal",
+          "seven_meter": false
+        },
+        {
+          "minute": 3,
+          "second": 46,
+          "scorer": "David Klein",
+          "team": "away",
+          "team_abbrev": "TV Bittenfeld",
+          "seven_meter": true
+        },
+        {
+          "minute": 5,
+          "second": 25,
+          "scorer": "Max Blessing",
+          "team": "away",
+          "team_abbrev": "TV Bittenfeld",
+          "seven_meter": false
+        },
+        {
+          "minute": 5,
+          "second": 36,
+          "scorer": "Hendrik Reinders",
+          "team": "home",
+          "team_abbrev": "SG Remstal",
+          "seven_meter": false
+        },
+        {
+          "minute": 6,
+          "second": 3,
+          "scorer": "Paul Stadler",
+          "team": "away",
+          "team_abbrev": "TV Bittenfeld",
+          "seven_meter": false
+        },
+        {
+          "minute": 6,
+          "second": 15,
+          "scorer": "Aaron Daiber",
+          "team": "home",
+          "team_abbrev": "SG Remstal",
+          "seven_meter": false
+        },
+        {
+          "minute": 7,
+          "second": 5,
+          "scorer": "David Klein",
+          "team": "away",
+          "team_abbrev": "TV Bittenfeld",
+          "seven_meter": false
+        },
+        {
+          "minute": 10,
+          "second": 12,
+          "scorer": "Paul Stadler",
+          "team": "away",
+          "team_abbrev": "TV Bittenfeld",
+          "seven_meter": false
+        },
+        {
+          "minute": 10,
+          "second": 22,
+          "scorer": "Henri Schwandner",
+          "team": "home",
+          "team_abbrev": "SG Remstal",
+          "seven_meter": false
+        },
+        {
+          "minute": 10,
+          "second": 46,
+          "scorer": "Henri Schwandner",
+          "team": "home",
+          "team_abbrev": "SG Remstal",
+          "seven_meter": false
+        },
+        {
+          "minute": 11,
+          "second": 51,
+          "scorer": "David Klein",
+          "team": "away",
+          "team_abbrev": "TV Bittenfeld",
+          "seven_meter": false
+        },
+        {
+          "minute": 14,
+          "second": 41,
+          "scorer": "David Klein",
+          "team": "away",
+          "team_abbrev": "TV Bittenfeld",
+          "seven_meter": false
+        },
+        {
+          "minute": 15,
+          "second": 34,
+          "scorer": "Max Blessing",
+          "team": "away",
+          "team_abbrev": "TV Bittenfeld",
+          "seven_meter": false
+        },
+        {
+          "minute": 15,
+          "second": 50,
+          "scorer": "Tian Berndt",
+          "team": "home",
+          "team_abbrev": "SG Remstal",
+          "seven_meter": false
+        },
+        {
+          "minute": 16,
+          "second": 5,
+          "scorer": "Max Blessing",
+          "team": "away",
+          "team_abbrev": "TV Bittenfeld",
+          "seven_meter": false
+        },
+        {
+          "minute": 18,
+          "second": 18,
+          "scorer": "Paul Stadler",
+          "team": "away",
+          "team_abbrev": "TV Bittenfeld",
+          "seven_meter": false
+        },
+        {
+          "minute": 19,
+          "second": 1,
+          "scorer": "Levin Lobedank",
+          "team": "away",
+          "team_abbrev": "TV Bittenfeld",
+          "seven_meter": false
+        },
+        {
+          "minute": 19,
+          "second": 21,
+          "scorer": "Max Blessing",
+          "team": "away",
+          "team_abbrev": "TV Bittenfeld",
+          "seven_meter": false
+        },
+        {
+          "minute": 19,
+          "second": 49,
+          "scorer": "Jannis K\u00fcrner",
+          "team": "home",
+          "team_abbrev": "SG Remstal",
+          "seven_meter": false
+        },
+        {
+          "minute": 20,
+          "second": 19,
+          "scorer": "Paul Stadler",
+          "team": "away",
+          "team_abbrev": "TV Bittenfeld",
+          "seven_meter": false
+        },
+        {
+          "minute": 21,
+          "second": 14,
+          "scorer": "Sebastian Koch",
+          "team": "home",
+          "team_abbrev": "SG Remstal",
+          "seven_meter": false
+        },
+        {
+          "minute": 21,
+          "second": 26,
+          "scorer": "Levin Lobedank",
+          "team": "away",
+          "team_abbrev": "TV Bittenfeld",
+          "seven_meter": false
+        },
+        {
+          "minute": 21,
+          "second": 44,
+          "scorer": "Nico Singer",
+          "team": "home",
+          "team_abbrev": "SG Remstal",
+          "seven_meter": false
+        },
+        {
+          "minute": 22,
+          "second": 1,
+          "scorer": "Paul Stadler",
+          "team": "away",
+          "team_abbrev": "TV Bittenfeld",
+          "seven_meter": false
+        },
+        {
+          "minute": 22,
+          "second": 38,
+          "scorer": "Aaron Daiber",
+          "team": "home",
+          "team_abbrev": "SG Remstal",
+          "seven_meter": false
+        },
+        {
+          "minute": 22,
+          "second": 53,
+          "scorer": "Paul Stadler",
+          "team": "away",
+          "team_abbrev": "TV Bittenfeld",
+          "seven_meter": false
+        },
+        {
+          "minute": 23,
+          "second": 13,
+          "scorer": "Levin Lobedank",
+          "team": "away",
+          "team_abbrev": "TV Bittenfeld",
+          "seven_meter": false
+        },
+        {
+          "minute": 23,
+          "second": 43,
+          "scorer": "Jannis K\u00fcrner",
+          "team": "home",
+          "team_abbrev": "SG Remstal",
+          "seven_meter": true
+        },
+        {
+          "minute": 24,
+          "second": 13,
+          "scorer": "David Klein",
+          "team": "away",
+          "team_abbrev": "TV Bittenfeld",
+          "seven_meter": false
+        },
+        {
+          "minute": 25,
+          "second": 16,
+          "scorer": "Max Randi",
+          "team": "away",
+          "team_abbrev": "TV Bittenfeld",
+          "seven_meter": false
+        },
+        {
+          "minute": 25,
+          "second": 36,
+          "scorer": "Nico Singer",
+          "team": "home",
+          "team_abbrev": "SG Remstal",
+          "seven_meter": false
+        },
+        {
+          "minute": 25,
+          "second": 52,
+          "scorer": "Paul Stadler",
+          "team": "away",
+          "team_abbrev": "TV Bittenfeld",
+          "seven_meter": false
+        },
+        {
+          "minute": 27,
+          "second": 7,
+          "scorer": "Maximilian Ferenz",
+          "team": "home",
+          "team_abbrev": "SG Remstal",
+          "seven_meter": false
+        },
+        {
+          "minute": 28,
+          "second": 9,
+          "scorer": "Jannis K\u00fcrner",
+          "team": "home",
+          "team_abbrev": "SG Remstal",
+          "seven_meter": false
+        },
+        {
+          "minute": 28,
+          "second": 48,
+          "scorer": "Aaron Daiber",
+          "team": "home",
+          "team_abbrev": "SG Remstal",
+          "seven_meter": false
+        },
+        {
+          "minute": 29,
+          "second": 4,
+          "scorer": "Max Blessing",
+          "team": "away",
+          "team_abbrev": "TV Bittenfeld",
+          "seven_meter": false
+        },
+        {
+          "minute": 29,
+          "second": 37,
+          "scorer": "Aaron Daiber",
+          "team": "home",
+          "team_abbrev": "SG Remstal",
+          "seven_meter": false
+        },
+        {
+          "minute": 29,
+          "second": 55,
+          "scorer": "Levin Lobedank",
+          "team": "away",
+          "team_abbrev": "TV Bittenfeld",
+          "seven_meter": false
+        },
+        {
+          "minute": 30,
+          "second": 21,
+          "scorer": "Max Blessing",
+          "team": "away",
+          "team_abbrev": "TV Bittenfeld",
+          "seven_meter": false
+        },
+        {
+          "minute": 31,
+          "second": 35,
+          "scorer": "Aaron Daiber",
+          "team": "home",
+          "team_abbrev": "SG Remstal",
+          "seven_meter": false
+        },
+        {
+          "minute": 32,
+          "second": 30,
+          "scorer": "Max Blessing",
+          "team": "away",
+          "team_abbrev": "TV Bittenfeld",
+          "seven_meter": false
+        },
+        {
+          "minute": 32,
+          "second": 54,
+          "scorer": "Liam Brett",
+          "team": "home",
+          "team_abbrev": "SG Remstal",
+          "seven_meter": false
+        },
+        {
+          "minute": 33,
+          "second": 8,
+          "scorer": "Max Blessing",
+          "team": "away",
+          "team_abbrev": "TV Bittenfeld",
+          "seven_meter": false
+        },
+        {
+          "minute": 35,
+          "second": 2,
+          "scorer": "Levin Lobedank",
+          "team": "away",
+          "team_abbrev": "TV Bittenfeld",
+          "seven_meter": false
+        },
+        {
+          "minute": 36,
+          "second": 32,
+          "scorer": "Tristan Schepp",
+          "team": "away",
+          "team_abbrev": "TV Bittenfeld",
+          "seven_meter": false
+        },
+        {
+          "minute": 37,
+          "second": 48,
+          "scorer": "Max Blessing",
+          "team": "away",
+          "team_abbrev": "TV Bittenfeld",
+          "seven_meter": false
+        },
+        {
+          "minute": 38,
+          "second": 9,
+          "scorer": "Henrik Manz",
+          "team": "home",
+          "team_abbrev": "SG Remstal",
+          "seven_meter": false
+        },
+        {
+          "minute": 38,
+          "second": 57,
+          "scorer": "Mats Streuber",
+          "team": "away",
+          "team_abbrev": "TV Bittenfeld",
+          "seven_meter": false
+        },
+        {
+          "minute": 39,
+          "second": 13,
+          "scorer": "Levin Lobedank",
+          "team": "away",
+          "team_abbrev": "TV Bittenfeld",
+          "seven_meter": false
+        },
+        {
+          "minute": 39,
+          "second": 36,
+          "scorer": "Hendrik Reinders",
+          "team": "home",
+          "team_abbrev": "SG Remstal",
+          "seven_meter": false
+        }
+      ],
+      "final_score": "22:32",
+      "half_duration": 30,
+      "officials": {
+        "referees": [
+          "Werner M\u00fcller"
+        ],
+        "timekeepers": [
+          "Nicole Neumann"
+        ],
+        "secretaries": [
+          "Christoph Streuber"
+        ]
+      }
+    }
+  ]
+}

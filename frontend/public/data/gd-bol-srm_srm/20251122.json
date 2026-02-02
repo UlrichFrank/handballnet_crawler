@@ -1,0 +1,741 @@
+{
+  "date": "20251122",
+  "games": [
+    {
+      "game_id": "handball4all.baden-wuerttemberg.8853057",
+      "order": 23,
+      "date": "Sa, 22.11.",
+      "home": {
+        "team_name": "HC Oppenweiler/Backnang",
+        "players": [
+          {
+            "name": "Ben Wieczorek",
+            "goals": 1,
+            "two_min_penalties": 0,
+            "yellow_cards": 1,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Mats Benignus",
+            "goals": 1,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Josha Luis Winkler",
+            "goals": 5,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Jonah K\u00fcbler",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Anton Baumunk",
+            "goals": 12,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Jakob Sprenger",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 1,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Niklas Fichtner",
+            "goals": 4,
+            "two_min_penalties": 2,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Paul Oscar Zillmann",
+            "goals": 2,
+            "two_min_penalties": 1,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Tom Seibold",
+            "goals": 1,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Leo M\u00fchlpointner",
+            "goals": 4,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          }
+        ]
+      },
+      "away": {
+        "team_name": "Team Stuttgart",
+        "players": [
+          {
+            "name": "Mats B\u00fchler",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Kilian Zhezhov",
+            "goals": 5,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 2,
+            "seven_meters_goals": 2
+          },
+          {
+            "name": "Jakob Rehm",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Otto Leistert",
+            "goals": 6,
+            "two_min_penalties": 0,
+            "yellow_cards": 1,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 1,
+            "seven_meters_goals": 1
+          },
+          {
+            "name": "Raphael Eholzer",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Maximilian Blanz",
+            "goals": 3,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Emil Zai\u00df",
+            "goals": 1,
+            "two_min_penalties": 0,
+            "yellow_cards": 1,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 1,
+            "seven_meters_goals": 1
+          },
+          {
+            "name": "Adrian Rebmann",
+            "goals": 3,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Neo Manz",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Samson Herbst",
+            "goals": 3,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Enno Eich",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Jannes Frank",
+            "goals": 1,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Leo Volle",
+            "goals": 3,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 1,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Raphael Wurster",
+            "goals": 2,
+            "two_min_penalties": 0,
+            "yellow_cards": 1,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Peter Fischer",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          }
+        ]
+      },
+      "goals_timeline": [
+        {
+          "minute": 1,
+          "second": 0,
+          "scorer": "Niklas Fichtner",
+          "team": "home",
+          "team_abbrev": "HCOB Opp/BK",
+          "seven_meter": false
+        },
+        {
+          "minute": 1,
+          "second": 36,
+          "scorer": "Josha Winkler",
+          "team": "home",
+          "team_abbrev": "HCOB Opp/BK",
+          "seven_meter": false
+        },
+        {
+          "minute": 1,
+          "second": 45,
+          "scorer": "Emil Zai\u00df",
+          "team": "away",
+          "team_abbrev": "Team Stuttgart",
+          "seven_meter": true
+        },
+        {
+          "minute": 2,
+          "second": 4,
+          "scorer": "Kilian Zhezhov",
+          "team": "away",
+          "team_abbrev": "Team Stuttgart",
+          "seven_meter": false
+        },
+        {
+          "minute": 2,
+          "second": 59,
+          "scorer": "Anton Baumunk",
+          "team": "home",
+          "team_abbrev": "HCOB Opp/BK",
+          "seven_meter": false
+        },
+        {
+          "minute": 4,
+          "second": 54,
+          "scorer": "Maximilian Blanz",
+          "team": "away",
+          "team_abbrev": "Team Stuttgart",
+          "seven_meter": false
+        },
+        {
+          "minute": 5,
+          "second": 18,
+          "scorer": "Otto Leistert",
+          "team": "away",
+          "team_abbrev": "Team Stuttgart",
+          "seven_meter": true
+        },
+        {
+          "minute": 5,
+          "second": 57,
+          "scorer": "Leo Volle",
+          "team": "away",
+          "team_abbrev": "Team Stuttgart",
+          "seven_meter": false
+        },
+        {
+          "minute": 6,
+          "second": 7,
+          "scorer": "Anton Baumunk",
+          "team": "home",
+          "team_abbrev": "HCOB Opp/BK",
+          "seven_meter": false
+        },
+        {
+          "minute": 6,
+          "second": 50,
+          "scorer": "Otto Leistert",
+          "team": "away",
+          "team_abbrev": "Team Stuttgart",
+          "seven_meter": false
+        },
+        {
+          "minute": 7,
+          "second": 22,
+          "scorer": "Maximilian Blanz",
+          "team": "away",
+          "team_abbrev": "Team Stuttgart",
+          "seven_meter": false
+        },
+        {
+          "minute": 7,
+          "second": 35,
+          "scorer": "Anton Baumunk",
+          "team": "home",
+          "team_abbrev": "HCOB Opp/BK",
+          "seven_meter": false
+        },
+        {
+          "minute": 7,
+          "second": 45,
+          "scorer": "Otto Leistert",
+          "team": "away",
+          "team_abbrev": "Team Stuttgart",
+          "seven_meter": false
+        },
+        {
+          "minute": 8,
+          "second": 33,
+          "scorer": "Leo M\u00fchlpointner",
+          "team": "home",
+          "team_abbrev": "HCOB Opp/BK",
+          "seven_meter": false
+        },
+        {
+          "minute": 8,
+          "second": 44,
+          "scorer": "Kilian Zhezhov",
+          "team": "away",
+          "team_abbrev": "Team Stuttgart",
+          "seven_meter": false
+        },
+        {
+          "minute": 10,
+          "second": 53,
+          "scorer": "Kilian Zhezhov",
+          "team": "away",
+          "team_abbrev": "Team Stuttgart",
+          "seven_meter": false
+        },
+        {
+          "minute": 11,
+          "second": 23,
+          "scorer": "Niklas Fichtner",
+          "team": "home",
+          "team_abbrev": "HCOB Opp/BK",
+          "seven_meter": false
+        },
+        {
+          "minute": 12,
+          "second": 26,
+          "scorer": "Tom Seibold",
+          "team": "home",
+          "team_abbrev": "HCOB Opp/BK",
+          "seven_meter": false
+        },
+        {
+          "minute": 12,
+          "second": 48,
+          "scorer": "Kilian Zhezhov",
+          "team": "away",
+          "team_abbrev": "Team Stuttgart",
+          "seven_meter": true
+        },
+        {
+          "minute": 13,
+          "second": 17,
+          "scorer": "Niklas Fichtner",
+          "team": "home",
+          "team_abbrev": "HCOB Opp/BK",
+          "seven_meter": false
+        },
+        {
+          "minute": 13,
+          "second": 58,
+          "scorer": "Paul Zillmann",
+          "team": "home",
+          "team_abbrev": "HCOB Opp/BK",
+          "seven_meter": false
+        },
+        {
+          "minute": 14,
+          "second": 40,
+          "scorer": "Anton Baumunk",
+          "team": "home",
+          "team_abbrev": "HCOB Opp/BK",
+          "seven_meter": false
+        },
+        {
+          "minute": 15,
+          "second": 24,
+          "scorer": "Kilian Zhezhov",
+          "team": "away",
+          "team_abbrev": "Team Stuttgart",
+          "seven_meter": true
+        },
+        {
+          "minute": 15,
+          "second": 46,
+          "scorer": "Anton Baumunk",
+          "team": "home",
+          "team_abbrev": "HCOB Opp/BK",
+          "seven_meter": false
+        },
+        {
+          "minute": 16,
+          "second": 15,
+          "scorer": "Josha Winkler",
+          "team": "home",
+          "team_abbrev": "HCOB Opp/BK",
+          "seven_meter": false
+        },
+        {
+          "minute": 16,
+          "second": 58,
+          "scorer": "Paul Zillmann",
+          "team": "home",
+          "team_abbrev": "HCOB Opp/BK",
+          "seven_meter": false
+        },
+        {
+          "minute": 17,
+          "second": 28,
+          "scorer": "Raphael Wurster",
+          "team": "away",
+          "team_abbrev": "Team Stuttgart",
+          "seven_meter": false
+        },
+        {
+          "minute": 19,
+          "second": 6,
+          "scorer": "Adrian Rebmann",
+          "team": "away",
+          "team_abbrev": "Team Stuttgart",
+          "seven_meter": false
+        },
+        {
+          "minute": 19,
+          "second": 27,
+          "scorer": "Anton Baumunk",
+          "team": "home",
+          "team_abbrev": "HCOB Opp/BK",
+          "seven_meter": false
+        },
+        {
+          "minute": 19,
+          "second": 51,
+          "scorer": "Anton Baumunk",
+          "team": "home",
+          "team_abbrev": "HCOB Opp/BK",
+          "seven_meter": false
+        },
+        {
+          "minute": 20,
+          "second": 0,
+          "scorer": "Samson Herbst",
+          "team": "away",
+          "team_abbrev": "Team Stuttgart",
+          "seven_meter": false
+        },
+        {
+          "minute": 21,
+          "second": 33,
+          "scorer": "Otto Leistert",
+          "team": "away",
+          "team_abbrev": "Team Stuttgart",
+          "seven_meter": false
+        },
+        {
+          "minute": 21,
+          "second": 51,
+          "scorer": "Josha Winkler",
+          "team": "home",
+          "team_abbrev": "HCOB Opp/BK",
+          "seven_meter": false
+        },
+        {
+          "minute": 22,
+          "second": 35,
+          "scorer": "Josha Winkler",
+          "team": "home",
+          "team_abbrev": "HCOB Opp/BK",
+          "seven_meter": false
+        },
+        {
+          "minute": 23,
+          "second": 8,
+          "scorer": "Leo Volle",
+          "team": "away",
+          "team_abbrev": "Team Stuttgart",
+          "seven_meter": false
+        },
+        {
+          "minute": 23,
+          "second": 16,
+          "scorer": "Anton Baumunk",
+          "team": "home",
+          "team_abbrev": "HCOB Opp/BK",
+          "seven_meter": false
+        },
+        {
+          "minute": 26,
+          "second": 9,
+          "scorer": "Anton Baumunk",
+          "team": "home",
+          "team_abbrev": "HCOB Opp/BK",
+          "seven_meter": false
+        },
+        {
+          "minute": 26,
+          "second": 44,
+          "scorer": "Otto Leistert",
+          "team": "away",
+          "team_abbrev": "Team Stuttgart",
+          "seven_meter": false
+        },
+        {
+          "minute": 27,
+          "second": 14,
+          "scorer": "Otto Leistert",
+          "team": "away",
+          "team_abbrev": "Team Stuttgart",
+          "seven_meter": false
+        },
+        {
+          "minute": 28,
+          "second": 29,
+          "scorer": "Leo M\u00fchlpointner",
+          "team": "home",
+          "team_abbrev": "HCOB Opp/BK",
+          "seven_meter": false
+        },
+        {
+          "minute": 29,
+          "second": 10,
+          "scorer": "Leo Volle",
+          "team": "away",
+          "team_abbrev": "Team Stuttgart",
+          "seven_meter": false
+        },
+        {
+          "minute": 29,
+          "second": 59,
+          "scorer": "Ben Wieczorek",
+          "team": "home",
+          "team_abbrev": "HCOB Opp/BK",
+          "seven_meter": false
+        },
+        {
+          "minute": 31,
+          "second": 0,
+          "scorer": "Niklas Fichtner",
+          "team": "home",
+          "team_abbrev": "HCOB Opp/BK",
+          "seven_meter": false
+        },
+        {
+          "minute": 32,
+          "second": 58,
+          "scorer": "Mats Benignus",
+          "team": "home",
+          "team_abbrev": "HCOB Opp/BK",
+          "seven_meter": false
+        },
+        {
+          "minute": 34,
+          "second": 10,
+          "scorer": "Anton Baumunk",
+          "team": "home",
+          "team_abbrev": "HCOB Opp/BK",
+          "seven_meter": false
+        },
+        {
+          "minute": 34,
+          "second": 57,
+          "scorer": "Maximilian Blanz",
+          "team": "away",
+          "team_abbrev": "Team Stuttgart",
+          "seven_meter": false
+        },
+        {
+          "minute": 35,
+          "second": 30,
+          "scorer": "Samson Herbst",
+          "team": "away",
+          "team_abbrev": "Team Stuttgart",
+          "seven_meter": false
+        },
+        {
+          "minute": 35,
+          "second": 52,
+          "scorer": "Anton Baumunk",
+          "team": "home",
+          "team_abbrev": "HCOB Opp/BK",
+          "seven_meter": false
+        },
+        {
+          "minute": 36,
+          "second": 6,
+          "scorer": "Leo M\u00fchlpointner",
+          "team": "home",
+          "team_abbrev": "HCOB Opp/BK",
+          "seven_meter": false
+        },
+        {
+          "minute": 37,
+          "second": 1,
+          "scorer": "Adrian Rebmann",
+          "team": "away",
+          "team_abbrev": "Team Stuttgart",
+          "seven_meter": false
+        },
+        {
+          "minute": 37,
+          "second": 23,
+          "scorer": "Jannes Frank",
+          "team": "away",
+          "team_abbrev": "Team Stuttgart",
+          "seven_meter": false
+        },
+        {
+          "minute": 38,
+          "second": 48,
+          "scorer": "Samson Herbst",
+          "team": "away",
+          "team_abbrev": "Team Stuttgart",
+          "seven_meter": false
+        },
+        {
+          "minute": 39,
+          "second": 10,
+          "scorer": "Anton Baumunk",
+          "team": "home",
+          "team_abbrev": "HCOB Opp/BK",
+          "seven_meter": false
+        },
+        {
+          "minute": 39,
+          "second": 25,
+          "scorer": "Adrian Rebmann",
+          "team": "away",
+          "team_abbrev": "Team Stuttgart",
+          "seven_meter": false
+        },
+        {
+          "minute": 39,
+          "second": 38,
+          "scorer": "Josha Winkler",
+          "team": "home",
+          "team_abbrev": "HCOB Opp/BK",
+          "seven_meter": false
+        },
+        {
+          "minute": 39,
+          "second": 48,
+          "scorer": "Raphael Wurster",
+          "team": "away",
+          "team_abbrev": "Team Stuttgart",
+          "seven_meter": false
+        },
+        {
+          "minute": 40,
+          "second": 0,
+          "scorer": "Leo M\u00fchlpointner",
+          "team": "home",
+          "team_abbrev": "HCOB Opp/BK",
+          "seven_meter": false
+        }
+      ],
+      "final_score": "30:27",
+      "half_duration": 30,
+      "officials": {
+        "referees": [
+          "Noel Tigges"
+        ],
+        "timekeepers": [
+          "Kerstin Fichtner"
+        ],
+        "secretaries": [
+          "Claus Fischer"
+        ]
+      }
+    }
+  ]
+}

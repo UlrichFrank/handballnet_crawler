@@ -1,0 +1,631 @@
+{
+  "date": "20251115",
+  "games": [
+    {
+      "game_id": "handball4all.baden-wuerttemberg.8853162",
+      "order": 18,
+      "date": "Sa, 15.11.",
+      "home": {
+        "team_name": "HC Oppenweiler/Backnang",
+        "players": [
+          {
+            "name": "Leonard Schulz",
+            "goals": 2,
+            "two_min_penalties": 2,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Ben Wieczorek",
+            "goals": 0,
+            "two_min_penalties": 1,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Mats Benignus",
+            "goals": 1,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Josha Luis Winkler",
+            "goals": 6,
+            "two_min_penalties": 0,
+            "yellow_cards": 1,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Jonah K\u00fcbler",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Anton Baumunk",
+            "goals": 9,
+            "two_min_penalties": 1,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 1,
+            "seven_meters_goals": 1
+          },
+          {
+            "name": "Jakob Sprenger",
+            "goals": 2,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Niklas Fichtner",
+            "goals": 6,
+            "two_min_penalties": 0,
+            "yellow_cards": 1,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 1,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Paul Oscar Zillmann",
+            "goals": 4,
+            "two_min_penalties": 1,
+            "yellow_cards": 1,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Tom Seibold",
+            "goals": 1,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Leo M\u00fchlpointner",
+            "goals": 5,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          }
+        ]
+      },
+      "away": {
+        "team_name": "HC Winnenden",
+        "players": [
+          {
+            "name": "Vedran Benkovic",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Paul Pach",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Moritz Staack",
+            "goals": 1,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Jannis Morlok",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Felix Fechner",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 1,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Emil Weigel",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Erik Farkas",
+            "goals": 1,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Pepe Klink",
+            "goals": 2,
+            "two_min_penalties": 1,
+            "yellow_cards": 1,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Ole Egler",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Daniel Sch\u00f6llhorn",
+            "goals": 5,
+            "two_min_penalties": 1,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 2,
+            "seven_meters_goals": 2
+          },
+          {
+            "name": "Paul Merz",
+            "goals": 2,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          }
+        ]
+      },
+      "goals_timeline": [
+        {
+          "minute": 0,
+          "second": 29,
+          "scorer": "Daniel Sch\u00f6llhorn",
+          "team": "home",
+          "team_abbrev": "HC Winnenden",
+          "seven_meter": false
+        },
+        {
+          "minute": 1,
+          "second": 38,
+          "scorer": "Josha Winkler",
+          "team": "away",
+          "team_abbrev": "HCOB Opp/BK",
+          "seven_meter": false
+        },
+        {
+          "minute": 1,
+          "second": 57,
+          "scorer": "Anton Baumunk",
+          "team": "away",
+          "team_abbrev": "HCOB Opp/BK",
+          "seven_meter": false
+        },
+        {
+          "minute": 3,
+          "second": 57,
+          "scorer": "Anton Baumunk",
+          "team": "away",
+          "team_abbrev": "HCOB Opp/BK",
+          "seven_meter": false
+        },
+        {
+          "minute": 4,
+          "second": 46,
+          "scorer": "Anton Baumunk",
+          "team": "away",
+          "team_abbrev": "HCOB Opp/BK",
+          "seven_meter": false
+        },
+        {
+          "minute": 6,
+          "second": 57,
+          "scorer": "Pepe Klink",
+          "team": "home",
+          "team_abbrev": "HC Winnenden",
+          "seven_meter": false
+        },
+        {
+          "minute": 7,
+          "second": 10,
+          "scorer": "Leo M\u00fchlpointner",
+          "team": "away",
+          "team_abbrev": "HCOB Opp/BK",
+          "seven_meter": false
+        },
+        {
+          "minute": 7,
+          "second": 48,
+          "scorer": "Leonard Schulz",
+          "team": "away",
+          "team_abbrev": "HCOB Opp/BK",
+          "seven_meter": false
+        },
+        {
+          "minute": 8,
+          "second": 45,
+          "scorer": "Niklas Fichtner",
+          "team": "away",
+          "team_abbrev": "HCOB Opp/BK",
+          "seven_meter": false
+        },
+        {
+          "minute": 8,
+          "second": 52,
+          "scorer": "Daniel Sch\u00f6llhorn",
+          "team": "home",
+          "team_abbrev": "HC Winnenden",
+          "seven_meter": false
+        },
+        {
+          "minute": 9,
+          "second": 18,
+          "scorer": "Pepe Klink",
+          "team": "home",
+          "team_abbrev": "HC Winnenden",
+          "seven_meter": false
+        },
+        {
+          "minute": 9,
+          "second": 37,
+          "scorer": "Leo M\u00fchlpointner",
+          "team": "away",
+          "team_abbrev": "HCOB Opp/BK",
+          "seven_meter": false
+        },
+        {
+          "minute": 10,
+          "second": 14,
+          "scorer": "Josha Winkler",
+          "team": "away",
+          "team_abbrev": "HCOB Opp/BK",
+          "seven_meter": false
+        },
+        {
+          "minute": 10,
+          "second": 47,
+          "scorer": "Leo M\u00fchlpointner",
+          "team": "away",
+          "team_abbrev": "HCOB Opp/BK",
+          "seven_meter": false
+        },
+        {
+          "minute": 12,
+          "second": 9,
+          "scorer": "Niklas Fichtner",
+          "team": "away",
+          "team_abbrev": "HCOB Opp/BK",
+          "seven_meter": false
+        },
+        {
+          "minute": 12,
+          "second": 44,
+          "scorer": "Paul Zillmann",
+          "team": "away",
+          "team_abbrev": "HCOB Opp/BK",
+          "seven_meter": false
+        },
+        {
+          "minute": 16,
+          "second": 26,
+          "scorer": "Paul Zillmann",
+          "team": "away",
+          "team_abbrev": "HCOB Opp/BK",
+          "seven_meter": false
+        },
+        {
+          "minute": 16,
+          "second": 40,
+          "scorer": "Paul Merz",
+          "team": "home",
+          "team_abbrev": "HC Winnenden",
+          "seven_meter": false
+        },
+        {
+          "minute": 17,
+          "second": 51,
+          "scorer": "Jakob Sprenger",
+          "team": "away",
+          "team_abbrev": "HCOB Opp/BK",
+          "seven_meter": false
+        },
+        {
+          "minute": 18,
+          "second": 26,
+          "scorer": "Paul Merz",
+          "team": "home",
+          "team_abbrev": "HC Winnenden",
+          "seven_meter": false
+        },
+        {
+          "minute": 18,
+          "second": 43,
+          "scorer": "Jakob Sprenger",
+          "team": "away",
+          "team_abbrev": "HCOB Opp/BK",
+          "seven_meter": false
+        },
+        {
+          "minute": 19,
+          "second": 35,
+          "scorer": "Niklas Fichtner",
+          "team": "away",
+          "team_abbrev": "HCOB Opp/BK",
+          "seven_meter": false
+        },
+        {
+          "minute": 21,
+          "second": 16,
+          "scorer": "Leonard Schulz",
+          "team": "away",
+          "team_abbrev": "HCOB Opp/BK",
+          "seven_meter": false
+        },
+        {
+          "minute": 21,
+          "second": 33,
+          "scorer": "Daniel Sch\u00f6llhorn",
+          "team": "home",
+          "team_abbrev": "HC Winnenden",
+          "seven_meter": true
+        },
+        {
+          "minute": 22,
+          "second": 14,
+          "scorer": "Anton Baumunk",
+          "team": "away",
+          "team_abbrev": "HCOB Opp/BK",
+          "seven_meter": true
+        },
+        {
+          "minute": 22,
+          "second": 43,
+          "scorer": "Niklas Fichtner",
+          "team": "away",
+          "team_abbrev": "HCOB Opp/BK",
+          "seven_meter": false
+        },
+        {
+          "minute": 23,
+          "second": 58,
+          "scorer": "Anton Baumunk",
+          "team": "away",
+          "team_abbrev": "HCOB Opp/BK",
+          "seven_meter": false
+        },
+        {
+          "minute": 24,
+          "second": 30,
+          "scorer": "Daniel Sch\u00f6llhorn",
+          "team": "home",
+          "team_abbrev": "HC Winnenden",
+          "seven_meter": false
+        },
+        {
+          "minute": 25,
+          "second": 23,
+          "scorer": "Tom Seibold",
+          "team": "away",
+          "team_abbrev": "HCOB Opp/BK",
+          "seven_meter": false
+        },
+        {
+          "minute": 26,
+          "second": 19,
+          "scorer": "Josha Winkler",
+          "team": "away",
+          "team_abbrev": "HCOB Opp/BK",
+          "seven_meter": false
+        },
+        {
+          "minute": 27,
+          "second": 0,
+          "scorer": "Erik Farkas",
+          "team": "home",
+          "team_abbrev": "HC Winnenden",
+          "seven_meter": false
+        },
+        {
+          "minute": 27,
+          "second": 39,
+          "scorer": "Daniel Sch\u00f6llhorn",
+          "team": "home",
+          "team_abbrev": "HC Winnenden",
+          "seven_meter": true
+        },
+        {
+          "minute": 28,
+          "second": 12,
+          "scorer": "Anton Baumunk",
+          "team": "away",
+          "team_abbrev": "HCOB Opp/BK",
+          "seven_meter": false
+        },
+        {
+          "minute": 29,
+          "second": 0,
+          "scorer": "Anton Baumunk",
+          "team": "away",
+          "team_abbrev": "HCOB Opp/BK",
+          "seven_meter": false
+        },
+        {
+          "minute": 29,
+          "second": 46,
+          "scorer": "Niklas Fichtner",
+          "team": "away",
+          "team_abbrev": "HCOB Opp/BK",
+          "seven_meter": false
+        },
+        {
+          "minute": 30,
+          "second": 32,
+          "scorer": "Leo M\u00fchlpointner",
+          "team": "away",
+          "team_abbrev": "HCOB Opp/BK",
+          "seven_meter": false
+        },
+        {
+          "minute": 32,
+          "second": 7,
+          "scorer": "Mats Benignus",
+          "team": "away",
+          "team_abbrev": "HCOB Opp/BK",
+          "seven_meter": false
+        },
+        {
+          "minute": 32,
+          "second": 34,
+          "scorer": "Josha Winkler",
+          "team": "away",
+          "team_abbrev": "HCOB Opp/BK",
+          "seven_meter": false
+        },
+        {
+          "minute": 32,
+          "second": 59,
+          "scorer": "Josha Winkler",
+          "team": "away",
+          "team_abbrev": "HCOB Opp/BK",
+          "seven_meter": false
+        },
+        {
+          "minute": 34,
+          "second": 5,
+          "scorer": "Niklas Fichtner",
+          "team": "away",
+          "team_abbrev": "HCOB Opp/BK",
+          "seven_meter": false
+        },
+        {
+          "minute": 35,
+          "second": 11,
+          "scorer": "Anton Baumunk",
+          "team": "away",
+          "team_abbrev": "HCOB Opp/BK",
+          "seven_meter": false
+        },
+        {
+          "minute": 35,
+          "second": 37,
+          "scorer": "Josha Winkler",
+          "team": "away",
+          "team_abbrev": "HCOB Opp/BK",
+          "seven_meter": false
+        },
+        {
+          "minute": 36,
+          "second": 25,
+          "scorer": "Anton Baumunk",
+          "team": "away",
+          "team_abbrev": "HCOB Opp/BK",
+          "seven_meter": false
+        },
+        {
+          "minute": 38,
+          "second": 49,
+          "scorer": "Moritz Staack",
+          "team": "home",
+          "team_abbrev": "HC Winnenden",
+          "seven_meter": false
+        },
+        {
+          "minute": 39,
+          "second": 5,
+          "scorer": "Paul Zillmann",
+          "team": "away",
+          "team_abbrev": "HCOB Opp/BK",
+          "seven_meter": false
+        },
+        {
+          "minute": 39,
+          "second": 36,
+          "scorer": "Leo M\u00fchlpointner",
+          "team": "away",
+          "team_abbrev": "HCOB Opp/BK",
+          "seven_meter": false
+        },
+        {
+          "minute": 39,
+          "second": 46,
+          "scorer": "Paul Zillmann",
+          "team": "away",
+          "team_abbrev": "HCOB Opp/BK",
+          "seven_meter": false
+        }
+      ],
+      "final_score": "11:36",
+      "half_duration": 30,
+      "officials": {
+        "referees": [
+          "Finn Siegele"
+        ],
+        "timekeepers": [
+          "Kerstin Fichtner"
+        ],
+        "secretaries": [
+          "Jochen Staack"
+        ]
+      }
+    }
+  ]
+}

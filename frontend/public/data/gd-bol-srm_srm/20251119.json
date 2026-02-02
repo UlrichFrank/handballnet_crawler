@@ -1,0 +1,875 @@
+{
+  "date": "20251119",
+  "games": [
+    {
+      "game_id": "handball4all.baden-wuerttemberg.8853087",
+      "order": 22,
+      "date": "Mi, 19.11.",
+      "home": {
+        "team_name": "Team Stuttgart",
+        "players": [
+          {
+            "name": "Mats B\u00fchler",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Kilian Zhezhov",
+            "goals": 6,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 1,
+            "seven_meters_goals": 1
+          },
+          {
+            "name": "Jakob Rehm",
+            "goals": 2,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Otto Leistert",
+            "goals": 10,
+            "two_min_penalties": 2,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 1,
+            "seven_meters_goals": 1
+          },
+          {
+            "name": "Raphael Eholzer",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Maximilian Blanz",
+            "goals": 1,
+            "two_min_penalties": 1,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Emil Zai\u00df",
+            "goals": 4,
+            "two_min_penalties": 1,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Adrian Rebmann",
+            "goals": 3,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Neo Manz",
+            "goals": 5,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Samson Herbst",
+            "goals": 2,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Enno Eich",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Jannes Frank",
+            "goals": 1,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Leo Volle",
+            "goals": 6,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 2,
+            "seven_meters_goals": 2
+          },
+          {
+            "name": "Raphael Wurster",
+            "goals": 2,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Peter Fischer",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          }
+        ]
+      },
+      "away": {
+        "team_name": "HSG Bargau/Bettringen",
+        "players": [
+          {
+            "name": "Elias Dorsch",
+            "goals": 8,
+            "two_min_penalties": 1,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "N.N. N.N.",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Laurin Sch\u00fcbel",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Felix Schwarz",
+            "goals": 2,
+            "two_min_penalties": 1,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Johannes Hackl",
+            "goals": 4,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Matteo Giallorenzo",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Luca Scherer",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Mats Feichtenbeiner",
+            "goals": 1,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Lyas Schwenk",
+            "goals": 18,
+            "two_min_penalties": 2,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 1,
+            "seven_meters_goals": 1
+          }
+        ]
+      },
+      "goals_timeline": [
+        {
+          "minute": 0,
+          "second": 34,
+          "scorer": "Emil Zai\u00df",
+          "team": "home",
+          "team_abbrev": "Team Stuttgart",
+          "seven_meter": false
+        },
+        {
+          "minute": 1,
+          "second": 16,
+          "scorer": "Maximilian Blanz",
+          "team": "home",
+          "team_abbrev": "Team Stuttgart",
+          "seven_meter": false
+        },
+        {
+          "minute": 1,
+          "second": 36,
+          "scorer": "Lyas Schwenk",
+          "team": "away",
+          "team_abbrev": "HSG Barg/Bettr",
+          "seven_meter": false
+        },
+        {
+          "minute": 1,
+          "second": 48,
+          "scorer": "Otto Leistert",
+          "team": "home",
+          "team_abbrev": "Team Stuttgart",
+          "seven_meter": false
+        },
+        {
+          "minute": 1,
+          "second": 56,
+          "scorer": "Lyas Schwenk",
+          "team": "away",
+          "team_abbrev": "HSG Barg/Bettr",
+          "seven_meter": false
+        },
+        {
+          "minute": 2,
+          "second": 6,
+          "scorer": "Leo Volle",
+          "team": "home",
+          "team_abbrev": "Team Stuttgart",
+          "seven_meter": false
+        },
+        {
+          "minute": 2,
+          "second": 58,
+          "scorer": "Otto Leistert",
+          "team": "home",
+          "team_abbrev": "Team Stuttgart",
+          "seven_meter": false
+        },
+        {
+          "minute": 3,
+          "second": 32,
+          "scorer": "Kilian Zhezhov",
+          "team": "home",
+          "team_abbrev": "Team Stuttgart",
+          "seven_meter": false
+        },
+        {
+          "minute": 4,
+          "second": 24,
+          "scorer": "Kilian Zhezhov",
+          "team": "home",
+          "team_abbrev": "Team Stuttgart",
+          "seven_meter": true
+        },
+        {
+          "minute": 4,
+          "second": 57,
+          "scorer": "Otto Leistert",
+          "team": "home",
+          "team_abbrev": "Team Stuttgart",
+          "seven_meter": false
+        },
+        {
+          "minute": 5,
+          "second": 17,
+          "scorer": "Leo Volle",
+          "team": "home",
+          "team_abbrev": "Team Stuttgart",
+          "seven_meter": false
+        },
+        {
+          "minute": 6,
+          "second": 30,
+          "scorer": "Felix Schwarz",
+          "team": "away",
+          "team_abbrev": "HSG Barg/Bettr",
+          "seven_meter": false
+        },
+        {
+          "minute": 7,
+          "second": 23,
+          "scorer": "Neo Manz",
+          "team": "home",
+          "team_abbrev": "Team Stuttgart",
+          "seven_meter": false
+        },
+        {
+          "minute": 8,
+          "second": 6,
+          "scorer": "Lyas Schwenk",
+          "team": "away",
+          "team_abbrev": "HSG Barg/Bettr",
+          "seven_meter": false
+        },
+        {
+          "minute": 8,
+          "second": 59,
+          "scorer": "Emil Zai\u00df",
+          "team": "home",
+          "team_abbrev": "Team Stuttgart",
+          "seven_meter": false
+        },
+        {
+          "minute": 9,
+          "second": 37,
+          "scorer": "Otto Leistert",
+          "team": "home",
+          "team_abbrev": "Team Stuttgart",
+          "seven_meter": false
+        },
+        {
+          "minute": 9,
+          "second": 57,
+          "scorer": "Lyas Schwenk",
+          "team": "away",
+          "team_abbrev": "HSG Barg/Bettr",
+          "seven_meter": true
+        },
+        {
+          "minute": 10,
+          "second": 23,
+          "scorer": "Leo Volle",
+          "team": "home",
+          "team_abbrev": "Team Stuttgart",
+          "seven_meter": true
+        },
+        {
+          "minute": 10,
+          "second": 51,
+          "scorer": "Lyas Schwenk",
+          "team": "away",
+          "team_abbrev": "HSG Barg/Bettr",
+          "seven_meter": false
+        },
+        {
+          "minute": 11,
+          "second": 13,
+          "scorer": "Leo Volle",
+          "team": "home",
+          "team_abbrev": "Team Stuttgart",
+          "seven_meter": true
+        },
+        {
+          "minute": 11,
+          "second": 40,
+          "scorer": "Lyas Schwenk",
+          "team": "away",
+          "team_abbrev": "HSG Barg/Bettr",
+          "seven_meter": false
+        },
+        {
+          "minute": 11,
+          "second": 51,
+          "scorer": "Raphael Wurster",
+          "team": "home",
+          "team_abbrev": "Team Stuttgart",
+          "seven_meter": false
+        },
+        {
+          "minute": 11,
+          "second": 59,
+          "scorer": "Lyas Schwenk",
+          "team": "away",
+          "team_abbrev": "HSG Barg/Bettr",
+          "seven_meter": false
+        },
+        {
+          "minute": 12,
+          "second": 17,
+          "scorer": "Adrian Rebmann",
+          "team": "home",
+          "team_abbrev": "Team Stuttgart",
+          "seven_meter": false
+        },
+        {
+          "minute": 12,
+          "second": 30,
+          "scorer": "Lyas Schwenk",
+          "team": "away",
+          "team_abbrev": "HSG Barg/Bettr",
+          "seven_meter": false
+        },
+        {
+          "minute": 12,
+          "second": 47,
+          "scorer": "Leo Volle",
+          "team": "home",
+          "team_abbrev": "Team Stuttgart",
+          "seven_meter": false
+        },
+        {
+          "minute": 13,
+          "second": 7,
+          "scorer": "Elias Dorsch",
+          "team": "away",
+          "team_abbrev": "HSG Barg/Bettr",
+          "seven_meter": false
+        },
+        {
+          "minute": 13,
+          "second": 54,
+          "scorer": "Felix Schwarz",
+          "team": "away",
+          "team_abbrev": "HSG Barg/Bettr",
+          "seven_meter": false
+        },
+        {
+          "minute": 14,
+          "second": 17,
+          "scorer": "Elias Dorsch",
+          "team": "away",
+          "team_abbrev": "HSG Barg/Bettr",
+          "seven_meter": false
+        },
+        {
+          "minute": 14,
+          "second": 44,
+          "scorer": "Samson Herbst",
+          "team": "home",
+          "team_abbrev": "Team Stuttgart",
+          "seven_meter": false
+        },
+        {
+          "minute": 14,
+          "second": 56,
+          "scorer": "Lyas Schwenk",
+          "team": "away",
+          "team_abbrev": "HSG Barg/Bettr",
+          "seven_meter": false
+        },
+        {
+          "minute": 15,
+          "second": 20,
+          "scorer": "Adrian Rebmann",
+          "team": "home",
+          "team_abbrev": "Team Stuttgart",
+          "seven_meter": false
+        },
+        {
+          "minute": 15,
+          "second": 39,
+          "scorer": "Lyas Schwenk",
+          "team": "away",
+          "team_abbrev": "HSG Barg/Bettr",
+          "seven_meter": false
+        },
+        {
+          "minute": 16,
+          "second": 0,
+          "scorer": "Neo Manz",
+          "team": "home",
+          "team_abbrev": "Team Stuttgart",
+          "seven_meter": false
+        },
+        {
+          "minute": 16,
+          "second": 30,
+          "scorer": "Johannes Hackl",
+          "team": "away",
+          "team_abbrev": "HSG Barg/Bettr",
+          "seven_meter": false
+        },
+        {
+          "minute": 17,
+          "second": 39,
+          "scorer": "Lyas Schwenk",
+          "team": "away",
+          "team_abbrev": "HSG Barg/Bettr",
+          "seven_meter": false
+        },
+        {
+          "minute": 18,
+          "second": 12,
+          "scorer": "Neo Manz",
+          "team": "home",
+          "team_abbrev": "Team Stuttgart",
+          "seven_meter": false
+        },
+        {
+          "minute": 19,
+          "second": 59,
+          "scorer": "Otto Leistert",
+          "team": "home",
+          "team_abbrev": "Team Stuttgart",
+          "seven_meter": false
+        },
+        {
+          "minute": 21,
+          "second": 21,
+          "scorer": "Otto Leistert",
+          "team": "home",
+          "team_abbrev": "Team Stuttgart",
+          "seven_meter": false
+        },
+        {
+          "minute": 21,
+          "second": 40,
+          "scorer": "Kilian Zhezhov",
+          "team": "home",
+          "team_abbrev": "Team Stuttgart",
+          "seven_meter": false
+        },
+        {
+          "minute": 22,
+          "second": 16,
+          "scorer": "Johannes Hackl",
+          "team": "away",
+          "team_abbrev": "HSG Barg/Bettr",
+          "seven_meter": false
+        },
+        {
+          "minute": 22,
+          "second": 24,
+          "scorer": "Jakob Rehm",
+          "team": "home",
+          "team_abbrev": "Team Stuttgart",
+          "seven_meter": false
+        },
+        {
+          "minute": 22,
+          "second": 42,
+          "scorer": "Emil Zai\u00df",
+          "team": "home",
+          "team_abbrev": "Team Stuttgart",
+          "seven_meter": false
+        },
+        {
+          "minute": 23,
+          "second": 24,
+          "scorer": "Lyas Schwenk",
+          "team": "away",
+          "team_abbrev": "HSG Barg/Bettr",
+          "seven_meter": false
+        },
+        {
+          "minute": 23,
+          "second": 35,
+          "scorer": "Kilian Zhezhov",
+          "team": "home",
+          "team_abbrev": "Team Stuttgart",
+          "seven_meter": false
+        },
+        {
+          "minute": 23,
+          "second": 59,
+          "scorer": "Jakob Rehm",
+          "team": "home",
+          "team_abbrev": "Team Stuttgart",
+          "seven_meter": false
+        },
+        {
+          "minute": 24,
+          "second": 47,
+          "scorer": "Lyas Schwenk",
+          "team": "away",
+          "team_abbrev": "HSG Barg/Bettr",
+          "seven_meter": false
+        },
+        {
+          "minute": 24,
+          "second": 57,
+          "scorer": "Emil Zai\u00df",
+          "team": "home",
+          "team_abbrev": "Team Stuttgart",
+          "seven_meter": false
+        },
+        {
+          "minute": 25,
+          "second": 25,
+          "scorer": "Lyas Schwenk",
+          "team": "away",
+          "team_abbrev": "HSG Barg/Bettr",
+          "seven_meter": false
+        },
+        {
+          "minute": 25,
+          "second": 34,
+          "scorer": "Leo Volle",
+          "team": "home",
+          "team_abbrev": "Team Stuttgart",
+          "seven_meter": false
+        },
+        {
+          "minute": 26,
+          "second": 8,
+          "scorer": "Lyas Schwenk",
+          "team": "away",
+          "team_abbrev": "HSG Barg/Bettr",
+          "seven_meter": false
+        },
+        {
+          "minute": 26,
+          "second": 42,
+          "scorer": "Kilian Zhezhov",
+          "team": "home",
+          "team_abbrev": "Team Stuttgart",
+          "seven_meter": false
+        },
+        {
+          "minute": 27,
+          "second": 20,
+          "scorer": "Elias Dorsch",
+          "team": "away",
+          "team_abbrev": "HSG Barg/Bettr",
+          "seven_meter": false
+        },
+        {
+          "minute": 28,
+          "second": 1,
+          "scorer": "Johannes Hackl",
+          "team": "away",
+          "team_abbrev": "HSG Barg/Bettr",
+          "seven_meter": false
+        },
+        {
+          "minute": 28,
+          "second": 24,
+          "scorer": "Kilian Zhezhov",
+          "team": "home",
+          "team_abbrev": "Team Stuttgart",
+          "seven_meter": false
+        },
+        {
+          "minute": 28,
+          "second": 44,
+          "scorer": "Elias Dorsch",
+          "team": "away",
+          "team_abbrev": "HSG Barg/Bettr",
+          "seven_meter": false
+        },
+        {
+          "minute": 28,
+          "second": 53,
+          "scorer": "Samson Herbst",
+          "team": "home",
+          "team_abbrev": "Team Stuttgart",
+          "seven_meter": false
+        },
+        {
+          "minute": 28,
+          "second": 53,
+          "scorer": "Johannes Hackl",
+          "team": "away",
+          "team_abbrev": "HSG Barg/Bettr",
+          "seven_meter": false
+        },
+        {
+          "minute": 29,
+          "second": 36,
+          "scorer": "Adrian Rebmann",
+          "team": "home",
+          "team_abbrev": "Team Stuttgart",
+          "seven_meter": false
+        },
+        {
+          "minute": 30,
+          "second": 13,
+          "scorer": "Otto Leistert",
+          "team": "home",
+          "team_abbrev": "Team Stuttgart",
+          "seven_meter": false
+        },
+        {
+          "minute": 30,
+          "second": 45,
+          "scorer": "Elias Dorsch",
+          "team": "away",
+          "team_abbrev": "HSG Barg/Bettr",
+          "seven_meter": false
+        },
+        {
+          "minute": 30,
+          "second": 58,
+          "scorer": "Lyas Schwenk",
+          "team": "away",
+          "team_abbrev": "HSG Barg/Bettr",
+          "seven_meter": false
+        },
+        {
+          "minute": 32,
+          "second": 0,
+          "scorer": "Otto Leistert",
+          "team": "home",
+          "team_abbrev": "Team Stuttgart",
+          "seven_meter": false
+        },
+        {
+          "minute": 32,
+          "second": 44,
+          "scorer": "Jannes Frank",
+          "team": "home",
+          "team_abbrev": "Team Stuttgart",
+          "seven_meter": false
+        },
+        {
+          "minute": 34,
+          "second": 20,
+          "scorer": "Mats Feichtenbeiner",
+          "team": "away",
+          "team_abbrev": "HSG Barg/Bettr",
+          "seven_meter": false
+        },
+        {
+          "minute": 34,
+          "second": 45,
+          "scorer": "Raphael Wurster",
+          "team": "home",
+          "team_abbrev": "Team Stuttgart",
+          "seven_meter": false
+        },
+        {
+          "minute": 35,
+          "second": 15,
+          "scorer": "Lyas Schwenk",
+          "team": "away",
+          "team_abbrev": "HSG Barg/Bettr",
+          "seven_meter": false
+        },
+        {
+          "minute": 36,
+          "second": 48,
+          "scorer": "Elias Dorsch",
+          "team": "away",
+          "team_abbrev": "HSG Barg/Bettr",
+          "seven_meter": false
+        },
+        {
+          "minute": 37,
+          "second": 2,
+          "scorer": "Neo Manz",
+          "team": "home",
+          "team_abbrev": "Team Stuttgart",
+          "seven_meter": false
+        },
+        {
+          "minute": 37,
+          "second": 17,
+          "scorer": "Lyas Schwenk",
+          "team": "away",
+          "team_abbrev": "HSG Barg/Bettr",
+          "seven_meter": false
+        },
+        {
+          "minute": 38,
+          "second": 19,
+          "scorer": "Otto Leistert",
+          "team": "home",
+          "team_abbrev": "Team Stuttgart",
+          "seven_meter": true
+        },
+        {
+          "minute": 38,
+          "second": 48,
+          "scorer": "Otto Leistert",
+          "team": "home",
+          "team_abbrev": "Team Stuttgart",
+          "seven_meter": false
+        },
+        {
+          "minute": 39,
+          "second": 13,
+          "scorer": "Elias Dorsch",
+          "team": "away",
+          "team_abbrev": "HSG Barg/Bettr",
+          "seven_meter": false
+        },
+        {
+          "minute": 39,
+          "second": 28,
+          "scorer": "Neo Manz",
+          "team": "home",
+          "team_abbrev": "Team Stuttgart",
+          "seven_meter": false
+        },
+        {
+          "minute": 39,
+          "second": 57,
+          "scorer": "Elias Dorsch",
+          "team": "away",
+          "team_abbrev": "HSG Barg/Bettr",
+          "seven_meter": false
+        }
+      ],
+      "final_score": "42:33",
+      "half_duration": 30,
+      "officials": {
+        "referees": [
+          "Marvin Frech"
+        ],
+        "timekeepers": [
+          "Denise Manz"
+        ],
+        "secretaries": [
+          "Steffen Feichtenbeiner"
+        ]
+      }
+    }
+  ]
+}

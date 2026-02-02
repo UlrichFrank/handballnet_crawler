@@ -1,0 +1,743 @@
+{
+  "date": "20250921",
+  "games": [
+    {
+      "game_id": "handball4all.baden-wuerttemberg.8853052",
+      "order": 2,
+      "date": "So, 21.09.",
+      "home": {
+        "team_name": "HC Winnenden",
+        "players": [
+          {
+            "name": "Vedran Benkovic",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Paul Pach",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Moritz Staack",
+            "goals": 3,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Jannis Morlok",
+            "goals": 2,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Felix Fechner",
+            "goals": 6,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Emil Weigel",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Moritz Wandres",
+            "goals": 2,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Pepe Klink",
+            "goals": 2,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Ole Egler",
+            "goals": 4,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Daniel Sch\u00f6llhorn",
+            "goals": 5,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Paul Merz",
+            "goals": 1,
+            "two_min_penalties": 1,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Elias B\u00f6ttcher",
+            "goals": 2,
+            "two_min_penalties": 2,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 1,
+            "seven_meters_goals": 1
+          }
+        ]
+      },
+      "away": {
+        "team_name": "SG Weinstadt",
+        "players": [
+          {
+            "name": "Fiete Ha\u00dfpacher",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Luca Bachteler",
+            "goals": 7,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Julian Lang",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Max R\u00f6mer",
+            "goals": 3,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 2,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Benjamin Ne\u00df",
+            "goals": 3,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Lennik Merkel",
+            "goals": 10,
+            "two_min_penalties": 0,
+            "yellow_cards": 1,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 2,
+            "seven_meters_goals": 1
+          },
+          {
+            "name": "Patrik Streich",
+            "goals": 1,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Theo Frick",
+            "goals": 1,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 1,
+            "seven_meters_goals": 1
+          },
+          {
+            "name": "Julius Rupp",
+            "goals": 3,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Jakob Engel",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Henri Joas",
+            "goals": 1,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Jesse Bohn",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Piet Fleige",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Helena Kando",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          }
+        ]
+      },
+      "goals_timeline": [
+        {
+          "minute": 0,
+          "second": 32,
+          "scorer": "Daniel Sch\u00f6llhorn",
+          "team": "home",
+          "team_abbrev": "HC Winnenden",
+          "seven_meter": false
+        },
+        {
+          "minute": 0,
+          "second": 48,
+          "scorer": "Moritz Staack",
+          "team": "home",
+          "team_abbrev": "HC Winnenden",
+          "seven_meter": false
+        },
+        {
+          "minute": 1,
+          "second": 7,
+          "scorer": "Ole Egler",
+          "team": "home",
+          "team_abbrev": "HC Winnenden",
+          "seven_meter": false
+        },
+        {
+          "minute": 1,
+          "second": 24,
+          "scorer": "Luca Bachteler",
+          "team": "away",
+          "team_abbrev": "SG Weinstadt",
+          "seven_meter": false
+        },
+        {
+          "minute": 2,
+          "second": 8,
+          "scorer": "Lennik Merkel",
+          "team": "away",
+          "team_abbrev": "SG Weinstadt",
+          "seven_meter": false
+        },
+        {
+          "minute": 2,
+          "second": 38,
+          "scorer": "Felix Fechner",
+          "team": "home",
+          "team_abbrev": "HC Winnenden",
+          "seven_meter": false
+        },
+        {
+          "minute": 3,
+          "second": 1,
+          "scorer": "Lennik Merkel",
+          "team": "away",
+          "team_abbrev": "SG Weinstadt",
+          "seven_meter": true
+        },
+        {
+          "minute": 3,
+          "second": 22,
+          "scorer": "Daniel Sch\u00f6llhorn",
+          "team": "home",
+          "team_abbrev": "HC Winnenden",
+          "seven_meter": false
+        },
+        {
+          "minute": 3,
+          "second": 41,
+          "scorer": "Lennik Merkel",
+          "team": "away",
+          "team_abbrev": "SG Weinstadt",
+          "seven_meter": false
+        },
+        {
+          "minute": 4,
+          "second": 14,
+          "scorer": "Julius Rupp",
+          "team": "away",
+          "team_abbrev": "SG Weinstadt",
+          "seven_meter": false
+        },
+        {
+          "minute": 5,
+          "second": 58,
+          "scorer": "Luca Bachteler",
+          "team": "away",
+          "team_abbrev": "SG Weinstadt",
+          "seven_meter": false
+        },
+        {
+          "minute": 7,
+          "second": 6,
+          "scorer": "Ole Egler",
+          "team": "home",
+          "team_abbrev": "HC Winnenden",
+          "seven_meter": false
+        },
+        {
+          "minute": 7,
+          "second": 28,
+          "scorer": "Lennik Merkel",
+          "team": "away",
+          "team_abbrev": "SG Weinstadt",
+          "seven_meter": false
+        },
+        {
+          "minute": 7,
+          "second": 55,
+          "scorer": "Benjamin Ne\u00df",
+          "team": "away",
+          "team_abbrev": "SG Weinstadt",
+          "seven_meter": false
+        },
+        {
+          "minute": 8,
+          "second": 28,
+          "scorer": "Lennik Merkel",
+          "team": "away",
+          "team_abbrev": "SG Weinstadt",
+          "seven_meter": false
+        },
+        {
+          "minute": 9,
+          "second": 1,
+          "scorer": "Lennik Merkel",
+          "team": "away",
+          "team_abbrev": "SG Weinstadt",
+          "seven_meter": false
+        },
+        {
+          "minute": 11,
+          "second": 29,
+          "scorer": "Daniel Sch\u00f6llhorn",
+          "team": "home",
+          "team_abbrev": "HC Winnenden",
+          "seven_meter": false
+        },
+        {
+          "minute": 12,
+          "second": 36,
+          "scorer": "Paul Merz",
+          "team": "home",
+          "team_abbrev": "HC Winnenden",
+          "seven_meter": false
+        },
+        {
+          "minute": 13,
+          "second": 32,
+          "scorer": "Felix Fechner",
+          "team": "home",
+          "team_abbrev": "HC Winnenden",
+          "seven_meter": false
+        },
+        {
+          "minute": 14,
+          "second": 0,
+          "scorer": "Benjamin Ne\u00df",
+          "team": "away",
+          "team_abbrev": "SG Weinstadt",
+          "seven_meter": false
+        },
+        {
+          "minute": 14,
+          "second": 40,
+          "scorer": "Max R\u00f6mer",
+          "team": "away",
+          "team_abbrev": "SG Weinstadt",
+          "seven_meter": false
+        },
+        {
+          "minute": 15,
+          "second": 54,
+          "scorer": "Moritz Wandres",
+          "team": "home",
+          "team_abbrev": "HC Winnenden",
+          "seven_meter": false
+        },
+        {
+          "minute": 16,
+          "second": 15,
+          "scorer": "Luca Bachteler",
+          "team": "away",
+          "team_abbrev": "SG Weinstadt",
+          "seven_meter": false
+        },
+        {
+          "minute": 18,
+          "second": 29,
+          "scorer": "Felix Fechner",
+          "team": "home",
+          "team_abbrev": "HC Winnenden",
+          "seven_meter": false
+        },
+        {
+          "minute": 18,
+          "second": 48,
+          "scorer": "Lennik Merkel",
+          "team": "away",
+          "team_abbrev": "SG Weinstadt",
+          "seven_meter": false
+        },
+        {
+          "minute": 19,
+          "second": 17,
+          "scorer": "Patrik Streich",
+          "team": "away",
+          "team_abbrev": "SG Weinstadt",
+          "seven_meter": false
+        },
+        {
+          "minute": 20,
+          "second": 24,
+          "scorer": "Henri Joas",
+          "team": "away",
+          "team_abbrev": "SG Weinstadt",
+          "seven_meter": false
+        },
+        {
+          "minute": 21,
+          "second": 17,
+          "scorer": "Daniel Sch\u00f6llhorn",
+          "team": "home",
+          "team_abbrev": "HC Winnenden",
+          "seven_meter": false
+        },
+        {
+          "minute": 22,
+          "second": 8,
+          "scorer": "Julius Rupp",
+          "team": "away",
+          "team_abbrev": "SG Weinstadt",
+          "seven_meter": false
+        },
+        {
+          "minute": 23,
+          "second": 28,
+          "scorer": "Felix Fechner",
+          "team": "home",
+          "team_abbrev": "HC Winnenden",
+          "seven_meter": false
+        },
+        {
+          "minute": 23,
+          "second": 36,
+          "scorer": "Max R\u00f6mer",
+          "team": "away",
+          "team_abbrev": "SG Weinstadt",
+          "seven_meter": false
+        },
+        {
+          "minute": 23,
+          "second": 57,
+          "scorer": "Moritz Wandres",
+          "team": "home",
+          "team_abbrev": "HC Winnenden",
+          "seven_meter": false
+        },
+        {
+          "minute": 24,
+          "second": 10,
+          "scorer": "Lennik Merkel",
+          "team": "away",
+          "team_abbrev": "SG Weinstadt",
+          "seven_meter": false
+        },
+        {
+          "minute": 24,
+          "second": 22,
+          "scorer": "Ole Egler",
+          "team": "home",
+          "team_abbrev": "HC Winnenden",
+          "seven_meter": false
+        },
+        {
+          "minute": 24,
+          "second": 39,
+          "scorer": "Max R\u00f6mer",
+          "team": "away",
+          "team_abbrev": "SG Weinstadt",
+          "seven_meter": false
+        },
+        {
+          "minute": 24,
+          "second": 59,
+          "scorer": "Luca Bachteler",
+          "team": "away",
+          "team_abbrev": "SG Weinstadt",
+          "seven_meter": false
+        },
+        {
+          "minute": 25,
+          "second": 29,
+          "scorer": "Lennik Merkel",
+          "team": "away",
+          "team_abbrev": "SG Weinstadt",
+          "seven_meter": false
+        },
+        {
+          "minute": 26,
+          "second": 25,
+          "scorer": "Theo Frick",
+          "team": "away",
+          "team_abbrev": "SG Weinstadt",
+          "seven_meter": true
+        },
+        {
+          "minute": 27,
+          "second": 31,
+          "scorer": "Elias B\u00f6ttcher",
+          "team": "home",
+          "team_abbrev": "HC Winnenden",
+          "seven_meter": false
+        },
+        {
+          "minute": 27,
+          "second": 50,
+          "scorer": "Luca Bachteler",
+          "team": "away",
+          "team_abbrev": "SG Weinstadt",
+          "seven_meter": false
+        },
+        {
+          "minute": 29,
+          "second": 28,
+          "scorer": "Elias B\u00f6ttcher",
+          "team": "home",
+          "team_abbrev": "HC Winnenden",
+          "seven_meter": true
+        },
+        {
+          "minute": 29,
+          "second": 53,
+          "scorer": "Pepe Klink",
+          "team": "home",
+          "team_abbrev": "HC Winnenden",
+          "seven_meter": false
+        },
+        {
+          "minute": 30,
+          "second": 13,
+          "scorer": "Benjamin Ne\u00df",
+          "team": "away",
+          "team_abbrev": "SG Weinstadt",
+          "seven_meter": false
+        },
+        {
+          "minute": 30,
+          "second": 55,
+          "scorer": "Jannis Morlok",
+          "team": "home",
+          "team_abbrev": "HC Winnenden",
+          "seven_meter": false
+        },
+        {
+          "minute": 32,
+          "second": 19,
+          "scorer": "Daniel Sch\u00f6llhorn",
+          "team": "home",
+          "team_abbrev": "HC Winnenden",
+          "seven_meter": false
+        },
+        {
+          "minute": 32,
+          "second": 34,
+          "scorer": "Ole Egler",
+          "team": "home",
+          "team_abbrev": "HC Winnenden",
+          "seven_meter": false
+        },
+        {
+          "minute": 33,
+          "second": 21,
+          "scorer": "Luca Bachteler",
+          "team": "away",
+          "team_abbrev": "SG Weinstadt",
+          "seven_meter": false
+        },
+        {
+          "minute": 34,
+          "second": 39,
+          "scorer": "Pepe Klink",
+          "team": "home",
+          "team_abbrev": "HC Winnenden",
+          "seven_meter": false
+        },
+        {
+          "minute": 35,
+          "second": 4,
+          "scorer": "Moritz Staack",
+          "team": "home",
+          "team_abbrev": "HC Winnenden",
+          "seven_meter": false
+        },
+        {
+          "minute": 35,
+          "second": 29,
+          "scorer": "Luca Bachteler",
+          "team": "away",
+          "team_abbrev": "SG Weinstadt",
+          "seven_meter": false
+        },
+        {
+          "minute": 35,
+          "second": 46,
+          "scorer": "Felix Fechner",
+          "team": "home",
+          "team_abbrev": "HC Winnenden",
+          "seven_meter": false
+        },
+        {
+          "minute": 36,
+          "second": 50,
+          "scorer": "Moritz Staack",
+          "team": "home",
+          "team_abbrev": "HC Winnenden",
+          "seven_meter": false
+        },
+        {
+          "minute": 36,
+          "second": 56,
+          "scorer": "Jannis Morlok",
+          "team": "home",
+          "team_abbrev": "HC Winnenden",
+          "seven_meter": false
+        },
+        {
+          "minute": 38,
+          "second": 58,
+          "scorer": "Felix Fechner",
+          "team": "home",
+          "team_abbrev": "HC Winnenden",
+          "seven_meter": false
+        },
+        {
+          "minute": 39,
+          "second": 15,
+          "scorer": "Lennik Merkel",
+          "team": "away",
+          "team_abbrev": "SG Weinstadt",
+          "seven_meter": false
+        },
+        {
+          "minute": 39,
+          "second": 31,
+          "scorer": "Julius Rupp",
+          "team": "away",
+          "team_abbrev": "SG Weinstadt",
+          "seven_meter": false
+        }
+      ],
+      "final_score": "27:29",
+      "half_duration": 30,
+      "officials": {
+        "referees": [
+          "Steffen Schwab"
+        ],
+        "timekeepers": [
+          "Robin Kral"
+        ],
+        "secretaries": [
+          "Matthias Rupp"
+        ]
+      }
+    }
+  ]
+}

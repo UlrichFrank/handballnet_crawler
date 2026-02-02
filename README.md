@@ -1,57 +1,67 @@
-# Handball Spiele Scraper & Report Generator
+# 🏐 Handball Spiele Scraper & WebApp
 
-Leider bietet handball.net keine API, so dass dieses Projekt zur weiteren Auswertung von Ligadaten verwendet werden kann mit detaillierten Spielerstatistiken und Excel-Berichtsgenerierung.
+Ein vollständiges System zur Erfassung, Analyse und Visualisierung von Handball-Spieldaten mit Web-UI, interaktiven Grafiken und Excel-Reports.
 
-## 🎯 Funktionen
+## ✨ Features
 
-✅ **Mehrere Ligas**
-- Konfigurieren Sie mehrere Ligas in einer Config-Datei
-- Globale Time Range für alle Ligas
-- Separate JSON- und Excel-Dateien pro Liga
+### 📊 Datenerfassung (Scraper)
+- **Mehrere Ligen**: Unbegrenzte Anzahl von Ligen konfigurierbar
+- **Vollständige Spielerdaten**: Tore, 7-Meter, Strafen, Karten
+- **Inkrementelle Updates**: Speichert Spieltag-weise lokal
+- **Tor-Timeline**: Extrakt exakte Zeitpunkte aus PDF-Berichten
+- **Automatisierte Aktualisierung**: GitHub Actions (täglich 21:00 CET)
 
-✅ **Spiele-Datenerfassung**
-- Extrahiert alle Spiele aus dem Spielplan jeder Liga
-- Unterstützt Pagination (multiple Seiten)
-- Speichert Spieldatum, Teams und Spielereihenfolge
+### 🎨 Visualisierung & WebApp
+- **Interactive Grafiken**: Canvas-basierte Spiel-Ablauf-Visualisierung
+- **Interaktive Timeline**: Hover-Tooltips mit Spielerinfos
+- **Responsive Design**: Desktop & Mobile optimiert
+- **6 Statistik-Rankings**:
+  - 🥅 Torschützen (Top Scorer)
+  - 🎯 7-Meter-Schützen (mit Trefferquote)
+  - ⚔️ Bestes Torverhältnis (Goal Differential)
+  - 🔥 Bester Angriff (Offensive)
+  - 🛡️ Beste Verteidigung (Defensive)
+  - ⚖️ Fair Play (Gewichtete Strafen-Statistik)
 
-✅ **Spielerdaten-Erfassung**
-- Extrahiert Spielerdaten aus den Aufstellungsseiten
-- Erfasst: Tore, 7-Meter-Versuche/-Tore, 2-Minuten-Strafen, gelbe/rote/blaue Karten
-- Trennt Home und Away Spieler korrekt
+### 📋 Berichte
+- **Excel-Export**: Pro Liga eine Datei mit allen Spieldaten
+- **Team-Detailansichten**: Spieler-Statistiken pro Team
+- **Automatisierte Generierung**: Bei jedem Scraper-Lauf
 
-✅ **Tor-Zeitstrahl-Extraktion & Visualisierung** ⭐ *NEU*
-- Extrahiert alle Tore mit genauen Zeitstempeln aus Spielberichten (PDFs)
-- Identifiziert Torschützen, 7m-Tore und Spielsituation
-- Berechnet Momentum (konsekutive Tore eines Teams)
-- Generiert Grafiken zur Visualisierung des Spielverlaufs
-- Konfigurierbare Halbzeit-Dauer je nach Altersgruppe (20-30 Min)
-- Legende in separatem "Doku"-Tab im Excel-Report
+### 🌐 Deployment
+- **GitHub Pages**: Automatisches Deployment nach jedem Scraper-Lauf
+- **CI/CD Pipeline**: GitHub Actions mit täglichem Schedule + manueller Trigger
+- **Live unter**: https://ulrichfrank.github.io/handballnet_crawler/
 
-✅ **Excel-Bericht**
-- Ein Arbeitsblatt pro Team
-- Alle Spiele (Heim 🏠 und Auswärts 🏃)
-- Spielerdaten nach Spiel sortiert
-- Automatische Summen pro Spieler und pro Spiel
-- Fixierte Spalten (Spielername) und Zeile (Header) für komfortables Scrollen
-- **Alternating Row Colors** für bessere Lesbarkeit
-- **Eingebettete Tor-Visualisierungs-Grafiken** unter der GESAMT-Zeile
+---
 
-## 📦 Installation
+## 🚀 Quick Start
 
-### Anforderungen
-- Python 3.8+
-- Chrome/Chromium Browser
-- Internet-Verbindung
+### 1. Installation
 
-### Abhängigkeiten installieren
+**Anforderungen:**
+- Python 3.10+
+- Node.js 18+
+- Chrome/Chromium (für Selenium)
+- Git
 
+**Setup:**
 ```bash
-pip install selenium webdriver-manager beautifulsoup4 openpyxl
+# Clone Repository
+git clone https://github.com/UlrichFrank/handballnet_crawler.git
+cd handballnet_crawler
+
+# Python Dependencies
+pip install -r requirements.txt
+
+# Node Dependencies
+npm install
+cd frontend && npm install && cd ..
 ```
 
-### Konfiguration
+### 2. Konfiguration
 
-Erstellen Sie eine Datei `config/config.json` basierend auf `config/config.example.json`:
+**Config-Datei**: `config/config.json`
 
 ```json
 {
@@ -73,161 +83,152 @@ Erstellen Sie eine Datei `config/config.json` basierend auf `config/config.examp
     {
       "name": "mc-ol-3-bw_bwhv",
       "display_name": "Handball4all Baden-Württemberg MC-OL 3",
-      "out_name": "spiele_c_jugend"
+      "half_duration": 25
     },
     {
       "name": "gd-bol-srm_srm",
       "display_name": "Handball4all Baden-Württemberg MD-BOL",
-      "out_name": "spiele_d_jugend"
+      "half_duration": 20
     }
   ]
 }
 ```
 
-Passen Sie `leagues`, `date_from` und `date_to` an.
+**Konfigurationsfelder pro Liga:**
+| Feld | Beschreibung | Beispiel |
+|------|-------------|---------|
+| `name` | Eindeutige Liga-ID (URL-safe) | `mc-ol-3-bw_bwhv` |
+| `display_name` | Anzeigename in der UI | `Handball4all Baden-Württemberg MC-OL 3` |
+| `half_duration` | Spieldauer einer Halbzeit (Minuten) | `25` |
 
-## 🚀 Verwendung
+**Standard-Halbzeit-Dauer nach Altersgruppe:**
+- A-Jugend (17-18 Jahre): **2 × 30 Minuten**
+- B-Jugend (15-16 Jahre): **2 × 25 Minuten**
+- C-Jugend (13-14 Jahre): **2 × 25 Minuten**
+- D-Jugend (11-12 Jahre): **2 × 20 Minuten**
 
-### 1. Spiele und Spielerdaten scrapen
-
-```bash
-# Alle Ligas scrapen
-python3 scraper.py
-
-# Nur eine spezifische Liga scrapen
-python3 scraper.py mc-ol-3-bw_bwhv
-```
-
-Dies wird:
-- Für jede Liga alle Spiele vom Spielplan extrahieren
-- Pagination durchlaufen (alle Seiten laden)
-- Für jedes Spiel die Aufstellungsseite laden
-- Spielerdaten extrahieren
-- Ergebnisse in `output/{out_name}.json` speichern (eine Datei pro Liga)
-
-**Ausgabe:**
-```
-======================================================================
-HANDBALL GAMES SCRAPER - Game-Centric Format
-======================================================================
-Verarbeite 2 Liga(n)
-Date Range: 2025-09-13 to 2026-05-10
-
-======================================================================
-SCRAPING: Handball4all Baden-Württemberg MC-OL 3
-League ID: handball4all.baden-wuerttemberg.mc-ol-3-bw_bwhv
-Output: spiele_c_jugend.json
-======================================================================
-
-🌐 FETCHING GAMES FROM SPIELPLAN
-📄 Loading Spielplan page 1...
-  ✓ Found 50 new games on page 1 (total: 50)
-...
-
-✅ Saved: output/spiele_c_jugend.json
-
-======================================================================
-SCRAPING: Handball4all Baden-Württemberg MD-BOL
-...
-✅ Saved: output/spiele_d_jugend.json
-
-======================================================================
-✅ ALL LEAGUES SCRAPED
-======================================================================
-```
-
-### 2. Tor-Visualisierungs-Grafiken generieren (automatisch beim Scrapen)
-
-Beim Scrapen werden automatisch Grafiken für die Tor-Progression jedes Spiels generiert:
-
-```
-output/graphics/
-├── Team_A_vs_Team_B_Sa_2009.png
-├── Team_C_vs_Team_D_So_2109.png
-└── ...
-```
-
-**Grafik-Features:**
-- **2 Halbzeiten** als separate Zeilen (0-30 Min, 30-60 Min)
-- **4 Reihen**: H1 Heim (oben), H1 Gast, H2 Heim, H2 Gast (unten)
-- **Kreise** zeigen Tore:
-  - **Position (X-Achse)** = Spielzeit in Minuten
-  - **Größe** = Momentum (Anzahl konsekutiver Tore)
-  - **Farbe**:
-    - 🔵 **Blau** = Team in Führung gegangen/geblieben
-    - 🟠 **Orange** = Team in Führung gegangen/geblieben
-    - ⚪ **Grau** = Ausgleich
-- **Minute-Markierungen** alle 5 Minuten mit Labels
-
-**Beispiel:**
-```
-Team A vs Team B - 29:31
-┌─────────────────────────────────────────┐
-│ 1. HALBZEIT (0-30 Min)                  │
-│                                         │
-│ Team A  ●● ●  ●  ●●●●  ●  ●●●        │
-│ ─────────────────────────────────────   │
-│ Team B       ●●  ●  ●●  ●●● ●●●●       │
-│ 0'  5'  10' 15' 20' 25' 30'             │
-└─────────────────────────────────────────┘
-```
-
-### 3. Excel-Bericht generieren
+### 3. Scraper ausführen
 
 ```bash
-# Excel für alle Ligas generieren
-python3 generate_excel_report.py
+# Neue Daten von handball.net scrapen
+python scraper.py
 
-# Excel nur für eine spezifische Liga generieren
-python3 generate_excel_report.py mc-ol-3-bw_bwhv
+# Output:
+# ✓ Speichert Spieltag-JSON pro Tag: frontend/public/data/{liga_name}/{yyyymmdd}.json
+# ✓ Aktualisiert meta.json mit Spieltag-Index
 ```
 
-Dies wird:
-- JSON-Daten laden
-- Pro Team ein Arbeitsblatt erstellen
-- Spielerdaten formatieren
-- Summen berechnen
-- Dateien als `output/{out_name}.xlsx` speichern (eine Datei pro Liga)
+### 4. Grafiken & Reports generieren
 
-**Ausgabe:**
-```
-📊 Generiere Excel Report für: Handball4all Baden-Württemberg MC-OL 3
-   Lade Spieldaten...
-   📋 12 Teams gefunden
-   [1/12] DJK Singen...
-      -> 15 Spieler, 22 Spiele (Heim + Auswärts)
-   [2/12] HSG Konstanz...
-   ...
-   ✅ Gespeichert: output/spiele_c_jugend.xlsx
+```bash
+# Tor-Timeline-Grafiken zeichnen
+python generate_graphics_from_json.py
 
-📊 Generiere Excel Report für: Handball4all Baden-Württemberg MD-BOL
-   ...
-   ✅ Gespeichert: output/spiele_d_jugend.xlsx
+# Excel-Reports erstellen
+python generate_excel_report.py
 
-✅ Alle Excel Reports erstellt
+# Output:
+# ✓ output/{liga_name}.xlsx (pro Liga eine Excel-Datei)
 ```
 
-## 📊 Ausgabedateien
+### 5. WebApp starten
 
-### {out_name}.json (z.B. spiele_c_jugend.json)
+```bash
+# Development
+npm run dev
+# → http://localhost:5173
 
-Game-zentrierte Struktur mit allen Spielerdaten und Tor-Informationen:
+# Production Build
+npm run build
+# → frontend/dist/
 
+# Preview
+npm run preview
+```
+
+---
+
+## 📁 Projekt-Struktur
+
+```
+handballnet_crawler/
+├── config/
+│   ├── config.json              # Hauptkonfiguration (Ligas, Date Range)
+│   ├── config.example.json      # Beispiel mit mehr Ligen
+│   └── config.gh.json          # GitHub Actions Config
+├── frontend/
+│   ├── public/
+│   │   ├── config.json         # Frontend-Konfiguration
+│   │   ├── data/              # Spieltag-JSON-Dateien (per Scraper generiert)
+│   │   │   ├── meta.json
+│   │   │   ├── mc-ol-3-bw_bwhv/
+│   │   │   │   ├── 20250920.json
+│   │   │   │   ├── 20250927.json
+│   │   │   │   └── ...
+│   │   │   └── gd-bol-srm_srm/
+│   │   │       └── ...
+│   │   └── index.html
+│   ├── src/
+│   │   ├── pages/              # React Pages (Spiele, Tabelle, Statistik, etc.)
+│   │   ├── components/
+│   │   │   ├── handball/       # Game, Team, League Components
+│   │   │   ├── statistics/     # 6 Rankings-Tabellen
+│   │   │   └── ui/            # Dialog, Button, etc.
+│   │   ├── services/
+│   │   │   └── dataService.ts  # API zum Laden der JSON-Daten
+│   │   ├── types/
+│   │   │   └── handball.ts     # TypeScript Interfaces
+│   │   └── App.tsx
+│   ├── package.json
+│   └── vite.config.ts
+├── hb_crawler/
+│   ├── pdf_parser.py           # Extrakt Goals aus PDF-Reports
+│   └── ...
+├── scraper.py                  # Hauptscript: Scraper der Spielplan & Spielerdaten
+├── generate_graphics_from_json.py  # Tor-Timeline-Grafiken
+├── generate_excel_report.py    # Excel-Report Generator
+├── generate_goal_graphic.py    # Grafik-Rendering Utilities
+├── requirements.txt            # Python Dependencies
+├── output/                     # Generated (Excel, Graphics) - im .gitignore
+├── .github/
+│   └── workflows/
+│       └── daily-update-deploy.yml  # GitHub Actions Workflow
+└── README.md
+```
+
+---
+
+## 🔄 Datenfluss
+
+### 1. Scraper-Phase
+```
+handball.net
+    ↓
+scraper.py (Selenium)
+    ├→ Spielplan laden
+    ├→ Spieler-Daten extrahieren
+    ├→ PDF-Report-Analyse (Goal Timeline)
+    └→ Speichern pro Spieltag
+         ↓
+frontend/public/data/{liga_name}/{yyyymmdd}.json
+```
+
+**Datenformat (Spieltag-JSON):**
 ```json
 {
   "games": [
     {
-      "game_id": "handball4all.baden-wuerttemberg.8668846",
-      "order": 0,
-      "date": "Sa, 20.09.",
+      "game_id": "...",
+      "date": "2025-09-20",
+      "order": 1,
       "home": {
         "team_name": "Team A",
         "players": [
           {
-            "name": "Player Name",
+            "name": "Max Müller",
             "goals": 5,
-            "seven_meters": 2,
-            "seven_meters_goals": 1,
+            "seven_meters": 1,
+            "seven_meters_goals": 0,
             "two_min_penalties": 1,
             "yellow_cards": 0,
             "red_cards": 0,
@@ -235,243 +236,257 @@ Game-zentrierte Struktur mit allen Spielerdaten und Tor-Informationen:
           }
         ]
       },
-      "away": {
-        "team_name": "Team B",
-        "players": [...]
-      },
+      "away": { /* same structure */ },
+      "final_score": "26:24",
+      "half_duration": 25,
       "goals_timeline": [
-        {
-          "minute": 1,
-          "second": 7,
-          "scorer": "Player Name",
-          "team": "home",
-          "seven_meter": false
-        },
-        ...
+        { "minute": 5, "second": 30, "scorer": "Max Müller", "team": "home", "seven_meter": false },
+        { "minute": 6, "second": 15, "scorer": "Opponent", "team": "away", "seven_meter": false }
       ],
-      "final_score": "29:31",
-      "half_duration": 30,
-      "graphic_path": "output/graphics/Team_A_vs_Team_B_Sa_2009.png"
+      "officials": { /* referee data */ }
     }
   ]
 }
 ```
 
-### {out_name}.xlsx (z.B. spiele_c_jugend.xlsx)
+### 2. Frontend-Phase
+```
+Frontend lädt:
+  ├→ config.json (Liga-Konfiguration)
+  ├→ meta.json (Spieltag-Index)
+  └→ {liga_name}/{yyyymmdd}.json (Spiel-Daten)
+         ↓
+     Aggregation & Rendering
+         ↓
+  ├→ Spieltabelle (Game Table)
+  ├→ Spielleitung (Officials)
+  ├→ Interaktive Timeline-Grafiken (Canvas)
+  └→ 6 Statistik-Rankings
 
-Excel-Datei mit Tabs pro Team:
-
-| Player | Spiel 1 🏠<br>Team A vs B<br>28:50 | Spiel 2 🏃<br>C vs Team A<br>25:30 | ... | Tore<br>Gesamt | 7m<br>Vers. | 7m<br>Tore | 2-Min<br>Gesamt | Gelb | Rot | Blau |
-|--------|-------|-------|-----|-------|--------|-------|--------|------|-----|------|
-| Spieler 1 | 5 | 3 | ... | 8 | 2 | 1 | 1 | 0 | 0 | 0 |
-| Spieler 2 | 0 | 4 | ... | 4 | 3 | 2 | 2 | 1 | 0 | 0 |
-| Spieler 3 | 2 | 1 | ... | 3 | 0 | 0 | 0 | 0 | 0 | 0 |
-| GESAMT | 5 | 7 | ... | 12 | 5 | 3 | 3 | 1 | 0 | 0 |
-| | | | | | | | | | | |
-| **[Spiel 1 Tor-Grafik]** | | | | **[Spiel 2 Tor-Grafik]** | | | | | | |
-
-**Spalten pro Spiel:**
-- **Tore** - Anzahl geworfener Tore
-- **7m Vers.** - 7-Meter-Versuche
-- **7m Tore** - Erfolgreiche 7-Meter-Würfe
-- **2-Min** - 2-Minuten-Strafen
-- **Gelb** - Gelbe Karten
-- **Rot** - Rote Karten
-- **Blau** - Blaue Karten
-
-**Besonderheiten:**
-- **Alternating Row Colors** - Wechselnd weiße und hellgraue Spielerzeilen für bessere Lesbarkeit
-- **Fixierte Spalte A** - Spielername bleibt sichtbar beim Scrollen nach rechts
-- **Fixierte Zeile 2** - Header bleibt sichtbar beim Scrollen nach unten
-- **Tore Gesamt** - Zeigt 0 statt "-" für Spieler ohne Tore
-- Andere Spalten zeigen "-" wenn der Wert 0 ist
-- **Eingebettete Grafiken** - Unter der GESAMT-Zeile werden Tor-Verlauf-Grafiken angezeigt (eine pro Spiel über 7 Spalten)
-
-**Icons:**
-- 🏠 = Heimspiel (Team spielt zu Hause)
-- 🏃 = Auswärtsspiel (Team spielt auswärts)
-
-**Tor-Verlauf-Grafiken** (unter GESAMT-Zeile):
-- Zeigen visuell den Spielverlauf für jede Begegnung
-- 2 Reihen pro Grafik: Oben Heimteam, Unten Auswärtsteam
-- 2 Halbzeiten übereinander (0-30 Min, 30-60 Min)
-- Kreise stellen Tore dar:
-  - Position (X) = Spielminute
-  - Größe = Momentum (mehrere Tore hintereinander)
-  - Farbe = Spielsituation (Führung/Ausgleich)
-
-## ⚙️ Konfiguration
-
-### config/config.json
-
-```json
-{
-  "ref": {
-    "base_url": "https://www.handball.net"
-  },
-  "ssl": {
-    "verify_ssl": true,
-    "cert_path": "~/root-ca.crt"
-  },
-  "crawler": {
-    "timeout": 30,
-    "retry_attempts": 3,
-    "delay_between_requests": 1,
-    "date_from": "2025-09-13",        // Saison-Start (YYYY-MM-DD) - gilt für alle Ligas
-    "date_to": "2026-05-10"           // Saison-Ende (YYYY-MM-DD) - gilt für alle Ligas
-  },
-  "leagues": [
-    {
-      "name": "mc-ol-3-bw_bwhv",              // Liga-Bezeichner aus handball.net URL
-      "display_name": "C-Jugend",             // Anzeigename
-      "out_name": "spiele_c_jugend"           // Basis für Ausgabedateien (json + xlsx)
-    },
-    {
-      "name": "gd-bol-srm_srm",
-      "display_name": "D-Jugend",
-      "out_name": "spiele_d_jugend"
-    }
-  ]
-}
 ```
 
-**Konfigurationsoptionen:**
-
-| Option | Beschreibung |
-|--------|-------------|
-| `ref.base_url` | handball.net URL (normalerweise nicht ändern) |
-| `ssl.verify_ssl` | SSL-Zertifikat-Validierung aktivieren |
-| `ssl.cert_path` | Pfad zu benutzerdefiniertem SSL-Zertifikat (optional) |
-| `crawler.timeout` | Timeout für Selenium in Sekunden |
-| `crawler.retry_attempts` | Wiederholungsversuche bei Fehlern |
-| `crawler.delay_between_requests` | Verzögerung zwischen Requests in Sekunden |
-| `crawler.date_from` | Saisonstartdatum (YYYY-MM-DD) |
-| `crawler.date_to` | Saisonendatum (YYYY-MM-DD) |
-| `leagues[].name` | Liga-ID von handball.net |
-| `leagues[].display_name` | Anzeigename für Logs |
-| `leagues[].out_name` | Basis für Ausgabedateien (ohne Erweiterung) |
-
-**Liga-ID finden:**
-1. Öffnen Sie handball.net und navigieren Sie zur gewünschten Liga
-2. Schauen Sie auf die URL: `https://www.handball.net/ligen/{LIGA_ID}/spielplan`
-3. Kopieren Sie die LIGA_ID
-
-## 🛠️ Entwicklung
-
-### Projektstruktur
-
+### 3. Reports-Phase
 ```
-hb_grabber/
-├── scraper.py                         # Haupt-Scraper (verarbeitet alle Ligas)
-├── generate_excel_report.py           # Excel-Generator (verarbeitet alle Ligas)
-├── goal_visualization.py              # Spielverlauf-Berechnung & Grafik-Logik ⭐ NEU
-├── generate_goal_graphic.py           # Grafik-Renderer (matplotlib) ⭐ NEU
-├── config/
-│   ├── config.json                    # Konfiguration (mehrere Ligas)
-│   └── config.example.json            # Beispiel-Konfiguration
-├── output/
-│   ├── spiele_c_jugend.json           # JSON für C-Jugend
-│   ├── spiele_c_jugend.xlsx           # Excel für C-Jugend
-│   ├── graphics/                      # Tor-Visualisierungs-Grafiken ⭐ NEU
-│   │   ├── Team_A_vs_Team_B_*.png
-│   │   └── ...
-│   ├── spiele_d_jugend.json           # JSON für D-Jugend
-│   └── spiele_d_jugend.xlsx           # Excel für D-Jugend
-├── hb_crawler/
-│   ├── __init__.py
-│   ├── authenticator.py
-│   ├── crawler.py
-│   ├── exporter.py
-│   ├── pdf_parser.py                  # PDF-Parser mit Tor-Extraktion ⭐ ERWEITERT
-│   └── selenium_authenticator.py
-├── .github/workflows/
-│   └── daily-scrape.yml               # GitHub Actions Workflow
-└── README.md                          # Diese Datei
+generate_graphics_from_json.py
+  ├→ Liest alle {yyyymmdd}.json
+  └→ Erstellt PNG-Grafiken pro Spiel
+         ↓
+output/{liga_name}_graphics/
+
+generate_excel_report.py
+  ├→ Aggregiert Daten across all Spieltage
+  ├→ Gruppiert by Team
+  └→ Erstellt Excel-Report
+         ↓
+output/{liga_name}.xlsx
 ```
 
-### Workflow
+---
 
-1. **Scraper läuft**: Iteriert durch alle konfigurierten Ligas und erzeugt pro Liga ein JSON
-2. **Excel-Generator läuft**: Iteriert durch alle JSONs und erzeugt pro Liga ein Excel-Report
-3. **GitHub Actions**: Automatisiert beide Schritte täglich (Samstag und Sonntag)
-4. **Artifacts**: Alle Dateien sind in GitHub als Artifacts verfügbar
+## 🎯 Verwendung
 
-### Code-Style
+### WebApp-Pages
 
-- Python 3.8+
-- Verwendet BeautifulSoup4 für HTML-Parsing
-- Verwendet Selenium für dynamisches Laden
-- Verwendet openpyxl für Excel-Erstellung
+#### 1. **Spiele** (Game Table)
+- Listet alle Spiele der Liga auf
+- Spalten: Datum, Teams, Endstand, Spieler-Statistiken (To, 7m, 2min, Karten)
+- Click → Interaktive Timeline-Grafik öffnet sich
 
-## 📄 Lizenzen & Attribution
+#### 2. **Tabelle** (Standings)
+- Tabelle mit Platzierung (Punkte, Spiele, Tore, Differenz)
+- Click auf Team → Lädt Team-Details in "Spiele"-Tab
 
-- **handball.net** - Datenquelle (respektieren Sie deren Terms of Service)
-- **Selenium** - Browser-Automatisierung
-- **BeautifulSoup4** - HTML-Parsing
-- **openpyxl** - Excel-Erstellung
+#### 3. **Spielleitung** (Officials)
+- Liste von Schiedsrichtern und Einsätze
+- Gruppiert nach Rolle (Hauptschiri, Feldschiri)
+- Click auf Spiel → Springt zu Spiel in "Spiele"-Tab
 
+#### 4. **Statistik** (Rankings)
+- **Torschützen**: Spieler sortiert nach Toren (absteigend)
+- **7-Meter-Schützen**: Trefferquote, Versuche vs. Treffer
+- **Torverhältnis**: Teams nach Goal Differential
+- **Bester Angriff**: Teams nach meisten Toren
+- **Beste Verteidigung**: Teams nach wenigsten Toren
+- **Fair Play**: Teams nach Strafen-Gewichtung (Blau=4, Rot=3, 2min=2, Gelb=1)
 
-## 📋 Konfiguration der Halbzeit-Dauer
+### Interaktive Grafiken
 
-Die Spiellänge variiert je nach Altersgruppe:
+**Timeline für jedes Spiel:**
+- Canvas-Rendering der Tor-Events
+- Y-Achse: Spielstand (+/- Differenz)
+- X-Achse: Spielzeit (in Minuten)
+- Kreise: Tore (Heim=Blau, Gast=Rot)
+- Hover-Tooltip:
+  - Torschütze
+  - Zeitstempel (MM:SS)
+  - Tor-Art (Spiel vs. 7-Meter)
+  - Neuer Spielstand
+  - Overlapping Goals: Mehrere Events anzeigen (chronologische Reihenfolge)
 
-```json
-{
-  "leagues": [
-    {
-      "name": "liga-id",
-      "display_name": "Liga Name",
-      "out_name": "ausgabe-name",
-      "half_duration": 30,
-      "age_group": "A-Jugend (17-18 Jahre)"
-    }
-  ]
-}
+---
+
+## 🌐 Deployment
+
+### Local Testing
+```bash
+npm run dev
+# Dann: http://localhost:5173
 ```
 
-**Standard-Halbzeit-Dauer nach Altersgruppe:**
-- A-Jugend (17-18 Jahre): **2 × 30 Minuten**
-- B-Jugend (15-16 Jahre): **2 × 25 Minuten**
-- C-Jugend (13-14 Jahre): **2 × 25 Minuten**
-- D-Jugend (11-12 Jahre): **2 × 20 Minuten**
-- E-Jugend (9-10 Jahre): **2 × 20 Minuten**
+### GitHub Pages (Automatisch)
 
-Die Grafiken passen sich automatisch an die konfigurierte Dauer an!
+**Automatisierter Workflow:**
+1. Täglich um **21:00 CET** (20:00 UTC)
+2. Oder manuell auslösbar: GitHub → Actions → "Daily Update & Deploy" → "Run workflow"
 
-## 🚀 Automatisierte Aktualisierung mit GitHub Actions
+**Workflow-Schritte:**
+1. Scraper ausführen (`python scraper.py`)
+2. Grafiken generieren (`python generate_graphics_from_json.py`)
+3. Excel-Report erstellen (`python generate_excel_report.py`)
+4. Frontend builden (`npm run build`)
+5. Deploy zu GitHub Pages (`gh-pages` Branch)
 
-Ein täglicher GitHub Actions Workflow aktualisiert automatisch die Daten und deployt die WebApp zu GitHub Pages.
+**Verfügbar unter:**
+- https://ulrichfrank.github.io/handballnet_crawler/
 
-### ⏰ Schedule
+### Workflow-Konfiguration
+- **Schedule**: `0 20 * * *` (UTC, automatisch DST-angepasst)
+- **Manual Trigger**: `workflow_dispatch`
+- **Datei**: `.github/workflows/daily-update-deploy.yml`
 
-- **Täglich um 20:00 UTC** (21:00 CET / 22:00 CEST)
-- **Manuell auslösbar** über GitHub UI → Actions → "Daily Update & Deploy" → "Run workflow"
+---
 
-### 📋 Workflow-Schritte
+## 🔧 Development
 
-1. **Scraper ausführen** - Lädt neue Spieltage von handball.net
-2. **Grafiken generieren** - Erstellt Tor-Zeitstrahl-Visualisierungen
-3. **Excel-Report erstellen** - Aggregiert Statistiken
-4. **Frontend kompilieren** - Baut React App
-5. **GitHub Pages deployen** - Pusht alles zu gh-pages branch
+### Frontend Development
 
-### 🌐 Verfügbar unter
+```bash
+cd frontend
+npm run dev          # Start Vite dev server
+npm run build        # Production build
+npm run lint         # ESLint check
+npm run preview      # Preview production build
+```
 
-- **Live URL**: [https://ulrichfrank.github.io/handballnet_crawler/](https://ulrichfrank.github.io/handballnet_crawler/)
+**Tech Stack:**
+- React 19 + TypeScript 5.8
+- Vite 7 (Fast bundler)
+- Tailwind CSS 4 + Radix UI
+- React Router 7
 
-### 🔧 Workflow-Konfiguration
+### Backend Development
 
-Workflow-Datei: `.github/workflows/daily-update-deploy.yml`
+```bash
+# Test Scraper
+python scraper.py --help
 
-Konfigurierbare Werte:
-- `PYTHON_VERSION`: 3.10 (für scraper.py)
-- `NODE_VERSION`: 18 (für Frontend build)
-- `cron`: `0 20 * * *` (20:00 UTC täglich)
+# Test Graphics Generation
+python generate_graphics_from_json.py
 
-### 📊 Was wird deployt
+# Test Excel Generation
+python generate_excel_report.py
+```
 
-- Frontend (React/Vite)
-- config.json
-- Alle Spieltag-JSON-Dateien (`data/`)
-- Generierte Excel-Reports
-- Visualisierungs-Grafiken
+**Tech Stack:**
+- Python 3.10+
+- Selenium (Browser Automation)
+- BeautifulSoup4 (HTML Parsing)
+- pdfplumber (PDF Parsing)
+- openpyxl (Excel Generation)
+- matplotlib (Graphics)
+
+### Adding New Leagues
+
+1. **Edit `config/config.json`:**
+   ```json
+   {
+     "name": "ma-ol-1-bw_bwhv",
+     "display_name": "Männliche A-Jugend Oberliga",
+     "half_duration": 30
+   }
+   ```
+
+2. **Run Scraper:**
+   ```bash
+   python scraper.py
+   ```
+
+3. **App automatically loads new league** (no code changes needed)
+
+---
+
+## 📊 Statistics Details
+
+### 1. Torschützen (Top Scorers)
+- Sortiert nach Anzahl Tore (absteigend)
+- Zeigt: Spieler, Team, Tore total
+
+### 2. 7-Meter-Schützen (7m Success Rate)
+- Sortiert nach Anzahl 7m-Tore (absteigend)
+- Zeigt: Spieler, Tore, Versuche, Trefferquote
+- Nur Spieler mit mind. 1 Versuch
+
+### 3. Torverhältnis (Goal Differential)
+- Sortiert nach Torverhältnis (absteigend)
+- Formel: `goals_for - goals_against`
+- Zeigt: Team, Tore pro, Tore contra, Differenz
+
+### 4. Bester Angriff (Best Offense)
+- Sortiert nach meisten Toren (absteigend)
+- Zeigt: Team, Tore total, Spiele, Tore/Spiel
+
+### 5. Beste Verteidigung (Best Defense)
+- Sortiert nach wenigsten Toren (aufsteigend)
+- Zeigt: Team, Tore bekommen, Spiele, Tore/Spiel
+
+### 6. Fair Play
+- Sortiert nach Strafen-Punkten (aufsteigend, niedrig = besser)
+- Gewichtung: Blau=4 Pkt, Rot=3 Pkt, 2-Min=2 Pkt, Gelb=1 Pkt
+- Zeigt: Team, Total-Punkte, Blau, Rot, 2-Min, Gelb
+
+---
+
+## 🐛 Troubleshooting
+
+### Scraper findet keine Daten
+- Prüfe: `config/config.json` - Sind Liga-IDs korrekt?
+- Prüfe: Internetzuverbindung
+- Prüfe: `--help` für Fehlerausgabe
+
+### Frontend startet nicht
+```bash
+cd frontend
+rm -rf node_modules pnpm-lock.yaml
+npm install
+npm run dev
+```
+
+### Excel-Datei wird nicht generiert
+- Prüfe: `frontend/public/data/` - Existieren Spieltag-JSONs?
+- Prüfe: `generate_excel_report.py` - Sind Ligas konfiguriert?
+
+### GitHub Pages Deployment schlägt fehl
+- Prüfe: `.github/workflows/daily-update-deploy.yml` existiert?
+- Prüfe: GitHub Actions sind im Repo enabled?
+- Prüfe: `gh-pages` Branch existiert?
+
+---
+
+## 📝 Lizenz & Attribution
+
+- **Datenquelle**: [handball.net](https://www.handball.net)
+- **Tools**: Selenium, BeautifulSoup4, React, Vite, Tailwind CSS
+- **Lizenz**: MIT (für dieses Projekt)
+
+---
+
+## 🤝 Support
+
+Fragen oder Probleme?
+- Öffne einen **GitHub Issue**
+- Prüfe die **Logs** (Browser-Console & Terminal)
+- Vgl. mit **Beispiel-Config** in `config/config.example.json`
+
+---
+
+**Zuletzt aktualisiert**: Februar 2026 | **Version**: 2.0 (Config Refactoring, Statistics, GitHub Actions)

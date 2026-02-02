@@ -1,0 +1,13 @@
+{
+  "name": "web-mockup-template",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build": "pnpm --filter frontend build",
+    "dev": "pnpm --filter frontend dev",
+    "preview": "pnpm --filter frontend preview"
+  },
+  "devDependencies": {
+    "pnpm": "^9.0.0"
+  }
+}

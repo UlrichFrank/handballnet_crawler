@@ -1,6 +1,7 @@
-import React, { useState, useMemo } from 'react';
+import { useRef, useEffect, useState, useMemo } from 'react';
 import { Dialog, DialogContent, DialogHeader, DialogTitle } from '../ui/dialog';
 import { Game } from '../../types/handball';
+import { GoalTooltip } from './GoalTooltip';
 
 interface GameTimelineDialogProps {
   game: Game;
@@ -93,39 +94,22 @@ export function GameTimelineDialog({
     ];
 
     for (const goal of enrichedGoals) {
-      let halfIdx = goal.time_in_minutes < halfDuration ? 0 : 1;
+      const halfIdx = goal.time_in_minutes < halfDuration ? 0 : 1;
       const timeInMinutes = halfIdx === 0 ? goal.time_in_minutes : goal.time_in_minutes - halfDuration;
 
-      const goalData = {
+      const goalData: EnrichedGoal = {
         ...goal,
         time_in_minutes: timeInMinutes,
       };
 
-      if (enrichedGoals.find((g) => g === goal)?.time_in_minutes! < halfDuration) {
-        // First half - check which team
-        const goalFromList = enrichedGoals.find((g) => g === goal);
-        if (goalFromList) {
-          const teamKey = goal.time_in_minutes < halfDuration
-            ? game.goals_timeline[enrichedGoals.indexOf(goalFromList)]?.team
-            : null;
-          // Find team from original goal
-          const originalGoalIndex = enrichedGoals.indexOf(goalFromList);
-          const originalGoal = game.goals_timeline[originalGoalIndex];
-          if (originalGoal?.team === 'home') {
-            halves[0].home_goals.push(goalData);
-          } else {
-            halves[0].away_goals.push(goalData);
-          }
-        }
+      // Find original goal to determine team
+      const originalGoalIndex = enrichedGoals.indexOf(goal);
+      const originalGoal = game.goals_timeline![originalGoalIndex];
+
+      if (originalGoal?.team === 'home') {
+        halves[halfIdx].home_goals.push(goalData);
       } else {
-        // Second half
-        const originalGoalIndex = enrichedGoals.indexOf(goal);
-        const originalGoal = game.goals_timeline[originalGoalIndex];
-        if (originalGoal?.team === 'home') {
-          halves[1].home_goals.push(goalData);
-        } else {
-          halves[1].away_goals.push(goalData);
-        }
+        halves[halfIdx].away_goals.push(goalData);
       }
     }
 
@@ -174,44 +158,98 @@ interface TimelineHalfProps {
   awayTeam: string;
 }
 
-function TimelineHalf({ half, homeTeam, awayTeam }: TimelineHalfProps) {
-  const canvasRef = React.useRef<HTMLCanvasElement>(null);
+interface CircleData {
+  x: number;
+  y: number;
+  radius: number;
+  goal: EnrichedGoal;
+  team: 'home' | 'away';
+}
 
-  React.useEffect(() => {
+function TimelineHalf({ half, homeTeam, awayTeam }: TimelineHalfProps) {
+  const containerRef = useRef<HTMLDivElement>(null);
+  const canvasRef = useRef<HTMLCanvasElement>(null);
+  const [hoveredGoal, setHoveredGoal] = useState<CircleData | null>(null);
+  const [canvasRect, setCanvasRect] = useState<DOMRect | null>(null);
+  const circlesRef = useRef<CircleData[]>([]);
+
+  useEffect(() => {
     const canvas = canvasRef.current;
-    if (!canvas) return;
+    const container = containerRef.current;
+    if (!canvas || !container) return;
+
+    // Set canvas size based on container
+    const dpr = window.devicePixelRatio || 1;
+    const rect = container.getBoundingClientRect();
+    const width = rect.width;
+    const height = width / 4; // 4:1 aspect ratio
+
+    canvas.style.width = `${width}px`;
+    canvas.style.height = `${height}px`;
+    canvas.width = width * dpr;
+    canvas.height = height * dpr;
+
+    setCanvasRect(canvas.getBoundingClientRect());
 
     const ctx = canvas.getContext('2d');
     if (!ctx) return;
 
-    const width = canvas.width;
-    const height = canvas.height;
+    // Scale context for HiDPI
+    ctx.scale(dpr, dpr);
+
+    const canvasWidth = width;
+    const canvasHeight = height;
 
     // Clear canvas
     ctx.fillStyle = '#ffffff';
-    ctx.fillRect(0, 0, width, height);
+    ctx.fillRect(0, 0, canvasWidth, canvasHeight);
 
     // Setup dimensions
     const marginLeft = 20;
     const marginRight = 20;
     const marginTop = 30;
     const marginBottom = 40;
-    const graphWidth = width - marginLeft - marginRight;
-    const graphHeight = height - marginTop - marginBottom;
+    const graphWidth = canvasWidth - marginLeft - marginRight;
+    const graphHeight = canvasHeight - marginTop - marginBottom;
 
-    // Draw time axis
+    // Helper to get color for situation
+    const getColor = (situation: string) => {
+      switch (situation) {
+        case 'lead':
+          return '#3498db'; // Blue
+        case 'tie':
+          return '#95a5a6'; // Gray
+        case 'deficit':
+          return '#e67e22'; // Orange
+        default:
+          return '#95a5a6';
+      }
+    };
+
+    // Helper to get circle radius from momentum
+    const getRadius = (momentum: number) => {
+      return 5 + momentum * 1.5;
+    };
+
+    // Draw time axis lines
     ctx.strokeStyle = '#cccccc';
     ctx.lineWidth = 1;
+
+    // Top line
     ctx.beginPath();
     ctx.moveTo(marginLeft, marginTop);
     ctx.lineTo(marginLeft + graphWidth, marginTop);
     ctx.stroke();
 
+    // Middle separator line (dashed)
+    ctx.setLineDash([5, 5]);
     ctx.beginPath();
     ctx.moveTo(marginLeft, marginTop + graphHeight / 2);
     ctx.lineTo(marginLeft + graphWidth, marginTop + graphHeight / 2);
     ctx.stroke();
+    ctx.setLineDash([]);
 
+    // Bottom line
     ctx.beginPath();
     ctx.moveTo(marginLeft, marginTop + graphHeight);
     ctx.lineTo(marginLeft + graphWidth, marginTop + graphHeight);
@@ -233,67 +271,13 @@ function TimelineHalf({ half, homeTeam, awayTeam }: TimelineHalfProps) {
     ctx.fillText(homeTeam, marginLeft - 10, marginTop + graphHeight / 4 + 5);
     ctx.fillText(awayTeam, marginLeft - 10, marginTop + (3 * graphHeight) / 4 + 5);
 
-    // Helper to get color for situation
-    const getColor = (situation: string) => {
-      switch (situation) {
-        case 'lead':
-          return '#3498db'; // Blue
-        case 'tie':
-          return '#95a5a6'; // Gray
-        case 'deficit':
-          return '#e67e22'; // Orange
-        default:
-          return '#95a5a6';
-      }
-    };
-
-    // Helper to get circle radius from momentum
-    const getRadius = (momentum: number) => {
-      return 5 + momentum * 1.5;
-    };
+    // Reset circles array
+    circlesRef.current = [];
 
     // Draw home team goals (top half)
     for (const goal of half.home_goals) {
       const x = marginLeft + (goal.time_in_minutes / half.duration_minutes) * graphWidth;
       const y = marginTop + graphHeight / 4;
-
-      const color = getColor(goal.situation);
-      const radius = getRadius(goal.momentum);
-
-      // Draw circle
-      ctx.fillStyle = color;
-      ctx.beginPath();
-      ctx.arc(x, y, radius, 0, Math.PI * 2);
-      ctx.fill();
-
-      // Draw edge
-      ctx.strokeStyle = '#000000';
-      ctx.lineWidth = 1.5;
-      ctx.beginPath();
-      ctx.arc(x, y, radius, 0, Math.PI * 2);
-      ctx.stroke();
-
-      // Draw momentum number if > 3
-      if (goal.momentum > 3) {
-        ctx.fillStyle = '#ffffff';
-        ctx.font = 'bold 10px sans-serif';
-        ctx.textAlign = 'center';
-        ctx.textBaseline = 'middle';
-        ctx.fillText(goal.momentum.toString(), x, y);
-      }
-
-      // Draw tooltip on hover (simple version - show on click)
-      ctx.fillStyle = '#333333';
-      ctx.font = '10px sans-serif';
-      ctx.textAlign = 'center';
-      ctx.fillText(`${goal.score_home}:${goal.score_away}`, x, y + radius + 15);
-    }
-
-    // Draw away team goals (bottom half)
-    for (const goal of half.away_goals) {
-      const x = marginLeft + (goal.time_in_minutes / half.duration_minutes) * graphWidth;
-      const y = marginTop + (3 * graphHeight) / 4;
-
       const color = getColor(goal.situation);
       const radius = getRadius(goal.momentum);
 
@@ -324,20 +308,135 @@ function TimelineHalf({ half, homeTeam, awayTeam }: TimelineHalfProps) {
       ctx.font = '10px sans-serif';
       ctx.textAlign = 'center';
       ctx.fillText(`${goal.score_home}:${goal.score_away}`, x, y + radius + 15);
+
+      // Store circle data for hit detection
+      circlesRef.current.push({
+        x,
+        y,
+        radius: radius + 5, // Increase hit area slightly for better UX
+        goal,
+        team: 'home',
+      });
+    }
+
+    // Draw away team goals (bottom half)
+    for (const goal of half.away_goals) {
+      const x = marginLeft + (goal.time_in_minutes / half.duration_minutes) * graphWidth;
+      const y = marginTop + (3 * graphHeight) / 4;
+      const color = getColor(goal.situation);
+      const radius = getRadius(goal.momentum);
+
+      // Draw circle
+      ctx.fillStyle = color;
+      ctx.beginPath();
+      ctx.arc(x, y, radius, 0, Math.PI * 2);
+      ctx.fill();
+
+      // Draw edge
+      ctx.strokeStyle = '#000000';
+      ctx.lineWidth = 1.5;
+      ctx.beginPath();
+      ctx.arc(x, y, radius, 0, Math.PI * 2);
+      ctx.stroke();
+
+      // Draw momentum number if > 3
+      if (goal.momentum > 3) {
+        ctx.fillStyle = '#ffffff';
+        ctx.font = 'bold 10px sans-serif';
+        ctx.textAlign = 'center';
+        ctx.textBaseline = 'middle';
+        ctx.fillText(goal.momentum.toString(), x, y);
+      }
+
+      // Draw score label
+      ctx.fillStyle = '#333333';
+      ctx.font = '10px sans-serif';
+      ctx.textAlign = 'center';
+      ctx.fillText(`${goal.score_home}:${goal.score_away}`, x, y + radius + 15);
+
+      // Store circle data for hit detection
+      circlesRef.current.push({
+        x,
+        y,
+        radius: radius + 5, // Increase hit area slightly for better UX
+        goal,
+        team: 'away',
+      });
     }
   }, [half, homeTeam, awayTeam]);
 
+  const handleMouseMove = (e: React.MouseEvent<HTMLCanvasElement>) => {
+    const canvas = canvasRef.current;
+    if (!canvas) return;
+
+    const rect = canvas.getBoundingClientRect();
+    const x = e.clientX - rect.left;
+    const y = e.clientY - rect.top;
+
+    // Scale to canvas coordinate system
+    const dpr = window.devicePixelRatio || 1;
+    const canvasX = x * dpr;
+    const canvasY = y * dpr;
+
+    // Check if any circle is hovered
+    let foundGoal: CircleData | null = null;
+    for (const circle of circlesRef.current) {
+      const distance = Math.sqrt(Math.pow(canvasX - circle.x * dpr, 2) + Math.pow(canvasY - circle.y * dpr, 2));
+      if (distance <= circle.radius * dpr) {
+        foundGoal = {
+          ...circle,
+          x: circle.x,
+          y: circle.y,
+        };
+        break;
+      }
+    }
+
+    setHoveredGoal(foundGoal);
+    canvas.style.cursor = foundGoal ? 'pointer' : 'default';
+  };
+
+  const handleMouseLeave = () => {
+    setHoveredGoal(null);
+    if (canvasRef.current) {
+      canvasRef.current.style.cursor = 'default';
+    }
+  };
+
   return (
-    <div className="border rounded-lg p-4 bg-gray-50">
-      <h3 className="font-semibold text-sm mb-3">
+    <div className="border rounded-lg p-4 bg-gray-50 dark:bg-slate-900">
+      <h3 className="font-semibold text-sm mb-3 text-gray-900 dark:text-gray-100">
         Halbzeit {half.half} ({half.duration_minutes} Min)
       </h3>
-      <canvas
-        ref={canvasRef}
-        width={800}
-        height={150}
-        className="w-full border border-gray-200 rounded bg-white"
-      />
+      <div
+        ref={containerRef}
+        className="w-full bg-white dark:bg-slate-800 border border-gray-200 dark:border-slate-700 rounded overflow-hidden"
+        style={{
+          aspectRatio: '4 / 1',
+        }}
+      >
+        <canvas
+          ref={canvasRef}
+          onMouseMove={handleMouseMove}
+          onMouseLeave={handleMouseLeave}
+          className="w-full h-full block"
+        />
+      </div>
+      {hoveredGoal && canvasRect && (
+        <GoalTooltip
+          goal={{
+            scorer: hoveredGoal.goal.scorer,
+            seven_meter: hoveredGoal.goal.seven_meter,
+            minute: Math.floor(hoveredGoal.goal.time_in_minutes),
+            second: Math.round((hoveredGoal.goal.time_in_minutes % 1) * 60),
+            score_home: hoveredGoal.goal.score_home,
+            score_away: hoveredGoal.goal.score_away,
+          }}
+          x={hoveredGoal.x}
+          y={hoveredGoal.y}
+          canvasRect={canvasRect}
+        />
+      )}
     </div>
   );
 }

@@ -1,7 +1,16 @@
 import { LeagueConfig, GameData, AppConfig } from '../types/handball';
 
-const CONFIG_PATH = '/hb_grabber/config.json';
-const META_PATH = '/hb_grabber/data/meta.json';
+// Bestimme den Basis-Pfad abhängig von der Umgebung
+const getBasePath = (): string => {
+  // Auf GitHub Pages ist der Basis-Pfad /hb_grabber/, lokal ist es /
+  if (typeof window !== 'undefined' && (window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1')) {
+    return '';
+  }
+  return '/hb_grabber';
+};
+
+const getConfigPath = (): string => `${getBasePath()}/config.json`;
+const getMetaPath = (): string => `${getBasePath()}/data/meta.json`;
 
 interface MetaIndex {
   last_updated: string;
@@ -24,7 +33,7 @@ class DataService {
       return this.configCache;
     }
 
-    const response = await fetch(CONFIG_PATH);
+    const response = await fetch(getConfigPath());
     if (!response.ok) {
       throw new Error(`Failed to load config: ${response.statusText}`);
     }
@@ -38,7 +47,7 @@ class DataService {
       return this.metaCache;
     }
 
-    const response = await fetch(`${META_PATH}?t=${Date.now()}`);
+    const response = await fetch(`${getMetaPath()}?t=${Date.now()}`);
     if (!response.ok) {
       throw new Error(`Failed to load meta index: ${response.statusText}`);
     }
@@ -77,7 +86,7 @@ class DataService {
     }
 
     // Lade Spieltag JSON (format: yyyymmdd.json)
-    const response = await fetch(`/hb_grabber/data/${leagueId}/${spieltagFile}.json?t=${Date.now()}`);
+    const response = await fetch(`${getBasePath()}/data/${leagueId}/${spieltagFile}.json?t=${Date.now()}`);
     if (!response.ok) {
       throw new Error(`Failed to load game data for ${leagueId}, Spieltag ${spieltagFile}: ${response.statusText}`);
     }
@@ -110,7 +119,7 @@ class DataService {
     const allGames: any[] = [];
     for (const spieltag of liga.spieltage) {
       try {
-        const response = await fetch(`/hb_grabber/data/${leagueId}/${spieltag}.json?t=${Date.now()}`);
+        const response = await fetch(`${getBasePath()}/data/${leagueId}/${spieltag}.json?t=${Date.now()}`);
         if (response.ok) {
           const data = await response.json();
           if (data.games && Array.isArray(data.games)) {

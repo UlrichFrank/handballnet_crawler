@@ -1,10 +1,24 @@
 import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
 import path from 'node:path';
+import * as fs from 'node:fs';
+import { fileURLToPath } from 'node:url';
+var __filename = fileURLToPath(import.meta.url);
+var __dirname = path.dirname(__filename);
+// Read .env.local if it exists
+var envLocalPath = path.resolve(__dirname, '.env.local');
+var basePath = '/hb_grabber/';
+if (fs.existsSync(envLocalPath)) {
+    var envContent = fs.readFileSync(envLocalPath, 'utf-8');
+    var envMatch = envContent.match(/VITE_BASE_PATH=(.+)/);
+    if (envMatch) {
+        basePath = envMatch[1].trim();
+    }
+}
 // https://vite.dev/config/
-export default defineConfig(function () { return ({
+export default defineConfig({
     plugins: [react()],
-    base: '/hb_grabber/',
+    base: basePath,
     build: {
         assetsDir: 'assets',
         rollupOptions: {
@@ -27,4 +41,4 @@ export default defineConfig(function () { return ({
             "@": path.resolve(__dirname, "./src"),
         },
     },
-}); });
+});

@@ -12,15 +12,22 @@ from openpyxl.drawing.image import Image as XLImage
 from collections import OrderedDict
 from pathlib import Path
 
-def load_config():
-    """Load config"""
-    config_path = Path(__file__).parent / "config" / "config.json"
+def load_config(config_file: str = "config.json"):
+    """Load config from specified file"""
+    config_path = Path(config_file)
+    if not config_path.exists():
+        config_path = Path(__file__).parent / "config" / config_file
+    
+    if not config_path.exists():
+        print(f"❌ Config file not found: {config_path}")
+        sys.exit(1)
+    
     with open(config_path, 'r') as f:
         return json.load(f)
 
-def get_league_config(league_name_arg=None):
+def get_league_config(config_file: str = "config.json", league_name_arg=None):
     """Get league configuration"""
-    config = load_config()
+    config = load_config(config_file)
     
     if league_name_arg:
         for league in config['leagues']:
@@ -62,13 +69,23 @@ def load_games_data(data_folder):
     return {'games': all_games}
 
 def create_report():
+    # Parse command line arguments
+    config_file = "config.json"  # Default
+    league_name_arg = None
+    
+    # Check for --config argument
+    for i, arg in enumerate(sys.argv[1:], 1):
+        if arg == "--config" and i + 1 < len(sys.argv):
+            config_file = sys.argv[i + 1]
+        elif not arg.startswith("--"):
+            league_name_arg = arg
+    
     # Get leagues to process
-    config = load_config()
+    config = load_config(config_file)
     
     # If league_name argument provided, process only that league
-    if len(sys.argv) > 1:
-        league_name_arg = sys.argv[1]
-        leagues_to_process = [get_league_config(league_name_arg)]
+    if league_name_arg:
+        leagues_to_process = [get_league_config(config_file, league_name_arg)]
     else:
         # Process all configured leagues
         leagues_to_process = config['leagues']

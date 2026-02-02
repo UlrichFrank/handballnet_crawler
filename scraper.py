@@ -25,10 +25,29 @@ warnings.filterwarnings('ignore')
 
 from hb_crawler.pdf_parser import extract_seven_meters_from_pdf, add_seven_meters_to_players, extract_goals_timeline_from_pdf
 
-# Load config
-config_path = Path(__file__).parent / "config" / "config.json"
-with open(config_path, 'r') as f:
-    config = json.load(f)
+# Load config from file (default or specified via --config argument)
+def load_config(config_file: str = "config.json") -> dict:
+    """Load configuration from specified file"""
+    config_path = Path(__file__).parent / "config" / config_file
+    if not config_path.exists():
+        print(f"❌ Config file not found: {config_path}")
+        sys.exit(1)
+    
+    with open(config_path, 'r') as f:
+        return json.load(f)
+
+# Parse command line arguments
+config_file = "config.json"  # Default
+league_name_arg = None
+
+# Check for --config argument
+for i, arg in enumerate(sys.argv[1:], 1):
+    if arg == "--config" and i + 1 < len(sys.argv):
+        config_file = sys.argv[i + 1]
+    elif not arg.startswith("--"):
+        league_name_arg = arg
+
+config = load_config(config_file)
 
 BASE_URL = config['ref']['base_url']
 DATE_FROM = config['crawler']['date_from']

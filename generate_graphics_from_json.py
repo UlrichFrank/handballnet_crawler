@@ -6,8 +6,23 @@ Uses config.json to determine which JSON files to process.
 """
 
 import json
+import sys
 from pathlib import Path
 from generate_goal_graphic import generate_goal_timeline_graphic
+
+
+def load_config(config_file: str = "config.json") -> dict:
+    """Load configuration from specified file"""
+    config_path = Path(config_file)
+    if not config_path.exists():
+        config_path = Path("config") / config_file
+    
+    if not config_path.exists():
+        print(f"❌ Config file not found: {config_path}")
+        sys.exit(1)
+    
+    with open(config_path, 'r') as f:
+        return json.load(f)
 
 
 def process_json_files(data_folder: Path, league_name: str, half_duration: int):
@@ -78,23 +93,20 @@ def process_json_files(data_folder: Path, league_name: str, half_duration: int):
 
 def main():
     """
-    Process all leagues defined in config.json.
+    Process all leagues defined in config.
     Load and process all spieltag JSON files from frontend/public/data/{data_folder}/.
     """
     
+    # Parse command line arguments
+    config_file = "config.json"  # Default
+    
+    # Check for --config argument
+    for i, arg in enumerate(sys.argv[1:]):
+        if arg == "--config" and i + 1 < len(sys.argv):
+            config_file = sys.argv[i + 2]  # i+2 because enumerate starts at 0 and we skip sys.argv[0]
+    
     # Load config
-    config_path = Path('config/config.json')
-    if not config_path.exists():
-        print("❌ config/config.json nicht gefunden")
-        return
-    
-    with open(config_path, 'r') as f:
-        config = json.load(f)
-    
-    leagues = config.get('leagues', [])
-    if not leagues:
-        print("❌ Keine Leagues in config.json definiert")
-        return
+    config = load_config(config_file)
     
     print("\n" + "=" * 70)
     print(f"🎨 GENERIERE GRAFIKEN ({len(leagues)} Ligen)")

@@ -68,21 +68,21 @@ jobs:
       - name: Run Scraper
         run: |
           echo "📊 Starting scraper..."
-          python scraper.py
+          python scraper.py --config config.gh.json
           echo "✅ Scraper completed"
 
       # Generate Graphics
       - name: Generate Graphics
         run: |
           echo "🎨 Generating graphics..."
-          python generate_graphics_from_json.py
+          python generate_graphics_from_json.py --config config.gh.json
           echo "✅ Graphics generated"
 
       # Generate Excel Report
       - name: Generate Excel Report
         run: |
           echo "📋 Generating Excel report..."
-          python generate_excel_report.py
+          python generate_excel_report.py --config config.gh.json
           echo "✅ Excel report generated"
 
       # Build Frontend

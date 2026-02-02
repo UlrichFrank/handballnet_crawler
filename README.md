@@ -437,3 +437,41 @@ Die Spiellänge variiert je nach Altersgruppe:
 - E-Jugend (9-10 Jahre): **2 × 20 Minuten**
 
 Die Grafiken passen sich automatisch an die konfigurierte Dauer an!
+
+## 🚀 Automatisierte Aktualisierung mit GitHub Actions
+
+Ein täglicher GitHub Actions Workflow aktualisiert automatisch die Daten und deployt die WebApp zu GitHub Pages.
+
+### ⏰ Schedule
+
+- **Täglich um 20:00 UTC** (21:00 CET / 22:00 CEST)
+- **Manuell auslösbar** über GitHub UI → Actions → "Daily Update & Deploy" → "Run workflow"
+
+### 📋 Workflow-Schritte
+
+1. **Scraper ausführen** - Lädt neue Spieltage von handball.net
+2. **Grafiken generieren** - Erstellt Tor-Zeitstrahl-Visualisierungen
+3. **Excel-Report erstellen** - Aggregiert Statistiken
+4. **Frontend kompilieren** - Baut React App
+5. **GitHub Pages deployen** - Pusht alles zu gh-pages branch
+
+### 🌐 Verfügbar unter
+
+- **Live URL**: [https://ulrichfrank.github.io/handballnet_crawler/](https://ulrichfrank.github.io/handballnet_crawler/)
+
+### 🔧 Workflow-Konfiguration
+
+Workflow-Datei: `.github/workflows/daily-update-deploy.yml`
+
+Konfigurierbare Werte:
+- `PYTHON_VERSION`: 3.10 (für scraper.py)
+- `NODE_VERSION`: 18 (für Frontend build)
+- `cron`: `0 20 * * *` (20:00 UTC täglich)
+
+### 📊 Was wird deployt
+
+- Frontend (React/Vite)
+- config.json
+- Alle Spieltag-JSON-Dateien (`data/`)
+- Generierte Excel-Reports
+- Visualisierungs-Grafiken

@@ -12,6 +12,7 @@ import sys
 import calendar
 from datetime import datetime
 from pathlib import Path
+from difflib import SequenceMatcher
 from bs4 import BeautifulSoup
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
@@ -89,6 +90,42 @@ print("=" * 70)
 print(f"Verarbeite {len(leagues_to_process)} Liga(n)")
 print(f"Date Range: {DATE_FROM} to {DATE_TO}")
 print()
+
+def fuzzy_match_team_name(target, candidates, threshold=0.85):
+    """
+    Fuzzy match team name allowing for minor typos (1 character difference)
+    
+    Args:
+        target: Team name to match
+        candidates: List of candidate team names
+        threshold: Similarity threshold (0.85 = allows ~1 char difference)
+    
+    Returns:
+        (matched_name, similarity_score) or (None, 0)
+    """
+    best_match = None
+    best_score = 0
+    
+    target_lower = target.lower().strip()
+    
+    for candidate in candidates:
+        candidate_lower = candidate.lower().strip()
+        
+        # Exact match
+        if target_lower == candidate_lower:
+            return (candidate, 1.0)
+        
+        # Fuzzy match using SequenceMatcher
+        similarity = SequenceMatcher(None, target_lower, candidate_lower).ratio()
+        if similarity > best_score:
+            best_score = similarity
+            best_match = candidate
+    
+    # Return match only if above threshold
+    if best_score >= threshold:
+        return (best_match, best_score)
+    
+    return (None, 0)
 
 def setup_driver():
     """Setup Chrome driver with SSL certificate support"""
@@ -653,7 +690,7 @@ def scrape_all_games(driver, games_with_teams, league_config=None):
             
             # Determine home/away based on Spielplan data if available
             if spielplan_home and spielplan_away:
-                # Use Spielplan data to determine order
+                # Try exact match first
                 if team1_name == spielplan_home:
                     home_team, home_players = team1_name, team1_players
                     away_team, away_players = team2_name, team2_players
@@ -661,9 +698,21 @@ def scrape_all_games(driver, games_with_teams, league_config=None):
                     home_team, home_players = team2_name, team2_players
                     away_team, away_players = team1_name, team1_players
                 else:
-                    # Fallback: just use order from HTML
-                    home_team, home_players = team1_name, team1_players
-                    away_team, away_players = team2_name, team2_players
+                    # Try fuzzy match
+                    match, score = fuzzy_match_team_name(spielplan_home, [team1_name, team2_name])
+                    if match:
+                        if match == team1_name:
+                            home_team, home_players = team1_name, team1_players
+                            away_team, away_players = team2_name, team2_players
+                        else:
+                            home_team, home_players = team2_name, team2_players
+                            away_team, away_players = team1_name, team1_players
+                        print(f"    ⚠️  Fuzzy matched home team: '{spielplan_home}' ≈ '{match}' (score: {score:.2f})")
+                    else:
+                        # Fallback: just use order from HTML
+                        home_team, home_players = team1_name, team1_players
+                        away_team, away_players = team2_name, team2_players
+                        print(f"    ❌ ERROR: Could not match home team '{spielplan_home}' (available: {team1_name}, {team2_name})")
             else:
                 # Fallback: just use order from HTML
                 home_team, home_players = team1_name, team1_players

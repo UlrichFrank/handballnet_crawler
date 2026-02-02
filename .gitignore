@@ -48,6 +48,7 @@ output/
 *.html
 *.json
 !config.example.json
+!config.gh.json
 !extract*.json
 
 node_modules/

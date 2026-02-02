@@ -52,46 +52,34 @@ class DataService {
     return config.leagues;
   }
 
-  async getGameData(outNameOrLeagueId: string, spieltag: string | null = null): Promise<GameData> {
-    // Accept both old format (out_name) and new format (data_folder/league name)
-    let ligaId = outNameOrLeagueId;
-    
-    // Try to resolve via meta.json leagues keys
+  async getGameData(leagueId: string, spieltag: string | null = null): Promise<GameData> {
+    // Use league name directly
     const meta = await this.loadMeta();
-    if (!meta.leagues[ligaId]) {
-      // If not found, try old mapping
-      if (outNameOrLeagueId.includes('MC-OL') || outNameOrLeagueId.includes('mc-ol')) {
-        ligaId = 'mc-ol-3-bw_bwhv';
-      } else if (outNameOrLeagueId.includes('Landesliga') || outNameOrLeagueId.includes('landesliga')) {
-        ligaId = 'gd-bol-srm_srm';
-      } else if (outNameOrLeagueId.includes('c_jugend') || outNameOrLeagueId.includes('spiele_c')) {
-        ligaId = 'mc-ol-3-bw_bwhv';
-      } else if (outNameOrLeagueId.includes('d_jugend') || outNameOrLeagueId.includes('spiele_d')) {
-        ligaId = 'gd-bol-srm_srm';
-      }
+    if (!meta.leagues[leagueId]) {
+      throw new Error(`League ${leagueId} not found in meta.json`);
     }
 
     // Wenn kein Spieltag angegeben, lade den letzten
     let spieltagFile = spieltag;
     if (!spieltagFile) {
-      const liga = meta.leagues[ligaId];
+      const liga = meta.leagues[leagueId];
       if (liga && liga.spieltage && liga.spieltage.length > 0) {
         // Lade letzten Spieltag (yyyymmdd)
         spieltagFile = liga.spieltage[liga.spieltage.length - 1];
       } else {
-        throw new Error(`No Spieltag data available for ${outNameOrLeagueId}`);
+        throw new Error(`No Spieltag data available for ${leagueId}`);
       }
     }
 
-    const cacheKey = `${ligaId}_${spieltagFile}`;
+    const cacheKey = `${leagueId}_${spieltagFile}`;
     if (this.gameDataCache.has(cacheKey)) {
       return this.gameDataCache.get(cacheKey)!;
     }
 
     // Lade Spieltag JSON (format: yyyymmdd.json)
-    const response = await fetch(`/hb_grabber/data/${ligaId}/${spieltagFile}.json?t=${Date.now()}`);
+    const response = await fetch(`/hb_grabber/data/${leagueId}/${spieltagFile}.json?t=${Date.now()}`);
     if (!response.ok) {
-      throw new Error(`Failed to load game data for ${outNameOrLeagueId}, Spieltag ${spieltagFile}: ${response.statusText}`);
+      throw new Error(`Failed to load game data for ${leagueId}, Spieltag ${spieltagFile}: ${response.statusText}`);
     }
     const data = await response.json();
     this.gameDataCache.set(cacheKey, data);
@@ -101,39 +89,28 @@ class DataService {
   /**
    * Get aggregated game data for entire league (all Spieltage combined)
    */
-  async getAggregatedGameData(outNameOrLeagueId: string): Promise<GameData> {
-    let ligaId = outNameOrLeagueId;
-    
+  async getAggregatedGameData(leagueId: string): Promise<GameData> {
     // Try to resolve via meta.json leagues keys
     const meta = await this.loadMeta();
-    if (!meta.leagues[ligaId]) {
-      // If not found, try old mapping
-      if (outNameOrLeagueId.includes('MC-OL') || outNameOrLeagueId.includes('mc-ol')) {
-        ligaId = 'mc-ol-3-bw_bwhv';
-      } else if (outNameOrLeagueId.includes('Landesliga') || outNameOrLeagueId.includes('landesliga')) {
-        ligaId = 'gd-bol-srm_srm';
-      } else if (outNameOrLeagueId.includes('c_jugend') || outNameOrLeagueId.includes('spiele_c')) {
-        ligaId = 'mc-ol-3-bw_bwhv';
-      } else if (outNameOrLeagueId.includes('d_jugend') || outNameOrLeagueId.includes('spiele_d')) {
-        ligaId = 'gd-bol-srm_srm';
-      }
+    if (!meta.leagues[leagueId]) {
+      throw new Error(`League not found: ${leagueId}`);
     }
 
-    const cacheKey = `${ligaId}_aggregated`;
+    const cacheKey = `${leagueId}_aggregated`;
     if (this.gameDataCache.has(cacheKey)) {
       return this.gameDataCache.get(cacheKey)!;
     }
 
-    const liga = meta.leagues[ligaId];
+    const liga = meta.leagues[leagueId];
     if (!liga || !liga.spieltage || liga.spieltage.length === 0) {
-      throw new Error(`No Spieltag data available for ${outNameOrLeagueId}`);
+      throw new Error(`No Spieltag data available for ${leagueId}`);
     }
 
     // Load all Spieltag files
     const allGames: any[] = [];
     for (const spieltag of liga.spieltage) {
       try {
-        const response = await fetch(`/hb_grabber/data/${ligaId}/${spieltag}.json?t=${Date.now()}`);
+        const response = await fetch(`/hb_grabber/data/${leagueId}/${spieltag}.json?t=${Date.now()}`);
         if (response.ok) {
           const data = await response.json();
           if (data.games && Array.isArray(data.games)) {
@@ -360,6 +337,262 @@ class DataService {
     });
 
     return { referees, timekeepers, secretaries };
+  }
+
+  /**
+   * Get player statistics (top scorers) for a league
+   */
+  async getPlayerStatistics(outName: string) {
+    const gameData = await this.getAggregatedGameData(outName);
+    const playerStats = new Map<string, {
+      goals: number;
+      sevenMetersGoals: number;
+      sevenMetersAttempts: number;
+    }>();
+
+    gameData.games.forEach(game => {
+      // Home team players
+      game.home.players.forEach(player => {
+        if (!playerStats.has(player.name)) {
+          playerStats.set(player.name, {
+            goals: 0,
+            sevenMetersGoals: 0,
+            sevenMetersAttempts: 0,
+          });
+        }
+        const stats = playerStats.get(player.name)!;
+        stats.goals += player.goals;
+        stats.sevenMetersGoals += player.seven_meters_goals;
+        stats.sevenMetersAttempts += player.seven_meters;
+      });
+
+      // Away team players
+      game.away.players.forEach(player => {
+        if (!playerStats.has(player.name)) {
+          playerStats.set(player.name, {
+            goals: 0,
+            sevenMetersGoals: 0,
+            sevenMetersAttempts: 0,
+          });
+        }
+        const stats = playerStats.get(player.name)!;
+        stats.goals += player.goals;
+        stats.sevenMetersGoals += player.seven_meters_goals;
+        stats.sevenMetersAttempts += player.seven_meters;
+      });
+    });
+
+    // Convert to sorted array
+    return Array.from(playerStats.entries())
+      .map(([name, stats]) => ({
+        name,
+        goals: stats.goals,
+        sevenMetersGoals: stats.sevenMetersGoals,
+        sevenMetersAttempts: stats.sevenMetersAttempts,
+        sevenMeterPercent: stats.sevenMetersAttempts > 0
+          ? Math.round((stats.sevenMetersGoals / stats.sevenMetersAttempts) * 100)
+          : 0,
+      }))
+      .sort((a, b) => b.goals - a.goals);
+  }
+
+  /**
+   * Get 7-meter shooters (players with at least 1 attempt)
+   */
+  async getSevenMeterShooters(outName: string) {
+    const playerStats = await this.getPlayerStatistics(outName);
+    
+    return playerStats
+      .filter(p => p.sevenMetersAttempts > 0)
+      .map(p => ({
+        ...p,
+        sevenMeterMissed: p.sevenMetersAttempts - p.sevenMetersGoals,
+      }))
+      .sort((a, b) => b.sevenMetersGoals - a.sevenMetersGoals);
+  }
+
+  /**
+   * Get team ratio statistics (goal difference)
+   */
+  async getTeamRatioStats(outName: string) {
+    const gameData = await this.getAggregatedGameData(outName);
+    const teamStats = new Map<string, {
+      goalsFor: number;
+      goalsAgainst: number;
+      games: number;
+    }>();
+
+    gameData.games.forEach(game => {
+      const homeScore = parseInt(game.final_score?.split(':')[0] || '0');
+      const awayScore = parseInt(game.final_score?.split(':')[1] || '0');
+
+      if (!teamStats.has(game.home.team_name)) {
+        teamStats.set(game.home.team_name, { goalsFor: 0, goalsAgainst: 0, games: 0 });
+      }
+      if (!teamStats.has(game.away.team_name)) {
+        teamStats.set(game.away.team_name, { goalsFor: 0, goalsAgainst: 0, games: 0 });
+      }
+
+      const homeStats = teamStats.get(game.home.team_name)!;
+      homeStats.goalsFor += homeScore;
+      homeStats.goalsAgainst += awayScore;
+      homeStats.games += 1;
+
+      const awayStats = teamStats.get(game.away.team_name)!;
+      awayStats.goalsFor += awayScore;
+      awayStats.goalsAgainst += homeScore;
+      awayStats.games += 1;
+    });
+
+    return Array.from(teamStats.entries())
+      .map(([teamName, stats]) => ({
+        teamName,
+        goalsFor: stats.goalsFor,
+        goalsAgainst: stats.goalsAgainst,
+        difference: stats.goalsFor - stats.goalsAgainst,
+        games: stats.games,
+      }))
+      .sort((a, b) => b.difference - a.difference);
+  }
+
+  /**
+   * Get team offense statistics (goals thrown)
+   */
+  async getTeamOffenseStats(outName: string) {
+    const gameData = await this.getAggregatedGameData(outName);
+    const teamStats = new Map<string, {
+      goals: number;
+      games: number;
+    }>();
+
+    gameData.games.forEach(game => {
+      const homeScore = parseInt(game.final_score?.split(':')[0] || '0');
+      const awayScore = parseInt(game.final_score?.split(':')[1] || '0');
+
+      if (!teamStats.has(game.home.team_name)) {
+        teamStats.set(game.home.team_name, { goals: 0, games: 0 });
+      }
+      if (!teamStats.has(game.away.team_name)) {
+        teamStats.set(game.away.team_name, { goals: 0, games: 0 });
+      }
+
+      const homeStats = teamStats.get(game.home.team_name)!;
+      homeStats.goals += homeScore;
+      homeStats.games += 1;
+
+      const awayStats = teamStats.get(game.away.team_name)!;
+      awayStats.goals += awayScore;
+      awayStats.games += 1;
+    });
+
+    return Array.from(teamStats.entries())
+      .map(([teamName, stats]) => ({
+        teamName,
+        totalGoals: stats.goals,
+        games: stats.games,
+        avgGoalsPerGame: parseFloat((stats.goals / stats.games).toFixed(1)),
+      }))
+      .sort((a, b) => b.totalGoals - a.totalGoals);
+  }
+
+  /**
+   * Get team defense statistics (goals conceded)
+   */
+  async getTeamDefenseStats(outName: string) {
+    const gameData = await this.getAggregatedGameData(outName);
+    const teamStats = new Map<string, {
+      conceded: number;
+      games: number;
+    }>();
+
+    gameData.games.forEach(game => {
+      const homeScore = parseInt(game.final_score?.split(':')[0] || '0');
+      const awayScore = parseInt(game.final_score?.split(':')[1] || '0');
+
+      if (!teamStats.has(game.home.team_name)) {
+        teamStats.set(game.home.team_name, { conceded: 0, games: 0 });
+      }
+      if (!teamStats.has(game.away.team_name)) {
+        teamStats.set(game.away.team_name, { conceded: 0, games: 0 });
+      }
+
+      const homeStats = teamStats.get(game.home.team_name)!;
+      homeStats.conceded += awayScore;
+      homeStats.games += 1;
+
+      const awayStats = teamStats.get(game.away.team_name)!;
+      awayStats.conceded += homeScore;
+      awayStats.games += 1;
+    });
+
+    return Array.from(teamStats.entries())
+      .map(([teamName, stats]) => ({
+        teamName,
+        totalConceded: stats.conceded,
+        games: stats.games,
+        avgConcededPerGame: parseFloat((stats.conceded / stats.games).toFixed(1)),
+      }))
+      .sort((a, b) => a.totalConceded - b.totalConceded);
+  }
+
+  /**
+   * Get team discipline statistics (Fair-Play ranking)
+   */
+  async getTeamDisciplineStats(outName: string) {
+    const gameData = await this.getAggregatedGameData(outName);
+    const teamStats = new Map<string, {
+      blueCards: number;
+      redCards: number;
+      twoMinPenalties: number;
+      yellowCards: number;
+    }>();
+
+    gameData.games.forEach(game => {
+      // Home team
+      if (!teamStats.has(game.home.team_name)) {
+        teamStats.set(game.home.team_name, {
+          blueCards: 0,
+          redCards: 0,
+          twoMinPenalties: 0,
+          yellowCards: 0,
+        });
+      }
+      const homeStats = teamStats.get(game.home.team_name)!;
+      game.home.players.forEach(player => {
+        homeStats.blueCards += player.blue_cards || 0;
+        homeStats.redCards += player.red_cards || 0;
+        homeStats.twoMinPenalties += player.two_min_penalties || 0;
+        homeStats.yellowCards += player.yellow_cards || 0;
+      });
+
+      // Away team
+      if (!teamStats.has(game.away.team_name)) {
+        teamStats.set(game.away.team_name, {
+          blueCards: 0,
+          redCards: 0,
+          twoMinPenalties: 0,
+          yellowCards: 0,
+        });
+      }
+      const awayStats = teamStats.get(game.away.team_name)!;
+      game.away.players.forEach(player => {
+        awayStats.blueCards += player.blue_cards || 0;
+        awayStats.redCards += player.red_cards || 0;
+        awayStats.twoMinPenalties += player.two_min_penalties || 0;
+        awayStats.yellowCards += player.yellow_cards || 0;
+      });
+    });
+
+    return Array.from(teamStats.entries())
+      .map(([teamName, stats]) => ({
+        teamName,
+        blueCards: stats.blueCards,
+        redCards: stats.redCards,
+        twoMinPenalties: stats.twoMinPenalties,
+        yellowCards: stats.yellowCards,
+        totalDisciplinePoints: (stats.blueCards * 4) + (stats.redCards * 3) + (stats.twoMinPenalties * 2) + (stats.yellowCards * 1),
+      }))
+      .sort((a, b) => a.totalDisciplinePoints - b.totalDisciplinePoints);
   }
 }
 

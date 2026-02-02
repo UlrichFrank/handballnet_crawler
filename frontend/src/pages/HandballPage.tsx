@@ -15,7 +15,7 @@ export function HandballPage() {
     const loadTeams = async () => {
       if (!selectedLeague) return;
       try {
-        const fetchedTeams = await dataService.getTeamsForLeague(selectedLeague.out_name);
+        const fetchedTeams = await dataService.getTeamsForLeague(selectedLeague.name);
         setTeams(fetchedTeams);
         setSelectedTeam(fetchedTeams.length > 0 ? fetchedTeams[0] : null);
       } catch (err) {

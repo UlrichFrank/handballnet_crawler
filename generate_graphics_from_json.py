@@ -106,7 +106,7 @@ def main():
     
     for league in leagues:
         league_name = league.get('display_name', league.get('name', 'Unknown'))
-        data_folder_name = league.get('data_folder', league.get('out_name', 'unknown'))
+        data_folder_name = league.get('name', 'unknown')
         half_duration = league.get('half_duration', 30)
         
         data_folder = Path('frontend/public/data') / data_folder_name

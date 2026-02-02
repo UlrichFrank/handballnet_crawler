@@ -75,9 +75,9 @@ def create_report():
     
     # Process each league
     for league_config in leagues_to_process:
-        data_folder = league_config['data_folder']
-        out_name = league_config['out_name']
-        output_file = f"output/{out_name}.xlsx"
+        league_name = league_config['name']
+        data_folder = league_config['name']
+        output_file = f"output/{league_name}.xlsx"
         
         print(f"\n📊 Generiere Excel Report für: {league_config['display_name']}")
         print(f"   Lade Spieldaten...")
@@ -85,7 +85,7 @@ def create_report():
         try:
             data = load_games_data(data_folder)
         except FileNotFoundError:
-            print(f"   ⚠️  JSON-Datei nicht gefunden: output/{out_name}.json")
+            print(f"   ⚠️  JSON-Datei nicht gefunden für: {league_config['display_name']}")
             continue
         
         games = data['games']

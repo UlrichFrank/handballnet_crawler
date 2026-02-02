@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react';
 import { useLeague } from '../contexts/LeagueContext';
 import { dataService } from '../services/dataService';
+import { GameHighlightUtils, useNavigateWithHighlight } from '../hooks/useGameHighlight';
 
 interface GameInfo {
   date: string;
@@ -17,6 +18,7 @@ interface OfficialData {
 
 export function OfficialsPage() {
   const { selectedLeague } = useLeague();
+  const navigateWithHighlight = useNavigateWithHighlight();
   const [referees, setReferees] = useState<OfficialData[]>([]);
   const [timekeepers, setTimekeepers] = useState<OfficialData[]>([]);
   const [secretaries, setSecretaries] = useState<OfficialData[]>([]);
@@ -32,7 +34,7 @@ export function OfficialsPage() {
 
       try {
         setLoading(true);
-        const officials = await dataService.getAllOfficials(selectedLeague.out_name);
+        const officials = await dataService.getAllOfficials(selectedLeague.name);
 
         // Convert maps to sorted arrays
         setReferees(
@@ -123,12 +125,20 @@ export function OfficialsPage() {
                 <td className="px-4 py-3 text-gray-700 dark:text-gray-300 border-b border-gray-200 dark:border-slate-700">
                   <div className="flex flex-wrap gap-2">
                     {official.games.map((game, gidx) => (
-                      <span
+                      <button
                         key={`${official.name}-${gidx}`}
-                        className="inline-block bg-blue-50 dark:bg-blue-900/30 text-blue-900 dark:text-blue-200 px-2 py-1 rounded text-xs border border-blue-200 dark:border-blue-700"
+                        onClick={() => {
+                          const encodedGame = GameHighlightUtils.encodeGame({
+                            date: game.date,
+                            home: game.home,
+                            away: game.away,
+                          });
+                          navigateWithHighlight('/handball', 'game', encodedGame);
+                        }}
+                        className="inline-block bg-blue-50 dark:bg-blue-900/30 text-blue-900 dark:text-blue-200 px-2 py-1 rounded text-xs border border-blue-200 dark:border-blue-700 hover:bg-blue-100 dark:hover:bg-blue-900/50 cursor-pointer transition-colors"
                       >
                         {game.date}: {game.home} vs {game.away} ({game.score})
-                      </span>
+                      </button>
                     ))}
                   </div>
                 </td>

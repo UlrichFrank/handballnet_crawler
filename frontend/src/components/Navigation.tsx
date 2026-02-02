@@ -15,6 +15,11 @@ const navigationItems = [
     icon: TableIcon,
   },
   {
+    path: '/statistics',
+    label: 'Statistiken',
+    icon: BarChartIcon,
+  },
+  {
     path: '/officials',
     label: 'Spielleitung',
     icon: BarChartIcon,

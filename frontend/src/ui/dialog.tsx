@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 
 interface DialogProps {
   open: boolean;
@@ -6,7 +6,7 @@ interface DialogProps {
   children: React.ReactNode;
 }
 
-interface DialogContentProps {
+interface DialogContentProps extends React.HTMLAttributes<HTMLDivElement> {
   children: React.ReactNode;
   className?: string;
 }
@@ -38,26 +38,45 @@ export function Dialog({ open, onOpenChange, children }: DialogProps) {
   );
 }
 
-export function DialogContent({ children, className }: DialogContentProps) {
-  return (
-    <div
-      className={`bg-white rounded-lg shadow-xl max-w-2xl max-h-[90vh] overflow-y-auto p-6 relative ${
-        className || ''
-      }`}
-      onClick={(e) => e.stopPropagation()}
-    >
-      {children}
-    </div>
-  );
-}
+export const DialogContent = React.forwardRef<HTMLDivElement, DialogContentProps>(
+  ({ children, className, ...props }, ref) => {
+    const [isDark, setIsDark] = useState(false);
+
+    useEffect(() => {
+      const checkDarkMode = () => {
+        setIsDark(document.documentElement.classList.contains('dark'));
+      };
+      checkDarkMode();
+      const observer = new MutationObserver(checkDarkMode);
+      observer.observe(document.documentElement, { attributes: true });
+      return () => observer.disconnect();
+    }, []);
+
+    return (
+      <div
+        ref={ref}
+        className={`rounded-lg shadow-2xl max-w-4xl max-h-[90vh] overflow-y-auto p-6 relative border-2 border-slate-300 dark:border-slate-700 ${
+          className || ''
+        }`}
+        onClick={(e) => e.stopPropagation()}
+        style={{
+          backgroundColor: isDark ? 'rgb(15 23 42)' : 'rgb(241 245 249)',
+        }}
+        {...props}
+      >
+        {children}
+      </div>
+    );
+  }
+);
 
 export function DialogHeader({ children }: DialogHeaderProps) {
-  return <div className="mb-4">{children}</div>;
+  return <div className="mb-4 pb-4 border-b border-slate-300 dark:border-slate-700">{children}</div>;
 }
 
 export function DialogTitle({ children, className }: DialogTitleProps) {
   return (
-    <h2 className={`text-xl font-bold text-gray-900 ${className || ''}`}>
+    <h2 className={`text-xl font-bold text-slate-900 dark:text-slate-100 ${className || ''}`}>
       {children}
     </h2>
   );

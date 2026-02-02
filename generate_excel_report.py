@@ -32,32 +32,34 @@ def get_league_config(league_name_arg=None):
         # Use first league as default
         return config['leagues'][0]
 
-
-def load_config():
-    """Load config"""
-    config_path = Path(__file__).parent / "config" / "config.json"
-    with open(config_path, 'r') as f:
-        return json.load(f)
-
-def get_league_config(league_name_arg=None):
-    """Get league configuration"""
-    config = load_config()
+def load_games_data(data_folder):
+    """Load game-centric data from frontend/public/data/{data_folder}/*.json files"""
+    # Load all yyyymmdd.json files for this liga
+    data_dir = Path('frontend/public/data') / data_folder
     
-    if league_name_arg:
-        for league in config['leagues']:
-            if league['name'] == league_name_arg:
-                return league
-        print(f"Error: League '{league_name_arg}' not found in config")
-        sys.exit(1)
-    else:
-        # Use first league as default
-        return config['leagues'][0]
-
-def load_games_data(out_name):
-    """Load game-centric data"""
-    filepath = f'output/{out_name}.json'
-    with open(filepath, 'r') as f:
-        return json.load(f)
+    if not data_dir.exists():
+        print(f"   ❌ Data directory not found: {data_dir}")
+        raise FileNotFoundError(f"Data directory not found: {data_dir}")
+    
+    # Collect all games from all date-based files
+    all_games = []
+    date_files = sorted(list(data_dir.glob('*.json')))
+    
+    if not date_files:
+        print(f"   ❌ No spieltag files found in {data_dir}")
+        raise FileNotFoundError(f"No spieltag files found in {data_dir}")
+    
+    print(f"   📂 Loading {len(date_files)} Spieltag(e) from {data_dir}")
+    
+    for date_file in date_files:
+        with open(date_file, 'r') as f:
+            data = json.load(f)
+        games = data.get('games', [])
+        all_games.extend(games)
+        print(f"      ✅ {date_file.name}: {len(games)} games")
+    
+    # Return combined data
+    return {'games': all_games}
 
 def create_report():
     # Get leagues to process
@@ -73,16 +75,17 @@ def create_report():
     
     # Process each league
     for league_config in leagues_to_process:
-        out_name = league_config['out_name']
-        output_file = f"output/{out_name}.xlsx"
+        league_name = league_config['name']
+        data_folder = league_config['name']
+        output_file = f"output/{league_name}.xlsx"
         
         print(f"\n📊 Generiere Excel Report für: {league_config['display_name']}")
         print(f"   Lade Spieldaten...")
         
         try:
-            data = load_games_data(out_name)
+            data = load_games_data(data_folder)
         except FileNotFoundError:
-            print(f"   ⚠️  JSON-Datei nicht gefunden: output/{out_name}.json")
+            print(f"   ⚠️  JSON-Datei nicht gefunden für: {league_config['display_name']}")
             continue
         
         games = data['games']

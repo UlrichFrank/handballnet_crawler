@@ -7,7 +7,7 @@
     "dev": "pnpm --filter frontend dev",
     "preview": "pnpm --filter frontend preview"
   },
-  "devDependencies": {
-    "pnpm": "^9.0.0"
+  "engines": {
+    "pnpm": ">=9.0.0"
   }
 }

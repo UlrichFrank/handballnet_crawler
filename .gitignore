@@ -46,7 +46,12 @@ Thumbs.db
 # Project specific
 output/
 *.html
-*.json
+
+# Game data JSON files (keep only on data branch)
+frontend/public/data/**/*.json
+frontend/public/data/meta.json
+
+# Config examples (but keep GH config)
 !config.example.json
 !config.gh.json
 !extract*.json

@@ -1,8 +1,9 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import { dataService } from '../../services/dataService';
 import { LeagueConfig, Game } from '../../types/handball';
 import { StatCell } from './StatCell';
 import { GameTimelineDialog } from './GameTimelineDialog';
+import { useGameHighlight, GameHighlightUtils } from '../../hooks/useGameHighlight';
 import { Activity } from 'lucide-react';
 
 interface GameTableProps {
@@ -18,12 +19,16 @@ export function GameTable({ league, teamName }: GameTableProps) {
   const [selectedGame, setSelectedGame] = useState<Game | null>(null);
   const [isTimelineDialogOpen, setIsTimelineDialogOpen] = useState(false);
   const [allGames, setAllGames] = useState<Game[]>([]);
+  const [highlightedGameId, setHighlightedGameId] = useState<string | null>(null);
+  const gameRowsRef = useRef<Map<string, HTMLElement>>(new Map());
+
+  const { highlight, applyHighlight } = useGameHighlight();
 
   useEffect(() => {
     const loadData = async () => {
       try {
         setLoading(true);
-        const data = await dataService.getAggregatedGameData(league.out_name);
+        const data = await dataService.getAggregatedGameData(league.name);
         setAllGames(data.games);
 
         const games = dataService.getTeamGames(data, teamName);
@@ -40,6 +45,25 @@ export function GameTable({ league, teamName }: GameTableProps) {
 
     loadData();
   }, [league, teamName]);
+
+  // Handle highlight from URL
+  useEffect(() => {
+    if (highlight.type === 'game' && highlight.id) {
+      const decodedGame = GameHighlightUtils.decodeGame(highlight.id);
+      if (decodedGame) {
+        const gameId = `${decodedGame.date}-${decodedGame.home}-${decodedGame.away}`;
+        setHighlightedGameId(gameId);
+
+        // Apply highlight to game row
+        setTimeout(() => {
+          const gameElement = gameRowsRef.current.get(gameId);
+          if (gameElement) {
+            applyHighlight(gameElement);
+          }
+        }, 100);
+      }
+    }
+  }, [highlight, applyHighlight]);
 
   if (loading) {
     return (
@@ -91,32 +115,40 @@ export function GameTable({ league, teamName }: GameTableProps) {
                 );
 
                 return (
-                  <th
-                    key={`header_${idx}`}
-                    colSpan={7}
-                    className="bg-blue-900 dark:bg-blue-600 text-white px-3 py-3 text-center text-sm font-bold border border-blue-200 dark:border-blue-700 hover:bg-blue-800 dark:hover:bg-blue-500 transition-colors"
-                    style={{ minWidth: '260px' }}
-                  >
-                    <div className="text-xs leading-tight">
-                      <div className="font-semibold">{game.date}</div>
-                      <div className="font-bold text-sm">{game.is_home ? '🏠' : '🏃'}</div>
-                      <div className="text-xs font-bold">{game.score}</div>
-                      <div className="text-xs font-normal truncate">vs {game.opponent}</div>
-                      {fullGame?.goals_timeline && fullGame.goals_timeline.length > 0 && (
-                        <button
-                          className="mt-1 px-2 py-1 bg-white dark:bg-slate-800 text-blue-900 dark:text-blue-400 text-xs rounded hover:bg-gray-200 dark:hover:bg-slate-700 flex items-center gap-1 justify-center w-full"
-                          onClick={(e) => {
-                            e.stopPropagation();
-                            setSelectedGame(fullGame);
-                            setIsTimelineDialogOpen(true);
-                          }}
-                        >
-                          <Activity size={12} />
-                          Ablauf
-                        </button>
-                      )}
-                    </div>
-                  </th>
+                   <th
+                     key={`header_${idx}`}
+                     colSpan={7}
+                     ref={(el) => {
+                       if (el && el.parentElement) {
+                         const gameId = `${game.date}-${game.is_home ? teamName : game.opponent}-${game.is_home ? game.opponent : teamName}`;
+                         gameRowsRef.current.set(gameId, el.parentElement);
+                       }
+                     }}
+                     className={`bg-blue-900 dark:bg-blue-600 text-white px-3 py-3 text-center text-sm font-bold border border-blue-200 dark:border-blue-700 hover:bg-blue-800 dark:hover:bg-blue-500 transition-colors ${
+                       highlightedGameId === `${game.date}-${game.is_home ? teamName : game.opponent}-${game.is_home ? game.opponent : teamName}` ? 'highlight-active' : ''
+                     }`}
+                     style={{ minWidth: '260px' }}
+                   >
+                     <div className="text-xs leading-tight">
+                       <div className="font-semibold">{game.date}</div>
+                       <div className="font-bold text-sm">{game.is_home ? '🏠' : '🏃'}</div>
+                       <div className="text-xs font-bold">{game.score}</div>
+                       <div className="text-xs font-normal truncate">vs {game.opponent}</div>
+                       {fullGame?.goals_timeline && fullGame.goals_timeline.length > 0 && (
+                         <button
+                           className="mt-1 px-2 py-1 bg-white dark:bg-slate-800 text-blue-900 dark:text-blue-400 text-xs rounded hover:bg-gray-200 dark:hover:bg-slate-700 flex items-center gap-1 justify-center w-full"
+                           onClick={(e) => {
+                             e.stopPropagation();
+                             setSelectedGame(fullGame);
+                             setIsTimelineDialogOpen(true);
+                           }}
+                         >
+                           <Activity size={12} />
+                           Ablauf
+                         </button>
+                       )}
+                     </div>
+                   </th>
                 );
               })}
               <th

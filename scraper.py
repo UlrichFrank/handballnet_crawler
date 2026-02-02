@@ -618,10 +618,8 @@ def scrape_all_games(driver, games_with_teams, league_config=None):
     
     # Get half duration from league config
     half_duration = 30  # Default
-    age_group = "Unknown"
     if league_config:
         half_duration = league_config.get('half_duration', 30)
-        age_group = league_config.get('age_group', 'Unknown')
     
     print(f"   📝 Starting to extract game details...")
     sys.stdout.flush()  # Force output flush
@@ -706,7 +704,6 @@ def scrape_all_games(driver, games_with_teams, league_config=None):
                 'goals_timeline': goals_timeline,
                 'final_score': f"{home_score}:{away_score}",
                 'half_duration': half_duration,
-                'age_group': age_group,
                 'officials': officials
             }
             

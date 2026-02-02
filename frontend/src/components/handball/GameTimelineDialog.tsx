@@ -33,6 +33,15 @@ export function GameTimelineDialog({
   onOpenChange,
   halfDuration,
 }: GameTimelineDialogProps) {
+  const dialogContentRef = useRef<HTMLDivElement>(null);
+  const [dialogRect, setDialogRect] = useState<DOMRect | null>(null);
+
+  useEffect(() => {
+    if (isOpen && dialogContentRef.current) {
+      setDialogRect(dialogContentRef.current.getBoundingClientRect());
+    }
+  }, [isOpen]);
+
   const graphicData = useMemo(() => {
     if (!game.goals_timeline || game.goals_timeline.length === 0) {
       return null;
@@ -131,19 +140,20 @@ export function GameTimelineDialog({
 
   return (
     <Dialog open={isOpen} onOpenChange={onOpenChange}>
-      <DialogContent className="max-w-6xl max-h-[90vh] overflow-y-auto">
+      <DialogContent ref={dialogContentRef} className="max-w-6xl max-h-screen overflow-y-auto bg-slate-100 dark:bg-slate-900">
         <DialogHeader>
           <DialogTitle className="text-lg">
             {game.home.team_name} vs {game.away.team_name}
           </DialogTitle>
         </DialogHeader>
-        <div className="space-y-6 py-4">
+        <div className="space-y-3 py-2">
           {graphicData.map((half) => (
             <TimelineHalf
               key={half.half}
               half={half}
               homeTeam={game.home.team_name}
               awayTeam={game.away.team_name}
+              dialogRect={dialogRect}
             />
           ))}
         </div>
@@ -156,6 +166,7 @@ interface TimelineHalfProps {
   half: HalfData;
   homeTeam: string;
   awayTeam: string;
+  dialogRect?: DOMRect | null;
 }
 
 interface CircleData {
@@ -166,10 +177,10 @@ interface CircleData {
   team: 'home' | 'away';
 }
 
-function TimelineHalf({ half, homeTeam, awayTeam }: TimelineHalfProps) {
+function TimelineHalf({ half, homeTeam, awayTeam, dialogRect }: TimelineHalfProps) {
   const containerRef = useRef<HTMLDivElement>(null);
   const canvasRef = useRef<HTMLCanvasElement>(null);
-  const [hoveredGoal, setHoveredGoal] = useState<CircleData | null>(null);
+  const [hoveredGoals, setHoveredGoals] = useState<CircleData[]>([]);
   const [canvasRect, setCanvasRect] = useState<DOMRect | null>(null);
   const circlesRef = useRef<CircleData[]>([]);
 
@@ -205,7 +216,7 @@ function TimelineHalf({ half, homeTeam, awayTeam }: TimelineHalfProps) {
     ctx.fillRect(0, 0, canvasWidth, canvasHeight);
 
     // Setup dimensions
-    const marginLeft = 20;
+    const marginLeft = 60;
     const marginRight = 20;
     const marginTop = 30;
     const marginBottom = 40;
@@ -264,12 +275,12 @@ function TimelineHalf({ half, homeTeam, awayTeam }: TimelineHalfProps) {
       ctx.fillText(`${(half.half - 1) * half.duration_minutes + minute}'`, x, marginTop - 10);
     }
 
-    // Draw team labels
+    // Draw team labels - left-aligned, vertically centered with goal points
     ctx.font = 'bold 12px sans-serif';
     ctx.textAlign = 'right';
     ctx.fillStyle = '#333333';
-    ctx.fillText(homeTeam, marginLeft - 10, marginTop + graphHeight / 4 + 5);
-    ctx.fillText(awayTeam, marginLeft - 10, marginTop + (3 * graphHeight) / 4 + 5);
+    ctx.fillText('Heim', marginLeft - 10, marginTop + graphHeight / 4);
+    ctx.fillText('Gast', marginLeft - 10, marginTop + (3 * graphHeight) / 4);
 
     // Reset circles array
     circlesRef.current = [];
@@ -293,21 +304,6 @@ function TimelineHalf({ half, homeTeam, awayTeam }: TimelineHalfProps) {
       ctx.beginPath();
       ctx.arc(x, y, radius, 0, Math.PI * 2);
       ctx.stroke();
-
-      // Draw momentum number if > 3
-      if (goal.momentum > 3) {
-        ctx.fillStyle = '#ffffff';
-        ctx.font = 'bold 10px sans-serif';
-        ctx.textAlign = 'center';
-        ctx.textBaseline = 'middle';
-        ctx.fillText(goal.momentum.toString(), x, y);
-      }
-
-      // Draw score label
-      ctx.fillStyle = '#333333';
-      ctx.font = '10px sans-serif';
-      ctx.textAlign = 'center';
-      ctx.fillText(`${goal.score_home}:${goal.score_away}`, x, y + radius + 15);
 
       // Store circle data for hit detection
       circlesRef.current.push({
@@ -339,21 +335,6 @@ function TimelineHalf({ half, homeTeam, awayTeam }: TimelineHalfProps) {
       ctx.arc(x, y, radius, 0, Math.PI * 2);
       ctx.stroke();
 
-      // Draw momentum number if > 3
-      if (goal.momentum > 3) {
-        ctx.fillStyle = '#ffffff';
-        ctx.font = 'bold 10px sans-serif';
-        ctx.textAlign = 'center';
-        ctx.textBaseline = 'middle';
-        ctx.fillText(goal.momentum.toString(), x, y);
-      }
-
-      // Draw score label
-      ctx.fillStyle = '#333333';
-      ctx.font = '10px sans-serif';
-      ctx.textAlign = 'center';
-      ctx.fillText(`${goal.score_home}:${goal.score_away}`, x, y + radius + 15);
-
       // Store circle data for hit detection
       circlesRef.current.push({
         x,
@@ -378,41 +359,40 @@ function TimelineHalf({ half, homeTeam, awayTeam }: TimelineHalfProps) {
     const canvasX = x * dpr;
     const canvasY = y * dpr;
 
-    // Check if any circle is hovered
-    let foundGoal: CircleData | null = null;
+    // Check if any circles are hovered - collect ALL matches (not just first)
+    const foundGoals: CircleData[] = [];
     for (const circle of circlesRef.current) {
       const distance = Math.sqrt(Math.pow(canvasX - circle.x * dpr, 2) + Math.pow(canvasY - circle.y * dpr, 2));
       if (distance <= circle.radius * dpr) {
-        foundGoal = {
+        foundGoals.push({
           ...circle,
           x: circle.x,
           y: circle.y,
-        };
-        break;
+        });
       }
     }
 
-    setHoveredGoal(foundGoal);
-    canvas.style.cursor = foundGoal ? 'pointer' : 'default';
+    setHoveredGoals(foundGoals);
+    canvas.style.cursor = foundGoals.length > 0 ? 'pointer' : 'default';
   };
 
   const handleMouseLeave = () => {
-    setHoveredGoal(null);
+    setHoveredGoals([]);
     if (canvasRef.current) {
       canvasRef.current.style.cursor = 'default';
     }
   };
 
   return (
-    <div className="border rounded-lg p-4 bg-gray-50 dark:bg-slate-900">
-      <h3 className="font-semibold text-sm mb-3 text-gray-900 dark:text-gray-100">
+    <div className="border rounded-lg p-2 bg-gray-50 dark:bg-slate-900">
+      <h3 className="font-semibold text-xs mb-2 text-gray-900 dark:text-gray-100">
         Halbzeit {half.half} ({half.duration_minutes} Min)
       </h3>
       <div
         ref={containerRef}
-        className="w-full bg-white dark:bg-slate-800 border border-gray-200 dark:border-slate-700 rounded overflow-hidden"
+        className="w-full bg-white dark:bg-slate-800 border border-gray-200 dark:border-slate-700 rounded overflow-visible relative"
         style={{
-          aspectRatio: '4 / 1',
+          aspectRatio: '8 / 1',
         }}
       >
         <canvas
@@ -422,19 +402,22 @@ function TimelineHalf({ half, homeTeam, awayTeam }: TimelineHalfProps) {
           className="w-full h-full block"
         />
       </div>
-      {hoveredGoal && canvasRect && (
+      {hoveredGoals.length > 0 && canvasRect && (
         <GoalTooltip
-          goal={{
-            scorer: hoveredGoal.goal.scorer,
-            seven_meter: hoveredGoal.goal.seven_meter,
-            minute: Math.floor(hoveredGoal.goal.time_in_minutes),
-            second: Math.round((hoveredGoal.goal.time_in_minutes % 1) * 60),
-            score_home: hoveredGoal.goal.score_home,
-            score_away: hoveredGoal.goal.score_away,
-          }}
-          x={hoveredGoal.x}
-          y={hoveredGoal.y}
+          goals={hoveredGoals
+            .sort((a, b) => a.goal.time_in_minutes - b.goal.time_in_minutes) // Sort chronologically
+            .map((hg) => ({
+              scorer: hg.goal.scorer,
+              seven_meter: hg.goal.seven_meter,
+              minute: Math.floor(hg.goal.time_in_minutes),
+              second: Math.round((hg.goal.time_in_minutes % 1) * 60),
+              score_home: hg.goal.score_home,
+              score_away: hg.goal.score_away,
+            }))}
+          x={hoveredGoals[0].x}
+          y={hoveredGoals[0].y}
           canvasRect={canvasRect}
+          dialogRect={dialogRect}
         />
       )}
     </div>

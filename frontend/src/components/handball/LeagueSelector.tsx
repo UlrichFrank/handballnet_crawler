@@ -29,7 +29,7 @@ export function LeagueSelector({
       <option value="">Select a league...</option>
       {leagues.map((league) => (
         <option key={league.name} value={league.name}>
-          {league.display_name} ({league.age_group})
+          {league.display_name}
         </option>
       ))}
     </select>

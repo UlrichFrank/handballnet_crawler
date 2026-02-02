@@ -7,6 +7,7 @@ import { Navigation } from './components/Navigation';
 import { HandballPage } from './pages/HandballPage';
 import { StandingsPage } from './pages/StandingsPage';
 import { OfficialsPage } from './pages/OfficialsPage';
+import { StatisticsPage } from './pages/StatisticsPage';
 import { StatusPage } from './pages/StatusPage';
 
 function AppContent() {
@@ -44,6 +45,7 @@ function AppContent() {
                             <Route path="/handball" element={<HandballPage />} />
                             <Route path="/standings" element={<StandingsPage />} />
                             <Route path="/officials" element={<OfficialsPage />} />
+                            <Route path="/statistics" element={<StatisticsPage />} />
                             <Route path="/status" element={<StatusPage />} />
                         </Routes>
                     </div>

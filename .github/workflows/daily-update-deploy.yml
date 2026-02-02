@@ -35,19 +35,34 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: ${{ env.NODE_VERSION }}
-          cache: 'npm'
+
+      # Setup pnpm
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v2
+        with:
+          version: 8
+
+      # Setup pnpm caching
+      - name: Get pnpm store directory
+        shell: bash
+        run: |
+          echo "STORE_PATH=$(pnpm store path --silent)" >> $GITHUB_ENV
+
+      - name: Setup pnpm cache
+        uses: actions/cache@v3
+        with:
+          path: ${{ env.STORE_PATH }}
+          key: ${{ runner.os }}-pnpm-store-${{ hashFiles('**/pnpm-lock.yaml') }}
+          restore-keys: |
+            ${{ runner.os }}-pnpm-store-
 
       # Install Python dependencies
       - name: Install Python dependencies
         run: pip install -r requirements.txt
 
-      # Install Node dependencies (root workspace)
+      # Install Node dependencies
       - name: Install Node dependencies
-        run: npm install
-
-      # Install Frontend dependencies
-      - name: Install Frontend dependencies
-        run: cd frontend && npm install
+        run: pnpm install
 
       # Run Scraper
       - name: Run Scraper

@@ -423,8 +423,10 @@ class DataService {
     }>();
 
     gameData.games.forEach(game => {
-      const homeScore = parseInt(game.final_score?.split(':')[0] || '0');
-      const awayScore = parseInt(game.final_score?.split(':')[1] || '0');
+      // Sum player goals for home team
+      const homeGoals = game.home.players.reduce((sum: number, player: any) => sum + (player.goals || 0), 0);
+      // Sum player goals for away team
+      const awayGoals = game.away.players.reduce((sum: number, player: any) => sum + (player.goals || 0), 0);
 
       if (!teamStats.has(game.home.team_name)) {
         teamStats.set(game.home.team_name, { goalsFor: 0, goalsAgainst: 0, games: 0 });
@@ -434,13 +436,13 @@ class DataService {
       }
 
       const homeStats = teamStats.get(game.home.team_name)!;
-      homeStats.goalsFor += homeScore;
-      homeStats.goalsAgainst += awayScore;
+      homeStats.goalsFor += homeGoals;
+      homeStats.goalsAgainst += awayGoals;
       homeStats.games += 1;
 
       const awayStats = teamStats.get(game.away.team_name)!;
-      awayStats.goalsFor += awayScore;
-      awayStats.goalsAgainst += homeScore;
+      awayStats.goalsFor += awayGoals;
+      awayStats.goalsAgainst += homeGoals;
       awayStats.games += 1;
     });
 
@@ -466,8 +468,10 @@ class DataService {
     }>();
 
     gameData.games.forEach(game => {
-      const homeScore = parseInt(game.final_score?.split(':')[0] || '0');
-      const awayScore = parseInt(game.final_score?.split(':')[1] || '0');
+      // Sum player goals for home team
+      const homeGoals = game.home.players.reduce((sum: number, player: any) => sum + (player.goals || 0), 0);
+      // Sum player goals for away team
+      const awayGoals = game.away.players.reduce((sum: number, player: any) => sum + (player.goals || 0), 0);
 
       if (!teamStats.has(game.home.team_name)) {
         teamStats.set(game.home.team_name, { goals: 0, games: 0 });
@@ -477,11 +481,11 @@ class DataService {
       }
 
       const homeStats = teamStats.get(game.home.team_name)!;
-      homeStats.goals += homeScore;
+      homeStats.goals += homeGoals;
       homeStats.games += 1;
 
       const awayStats = teamStats.get(game.away.team_name)!;
-      awayStats.goals += awayScore;
+      awayStats.goals += awayGoals;
       awayStats.games += 1;
     });
 
@@ -506,8 +510,10 @@ class DataService {
     }>();
 
     gameData.games.forEach(game => {
-      const homeScore = parseInt(game.final_score?.split(':')[0] || '0');
-      const awayScore = parseInt(game.final_score?.split(':')[1] || '0');
+      // Sum opponent player goals for home team (from away team)
+      const awayGoals = game.away.players.reduce((sum: number, player: any) => sum + (player.goals || 0), 0);
+      // Sum opponent player goals for away team (from home team)
+      const homeGoals = game.home.players.reduce((sum: number, player: any) => sum + (player.goals || 0), 0);
 
       if (!teamStats.has(game.home.team_name)) {
         teamStats.set(game.home.team_name, { conceded: 0, games: 0 });
@@ -517,11 +523,11 @@ class DataService {
       }
 
       const homeStats = teamStats.get(game.home.team_name)!;
-      homeStats.conceded += awayScore;
+      homeStats.conceded += awayGoals;
       homeStats.games += 1;
 
       const awayStats = teamStats.get(game.away.team_name)!;
-      awayStats.conceded += homeScore;
+      awayStats.conceded += homeGoals;
       awayStats.games += 1;
     });
 

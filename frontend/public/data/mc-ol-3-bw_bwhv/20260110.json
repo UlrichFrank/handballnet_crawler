@@ -1,0 +1,927 @@
+{
+  "date": "20260110",
+  "games": [
+    {
+      "game_id": "handball4all.baden-wuerttemberg.8669221",
+      "order": 55,
+      "date": "Sa, 10.01.",
+      "home": {
+        "team_name": "TV \u00dcberlingen",
+        "players": [
+          {
+            "name": "Philip Dann",
+            "goals": 2,
+            "two_min_penalties": 1,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Moritz B\u00e4chle",
+            "goals": 12,
+            "two_min_penalties": 2,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 2,
+            "seven_meters_goals": 2
+          },
+          {
+            "name": "Mark Dittus",
+            "goals": 4,
+            "two_min_penalties": 1,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Tim Lorenz",
+            "goals": 9,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Finn Helm",
+            "goals": 2,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Leo Tamm",
+            "goals": 12,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Max Schwaibold",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Caspar Wiest",
+            "goals": 3,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Felix Heuser",
+            "goals": 2,
+            "two_min_penalties": 1,
+            "yellow_cards": 1,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          }
+        ]
+      },
+      "away": {
+        "team_name": "Jugendhandball-Akademie Neuhausen-Ostfildern 2",
+        "players": [
+          {
+            "name": "Moritz Lexa",
+            "goals": 13,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 1,
+            "seven_meters_goals": 1
+          },
+          {
+            "name": "Finn M\u00fclherr",
+            "goals": 1,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Matti Kraaz",
+            "goals": 5,
+            "two_min_penalties": 0,
+            "yellow_cards": 1,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 2,
+            "seven_meters_goals": 2
+          },
+          {
+            "name": "Gregor Sterr",
+            "goals": 8,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Sviatoslav Shtanko",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Maximilian Thurm",
+            "goals": 1,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Jonathan Sachs",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Nils Fleckenstein",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Mika Schwager",
+            "goals": 3,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Oskar Saur",
+            "goals": 2,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Julian Mielich",
+            "goals": 1,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Julian Doering",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Valentin F\u00f6ll",
+            "goals": 4,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          }
+        ]
+      },
+      "goals_timeline": [
+        {
+          "minute": 1,
+          "second": 15,
+          "scorer": "Moritz B\u00e4chle",
+          "team": "home",
+          "team_abbrev": "TV \u00dcberlingen",
+          "seven_meter": true
+        },
+        {
+          "minute": 2,
+          "second": 8,
+          "scorer": "Valentin F\u00f6ll",
+          "team": "away",
+          "team_abbrev": "JANO Filder 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 2,
+          "second": 27,
+          "scorer": "Moritz B\u00e4chle",
+          "team": "home",
+          "team_abbrev": "TV \u00dcberlingen",
+          "seven_meter": false
+        },
+        {
+          "minute": 3,
+          "second": 18,
+          "scorer": "Finn M\u00fclherr",
+          "team": "away",
+          "team_abbrev": "JANO Filder 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 3,
+          "second": 39,
+          "scorer": "Tim Lorenz",
+          "team": "home",
+          "team_abbrev": "TV \u00dcberlingen",
+          "seven_meter": false
+        },
+        {
+          "minute": 3,
+          "second": 51,
+          "scorer": "Oskar Saur",
+          "team": "away",
+          "team_abbrev": "JANO Filder 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 4,
+          "second": 23,
+          "scorer": "Moritz B\u00e4chle",
+          "team": "home",
+          "team_abbrev": "TV \u00dcberlingen",
+          "seven_meter": false
+        },
+        {
+          "minute": 7,
+          "second": 27,
+          "scorer": "Moritz B\u00e4chle",
+          "team": "home",
+          "team_abbrev": "TV \u00dcberlingen",
+          "seven_meter": true
+        },
+        {
+          "minute": 8,
+          "second": 15,
+          "scorer": "Moritz B\u00e4chle",
+          "team": "home",
+          "team_abbrev": "TV \u00dcberlingen",
+          "seven_meter": false
+        },
+        {
+          "minute": 9,
+          "second": 4,
+          "scorer": "Tim Lorenz",
+          "team": "home",
+          "team_abbrev": "TV \u00dcberlingen",
+          "seven_meter": false
+        },
+        {
+          "minute": 10,
+          "second": 9,
+          "scorer": "Leo Tamm",
+          "team": "home",
+          "team_abbrev": "TV \u00dcberlingen",
+          "seven_meter": false
+        },
+        {
+          "minute": 11,
+          "second": 44,
+          "scorer": "Tim Lorenz",
+          "team": "home",
+          "team_abbrev": "TV \u00dcberlingen",
+          "seven_meter": false
+        },
+        {
+          "minute": 13,
+          "second": 18,
+          "scorer": "Mark Dittus",
+          "team": "home",
+          "team_abbrev": "TV \u00dcberlingen",
+          "seven_meter": false
+        },
+        {
+          "minute": 13,
+          "second": 39,
+          "scorer": "Moritz Lexa",
+          "team": "away",
+          "team_abbrev": "JANO Filder 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 14,
+          "second": 34,
+          "scorer": "Mika Schwager",
+          "team": "away",
+          "team_abbrev": "JANO Filder 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 15,
+          "second": 6,
+          "scorer": "Tim Lorenz",
+          "team": "home",
+          "team_abbrev": "TV \u00dcberlingen",
+          "seven_meter": false
+        },
+        {
+          "minute": 15,
+          "second": 16,
+          "scorer": "Moritz Lexa",
+          "team": "away",
+          "team_abbrev": "JANO Filder 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 15,
+          "second": 41,
+          "scorer": "Moritz Lexa",
+          "team": "away",
+          "team_abbrev": "JANO Filder 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 15,
+          "second": 52,
+          "scorer": "Leo Tamm",
+          "team": "home",
+          "team_abbrev": "TV \u00dcberlingen",
+          "seven_meter": false
+        },
+        {
+          "minute": 16,
+          "second": 9,
+          "scorer": "Julian Mielich",
+          "team": "away",
+          "team_abbrev": "JANO Filder 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 16,
+          "second": 20,
+          "scorer": "Philip Dann",
+          "team": "home",
+          "team_abbrev": "TV \u00dcberlingen",
+          "seven_meter": false
+        },
+        {
+          "minute": 16,
+          "second": 44,
+          "scorer": "Moritz Lexa",
+          "team": "away",
+          "team_abbrev": "JANO Filder 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 17,
+          "second": 45,
+          "scorer": "Leo Tamm",
+          "team": "home",
+          "team_abbrev": "TV \u00dcberlingen",
+          "seven_meter": false
+        },
+        {
+          "minute": 18,
+          "second": 13,
+          "scorer": "Felix Heuser",
+          "team": "home",
+          "team_abbrev": "TV \u00dcberlingen",
+          "seven_meter": false
+        },
+        {
+          "minute": 18,
+          "second": 41,
+          "scorer": "Valentin F\u00f6ll",
+          "team": "away",
+          "team_abbrev": "JANO Filder 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 19,
+          "second": 22,
+          "scorer": "Philip Dann",
+          "team": "home",
+          "team_abbrev": "TV \u00dcberlingen",
+          "seven_meter": false
+        },
+        {
+          "minute": 20,
+          "second": 53,
+          "scorer": "Matti Kraaz",
+          "team": "away",
+          "team_abbrev": "JANO Filder 2",
+          "seven_meter": true
+        },
+        {
+          "minute": 21,
+          "second": 54,
+          "scorer": "Felix Heuser",
+          "team": "home",
+          "team_abbrev": "TV \u00dcberlingen",
+          "seven_meter": false
+        },
+        {
+          "minute": 22,
+          "second": 6,
+          "scorer": "Maximilian Thurm",
+          "team": "away",
+          "team_abbrev": "JANO Filder 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 22,
+          "second": 27,
+          "scorer": "Tim Lorenz",
+          "team": "home",
+          "team_abbrev": "TV \u00dcberlingen",
+          "seven_meter": false
+        },
+        {
+          "minute": 22,
+          "second": 41,
+          "scorer": "Matti Kraaz",
+          "team": "away",
+          "team_abbrev": "JANO Filder 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 22,
+          "second": 52,
+          "scorer": "Caspar Wiest",
+          "team": "home",
+          "team_abbrev": "TV \u00dcberlingen",
+          "seven_meter": false
+        },
+        {
+          "minute": 23,
+          "second": 13,
+          "scorer": "Moritz Lexa",
+          "team": "away",
+          "team_abbrev": "JANO Filder 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 23,
+          "second": 35,
+          "scorer": "Moritz B\u00e4chle",
+          "team": "home",
+          "team_abbrev": "TV \u00dcberlingen",
+          "seven_meter": false
+        },
+        {
+          "minute": 24,
+          "second": 28,
+          "scorer": "Moritz B\u00e4chle",
+          "team": "home",
+          "team_abbrev": "TV \u00dcberlingen",
+          "seven_meter": false
+        },
+        {
+          "minute": 24,
+          "second": 54,
+          "scorer": "Moritz Lexa",
+          "team": "away",
+          "team_abbrev": "JANO Filder 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 26,
+          "second": 0,
+          "scorer": "Leo Tamm",
+          "team": "home",
+          "team_abbrev": "TV \u00dcberlingen",
+          "seven_meter": false
+        },
+        {
+          "minute": 26,
+          "second": 53,
+          "scorer": "Matti Kraaz",
+          "team": "away",
+          "team_abbrev": "JANO Filder 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 27,
+          "second": 3,
+          "scorer": "Caspar Wiest",
+          "team": "home",
+          "team_abbrev": "TV \u00dcberlingen",
+          "seven_meter": false
+        },
+        {
+          "minute": 27,
+          "second": 31,
+          "scorer": "Valentin F\u00f6ll",
+          "team": "away",
+          "team_abbrev": "JANO Filder 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 27,
+          "second": 41,
+          "scorer": "Moritz Lexa",
+          "team": "away",
+          "team_abbrev": "JANO Filder 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 28,
+          "second": 46,
+          "scorer": "Moritz Lexa",
+          "team": "away",
+          "team_abbrev": "JANO Filder 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 28,
+          "second": 58,
+          "scorer": "Leo Tamm",
+          "team": "home",
+          "team_abbrev": "TV \u00dcberlingen",
+          "seven_meter": false
+        },
+        {
+          "minute": 29,
+          "second": 21,
+          "scorer": "Valentin F\u00f6ll",
+          "team": "away",
+          "team_abbrev": "JANO Filder 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 29,
+          "second": 41,
+          "scorer": "Caspar Wiest",
+          "team": "home",
+          "team_abbrev": "TV \u00dcberlingen",
+          "seven_meter": false
+        },
+        {
+          "minute": 30,
+          "second": 14,
+          "scorer": "Moritz Lexa",
+          "team": "away",
+          "team_abbrev": "JANO Filder 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 30,
+          "second": 42,
+          "scorer": "Leo Tamm",
+          "team": "home",
+          "team_abbrev": "TV \u00dcberlingen",
+          "seven_meter": false
+        },
+        {
+          "minute": 31,
+          "second": 34,
+          "scorer": "Leo Tamm",
+          "team": "home",
+          "team_abbrev": "TV \u00dcberlingen",
+          "seven_meter": false
+        },
+        {
+          "minute": 32,
+          "second": 12,
+          "scorer": "Moritz Lexa",
+          "team": "away",
+          "team_abbrev": "JANO Filder 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 33,
+          "second": 39,
+          "scorer": "Tim Lorenz",
+          "team": "home",
+          "team_abbrev": "TV \u00dcberlingen",
+          "seven_meter": false
+        },
+        {
+          "minute": 34,
+          "second": 14,
+          "scorer": "Moritz B\u00e4chle",
+          "team": "home",
+          "team_abbrev": "TV \u00dcberlingen",
+          "seven_meter": false
+        },
+        {
+          "minute": 35,
+          "second": 0,
+          "scorer": "Mika Schwager",
+          "team": "away",
+          "team_abbrev": "JANO Filder 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 35,
+          "second": 16,
+          "scorer": "Finn Helm",
+          "team": "home",
+          "team_abbrev": "TV \u00dcberlingen",
+          "seven_meter": false
+        },
+        {
+          "minute": 35,
+          "second": 57,
+          "scorer": "Mark Dittus",
+          "team": "home",
+          "team_abbrev": "TV \u00dcberlingen",
+          "seven_meter": false
+        },
+        {
+          "minute": 36,
+          "second": 18,
+          "scorer": "Gregor Sterr",
+          "team": "away",
+          "team_abbrev": "JANO Filder 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 36,
+          "second": 25,
+          "scorer": "Mark Dittus",
+          "team": "home",
+          "team_abbrev": "TV \u00dcberlingen",
+          "seven_meter": false
+        },
+        {
+          "minute": 37,
+          "second": 17,
+          "scorer": "Tim Lorenz",
+          "team": "home",
+          "team_abbrev": "TV \u00dcberlingen",
+          "seven_meter": false
+        },
+        {
+          "minute": 37,
+          "second": 57,
+          "scorer": "Mika Schwager",
+          "team": "away",
+          "team_abbrev": "JANO Filder 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 38,
+          "second": 32,
+          "scorer": "Leo Tamm",
+          "team": "home",
+          "team_abbrev": "TV \u00dcberlingen",
+          "seven_meter": false
+        },
+        {
+          "minute": 39,
+          "second": 22,
+          "scorer": "Moritz B\u00e4chle",
+          "team": "home",
+          "team_abbrev": "TV \u00dcberlingen",
+          "seven_meter": false
+        },
+        {
+          "minute": 39,
+          "second": 37,
+          "scorer": "Oskar Saur",
+          "team": "away",
+          "team_abbrev": "JANO Filder 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 39,
+          "second": 57,
+          "scorer": "Leo Tamm",
+          "team": "home",
+          "team_abbrev": "TV \u00dcberlingen",
+          "seven_meter": false
+        },
+        {
+          "minute": 40,
+          "second": 46,
+          "scorer": "Moritz B\u00e4chle",
+          "team": "home",
+          "team_abbrev": "TV \u00dcberlingen",
+          "seven_meter": false
+        },
+        {
+          "minute": 41,
+          "second": 42,
+          "scorer": "Finn Helm",
+          "team": "home",
+          "team_abbrev": "TV \u00dcberlingen",
+          "seven_meter": false
+        },
+        {
+          "minute": 41,
+          "second": 52,
+          "scorer": "Moritz Lexa",
+          "team": "away",
+          "team_abbrev": "JANO Filder 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 42,
+          "second": 21,
+          "scorer": "Leo Tamm",
+          "team": "home",
+          "team_abbrev": "TV \u00dcberlingen",
+          "seven_meter": false
+        },
+        {
+          "minute": 42,
+          "second": 28,
+          "scorer": "Moritz Lexa",
+          "team": "away",
+          "team_abbrev": "JANO Filder 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 42,
+          "second": 55,
+          "scorer": "Moritz Lexa",
+          "team": "away",
+          "team_abbrev": "JANO Filder 2",
+          "seven_meter": true
+        },
+        {
+          "minute": 43,
+          "second": 19,
+          "scorer": "Moritz B\u00e4chle",
+          "team": "home",
+          "team_abbrev": "TV \u00dcberlingen",
+          "seven_meter": false
+        },
+        {
+          "minute": 43,
+          "second": 31,
+          "scorer": "Moritz B\u00e4chle",
+          "team": "home",
+          "team_abbrev": "TV \u00dcberlingen",
+          "seven_meter": false
+        },
+        {
+          "minute": 44,
+          "second": 39,
+          "scorer": "Gregor Sterr",
+          "team": "away",
+          "team_abbrev": "JANO Filder 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 44,
+          "second": 52,
+          "scorer": "Leo Tamm",
+          "team": "home",
+          "team_abbrev": "TV \u00dcberlingen",
+          "seven_meter": false
+        },
+        {
+          "minute": 45,
+          "second": 43,
+          "scorer": "Gregor Sterr",
+          "team": "away",
+          "team_abbrev": "JANO Filder 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 45,
+          "second": 58,
+          "scorer": "Tim Lorenz",
+          "team": "home",
+          "team_abbrev": "TV \u00dcberlingen",
+          "seven_meter": false
+        },
+        {
+          "minute": 46,
+          "second": 17,
+          "scorer": "Matti Kraaz",
+          "team": "away",
+          "team_abbrev": "JANO Filder 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 46,
+          "second": 30,
+          "scorer": "Gregor Sterr",
+          "team": "away",
+          "team_abbrev": "JANO Filder 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 47,
+          "second": 3,
+          "scorer": "Gregor Sterr",
+          "team": "away",
+          "team_abbrev": "JANO Filder 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 47,
+          "second": 44,
+          "scorer": "Gregor Sterr",
+          "team": "away",
+          "team_abbrev": "JANO Filder 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 47,
+          "second": 54,
+          "scorer": "Mark Dittus",
+          "team": "home",
+          "team_abbrev": "TV \u00dcberlingen",
+          "seven_meter": false
+        },
+        {
+          "minute": 48,
+          "second": 4,
+          "scorer": "Gregor Sterr",
+          "team": "away",
+          "team_abbrev": "JANO Filder 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 48,
+          "second": 46,
+          "scorer": "Tim Lorenz",
+          "team": "home",
+          "team_abbrev": "TV \u00dcberlingen",
+          "seven_meter": false
+        },
+        {
+          "minute": 49,
+          "second": 37,
+          "scorer": "Matti Kraaz",
+          "team": "away",
+          "team_abbrev": "JANO Filder 2",
+          "seven_meter": true
+        },
+        {
+          "minute": 49,
+          "second": 45,
+          "scorer": "Leo Tamm",
+          "team": "home",
+          "team_abbrev": "TV \u00dcberlingen",
+          "seven_meter": false
+        },
+        {
+          "minute": 49,
+          "second": 51,
+          "scorer": "Gregor Sterr",
+          "team": "away",
+          "team_abbrev": "JANO Filder 2",
+          "seven_meter": false
+        }
+      ],
+      "final_score": "46:38",
+      "half_duration": 30,
+      "officials": {
+        "referees": [
+          "Markus Weisser"
+        ],
+        "timekeepers": [
+          "Martin Laksy"
+        ],
+        "secretaries": [
+          "Oliver Mielich"
+        ]
+      }
+    }
+  ]
+}

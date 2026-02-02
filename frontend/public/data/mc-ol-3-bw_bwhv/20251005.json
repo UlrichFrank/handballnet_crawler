@@ -1,0 +1,1554 @@
+{
+  "date": "20251005",
+  "games": [
+    {
+      "game_id": "handball4all.baden-wuerttemberg.8668886",
+      "order": 11,
+      "date": "So, 05.10.",
+      "home": {
+        "team_name": "SV Vaihingen",
+        "players": [
+          {
+            "name": "Leon Weber",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Simon Brenner",
+            "goals": 1,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Ben Heldrich",
+            "goals": 8,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Leo Plocher",
+            "goals": 3,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Benjamin Manhercz",
+            "goals": 4,
+            "two_min_penalties": 1,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Maximilian Schweiger",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Marius Welzel",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Paul Feinauer",
+            "goals": 7,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 1,
+            "seven_meters_goals": 1
+          },
+          {
+            "name": "Bruno G\u00f6gelein",
+            "goals": 11,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Frieder Bos",
+            "goals": 1,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Jakob Spitznagel",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Samuel Manhercz",
+            "goals": 1,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Jonas Simon Faigle",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Kristjan Dorn",
+            "goals": 2,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          }
+        ]
+      },
+      "away": {
+        "team_name": "HSG Sch\u00f6nbuch",
+        "players": [
+          {
+            "name": "Felix Oelert",
+            "goals": 2,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Simon Braun",
+            "goals": 7,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Ben Mombour",
+            "goals": 2,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Julian Calaminus",
+            "goals": 5,
+            "two_min_penalties": 0,
+            "yellow_cards": 1,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Neo Cartarius",
+            "goals": 5,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Leonard Petri",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Felix Klietz",
+            "goals": 2,
+            "two_min_penalties": 1,
+            "yellow_cards": 1,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Mattis Maurer",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Lennox Hagemann",
+            "goals": 11,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Nico Martinewsky",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Theo Casteas",
+            "goals": 3,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          }
+        ]
+      },
+      "goals_timeline": [
+        {
+          "minute": 0,
+          "second": 37,
+          "scorer": "Ben Heldrich",
+          "team": "home",
+          "team_abbrev": "SV Vaihingen",
+          "seven_meter": false
+        },
+        {
+          "minute": 1,
+          "second": 42,
+          "scorer": "Lennox Hagemann",
+          "team": "away",
+          "team_abbrev": "HSG Sch\u00f6nbuch",
+          "seven_meter": false
+        },
+        {
+          "minute": 2,
+          "second": 27,
+          "scorer": "Julian Calaminus",
+          "team": "away",
+          "team_abbrev": "HSG Sch\u00f6nbuch",
+          "seven_meter": false
+        },
+        {
+          "minute": 3,
+          "second": 54,
+          "scorer": "Simon Braun",
+          "team": "away",
+          "team_abbrev": "HSG Sch\u00f6nbuch",
+          "seven_meter": false
+        },
+        {
+          "minute": 4,
+          "second": 32,
+          "scorer": "Ben Heldrich",
+          "team": "home",
+          "team_abbrev": "SV Vaihingen",
+          "seven_meter": false
+        },
+        {
+          "minute": 4,
+          "second": 48,
+          "scorer": "Simon Braun",
+          "team": "away",
+          "team_abbrev": "HSG Sch\u00f6nbuch",
+          "seven_meter": false
+        },
+        {
+          "minute": 6,
+          "second": 11,
+          "scorer": "Ben Heldrich",
+          "team": "home",
+          "team_abbrev": "SV Vaihingen",
+          "seven_meter": false
+        },
+        {
+          "minute": 6,
+          "second": 53,
+          "scorer": "Lennox Hagemann",
+          "team": "away",
+          "team_abbrev": "HSG Sch\u00f6nbuch",
+          "seven_meter": false
+        },
+        {
+          "minute": 7,
+          "second": 4,
+          "scorer": "Bruno G\u00f6gelein",
+          "team": "home",
+          "team_abbrev": "SV Vaihingen",
+          "seven_meter": false
+        },
+        {
+          "minute": 7,
+          "second": 18,
+          "scorer": "Paul Feinauer",
+          "team": "home",
+          "team_abbrev": "SV Vaihingen",
+          "seven_meter": false
+        },
+        {
+          "minute": 7,
+          "second": 42,
+          "scorer": "Lennox Hagemann",
+          "team": "away",
+          "team_abbrev": "HSG Sch\u00f6nbuch",
+          "seven_meter": false
+        },
+        {
+          "minute": 8,
+          "second": 21,
+          "scorer": "Bruno G\u00f6gelein",
+          "team": "home",
+          "team_abbrev": "SV Vaihingen",
+          "seven_meter": false
+        },
+        {
+          "minute": 8,
+          "second": 45,
+          "scorer": "Lennox Hagemann",
+          "team": "away",
+          "team_abbrev": "HSG Sch\u00f6nbuch",
+          "seven_meter": false
+        },
+        {
+          "minute": 9,
+          "second": 55,
+          "scorer": "Ben Mombour",
+          "team": "away",
+          "team_abbrev": "HSG Sch\u00f6nbuch",
+          "seven_meter": false
+        },
+        {
+          "minute": 12,
+          "second": 7,
+          "scorer": "Lennox Hagemann",
+          "team": "away",
+          "team_abbrev": "HSG Sch\u00f6nbuch",
+          "seven_meter": false
+        },
+        {
+          "minute": 13,
+          "second": 4,
+          "scorer": "Simon Braun",
+          "team": "away",
+          "team_abbrev": "HSG Sch\u00f6nbuch",
+          "seven_meter": false
+        },
+        {
+          "minute": 14,
+          "second": 13,
+          "scorer": "Paul Feinauer",
+          "team": "home",
+          "team_abbrev": "SV Vaihingen",
+          "seven_meter": true
+        },
+        {
+          "minute": 14,
+          "second": 26,
+          "scorer": "Felix Klietz",
+          "team": "away",
+          "team_abbrev": "HSG Sch\u00f6nbuch",
+          "seven_meter": false
+        },
+        {
+          "minute": 15,
+          "second": 10,
+          "scorer": "Frieder Bos",
+          "team": "home",
+          "team_abbrev": "SV Vaihingen",
+          "seven_meter": false
+        },
+        {
+          "minute": 15,
+          "second": 49,
+          "scorer": "Felix Klietz",
+          "team": "away",
+          "team_abbrev": "HSG Sch\u00f6nbuch",
+          "seven_meter": false
+        },
+        {
+          "minute": 16,
+          "second": 41,
+          "scorer": "Paul Feinauer",
+          "team": "home",
+          "team_abbrev": "SV Vaihingen",
+          "seven_meter": false
+        },
+        {
+          "minute": 17,
+          "second": 4,
+          "scorer": "Ben Heldrich",
+          "team": "home",
+          "team_abbrev": "SV Vaihingen",
+          "seven_meter": false
+        },
+        {
+          "minute": 18,
+          "second": 18,
+          "scorer": "Benjamin Manhercz",
+          "team": "home",
+          "team_abbrev": "SV Vaihingen",
+          "seven_meter": false
+        },
+        {
+          "minute": 19,
+          "second": 39,
+          "scorer": "Benjamin Manhercz",
+          "team": "home",
+          "team_abbrev": "SV Vaihingen",
+          "seven_meter": false
+        },
+        {
+          "minute": 19,
+          "second": 52,
+          "scorer": "Julian Calaminus",
+          "team": "away",
+          "team_abbrev": "HSG Sch\u00f6nbuch",
+          "seven_meter": false
+        },
+        {
+          "minute": 20,
+          "second": 20,
+          "scorer": "Ben Heldrich",
+          "team": "home",
+          "team_abbrev": "SV Vaihingen",
+          "seven_meter": false
+        },
+        {
+          "minute": 20,
+          "second": 36,
+          "scorer": "Lennox Hagemann",
+          "team": "away",
+          "team_abbrev": "HSG Sch\u00f6nbuch",
+          "seven_meter": false
+        },
+        {
+          "minute": 21,
+          "second": 43,
+          "scorer": "Simon Brenner",
+          "team": "home",
+          "team_abbrev": "SV Vaihingen",
+          "seven_meter": false
+        },
+        {
+          "minute": 21,
+          "second": 57,
+          "scorer": "Theo Casteas",
+          "team": "away",
+          "team_abbrev": "HSG Sch\u00f6nbuch",
+          "seven_meter": false
+        },
+        {
+          "minute": 22,
+          "second": 47,
+          "scorer": "Paul Feinauer",
+          "team": "home",
+          "team_abbrev": "SV Vaihingen",
+          "seven_meter": false
+        },
+        {
+          "minute": 22,
+          "second": 47,
+          "scorer": "Theo Casteas",
+          "team": "away",
+          "team_abbrev": "HSG Sch\u00f6nbuch",
+          "seven_meter": false
+        },
+        {
+          "minute": 24,
+          "second": 19,
+          "scorer": "Julian Calaminus",
+          "team": "away",
+          "team_abbrev": "HSG Sch\u00f6nbuch",
+          "seven_meter": false
+        },
+        {
+          "minute": 25,
+          "second": 13,
+          "scorer": "Neo Cartarius",
+          "team": "away",
+          "team_abbrev": "HSG Sch\u00f6nbuch",
+          "seven_meter": false
+        },
+        {
+          "minute": 25,
+          "second": 52,
+          "scorer": "Leo Plocher",
+          "team": "home",
+          "team_abbrev": "SV Vaihingen",
+          "seven_meter": false
+        },
+        {
+          "minute": 26,
+          "second": 0,
+          "scorer": "Neo Cartarius",
+          "team": "away",
+          "team_abbrev": "HSG Sch\u00f6nbuch",
+          "seven_meter": false
+        },
+        {
+          "minute": 26,
+          "second": 16,
+          "scorer": "Samuel Manhercz",
+          "team": "home",
+          "team_abbrev": "SV Vaihingen",
+          "seven_meter": false
+        },
+        {
+          "minute": 26,
+          "second": 44,
+          "scorer": "Lennox Hagemann",
+          "team": "away",
+          "team_abbrev": "HSG Sch\u00f6nbuch",
+          "seven_meter": false
+        },
+        {
+          "minute": 27,
+          "second": 4,
+          "scorer": "Bruno G\u00f6gelein",
+          "team": "home",
+          "team_abbrev": "SV Vaihingen",
+          "seven_meter": false
+        },
+        {
+          "minute": 27,
+          "second": 18,
+          "scorer": "Simon Braun",
+          "team": "away",
+          "team_abbrev": "HSG Sch\u00f6nbuch",
+          "seven_meter": false
+        },
+        {
+          "minute": 27,
+          "second": 34,
+          "scorer": "Kristjan Dorn",
+          "team": "home",
+          "team_abbrev": "SV Vaihingen",
+          "seven_meter": false
+        },
+        {
+          "minute": 27,
+          "second": 41,
+          "scorer": "Lennox Hagemann",
+          "team": "away",
+          "team_abbrev": "HSG Sch\u00f6nbuch",
+          "seven_meter": false
+        },
+        {
+          "minute": 28,
+          "second": 13,
+          "scorer": "Bruno G\u00f6gelein",
+          "team": "home",
+          "team_abbrev": "SV Vaihingen",
+          "seven_meter": false
+        },
+        {
+          "minute": 28,
+          "second": 26,
+          "scorer": "Simon Braun",
+          "team": "away",
+          "team_abbrev": "HSG Sch\u00f6nbuch",
+          "seven_meter": false
+        },
+        {
+          "minute": 29,
+          "second": 13,
+          "scorer": "Simon Braun",
+          "team": "away",
+          "team_abbrev": "HSG Sch\u00f6nbuch",
+          "seven_meter": false
+        },
+        {
+          "minute": 29,
+          "second": 34,
+          "scorer": "Paul Feinauer",
+          "team": "home",
+          "team_abbrev": "SV Vaihingen",
+          "seven_meter": false
+        },
+        {
+          "minute": 29,
+          "second": 53,
+          "scorer": "Julian Calaminus",
+          "team": "away",
+          "team_abbrev": "HSG Sch\u00f6nbuch",
+          "seven_meter": false
+        },
+        {
+          "minute": 30,
+          "second": 31,
+          "scorer": "Neo Cartarius",
+          "team": "away",
+          "team_abbrev": "HSG Sch\u00f6nbuch",
+          "seven_meter": false
+        },
+        {
+          "minute": 30,
+          "second": 46,
+          "scorer": "Bruno G\u00f6gelein",
+          "team": "home",
+          "team_abbrev": "SV Vaihingen",
+          "seven_meter": false
+        },
+        {
+          "minute": 31,
+          "second": 19,
+          "scorer": "Lennox Hagemann",
+          "team": "away",
+          "team_abbrev": "HSG Sch\u00f6nbuch",
+          "seven_meter": false
+        },
+        {
+          "minute": 32,
+          "second": 24,
+          "scorer": "Kristjan Dorn",
+          "team": "home",
+          "team_abbrev": "SV Vaihingen",
+          "seven_meter": false
+        },
+        {
+          "minute": 33,
+          "second": 5,
+          "scorer": "Felix Oelert",
+          "team": "away",
+          "team_abbrev": "HSG Sch\u00f6nbuch",
+          "seven_meter": false
+        },
+        {
+          "minute": 33,
+          "second": 34,
+          "scorer": "Bruno G\u00f6gelein",
+          "team": "home",
+          "team_abbrev": "SV Vaihingen",
+          "seven_meter": false
+        },
+        {
+          "minute": 34,
+          "second": 3,
+          "scorer": "Leo Plocher",
+          "team": "home",
+          "team_abbrev": "SV Vaihingen",
+          "seven_meter": false
+        },
+        {
+          "minute": 34,
+          "second": 22,
+          "scorer": "Neo Cartarius",
+          "team": "away",
+          "team_abbrev": "HSG Sch\u00f6nbuch",
+          "seven_meter": false
+        },
+        {
+          "minute": 34,
+          "second": 40,
+          "scorer": "Julian Calaminus",
+          "team": "away",
+          "team_abbrev": "HSG Sch\u00f6nbuch",
+          "seven_meter": false
+        },
+        {
+          "minute": 34,
+          "second": 57,
+          "scorer": "Leo Plocher",
+          "team": "home",
+          "team_abbrev": "SV Vaihingen",
+          "seven_meter": false
+        },
+        {
+          "minute": 35,
+          "second": 56,
+          "scorer": "Benjamin Manhercz",
+          "team": "home",
+          "team_abbrev": "SV Vaihingen",
+          "seven_meter": false
+        },
+        {
+          "minute": 36,
+          "second": 30,
+          "scorer": "Ben Mombour",
+          "team": "away",
+          "team_abbrev": "HSG Sch\u00f6nbuch",
+          "seven_meter": false
+        },
+        {
+          "minute": 37,
+          "second": 37,
+          "scorer": "Ben Heldrich",
+          "team": "home",
+          "team_abbrev": "SV Vaihingen",
+          "seven_meter": false
+        },
+        {
+          "minute": 38,
+          "second": 4,
+          "scorer": "Neo Cartarius",
+          "team": "away",
+          "team_abbrev": "HSG Sch\u00f6nbuch",
+          "seven_meter": false
+        },
+        {
+          "minute": 38,
+          "second": 9,
+          "scorer": "Paul Feinauer",
+          "team": "home",
+          "team_abbrev": "SV Vaihingen",
+          "seven_meter": false
+        },
+        {
+          "minute": 41,
+          "second": 27,
+          "scorer": "Paul Feinauer",
+          "team": "home",
+          "team_abbrev": "SV Vaihingen",
+          "seven_meter": false
+        },
+        {
+          "minute": 42,
+          "second": 1,
+          "scorer": "Bruno G\u00f6gelein",
+          "team": "home",
+          "team_abbrev": "SV Vaihingen",
+          "seven_meter": false
+        },
+        {
+          "minute": 42,
+          "second": 53,
+          "scorer": "Bruno G\u00f6gelein",
+          "team": "home",
+          "team_abbrev": "SV Vaihingen",
+          "seven_meter": false
+        },
+        {
+          "minute": 43,
+          "second": 14,
+          "scorer": "Theo Casteas",
+          "team": "away",
+          "team_abbrev": "HSG Sch\u00f6nbuch",
+          "seven_meter": false
+        },
+        {
+          "minute": 43,
+          "second": 24,
+          "scorer": "Ben Heldrich",
+          "team": "home",
+          "team_abbrev": "SV Vaihingen",
+          "seven_meter": false
+        },
+        {
+          "minute": 44,
+          "second": 16,
+          "scorer": "Lennox Hagemann",
+          "team": "away",
+          "team_abbrev": "HSG Sch\u00f6nbuch",
+          "seven_meter": false
+        },
+        {
+          "minute": 44,
+          "second": 52,
+          "scorer": "Lennox Hagemann",
+          "team": "away",
+          "team_abbrev": "HSG Sch\u00f6nbuch",
+          "seven_meter": false
+        },
+        {
+          "minute": 45,
+          "second": 5,
+          "scorer": "Bruno G\u00f6gelein",
+          "team": "home",
+          "team_abbrev": "SV Vaihingen",
+          "seven_meter": false
+        },
+        {
+          "minute": 45,
+          "second": 48,
+          "scorer": "Bruno G\u00f6gelein",
+          "team": "home",
+          "team_abbrev": "SV Vaihingen",
+          "seven_meter": false
+        },
+        {
+          "minute": 46,
+          "second": 10,
+          "scorer": "Simon Braun",
+          "team": "away",
+          "team_abbrev": "HSG Sch\u00f6nbuch",
+          "seven_meter": false
+        },
+        {
+          "minute": 47,
+          "second": 29,
+          "scorer": "Bruno G\u00f6gelein",
+          "team": "home",
+          "team_abbrev": "SV Vaihingen",
+          "seven_meter": false
+        },
+        {
+          "minute": 48,
+          "second": 23,
+          "scorer": "Felix Oelert",
+          "team": "away",
+          "team_abbrev": "HSG Sch\u00f6nbuch",
+          "seven_meter": false
+        },
+        {
+          "minute": 48,
+          "second": 59,
+          "scorer": "Benjamin Manhercz",
+          "team": "home",
+          "team_abbrev": "SV Vaihingen",
+          "seven_meter": false
+        },
+        {
+          "minute": 50,
+          "second": 0,
+          "scorer": "Ben Heldrich",
+          "team": "home",
+          "team_abbrev": "SV Vaihingen",
+          "seven_meter": false
+        }
+      ],
+      "final_score": "38:37",
+      "half_duration": 30,
+      "officials": {
+        "referees": [
+          "Tobias K\u00f6nig",
+          "Ary Mahmud"
+        ],
+        "timekeepers": [
+          "Thomas M\u00fcller"
+        ],
+        "secretaries": [
+          "J\u00fcrgen W\u00fcscht"
+        ]
+      }
+    },
+    {
+      "game_id": "handball4all.baden-wuerttemberg.8668876",
+      "order": 12,
+      "date": "So, 05.10.",
+      "home": {
+        "team_name": "DJK Singen",
+        "players": [
+          {
+            "name": "Maximilian Wei\u00df",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Hendrik Messer",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 1,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Lukas Scharmann",
+            "goals": 2,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Joshua K\u00f6rting",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Luca Mor\u00e9",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Alan Klimisch",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Julian Wei\u00df",
+            "goals": 1,
+            "two_min_penalties": 1,
+            "yellow_cards": 1,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Daniel Losizki",
+            "goals": 12,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 7,
+            "seven_meters_goals": 5
+          },
+          {
+            "name": "Liam Kuchta",
+            "goals": 7,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 1,
+            "seven_meters_goals": 1
+          },
+          {
+            "name": "Elija Kusche",
+            "goals": 2,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Darian Davazdah Emami",
+            "goals": 1,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          }
+        ]
+      },
+      "away": {
+        "team_name": "HSG B\u00f6blingen/Sindelfingen",
+        "players": [
+          {
+            "name": "Deaon Ed Dennis La Fata",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Lenny Lux",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Patrick Rechberger",
+            "goals": 9,
+            "two_min_penalties": 0,
+            "yellow_cards": 1,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Anton Schenk",
+            "goals": 1,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Elias M\u00fcnch",
+            "goals": 3,
+            "two_min_penalties": 1,
+            "yellow_cards": 1,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Louis K\u00f6ly",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Fred Sch\u00e4fer",
+            "goals": 11,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 8,
+            "seven_meters_goals": 7
+          },
+          {
+            "name": "Marlon Thumm",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Luca Petersen",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Mika M\u00fcller",
+            "goals": 1,
+            "two_min_penalties": 1,
+            "yellow_cards": 1,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Ben Soltans",
+            "goals": 1,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Jano Ten Brink",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          }
+        ]
+      },
+      "goals_timeline": [
+        {
+          "minute": 1,
+          "second": 15,
+          "scorer": "Fred Sch\u00e4fer",
+          "team": "home",
+          "team_abbrev": "HSG BB/Sifi",
+          "seven_meter": true
+        },
+        {
+          "minute": 3,
+          "second": 43,
+          "scorer": "Lukas Scharmann",
+          "team": "away",
+          "team_abbrev": "DJK Singen",
+          "seven_meter": false
+        },
+        {
+          "minute": 6,
+          "second": 23,
+          "scorer": "Fred Sch\u00e4fer",
+          "team": "home",
+          "team_abbrev": "HSG BB/Sifi",
+          "seven_meter": true
+        },
+        {
+          "minute": 7,
+          "second": 22,
+          "scorer": "Julian Wei\u00df",
+          "team": "away",
+          "team_abbrev": "DJK Singen",
+          "seven_meter": false
+        },
+        {
+          "minute": 7,
+          "second": 54,
+          "scorer": "Fred Sch\u00e4fer",
+          "team": "home",
+          "team_abbrev": "HSG BB/Sifi",
+          "seven_meter": false
+        },
+        {
+          "minute": 8,
+          "second": 23,
+          "scorer": "Daniel Losizki",
+          "team": "away",
+          "team_abbrev": "DJK Singen",
+          "seven_meter": true
+        },
+        {
+          "minute": 9,
+          "second": 17,
+          "scorer": "Liam Kuchta",
+          "team": "away",
+          "team_abbrev": "DJK Singen",
+          "seven_meter": false
+        },
+        {
+          "minute": 9,
+          "second": 51,
+          "scorer": "Mika M\u00fcller",
+          "team": "home",
+          "team_abbrev": "HSG BB/Sifi",
+          "seven_meter": false
+        },
+        {
+          "minute": 10,
+          "second": 3,
+          "scorer": "Liam Kuchta",
+          "team": "away",
+          "team_abbrev": "DJK Singen",
+          "seven_meter": false
+        },
+        {
+          "minute": 10,
+          "second": 22,
+          "scorer": "Patrick Rechberger",
+          "team": "home",
+          "team_abbrev": "HSG BB/Sifi",
+          "seven_meter": false
+        },
+        {
+          "minute": 11,
+          "second": 9,
+          "scorer": "Liam Kuchta",
+          "team": "away",
+          "team_abbrev": "DJK Singen",
+          "seven_meter": false
+        },
+        {
+          "minute": 11,
+          "second": 36,
+          "scorer": "Liam Kuchta",
+          "team": "away",
+          "team_abbrev": "DJK Singen",
+          "seven_meter": false
+        },
+        {
+          "minute": 13,
+          "second": 26,
+          "scorer": "Fred Sch\u00e4fer",
+          "team": "home",
+          "team_abbrev": "HSG BB/Sifi",
+          "seven_meter": false
+        },
+        {
+          "minute": 13,
+          "second": 40,
+          "scorer": "Daniel Losizki",
+          "team": "away",
+          "team_abbrev": "DJK Singen",
+          "seven_meter": false
+        },
+        {
+          "minute": 14,
+          "second": 3,
+          "scorer": "Elias M\u00fcnch",
+          "team": "home",
+          "team_abbrev": "HSG BB/Sifi",
+          "seven_meter": false
+        },
+        {
+          "minute": 14,
+          "second": 28,
+          "scorer": "Daniel Losizki",
+          "team": "away",
+          "team_abbrev": "DJK Singen",
+          "seven_meter": false
+        },
+        {
+          "minute": 14,
+          "second": 48,
+          "scorer": "Elias M\u00fcnch",
+          "team": "home",
+          "team_abbrev": "HSG BB/Sifi",
+          "seven_meter": false
+        },
+        {
+          "minute": 16,
+          "second": 26,
+          "scorer": "Daniel Losizki",
+          "team": "away",
+          "team_abbrev": "DJK Singen",
+          "seven_meter": false
+        },
+        {
+          "minute": 16,
+          "second": 39,
+          "scorer": "Elias M\u00fcnch",
+          "team": "home",
+          "team_abbrev": "HSG BB/Sifi",
+          "seven_meter": false
+        },
+        {
+          "minute": 17,
+          "second": 0,
+          "scorer": "Darian Davazdah Emami",
+          "team": "away",
+          "team_abbrev": "DJK Singen",
+          "seven_meter": false
+        },
+        {
+          "minute": 17,
+          "second": 7,
+          "scorer": "Fred Sch\u00e4fer",
+          "team": "home",
+          "team_abbrev": "HSG BB/Sifi",
+          "seven_meter": false
+        },
+        {
+          "minute": 17,
+          "second": 33,
+          "scorer": "Daniel Losizki",
+          "team": "away",
+          "team_abbrev": "DJK Singen",
+          "seven_meter": true
+        },
+        {
+          "minute": 18,
+          "second": 10,
+          "scorer": "Patrick Rechberger",
+          "team": "home",
+          "team_abbrev": "HSG BB/Sifi",
+          "seven_meter": false
+        },
+        {
+          "minute": 18,
+          "second": 34,
+          "scorer": "Lukas Scharmann",
+          "team": "away",
+          "team_abbrev": "DJK Singen",
+          "seven_meter": false
+        },
+        {
+          "minute": 18,
+          "second": 54,
+          "scorer": "Fred Sch\u00e4fer",
+          "team": "home",
+          "team_abbrev": "HSG BB/Sifi",
+          "seven_meter": true
+        },
+        {
+          "minute": 19,
+          "second": 30,
+          "scorer": "Liam Kuchta",
+          "team": "away",
+          "team_abbrev": "DJK Singen",
+          "seven_meter": false
+        },
+        {
+          "minute": 19,
+          "second": 49,
+          "scorer": "Fred Sch\u00e4fer",
+          "team": "home",
+          "team_abbrev": "HSG BB/Sifi",
+          "seven_meter": false
+        },
+        {
+          "minute": 20,
+          "second": 57,
+          "scorer": "Daniel Losizki",
+          "team": "away",
+          "team_abbrev": "DJK Singen",
+          "seven_meter": true
+        },
+        {
+          "minute": 21,
+          "second": 18,
+          "scorer": "Daniel Losizki",
+          "team": "away",
+          "team_abbrev": "DJK Singen",
+          "seven_meter": false
+        },
+        {
+          "minute": 21,
+          "second": 54,
+          "scorer": "Patrick Rechberger",
+          "team": "home",
+          "team_abbrev": "HSG BB/Sifi",
+          "seven_meter": false
+        },
+        {
+          "minute": 22,
+          "second": 53,
+          "scorer": "Fred Sch\u00e4fer",
+          "team": "home",
+          "team_abbrev": "HSG BB/Sifi",
+          "seven_meter": true
+        },
+        {
+          "minute": 23,
+          "second": 39,
+          "scorer": "Anton Schenk",
+          "team": "home",
+          "team_abbrev": "HSG BB/Sifi",
+          "seven_meter": false
+        },
+        {
+          "minute": 24,
+          "second": 45,
+          "scorer": "Patrick Rechberger",
+          "team": "home",
+          "team_abbrev": "HSG BB/Sifi",
+          "seven_meter": false
+        },
+        {
+          "minute": 26,
+          "second": 31,
+          "scorer": "Daniel Losizki",
+          "team": "away",
+          "team_abbrev": "DJK Singen",
+          "seven_meter": false
+        },
+        {
+          "minute": 26,
+          "second": 59,
+          "scorer": "Elija Kusche",
+          "team": "away",
+          "team_abbrev": "DJK Singen",
+          "seven_meter": false
+        },
+        {
+          "minute": 29,
+          "second": 46,
+          "scorer": "Daniel Losizki",
+          "team": "away",
+          "team_abbrev": "DJK Singen",
+          "seven_meter": false
+        },
+        {
+          "minute": 30,
+          "second": 4,
+          "scorer": "Ben Soltans",
+          "team": "home",
+          "team_abbrev": "HSG BB/Sifi",
+          "seven_meter": false
+        },
+        {
+          "minute": 31,
+          "second": 15,
+          "scorer": "Patrick Rechberger",
+          "team": "home",
+          "team_abbrev": "HSG BB/Sifi",
+          "seven_meter": false
+        },
+        {
+          "minute": 32,
+          "second": 3,
+          "scorer": "Liam Kuchta",
+          "team": "away",
+          "team_abbrev": "DJK Singen",
+          "seven_meter": false
+        },
+        {
+          "minute": 32,
+          "second": 56,
+          "scorer": "Fred Sch\u00e4fer",
+          "team": "home",
+          "team_abbrev": "HSG BB/Sifi",
+          "seven_meter": true
+        },
+        {
+          "minute": 33,
+          "second": 51,
+          "scorer": "Daniel Losizki",
+          "team": "away",
+          "team_abbrev": "DJK Singen",
+          "seven_meter": true
+        },
+        {
+          "minute": 34,
+          "second": 46,
+          "scorer": "Daniel Losizki",
+          "team": "away",
+          "team_abbrev": "DJK Singen",
+          "seven_meter": false
+        },
+        {
+          "minute": 35,
+          "second": 19,
+          "scorer": "Patrick Rechberger",
+          "team": "home",
+          "team_abbrev": "HSG BB/Sifi",
+          "seven_meter": false
+        },
+        {
+          "minute": 37,
+          "second": 49,
+          "scorer": "Liam Kuchta",
+          "team": "away",
+          "team_abbrev": "DJK Singen",
+          "seven_meter": true
+        },
+        {
+          "minute": 37,
+          "second": 59,
+          "scorer": "Patrick Rechberger",
+          "team": "home",
+          "team_abbrev": "HSG BB/Sifi",
+          "seven_meter": false
+        },
+        {
+          "minute": 38,
+          "second": 45,
+          "scorer": "Elija Kusche",
+          "team": "away",
+          "team_abbrev": "DJK Singen",
+          "seven_meter": false
+        },
+        {
+          "minute": 39,
+          "second": 18,
+          "scorer": "Fred Sch\u00e4fer",
+          "team": "home",
+          "team_abbrev": "HSG BB/Sifi",
+          "seven_meter": true
+        },
+        {
+          "minute": 39,
+          "second": 44,
+          "scorer": "Patrick Rechberger",
+          "team": "home",
+          "team_abbrev": "HSG BB/Sifi",
+          "seven_meter": false
+        },
+        {
+          "minute": 41,
+          "second": 36,
+          "scorer": "Patrick Rechberger",
+          "team": "home",
+          "team_abbrev": "HSG BB/Sifi",
+          "seven_meter": false
+        },
+        {
+          "minute": 43,
+          "second": 12,
+          "scorer": "Daniel Losizki",
+          "team": "away",
+          "team_abbrev": "DJK Singen",
+          "seven_meter": true
+        },
+        {
+          "minute": 49,
+          "second": 40,
+          "scorer": "Fred Sch\u00e4fer",
+          "team": "home",
+          "team_abbrev": "HSG BB/Sifi",
+          "seven_meter": true
+        }
+      ],
+      "final_score": "26:25",
+      "half_duration": 30,
+      "officials": {
+        "referees": [
+          "Daniel Sch\u00e4fer"
+        ],
+        "timekeepers": [
+          "Thorsten Kusche"
+        ],
+        "secretaries": [
+          "Stefanie Petersen"
+        ]
+      }
+    }
+  ]
+}

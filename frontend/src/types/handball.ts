@@ -16,12 +16,22 @@ export interface TeamData {
   players: PlayerStats[];
 }
 
+export interface GoalEvent {
+  minute: number;
+  second: number;
+  scorer: string;
+  team: 'home' | 'away';
+  seven_meter?: boolean;
+}
+
 export interface Game {
   game_id: string;
   order: number;
   date: string;
   home: TeamData;
   away: TeamData;
+  final_score?: string;
+  goals_timeline?: GoalEvent[];
   graphic_path?: string;
 }
 

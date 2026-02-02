@@ -91,14 +91,14 @@ print(f"Verarbeite {len(leagues_to_process)} Liga(n)")
 print(f"Date Range: {DATE_FROM} to {DATE_TO}")
 print()
 
-def fuzzy_match_team_name(target, candidates, threshold=0.85):
+def fuzzy_match_team_name(target, candidates, threshold=0.80):
     """
-    Fuzzy match team name allowing for minor typos (1 character difference)
+    Fuzzy match team name allowing for minor typos (up to 2 character differences)
     
     Args:
         target: Team name to match
         candidates: List of candidate team names
-        threshold: Similarity threshold (0.85 = allows ~1 char difference)
+        threshold: Similarity threshold (0.80 = allows ~2 char difference)
     
     Returns:
         (matched_name, similarity_score) or (None, 0)

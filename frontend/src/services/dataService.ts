@@ -348,19 +348,22 @@ class DataService {
       goals: number;
       sevenMetersGoals: number;
       sevenMetersAttempts: number;
+      team: string;
     }>();
 
     gameData.games.forEach(game => {
       // Home team players
       game.home.players.forEach(player => {
-        if (!playerStats.has(player.name)) {
-          playerStats.set(player.name, {
+        const key = `${player.name}|${game.home.team_name}`;
+        if (!playerStats.has(key)) {
+          playerStats.set(key, {
             goals: 0,
             sevenMetersGoals: 0,
             sevenMetersAttempts: 0,
+            team: game.home.team_name,
           });
         }
-        const stats = playerStats.get(player.name)!;
+        const stats = playerStats.get(key)!;
         stats.goals += player.goals;
         stats.sevenMetersGoals += player.seven_meters_goals;
         stats.sevenMetersAttempts += player.seven_meters;
@@ -368,14 +371,16 @@ class DataService {
 
       // Away team players
       game.away.players.forEach(player => {
-        if (!playerStats.has(player.name)) {
-          playerStats.set(player.name, {
+        const key = `${player.name}|${game.away.team_name}`;
+        if (!playerStats.has(key)) {
+          playerStats.set(key, {
             goals: 0,
             sevenMetersGoals: 0,
             sevenMetersAttempts: 0,
+            team: game.away.team_name,
           });
         }
-        const stats = playerStats.get(player.name)!;
+        const stats = playerStats.get(key)!;
         stats.goals += player.goals;
         stats.sevenMetersGoals += player.seven_meters_goals;
         stats.sevenMetersAttempts += player.seven_meters;
@@ -384,15 +389,19 @@ class DataService {
 
     // Convert to sorted array
     return Array.from(playerStats.entries())
-      .map(([name, stats]) => ({
-        name,
-        goals: stats.goals,
-        sevenMetersGoals: stats.sevenMetersGoals,
-        sevenMetersAttempts: stats.sevenMetersAttempts,
-        sevenMeterPercent: stats.sevenMetersAttempts > 0
-          ? Math.round((stats.sevenMetersGoals / stats.sevenMetersAttempts) * 100)
-          : 0,
-      }))
+      .map(([key, stats]) => {
+        const name = key.split('|')[0];
+        return {
+          name,
+          team: stats.team,
+          goals: stats.goals,
+          sevenMetersGoals: stats.sevenMetersGoals,
+          sevenMetersAttempts: stats.sevenMetersAttempts,
+          sevenMeterPercent: stats.sevenMetersAttempts > 0
+            ? Math.round((stats.sevenMetersGoals / stats.sevenMetersAttempts) * 100)
+            : 0,
+        };
+      })
       .sort((a, b) => b.goals - a.goals);
   }
 

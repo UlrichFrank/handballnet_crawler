@@ -4,6 +4,7 @@ import { LeagueConfig } from '../../types/handball';
 
 interface PlayerStatistics {
   name: string;
+  team: string;
   goals: number;
   sevenMetersGoals: number;
   sevenMetersAttempts: number;
@@ -55,6 +56,7 @@ export function PlayerStatisticsTable({ league }: PlayerStatisticsTableProps) {
             <tr className="bg-blue-900 dark:bg-blue-600 text-white">
               <th className="px-4 py-3 text-left font-bold">Rang</th>
               <th className="px-4 py-3 text-left font-bold">Name</th>
+              <th className="px-4 py-3 text-left font-bold">Verein</th>
               <th className="px-4 py-3 text-center font-bold">Tore</th>
               <th className="px-4 py-3 text-center font-bold">7m Tore</th>
               <th className="px-4 py-3 text-center font-bold">7m Versuche</th>
@@ -64,11 +66,12 @@ export function PlayerStatisticsTable({ league }: PlayerStatisticsTableProps) {
           <tbody>
             {players.map((player, idx) => (
               <tr
-                key={player.name}
+                key={`${player.name}-${player.team}`}
                 className={idx % 2 === 0 ? 'bg-white dark:bg-slate-900' : 'bg-gray-50 dark:bg-slate-800'}
               >
                 <td className="px-4 py-3 font-bold text-blue-900 dark:text-blue-400">{idx + 1}</td>
                 <td className="px-4 py-3 font-semibold text-gray-900 dark:text-gray-100">{player.name}</td>
+                <td className="px-4 py-3 text-gray-900 dark:text-gray-100 text-sm">{player.team}</td>
                 <td className="px-4 py-3 text-center text-gray-900 dark:text-gray-100 font-bold">{player.goals}</td>
                 <td className="px-4 py-3 text-center text-gray-900 dark:text-gray-100">{player.sevenMetersGoals}</td>
                 <td className="px-4 py-3 text-center text-gray-900 dark:text-gray-100">{player.sevenMetersAttempts}</td>

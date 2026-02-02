@@ -4,6 +4,7 @@ import { LeagueConfig } from '../../types/handball';
 
 interface SevenMeterStats {
   name: string;
+  team: string;
   sevenMetersGoals: number;
   sevenMetersAttempts: number;
   sevenMeterPercent: number;
@@ -55,6 +56,7 @@ export function SevenMeterShooterTable({ league }: SevenMeterShooterTableProps) 
             <tr className="bg-blue-900 dark:bg-blue-600 text-white">
               <th className="px-4 py-3 text-left font-bold">Rang</th>
               <th className="px-4 py-3 text-left font-bold">Name</th>
+              <th className="px-4 py-3 text-left font-bold">Verein</th>
               <th className="px-4 py-3 text-center font-bold">7m Tore</th>
               <th className="px-4 py-3 text-center font-bold">7m Versuche</th>
               <th className="px-4 py-3 text-center font-bold">7m Fehler</th>
@@ -64,11 +66,12 @@ export function SevenMeterShooterTable({ league }: SevenMeterShooterTableProps) 
           <tbody>
             {shooters.map((shooter, idx) => (
               <tr
-                key={shooter.name}
+                key={`${shooter.name}-${shooter.team}`}
                 className={idx % 2 === 0 ? 'bg-white dark:bg-slate-900' : 'bg-gray-50 dark:bg-slate-800'}
               >
                 <td className="px-4 py-3 font-bold text-blue-900 dark:text-blue-400">{idx + 1}</td>
                 <td className="px-4 py-3 font-semibold text-gray-900 dark:text-gray-100">{shooter.name}</td>
+                <td className="px-4 py-3 text-gray-900 dark:text-gray-100 text-sm">{shooter.team}</td>
                 <td className="px-4 py-3 text-center text-gray-900 dark:text-gray-100 font-bold">{shooter.sevenMetersGoals}</td>
                 <td className="px-4 py-3 text-center text-gray-900 dark:text-gray-100">{shooter.sevenMetersAttempts}</td>
                 <td className="px-4 py-3 text-center text-red-600 dark:text-red-400 font-semibold">{shooter.sevenMeterMissed}</td>

@@ -33,6 +33,7 @@ export interface LeagueConfig {
   name: string;
   display_name: string;
   out_name: string;
+  data_folder: string;
   half_duration: number;
   age_group: string;
 }

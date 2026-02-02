@@ -29,7 +29,7 @@ export function StandingsTable({ league }: StandingsTableProps) {
     const loadStandings = async () => {
       try {
         setLoading(true);
-        const gameData = await dataService.getGameData(league.out_name);
+        const gameData = await dataService.getAggregatedGameData(league.out_name);
         const teams = await dataService.getTeamsForLeague(league.out_name);
 
         const standingsData: TeamStanding[] = teams.map((teamName) => {

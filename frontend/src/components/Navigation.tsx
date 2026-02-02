@@ -1,5 +1,5 @@
 import { NavLink, useLocation } from 'react-router-dom';
-import { BarChartIcon, TableIcon } from '@radix-ui/react-icons';
+import { BarChartIcon, TableIcon, InfoCircledIcon } from '@radix-ui/react-icons';
 import { LeagueSelector } from './handball/LeagueSelector';
 import { useLeague } from '../contexts/LeagueContext';
 
@@ -18,6 +18,11 @@ const navigationItems = [
     path: '/officials',
     label: 'Spielleitung',
     icon: BarChartIcon,
+  },
+  {
+    path: '/status',
+    label: 'Status',
+    icon: InfoCircledIcon,
   },
 ];
 

@@ -14,54 +14,9 @@
   },
   "leagues": [
     {
-      "name": "ma-rl-bw_bwhv",
-      "display_name": "männliche A-Jugend Regionalliga",
-      "half_duration": 30
-    },
-    {
-      "name": "ma-ol-1-bw_bwhv",
-      "display_name": "männliche A-Jugend Oberliga Staffel 1",
-      "half_duration": 30
-    },
-    {
-      "name": "ma-bol-srm_srm",
-      "display_name": "männliche A-Jugend Bezirksoberliga",
-      "half_duration": 30
-    },
-    {
-      "name": "mb-ol-2-bw_bwhv",
-      "display_name": "männliche B-Jugend Oberliga Staffel 2",
-      "half_duration": 25
-    },
-    {
-      "name": "mb-bol-srm_srm",
-      "display_name": "männliche B-Jugend Bezirksoberliga",
-      "half_duration": 25
-    },
-    {
       "name": "mc-ol-3-bw_bwhv",
       "display_name": "männliche C-Jugend Oberliga-Staffel-3",
       "half_duration": 25
-    },
-    {
-      "name": "mc-bol-srm_srm",
-      "display_name": "männliche C-Jugend Bezirksoberliga",
-      "half_duration": 25
-    },
-    {
-      "name": "wb-bl-1-srm_srm",
-      "display_name": "weibliche B-Jugend Bezirksliga Staffel 1",
-      "half_duration": 25
-    },
-    {
-      "name": "wc-bl-1-srm_srm",
-      "display_name": "weibliche C-Jugend Bezirksliga Staffel 1",
-      "half_duration": 25
-    },
-    {
-      "name": "gd-bol-srm_srm",
-      "display_name": "gemischte D-Jugend Bezirksoberliga",
-      "half_duration": 20
     }
   ]
 }

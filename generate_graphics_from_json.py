@@ -97,13 +97,18 @@ def main():
     Load and process all spieltag JSON files from frontend/public/data/{data_folder}/.
     """
     
-    # Parse command line arguments
+    # Parse command line arguments properly
     config_file = "config.json"  # Default
     
-    # Check for --config argument
-    for i, arg in enumerate(sys.argv[1:]):
+    # Manual parsing to handle --config flag
+    i = 1
+    while i < len(sys.argv):
+        arg = sys.argv[i]
         if arg == "--config" and i + 1 < len(sys.argv):
-            config_file = sys.argv[i + 2]  # i+2 because enumerate starts at 0 and we skip sys.argv[0]
+            config_file = sys.argv[i + 1]
+            i += 2  # Skip both --config and its value
+        else:
+            i += 1
     
     # Load config
     config = load_config(config_file)

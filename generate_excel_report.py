@@ -69,16 +69,20 @@ def load_games_data(data_folder):
     return {'games': all_games}
 
 def create_report():
-    # Parse command line arguments
+    # Parse command line arguments properly
     config_file = "config.json"  # Default
     league_name_arg = None
     
-    # Check for --config argument
-    for i, arg in enumerate(sys.argv[1:], 1):
+    # Manual parsing to handle --config flag
+    i = 1
+    while i < len(sys.argv):
+        arg = sys.argv[i]
         if arg == "--config" and i + 1 < len(sys.argv):
             config_file = sys.argv[i + 1]
-        elif not arg.startswith("--"):
+            i += 2  # Skip both --config and its value
+        else:
             league_name_arg = arg
+            i += 1
     
     # Get leagues to process
     config = load_config(config_file)

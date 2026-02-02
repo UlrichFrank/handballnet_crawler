@@ -36,16 +36,20 @@ def load_config(config_file: str = "config.json") -> dict:
     with open(config_path, 'r') as f:
         return json.load(f)
 
-# Parse command line arguments
+# Parse command line arguments properly
 config_file = "config.json"  # Default
 league_name_arg = None
 
-# Check for --config argument
-for i, arg in enumerate(sys.argv[1:], 1):
+# Manual parsing to handle --config flag
+i = 1
+while i < len(sys.argv):
+    arg = sys.argv[i]
     if arg == "--config" and i + 1 < len(sys.argv):
         config_file = sys.argv[i + 1]
-    elif not arg.startswith("--"):
+        i += 2  # Skip both --config and its value
+    else:
         league_name_arg = arg
+        i += 1
 
 config = load_config(config_file)
 
@@ -54,8 +58,7 @@ DATE_FROM = config['crawler']['date_from']
 DATE_TO = config['crawler']['date_to']
 
 # Get leagues to process from command-line argument or use all configured leagues
-if len(sys.argv) > 1:
-    league_name_arg = sys.argv[1]
+if league_name_arg:
     # Find the specific league config - exact match on 'name' field
     league_config = None
     for league in config['leagues']:

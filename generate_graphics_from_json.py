@@ -113,6 +113,11 @@ def main():
     # Load config
     config = load_config(config_file)
     
+    leagues = config.get('leagues', [])
+    if not leagues:
+        print("❌ Keine Leagues in config definiert")
+        return
+    
     print("\n" + "=" * 70)
     print(f"🎨 GENERIERE GRAFIKEN ({len(leagues)} Ligen)")
     print("=" * 70 + "\n")

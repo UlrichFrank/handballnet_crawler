@@ -134,6 +134,18 @@ jobs:
           # Delete temporary branch and go back to main
           git checkout main
           git branch -D temp-data-branch 2>/dev/null || true
+          
+          # Reset working directory to clean state
+          git reset --hard HEAD
+          git clean -fd
+          
+          # Re-fetch and restore data from data branch so it's available for build and deployment
+          git fetch origin data:data-latest
+          if [ -d ".git/refs/remotes/origin/data" ]; then
+            mkdir -p frontend/public/data
+            git checkout data-latest -- frontend/public/data/ 2>/dev/null || true
+            echo "✅ Data restored from data branch for deployment"
+          fi
 
       # Build Frontend
       - name: Build Frontend

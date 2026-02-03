@@ -2,11 +2,11 @@ import { LeagueConfig, GameData, AppConfig } from '../types/handball';
 
 // Bestimme den Basis-Pfad abhängig von der Umgebung
 const getBasePath = (): string => {
-  // Auf GitHub Pages ist der Basis-Pfad /hb_grabber/, lokal ist es /
+  // Auf GitHub Pages ist der Basis-Pfad /handballnet_crawler/, lokal ist es /
   if (typeof window !== 'undefined' && (window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1')) {
     return '';
   }
-  return '/hb_grabber';
+  return '/handballnet_crawler';
 };
 
 const getConfigPath = (): string => `${getBasePath()}/config.json`;

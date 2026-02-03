@@ -165,9 +165,23 @@ jobs:
           pnpm run build
           echo "✅ Frontend built successfully"
           
-          # Ensure config.json is in dist/ (Vite doesn't copy non-public files automatically)
-          cp frontend/public/config.json frontend/dist/config.json
-          echo "✅ Ensured config.json is in dist/"
+          # Debug: Check what's in dist
+          echo "📂 Contents of frontend/dist:"
+          ls -la frontend/dist/
+          
+          echo "📂 Contents of frontend/public:"
+          ls -la frontend/public/
+          
+          # Ensure config.json is in dist (Vite doesn't copy it automatically)
+          if [ -f "frontend/public/config.json" ]; then
+            cp frontend/public/config.json frontend/dist/config.json
+            echo "✅ Copied config.json to dist/"
+          else
+            echo "❌ config.json not found in frontend/public!"
+          fi
+          
+          # Verify it's there
+          ls -la frontend/dist/config.json 2>/dev/null && echo "✅ config.json verified in dist/" || echo "❌ config.json still missing!"
 
       # Prepare deployment artifacts
       - name: Prepare deployment artifacts

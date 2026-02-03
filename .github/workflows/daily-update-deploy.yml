@@ -174,7 +174,7 @@ jobs:
           fi
           
           # Copy config and data
-          cp config.json deploy/handballnet_crawler/ 2>/dev/null || true
+          # config.json is already in frontend/dist and copied above
           if [ -d "frontend/public/data/data" ]; then
             cp -r frontend/public/data/data deploy/handballnet_crawler/data 2>/dev/null || true
           fi

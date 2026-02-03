@@ -12,66 +12,53 @@ interface GoalTooltipProps {
   x: number;
   y: number;
   canvasRect: DOMRect | null;
-  dialogRect?: DOMRect | null;
 }
 
-export function GoalTooltip({ goals, x, y, canvasRect, dialogRect }: GoalTooltipProps) {
+export function GoalTooltip({ goals, x, y, canvasRect }: GoalTooltipProps) {
   if (!canvasRect || goals.length === 0) return null;
-
-  // Convert canvas coordinates to screen coordinates
-  const screenX = canvasRect.left + x;
-  const screenY = canvasRect.top + y;
 
   const tooltipWidth = 240;
   const tooltipHeight = 50 + goals.length * 70;
   const tooltipMargin = 10;
-  const padding = 10; // Minimum distance from edge
+  const padding = 10;
 
-  let tooltipX = screenX - tooltipWidth / 2;
-  let tooltipY = screenY - tooltipHeight - tooltipMargin;
+  // Use absolute positioning relative to canvas
+  let tooltipX = x - tooltipWidth / 2;
+  let tooltipY = y - tooltipHeight - tooltipMargin;
   let arrowPosition: 'top' | 'bottom' = 'bottom';
 
-  // Use dialog bounds if available, otherwise use viewport bounds
-  const bounds = dialogRect ? {
-    left: dialogRect.left + padding,
-    right: dialogRect.right - padding,
-    top: dialogRect.top + padding,
-    bottom: dialogRect.bottom - padding,
-  } : {
-    left: padding,
-    right: window.innerWidth - padding,
-    top: padding,
-    bottom: window.innerHeight - padding,
-  };
+  // Constrain within canvas bounds
+  const canvasWidth = canvasRect.width;
+  const canvasHeight = canvasRect.height;
 
-  // Constrain horizontally first (simpler)
-  if (tooltipX < bounds.left) {
-    tooltipX = bounds.left;
-  } else if (tooltipX + tooltipWidth > bounds.right) {
-    tooltipX = bounds.right - tooltipWidth;
+  // Constrain horizontally
+  if (tooltipX < padding) {
+    tooltipX = padding;
+  } else if (tooltipX + tooltipWidth > canvasWidth - padding) {
+    tooltipX = canvasWidth - tooltipWidth - padding;
   }
 
   // Constrain vertically - try above first
-  if (tooltipY + tooltipHeight <= bounds.bottom) {
+  if (tooltipY + tooltipHeight <= canvasHeight - padding) {
     // Fits above
-    if (tooltipY >= bounds.top) {
+    if (tooltipY >= padding) {
       // Perfect fit above
       arrowPosition = 'bottom';
     } else {
       // Too high, try below
-      tooltipY = screenY + tooltipMargin;
+      tooltipY = y + tooltipMargin;
       arrowPosition = 'top';
     }
   } else {
     // Doesn't fit above, try below
-    tooltipY = screenY + tooltipMargin;
+    tooltipY = y + tooltipMargin;
     arrowPosition = 'top';
     
-    if (tooltipY + tooltipHeight > bounds.bottom) {
+    if (tooltipY + tooltipHeight > canvasHeight - padding) {
       // Doesn't fit below either, constrain to fit
-      tooltipY = bounds.bottom - tooltipHeight;
-      // Recalculate arrow position based on actual placement
-      if (tooltipY + tooltipHeight > screenY) {
+      tooltipY = canvasHeight - tooltipHeight - padding;
+      // Recalculate arrow position
+      if (tooltipY + tooltipHeight > y) {
         arrowPosition = 'top';
       } else {
         arrowPosition = 'bottom';
@@ -79,17 +66,17 @@ export function GoalTooltip({ goals, x, y, canvasRect, dialogRect }: GoalTooltip
     }
   }
 
-  // Final safety check: ensure we don't go above bounds
-  if (tooltipY < bounds.top) {
-    tooltipY = bounds.top;
+  // Final safety check
+  if (tooltipY < padding) {
+    tooltipY = padding;
   }
-  if (tooltipY + tooltipHeight > bounds.bottom) {
-    tooltipY = bounds.bottom - tooltipHeight;
+  if (tooltipY + tooltipHeight > canvasHeight - padding) {
+    tooltipY = canvasHeight - tooltipHeight - padding;
   }
 
   return (
     <div
-      className="fixed z-50 bg-slate-900 dark:bg-slate-800 text-white rounded-lg shadow-2xl border border-slate-700 dark:border-slate-600 pointer-events-none"
+      className="absolute z-50 bg-slate-900 dark:bg-slate-800 text-white rounded-lg shadow-2xl border border-slate-700 dark:border-slate-600 pointer-events-none"
       style={{
         left: `${tooltipX}px`,
         top: `${tooltipY}px`,

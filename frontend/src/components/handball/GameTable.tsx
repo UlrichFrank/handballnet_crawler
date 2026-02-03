@@ -368,6 +368,7 @@ export function GameTable({ league, teamName }: GameTableProps) {
           isOpen={isTimelineDialogOpen}
           onOpenChange={setIsTimelineDialogOpen}
           halfDuration={league.half_duration}
+          selectedTeamName={teamName}
         />
       )}
     </div>

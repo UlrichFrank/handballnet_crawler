@@ -1,6 +1,9 @@
 name: Daily Update & Deploy to GitHub Pages
 
 on:
+  push:
+    branches:
+      - main
   schedule:
     # 20:00 UTC (21:00 CET/22:00 CEST) - using cron with daylight saving time offset
     # GitHub Actions interprets cron in UTC, so we use 20:00 UTC as base

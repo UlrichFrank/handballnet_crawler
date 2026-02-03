@@ -46,6 +46,7 @@ Thumbs.db
 # Project specific
 output/
 *.html
+!frontend/index.html
 
 # Game data JSON files (keep only on data branch)
 frontend/public/data/**/*.json

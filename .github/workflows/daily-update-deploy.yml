@@ -170,9 +170,12 @@ jobs:
         run: |
           mkdir -p deploy/handballnet_crawler
           
-          # Copy frontend dist to handballnet_crawler subdirectory
+          # Copy essential files from frontend/dist (skip nested handballnet_crawler folder if it exists)
           if [ -d "frontend/dist" ]; then
-            cp -r frontend/dist/* deploy/handballnet_crawler/
+            cp frontend/dist/index.html deploy/handballnet_crawler/
+            cp frontend/dist/config.json deploy/handballnet_crawler/
+            cp -r frontend/dist/assets deploy/handballnet_crawler/
+            [ -d "frontend/dist/data" ] && cp -r frontend/dist/data deploy/handballnet_crawler/
             echo "✅ Copied frontend dist"
           fi
           

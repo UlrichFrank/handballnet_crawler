@@ -170,7 +170,7 @@ jobs:
           # Copy frontend dist to handballnet_crawler subdirectory
           if [ -d "frontend/dist" ]; then
             cp -r frontend/dist/* deploy/handballnet_crawler/
-            echo "✅ Copied frontend dist to handballnet_crawler/"
+            echo "✅ Copied frontend dist"
           fi
           
           # Copy config and data
@@ -193,7 +193,7 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: './deploy'
+          path: './deploy/handballnet_crawler'
 
       - name: Deploy to GitHub Pages
         id: deployment

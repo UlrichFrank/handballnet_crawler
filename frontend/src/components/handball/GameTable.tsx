@@ -129,11 +129,16 @@ export function GameTable({ league, teamName }: GameTableProps) {
                      }`}
                      style={{ minWidth: '260px' }}
                    >
-                     <div className="text-xs leading-tight">
-                       <div className="font-semibold">{game.date}</div>
-                       <div className="font-bold text-sm">{game.is_home ? '🏠' : '🏃'}</div>
-                       <div className="text-xs font-bold">{game.score}</div>
-                       <div className="text-xs font-normal truncate">vs {game.opponent}</div>
+                                           <div className="text-xs leading-tight">
+                        <div className="font-semibold">{game.date}</div>
+                        <div className="font-bold text-sm">{game.is_home ? '🏠' : '🏃'}</div>
+                        <div className="text-xs font-bold">{game.score}</div>
+                        <div className="text-xs font-normal truncate">
+                          {fullGame 
+                            ? `${fullGame.home.team_name} vs ${fullGame.away.team_name}`
+                            : `vs ${game.opponent}`
+                          }
+                        </div>
                        {fullGame?.goals_timeline && fullGame.goals_timeline.length > 0 && (
                          <button
                            className="mt-1 px-2 py-1 bg-white dark:bg-slate-800 text-blue-900 dark:text-blue-400 text-xs rounded hover:bg-gray-200 dark:hover:bg-slate-700 flex items-center gap-1 justify-center w-full"

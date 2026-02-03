@@ -217,3 +217,4 @@ jobs:
           echo "" >> $GITHUB_STEP_SUMMARY
           echo "### Deployed to:" >> $GITHUB_STEP_SUMMARY
           echo "- [GitHub Pages](https://ulrichfrank.github.io/handballnet_crawler/)" >> $GITHUB_STEP_SUMMARY
+# Trigger rebuild

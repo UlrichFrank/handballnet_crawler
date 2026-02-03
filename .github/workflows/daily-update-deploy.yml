@@ -164,6 +164,10 @@ jobs:
           echo "🔨 Building frontend..."
           pnpm run build
           echo "✅ Frontend built successfully"
+          
+          # Ensure config.json is in dist/ (Vite doesn't copy non-public files automatically)
+          cp frontend/public/config.json frontend/dist/config.json
+          echo "✅ Ensured config.json is in dist/"
 
       # Prepare deployment artifacts
       - name: Prepare deployment artifacts

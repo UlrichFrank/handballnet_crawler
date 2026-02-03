@@ -13,7 +13,7 @@ interface GameTableProps {
 
 export function GameTable({ league, teamName }: GameTableProps) {
   const [players, setPlayers] = useState<string[]>([]);
-  const [teamGames, setTeamGames] = useState<any[]>([]);
+  const [teamGames, setTeamGames] = useState<Game[]>([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
   const [selectedGame, setSelectedGame] = useState<Game | null>(null);

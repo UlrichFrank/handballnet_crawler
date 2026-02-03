@@ -85,7 +85,7 @@ jobs:
 
       # Install Node dependencies
       - name: Install Node dependencies
-        run: pnpm install
+        run: pnpm install --force
 
       # Run Scraper
       - name: Run Scraper

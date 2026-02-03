@@ -123,19 +123,17 @@ jobs:
             exit 0
           fi
           
-          # Stash the data changes before switching branches
-          git stash push -m "data-changes" -- frontend/public/data/
-          
-          # Checkout data branch and add changes
-          git fetch origin data:data
-          git checkout data
-          git stash pop
+          # Create a temporary branch to hold data changes
+          git checkout -b temp-data-branch
           git add frontend/public/data/
           git commit -m "chore: Update game data from scraper [skip ci]" || echo "Nothing to commit"
-          git push origin data || echo "Failed to push (may have conflicts)"
           
-          # Switch back to main branch
+          # Push to data branch using git push with refspec
+          git push origin temp-data-branch:data || echo "Failed to push (may have conflicts)"
+          
+          # Delete temporary branch and go back to main
           git checkout main
+          git branch -D temp-data-branch 2>/dev/null || true
 
       # Build Frontend
       - name: Build Frontend

@@ -170,30 +170,35 @@ jobs:
         run: |
           mkdir -p deploy/handballnet_crawler
           
-          # Copy essential files from frontend/dist (skip nested handballnet_crawler folder if it exists)
+          # Copy essential files from frontend/dist
           if [ -d "frontend/dist" ]; then
-            cp frontend/dist/index.html deploy/handballnet_crawler/
-            cp frontend/dist/config.json deploy/handballnet_crawler/
-            cp -r frontend/dist/assets deploy/handballnet_crawler/
-            [ -d "frontend/dist/data" ] && cp -r frontend/dist/data deploy/handballnet_crawler/
+            cp frontend/dist/index.html deploy/handballnet_crawler/ || echo "❌ Failed to copy index.html"
+            cp frontend/dist/config.json deploy/handballnet_crawler/ || echo "❌ Failed to copy config.json"
+            cp -r frontend/dist/assets deploy/handballnet_crawler/ 2>&1 || echo "❌ Failed to copy assets"
+            if [ -d "frontend/dist/data" ]; then
+              cp -r frontend/dist/data deploy/handballnet_crawler/ || echo "❌ Failed to copy data"
+            fi
             echo "✅ Copied frontend dist"
+          else
+            echo "❌ frontend/dist directory not found!"
           fi
           
-          # Copy config and data
-          # config.json is already in frontend/dist and copied above
+          # Copy frontend/public/data (contains actual match data)
           if [ -d "frontend/public/data/data" ]; then
-            cp -r frontend/public/data/data deploy/handballnet_crawler/data 2>/dev/null || true
+            cp -r frontend/public/data/data deploy/handballnet_crawler/data || echo "❌ Failed to copy frontend/public/data/data"
+            echo "✅ Copied frontend/public/data"
           fi
-          echo "✅ Copied config and data"
           
           # Copy output (Excel, graphics)
           if [ -d "output" ]; then
-            cp -r output deploy/handballnet_crawler/output 2>/dev/null || true
+            cp -r output deploy/handballnet_crawler/output || echo "❌ Failed to copy output"
             echo "✅ Copied output files"
           fi
           
           echo "📦 Deployment directory ready"
-          tree deploy/ || ls -laR deploy/
+          ls -la deploy/handballnet_crawler/
+          echo "---"
+          ls -la deploy/handballnet_crawler/data/ 2>/dev/null || echo "No data folder"
 
       # Deploy to GitHub Pages using GitHub Actions
       - name: Upload artifact

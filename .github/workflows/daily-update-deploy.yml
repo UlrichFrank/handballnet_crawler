@@ -157,27 +157,27 @@ jobs:
       # Prepare deployment artifacts
       - name: Prepare deployment artifacts
         run: |
-          mkdir -p deploy
+          mkdir -p deploy/handballnet_crawler
           
-          # Copy frontend dist
+          # Copy frontend dist to handballnet_crawler subdirectory
           if [ -d "frontend/dist" ]; then
-            cp -r frontend/dist/* deploy/
-            echo "✅ Copied frontend dist"
+            cp -r frontend/dist/* deploy/handballnet_crawler/
+            echo "✅ Copied frontend dist to handballnet_crawler/"
           fi
           
           # Copy config and data
-          cp config.json deploy/ 2>/dev/null || true
-          cp -r frontend/public/data deploy/data 2>/dev/null || true
+          cp config.json deploy/handballnet_crawler/ 2>/dev/null || true
+          cp -r frontend/public/data deploy/handballnet_crawler/data 2>/dev/null || true
           echo "✅ Copied config and data"
           
           # Copy output (Excel, graphics)
           if [ -d "output" ]; then
-            cp -r output deploy/output 2>/dev/null || true
+            cp -r output deploy/handballnet_crawler/output 2>/dev/null || true
             echo "✅ Copied output files"
           fi
           
           echo "📦 Deployment directory ready"
-          ls -la deploy/
+          tree deploy/ || ls -laR deploy/
 
       # Deploy to GitHub Pages
       - name: Deploy to GitHub Pages

@@ -12,9 +12,17 @@ env:
   PYTHON_VERSION: '3.10'
   NODE_VERSION: '18'
 
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
 jobs:
   update-and-deploy:
     runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
     
     steps:
       # 1. Checkout CODE from main branch
@@ -181,14 +189,15 @@ jobs:
           echo "📦 Deployment directory ready"
           tree deploy/ || ls -laR deploy/
 
-      # Deploy to GitHub Pages
-      - name: Deploy to GitHub Pages
-        uses: peaceiris/actions-gh-pages@v3
+      # Deploy to GitHub Pages using GitHub Actions
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./deploy
-          cname: false
-          force_orphan: false
+          path: './deploy'
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
 
       # Workflow summary
       - name: Workflow Summary

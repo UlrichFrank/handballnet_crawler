@@ -123,12 +123,19 @@ jobs:
             exit 0
           fi
           
+          # Stash the data changes before switching branches
+          git stash push -m "data-changes" -- frontend/public/data/
+          
           # Checkout data branch and add changes
           git fetch origin data:data
           git checkout data
+          git stash pop
           git add frontend/public/data/
           git commit -m "chore: Update game data from scraper [skip ci]" || echo "Nothing to commit"
           git push origin data || echo "Failed to push (may have conflicts)"
+          
+          # Switch back to main branch
+          git checkout main
 
       # Build Frontend
       - name: Build Frontend

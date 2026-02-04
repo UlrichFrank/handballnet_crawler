@@ -68,7 +68,7 @@ export function GameTable({ league, teamName }: GameTableProps) {
   if (loading) {
     return (
       <div className="flex items-center justify-center py-12">
-        <div className="text-gray-500">Loading game data...</div>
+        <div className="text-gray-500">Spieldaten werden geladen...</div>
       </div>
     );
   }
@@ -76,7 +76,7 @@ export function GameTable({ league, teamName }: GameTableProps) {
   if (error) {
     return (
       <div className="bg-red-50 dark:bg-red-950 border border-red-200 dark:border-red-900 rounded-lg p-4 text-red-700 dark:text-red-200">
-        <strong>Error:</strong> {error}
+        <strong>Fehler:</strong> {error}
       </div>
     );
   }
@@ -84,7 +84,7 @@ export function GameTable({ league, teamName }: GameTableProps) {
   if (teamGames.length === 0) {
     return (
       <div className="bg-yellow-50 dark:bg-yellow-950 border border-yellow-200 dark:border-yellow-900 rounded-lg p-4 text-yellow-700 dark:text-yellow-200">
-        No games found for this team.
+        Keine Spiele für dieses Team gefunden.
       </div>
     );
   }
@@ -168,7 +168,7 @@ export function GameTable({ league, teamName }: GameTableProps) {
                 );
               })}
               <th
-                colSpan={7}
+                colSpan={8}
                 className="bg-blue-900 dark:bg-blue-600 text-white px-3 py-3 text-center text-xs font-bold border border-blue-200 dark:border-blue-700 whitespace-nowrap"
                 style={{ minWidth: '260px' }}
               >
@@ -198,6 +198,7 @@ export function GameTable({ league, teamName }: GameTableProps) {
                   {label.split('\n')[0]}
                 </th>
               ))}
+              <th className="bg-blue-500 dark:bg-blue-700 text-white text-center text-xs font-semibold px-2 py-2 border border-blue-200 dark:border-blue-600 whitespace-nowrap" style={{ minWidth: '36px' }}>Spiele</th>
             </tr>
           </thead>
 
@@ -307,6 +308,9 @@ export function GameTable({ league, teamName }: GameTableProps) {
                         className={playerIdx % 2 === 0 ? 'bg-white' : 'bg-hb-playerGray2'}
                         bold
                       />
+                      <td className={`px-3 py-2 text-center text-sm font-bold border border-gray-200 dark:border-slate-700 whitespace-nowrap ${playerIdx % 2 === 0 ? 'bg-white dark:bg-slate-900' : 'bg-hb-playerGray2 dark:bg-slate-800'}`} style={{ minWidth: '36px' }}>
+                        {totalStats.games}
+                      </td>
                     </React.Fragment>
                   );
                 })()}
@@ -314,7 +318,7 @@ export function GameTable({ league, teamName }: GameTableProps) {
             ))}
 
             {/* GESAMT (Total) Row */}
-            <tr className="bg-yellow-100 dark:bg-amber-900 font-bold">
+            <tr className="font-bold">
               <td className="sticky left-0 z-10 bg-yellow-100 dark:bg-amber-900 px-4 py-3 text-sm font-bold border border-gray-200 dark:border-slate-700 text-gray-900 dark:text-amber-100">
                 GESAMT
               </td>
@@ -323,13 +327,13 @@ export function GameTable({ league, teamName }: GameTableProps) {
                 const totals = dataService.getGameTotals(game);
                 return (
                   <React.Fragment key={`total_${gameIdx}`}>
-                    <StatCell value={totals.goals} type="goals" hasAttempts={totals.seven_meters} total />
-                    <StatCell value={totals.seven_meters} type="attempts" total />
-                    <StatCell value={totals.seven_meters_goals} type="seven_goals" hasAttempts={totals.seven_meters} total />
-                    <StatCell value={totals.two_min_penalties} type="other" total />
-                    <StatCell value={totals.yellow_cards} type="other" total />
-                    <StatCell value={totals.red_cards} type="other" total />
-                    <StatCell value={totals.blue_cards} type="other" total />
+                    <td className="bg-yellow-100 dark:bg-amber-900 px-2 py-2 text-center text-sm font-bold border border-gray-200 dark:border-slate-700 text-gray-900 dark:text-amber-100" style={{ minWidth: '40px' }}>{totals.goals}</td>
+                    <td className="bg-yellow-100 dark:bg-amber-900 px-2 py-2 text-center text-sm border border-gray-200 dark:border-slate-700 text-gray-900 dark:text-amber-100" style={{ minWidth: '40px' }}>{totals.seven_meters > 0 ? totals.seven_meters : '-'}</td>
+                    <td className="bg-yellow-100 dark:bg-amber-900 px-2 py-2 text-center text-sm border border-gray-200 dark:border-slate-700 text-gray-900 dark:text-amber-100" style={{ minWidth: '40px' }}>{totals.seven_meters > 0 ? totals.seven_meters_goals : '-'}</td>
+                    <td className="bg-yellow-100 dark:bg-amber-900 px-2 py-2 text-center text-sm border border-gray-200 dark:border-slate-700 text-gray-900 dark:text-amber-100" style={{ minWidth: '40px' }}>{totals.two_min_penalties > 0 ? totals.two_min_penalties : '-'}</td>
+                    <td className="bg-yellow-100 dark:bg-amber-900 px-2 py-2 text-center text-sm border border-gray-200 dark:border-slate-700 text-gray-900 dark:text-amber-100" style={{ minWidth: '40px' }}>{totals.yellow_cards > 0 ? totals.yellow_cards : '-'}</td>
+                    <td className="bg-yellow-100 dark:bg-amber-900 px-2 py-2 text-center text-sm border border-gray-200 dark:border-slate-700 text-gray-900 dark:text-amber-100" style={{ minWidth: '40px' }}>{totals.red_cards > 0 ? totals.red_cards : '-'}</td>
+                    <td className="bg-yellow-100 dark:bg-amber-900 px-2 py-2 text-center text-sm border border-gray-200 dark:border-slate-700 text-gray-900 dark:text-amber-100" style={{ minWidth: '40px' }}>{totals.blue_cards > 0 ? totals.blue_cards : '-'}</td>
                   </React.Fragment>
                 );
               })}
@@ -359,13 +363,16 @@ export function GameTable({ league, teamName }: GameTableProps) {
 
                 return (
                   <React.Fragment>
-                    <StatCell value={summaryTotals.goals} type="goals" hasAttempts={summaryTotals.seven_meters} total />
-                    <StatCell value={summaryTotals.seven_meters} type="attempts" total />
-                    <StatCell value={summaryTotals.seven_meters_goals} type="seven_goals" hasAttempts={summaryTotals.seven_meters} total />
-                    <StatCell value={summaryTotals.two_min_penalties} type="other" total />
-                    <StatCell value={summaryTotals.yellow_cards} type="other" total />
-                    <StatCell value={summaryTotals.red_cards} type="other" total />
-                    <StatCell value={summaryTotals.blue_cards} type="other" total />
+                    <td className="bg-yellow-100 dark:bg-amber-900 px-2 py-2 text-center text-sm font-bold border border-gray-200 dark:border-slate-700 text-gray-900 dark:text-amber-100" style={{ minWidth: '40px' }}>{summaryTotals.goals}</td>
+                    <td className="bg-yellow-100 dark:bg-amber-900 px-2 py-2 text-center text-sm font-bold border border-gray-200 dark:border-slate-700 text-gray-900 dark:text-amber-100" style={{ minWidth: '40px' }}>{summaryTotals.seven_meters > 0 ? summaryTotals.seven_meters : '-'}</td>
+                    <td className="bg-yellow-100 dark:bg-amber-900 px-2 py-2 text-center text-sm font-bold border border-gray-200 dark:border-slate-700 text-gray-900 dark:text-amber-100" style={{ minWidth: '40px' }}>{summaryTotals.seven_meters > 0 ? summaryTotals.seven_meters_goals : '-'}</td>
+                    <td className="bg-yellow-100 dark:bg-amber-900 px-2 py-2 text-center text-sm font-bold border border-gray-200 dark:border-slate-700 text-gray-900 dark:text-amber-100" style={{ minWidth: '40px' }}>{summaryTotals.two_min_penalties > 0 ? summaryTotals.two_min_penalties : '-'}</td>
+                    <td className="bg-yellow-100 dark:bg-amber-900 px-2 py-2 text-center text-sm font-bold border border-gray-200 dark:border-slate-700 text-gray-900 dark:text-amber-100" style={{ minWidth: '40px' }}>{summaryTotals.yellow_cards > 0 ? summaryTotals.yellow_cards : '-'}</td>
+                    <td className="bg-yellow-100 dark:bg-amber-900 px-2 py-2 text-center text-sm font-bold border border-gray-200 dark:border-slate-700 text-gray-900 dark:text-amber-100" style={{ minWidth: '40px' }}>{summaryTotals.red_cards > 0 ? summaryTotals.red_cards : '-'}</td>
+                    <td className="bg-yellow-100 dark:bg-amber-900 px-2 py-2 text-center text-sm font-bold border border-gray-200 dark:border-slate-700 text-gray-900 dark:text-amber-100" style={{ minWidth: '40px' }}>{summaryTotals.blue_cards > 0 ? summaryTotals.blue_cards : '-'}</td>
+                    <td className="bg-yellow-100 dark:bg-amber-900 px-3 py-2 text-center text-sm font-bold border border-gray-200 dark:border-slate-700 text-gray-900 dark:text-amber-100 whitespace-nowrap" style={{ minWidth: '36px' }}>
+                      {teamGames.length}
+                    </td>
                   </React.Fragment>
                 );
               })()}

@@ -26,7 +26,7 @@ export function TeamRatioTable({ league }: TeamRatioTableProps) {
         const stats = await dataService.getTeamRatioStats(league.name);
         setTeams(stats);
       } catch (err) {
-        setError(err instanceof Error ? err.message : 'Failed to load team ratio statistics');
+        setError(err instanceof Error ? err.message : 'Team-Verhältnisstatistiken konnten nicht geladen werden');
       } finally {
         setLoading(false);
       }
@@ -36,7 +36,7 @@ export function TeamRatioTable({ league }: TeamRatioTableProps) {
   }, [league]);
 
   if (loading) {
-    return <div className="text-center text-gray-500 dark:text-gray-400 py-12">Loading...</div>;
+    return <div className="text-center text-gray-500 dark:text-gray-400 py-12">Laden...</div>;
   }
 
   if (error) {

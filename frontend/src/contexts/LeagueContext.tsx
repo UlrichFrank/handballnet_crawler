@@ -32,7 +32,7 @@ export const LeagueProvider = ({ children }: LeagueProviderProps) => {
           setSelectedLeague(fetchedLeagues[0])
         }
       } catch (err) {
-        setError(err instanceof Error ? err.message : 'Failed to load leagues')
+        setError(err instanceof Error ? err.message : 'Ligen konnten nicht geladen werden')
       } finally {
         setLoading(false)
       }

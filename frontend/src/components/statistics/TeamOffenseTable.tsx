@@ -25,7 +25,7 @@ export function TeamOffenseTable({ league }: TeamOffenseTableProps) {
         const stats = await dataService.getTeamOffenseStats(league.name);
         setTeams(stats);
       } catch (err) {
-        setError(err instanceof Error ? err.message : 'Failed to load team offense statistics');
+        setError(err instanceof Error ? err.message : 'Offensivstatistiken konnten nicht geladen werden');
       } finally {
         setLoading(false);
       }
@@ -35,7 +35,7 @@ export function TeamOffenseTable({ league }: TeamOffenseTableProps) {
   }, [league]);
 
   if (loading) {
-    return <div className="text-center text-gray-500 dark:text-gray-400 py-12">Loading...</div>;
+    return <div className="text-center text-gray-500 dark:text-gray-400 py-12">Laden...</div>;
   }
 
   if (error) {

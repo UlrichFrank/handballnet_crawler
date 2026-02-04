@@ -30,8 +30,8 @@ export function HandballPage() {
     return (
       <div className="flex items-center justify-center min-h-screen bg-gray-50 dark:bg-slate-950">
         <div className="text-center">
-          <div className="text-2xl font-bold text-blue-900 dark:text-blue-400 mb-4">No League Selected</div>
-          <div className="text-gray-500 dark:text-gray-400">Please select a league from the dropdown above.</div>
+          <div className="text-2xl font-bold text-blue-900 dark:text-blue-400 mb-4">Keine Liga ausgewählt</div>
+          <div className="text-gray-500 dark:text-gray-400">Bitte wähle eine Liga aus der Dropdown-Liste oben aus.</div>
         </div>
       </div>
     );
@@ -41,7 +41,7 @@ export function HandballPage() {
     return (
       <div className="flex items-center justify-center min-h-screen bg-gray-50 dark:bg-slate-950">
         <div className="text-center">
-          <div className="text-2xl font-bold text-red-600 dark:text-red-400 mb-4">Error</div>
+          <div className="text-2xl font-bold text-red-600 dark:text-red-400 mb-4">Fehler</div>
           <div className="text-gray-700 dark:text-gray-300">{error}</div>
         </div>
       </div>
@@ -51,8 +51,8 @@ export function HandballPage() {
   return (
     <div className="space-y-6 p-6 bg-gray-50 dark:bg-slate-950 min-h-screen">
       <div>
-        <h1 className="text-4xl font-bold text-blue-900 dark:text-blue-400 mb-2">Handball Statistics</h1>
-        <p className="text-gray-600 dark:text-gray-400">View team games and player statistics</p>
+        <h1 className="text-4xl font-bold text-blue-900 dark:text-blue-400 mb-2">Handball Statistiken</h1>
+        <p className="text-gray-600 dark:text-gray-400">Sieh dir Teamspiele und Spielerstatistiken an</p>
       </div>
 
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4">

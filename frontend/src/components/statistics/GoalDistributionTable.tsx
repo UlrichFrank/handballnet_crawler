@@ -27,7 +27,7 @@ export function GoalDistributionTable({ league }: GoalDistributionTableProps) {
         const sorted = stats.sort((a, b) => a.giniCoefficient - b.giniCoefficient);
         setTeams(sorted);
       } catch (err) {
-        setError(err instanceof Error ? err.message : 'Failed to load goal distribution statistics');
+        setError(err instanceof Error ? err.message : 'Torverteilungsstatistiken konnten nicht geladen werden');
       } finally {
         setLoading(false);
       }
@@ -37,7 +37,7 @@ export function GoalDistributionTable({ league }: GoalDistributionTableProps) {
   }, [league]);
 
   if (loading) {
-    return <div className="text-center text-gray-500 dark:text-gray-400 py-12">Loading...</div>;
+    return <div className="text-center text-gray-500 dark:text-gray-400 py-12">Laden...</div>;
   }
 
   if (error) {

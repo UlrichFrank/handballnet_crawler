@@ -44,8 +44,8 @@ export function StatisticsPage() {
     return (
       <div className="flex items-center justify-center min-h-screen bg-gray-50 dark:bg-slate-950">
         <div className="text-center">
-          <div className="text-2xl font-bold text-blue-900 dark:text-blue-400 mb-4">No League Selected</div>
-          <div className="text-gray-500 dark:text-gray-400">Please select a league from the dropdown above.</div>
+          <div className="text-2xl font-bold text-blue-900 dark:text-blue-400 mb-4">Keine Liga ausgewählt</div>
+          <div className="text-gray-500 dark:text-gray-400">Bitte wähle eine Liga aus der Dropdown-Liste oben aus.</div>
         </div>
       </div>
     );
@@ -54,7 +54,7 @@ export function StatisticsPage() {
   if (error) {
     return (
       <div className="bg-red-50 dark:bg-red-950 border border-red-200 dark:border-red-900 rounded-lg p-4 text-red-700 dark:text-red-200 m-6">
-        <strong>Error:</strong> {error}
+        <strong>Fehler:</strong> {error}
       </div>
     );
   }
@@ -104,7 +104,7 @@ export function StatisticsPage() {
       <div className="max-w-7xl mx-auto px-4 py-6">
         {loading && (
           <div className="flex items-center justify-center py-12">
-            <div className="text-gray-500 dark:text-gray-400">Loading statistics...</div>
+            <div className="text-gray-500 dark:text-gray-400">Statistiken werden geladen...</div>
           </div>
         )}
 

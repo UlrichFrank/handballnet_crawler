@@ -28,7 +28,7 @@ export function PlayerStatisticsTable({ league }: PlayerStatisticsTableProps) {
         const stats = await dataService.getPlayerStatistics(league.name);
         setPlayers(stats);
       } catch (err) {
-        setError(err instanceof Error ? err.message : 'Failed to load player statistics');
+        setError(err instanceof Error ? err.message : 'Spielerstatistiken konnten nicht geladen werden');
       } finally {
         setLoading(false);
       }
@@ -38,7 +38,7 @@ export function PlayerStatisticsTable({ league }: PlayerStatisticsTableProps) {
   }, [league]);
 
   if (loading) {
-    return <div className="text-center text-gray-500 dark:text-gray-400 py-12">Loading...</div>;
+    return <div className="text-center text-gray-500 dark:text-gray-400 py-12">Laden...</div>;
   }
 
   if (error) {

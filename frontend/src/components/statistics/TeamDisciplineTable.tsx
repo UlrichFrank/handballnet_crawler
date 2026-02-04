@@ -27,7 +27,7 @@ export function TeamDisciplineTable({ league }: TeamDisciplineTableProps) {
         const stats = await dataService.getTeamDisciplineStats(league.name);
         setTeams(stats);
       } catch (err) {
-        setError(err instanceof Error ? err.message : 'Failed to load team discipline statistics');
+        setError(err instanceof Error ? err.message : 'Disziplin-Statistiken konnten nicht geladen werden');
       } finally {
         setLoading(false);
       }
@@ -37,7 +37,7 @@ export function TeamDisciplineTable({ league }: TeamDisciplineTableProps) {
   }, [league]);
 
   if (loading) {
-    return <div className="text-center text-gray-500 dark:text-gray-400 py-12">Loading...</div>;
+    return <div className="text-center text-gray-500 dark:text-gray-400 py-12">Laden...</div>;
   }
 
   if (error) {

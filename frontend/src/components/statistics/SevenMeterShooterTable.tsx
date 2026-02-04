@@ -28,7 +28,7 @@ export function SevenMeterShooterTable({ league }: SevenMeterShooterTableProps) 
         const stats = await dataService.getSevenMeterShooters(league.name);
         setShooters(stats);
       } catch (err) {
-        setError(err instanceof Error ? err.message : 'Failed to load 7-meter statistics');
+        setError(err instanceof Error ? err.message : '7-Meter-Statistiken konnten nicht geladen werden');
       } finally {
         setLoading(false);
       }
@@ -38,7 +38,7 @@ export function SevenMeterShooterTable({ league }: SevenMeterShooterTableProps) 
   }, [league]);
 
   if (loading) {
-    return <div className="text-center text-gray-500 dark:text-gray-400 py-12">Loading...</div>;
+    return <div className="text-center text-gray-500 dark:text-gray-400 py-12">Laden...</div>;
   }
 
   if (error) {

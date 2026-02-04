@@ -245,6 +245,7 @@ class DataService {
       yellow_cards: 0,
       red_cards: 0,
       blue_cards: 0,
+      games: 0,
     };
 
     teamGames.forEach((game) => {
@@ -257,6 +258,7 @@ class DataService {
         stats.yellow_cards += gameStats.yellow_cards;
         stats.red_cards += gameStats.red_cards;
         stats.blue_cards += gameStats.blue_cards;
+        stats.games += 1;
       }
     });
 

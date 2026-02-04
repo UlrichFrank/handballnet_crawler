@@ -165,12 +165,19 @@ jobs:
           pnpm run build
           echo "✅ Frontend built successfully"
           
-          # Copy public files to dist (Vite doesn't copy them automatically with base path)
-          if [ -f "frontend/public/config.json" ]; then
+          # Copy config to dist
+          # Use config/config.gh.json for production since public/config.json is git-ignored
+          if [ -f "config/config.gh.json" ]; then
+            cp config/config.gh.json frontend/dist/config.json
+            echo "✅ Copied config/config.gh.json to dist/config.json"
+          elif [ -f "frontend/public/config.json" ]; then
             cp frontend/public/config.json frontend/dist/config.json
-            echo "✅ Copied config.json to dist/"
+            echo "✅ Copied frontend/public/config.json to dist/config.json"
           else
-            echo "❌ config.json not found in frontend/public!"
+            echo "❌ No config file found to copy to dist!"
+            # List available config files for debugging
+            ls -la config/
+            ls -la frontend/public/
           fi
           
           # Copy data directory

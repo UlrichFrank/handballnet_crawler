@@ -387,6 +387,24 @@ python generate_graphics_from_json.py
 python generate_excel_report.py
 ```
 
+**For Local Data Sync with Git (Incremental Updates):**
+
+The project uses a dual-branch strategy to maintain incremental data updates:
+- **`main` branch**: Source code (data is git-ignored)
+- **`data` branch**: Only game data files (versioned separately)
+
+**Workflow for local scraping:**
+```bash
+# 1. Load existing data from data branch (before scraping)
+./load_data_branch.sh
+
+# 2. Run scraper (uses existing data for incremental updates)
+python scraper.py
+
+# 3. Sync new data back to data branch (after scraping)
+./sync_data_branch.sh
+```
+
 **Tech Stack:**
 - Python 3.10+
 - Selenium (Browser Automation)
@@ -408,7 +426,9 @@ python generate_excel_report.py
 
 2. **Run Scraper:**
    ```bash
+   ./load_data_branch.sh
    python scraper.py
+   ./sync_data_branch.sh
    ```
 
 3. **App automatically loads new league** (no code changes needed)
@@ -452,6 +472,17 @@ python generate_excel_report.py
 - Prüfe: `config/config.json` - Sind Liga-IDs korrekt?
 - Prüfe: Internetzuverbindung
 - Prüfe: `--help` für Fehlerausgabe
+- Prüfe: Hast du `./load_data_branch.sh` vor dem Scraper ausgeführt?
+
+### Inkrementelle Updates funktionieren nicht
+- Stelle sicher, dass du `./load_data_branch.sh` vor dem Scraper ausführst
+- Nach dem Scraper: `./sync_data_branch.sh` um Daten zu versionieren
+- Beispiel-Workflow:
+  ```bash
+  ./load_data_branch.sh  # Hole existierende Daten
+  python scraper.py      # Scraper nutzt lokale Daten → inkrementell
+  ./sync_data_branch.sh  # Speichere neue Daten in Git
+  ```
 
 ### Frontend startet nicht
 ```bash
@@ -469,6 +500,7 @@ npm run dev
 - Prüfe: `.github/workflows/daily-update-deploy.yml` existiert?
 - Prüfe: GitHub Actions sind im Repo enabled?
 - Prüfe: `gh-pages` Branch existiert?
+- Prüfe: `data` Branch existiert und ist nicht leer?
 
 ---
 

@@ -358,6 +358,7 @@ class DataService {
       sevenMetersGoals: number;
       sevenMetersAttempts: number;
       team: string;
+      games: number;
     }>();
 
     gameData.games.forEach(game => {
@@ -370,12 +371,14 @@ class DataService {
             sevenMetersGoals: 0,
             sevenMetersAttempts: 0,
             team: game.home.team_name,
+            games: 0,
           });
         }
         const stats = playerStats.get(key)!;
         stats.goals += player.goals;
         stats.sevenMetersGoals += player.seven_meters_goals;
         stats.sevenMetersAttempts += player.seven_meters;
+        stats.games += 1;
       });
 
       // Away team players
@@ -387,12 +390,14 @@ class DataService {
             sevenMetersGoals: 0,
             sevenMetersAttempts: 0,
             team: game.away.team_name,
+            games: 0,
           });
         }
         const stats = playerStats.get(key)!;
         stats.goals += player.goals;
         stats.sevenMetersGoals += player.seven_meters_goals;
         stats.sevenMetersAttempts += player.seven_meters;
+        stats.games += 1;
       });
     });
 
@@ -409,6 +414,7 @@ class DataService {
           sevenMeterPercent: stats.sevenMetersAttempts > 0
             ? Math.round((stats.sevenMetersGoals / stats.sevenMetersAttempts) * 100)
             : 0,
+          games: stats.games,
         };
       })
       .sort((a, b) => b.goals - a.goals);
@@ -617,6 +623,76 @@ class DataService {
         totalDisciplinePoints: (stats.blueCards * 4) + (stats.redCards * 3) + (stats.twoMinPenalties * 2) + (stats.yellowCards * 1),
       }))
       .sort((a, b) => a.totalDisciplinePoints - b.totalDisciplinePoints);
+  }
+
+  /**
+   * Calculate Gini coefficient for goal distribution
+   * Measures inequality in goal distribution across players
+   * 0 = perfect equality, 1 = perfect inequality
+   */
+  private calculateGiniCoefficient(values: number[]): number {
+    if (values.length === 0) return 0;
+    
+    const sorted = [...values].sort((a, b) => a - b);
+    const n = sorted.length;
+    const mean = sorted.reduce((a, b) => a + b, 0) / n;
+    
+    if (mean === 0) return 0;
+    
+    const sumAbsDiff = sorted.reduce((sum, val, i) => {
+      return sum + ((i + 1) * val);
+    }, 0);
+    
+    return (2 * sumAbsDiff) / (n * n * mean) - (n + 1) / n;
+  }
+
+  /**
+   * Get goal distribution statistics (avg, median, Gini coefficient)
+   */
+  async getGoalDistributionStats(outName: string) {
+    const gameData = await this.getAggregatedGameData(outName);
+    const teamStats = new Map<string, number[]>();
+
+    gameData.games.forEach(game => {
+      // Home team
+      if (!teamStats.has(game.home.team_name)) {
+        teamStats.set(game.home.team_name, []);
+      }
+      game.home.players.forEach(player => {
+        const goals = player.goals || 0;
+        teamStats.get(game.home.team_name)!.push(goals);
+      });
+
+      // Away team
+      if (!teamStats.has(game.away.team_name)) {
+        teamStats.set(game.away.team_name, []);
+      }
+      game.away.players.forEach(player => {
+        const goals = player.goals || 0;
+        teamStats.get(game.away.team_name)!.push(goals);
+      });
+    });
+
+    return Array.from(teamStats.entries())
+      .map(([teamName, playerGoals]) => {
+        const sorted = [...playerGoals].sort((a, b) => a - b);
+        const avg = playerGoals.reduce((a, b) => a + b, 0) / playerGoals.length;
+        
+        let median: number;
+        if (sorted.length % 2 === 0) {
+          median = (sorted[sorted.length / 2 - 1] + sorted[sorted.length / 2]) / 2;
+        } else {
+          median = sorted[Math.floor(sorted.length / 2)];
+        }
+
+        return {
+          teamName,
+          avgGoalsPerPlayer: avg,
+          medianGoalsPerPlayer: median,
+          giniCoefficient: this.calculateGiniCoefficient(playerGoals),
+        };
+      })
+      .sort((a, b) => b.avgGoalsPerPlayer - a.avgGoalsPerPlayer);
   }
 }
 

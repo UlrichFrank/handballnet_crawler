@@ -131,12 +131,23 @@ export function GameTable({ league, teamName }: GameTableProps) {
                    >
                                            <div className="text-xs leading-tight">
                         <div className="font-semibold">{game.date}</div>
-                        <div className="font-bold text-sm">{game.is_home ? '🏠' : '🏃'}</div>
                         <div className="text-xs font-bold">{game.score}</div>
-                        <div className="text-xs font-normal truncate">
+                        <div className="text-xs font-normal">
                           {fullGame 
-                            ? `${fullGame.home.team_name} vs ${fullGame.away.team_name}`
-                            : `vs ${game.opponent}`
+                            ? (
+                              <div className="text-center">
+                                <div className="truncate">{game.is_home ? '🏠' : ''} {fullGame.home.team_name}</div>
+                                <div className="font-semibold">vs</div>
+                                <div className="truncate">{!game.is_home ? '🏃' : ''} {fullGame.away.team_name}</div>
+                              </div>
+                            )
+                            : (
+                              <div className="text-center">
+                                <div className="truncate">{game.is_home ? '🏠' : ''} {game.is_home ? teamName : game.opponent}</div>
+                                <div className="font-semibold">vs</div>
+                                <div className="truncate">{!game.is_home ? '🏃' : ''} {game.is_home ? game.opponent : teamName}</div>
+                              </div>
+                            )
                           }
                         </div>
                        {fullGame?.goals_timeline && fullGame.goals_timeline.length > 0 && (

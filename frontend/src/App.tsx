@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import { useEffect } from 'react';
 import { ThemeProvider, useTheme } from './contexts/ThemeContext';
 import { LeagueProvider } from './contexts/LeagueContext';
@@ -29,11 +29,11 @@ function AppContent() {
 
     return (
         <LeagueProvider>
-            <Router>
+            <Router basename={import.meta.env.BASE_URL}>
                 <div className="min-h-screen bg-white dark:bg-slate-950 text-gray-900 dark:text-gray-100 transition-colors duration-300">
                     <div className="border-b border-gray-200 dark:border-slate-700 p-4">
                         <div className="flex justify-between items-center mb-4">
-                            <h1 className="text-3xl font-bold text-blue-900 dark:text-blue-400">🏐 handball.net Grabber</h1>
+                            <Link to="/" className="text-3xl font-bold text-blue-900 dark:text-blue-400 hover:opacity-80 transition-opacity cursor-pointer">🏐 handball.net Crawler</Link>
                             <ThemeToggle />
                         </div>
                         <Navigation />

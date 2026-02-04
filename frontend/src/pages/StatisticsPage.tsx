@@ -7,8 +7,9 @@ import { TeamRatioTable } from '../components/statistics/TeamRatioTable';
 import { TeamOffenseTable } from '../components/statistics/TeamOffenseTable';
 import { TeamDefenseTable } from '../components/statistics/TeamDefenseTable';
 import { TeamDisciplineTable } from '../components/statistics/TeamDisciplineTable';
+import { GoalDistributionTable } from '../components/statistics/GoalDistributionTable';
 
-type StatisticTab = 'scorers' | 'seven-meter' | 'ratio' | 'offense' | 'defense' | 'discipline';
+type StatisticTab = 'scorers' | 'seven-meter' | 'ratio' | 'offense' | 'defense' | 'discipline' | 'goal-distribution';
 
 export function StatisticsPage() {
   const { selectedLeague } = useLeague();
@@ -63,6 +64,7 @@ export function StatisticsPage() {
     { id: 'seven-meter', label: 'Bester 7m-Schütze', icon: '🎯' },
     { id: 'ratio', label: 'Torverhältnis', icon: '⚖️' },
     { id: 'offense', label: 'Bester Angriff', icon: '⚔️' },
+    { id: 'goal-distribution', label: 'Verteilung', icon: '🎲' },
     { id: 'defense', label: 'Beste Verteidigung', icon: '🛡️' },
     { id: 'discipline', label: 'Fair-Play', icon: '📋' },
   ];
@@ -112,6 +114,7 @@ export function StatisticsPage() {
             {activeTab === 'seven-meter' && <SevenMeterShooterTable league={selectedLeague} />}
             {activeTab === 'ratio' && <TeamRatioTable league={selectedLeague} />}
             {activeTab === 'offense' && <TeamOffenseTable league={selectedLeague} />}
+            {activeTab === 'goal-distribution' && <GoalDistributionTable league={selectedLeague} />}
             {activeTab === 'defense' && <TeamDefenseTable league={selectedLeague} />}
             {activeTab === 'discipline' && <TeamDisciplineTable league={selectedLeague} />}
           </>

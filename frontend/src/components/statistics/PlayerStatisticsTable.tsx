@@ -9,6 +9,7 @@ interface PlayerStatistics {
   sevenMetersGoals: number;
   sevenMetersAttempts: number;
   sevenMeterPercent: number;
+  games: number;
 }
 
 interface PlayerStatisticsTableProps {
@@ -61,6 +62,7 @@ export function PlayerStatisticsTable({ league }: PlayerStatisticsTableProps) {
               <th className="px-4 py-3 text-center font-bold">7m Tore</th>
               <th className="px-4 py-3 text-center font-bold">7m Versuche</th>
               <th className="px-4 py-3 text-center font-bold">7m %</th>
+              <th className="px-4 py-3 text-center font-bold">Spiele</th>
             </tr>
           </thead>
           <tbody>
@@ -78,6 +80,7 @@ export function PlayerStatisticsTable({ league }: PlayerStatisticsTableProps) {
                 <td className="px-4 py-3 text-center text-gray-900 dark:text-gray-100 font-semibold">
                   {player.sevenMeterPercent}%
                 </td>
+                <td className="px-4 py-3 text-center text-gray-900 dark:text-gray-100 font-semibold">{player.games}</td>
               </tr>
             ))}
           </tbody>

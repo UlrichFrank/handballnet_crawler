@@ -9,6 +9,7 @@ interface SevenMeterStats {
   sevenMetersAttempts: number;
   sevenMeterPercent: number;
   sevenMeterMissed: number;
+  games: number;
 }
 
 interface SevenMeterShooterTableProps {
@@ -61,6 +62,7 @@ export function SevenMeterShooterTable({ league }: SevenMeterShooterTableProps) 
               <th className="px-4 py-3 text-center font-bold">7m Versuche</th>
               <th className="px-4 py-3 text-center font-bold">7m Fehler</th>
               <th className="px-4 py-3 text-center font-bold">Quote %</th>
+              <th className="px-4 py-3 text-center font-bold">Spiele</th>
             </tr>
           </thead>
           <tbody>
@@ -78,6 +80,7 @@ export function SevenMeterShooterTable({ league }: SevenMeterShooterTableProps) 
                 <td className="px-4 py-3 text-center text-gray-900 dark:text-gray-100 font-semibold">
                   {shooter.sevenMeterPercent}%
                 </td>
+                <td className="px-4 py-3 text-center text-gray-900 dark:text-gray-100 font-semibold">{shooter.games}</td>
               </tr>
             ))}
           </tbody>

@@ -15,8 +15,13 @@
   "leagues": [
     {
       "name": "mc-ol-3-bw_bwhv",
-      "display_name": "männliche C-Jugend Oberliga-Staffel-3",
+      "display_name": "m\u00e4nnliche C-Jugend Oberliga-Staffel-3",
       "half_duration": 25
+    },
+    {
+      "name": "gd-bol-srm_srm",
+      "display_name": "gemischte D-Jugend Bezirksoberliga",
+      "half_duration": 20
     }
   ]
 }

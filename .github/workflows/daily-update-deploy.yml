@@ -165,14 +165,7 @@ jobs:
           pnpm run build
           echo "✅ Frontend built successfully"
           
-          # Debug: Check what's in dist
-          echo "📂 Contents of frontend/dist:"
-          ls -la frontend/dist/
-          
-          echo "📂 Contents of frontend/public:"
-          ls -la frontend/public/
-          
-          # Ensure config.json is in dist (Vite doesn't copy it automatically)
+          # Copy public files to dist (Vite doesn't copy them automatically with base path)
           if [ -f "frontend/public/config.json" ]; then
             cp frontend/public/config.json frontend/dist/config.json
             echo "✅ Copied config.json to dist/"
@@ -180,31 +173,29 @@ jobs:
             echo "❌ config.json not found in frontend/public!"
           fi
           
-          # Verify it's there
-          ls -la frontend/dist/config.json 2>/dev/null && echo "✅ config.json verified in dist/" || echo "❌ config.json still missing!"
+          # Copy data directory
+          if [ -d "frontend/public/data" ]; then
+            cp -r frontend/public/data frontend/dist/data
+            echo "✅ Copied data directory to dist/"
+          else
+            echo "❌ data directory not found in frontend/public!"
+          fi
+          
+          # Verify
+          echo "📂 Final dist structure:"
+          ls -la frontend/dist/
 
       # Prepare deployment artifacts
       - name: Prepare deployment artifacts
         run: |
           mkdir -p deploy/handballnet_crawler
           
-          # Copy essential files from frontend/dist
+          # Copy everything from frontend/dist
           if [ -d "frontend/dist" ]; then
-            cp frontend/dist/index.html deploy/handballnet_crawler/ || echo "❌ Failed to copy index.html"
-            cp frontend/dist/config.json deploy/handballnet_crawler/ || echo "❌ Failed to copy config.json"
-            cp -r frontend/dist/assets deploy/handballnet_crawler/ 2>&1 || echo "❌ Failed to copy assets"
-            if [ -d "frontend/dist/data" ]; then
-              cp -r frontend/dist/data deploy/handballnet_crawler/ || echo "❌ Failed to copy data"
-            fi
+            cp -r frontend/dist/* deploy/handballnet_crawler/
             echo "✅ Copied frontend dist"
           else
             echo "❌ frontend/dist directory not found!"
-          fi
-          
-          # Copy frontend/public/data (contains actual match data)
-          if [ -d "frontend/public/data/data" ]; then
-            cp -r frontend/public/data/data deploy/handballnet_crawler/data || echo "❌ Failed to copy frontend/public/data/data"
-            echo "✅ Copied frontend/public/data"
           fi
           
           # Copy output (Excel, graphics)

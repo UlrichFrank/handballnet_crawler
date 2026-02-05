@@ -1,0 +1,576 @@
+{
+  "date": "20260125",
+  "games": [
+    {
+      "game_id": "handball4all.baden-wuerttemberg.8851467",
+      "order": 39,
+      "date": "So, 25.01.",
+      "home": {
+        "team_name": "SG Heumaden-Sillenbuch",
+        "players": [
+          {
+            "name": "Lise Biraud",
+            "goals": 3,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Justine Schlosser",
+            "goals": 1,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Juliane Eva Tresselt",
+            "goals": 5,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Lucie Schweyer",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Anna Herrmann",
+            "goals": 3,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Portmann Charlotte",
+            "goals": 8,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Isabell Neumann",
+            "goals": 2,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Ida Sandrock",
+            "goals": 1,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Mathilda Spangenberg",
+            "goals": 5,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 2,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Nele Striffler",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          }
+        ]
+      },
+      "away": {
+        "team_name": "HSG Cannstatt/M\u00fcnster/Max-Eyth-See",
+        "players": [
+          {
+            "name": "Felicia Helm",
+            "goals": 4,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Marina Sch\u00fcle",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Mia Brandt",
+            "goals": 4,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Helen W\u00fcnsch",
+            "goals": 4,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Klea Hasani",
+            "goals": 3,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Sophie R\u00fcppel",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 2,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Eyl\u00fcl Demircioglu",
+            "goals": 2,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Sarah Grimm",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          }
+        ]
+      },
+      "goals_timeline": [
+        {
+          "minute": 0,
+          "second": 50,
+          "scorer": "Isabell Neumann",
+          "team": "home",
+          "team_abbrev": "SG Heum-Sill",
+          "seven_meter": false
+        },
+        {
+          "minute": 3,
+          "second": 55,
+          "scorer": "Felicia Helm",
+          "team": "away",
+          "team_abbrev": "HSG Ca-M\u00fc-Max",
+          "seven_meter": false
+        },
+        {
+          "minute": 7,
+          "second": 37,
+          "scorer": "Mathilda Spangenberg",
+          "team": "home",
+          "team_abbrev": "SG Heum-Sill",
+          "seven_meter": false
+        },
+        {
+          "minute": 9,
+          "second": 47,
+          "scorer": "Klea Hasani",
+          "team": "away",
+          "team_abbrev": "HSG Ca-M\u00fc-Max",
+          "seven_meter": false
+        },
+        {
+          "minute": 10,
+          "second": 32,
+          "scorer": "Eyl\u00fcl Demircioglu",
+          "team": "away",
+          "team_abbrev": "HSG Ca-M\u00fc-Max",
+          "seven_meter": false
+        },
+        {
+          "minute": 11,
+          "second": 37,
+          "scorer": "Mia Brandt",
+          "team": "away",
+          "team_abbrev": "HSG Ca-M\u00fc-Max",
+          "seven_meter": false
+        },
+        {
+          "minute": 12,
+          "second": 20,
+          "scorer": "Portmann Charlotte",
+          "team": "home",
+          "team_abbrev": "SG Heum-Sill",
+          "seven_meter": false
+        },
+        {
+          "minute": 14,
+          "second": 32,
+          "scorer": "Portmann Charlotte",
+          "team": "home",
+          "team_abbrev": "SG Heum-Sill",
+          "seven_meter": false
+        },
+        {
+          "minute": 15,
+          "second": 22,
+          "scorer": "Portmann Charlotte",
+          "team": "home",
+          "team_abbrev": "SG Heum-Sill",
+          "seven_meter": false
+        },
+        {
+          "minute": 15,
+          "second": 54,
+          "scorer": "Anna Herrmann",
+          "team": "home",
+          "team_abbrev": "SG Heum-Sill",
+          "seven_meter": false
+        },
+        {
+          "minute": 17,
+          "second": 41,
+          "scorer": "Mathilda Spangenberg",
+          "team": "home",
+          "team_abbrev": "SG Heum-Sill",
+          "seven_meter": false
+        },
+        {
+          "minute": 17,
+          "second": 41,
+          "scorer": "Mathilda Spangenberg",
+          "team": "home",
+          "team_abbrev": "SG Heum-Sill",
+          "seven_meter": false
+        },
+        {
+          "minute": 19,
+          "second": 44,
+          "scorer": "Portmann Charlotte",
+          "team": "home",
+          "team_abbrev": "SG Heum-Sill",
+          "seven_meter": false
+        },
+        {
+          "minute": 21,
+          "second": 7,
+          "scorer": "Lise Biraud",
+          "team": "home",
+          "team_abbrev": "SG Heum-Sill",
+          "seven_meter": false
+        },
+        {
+          "minute": 21,
+          "second": 34,
+          "scorer": "Helen W\u00fcnsch",
+          "team": "away",
+          "team_abbrev": "HSG Ca-M\u00fc-Max",
+          "seven_meter": false
+        },
+        {
+          "minute": 21,
+          "second": 42,
+          "scorer": "Portmann Charlotte",
+          "team": "home",
+          "team_abbrev": "SG Heum-Sill",
+          "seven_meter": false
+        },
+        {
+          "minute": 24,
+          "second": 2,
+          "scorer": "Justine Schlosser",
+          "team": "home",
+          "team_abbrev": "SG Heum-Sill",
+          "seven_meter": false
+        },
+        {
+          "minute": 24,
+          "second": 18,
+          "scorer": "Anna Herrmann",
+          "team": "home",
+          "team_abbrev": "SG Heum-Sill",
+          "seven_meter": false
+        },
+        {
+          "minute": 24,
+          "second": 38,
+          "scorer": "Juliane Tresselt",
+          "team": "home",
+          "team_abbrev": "SG Heum-Sill",
+          "seven_meter": false
+        },
+        {
+          "minute": 24,
+          "second": 54,
+          "scorer": "Helen W\u00fcnsch",
+          "team": "away",
+          "team_abbrev": "HSG Ca-M\u00fc-Max",
+          "seven_meter": false
+        },
+        {
+          "minute": 25,
+          "second": 0,
+          "scorer": "Lise Biraud",
+          "team": "home",
+          "team_abbrev": "SG Heum-Sill",
+          "seven_meter": false
+        },
+        {
+          "minute": 26,
+          "second": 8,
+          "scorer": "Lise Biraud",
+          "team": "home",
+          "team_abbrev": "SG Heum-Sill",
+          "seven_meter": false
+        },
+        {
+          "minute": 26,
+          "second": 27,
+          "scorer": "Felicia Helm",
+          "team": "away",
+          "team_abbrev": "HSG Ca-M\u00fc-Max",
+          "seven_meter": false
+        },
+        {
+          "minute": 27,
+          "second": 26,
+          "scorer": "Portmann Charlotte",
+          "team": "home",
+          "team_abbrev": "SG Heum-Sill",
+          "seven_meter": false
+        },
+        {
+          "minute": 27,
+          "second": 51,
+          "scorer": "Helen W\u00fcnsch",
+          "team": "away",
+          "team_abbrev": "HSG Ca-M\u00fc-Max",
+          "seven_meter": false
+        },
+        {
+          "minute": 28,
+          "second": 23,
+          "scorer": "Anna Herrmann",
+          "team": "home",
+          "team_abbrev": "SG Heum-Sill",
+          "seven_meter": false
+        },
+        {
+          "minute": 29,
+          "second": 37,
+          "scorer": "Felicia Helm",
+          "team": "away",
+          "team_abbrev": "HSG Ca-M\u00fc-Max",
+          "seven_meter": false
+        },
+        {
+          "minute": 30,
+          "second": 17,
+          "scorer": "Mathilda Spangenberg",
+          "team": "home",
+          "team_abbrev": "SG Heum-Sill",
+          "seven_meter": false
+        },
+        {
+          "minute": 31,
+          "second": 4,
+          "scorer": "Mia Brandt",
+          "team": "away",
+          "team_abbrev": "HSG Ca-M\u00fc-Max",
+          "seven_meter": false
+        },
+        {
+          "minute": 32,
+          "second": 29,
+          "scorer": "Klea Hasani",
+          "team": "away",
+          "team_abbrev": "HSG Ca-M\u00fc-Max",
+          "seven_meter": false
+        },
+        {
+          "minute": 33,
+          "second": 39,
+          "scorer": "Helen W\u00fcnsch",
+          "team": "away",
+          "team_abbrev": "HSG Ca-M\u00fc-Max",
+          "seven_meter": false
+        },
+        {
+          "minute": 35,
+          "second": 1,
+          "scorer": "Portmann Charlotte",
+          "team": "home",
+          "team_abbrev": "SG Heum-Sill",
+          "seven_meter": false
+        },
+        {
+          "minute": 35,
+          "second": 17,
+          "scorer": "Eyl\u00fcl Demircioglu",
+          "team": "away",
+          "team_abbrev": "HSG Ca-M\u00fc-Max",
+          "seven_meter": false
+        },
+        {
+          "minute": 35,
+          "second": 58,
+          "scorer": "Isabell Neumann",
+          "team": "home",
+          "team_abbrev": "SG Heum-Sill",
+          "seven_meter": false
+        },
+        {
+          "minute": 36,
+          "second": 34,
+          "scorer": "Juliane Tresselt",
+          "team": "home",
+          "team_abbrev": "SG Heum-Sill",
+          "seven_meter": false
+        },
+        {
+          "minute": 37,
+          "second": 27,
+          "scorer": "Juliane Tresselt",
+          "team": "home",
+          "team_abbrev": "SG Heum-Sill",
+          "seven_meter": false
+        },
+        {
+          "minute": 38,
+          "second": 36,
+          "scorer": "Klea Hasani",
+          "team": "away",
+          "team_abbrev": "HSG Ca-M\u00fc-Max",
+          "seven_meter": false
+        },
+        {
+          "minute": 38,
+          "second": 52,
+          "scorer": "Portmann Charlotte",
+          "team": "home",
+          "team_abbrev": "SG Heum-Sill",
+          "seven_meter": false
+        },
+        {
+          "minute": 39,
+          "second": 15,
+          "scorer": "Felicia Helm",
+          "team": "away",
+          "team_abbrev": "HSG Ca-M\u00fc-Max",
+          "seven_meter": false
+        },
+        {
+          "minute": 39,
+          "second": 33,
+          "scorer": "Ida Sandrock",
+          "team": "home",
+          "team_abbrev": "SG Heum-Sill",
+          "seven_meter": false
+        },
+        {
+          "minute": 42,
+          "second": 10,
+          "scorer": "Juliane Tresselt",
+          "team": "home",
+          "team_abbrev": "SG Heum-Sill",
+          "seven_meter": false
+        },
+        {
+          "minute": 44,
+          "second": 17,
+          "scorer": "Mathilda Spangenberg",
+          "team": "home",
+          "team_abbrev": "SG Heum-Sill",
+          "seven_meter": false
+        },
+        {
+          "minute": 44,
+          "second": 56,
+          "scorer": "Mia Brandt",
+          "team": "away",
+          "team_abbrev": "HSG Ca-M\u00fc-Max",
+          "seven_meter": false
+        },
+        {
+          "minute": 45,
+          "second": 33,
+          "scorer": "Juliane Tresselt",
+          "team": "home",
+          "team_abbrev": "SG Heum-Sill",
+          "seven_meter": false
+        },
+        {
+          "minute": 47,
+          "second": 1,
+          "scorer": "Mia Brandt",
+          "team": "away",
+          "team_abbrev": "HSG Ca-M\u00fc-Max",
+          "seven_meter": false
+        }
+      ],
+      "final_score": "28:17",
+      "half_duration": 30,
+      "officials": {
+        "referees": [
+          "Tina Hauch"
+        ],
+        "timekeepers": [
+          "Noah Koenig"
+        ],
+        "secretaries": [
+          "Christian Jelen"
+        ]
+      },
+      "graphic_path": "output/graphics/SG_Heumaden-Sillenbu_vs_HSG_Cannstatt_M\u00fcnste_So_2501.png"
+    }
+  ]
+}

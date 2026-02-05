@@ -1,0 +1,492 @@
+{
+  "date": "20260131",
+  "games": [
+    {
+      "game_id": "handball4all.baden-wuerttemberg.8851487",
+      "order": 40,
+      "date": "Sa, 31.01.",
+      "home": {
+        "team_name": "HSG Cannstatt/M\u00fcnster/Max-Eyth-See",
+        "players": [
+          {
+            "name": "Felicia Helm",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Marina Sch\u00fcle",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Mia Brandt",
+            "goals": 1,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Lina Kraske",
+            "goals": 3,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Klea Hasani",
+            "goals": 2,
+            "two_min_penalties": 1,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Lena Beck",
+            "goals": 2,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 2,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Sophie R\u00fcppel",
+            "goals": 1,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 2,
+            "seven_meters_goals": 1
+          },
+          {
+            "name": "Eyl\u00fcl Demircioglu",
+            "goals": 1,
+            "two_min_penalties": 0,
+            "yellow_cards": 1,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Katharina Jelen",
+            "goals": 4,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Sarah Grimm",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          }
+        ]
+      },
+      "away": {
+        "team_name": "TSF Ditzingen",
+        "players": [
+          {
+            "name": "Esma Sabaredzovic",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Nina Isabell Balzer",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Fenja R\u00fchle",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Klara Banzhaf",
+            "goals": 3,
+            "two_min_penalties": 0,
+            "yellow_cards": 1,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Frida Sicheneder",
+            "goals": 2,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Alexa G\u00f6ttler",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Maja Skowronski",
+            "goals": 3,
+            "two_min_penalties": 1,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 1,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Anna Gottlieb",
+            "goals": 7,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 2,
+            "seven_meters_goals": 1
+          },
+          {
+            "name": "Klara Single",
+            "goals": 3,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Anna-Lena Raith",
+            "goals": 5,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          }
+        ]
+      },
+      "goals_timeline": [
+        {
+          "minute": 0,
+          "second": 29,
+          "scorer": "Lena Beck",
+          "team": "home",
+          "team_abbrev": "HSG Ca-M\u00fc-Max",
+          "seven_meter": false
+        },
+        {
+          "minute": 0,
+          "second": 47,
+          "scorer": "Klara Banzhaf",
+          "team": "away",
+          "team_abbrev": "TSF Ditzingen",
+          "seven_meter": false
+        },
+        {
+          "minute": 1,
+          "second": 33,
+          "scorer": "Katharina Jelen",
+          "team": "home",
+          "team_abbrev": "HSG Ca-M\u00fc-Max",
+          "seven_meter": false
+        },
+        {
+          "minute": 4,
+          "second": 45,
+          "scorer": "Anna Gottlieb",
+          "team": "away",
+          "team_abbrev": "TSF Ditzingen",
+          "seven_meter": false
+        },
+        {
+          "minute": 5,
+          "second": 43,
+          "scorer": "Mia Brandt",
+          "team": "home",
+          "team_abbrev": "HSG Ca-M\u00fc-Max",
+          "seven_meter": false
+        },
+        {
+          "minute": 7,
+          "second": 13,
+          "scorer": "Anna Gottlieb",
+          "team": "away",
+          "team_abbrev": "TSF Ditzingen",
+          "seven_meter": true
+        },
+        {
+          "minute": 10,
+          "second": 6,
+          "scorer": "Katharina Jelen",
+          "team": "home",
+          "team_abbrev": "HSG Ca-M\u00fc-Max",
+          "seven_meter": false
+        },
+        {
+          "minute": 14,
+          "second": 3,
+          "scorer": "Frida Sicheneder",
+          "team": "away",
+          "team_abbrev": "TSF Ditzingen",
+          "seven_meter": false
+        },
+        {
+          "minute": 15,
+          "second": 58,
+          "scorer": "Katharina Jelen",
+          "team": "home",
+          "team_abbrev": "HSG Ca-M\u00fc-Max",
+          "seven_meter": false
+        },
+        {
+          "minute": 16,
+          "second": 56,
+          "scorer": "Klea Hasani",
+          "team": "home",
+          "team_abbrev": "HSG Ca-M\u00fc-Max",
+          "seven_meter": false
+        },
+        {
+          "minute": 17,
+          "second": 45,
+          "scorer": "Anna Gottlieb",
+          "team": "away",
+          "team_abbrev": "TSF Ditzingen",
+          "seven_meter": false
+        },
+        {
+          "minute": 19,
+          "second": 3,
+          "scorer": "Katharina Jelen",
+          "team": "home",
+          "team_abbrev": "HSG Ca-M\u00fc-Max",
+          "seven_meter": false
+        },
+        {
+          "minute": 19,
+          "second": 24,
+          "scorer": "Klara Single",
+          "team": "away",
+          "team_abbrev": "TSF Ditzingen",
+          "seven_meter": false
+        },
+        {
+          "minute": 20,
+          "second": 4,
+          "scorer": "Anna Gottlieb",
+          "team": "away",
+          "team_abbrev": "TSF Ditzingen",
+          "seven_meter": false
+        },
+        {
+          "minute": 20,
+          "second": 55,
+          "scorer": "Klara Single",
+          "team": "away",
+          "team_abbrev": "TSF Ditzingen",
+          "seven_meter": false
+        },
+        {
+          "minute": 22,
+          "second": 33,
+          "scorer": "Maja Skowronski",
+          "team": "away",
+          "team_abbrev": "TSF Ditzingen",
+          "seven_meter": false
+        },
+        {
+          "minute": 23,
+          "second": 1,
+          "scorer": "Lena Beck",
+          "team": "home",
+          "team_abbrev": "HSG Ca-M\u00fc-Max",
+          "seven_meter": false
+        },
+        {
+          "minute": 23,
+          "second": 44,
+          "scorer": "Klara Single",
+          "team": "away",
+          "team_abbrev": "TSF Ditzingen",
+          "seven_meter": false
+        },
+        {
+          "minute": 25,
+          "second": 26,
+          "scorer": "Klara Banzhaf",
+          "team": "away",
+          "team_abbrev": "TSF Ditzingen",
+          "seven_meter": false
+        },
+        {
+          "minute": 28,
+          "second": 8,
+          "scorer": "Lina Kraske",
+          "team": "home",
+          "team_abbrev": "HSG Ca-M\u00fc-Max",
+          "seven_meter": false
+        },
+        {
+          "minute": 28,
+          "second": 21,
+          "scorer": "Anna Gottlieb",
+          "team": "away",
+          "team_abbrev": "TSF Ditzingen",
+          "seven_meter": false
+        },
+        {
+          "minute": 29,
+          "second": 36,
+          "scorer": "Klea Hasani",
+          "team": "home",
+          "team_abbrev": "HSG Ca-M\u00fc-Max",
+          "seven_meter": false
+        },
+        {
+          "minute": 30,
+          "second": 55,
+          "scorer": "Anna Gottlieb",
+          "team": "away",
+          "team_abbrev": "TSF Ditzingen",
+          "seven_meter": false
+        },
+        {
+          "minute": 34,
+          "second": 49,
+          "scorer": "Klara Banzhaf",
+          "team": "away",
+          "team_abbrev": "TSF Ditzingen",
+          "seven_meter": false
+        },
+        {
+          "minute": 42,
+          "second": 18,
+          "scorer": "Anna Gottlieb",
+          "team": "away",
+          "team_abbrev": "TSF Ditzingen",
+          "seven_meter": false
+        },
+        {
+          "minute": 44,
+          "second": 27,
+          "scorer": "Maja Skowronski",
+          "team": "away",
+          "team_abbrev": "TSF Ditzingen",
+          "seven_meter": false
+        },
+        {
+          "minute": 45,
+          "second": 14,
+          "scorer": "Lina Kraske",
+          "team": "home",
+          "team_abbrev": "HSG Ca-M\u00fc-Max",
+          "seven_meter": false
+        },
+        {
+          "minute": 46,
+          "second": 36,
+          "scorer": "Lina Kraske",
+          "team": "home",
+          "team_abbrev": "HSG Ca-M\u00fc-Max",
+          "seven_meter": false
+        },
+        {
+          "minute": 48,
+          "second": 32,
+          "scorer": "Frida Sicheneder",
+          "team": "away",
+          "team_abbrev": "TSF Ditzingen",
+          "seven_meter": false
+        },
+        {
+          "minute": 48,
+          "second": 54,
+          "scorer": "Eyl\u00fcl Demircioglu",
+          "team": "home",
+          "team_abbrev": "HSG Ca-M\u00fc-Max",
+          "seven_meter": false
+        },
+        {
+          "minute": 49,
+          "second": 35,
+          "scorer": "Maja Skowronski",
+          "team": "away",
+          "team_abbrev": "TSF Ditzingen",
+          "seven_meter": false
+        },
+        {
+          "minute": 50,
+          "second": 0,
+          "scorer": "Sophie R\u00fcppel",
+          "team": "home",
+          "team_abbrev": "HSG Ca-M\u00fc-Max",
+          "seven_meter": true
+        }
+      ],
+      "final_score": "14:18",
+      "half_duration": 30,
+      "officials": {
+        "referees": [
+          "David G\u00fcldner"
+        ],
+        "timekeepers": [
+          "Bjoern Beck"
+        ],
+        "secretaries": [
+          "Susanne H\u00f6rner"
+        ]
+      },
+      "graphic_path": "output/graphics/HSG_Cannstatt_M\u00fcnste_vs_TSF_Ditzingen_Sa_3101.png"
+    }
+  ]
+}

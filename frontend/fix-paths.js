@@ -12,6 +12,8 @@ html = html
   .replace(/src="\/assets\//g, `src="${basePath}assets/`)
   .replace(/href="\/assets\//g, `href="${basePath}assets/`)
   .replace(/href="\/vite\.svg"/g, `href="${basePath}vite.svg"`)
+  .replace(/href="\/team-logo\.svg"/g, `href="${basePath}team-logo.svg"`)
+  .replace(/src="\/team-logo\.svg"/g, `src="${basePath}team-logo.svg"`)
 
 fs.writeFileSync(indexPath, html)
 console.log(`✅ Fixed asset paths in index.html with base path: ${basePath}`)

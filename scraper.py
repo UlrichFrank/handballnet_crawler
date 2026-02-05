@@ -23,7 +23,8 @@ from selenium.webdriver.common.by import By
 import warnings
 warnings.filterwarnings('ignore')
 
-from hb_crawler.pdf_parser import extract_seven_meters_from_pdf, add_seven_meters_to_players, extract_goals_timeline_from_pdf
+from utility.pdf_parser import extract_seven_meters_from_pdf, add_seven_meters_to_players, extract_goals_timeline_from_pdf
+from utility.error_logger import ErrorLogger
 
 # Load config from file (default or specified via --config argument)
 def load_config(config_file: str = "config.json") -> dict:
@@ -671,7 +672,7 @@ def extract_officials_from_info(driver, game_id):
     except Exception as e:
         return None
 
-def scrape_all_games(driver, games_with_teams, league_config=None):
+def scrape_all_games(driver, games_with_teams, league_config=None, error_logger: ErrorLogger = None):
     """Scrape all games and return game-centric data - use Spielplan order"""
     games = []
     
@@ -679,6 +680,9 @@ def scrape_all_games(driver, games_with_teams, league_config=None):
     half_duration = 30  # Default
     if league_config:
         half_duration = league_config.get('half_duration', 30)
+    
+    # Get league_id for error logging
+    league_id = league_config.get('name', 'unknown') if league_config else 'unknown'
     
     print(f"   📝 Starting to extract game details...")
     sys.stdout.flush()  # Force output flush
@@ -787,6 +791,17 @@ def scrape_all_games(driver, games_with_teams, league_config=None):
             error_str = str(e)[:60]
             print(f"  [{idx:3d}/{len(games_with_teams)}] ❌ {game_id}: {error_str}")
             sys.stdout.flush()  # Force flush output
+            
+            # Log error for retry in next run
+            if error_logger:
+                error_logger.add_failed_game(
+                    game_id=game_id,
+                    liga_id=league_id,
+                    date=date,
+                    home_team=spielplan_home or 'Unknown',
+                    away_team=spielplan_away or 'Unknown',
+                    error=str(e)
+                )
             continue  # Continue with next game
     
     print(f"\n   ✓ Game extraction complete. {len(games)} games processed.")
@@ -973,6 +988,9 @@ def scrape_daily(driver, liga_id, league_id, start_date_str, end_date_str):
     """
     from datetime import datetime, timedelta
     
+    # Initialize error logger
+    error_logger = ErrorLogger()
+    
     stats = {
         'games_total': 0,
         'spieltage_saved': 0,
@@ -1044,8 +1062,11 @@ def scrape_daily(driver, liga_id, league_id, start_date_str, end_date_str):
             print(f"   👥 Scraping game details...")
             sys.stdout.flush()
             
+            # Get league config for error logging
+            league_config = {'name': liga_id}
+            
             try:
-                scraped_games = scrape_all_games(driver, games_for_date, None)
+                scraped_games = scrape_all_games(driver, games_for_date, league_config, error_logger)
                 print(f"   ✓ Scraped {len(scraped_games)} game(s)")
                 sys.stdout.flush()
             except Exception as e:
@@ -1082,6 +1103,18 @@ def scrape_daily(driver, liga_id, league_id, start_date_str, end_date_str):
             print(f"⏭️  No games: {empty_days_start}")
         else:
             print(f"⏭️  No games: {empty_days_start} to {empty_days_end} ({empty_days_count} days)")
+    
+    # Save error log at the end
+    if error_logger.failed_games:
+        error_logger.save()
+        print(f"\n⚠️  Error summary:")
+        summary = error_logger.get_summary()
+        for liga, games in summary.items():
+            print(f"   {liga}: {len(games)} failed game(s)")
+            for game in games[:3]:  # Show first 3 errors
+                print(f"      - {game['teams']} ({game['date']}): {game['error']}")
+            if len(games) > 3:
+                print(f"      ... and {len(games) - 3} more")
     
     return stats
 

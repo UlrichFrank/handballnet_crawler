@@ -9,6 +9,7 @@ import { StandingsPage } from './pages/StandingsPage';
 import { OfficialsPage } from './pages/OfficialsPage';
 import { StatisticsPage } from './pages/StatisticsPage';
 import { StatusPage } from './pages/StatusPage';
+import teamLogo from '../public/team-logo.svg';
 
 function AppContent() {
     const { theme } = useTheme();
@@ -34,7 +35,7 @@ function AppContent() {
                     <div className="border-b border-gray-200 dark:border-slate-700 p-4">
                         <div className="flex justify-between items-center mb-4">
                             <Link to="/" className="flex items-center gap-2 text-3xl font-bold text-blue-900 dark:text-blue-400 hover:opacity-80 transition-opacity cursor-pointer">
-                                <img src="/team-logo.svg" alt="Handball Crawler Logo" className="h-10 w-10 object-contain" />
+                                <img src={teamLogo} alt="Handball Crawler Logo" className="h-10 w-10 object-contain" />
                                 <span>handball.net Crawler</span>
                             </Link>
                             <ThemeToggle />

@@ -13,18 +13,46 @@ interface MetaData {
   };
 }
 
+interface ErrorLogData {
+  failed_games: Array<{
+    game_id: string;
+    liga_id: string;
+    date: string;
+    home_team: string;
+    away_team: string;
+    error: string;
+    last_error_time: string;
+    retry_count: number;
+  }>;
+  last_updated: string;
+  total_failed: number;
+}
+
 export function StatusPage() {
   const [meta, setMeta] = useState<MetaData | null>(null);
+  const [errorLog, setErrorLog] = useState<ErrorLogData | null>(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
 
   useEffect(() => {
-    const loadMetaData = async () => {
+    const loadData = async () => {
       try {
         setLoading(true);
         const data = await dataService.loadMeta();
         setMeta(data);
         setError(null);
+        
+        // Try to load error log if it exists
+        try {
+          const errorData = await fetch(`${import.meta.env.BASE_URL}error_log.json`);
+          if (errorData.ok) {
+            const errorJson = await errorData.json();
+            setErrorLog(errorJson);
+          }
+        } catch (e) {
+          // Error log might not exist yet, which is fine
+          console.log('No error log found');
+        }
       } catch (err) {
         console.error('Error loading meta.json:', err);
         setError(err instanceof Error ? err.message : 'Unknown error');
@@ -34,7 +62,7 @@ export function StatusPage() {
       }
     };
 
-    loadMetaData();
+    loadData();
   }, []);
 
   const formatDate = (dateString: string) => {
@@ -204,6 +232,55 @@ export function StatusPage() {
           </Card>
         ))}
       </div>
+
+      {/* Failed Games Section */}
+      {errorLog && errorLog.total_failed > 0 && (
+        <Card className="p-6 border-l-4 border-l-orange-500 bg-orange-50 dark:bg-orange-900/10">
+          <div className="flex items-center gap-2 mb-4">
+            <h3 className="text-xl font-bold text-orange-900 dark:text-orange-100">
+              ⚠️ Unvollständige Spiele
+            </h3>
+            <span className="bg-orange-200 dark:bg-orange-800 text-orange-900 dark:text-orange-100 px-3 py-1 rounded-full text-sm font-semibold">
+              {errorLog.total_failed}
+            </span>
+          </div>
+          <p className="text-sm text-orange-800 dark:text-orange-200 mb-4">
+            Diese Spiele konnten nicht vollständig erfasst werden und werden beim nächsten Durchlauf erneut versucht.
+          </p>
+          <div className="space-y-3">
+            {errorLog.failed_games.slice(0, 10).map((game) => (
+              <div key={game.game_id} className="p-3 bg-white dark:bg-slate-800 rounded-lg border border-orange-200 dark:border-orange-800">
+                <div className="flex items-start justify-between gap-2">
+                  <div className="flex-1">
+                    <p className="font-semibold text-gray-900 dark:text-gray-100">
+                      {game.home_team} vs {game.away_team}
+                    </p>
+                    <p className="text-sm text-gray-600 dark:text-gray-400">
+                      📅 {formatGameDate(game.date)} | 🏐 {game.liga_id}
+                    </p>
+                    <p className="text-xs text-orange-800 dark:text-orange-200 mt-1">
+                      ❌ {game.error}
+                    </p>
+                  </div>
+                  <div className="text-right">
+                    <span className="inline-block bg-gray-200 dark:bg-slate-700 px-2 py-1 rounded text-xs text-gray-700 dark:text-gray-300">
+                      Versuche: {game.retry_count + 1}
+                    </span>
+                  </div>
+                </div>
+              </div>
+            ))}
+            {errorLog.total_failed > 10 && (
+              <p className="text-sm text-orange-700 dark:text-orange-300 text-center pt-2">
+                ... und {errorLog.total_failed - 10} weitere Spiele
+              </p>
+            )}
+          </div>
+          <p className="text-xs text-orange-700 dark:text-orange-300 mt-4">
+            Zuletzt aktualisiert: {formatDate(errorLog.last_updated)}
+          </p>
+        </Card>
+      )}
 
       {/* Footer Info */}
       <Card className="p-4 bg-gray-50 dark:bg-slate-800">

@@ -201,9 +201,26 @@ jobs:
           git push origin data
           echo "✅ Data and error log pushed to data branch"
           
-          # Return to main branch for subsequent steps
+          # Return to main branch and reload data for build
           git checkout main
           echo "✅ Returned to main branch"
+          
+          # Reload fresh data from data branch for build step
+          echo "📥 Reloading data from data branch for build..."
+          mkdir -p /tmp/data_from_branch
+          cd /tmp/data_from_branch
+          git clone --branch data --depth 1 --single-branch https://github.com/${{ github.repository }}.git . 2>&1 || true
+          
+          if [ -d "frontend/public/data" ]; then
+            mkdir -p "${GITHUB_WORKSPACE}/frontend/public/data"
+            cp -r frontend/public/data/* "${GITHUB_WORKSPACE}/frontend/public/data/" 2>/dev/null || true
+            echo "✅ Fresh data reloaded from data branch"
+          else
+            echo "⚠️  No data found in data branch"
+          fi
+          
+          cd "${GITHUB_WORKSPACE}"
+          rm -rf /tmp/data_from_branch
           
           # Cleanup
           rm -rf "${GITHUB_WORKSPACE}/_data_branch"

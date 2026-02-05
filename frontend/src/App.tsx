@@ -13,6 +13,17 @@ import teamLogoUrl from '../public/team-logo.svg?url';
 
 function AppContent() {
     const { theme } = useTheme();
+    
+    // Detect basename at runtime for GitHub Pages compatibility
+    // GitHub Pages hosts at /username/repo-name/
+    const getBasename = (): string => {
+        // In production (GitHub Pages), use the configured base path
+        if (window.location.hostname.includes('github.io')) {
+            return '/handballnet_crawler';
+        }
+        // In development, use root
+        return '';
+    };
 
     // Apply theme class to HTML element
     useEffect(() => {
@@ -30,7 +41,7 @@ function AppContent() {
 
     return (
         <LeagueProvider>
-            <Router basename={import.meta.env.BASE_URL}>
+            <Router basename={getBasename()}>
                 <div className="min-h-screen bg-white dark:bg-slate-950 text-gray-900 dark:text-gray-100 transition-colors duration-300">
                     <div className="border-b border-gray-200 dark:border-slate-700 p-4">
                         <div className="flex justify-between items-center mb-4">

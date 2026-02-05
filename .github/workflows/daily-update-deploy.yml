@@ -132,13 +132,24 @@ jobs:
             exit 0
           fi
           
-          echo "📝 Committing game data changes..."
+          echo "📝 Pushing data to data branch..."
+          
+          # Clone data branch into temp directory
+          mkdir -p /tmp/data-push
+          cd /tmp/data-push
+          git clone --branch data --depth 1 https://github.com/${{ github.repository }}.git .
+          
+          # Copy new data from main working directory
+          mkdir -p frontend/public
+          cp -r $GITHUB_WORKSPACE/frontend/public/data/* frontend/public/data/ 2>/dev/null || mkdir -p frontend/public/data
+          
+          # Commit and push
+          git config user.name "GitHub Actions"
+          git config user.email "actions@github.com"
           git add frontend/public/data/
           git commit -m "chore: Update game data from scraper [skip ci]"
+          git push origin data
           
-          # Push directly to data branch
-          echo "📤 Pushing to data branch..."
-          git push origin HEAD:data
           echo "✅ Game data committed and pushed to data branch"
 
       # Build Frontend
@@ -147,6 +158,17 @@ jobs:
           echo "🔨 Building frontend..."
           pnpm run build
           echo "✅ Frontend built successfully"
+          
+          # Copy static assets from public folder (SVGs, icons, etc.)
+          echo "📦 Copying static assets..."
+          if [ -f "frontend/public/team-logo.svg" ]; then
+            cp frontend/public/team-logo.svg frontend/dist/team-logo.svg
+            echo "✅ Copied team-logo.svg"
+          fi
+          if [ -f "frontend/public/vite.svg" ]; then
+            cp frontend/public/vite.svg frontend/dist/vite.svg
+            echo "✅ Copied vite.svg"
+          fi
           
           # Copy config to dist
           # Use config/config.gh.json for production since public/config.json is git-ignored

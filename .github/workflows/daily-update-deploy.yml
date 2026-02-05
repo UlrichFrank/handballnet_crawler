@@ -131,43 +131,25 @@ jobs:
       - name: Commit and push game data to data branch
         shell: bash
         run: |
-          echo "📊 Comparing data changes..."
+          echo "📊 Checking data changes..."
           
           # Store paths for comparison
           NEW_DATA="${GITHUB_WORKSPACE}/frontend/public/data"
-          OLD_DATA="${GITHUB_WORKSPACE}/_data_branch/frontend/public/data"
           
-          # Check for actual differences (data or error log)
-          HAS_CHANGES=false
-          if [ ! -d "$OLD_DATA" ]; then
-            echo "ℹ️  First run: no previous data to compare"
-            HAS_CHANGES=true
-          else
-            NEW_FILES=$(find "$NEW_DATA" -type f 2>/dev/null | wc -l)
-            OLD_FILES=$(find "$OLD_DATA" -type f 2>/dev/null | wc -l)
-            
-            if [ "$NEW_FILES" -ne "$OLD_FILES" ]; then
-              echo "✅ File count changed: $OLD_FILES → $NEW_FILES"
-              HAS_CHANGES=true
-            elif ! diff -r "$OLD_DATA" "$NEW_DATA" > /dev/null 2>&1; then
-              echo "✅ Data changes detected"
-              HAS_CHANGES=true
-            else
-              echo "✅ No new game data changes detected"
-            fi
-          fi
-          
-          # Also check for error log changes
-          if [ -f "${GITHUB_WORKSPACE}/frontend/public/error_log.json" ]; then
-            echo "📋 Error log found - will be pushed"
-            HAS_CHANGES=true
-          fi
-          
-          # If no changes, skip push and cleanup
-          if [ "$HAS_CHANGES" = false ]; then
-            echo "✅ No changes to commit"
+          # Check if data exists after scraper
+          if [ ! -d "$NEW_DATA" ] || [ -z "$(find "$NEW_DATA" -type f 2>/dev/null)" ]; then
+            echo "⚠️  No game data found after scraper - skipping push"
             rm -rf "${GITHUB_WORKSPACE}/_data_branch"
             exit 0
+          fi
+          
+          echo "✅ Game data found: $(find "$NEW_DATA" -type f | wc -l) files"
+          
+          # Check if error log exists
+          HAS_ERROR_LOG=false
+          if [ -f "${GITHUB_WORKSPACE}/frontend/public/error_log.json" ]; then
+            echo "📋 Error log found"
+            HAS_ERROR_LOG=true
           fi
           
           # Configure git
@@ -175,55 +157,80 @@ jobs:
           git config user.name "GitHub Actions"
           git config user.email "actions@github.com"
           
+          # Save data to temp before switching branches
+          echo "💾 Saving data to temp location..."
+          mkdir -p /tmp/scraped_data
+          cp -r "$NEW_DATA"/* /tmp/scraped_data/ 2>/dev/null || true
+          
+          if [ $HAS_ERROR_LOG = true ]; then
+            cp "${GITHUB_WORKSPACE}/frontend/public/error_log.json" /tmp/scraped_data/error_log.json
+          fi
+          
           # Push to data branch
           echo "📝 Pushing data to data branch..."
           git fetch origin data
           git checkout data
           
-          # Copy game data
+          # Copy saved data into data branch
           mkdir -p frontend/public/data
-          cp -r "$NEW_DATA"/* frontend/public/data/ 2>/dev/null || true
+          cp -r /tmp/scraped_data/* frontend/public/data/ 2>/dev/null || true
           
-          # Copy error log if it exists
-          if [ -f "${GITHUB_WORKSPACE}/frontend/public/error_log.json" ]; then
-            cp "${GITHUB_WORKSPACE}/frontend/public/error_log.json" frontend/public/error_log.json
-            echo "✅ Copied error log"
+          # Verify data was copied
+          DATA_COUNT=$(find frontend/public/data -type f 2>/dev/null | wc -l)
+          if [ "$DATA_COUNT" -eq 0 ]; then
+            echo "❌ Failed to copy data to data branch"
+            cd "$GITHUB_WORKSPACE"
+            git checkout main
+            rm -rf "${GITHUB_WORKSPACE}/_data_branch" /tmp/scraped_data
+            exit 1
           fi
+          
+          echo "✅ Data copied: $DATA_COUNT files"
           
           # Add changes to git
           git add frontend/public/data/
-          if [ -f "frontend/public/error_log.json" ]; then
-            git add frontend/public/error_log.json
+          if [ $HAS_ERROR_LOG = true ]; then
+            git add frontend/public/data/error_log.json
             echo "📋 Error log added to commit"
           fi
           
-          git commit -m "chore: Update game data and error log from scraper [skip ci]"
-          git push origin data
-          echo "✅ Data and error log pushed to data branch"
+          # Check if there are changes to commit
+          if ! git diff --cached --quiet; then
+            git commit -m "chore: Update game data and error log from scraper [skip ci]"
+            git push origin data
+            echo "✅ Data and error log pushed to data branch"
+          else
+            echo "ℹ️  No new changes to commit"
+          fi
           
-          # Return to main branch and reload data for build
+          # Return to main branch
           git checkout main
           echo "✅ Returned to main branch"
           
-          # Reload fresh data from data branch for build step
-          echo "📥 Reloading data from data branch for build..."
-          mkdir -p /tmp/data_from_branch
-          cd /tmp/data_from_branch
-          git clone --branch data --depth 1 --single-branch https://github.com/${{ github.repository }}.git . 2>&1 || true
-          
-          if [ -d "frontend/public/data" ]; then
-            mkdir -p "${GITHUB_WORKSPACE}/frontend/public/data"
-            cp -r frontend/public/data/* "${GITHUB_WORKSPACE}/frontend/public/data/" 2>/dev/null || true
-            echo "✅ Fresh data reloaded from data branch"
+          # Ensure data exists for build (load from data branch if scraper had nothing)
+          echo "📥 Ensuring game data is available for build..."
+          if [ ! -d "frontend/public/data" ] || [ -z "$(find frontend/public/data -type f 2>/dev/null)" ]; then
+            echo "⚠️  No data in working directory - loading from data branch..."
+            mkdir -p /tmp/data_from_branch
+            cd /tmp/data_from_branch
+            git clone --branch data --depth 1 --single-branch https://github.com/${{ github.repository }}.git . 2>&1 | grep -E "Cloning|error" || true
+            
+            if [ -d "frontend/public/data" ]; then
+              mkdir -p "${GITHUB_WORKSPACE}/frontend/public/data"
+              cp -r frontend/public/data/* "${GITHUB_WORKSPACE}/frontend/public/data/" 2>/dev/null || true
+              echo "✅ Data loaded from data branch"
+            else
+              echo "⚠️  No data found in data branch either - build will proceed without data"
+            fi
+            
+            cd "${GITHUB_WORKSPACE}"
+            rm -rf /tmp/data_from_branch
           else
-            echo "⚠️  No data found in data branch"
+            echo "✅ Data already available"
           fi
           
-          cd "${GITHUB_WORKSPACE}"
-          rm -rf /tmp/data_from_branch
-          
           # Cleanup
-          rm -rf "${GITHUB_WORKSPACE}/_data_branch"
+          rm -rf "${GITHUB_WORKSPACE}/_data_branch" /tmp/scraped_data
 
       # Build Frontend
       - name: Build Frontend

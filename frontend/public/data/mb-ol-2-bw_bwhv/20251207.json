@@ -1,0 +1,844 @@
+{
+  "date": "20251207",
+  "games": [
+    {
+      "game_id": "handball4all.baden-wuerttemberg.8666356",
+      "order": 45,
+      "date": "So, 07.12.",
+      "home": {
+        "team_name": "TSV Deizisau",
+        "players": [
+          {
+            "name": "Lennard Schwab",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Fabian Lier",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Laurin Thal",
+            "goals": 0,
+            "two_min_penalties": 1,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Rafael Burkhardt",
+            "goals": 2,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Marvin Schreiner",
+            "goals": 1,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Laurent Haumann",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Luis Schmittner",
+            "goals": 10,
+            "two_min_penalties": 0,
+            "yellow_cards": 1,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 1,
+            "seven_meters_goals": 1
+          },
+          {
+            "name": "Finn Mittmann",
+            "goals": 3,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Leon Meier",
+            "goals": 7,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 4,
+            "seven_meters_goals": 3
+          },
+          {
+            "name": "Dennis Lachner",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Ben Rost",
+            "goals": 5,
+            "two_min_penalties": 1,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Richard Kemmer",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Lasse Fischer",
+            "goals": 6,
+            "two_min_penalties": 1,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          }
+        ]
+      },
+      "away": {
+        "team_name": "Team Stuttgart",
+        "players": [
+          {
+            "name": "Arne Kohlschreiber",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Leonard Blum",
+            "goals": 6,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 1,
+            "seven_meters_goals": 1
+          },
+          {
+            "name": "Hugo Frech",
+            "goals": 3,
+            "two_min_penalties": 1,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Lasse Dalferth",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "David Bieler",
+            "goals": 2,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Enric Pena Brossa",
+            "goals": 5,
+            "two_min_penalties": 1,
+            "yellow_cards": 1,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Adrian Zoric",
+            "goals": 4,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 1,
+            "blue_cards": 0,
+            "seven_meters": 1,
+            "seven_meters_goals": 1
+          },
+          {
+            "name": "Florian Leuze",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Jakob Baisch",
+            "goals": 5,
+            "two_min_penalties": 1,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Leopold Baisch",
+            "goals": 2,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 1,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Florian R\u00f6hl",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "David Herre",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Fabian Diekmann",
+            "goals": 4,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Samuel Birkle",
+            "goals": 1,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 1,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Lino Herz",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          }
+        ]
+      },
+      "goals_timeline": [
+        {
+          "minute": 0,
+          "second": 42,
+          "scorer": "Leon Meier",
+          "team": "home",
+          "team_abbrev": "TSV Deizisau",
+          "seven_meter": true
+        },
+        {
+          "minute": 1,
+          "second": 57,
+          "scorer": "Luis Schmittner",
+          "team": "home",
+          "team_abbrev": "TSV Deizisau",
+          "seven_meter": false
+        },
+        {
+          "minute": 3,
+          "second": 33,
+          "scorer": "Leonard Blum",
+          "team": "away",
+          "team_abbrev": "Team Stuttgart",
+          "seven_meter": false
+        },
+        {
+          "minute": 4,
+          "second": 53,
+          "scorer": "Enric Pena Brossa",
+          "team": "away",
+          "team_abbrev": "Team Stuttgart",
+          "seven_meter": false
+        },
+        {
+          "minute": 5,
+          "second": 3,
+          "scorer": "Luis Schmittner",
+          "team": "home",
+          "team_abbrev": "TSV Deizisau",
+          "seven_meter": false
+        },
+        {
+          "minute": 6,
+          "second": 17,
+          "scorer": "Leon Meier",
+          "team": "home",
+          "team_abbrev": "TSV Deizisau",
+          "seven_meter": true
+        },
+        {
+          "minute": 6,
+          "second": 34,
+          "scorer": "Jakob Baisch",
+          "team": "away",
+          "team_abbrev": "Team Stuttgart",
+          "seven_meter": false
+        },
+        {
+          "minute": 7,
+          "second": 56,
+          "scorer": "Jakob Baisch",
+          "team": "away",
+          "team_abbrev": "Team Stuttgart",
+          "seven_meter": false
+        },
+        {
+          "minute": 8,
+          "second": 32,
+          "scorer": "Luis Schmittner",
+          "team": "home",
+          "team_abbrev": "TSV Deizisau",
+          "seven_meter": false
+        },
+        {
+          "minute": 8,
+          "second": 40,
+          "scorer": "Enric Pena Brossa",
+          "team": "away",
+          "team_abbrev": "Team Stuttgart",
+          "seven_meter": false
+        },
+        {
+          "minute": 9,
+          "second": 46,
+          "scorer": "Luis Schmittner",
+          "team": "home",
+          "team_abbrev": "TSV Deizisau",
+          "seven_meter": false
+        },
+        {
+          "minute": 10,
+          "second": 36,
+          "scorer": "Leon Meier",
+          "team": "home",
+          "team_abbrev": "TSV Deizisau",
+          "seven_meter": false
+        },
+        {
+          "minute": 11,
+          "second": 18,
+          "scorer": "Enric Pena Brossa",
+          "team": "away",
+          "team_abbrev": "Team Stuttgart",
+          "seven_meter": false
+        },
+        {
+          "minute": 12,
+          "second": 15,
+          "scorer": "Luis Schmittner",
+          "team": "home",
+          "team_abbrev": "TSV Deizisau",
+          "seven_meter": false
+        },
+        {
+          "minute": 13,
+          "second": 10,
+          "scorer": "Samuel Birkle",
+          "team": "away",
+          "team_abbrev": "Team Stuttgart",
+          "seven_meter": false
+        },
+        {
+          "minute": 13,
+          "second": 19,
+          "scorer": "Lasse Fischer",
+          "team": "home",
+          "team_abbrev": "TSV Deizisau",
+          "seven_meter": false
+        },
+        {
+          "minute": 13,
+          "second": 55,
+          "scorer": "Adrian Zoric",
+          "team": "away",
+          "team_abbrev": "Team Stuttgart",
+          "seven_meter": false
+        },
+        {
+          "minute": 15,
+          "second": 2,
+          "scorer": "Adrian Zoric",
+          "team": "away",
+          "team_abbrev": "Team Stuttgart",
+          "seven_meter": true
+        },
+        {
+          "minute": 15,
+          "second": 21,
+          "scorer": "Lasse Fischer",
+          "team": "home",
+          "team_abbrev": "TSV Deizisau",
+          "seven_meter": false
+        },
+        {
+          "minute": 15,
+          "second": 43,
+          "scorer": "Hugo Frech",
+          "team": "away",
+          "team_abbrev": "Team Stuttgart",
+          "seven_meter": false
+        },
+        {
+          "minute": 16,
+          "second": 33,
+          "scorer": "Ben Rost",
+          "team": "home",
+          "team_abbrev": "TSV Deizisau",
+          "seven_meter": false
+        },
+        {
+          "minute": 16,
+          "second": 51,
+          "scorer": "Leonard Blum",
+          "team": "away",
+          "team_abbrev": "Team Stuttgart",
+          "seven_meter": false
+        },
+        {
+          "minute": 17,
+          "second": 58,
+          "scorer": "Leonard Blum",
+          "team": "away",
+          "team_abbrev": "Team Stuttgart",
+          "seven_meter": true
+        },
+        {
+          "minute": 18,
+          "second": 55,
+          "scorer": "Finn Mittmann",
+          "team": "home",
+          "team_abbrev": "TSV Deizisau",
+          "seven_meter": false
+        },
+        {
+          "minute": 19,
+          "second": 16,
+          "scorer": "David Bieler",
+          "team": "away",
+          "team_abbrev": "Team Stuttgart",
+          "seven_meter": false
+        },
+        {
+          "minute": 19,
+          "second": 29,
+          "scorer": "Finn Mittmann",
+          "team": "home",
+          "team_abbrev": "TSV Deizisau",
+          "seven_meter": false
+        },
+        {
+          "minute": 20,
+          "second": 57,
+          "scorer": "Hugo Frech",
+          "team": "away",
+          "team_abbrev": "Team Stuttgart",
+          "seven_meter": false
+        },
+        {
+          "minute": 21,
+          "second": 44,
+          "scorer": "Jakob Baisch",
+          "team": "away",
+          "team_abbrev": "Team Stuttgart",
+          "seven_meter": false
+        },
+        {
+          "minute": 22,
+          "second": 23,
+          "scorer": "Jakob Baisch",
+          "team": "away",
+          "team_abbrev": "Team Stuttgart",
+          "seven_meter": false
+        },
+        {
+          "minute": 22,
+          "second": 46,
+          "scorer": "Lasse Fischer",
+          "team": "home",
+          "team_abbrev": "TSV Deizisau",
+          "seven_meter": false
+        },
+        {
+          "minute": 22,
+          "second": 52,
+          "scorer": "Enric Pena Brossa",
+          "team": "away",
+          "team_abbrev": "Team Stuttgart",
+          "seven_meter": false
+        },
+        {
+          "minute": 23,
+          "second": 21,
+          "scorer": "Leon Meier",
+          "team": "home",
+          "team_abbrev": "TSV Deizisau",
+          "seven_meter": true
+        },
+        {
+          "minute": 23,
+          "second": 59,
+          "scorer": "Leonard Blum",
+          "team": "away",
+          "team_abbrev": "Team Stuttgart",
+          "seven_meter": false
+        },
+        {
+          "minute": 26,
+          "second": 39,
+          "scorer": "Ben Rost",
+          "team": "home",
+          "team_abbrev": "TSV Deizisau",
+          "seven_meter": false
+        },
+        {
+          "minute": 28,
+          "second": 47,
+          "scorer": "Luis Schmittner",
+          "team": "home",
+          "team_abbrev": "TSV Deizisau",
+          "seven_meter": false
+        },
+        {
+          "minute": 28,
+          "second": 55,
+          "scorer": "Enric Pena Brossa",
+          "team": "away",
+          "team_abbrev": "Team Stuttgart",
+          "seven_meter": false
+        },
+        {
+          "minute": 29,
+          "second": 22,
+          "scorer": "Marvin Schreiner",
+          "team": "home",
+          "team_abbrev": "TSV Deizisau",
+          "seven_meter": false
+        },
+        {
+          "minute": 29,
+          "second": 27,
+          "scorer": "Jakob Baisch",
+          "team": "away",
+          "team_abbrev": "Team Stuttgart",
+          "seven_meter": false
+        },
+        {
+          "minute": 29,
+          "second": 39,
+          "scorer": "Leon Meier",
+          "team": "home",
+          "team_abbrev": "TSV Deizisau",
+          "seven_meter": false
+        },
+        {
+          "minute": 30,
+          "second": 51,
+          "scorer": "Luis Schmittner",
+          "team": "home",
+          "team_abbrev": "TSV Deizisau",
+          "seven_meter": false
+        },
+        {
+          "minute": 31,
+          "second": 30,
+          "scorer": "Hugo Frech",
+          "team": "away",
+          "team_abbrev": "Team Stuttgart",
+          "seven_meter": false
+        },
+        {
+          "minute": 32,
+          "second": 19,
+          "scorer": "David Bieler",
+          "team": "away",
+          "team_abbrev": "Team Stuttgart",
+          "seven_meter": false
+        },
+        {
+          "minute": 32,
+          "second": 59,
+          "scorer": "Leon Meier",
+          "team": "home",
+          "team_abbrev": "TSV Deizisau",
+          "seven_meter": false
+        },
+        {
+          "minute": 33,
+          "second": 32,
+          "scorer": "Rafael Burkhardt",
+          "team": "home",
+          "team_abbrev": "TSV Deizisau",
+          "seven_meter": false
+        },
+        {
+          "minute": 34,
+          "second": 59,
+          "scorer": "Luis Schmittner",
+          "team": "home",
+          "team_abbrev": "TSV Deizisau",
+          "seven_meter": false
+        },
+        {
+          "minute": 35,
+          "second": 46,
+          "scorer": "Fabian Diekmann",
+          "team": "away",
+          "team_abbrev": "Team Stuttgart",
+          "seven_meter": false
+        },
+        {
+          "minute": 36,
+          "second": 8,
+          "scorer": "Rafael Burkhardt",
+          "team": "home",
+          "team_abbrev": "TSV Deizisau",
+          "seven_meter": false
+        },
+        {
+          "minute": 37,
+          "second": 17,
+          "scorer": "Leonard Blum",
+          "team": "away",
+          "team_abbrev": "Team Stuttgart",
+          "seven_meter": false
+        },
+        {
+          "minute": 38,
+          "second": 0,
+          "scorer": "Leon Meier",
+          "team": "home",
+          "team_abbrev": "TSV Deizisau",
+          "seven_meter": false
+        },
+        {
+          "minute": 38,
+          "second": 19,
+          "scorer": "Leonard Blum",
+          "team": "away",
+          "team_abbrev": "Team Stuttgart",
+          "seven_meter": false
+        },
+        {
+          "minute": 39,
+          "second": 34,
+          "scorer": "Fabian Diekmann",
+          "team": "away",
+          "team_abbrev": "Team Stuttgart",
+          "seven_meter": false
+        },
+        {
+          "minute": 39,
+          "second": 55,
+          "scorer": "Ben Rost",
+          "team": "home",
+          "team_abbrev": "TSV Deizisau",
+          "seven_meter": false
+        },
+        {
+          "minute": 41,
+          "second": 26,
+          "scorer": "Ben Rost",
+          "team": "home",
+          "team_abbrev": "TSV Deizisau",
+          "seven_meter": false
+        },
+        {
+          "minute": 41,
+          "second": 46,
+          "scorer": "Fabian Diekmann",
+          "team": "away",
+          "team_abbrev": "Team Stuttgart",
+          "seven_meter": false
+        },
+        {
+          "minute": 42,
+          "second": 45,
+          "scorer": "Lasse Fischer",
+          "team": "home",
+          "team_abbrev": "TSV Deizisau",
+          "seven_meter": false
+        },
+        {
+          "minute": 43,
+          "second": 25,
+          "scorer": "Luis Schmittner",
+          "team": "home",
+          "team_abbrev": "TSV Deizisau",
+          "seven_meter": false
+        },
+        {
+          "minute": 44,
+          "second": 4,
+          "scorer": "Finn Mittmann",
+          "team": "home",
+          "team_abbrev": "TSV Deizisau",
+          "seven_meter": false
+        },
+        {
+          "minute": 44,
+          "second": 19,
+          "scorer": "Leopold Baisch",
+          "team": "away",
+          "team_abbrev": "Team Stuttgart",
+          "seven_meter": false
+        },
+        {
+          "minute": 45,
+          "second": 32,
+          "scorer": "Leopold Baisch",
+          "team": "away",
+          "team_abbrev": "Team Stuttgart",
+          "seven_meter": false
+        },
+        {
+          "minute": 46,
+          "second": 32,
+          "scorer": "Adrian Zoric",
+          "team": "away",
+          "team_abbrev": "Team Stuttgart",
+          "seven_meter": false
+        },
+        {
+          "minute": 47,
+          "second": 9,
+          "scorer": "Adrian Zoric",
+          "team": "away",
+          "team_abbrev": "Team Stuttgart",
+          "seven_meter": false
+        },
+        {
+          "minute": 47,
+          "second": 39,
+          "scorer": "Ben Rost",
+          "team": "home",
+          "team_abbrev": "TSV Deizisau",
+          "seven_meter": false
+        },
+        {
+          "minute": 48,
+          "second": 31,
+          "scorer": "Lasse Fischer",
+          "team": "home",
+          "team_abbrev": "TSV Deizisau",
+          "seven_meter": false
+        },
+        {
+          "minute": 48,
+          "second": 50,
+          "scorer": "Lasse Fischer",
+          "team": "home",
+          "team_abbrev": "TSV Deizisau",
+          "seven_meter": false
+        },
+        {
+          "minute": 49,
+          "second": 7,
+          "scorer": "Fabian Diekmann",
+          "team": "away",
+          "team_abbrev": "Team Stuttgart",
+          "seven_meter": false
+        },
+        {
+          "minute": 49,
+          "second": 49,
+          "scorer": "Luis Schmittner",
+          "team": "home",
+          "team_abbrev": "TSV Deizisau",
+          "seven_meter": true
+        }
+      ],
+      "final_score": "34:32",
+      "half_duration": 30,
+      "officials": {
+        "referees": [
+          "Marc Schmutz"
+        ],
+        "timekeepers": [
+          "Markus Meier"
+        ],
+        "secretaries": [
+          "Manuel Birkle"
+        ]
+      },
+      "graphic_path": "output/graphics/TSV_Deizisau_vs_Team_Stuttgart_So_0712.png"
+    }
+  ]
+}

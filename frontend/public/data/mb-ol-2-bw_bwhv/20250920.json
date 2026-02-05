@@ -1,0 +1,591 @@
+{
+  "date": "20250920",
+  "games": [
+    {
+      "game_id": "handball4all.baden-wuerttemberg.8666096",
+      "order": 0,
+      "date": "Sa, 20.09.",
+      "home": {
+        "team_name": "TSV K\u00f6ngen",
+        "players": [
+          {
+            "name": "Mats Sch\u00f6ll",
+            "goals": 1,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Felix Rosen\u00e4cker",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Theo Sterr",
+            "goals": 2,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Malte Lentzen",
+            "goals": 0,
+            "two_min_penalties": 1,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Jan Schulz",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Marian Siegel",
+            "goals": 13,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 5,
+            "seven_meters_goals": 4
+          },
+          {
+            "name": "Leon Winterling",
+            "goals": 1,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Tristan Paul Hurst",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Tobias Schnaidt",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Jannik Ziegler",
+            "goals": 3,
+            "two_min_penalties": 1,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Niklas T\u00f6pler",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          }
+        ]
+      },
+      "away": {
+        "team_name": "TV Bittenfeld 1898 2",
+        "players": [
+          {
+            "name": "David M\u00f6dinger",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Julius Schanbacher",
+            "goals": 3,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Louis Harder",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Lionel Koch",
+            "goals": 1,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Lenny Burek",
+            "goals": 1,
+            "two_min_penalties": 0,
+            "yellow_cards": 1,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Felix Panek",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Benny Ennemoser",
+            "goals": 0,
+            "two_min_penalties": 1,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Benjamin B\u00f6ckmann",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Paul Kraisel",
+            "goals": 2,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 2,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Moritz Panten",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Felix Kl\u00f6pfer",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Max Hess",
+            "goals": 5,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Jann Wasmer",
+            "goals": 1,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Fabian Mutschler",
+            "goals": 5,
+            "two_min_penalties": 1,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          }
+        ]
+      },
+      "goals_timeline": [
+        {
+          "minute": 2,
+          "second": 22,
+          "scorer": "Fabian Mutschler",
+          "team": "home",
+          "team_abbrev": "TV Bittenfeld 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 3,
+          "second": 47,
+          "scorer": "Theo Sterr",
+          "team": "away",
+          "team_abbrev": "TSV K\u00f6ngen",
+          "seven_meter": false
+        },
+        {
+          "minute": 4,
+          "second": 45,
+          "scorer": "Max Hess",
+          "team": "home",
+          "team_abbrev": "TV Bittenfeld 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 5,
+          "second": 17,
+          "scorer": "Paul Kraisel",
+          "team": "home",
+          "team_abbrev": "TV Bittenfeld 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 6,
+          "second": 5,
+          "scorer": "Max Hess",
+          "team": "home",
+          "team_abbrev": "TV Bittenfeld 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 6,
+          "second": 43,
+          "scorer": "Fabian Mutschler",
+          "team": "home",
+          "team_abbrev": "TV Bittenfeld 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 7,
+          "second": 30,
+          "scorer": "Marian Siegel",
+          "team": "away",
+          "team_abbrev": "TSV K\u00f6ngen",
+          "seven_meter": false
+        },
+        {
+          "minute": 7,
+          "second": 53,
+          "scorer": "Fabian Mutschler",
+          "team": "home",
+          "team_abbrev": "TV Bittenfeld 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 9,
+          "second": 20,
+          "scorer": "Jannik Ziegler",
+          "team": "away",
+          "team_abbrev": "TSV K\u00f6ngen",
+          "seven_meter": false
+        },
+        {
+          "minute": 9,
+          "second": 53,
+          "scorer": "Marian Siegel",
+          "team": "away",
+          "team_abbrev": "TSV K\u00f6ngen",
+          "seven_meter": false
+        },
+        {
+          "minute": 10,
+          "second": 49,
+          "scorer": "Marian Siegel",
+          "team": "away",
+          "team_abbrev": "TSV K\u00f6ngen",
+          "seven_meter": true
+        },
+        {
+          "minute": 12,
+          "second": 1,
+          "scorer": "Marian Siegel",
+          "team": "away",
+          "team_abbrev": "TSV K\u00f6ngen",
+          "seven_meter": false
+        },
+        {
+          "minute": 15,
+          "second": 14,
+          "scorer": "Julius Schanbacher",
+          "team": "home",
+          "team_abbrev": "TV Bittenfeld 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 15,
+          "second": 28,
+          "scorer": "Mats Sch\u00f6ll",
+          "team": "away",
+          "team_abbrev": "TSV K\u00f6ngen",
+          "seven_meter": false
+        },
+        {
+          "minute": 16,
+          "second": 24,
+          "scorer": "Marian Siegel",
+          "team": "away",
+          "team_abbrev": "TSV K\u00f6ngen",
+          "seven_meter": false
+        },
+        {
+          "minute": 17,
+          "second": 53,
+          "scorer": "Julius Schanbacher",
+          "team": "home",
+          "team_abbrev": "TV Bittenfeld 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 19,
+          "second": 32,
+          "scorer": "Jann Wasmer",
+          "team": "home",
+          "team_abbrev": "TV Bittenfeld 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 20,
+          "second": 25,
+          "scorer": "Marian Siegel",
+          "team": "away",
+          "team_abbrev": "TSV K\u00f6ngen",
+          "seven_meter": false
+        },
+        {
+          "minute": 23,
+          "second": 38,
+          "scorer": "Julius Schanbacher",
+          "team": "home",
+          "team_abbrev": "TV Bittenfeld 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 24,
+          "second": 29,
+          "scorer": "Lenny Burek",
+          "team": "home",
+          "team_abbrev": "TV Bittenfeld 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 25,
+          "second": 0,
+          "scorer": "Jannik Ziegler",
+          "team": "away",
+          "team_abbrev": "TSV K\u00f6ngen",
+          "seven_meter": false
+        },
+        {
+          "minute": 27,
+          "second": 33,
+          "scorer": "Marian Siegel",
+          "team": "away",
+          "team_abbrev": "TSV K\u00f6ngen",
+          "seven_meter": true
+        },
+        {
+          "minute": 28,
+          "second": 58,
+          "scorer": "Marian Siegel",
+          "team": "away",
+          "team_abbrev": "TSV K\u00f6ngen",
+          "seven_meter": true
+        },
+        {
+          "minute": 31,
+          "second": 15,
+          "scorer": "Jannik Ziegler",
+          "team": "away",
+          "team_abbrev": "TSV K\u00f6ngen",
+          "seven_meter": false
+        },
+        {
+          "minute": 31,
+          "second": 58,
+          "scorer": "Lionel Koch",
+          "team": "home",
+          "team_abbrev": "TV Bittenfeld 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 36,
+          "second": 0,
+          "scorer": "Marian Siegel",
+          "team": "away",
+          "team_abbrev": "TSV K\u00f6ngen",
+          "seven_meter": true
+        },
+        {
+          "minute": 36,
+          "second": 57,
+          "scorer": "Marian Siegel",
+          "team": "away",
+          "team_abbrev": "TSV K\u00f6ngen",
+          "seven_meter": false
+        },
+        {
+          "minute": 38,
+          "second": 44,
+          "scorer": "Fabian Mutschler",
+          "team": "home",
+          "team_abbrev": "TV Bittenfeld 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 39,
+          "second": 8,
+          "scorer": "Marian Siegel",
+          "team": "away",
+          "team_abbrev": "TSV K\u00f6ngen",
+          "seven_meter": false
+        },
+        {
+          "minute": 40,
+          "second": 18,
+          "scorer": "Fabian Mutschler",
+          "team": "home",
+          "team_abbrev": "TV Bittenfeld 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 43,
+          "second": 15,
+          "scorer": "Marian Siegel",
+          "team": "away",
+          "team_abbrev": "TSV K\u00f6ngen",
+          "seven_meter": false
+        },
+        {
+          "minute": 43,
+          "second": 33,
+          "scorer": "Max Hess",
+          "team": "home",
+          "team_abbrev": "TV Bittenfeld 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 45,
+          "second": 6,
+          "scorer": "Theo Sterr",
+          "team": "away",
+          "team_abbrev": "TSV K\u00f6ngen",
+          "seven_meter": false
+        },
+        {
+          "minute": 45,
+          "second": 35,
+          "scorer": "Leon Winterling",
+          "team": "away",
+          "team_abbrev": "TSV K\u00f6ngen",
+          "seven_meter": false
+        },
+        {
+          "minute": 46,
+          "second": 20,
+          "scorer": "Paul Kraisel",
+          "team": "home",
+          "team_abbrev": "TV Bittenfeld 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 47,
+          "second": 3,
+          "scorer": "Max Hess",
+          "team": "home",
+          "team_abbrev": "TV Bittenfeld 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 48,
+          "second": 44,
+          "scorer": "Max Hess",
+          "team": "home",
+          "team_abbrev": "TV Bittenfeld 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 49,
+          "second": 22,
+          "scorer": "Marian Siegel",
+          "team": "away",
+          "team_abbrev": "TSV K\u00f6ngen",
+          "seven_meter": false
+        }
+      ],
+      "final_score": "18:20",
+      "half_duration": 30,
+      "officials": {
+        "referees": [
+          "Murat Ertugrul",
+          "Kaan Ertugrul"
+        ],
+        "timekeepers": [
+          "Sofie Maisch"
+        ],
+        "secretaries": [
+          "Martin B\u00f6ckmann"
+        ]
+      },
+      "graphic_path": "output/graphics/TSV_K\u00f6ngen_vs_TV_Bittenfeld_1898_2_Sa_2009.png"
+    }
+  ]
+}

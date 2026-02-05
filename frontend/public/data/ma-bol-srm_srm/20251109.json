@@ -1,0 +1,742 @@
+{
+  "date": "20251109",
+  "games": [
+    {
+      "game_id": "handball4all.baden-wuerttemberg.8849332",
+      "order": 22,
+      "date": "So, 09.11.",
+      "home": {
+        "team_name": "SG Weinstadt",
+        "players": [
+          {
+            "name": "Urs Friedrich",
+            "goals": 1,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Linus Bohnert",
+            "goals": 3,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Hannes Streich",
+            "goals": 3,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Pashalis Gikas",
+            "goals": 4,
+            "two_min_penalties": 0,
+            "yellow_cards": 1,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Henry Hayler",
+            "goals": 6,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Sven Rudnik",
+            "goals": 5,
+            "two_min_penalties": 1,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Tim Kauer",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Jan Pr\u00f6bsting",
+            "goals": 0,
+            "two_min_penalties": 1,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Paul Schmidt",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Niklas Braun",
+            "goals": 7,
+            "two_min_penalties": 0,
+            "yellow_cards": 1,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 1,
+            "seven_meters_goals": 1
+          },
+          {
+            "name": "Benjamin Heinrichs",
+            "goals": 1,
+            "two_min_penalties": 0,
+            "yellow_cards": 1,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Maximilian Staudinger",
+            "goals": 5,
+            "two_min_penalties": 1,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Levin Kaiser",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          }
+        ]
+      },
+      "away": {
+        "team_name": "HC Oppenweiler/Backnang",
+        "players": [
+          {
+            "name": "Marlon Meinecke",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Emil Volz",
+            "goals": 1,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Tim Rau",
+            "goals": 1,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Julian Nowotny",
+            "goals": 2,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Sebastian Uhl",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Mark Andrej",
+            "goals": 4,
+            "two_min_penalties": 0,
+            "yellow_cards": 1,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Robert Weiz",
+            "goals": 2,
+            "two_min_penalties": 0,
+            "yellow_cards": 1,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Felix Noll",
+            "goals": 2,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Jannik Zeeb",
+            "goals": 0,
+            "two_min_penalties": 1,
+            "yellow_cards": 1,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Finn Beck",
+            "goals": 1,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Xaver Beck",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Bennet Grotzke",
+            "goals": 9,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 4,
+            "seven_meters_goals": 4
+          }
+        ]
+      },
+      "goals_timeline": [
+        {
+          "minute": 0,
+          "second": 42,
+          "scorer": "Pashalis Gikas",
+          "team": "home",
+          "team_abbrev": "SG Weinstadt",
+          "seven_meter": false
+        },
+        {
+          "minute": 1,
+          "second": 47,
+          "scorer": "Henry Hayler",
+          "team": "home",
+          "team_abbrev": "SG Weinstadt",
+          "seven_meter": false
+        },
+        {
+          "minute": 3,
+          "second": 13,
+          "scorer": "Bennet Grotzke",
+          "team": "away",
+          "team_abbrev": "HCOB Opp/BK",
+          "seven_meter": false
+        },
+        {
+          "minute": 3,
+          "second": 22,
+          "scorer": "Sven Rudnik",
+          "team": "home",
+          "team_abbrev": "SG Weinstadt",
+          "seven_meter": false
+        },
+        {
+          "minute": 4,
+          "second": 51,
+          "scorer": "Niklas Braun",
+          "team": "home",
+          "team_abbrev": "SG Weinstadt",
+          "seven_meter": false
+        },
+        {
+          "minute": 5,
+          "second": 20,
+          "scorer": "Bennet Grotzke",
+          "team": "away",
+          "team_abbrev": "HCOB Opp/BK",
+          "seven_meter": false
+        },
+        {
+          "minute": 5,
+          "second": 48,
+          "scorer": "Bennet Grotzke",
+          "team": "away",
+          "team_abbrev": "HCOB Opp/BK",
+          "seven_meter": false
+        },
+        {
+          "minute": 6,
+          "second": 43,
+          "scorer": "Niklas Braun",
+          "team": "home",
+          "team_abbrev": "SG Weinstadt",
+          "seven_meter": true
+        },
+        {
+          "minute": 7,
+          "second": 2,
+          "scorer": "Pashalis Gikas",
+          "team": "home",
+          "team_abbrev": "SG Weinstadt",
+          "seven_meter": false
+        },
+        {
+          "minute": 8,
+          "second": 31,
+          "scorer": "Sven Rudnik",
+          "team": "home",
+          "team_abbrev": "SG Weinstadt",
+          "seven_meter": false
+        },
+        {
+          "minute": 8,
+          "second": 54,
+          "scorer": "Robert Weiz",
+          "team": "away",
+          "team_abbrev": "HCOB Opp/BK",
+          "seven_meter": false
+        },
+        {
+          "minute": 9,
+          "second": 28,
+          "scorer": "Sven Rudnik",
+          "team": "home",
+          "team_abbrev": "SG Weinstadt",
+          "seven_meter": false
+        },
+        {
+          "minute": 9,
+          "second": 51,
+          "scorer": "Mark Andrej",
+          "team": "away",
+          "team_abbrev": "HCOB Opp/BK",
+          "seven_meter": false
+        },
+        {
+          "minute": 10,
+          "second": 56,
+          "scorer": "Sven Rudnik",
+          "team": "home",
+          "team_abbrev": "SG Weinstadt",
+          "seven_meter": false
+        },
+        {
+          "minute": 13,
+          "second": 22,
+          "scorer": "Niklas Braun",
+          "team": "home",
+          "team_abbrev": "SG Weinstadt",
+          "seven_meter": false
+        },
+        {
+          "minute": 13,
+          "second": 49,
+          "scorer": "Mark Andrej",
+          "team": "away",
+          "team_abbrev": "HCOB Opp/BK",
+          "seven_meter": false
+        },
+        {
+          "minute": 14,
+          "second": 39,
+          "scorer": "Hannes Streich",
+          "team": "home",
+          "team_abbrev": "SG Weinstadt",
+          "seven_meter": false
+        },
+        {
+          "minute": 15,
+          "second": 39,
+          "scorer": "Pashalis Gikas",
+          "team": "home",
+          "team_abbrev": "SG Weinstadt",
+          "seven_meter": false
+        },
+        {
+          "minute": 16,
+          "second": 11,
+          "scorer": "Bennet Grotzke",
+          "team": "away",
+          "team_abbrev": "HCOB Opp/BK",
+          "seven_meter": false
+        },
+        {
+          "minute": 16,
+          "second": 22,
+          "scorer": "Niklas Braun",
+          "team": "home",
+          "team_abbrev": "SG Weinstadt",
+          "seven_meter": false
+        },
+        {
+          "minute": 21,
+          "second": 35,
+          "scorer": "Bennet Grotzke",
+          "team": "away",
+          "team_abbrev": "HCOB Opp/BK",
+          "seven_meter": true
+        },
+        {
+          "minute": 22,
+          "second": 6,
+          "scorer": "Maximilian Staudinger",
+          "team": "home",
+          "team_abbrev": "SG Weinstadt",
+          "seven_meter": false
+        },
+        {
+          "minute": 22,
+          "second": 10,
+          "scorer": "Maximilian Staudinger",
+          "team": "home",
+          "team_abbrev": "SG Weinstadt",
+          "seven_meter": false
+        },
+        {
+          "minute": 22,
+          "second": 48,
+          "scorer": "Julian Nowotny",
+          "team": "away",
+          "team_abbrev": "HCOB Opp/BK",
+          "seven_meter": false
+        },
+        {
+          "minute": 23,
+          "second": 8,
+          "scorer": "Julian Nowotny",
+          "team": "away",
+          "team_abbrev": "HCOB Opp/BK",
+          "seven_meter": false
+        },
+        {
+          "minute": 23,
+          "second": 57,
+          "scorer": "Henry Hayler",
+          "team": "home",
+          "team_abbrev": "SG Weinstadt",
+          "seven_meter": false
+        },
+        {
+          "minute": 24,
+          "second": 55,
+          "scorer": "Finn Beck",
+          "team": "away",
+          "team_abbrev": "HCOB Opp/BK",
+          "seven_meter": false
+        },
+        {
+          "minute": 26,
+          "second": 21,
+          "scorer": "Mark Andrej",
+          "team": "away",
+          "team_abbrev": "HCOB Opp/BK",
+          "seven_meter": false
+        },
+        {
+          "minute": 28,
+          "second": 7,
+          "scorer": "Bennet Grotzke",
+          "team": "away",
+          "team_abbrev": "HCOB Opp/BK",
+          "seven_meter": true
+        },
+        {
+          "minute": 30,
+          "second": 0,
+          "scorer": "Maximilian Staudinger",
+          "team": "home",
+          "team_abbrev": "SG Weinstadt",
+          "seven_meter": false
+        },
+        {
+          "minute": 31,
+          "second": 16,
+          "scorer": "Pashalis Gikas",
+          "team": "home",
+          "team_abbrev": "SG Weinstadt",
+          "seven_meter": false
+        },
+        {
+          "minute": 31,
+          "second": 27,
+          "scorer": "Tim Rau",
+          "team": "away",
+          "team_abbrev": "HCOB Opp/BK",
+          "seven_meter": false
+        },
+        {
+          "minute": 34,
+          "second": 6,
+          "scorer": "Benjamin Heinrichs",
+          "team": "home",
+          "team_abbrev": "SG Weinstadt",
+          "seven_meter": false
+        },
+        {
+          "minute": 35,
+          "second": 1,
+          "scorer": "Niklas Braun",
+          "team": "home",
+          "team_abbrev": "SG Weinstadt",
+          "seven_meter": false
+        },
+        {
+          "minute": 37,
+          "second": 20,
+          "scorer": "Niklas Braun",
+          "team": "home",
+          "team_abbrev": "SG Weinstadt",
+          "seven_meter": false
+        },
+        {
+          "minute": 37,
+          "second": 29,
+          "scorer": "Bennet Grotzke",
+          "team": "away",
+          "team_abbrev": "HCOB Opp/BK",
+          "seven_meter": true
+        },
+        {
+          "minute": 38,
+          "second": 32,
+          "scorer": "Niklas Braun",
+          "team": "home",
+          "team_abbrev": "SG Weinstadt",
+          "seven_meter": false
+        },
+        {
+          "minute": 42,
+          "second": 54,
+          "scorer": "Henry Hayler",
+          "team": "home",
+          "team_abbrev": "SG Weinstadt",
+          "seven_meter": false
+        },
+        {
+          "minute": 43,
+          "second": 17,
+          "scorer": "Felix Noll",
+          "team": "away",
+          "team_abbrev": "HCOB Opp/BK",
+          "seven_meter": false
+        },
+        {
+          "minute": 43,
+          "second": 42,
+          "scorer": "Maximilian Staudinger",
+          "team": "home",
+          "team_abbrev": "SG Weinstadt",
+          "seven_meter": false
+        },
+        {
+          "minute": 45,
+          "second": 35,
+          "scorer": "Sven Rudnik",
+          "team": "home",
+          "team_abbrev": "SG Weinstadt",
+          "seven_meter": false
+        },
+        {
+          "minute": 46,
+          "second": 51,
+          "scorer": "Bennet Grotzke",
+          "team": "away",
+          "team_abbrev": "HCOB Opp/BK",
+          "seven_meter": true
+        },
+        {
+          "minute": 47,
+          "second": 24,
+          "scorer": "Bennet Grotzke",
+          "team": "away",
+          "team_abbrev": "HCOB Opp/BK",
+          "seven_meter": false
+        },
+        {
+          "minute": 47,
+          "second": 36,
+          "scorer": "Maximilian Staudinger",
+          "team": "home",
+          "team_abbrev": "SG Weinstadt",
+          "seven_meter": false
+        },
+        {
+          "minute": 47,
+          "second": 47,
+          "scorer": "Felix Noll",
+          "team": "away",
+          "team_abbrev": "HCOB Opp/BK",
+          "seven_meter": false
+        },
+        {
+          "minute": 49,
+          "second": 49,
+          "scorer": "Henry Hayler",
+          "team": "home",
+          "team_abbrev": "SG Weinstadt",
+          "seven_meter": false
+        },
+        {
+          "minute": 50,
+          "second": 6,
+          "scorer": "Robert Weiz",
+          "team": "away",
+          "team_abbrev": "HCOB Opp/BK",
+          "seven_meter": false
+        },
+        {
+          "minute": 51,
+          "second": 44,
+          "scorer": "Henry Hayler",
+          "team": "home",
+          "team_abbrev": "SG Weinstadt",
+          "seven_meter": false
+        },
+        {
+          "minute": 52,
+          "second": 16,
+          "scorer": "Emil Volz",
+          "team": "away",
+          "team_abbrev": "HCOB Opp/BK",
+          "seven_meter": false
+        },
+        {
+          "minute": 52,
+          "second": 50,
+          "scorer": "Mark Andrej",
+          "team": "away",
+          "team_abbrev": "HCOB Opp/BK",
+          "seven_meter": false
+        },
+        {
+          "minute": 53,
+          "second": 9,
+          "scorer": "Linus Bohnert",
+          "team": "home",
+          "team_abbrev": "SG Weinstadt",
+          "seven_meter": false
+        },
+        {
+          "minute": 53,
+          "second": 58,
+          "scorer": "Urs Friedrich",
+          "team": "home",
+          "team_abbrev": "SG Weinstadt",
+          "seven_meter": false
+        },
+        {
+          "minute": 54,
+          "second": 24,
+          "scorer": "Linus Bohnert",
+          "team": "home",
+          "team_abbrev": "SG Weinstadt",
+          "seven_meter": false
+        },
+        {
+          "minute": 55,
+          "second": 5,
+          "scorer": "Henry Hayler",
+          "team": "home",
+          "team_abbrev": "SG Weinstadt",
+          "seven_meter": false
+        },
+        {
+          "minute": 55,
+          "second": 57,
+          "scorer": "Linus Bohnert",
+          "team": "home",
+          "team_abbrev": "SG Weinstadt",
+          "seven_meter": false
+        },
+        {
+          "minute": 58,
+          "second": 18,
+          "scorer": "Hannes Streich",
+          "team": "home",
+          "team_abbrev": "SG Weinstadt",
+          "seven_meter": false
+        },
+        {
+          "minute": 59,
+          "second": 44,
+          "scorer": "Hannes Streich",
+          "team": "home",
+          "team_abbrev": "SG Weinstadt",
+          "seven_meter": false
+        }
+      ],
+      "final_score": "35:22",
+      "half_duration": 30,
+      "officials": {
+        "referees": [
+          "Eleni Koukidou"
+        ],
+        "timekeepers": [
+          "Christian Friedrich"
+        ],
+        "secretaries": [
+          "Christoph Noll"
+        ]
+      },
+      "graphic_path": "output/graphics/SG_Weinstadt_vs_HC_Oppenweiler_Backn_So_0911.png"
+    }
+  ]
+}

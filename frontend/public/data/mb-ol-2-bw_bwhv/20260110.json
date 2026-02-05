@@ -1,0 +1,871 @@
+{
+  "date": "20260110",
+  "games": [
+    {
+      "game_id": "handball4all.baden-wuerttemberg.8666106",
+      "order": 53,
+      "date": "Sa, 10.01.",
+      "home": {
+        "team_name": "TSV Deizisau",
+        "players": [
+          {
+            "name": "Sebastian Witty",
+            "goals": 3,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Laurin Thal",
+            "goals": 1,
+            "two_min_penalties": 1,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Rafael Burkhardt",
+            "goals": 2,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Marvin Schreiner",
+            "goals": 1,
+            "two_min_penalties": 1,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "David Br\u00f6mmer",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Luis Schmittner",
+            "goals": 6,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 3,
+            "seven_meters_goals": 2
+          },
+          {
+            "name": "Finn Mittmann",
+            "goals": 1,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Leon Meier",
+            "goals": 4,
+            "two_min_penalties": 1,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Dennis Lachner",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Ben Rost",
+            "goals": 5,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Richard Kemmer",
+            "goals": 1,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Lasse Fischer",
+            "goals": 12,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          }
+        ]
+      },
+      "away": {
+        "team_name": "JSG Stuttgart Waldau",
+        "players": [
+          {
+            "name": "Tom Heldrich",
+            "goals": 7,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 1,
+            "seven_meters_goals": 1
+          },
+          {
+            "name": "Paul Schoewe",
+            "goals": 5,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 1,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Elias B\u00fchler",
+            "goals": 4,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Adrian Hamm",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Lukas Spitznagel",
+            "goals": 1,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Theo Fetzer",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Oskar Eder",
+            "goals": 11,
+            "two_min_penalties": 1,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Valerio Koppany Gomez",
+            "goals": 5,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Antoine Galy",
+            "goals": 4,
+            "two_min_penalties": 1,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Lars Kienle",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Luis Tempel Luque",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Moritz Weber",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Alfons Stahl",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          }
+        ]
+      },
+      "goals_timeline": [
+        {
+          "minute": 1,
+          "second": 13,
+          "scorer": "Paul Schoewe",
+          "team": "home",
+          "team_abbrev": "JSG Waldau",
+          "seven_meter": false
+        },
+        {
+          "minute": 1,
+          "second": 53,
+          "scorer": "Luis Schmittner",
+          "team": "away",
+          "team_abbrev": "TSV Deizisau",
+          "seven_meter": false
+        },
+        {
+          "minute": 2,
+          "second": 13,
+          "scorer": "Oskar Eder",
+          "team": "home",
+          "team_abbrev": "JSG Waldau",
+          "seven_meter": false
+        },
+        {
+          "minute": 3,
+          "second": 2,
+          "scorer": "Oskar Eder",
+          "team": "home",
+          "team_abbrev": "JSG Waldau",
+          "seven_meter": false
+        },
+        {
+          "minute": 3,
+          "second": 56,
+          "scorer": "Antoine Galy",
+          "team": "home",
+          "team_abbrev": "JSG Waldau",
+          "seven_meter": false
+        },
+        {
+          "minute": 4,
+          "second": 21,
+          "scorer": "Lasse Fischer",
+          "team": "away",
+          "team_abbrev": "TSV Deizisau",
+          "seven_meter": false
+        },
+        {
+          "minute": 4,
+          "second": 56,
+          "scorer": "Rafael Burkhardt",
+          "team": "away",
+          "team_abbrev": "TSV Deizisau",
+          "seven_meter": false
+        },
+        {
+          "minute": 5,
+          "second": 17,
+          "scorer": "Tom Heldrich",
+          "team": "home",
+          "team_abbrev": "JSG Waldau",
+          "seven_meter": false
+        },
+        {
+          "minute": 5,
+          "second": 27,
+          "scorer": "Rafael Burkhardt",
+          "team": "away",
+          "team_abbrev": "TSV Deizisau",
+          "seven_meter": false
+        },
+        {
+          "minute": 7,
+          "second": 26,
+          "scorer": "Antoine Galy",
+          "team": "home",
+          "team_abbrev": "JSG Waldau",
+          "seven_meter": false
+        },
+        {
+          "minute": 8,
+          "second": 6,
+          "scorer": "Luis Schmittner",
+          "team": "away",
+          "team_abbrev": "TSV Deizisau",
+          "seven_meter": false
+        },
+        {
+          "minute": 8,
+          "second": 33,
+          "scorer": "Oskar Eder",
+          "team": "home",
+          "team_abbrev": "JSG Waldau",
+          "seven_meter": false
+        },
+        {
+          "minute": 8,
+          "second": 36,
+          "scorer": "Marvin Schreiner",
+          "team": "away",
+          "team_abbrev": "TSV Deizisau",
+          "seven_meter": false
+        },
+        {
+          "minute": 8,
+          "second": 53,
+          "scorer": "Sebastian Witty",
+          "team": "away",
+          "team_abbrev": "TSV Deizisau",
+          "seven_meter": false
+        },
+        {
+          "minute": 9,
+          "second": 13,
+          "scorer": "Oskar Eder",
+          "team": "home",
+          "team_abbrev": "JSG Waldau",
+          "seven_meter": false
+        },
+        {
+          "minute": 9,
+          "second": 48,
+          "scorer": "Luis Schmittner",
+          "team": "away",
+          "team_abbrev": "TSV Deizisau",
+          "seven_meter": true
+        },
+        {
+          "minute": 9,
+          "second": 56,
+          "scorer": "Elias B\u00fchler",
+          "team": "home",
+          "team_abbrev": "JSG Waldau",
+          "seven_meter": false
+        },
+        {
+          "minute": 10,
+          "second": 19,
+          "scorer": "Finn Mittmann",
+          "team": "away",
+          "team_abbrev": "TSV Deizisau",
+          "seven_meter": false
+        },
+        {
+          "minute": 10,
+          "second": 39,
+          "scorer": "Elias B\u00fchler",
+          "team": "home",
+          "team_abbrev": "JSG Waldau",
+          "seven_meter": false
+        },
+        {
+          "minute": 10,
+          "second": 43,
+          "scorer": "Ben Rost",
+          "team": "away",
+          "team_abbrev": "TSV Deizisau",
+          "seven_meter": false
+        },
+        {
+          "minute": 11,
+          "second": 4,
+          "scorer": "Paul Schoewe",
+          "team": "home",
+          "team_abbrev": "JSG Waldau",
+          "seven_meter": false
+        },
+        {
+          "minute": 11,
+          "second": 52,
+          "scorer": "Paul Schoewe",
+          "team": "home",
+          "team_abbrev": "JSG Waldau",
+          "seven_meter": false
+        },
+        {
+          "minute": 12,
+          "second": 25,
+          "scorer": "Lasse Fischer",
+          "team": "away",
+          "team_abbrev": "TSV Deizisau",
+          "seven_meter": false
+        },
+        {
+          "minute": 13,
+          "second": 21,
+          "scorer": "Sebastian Witty",
+          "team": "away",
+          "team_abbrev": "TSV Deizisau",
+          "seven_meter": false
+        },
+        {
+          "minute": 13,
+          "second": 46,
+          "scorer": "Antoine Galy",
+          "team": "home",
+          "team_abbrev": "JSG Waldau",
+          "seven_meter": false
+        },
+        {
+          "minute": 15,
+          "second": 0,
+          "scorer": "Luis Schmittner",
+          "team": "away",
+          "team_abbrev": "TSV Deizisau",
+          "seven_meter": true
+        },
+        {
+          "minute": 15,
+          "second": 17,
+          "scorer": "Tom Heldrich",
+          "team": "home",
+          "team_abbrev": "JSG Waldau",
+          "seven_meter": false
+        },
+        {
+          "minute": 16,
+          "second": 21,
+          "scorer": "Antoine Galy",
+          "team": "home",
+          "team_abbrev": "JSG Waldau",
+          "seven_meter": false
+        },
+        {
+          "minute": 16,
+          "second": 59,
+          "scorer": "Tom Heldrich",
+          "team": "home",
+          "team_abbrev": "JSG Waldau",
+          "seven_meter": true
+        },
+        {
+          "minute": 17,
+          "second": 54,
+          "scorer": "Luis Schmittner",
+          "team": "away",
+          "team_abbrev": "TSV Deizisau",
+          "seven_meter": false
+        },
+        {
+          "minute": 18,
+          "second": 21,
+          "scorer": "Lukas Spitznagel",
+          "team": "home",
+          "team_abbrev": "JSG Waldau",
+          "seven_meter": false
+        },
+        {
+          "minute": 18,
+          "second": 58,
+          "scorer": "Lasse Fischer",
+          "team": "away",
+          "team_abbrev": "TSV Deizisau",
+          "seven_meter": false
+        },
+        {
+          "minute": 20,
+          "second": 4,
+          "scorer": "Valerio Koppany Gomez",
+          "team": "home",
+          "team_abbrev": "JSG Waldau",
+          "seven_meter": false
+        },
+        {
+          "minute": 20,
+          "second": 34,
+          "scorer": "Ben Rost",
+          "team": "away",
+          "team_abbrev": "TSV Deizisau",
+          "seven_meter": false
+        },
+        {
+          "minute": 20,
+          "second": 44,
+          "scorer": "Oskar Eder",
+          "team": "home",
+          "team_abbrev": "JSG Waldau",
+          "seven_meter": false
+        },
+        {
+          "minute": 21,
+          "second": 26,
+          "scorer": "Richard Kemmer",
+          "team": "away",
+          "team_abbrev": "TSV Deizisau",
+          "seven_meter": false
+        },
+        {
+          "minute": 22,
+          "second": 22,
+          "scorer": "Tom Heldrich",
+          "team": "home",
+          "team_abbrev": "JSG Waldau",
+          "seven_meter": false
+        },
+        {
+          "minute": 23,
+          "second": 14,
+          "scorer": "Oskar Eder",
+          "team": "home",
+          "team_abbrev": "JSG Waldau",
+          "seven_meter": false
+        },
+        {
+          "minute": 23,
+          "second": 31,
+          "scorer": "Ben Rost",
+          "team": "away",
+          "team_abbrev": "TSV Deizisau",
+          "seven_meter": false
+        },
+        {
+          "minute": 24,
+          "second": 7,
+          "scorer": "Oskar Eder",
+          "team": "home",
+          "team_abbrev": "JSG Waldau",
+          "seven_meter": false
+        },
+        {
+          "minute": 26,
+          "second": 3,
+          "scorer": "Leon Meier",
+          "team": "away",
+          "team_abbrev": "TSV Deizisau",
+          "seven_meter": false
+        },
+        {
+          "minute": 26,
+          "second": 24,
+          "scorer": "Oskar Eder",
+          "team": "home",
+          "team_abbrev": "JSG Waldau",
+          "seven_meter": false
+        },
+        {
+          "minute": 27,
+          "second": 14,
+          "scorer": "Lasse Fischer",
+          "team": "away",
+          "team_abbrev": "TSV Deizisau",
+          "seven_meter": false
+        },
+        {
+          "minute": 27,
+          "second": 45,
+          "scorer": "Luis Schmittner",
+          "team": "away",
+          "team_abbrev": "TSV Deizisau",
+          "seven_meter": false
+        },
+        {
+          "minute": 28,
+          "second": 15,
+          "scorer": "Ben Rost",
+          "team": "away",
+          "team_abbrev": "TSV Deizisau",
+          "seven_meter": false
+        },
+        {
+          "minute": 30,
+          "second": 27,
+          "scorer": "Lasse Fischer",
+          "team": "away",
+          "team_abbrev": "TSV Deizisau",
+          "seven_meter": false
+        },
+        {
+          "minute": 31,
+          "second": 29,
+          "scorer": "Tom Heldrich",
+          "team": "home",
+          "team_abbrev": "JSG Waldau",
+          "seven_meter": false
+        },
+        {
+          "minute": 31,
+          "second": 54,
+          "scorer": "Lasse Fischer",
+          "team": "away",
+          "team_abbrev": "TSV Deizisau",
+          "seven_meter": false
+        },
+        {
+          "minute": 32,
+          "second": 15,
+          "scorer": "Valerio Koppany Gomez",
+          "team": "home",
+          "team_abbrev": "JSG Waldau",
+          "seven_meter": false
+        },
+        {
+          "minute": 33,
+          "second": 52,
+          "scorer": "Elias B\u00fchler",
+          "team": "home",
+          "team_abbrev": "JSG Waldau",
+          "seven_meter": false
+        },
+        {
+          "minute": 34,
+          "second": 20,
+          "scorer": "Valerio Koppany Gomez",
+          "team": "home",
+          "team_abbrev": "JSG Waldau",
+          "seven_meter": false
+        },
+        {
+          "minute": 34,
+          "second": 47,
+          "scorer": "Lasse Fischer",
+          "team": "away",
+          "team_abbrev": "TSV Deizisau",
+          "seven_meter": false
+        },
+        {
+          "minute": 35,
+          "second": 35,
+          "scorer": "Lasse Fischer",
+          "team": "away",
+          "team_abbrev": "TSV Deizisau",
+          "seven_meter": false
+        },
+        {
+          "minute": 36,
+          "second": 59,
+          "scorer": "Paul Schoewe",
+          "team": "home",
+          "team_abbrev": "JSG Waldau",
+          "seven_meter": false
+        },
+        {
+          "minute": 37,
+          "second": 14,
+          "scorer": "Leon Meier",
+          "team": "away",
+          "team_abbrev": "TSV Deizisau",
+          "seven_meter": false
+        },
+        {
+          "minute": 37,
+          "second": 31,
+          "scorer": "Oskar Eder",
+          "team": "home",
+          "team_abbrev": "JSG Waldau",
+          "seven_meter": false
+        },
+        {
+          "minute": 38,
+          "second": 1,
+          "scorer": "Elias B\u00fchler",
+          "team": "home",
+          "team_abbrev": "JSG Waldau",
+          "seven_meter": false
+        },
+        {
+          "minute": 39,
+          "second": 0,
+          "scorer": "Sebastian Witty",
+          "team": "away",
+          "team_abbrev": "TSV Deizisau",
+          "seven_meter": false
+        },
+        {
+          "minute": 39,
+          "second": 29,
+          "scorer": "Tom Heldrich",
+          "team": "home",
+          "team_abbrev": "JSG Waldau",
+          "seven_meter": false
+        },
+        {
+          "minute": 39,
+          "second": 55,
+          "scorer": "Leon Meier",
+          "team": "away",
+          "team_abbrev": "TSV Deizisau",
+          "seven_meter": false
+        },
+        {
+          "minute": 40,
+          "second": 20,
+          "scorer": "Oskar Eder",
+          "team": "home",
+          "team_abbrev": "JSG Waldau",
+          "seven_meter": false
+        },
+        {
+          "minute": 41,
+          "second": 18,
+          "scorer": "Laurin Thal",
+          "team": "away",
+          "team_abbrev": "TSV Deizisau",
+          "seven_meter": false
+        },
+        {
+          "minute": 42,
+          "second": 38,
+          "scorer": "Lasse Fischer",
+          "team": "away",
+          "team_abbrev": "TSV Deizisau",
+          "seven_meter": false
+        },
+        {
+          "minute": 42,
+          "second": 48,
+          "scorer": "Oskar Eder",
+          "team": "home",
+          "team_abbrev": "JSG Waldau",
+          "seven_meter": false
+        },
+        {
+          "minute": 43,
+          "second": 18,
+          "scorer": "Lasse Fischer",
+          "team": "away",
+          "team_abbrev": "TSV Deizisau",
+          "seven_meter": false
+        },
+        {
+          "minute": 46,
+          "second": 24,
+          "scorer": "Leon Meier",
+          "team": "away",
+          "team_abbrev": "TSV Deizisau",
+          "seven_meter": false
+        },
+        {
+          "minute": 46,
+          "second": 51,
+          "scorer": "Tom Heldrich",
+          "team": "home",
+          "team_abbrev": "JSG Waldau",
+          "seven_meter": false
+        },
+        {
+          "minute": 47,
+          "second": 28,
+          "scorer": "Paul Schoewe",
+          "team": "home",
+          "team_abbrev": "JSG Waldau",
+          "seven_meter": false
+        },
+        {
+          "minute": 47,
+          "second": 36,
+          "scorer": "Ben Rost",
+          "team": "away",
+          "team_abbrev": "TSV Deizisau",
+          "seven_meter": false
+        },
+        {
+          "minute": 47,
+          "second": 53,
+          "scorer": "Valerio Koppany Gomez",
+          "team": "home",
+          "team_abbrev": "JSG Waldau",
+          "seven_meter": false
+        },
+        {
+          "minute": 48,
+          "second": 3,
+          "scorer": "Lasse Fischer",
+          "team": "away",
+          "team_abbrev": "TSV Deizisau",
+          "seven_meter": false
+        },
+        {
+          "minute": 48,
+          "second": 45,
+          "scorer": "Valerio Koppany Gomez",
+          "team": "home",
+          "team_abbrev": "JSG Waldau",
+          "seven_meter": false
+        },
+        {
+          "minute": 49,
+          "second": 23,
+          "scorer": "Lasse Fischer",
+          "team": "away",
+          "team_abbrev": "TSV Deizisau",
+          "seven_meter": false
+        }
+      ],
+      "final_score": "37:36",
+      "half_duration": 30,
+      "officials": {
+        "referees": [
+          "Linus Deuschle",
+          "Malte Schwaigerer"
+        ],
+        "timekeepers": [
+          "Daniel Fischer"
+        ],
+        "secretaries": [
+          "Peter Stahl"
+        ]
+      },
+      "graphic_path": "output/graphics/TSV_Deizisau_vs_JSG_Stuttgart_Waldau_Sa_1001.png"
+    }
+  ]
+}

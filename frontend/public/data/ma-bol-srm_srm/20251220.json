@@ -1,0 +1,674 @@
+{
+  "date": "20251220",
+  "games": [
+    {
+      "game_id": "handball4all.baden-wuerttemberg.8849382",
+      "order": 40,
+      "date": "Sa, 20.12.",
+      "home": {
+        "team_name": "TSF Welzheim",
+        "players": [
+          {
+            "name": "Maximilian Bazenov",
+            "goals": 2,
+            "two_min_penalties": 2,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Max Breitfeld",
+            "goals": 2,
+            "two_min_penalties": 3,
+            "yellow_cards": 0,
+            "red_cards": 1,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Kenji Strohmaier",
+            "goals": 2,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "David R\u00f6hrle",
+            "goals": 1,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Colin Leon Munz",
+            "goals": 2,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Nikita Feil",
+            "goals": 6,
+            "two_min_penalties": 1,
+            "yellow_cards": 1,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 2,
+            "seven_meters_goals": 1
+          },
+          {
+            "name": "Steven Menz",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Jannik Lindemann",
+            "goals": 1,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Oliver Burek",
+            "goals": 2,
+            "two_min_penalties": 1,
+            "yellow_cards": 1,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 2,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Falk Artmann",
+            "goals": 0,
+            "two_min_penalties": 1,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          }
+        ]
+      },
+      "away": {
+        "team_name": "SG Weinstadt",
+        "players": [
+          {
+            "name": "Pashalis Gikas",
+            "goals": 8,
+            "two_min_penalties": 0,
+            "yellow_cards": 1,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "David Conzelmann",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Sven Rudnik",
+            "goals": 7,
+            "two_min_penalties": 1,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Paul Schmidt",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Henry Hayler",
+            "goals": 5,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 1,
+            "seven_meters_goals": 1
+          },
+          {
+            "name": "Niklas Braun",
+            "goals": 9,
+            "two_min_penalties": 0,
+            "yellow_cards": 1,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 4,
+            "seven_meters_goals": 4
+          },
+          {
+            "name": "Maximilian Staudinger",
+            "goals": 5,
+            "two_min_penalties": 1,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Simon Driehaus",
+            "goals": 1,
+            "two_min_penalties": 1,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Benjamin Heinrichs",
+            "goals": 3,
+            "two_min_penalties": 1,
+            "yellow_cards": 1,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          }
+        ]
+      },
+      "goals_timeline": [
+        {
+          "minute": 0,
+          "second": 40,
+          "scorer": "Pashalis Gikas",
+          "team": "home",
+          "team_abbrev": "SG Weinstadt",
+          "seven_meter": false
+        },
+        {
+          "minute": 2,
+          "second": 38,
+          "scorer": "Pashalis Gikas",
+          "team": "home",
+          "team_abbrev": "SG Weinstadt",
+          "seven_meter": false
+        },
+        {
+          "minute": 4,
+          "second": 54,
+          "scorer": "Niklas Braun",
+          "team": "home",
+          "team_abbrev": "SG Weinstadt",
+          "seven_meter": true
+        },
+        {
+          "minute": 5,
+          "second": 22,
+          "scorer": "Max Breitfeld",
+          "team": "away",
+          "team_abbrev": "TSF Welzheim",
+          "seven_meter": false
+        },
+        {
+          "minute": 5,
+          "second": 32,
+          "scorer": "Sven Rudnik",
+          "team": "home",
+          "team_abbrev": "SG Weinstadt",
+          "seven_meter": false
+        },
+        {
+          "minute": 5,
+          "second": 59,
+          "scorer": "Nikita Feil",
+          "team": "away",
+          "team_abbrev": "TSF Welzheim",
+          "seven_meter": true
+        },
+        {
+          "minute": 6,
+          "second": 44,
+          "scorer": "Sven Rudnik",
+          "team": "home",
+          "team_abbrev": "SG Weinstadt",
+          "seven_meter": false
+        },
+        {
+          "minute": 7,
+          "second": 49,
+          "scorer": "Benjamin Heinrichs",
+          "team": "home",
+          "team_abbrev": "SG Weinstadt",
+          "seven_meter": false
+        },
+        {
+          "minute": 9,
+          "second": 32,
+          "scorer": "Nikita Feil",
+          "team": "away",
+          "team_abbrev": "TSF Welzheim",
+          "seven_meter": false
+        },
+        {
+          "minute": 9,
+          "second": 44,
+          "scorer": "Sven Rudnik",
+          "team": "home",
+          "team_abbrev": "SG Weinstadt",
+          "seven_meter": false
+        },
+        {
+          "minute": 13,
+          "second": 54,
+          "scorer": "Sven Rudnik",
+          "team": "home",
+          "team_abbrev": "SG Weinstadt",
+          "seven_meter": false
+        },
+        {
+          "minute": 15,
+          "second": 41,
+          "scorer": "Colin Munz",
+          "team": "away",
+          "team_abbrev": "TSF Welzheim",
+          "seven_meter": false
+        },
+        {
+          "minute": 16,
+          "second": 21,
+          "scorer": "Niklas Braun",
+          "team": "home",
+          "team_abbrev": "SG Weinstadt",
+          "seven_meter": true
+        },
+        {
+          "minute": 17,
+          "second": 48,
+          "scorer": "Maximilian Staudinger",
+          "team": "home",
+          "team_abbrev": "SG Weinstadt",
+          "seven_meter": false
+        },
+        {
+          "minute": 19,
+          "second": 45,
+          "scorer": "Pashalis Gikas",
+          "team": "home",
+          "team_abbrev": "SG Weinstadt",
+          "seven_meter": false
+        },
+        {
+          "minute": 20,
+          "second": 14,
+          "scorer": "Nikita Feil",
+          "team": "away",
+          "team_abbrev": "TSF Welzheim",
+          "seven_meter": false
+        },
+        {
+          "minute": 21,
+          "second": 9,
+          "scorer": "Pashalis Gikas",
+          "team": "home",
+          "team_abbrev": "SG Weinstadt",
+          "seven_meter": false
+        },
+        {
+          "minute": 21,
+          "second": 44,
+          "scorer": "Niklas Braun",
+          "team": "home",
+          "team_abbrev": "SG Weinstadt",
+          "seven_meter": true
+        },
+        {
+          "minute": 22,
+          "second": 24,
+          "scorer": "Colin Munz",
+          "team": "away",
+          "team_abbrev": "TSF Welzheim",
+          "seven_meter": true
+        },
+        {
+          "minute": 23,
+          "second": 0,
+          "scorer": "Niklas Braun",
+          "team": "home",
+          "team_abbrev": "SG Weinstadt",
+          "seven_meter": false
+        },
+        {
+          "minute": 23,
+          "second": 23,
+          "scorer": "Maximilian Staudinger",
+          "team": "home",
+          "team_abbrev": "SG Weinstadt",
+          "seven_meter": false
+        },
+        {
+          "minute": 25,
+          "second": 54,
+          "scorer": "Maximilian Bazenov",
+          "team": "away",
+          "team_abbrev": "TSF Welzheim",
+          "seven_meter": false
+        },
+        {
+          "minute": 26,
+          "second": 26,
+          "scorer": "Pashalis Gikas",
+          "team": "home",
+          "team_abbrev": "SG Weinstadt",
+          "seven_meter": false
+        },
+        {
+          "minute": 27,
+          "second": 14,
+          "scorer": "Niklas Braun",
+          "team": "home",
+          "team_abbrev": "SG Weinstadt",
+          "seven_meter": false
+        },
+        {
+          "minute": 28,
+          "second": 39,
+          "scorer": "Henry Hayler",
+          "team": "home",
+          "team_abbrev": "SG Weinstadt",
+          "seven_meter": false
+        },
+        {
+          "minute": 29,
+          "second": 40,
+          "scorer": "Maximilian Staudinger",
+          "team": "home",
+          "team_abbrev": "SG Weinstadt",
+          "seven_meter": false
+        },
+        {
+          "minute": 30,
+          "second": 16,
+          "scorer": "Nikita Feil",
+          "team": "away",
+          "team_abbrev": "TSF Welzheim",
+          "seven_meter": false
+        },
+        {
+          "minute": 31,
+          "second": 50,
+          "scorer": "Pashalis Gikas",
+          "team": "home",
+          "team_abbrev": "SG Weinstadt",
+          "seven_meter": false
+        },
+        {
+          "minute": 33,
+          "second": 18,
+          "scorer": "Niklas Braun",
+          "team": "home",
+          "team_abbrev": "SG Weinstadt",
+          "seven_meter": true
+        },
+        {
+          "minute": 34,
+          "second": 11,
+          "scorer": "Nikita Feil",
+          "team": "away",
+          "team_abbrev": "TSF Welzheim",
+          "seven_meter": false
+        },
+        {
+          "minute": 34,
+          "second": 31,
+          "scorer": "Maximilian Staudinger",
+          "team": "home",
+          "team_abbrev": "SG Weinstadt",
+          "seven_meter": false
+        },
+        {
+          "minute": 35,
+          "second": 37,
+          "scorer": "Pashalis Gikas",
+          "team": "home",
+          "team_abbrev": "SG Weinstadt",
+          "seven_meter": false
+        },
+        {
+          "minute": 38,
+          "second": 2,
+          "scorer": "Kenji Strohmaier",
+          "team": "away",
+          "team_abbrev": "TSF Welzheim",
+          "seven_meter": false
+        },
+        {
+          "minute": 38,
+          "second": 41,
+          "scorer": "Simon Driehaus",
+          "team": "home",
+          "team_abbrev": "SG Weinstadt",
+          "seven_meter": false
+        },
+        {
+          "minute": 40,
+          "second": 9,
+          "scorer": "Niklas Braun",
+          "team": "home",
+          "team_abbrev": "SG Weinstadt",
+          "seven_meter": false
+        },
+        {
+          "minute": 41,
+          "second": 24,
+          "scorer": "Maximilian Bazenov",
+          "team": "away",
+          "team_abbrev": "TSF Welzheim",
+          "seven_meter": false
+        },
+        {
+          "minute": 41,
+          "second": 58,
+          "scorer": "Niklas Braun",
+          "team": "home",
+          "team_abbrev": "SG Weinstadt",
+          "seven_meter": false
+        },
+        {
+          "minute": 44,
+          "second": 18,
+          "scorer": "Henry Hayler",
+          "team": "home",
+          "team_abbrev": "SG Weinstadt",
+          "seven_meter": false
+        },
+        {
+          "minute": 44,
+          "second": 45,
+          "scorer": "Oliver Burek",
+          "team": "away",
+          "team_abbrev": "TSF Welzheim",
+          "seven_meter": false
+        },
+        {
+          "minute": 45,
+          "second": 14,
+          "scorer": "Henry Hayler",
+          "team": "home",
+          "team_abbrev": "SG Weinstadt",
+          "seven_meter": false
+        },
+        {
+          "minute": 45,
+          "second": 44,
+          "scorer": "Maximilian Staudinger",
+          "team": "home",
+          "team_abbrev": "SG Weinstadt",
+          "seven_meter": false
+        },
+        {
+          "minute": 46,
+          "second": 11,
+          "scorer": "Oliver Burek",
+          "team": "away",
+          "team_abbrev": "TSF Welzheim",
+          "seven_meter": false
+        },
+        {
+          "minute": 46,
+          "second": 39,
+          "scorer": "Sven Rudnik",
+          "team": "home",
+          "team_abbrev": "SG Weinstadt",
+          "seven_meter": false
+        },
+        {
+          "minute": 47,
+          "second": 7,
+          "scorer": "Pashalis Gikas",
+          "team": "home",
+          "team_abbrev": "SG Weinstadt",
+          "seven_meter": false
+        },
+        {
+          "minute": 47,
+          "second": 33,
+          "scorer": "Sven Rudnik",
+          "team": "home",
+          "team_abbrev": "SG Weinstadt",
+          "seven_meter": false
+        },
+        {
+          "minute": 48,
+          "second": 1,
+          "scorer": "Jannik Lindemann",
+          "team": "away",
+          "team_abbrev": "TSF Welzheim",
+          "seven_meter": false
+        },
+        {
+          "minute": 48,
+          "second": 38,
+          "scorer": "Sven Rudnik",
+          "team": "home",
+          "team_abbrev": "SG Weinstadt",
+          "seven_meter": false
+        },
+        {
+          "minute": 52,
+          "second": 26,
+          "scorer": "Benjamin Heinrichs",
+          "team": "home",
+          "team_abbrev": "SG Weinstadt",
+          "seven_meter": false
+        },
+        {
+          "minute": 52,
+          "second": 40,
+          "scorer": "Kenji Strohmaier",
+          "team": "away",
+          "team_abbrev": "TSF Welzheim",
+          "seven_meter": false
+        },
+        {
+          "minute": 53,
+          "second": 36,
+          "scorer": "Max Breitfeld",
+          "team": "away",
+          "team_abbrev": "TSF Welzheim",
+          "seven_meter": false
+        },
+        {
+          "minute": 54,
+          "second": 33,
+          "scorer": "David R\u00f6hrle",
+          "team": "away",
+          "team_abbrev": "TSF Welzheim",
+          "seven_meter": false
+        },
+        {
+          "minute": 55,
+          "second": 9,
+          "scorer": "Henry Hayler",
+          "team": "home",
+          "team_abbrev": "SG Weinstadt",
+          "seven_meter": false
+        },
+        {
+          "minute": 56,
+          "second": 25,
+          "scorer": "Benjamin Heinrichs",
+          "team": "home",
+          "team_abbrev": "SG Weinstadt",
+          "seven_meter": false
+        },
+        {
+          "minute": 57,
+          "second": 51,
+          "scorer": "Niklas Braun",
+          "team": "home",
+          "team_abbrev": "SG Weinstadt",
+          "seven_meter": false
+        },
+        {
+          "minute": 58,
+          "second": 23,
+          "scorer": "Nikita Feil",
+          "team": "away",
+          "team_abbrev": "TSF Welzheim",
+          "seven_meter": false
+        },
+        {
+          "minute": 59,
+          "second": 23,
+          "scorer": "Henry Hayler",
+          "team": "home",
+          "team_abbrev": "SG Weinstadt",
+          "seven_meter": true
+        }
+      ],
+      "final_score": "38:18",
+      "half_duration": 30,
+      "officials": {
+        "referees": [
+          "Bernhard Pr\u00f6schild"
+        ],
+        "timekeepers": [
+          "Alexis Loupetis"
+        ],
+        "secretaries": [
+          "Hayler Katrin"
+        ]
+      },
+      "graphic_path": "output/graphics/TSF_Welzheim_vs_SG_Weinstadt_Sa_2012.png"
+    }
+  ]
+}

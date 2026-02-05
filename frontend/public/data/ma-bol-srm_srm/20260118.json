@@ -1,0 +1,808 @@
+{
+  "date": "20260118",
+  "games": [
+    {
+      "game_id": "handball4all.baden-wuerttemberg.8849462",
+      "order": 45,
+      "date": "So, 18.01.",
+      "home": {
+        "team_name": "TV Bittenfeld 1898 2",
+        "players": [
+          {
+            "name": "Benny Ennemoser",
+            "goals": 4,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Lenny Burek",
+            "goals": 3,
+            "two_min_penalties": 1,
+            "yellow_cards": 1,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Max Hess",
+            "goals": 5,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Moritz Moldenhauer",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 1,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Paul Kraisel",
+            "goals": 4,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Nick Nusko",
+            "goals": 7,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "David M\u00f6dinger",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Julius Schanbacher",
+            "goals": 5,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Nico Thanheiser",
+            "goals": 2,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 1,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Lionel Koch",
+            "goals": 2,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 2,
+            "seven_meters_goals": 1
+          },
+          {
+            "name": "Raik-M. Bogislawski",
+            "goals": 4,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Kilian Schanbacher",
+            "goals": 1,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 1,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          }
+        ]
+      },
+      "away": {
+        "team_name": "HC Winnenden",
+        "players": [
+          {
+            "name": "Marc Antonio Gionfriddo",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Timo Kurz",
+            "goals": 1,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Theo Kraft",
+            "goals": 6,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Robin Kral",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Benjamin Jeutter",
+            "goals": 6,
+            "two_min_penalties": 1,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 3,
+            "seven_meters_goals": 3
+          },
+          {
+            "name": "Elias Paul Dengler",
+            "goals": 8,
+            "two_min_penalties": 0,
+            "yellow_cards": 1,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Oskar Sch\u00f6nberg",
+            "goals": 3,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 1,
+            "seven_meters_goals": 1
+          },
+          {
+            "name": "Samuel Schnaitmann",
+            "goals": 3,
+            "two_min_penalties": 1,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 1,
+            "seven_meters_goals": 1
+          },
+          {
+            "name": "Joachim Ryschka",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Johannes Morper",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Moritz Erdmann",
+            "goals": 2,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Nick K\u00e4sser",
+            "goals": 2,
+            "two_min_penalties": 0,
+            "yellow_cards": 1,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Adrian Schulze",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Julius Schneider",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          }
+        ]
+      },
+      "goals_timeline": [
+        {
+          "minute": 1,
+          "second": 25,
+          "scorer": "Nick Nusko",
+          "team": "home",
+          "team_abbrev": "TV Bittenfeld 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 2,
+          "second": 2,
+          "scorer": "Paul Kraisel",
+          "team": "home",
+          "team_abbrev": "TV Bittenfeld 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 2,
+          "second": 58,
+          "scorer": "Samuel Schnaitmann",
+          "team": "away",
+          "team_abbrev": "HC Winnenden",
+          "seven_meter": true
+        },
+        {
+          "minute": 4,
+          "second": 2,
+          "scorer": "Max Hess",
+          "team": "home",
+          "team_abbrev": "TV Bittenfeld 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 6,
+          "second": 1,
+          "scorer": "Max Hess",
+          "team": "home",
+          "team_abbrev": "TV Bittenfeld 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 6,
+          "second": 28,
+          "scorer": "Benny Ennemoser",
+          "team": "home",
+          "team_abbrev": "TV Bittenfeld 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 6,
+          "second": 53,
+          "scorer": "Theo Kraft",
+          "team": "away",
+          "team_abbrev": "HC Winnenden",
+          "seven_meter": false
+        },
+        {
+          "minute": 8,
+          "second": 29,
+          "scorer": "Benny Ennemoser",
+          "team": "home",
+          "team_abbrev": "TV Bittenfeld 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 9,
+          "second": 23,
+          "scorer": "Moritz Erdmann",
+          "team": "away",
+          "team_abbrev": "HC Winnenden",
+          "seven_meter": false
+        },
+        {
+          "minute": 9,
+          "second": 46,
+          "scorer": "Lionel Koch",
+          "team": "home",
+          "team_abbrev": "TV Bittenfeld 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 10,
+          "second": 28,
+          "scorer": "Benny Ennemoser",
+          "team": "home",
+          "team_abbrev": "TV Bittenfeld 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 10,
+          "second": 55,
+          "scorer": "Max Hess",
+          "team": "home",
+          "team_abbrev": "TV Bittenfeld 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 11,
+          "second": 22,
+          "scorer": "Theo Kraft",
+          "team": "away",
+          "team_abbrev": "HC Winnenden",
+          "seven_meter": false
+        },
+        {
+          "minute": 13,
+          "second": 49,
+          "scorer": "Kilian Schanbacher",
+          "team": "home",
+          "team_abbrev": "TV Bittenfeld 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 14,
+          "second": 7,
+          "scorer": "Max Hess",
+          "team": "home",
+          "team_abbrev": "TV Bittenfeld 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 15,
+          "second": 16,
+          "scorer": "Lionel Koch",
+          "team": "home",
+          "team_abbrev": "TV Bittenfeld 2",
+          "seven_meter": true
+        },
+        {
+          "minute": 15,
+          "second": 49,
+          "scorer": "Elias Dengler",
+          "team": "away",
+          "team_abbrev": "HC Winnenden",
+          "seven_meter": true
+        },
+        {
+          "minute": 16,
+          "second": 13,
+          "scorer": "Julius Schanbacher",
+          "team": "home",
+          "team_abbrev": "TV Bittenfeld 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 18,
+          "second": 7,
+          "scorer": "Benjamin Jeutter",
+          "team": "away",
+          "team_abbrev": "HC Winnenden",
+          "seven_meter": false
+        },
+        {
+          "minute": 19,
+          "second": 0,
+          "scorer": "Benjamin Jeutter",
+          "team": "away",
+          "team_abbrev": "HC Winnenden",
+          "seven_meter": false
+        },
+        {
+          "minute": 19,
+          "second": 48,
+          "scorer": "Elias Dengler",
+          "team": "away",
+          "team_abbrev": "HC Winnenden",
+          "seven_meter": true
+        },
+        {
+          "minute": 20,
+          "second": 41,
+          "scorer": "Lenny Burek",
+          "team": "home",
+          "team_abbrev": "TV Bittenfeld 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 21,
+          "second": 36,
+          "scorer": "Elias Dengler",
+          "team": "away",
+          "team_abbrev": "HC Winnenden",
+          "seven_meter": true
+        },
+        {
+          "minute": 22,
+          "second": 30,
+          "scorer": "Julius Schanbacher",
+          "team": "home",
+          "team_abbrev": "TV Bittenfeld 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 23,
+          "second": 13,
+          "scorer": "Samuel Schnaitmann",
+          "team": "away",
+          "team_abbrev": "HC Winnenden",
+          "seven_meter": false
+        },
+        {
+          "minute": 27,
+          "second": 1,
+          "scorer": "Samuel Schnaitmann",
+          "team": "away",
+          "team_abbrev": "HC Winnenden",
+          "seven_meter": false
+        },
+        {
+          "minute": 27,
+          "second": 17,
+          "scorer": "Nico Thanheiser",
+          "team": "home",
+          "team_abbrev": "TV Bittenfeld 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 27,
+          "second": 53,
+          "scorer": "Elias Dengler",
+          "team": "away",
+          "team_abbrev": "HC Winnenden",
+          "seven_meter": false
+        },
+        {
+          "minute": 30,
+          "second": 43,
+          "scorer": "Nico Thanheiser",
+          "team": "home",
+          "team_abbrev": "TV Bittenfeld 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 31,
+          "second": 27,
+          "scorer": "Oskar Sch\u00f6nberg",
+          "team": "away",
+          "team_abbrev": "HC Winnenden",
+          "seven_meter": false
+        },
+        {
+          "minute": 32,
+          "second": 41,
+          "scorer": "Elias Dengler",
+          "team": "away",
+          "team_abbrev": "HC Winnenden",
+          "seven_meter": false
+        },
+        {
+          "minute": 34,
+          "second": 42,
+          "scorer": "Benjamin Jeutter",
+          "team": "away",
+          "team_abbrev": "HC Winnenden",
+          "seven_meter": true
+        },
+        {
+          "minute": 36,
+          "second": 2,
+          "scorer": "Nick K\u00e4sser",
+          "team": "away",
+          "team_abbrev": "HC Winnenden",
+          "seven_meter": false
+        },
+        {
+          "minute": 37,
+          "second": 32,
+          "scorer": "Nick Nusko",
+          "team": "home",
+          "team_abbrev": "TV Bittenfeld 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 38,
+          "second": 1,
+          "scorer": "Paul Kraisel",
+          "team": "home",
+          "team_abbrev": "TV Bittenfeld 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 39,
+          "second": 8,
+          "scorer": "Nick K\u00e4sser",
+          "team": "away",
+          "team_abbrev": "HC Winnenden",
+          "seven_meter": false
+        },
+        {
+          "minute": 39,
+          "second": 14,
+          "scorer": "Nick Nusko",
+          "team": "home",
+          "team_abbrev": "TV Bittenfeld 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 39,
+          "second": 45,
+          "scorer": "Elias Dengler",
+          "team": "away",
+          "team_abbrev": "HC Winnenden",
+          "seven_meter": false
+        },
+        {
+          "minute": 40,
+          "second": 12,
+          "scorer": "Nick Nusko",
+          "team": "home",
+          "team_abbrev": "TV Bittenfeld 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 40,
+          "second": 43,
+          "scorer": "Paul Kraisel",
+          "team": "home",
+          "team_abbrev": "TV Bittenfeld 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 41,
+          "second": 4,
+          "scorer": "Benjamin Jeutter",
+          "team": "away",
+          "team_abbrev": "HC Winnenden",
+          "seven_meter": false
+        },
+        {
+          "minute": 42,
+          "second": 36,
+          "scorer": "Benjamin Jeutter",
+          "team": "away",
+          "team_abbrev": "HC Winnenden",
+          "seven_meter": true
+        },
+        {
+          "minute": 44,
+          "second": 54,
+          "scorer": "Julius Schanbacher",
+          "team": "home",
+          "team_abbrev": "TV Bittenfeld 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 45,
+          "second": 55,
+          "scorer": "Benjamin Jeutter",
+          "team": "away",
+          "team_abbrev": "HC Winnenden",
+          "seven_meter": true
+        },
+        {
+          "minute": 46,
+          "second": 26,
+          "scorer": "Julius Schanbacher",
+          "team": "home",
+          "team_abbrev": "TV Bittenfeld 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 47,
+          "second": 0,
+          "scorer": "Julius Schanbacher",
+          "team": "home",
+          "team_abbrev": "TV Bittenfeld 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 47,
+          "second": 25,
+          "scorer": "Theo Kraft",
+          "team": "away",
+          "team_abbrev": "HC Winnenden",
+          "seven_meter": false
+        },
+        {
+          "minute": 49,
+          "second": 1,
+          "scorer": "Max Hess",
+          "team": "home",
+          "team_abbrev": "TV Bittenfeld 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 50,
+          "second": 30,
+          "scorer": "Paul Kraisel",
+          "team": "home",
+          "team_abbrev": "TV Bittenfeld 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 50,
+          "second": 43,
+          "scorer": "Theo Kraft",
+          "team": "away",
+          "team_abbrev": "HC Winnenden",
+          "seven_meter": false
+        },
+        {
+          "minute": 51,
+          "second": 13,
+          "scorer": "Oskar Sch\u00f6nberg",
+          "team": "away",
+          "team_abbrev": "HC Winnenden",
+          "seven_meter": false
+        },
+        {
+          "minute": 51,
+          "second": 18,
+          "scorer": "Benny Ennemoser",
+          "team": "home",
+          "team_abbrev": "TV Bittenfeld 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 51,
+          "second": 57,
+          "scorer": "Oskar Sch\u00f6nberg",
+          "team": "away",
+          "team_abbrev": "HC Winnenden",
+          "seven_meter": true
+        },
+        {
+          "minute": 53,
+          "second": 36,
+          "scorer": "Theo Kraft",
+          "team": "away",
+          "team_abbrev": "HC Winnenden",
+          "seven_meter": false
+        },
+        {
+          "minute": 54,
+          "second": 56,
+          "scorer": "Elias Dengler",
+          "team": "away",
+          "team_abbrev": "HC Winnenden",
+          "seven_meter": false
+        },
+        {
+          "minute": 55,
+          "second": 4,
+          "scorer": "Nick Nusko",
+          "team": "home",
+          "team_abbrev": "TV Bittenfeld 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 55,
+          "second": 14,
+          "scorer": "Nick Nusko",
+          "team": "home",
+          "team_abbrev": "TV Bittenfeld 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 55,
+          "second": 39,
+          "scorer": "Timo Kurz",
+          "team": "away",
+          "team_abbrev": "HC Winnenden",
+          "seven_meter": false
+        },
+        {
+          "minute": 55,
+          "second": 50,
+          "scorer": "Lenny Burek",
+          "team": "home",
+          "team_abbrev": "TV Bittenfeld 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 57,
+          "second": 23,
+          "scorer": "Moritz Erdmann",
+          "team": "away",
+          "team_abbrev": "HC Winnenden",
+          "seven_meter": false
+        },
+        {
+          "minute": 58,
+          "second": 23,
+          "scorer": "Lenny Burek",
+          "team": "home",
+          "team_abbrev": "TV Bittenfeld 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 58,
+          "second": 54,
+          "scorer": "Nick Nusko",
+          "team": "home",
+          "team_abbrev": "TV Bittenfeld 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 59,
+          "second": 3,
+          "scorer": "Elias Dengler",
+          "team": "away",
+          "team_abbrev": "HC Winnenden",
+          "seven_meter": false
+        },
+        {
+          "minute": 59,
+          "second": 43,
+          "scorer": "Theo Kraft",
+          "team": "away",
+          "team_abbrev": "HC Winnenden",
+          "seven_meter": false
+        }
+      ],
+      "final_score": "33:31",
+      "half_duration": 30,
+      "officials": {
+        "referees": [
+          "Michael K\u00fcnzler"
+        ],
+        "timekeepers": [
+          "Stefan Nusko"
+        ],
+        "secretaries": [
+          "Marc Hettinger"
+        ]
+      },
+      "graphic_path": "output/graphics/TV_Bittenfeld_1898_2_vs_HC_Winnenden_So_1801.png"
+    }
+  ]
+}

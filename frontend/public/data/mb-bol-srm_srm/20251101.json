@@ -1,0 +1,714 @@
+{
+  "date": "20251101",
+  "games": [
+    {
+      "game_id": "handball4all.baden-wuerttemberg.8850092",
+      "order": 14,
+      "date": "Sa, 01.11.",
+      "home": {
+        "team_name": "SV Fellbach",
+        "players": [
+          {
+            "name": "David M\u00f6dinger",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Tim Nico Plieninger",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Noah Barke",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Christian Pachner",
+            "goals": 2,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 1,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Tim R\u00f6ttgen",
+            "goals": 6,
+            "two_min_penalties": 1,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Severin Banning",
+            "goals": 3,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Julian Diener",
+            "goals": 1,
+            "two_min_penalties": 0,
+            "yellow_cards": 1,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Jonte Kurtz",
+            "goals": 6,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 3,
+            "seven_meters_goals": 2
+          },
+          {
+            "name": "Lukas Kowollik",
+            "goals": 4,
+            "two_min_penalties": 0,
+            "yellow_cards": 1,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Leo M\u00fcller",
+            "goals": 1,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Nico Paul Rihm",
+            "goals": 9,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Andi Pehlic",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          }
+        ]
+      },
+      "away": {
+        "team_name": "HSC Schmiden/Oeffingen 2004 2",
+        "players": [
+          {
+            "name": "Florian Reisch",
+            "goals": 5,
+            "two_min_penalties": 1,
+            "yellow_cards": 1,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Johannes Thurmann",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Julius B\u00f6hringer",
+            "goals": 1,
+            "two_min_penalties": 1,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Carl Oettinger",
+            "goals": 5,
+            "two_min_penalties": 1,
+            "yellow_cards": 1,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Kilian Matth\u00e4i",
+            "goals": 1,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Carl Gollhofer",
+            "goals": 2,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Maximilian Schelbert",
+            "goals": 3,
+            "two_min_penalties": 0,
+            "yellow_cards": 1,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Theodor Altmann",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Julian Wyhler",
+            "goals": 2,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Philipp Krauter",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Jonas Gneithing",
+            "goals": 5,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 3,
+            "seven_meters_goals": 3
+          }
+        ]
+      },
+      "goals_timeline": [
+        {
+          "minute": 1,
+          "second": 5,
+          "scorer": "Carl Gollhofer",
+          "team": "home",
+          "team_abbrev": "HSC Schm/Oeff 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 1,
+          "second": 33,
+          "scorer": "Tim R\u00f6ttgen",
+          "team": "away",
+          "team_abbrev": "SV Fellbach",
+          "seven_meter": false
+        },
+        {
+          "minute": 2,
+          "second": 0,
+          "scorer": "Lukas Kowollik",
+          "team": "away",
+          "team_abbrev": "SV Fellbach",
+          "seven_meter": false
+        },
+        {
+          "minute": 2,
+          "second": 15,
+          "scorer": "Carl Gollhofer",
+          "team": "home",
+          "team_abbrev": "HSC Schm/Oeff 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 4,
+          "second": 19,
+          "scorer": "Jonte Kurtz",
+          "team": "away",
+          "team_abbrev": "SV Fellbach",
+          "seven_meter": true
+        },
+        {
+          "minute": 5,
+          "second": 43,
+          "scorer": "Julian Diener",
+          "team": "away",
+          "team_abbrev": "SV Fellbach",
+          "seven_meter": false
+        },
+        {
+          "minute": 6,
+          "second": 13,
+          "scorer": "Jonas Gneithing",
+          "team": "home",
+          "team_abbrev": "HSC Schm/Oeff 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 6,
+          "second": 49,
+          "scorer": "Carl Oettinger",
+          "team": "home",
+          "team_abbrev": "HSC Schm/Oeff 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 8,
+          "second": 39,
+          "scorer": "Florian Reisch",
+          "team": "home",
+          "team_abbrev": "HSC Schm/Oeff 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 9,
+          "second": 31,
+          "scorer": "Severin Banning",
+          "team": "away",
+          "team_abbrev": "SV Fellbach",
+          "seven_meter": false
+        },
+        {
+          "minute": 10,
+          "second": 48,
+          "scorer": "Lukas Kowollik",
+          "team": "away",
+          "team_abbrev": "SV Fellbach",
+          "seven_meter": false
+        },
+        {
+          "minute": 11,
+          "second": 55,
+          "scorer": "Jonas Gneithing",
+          "team": "home",
+          "team_abbrev": "HSC Schm/Oeff 2",
+          "seven_meter": true
+        },
+        {
+          "minute": 12,
+          "second": 39,
+          "scorer": "Jonte Kurtz",
+          "team": "away",
+          "team_abbrev": "SV Fellbach",
+          "seven_meter": true
+        },
+        {
+          "minute": 13,
+          "second": 24,
+          "scorer": "Carl Oettinger",
+          "team": "home",
+          "team_abbrev": "HSC Schm/Oeff 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 14,
+          "second": 39,
+          "scorer": "Jonte Kurtz",
+          "team": "away",
+          "team_abbrev": "SV Fellbach",
+          "seven_meter": false
+        },
+        {
+          "minute": 15,
+          "second": 2,
+          "scorer": "Julius B\u00f6hringer",
+          "team": "home",
+          "team_abbrev": "HSC Schm/Oeff 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 15,
+          "second": 14,
+          "scorer": "Jonte Kurtz",
+          "team": "away",
+          "team_abbrev": "SV Fellbach",
+          "seven_meter": false
+        },
+        {
+          "minute": 15,
+          "second": 41,
+          "scorer": "Florian Reisch",
+          "team": "home",
+          "team_abbrev": "HSC Schm/Oeff 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 16,
+          "second": 15,
+          "scorer": "Tim R\u00f6ttgen",
+          "team": "away",
+          "team_abbrev": "SV Fellbach",
+          "seven_meter": false
+        },
+        {
+          "minute": 16,
+          "second": 47,
+          "scorer": "Jonas Gneithing",
+          "team": "home",
+          "team_abbrev": "HSC Schm/Oeff 2",
+          "seven_meter": true
+        },
+        {
+          "minute": 18,
+          "second": 42,
+          "scorer": "Severin Banning",
+          "team": "away",
+          "team_abbrev": "SV Fellbach",
+          "seven_meter": false
+        },
+        {
+          "minute": 22,
+          "second": 10,
+          "scorer": "Severin Banning",
+          "team": "away",
+          "team_abbrev": "SV Fellbach",
+          "seven_meter": false
+        },
+        {
+          "minute": 22,
+          "second": 23,
+          "scorer": "Maximilian Schelbert",
+          "team": "home",
+          "team_abbrev": "HSC Schm/Oeff 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 22,
+          "second": 33,
+          "scorer": "Christian Pachner",
+          "team": "away",
+          "team_abbrev": "SV Fellbach",
+          "seven_meter": false
+        },
+        {
+          "minute": 23,
+          "second": 10,
+          "scorer": "Maximilian Schelbert",
+          "team": "home",
+          "team_abbrev": "HSC Schm/Oeff 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 23,
+          "second": 19,
+          "scorer": "Jonte Kurtz",
+          "team": "away",
+          "team_abbrev": "SV Fellbach",
+          "seven_meter": false
+        },
+        {
+          "minute": 27,
+          "second": 43,
+          "scorer": "Lukas Kowollik",
+          "team": "away",
+          "team_abbrev": "SV Fellbach",
+          "seven_meter": false
+        },
+        {
+          "minute": 28,
+          "second": 18,
+          "scorer": "Jonas Gneithing",
+          "team": "home",
+          "team_abbrev": "HSC Schm/Oeff 2",
+          "seven_meter": true
+        },
+        {
+          "minute": 28,
+          "second": 56,
+          "scorer": "Jonte Kurtz",
+          "team": "away",
+          "team_abbrev": "SV Fellbach",
+          "seven_meter": false
+        },
+        {
+          "minute": 29,
+          "second": 12,
+          "scorer": "Julian Wyhler",
+          "team": "home",
+          "team_abbrev": "HSC Schm/Oeff 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 29,
+          "second": 39,
+          "scorer": "Florian Reisch",
+          "team": "home",
+          "team_abbrev": "HSC Schm/Oeff 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 29,
+          "second": 54,
+          "scorer": "Jonas Gneithing",
+          "team": "home",
+          "team_abbrev": "HSC Schm/Oeff 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 30,
+          "second": 31,
+          "scorer": "Nico Rihm",
+          "team": "away",
+          "team_abbrev": "SV Fellbach",
+          "seven_meter": false
+        },
+        {
+          "minute": 31,
+          "second": 25,
+          "scorer": "Florian Reisch",
+          "team": "home",
+          "team_abbrev": "HSC Schm/Oeff 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 31,
+          "second": 50,
+          "scorer": "Lukas Kowollik",
+          "team": "away",
+          "team_abbrev": "SV Fellbach",
+          "seven_meter": false
+        },
+        {
+          "minute": 32,
+          "second": 56,
+          "scorer": "Nico Rihm",
+          "team": "away",
+          "team_abbrev": "SV Fellbach",
+          "seven_meter": false
+        },
+        {
+          "minute": 34,
+          "second": 46,
+          "scorer": "Tim R\u00f6ttgen",
+          "team": "away",
+          "team_abbrev": "SV Fellbach",
+          "seven_meter": false
+        },
+        {
+          "minute": 36,
+          "second": 8,
+          "scorer": "Nico Rihm",
+          "team": "away",
+          "team_abbrev": "SV Fellbach",
+          "seven_meter": true
+        },
+        {
+          "minute": 37,
+          "second": 22,
+          "scorer": "Florian Reisch",
+          "team": "home",
+          "team_abbrev": "HSC Schm/Oeff 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 37,
+          "second": 44,
+          "scorer": "Nico Rihm",
+          "team": "away",
+          "team_abbrev": "SV Fellbach",
+          "seven_meter": false
+        },
+        {
+          "minute": 38,
+          "second": 25,
+          "scorer": "Tim R\u00f6ttgen",
+          "team": "away",
+          "team_abbrev": "SV Fellbach",
+          "seven_meter": false
+        },
+        {
+          "minute": 40,
+          "second": 19,
+          "scorer": "Kilian Matth\u00e4i",
+          "team": "home",
+          "team_abbrev": "HSC Schm/Oeff 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 40,
+          "second": 37,
+          "scorer": "Tim R\u00f6ttgen",
+          "team": "away",
+          "team_abbrev": "SV Fellbach",
+          "seven_meter": false
+        },
+        {
+          "minute": 41,
+          "second": 11,
+          "scorer": "Nico Rihm",
+          "team": "away",
+          "team_abbrev": "SV Fellbach",
+          "seven_meter": false
+        },
+        {
+          "minute": 41,
+          "second": 40,
+          "scorer": "Carl Oettinger",
+          "team": "home",
+          "team_abbrev": "HSC Schm/Oeff 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 42,
+          "second": 41,
+          "scorer": "Nico Rihm",
+          "team": "away",
+          "team_abbrev": "SV Fellbach",
+          "seven_meter": false
+        },
+        {
+          "minute": 43,
+          "second": 18,
+          "scorer": "Julian Wyhler",
+          "team": "home",
+          "team_abbrev": "HSC Schm/Oeff 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 43,
+          "second": 34,
+          "scorer": "Tim R\u00f6ttgen",
+          "team": "away",
+          "team_abbrev": "SV Fellbach",
+          "seven_meter": false
+        },
+        {
+          "minute": 43,
+          "second": 52,
+          "scorer": "Carl Oettinger",
+          "team": "home",
+          "team_abbrev": "HSC Schm/Oeff 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 44,
+          "second": 43,
+          "scorer": "Leo M\u00fcller",
+          "team": "away",
+          "team_abbrev": "SV Fellbach",
+          "seven_meter": false
+        },
+        {
+          "minute": 44,
+          "second": 57,
+          "scorer": "Maximilian Schelbert",
+          "team": "home",
+          "team_abbrev": "HSC Schm/Oeff 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 46,
+          "second": 36,
+          "scorer": "Nico Rihm",
+          "team": "away",
+          "team_abbrev": "SV Fellbach",
+          "seven_meter": false
+        },
+        {
+          "minute": 46,
+          "second": 59,
+          "scorer": "Nico Rihm",
+          "team": "away",
+          "team_abbrev": "SV Fellbach",
+          "seven_meter": false
+        },
+        {
+          "minute": 47,
+          "second": 45,
+          "scorer": "Carl Oettinger",
+          "team": "home",
+          "team_abbrev": "HSC Schm/Oeff 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 49,
+          "second": 27,
+          "scorer": "Nico Rihm",
+          "team": "away",
+          "team_abbrev": "SV Fellbach",
+          "seven_meter": false
+        },
+        {
+          "minute": 49,
+          "second": 59,
+          "scorer": "Christian Pachner",
+          "team": "away",
+          "team_abbrev": "SV Fellbach",
+          "seven_meter": false
+        }
+      ],
+      "final_score": "24:32",
+      "half_duration": 30,
+      "officials": {
+        "referees": [
+          "Florian Silberberger"
+        ],
+        "timekeepers": [
+          "Frank Plieninger"
+        ],
+        "secretaries": [
+          "Lars Gneithing"
+        ]
+      },
+      "graphic_path": "output/graphics/SV_Fellbach_vs_HSC_Schmiden_Oeffing_Sa_0111.png"
+    }
+  ]
+}

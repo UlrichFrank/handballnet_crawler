@@ -1,0 +1,845 @@
+{
+  "date": "20251207",
+  "games": [
+    {
+      "game_id": "handball4all.baden-wuerttemberg.8664546",
+      "order": 38,
+      "date": "So, 07.12.",
+      "home": {
+        "team_name": "TSV Wolfschlugen",
+        "players": [
+          {
+            "name": "Lukas Wilhelm",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Luca Solimando",
+            "goals": 2,
+            "two_min_penalties": 2,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Mattis Wittmann",
+            "goals": 8,
+            "two_min_penalties": 2,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Lasse Sch\u00e4fer",
+            "goals": 8,
+            "two_min_penalties": 0,
+            "yellow_cards": 1,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 3,
+            "seven_meters_goals": 3
+          },
+          {
+            "name": "Janne Wittmann",
+            "goals": 4,
+            "two_min_penalties": 0,
+            "yellow_cards": 1,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Nils Becker",
+            "goals": 2,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Marlon Stoll",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Magnus Stephan",
+            "goals": 4,
+            "two_min_penalties": 1,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Anton Kleiner",
+            "goals": 1,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Philipp Gr\u00fcb",
+            "goals": 4,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Vincent W\u00fcst",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "David Walter Blumauer",
+            "goals": 3,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Mats Waidelich",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Michael Ocker",
+            "goals": 1,
+            "two_min_penalties": 1,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          }
+        ]
+      },
+      "away": {
+        "team_name": "SG H2Ku Herrenberg",
+        "players": [
+          {
+            "name": "Jannik R\u00f6hm",
+            "goals": 2,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Jonas E\u00dflinger",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Jannis Engau",
+            "goals": 2,
+            "two_min_penalties": 1,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Lennart Lohrer",
+            "goals": 6,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 1,
+            "seven_meters_goals": 1
+          },
+          {
+            "name": "Mats Guse",
+            "goals": 3,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 3,
+            "seven_meters_goals": 3
+          },
+          {
+            "name": "Julian Held",
+            "goals": 2,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Ben Lifka",
+            "goals": 2,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Emilian Schmid",
+            "goals": 5,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Kimi Brenner",
+            "goals": 1,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Yanick Bross",
+            "goals": 4,
+            "two_min_penalties": 1,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Julian Schuhmacher",
+            "goals": 1,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Felix Peter",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Mattheo Gauss",
+            "goals": 1,
+            "two_min_penalties": 1,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Fynn Stahl",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          }
+        ]
+      },
+      "goals_timeline": [
+        {
+          "minute": 1,
+          "second": 1,
+          "scorer": "Mattheo Gauss",
+          "team": "home",
+          "team_abbrev": "H2Ku Herrenb.",
+          "seven_meter": false
+        },
+        {
+          "minute": 1,
+          "second": 22,
+          "scorer": "David Blumauer",
+          "team": "away",
+          "team_abbrev": "TSV Wolfschlu.",
+          "seven_meter": false
+        },
+        {
+          "minute": 1,
+          "second": 33,
+          "scorer": "Julian Held",
+          "team": "home",
+          "team_abbrev": "H2Ku Herrenb.",
+          "seven_meter": false
+        },
+        {
+          "minute": 2,
+          "second": 8,
+          "scorer": "Mattis Wittmann",
+          "team": "away",
+          "team_abbrev": "TSV Wolfschlu.",
+          "seven_meter": false
+        },
+        {
+          "minute": 2,
+          "second": 21,
+          "scorer": "Jannis Engau",
+          "team": "home",
+          "team_abbrev": "H2Ku Herrenb.",
+          "seven_meter": false
+        },
+        {
+          "minute": 2,
+          "second": 27,
+          "scorer": "Luca Solimando",
+          "team": "away",
+          "team_abbrev": "TSV Wolfschlu.",
+          "seven_meter": false
+        },
+        {
+          "minute": 3,
+          "second": 3,
+          "scorer": "Lennart Lohrer",
+          "team": "home",
+          "team_abbrev": "H2Ku Herrenb.",
+          "seven_meter": false
+        },
+        {
+          "minute": 3,
+          "second": 29,
+          "scorer": "Lasse Sch\u00e4fer",
+          "team": "away",
+          "team_abbrev": "TSV Wolfschlu.",
+          "seven_meter": false
+        },
+        {
+          "minute": 5,
+          "second": 6,
+          "scorer": "Mattis Wittmann",
+          "team": "away",
+          "team_abbrev": "TSV Wolfschlu.",
+          "seven_meter": false
+        },
+        {
+          "minute": 6,
+          "second": 16,
+          "scorer": "Lasse Sch\u00e4fer",
+          "team": "away",
+          "team_abbrev": "TSV Wolfschlu.",
+          "seven_meter": true
+        },
+        {
+          "minute": 6,
+          "second": 49,
+          "scorer": "Lennart Lohrer",
+          "team": "home",
+          "team_abbrev": "H2Ku Herrenb.",
+          "seven_meter": false
+        },
+        {
+          "minute": 6,
+          "second": 58,
+          "scorer": "David Blumauer",
+          "team": "away",
+          "team_abbrev": "TSV Wolfschlu.",
+          "seven_meter": false
+        },
+        {
+          "minute": 7,
+          "second": 30,
+          "scorer": "Magnus Stephan",
+          "team": "away",
+          "team_abbrev": "TSV Wolfschlu.",
+          "seven_meter": false
+        },
+        {
+          "minute": 8,
+          "second": 13,
+          "scorer": "Emilian Schmid",
+          "team": "home",
+          "team_abbrev": "H2Ku Herrenb.",
+          "seven_meter": false
+        },
+        {
+          "minute": 8,
+          "second": 26,
+          "scorer": "Janne Wittmann",
+          "team": "away",
+          "team_abbrev": "TSV Wolfschlu.",
+          "seven_meter": false
+        },
+        {
+          "minute": 9,
+          "second": 26,
+          "scorer": "Yanick Bross",
+          "team": "home",
+          "team_abbrev": "H2Ku Herrenb.",
+          "seven_meter": false
+        },
+        {
+          "minute": 10,
+          "second": 57,
+          "scorer": "Mats Guse",
+          "team": "home",
+          "team_abbrev": "H2Ku Herrenb.",
+          "seven_meter": true
+        },
+        {
+          "minute": 11,
+          "second": 37,
+          "scorer": "Kimi Brenner",
+          "team": "home",
+          "team_abbrev": "H2Ku Herrenb.",
+          "seven_meter": false
+        },
+        {
+          "minute": 12,
+          "second": 9,
+          "scorer": "Janne Wittmann",
+          "team": "away",
+          "team_abbrev": "TSV Wolfschlu.",
+          "seven_meter": false
+        },
+        {
+          "minute": 13,
+          "second": 10,
+          "scorer": "Mattis Wittmann",
+          "team": "away",
+          "team_abbrev": "TSV Wolfschlu.",
+          "seven_meter": false
+        },
+        {
+          "minute": 14,
+          "second": 34,
+          "scorer": "Emilian Schmid",
+          "team": "home",
+          "team_abbrev": "H2Ku Herrenb.",
+          "seven_meter": false
+        },
+        {
+          "minute": 15,
+          "second": 6,
+          "scorer": "Janne Wittmann",
+          "team": "away",
+          "team_abbrev": "TSV Wolfschlu.",
+          "seven_meter": false
+        },
+        {
+          "minute": 17,
+          "second": 8,
+          "scorer": "Luca Solimando",
+          "team": "away",
+          "team_abbrev": "TSV Wolfschlu.",
+          "seven_meter": false
+        },
+        {
+          "minute": 17,
+          "second": 53,
+          "scorer": "David Blumauer",
+          "team": "away",
+          "team_abbrev": "TSV Wolfschlu.",
+          "seven_meter": false
+        },
+        {
+          "minute": 18,
+          "second": 41,
+          "scorer": "Emilian Schmid",
+          "team": "home",
+          "team_abbrev": "H2Ku Herrenb.",
+          "seven_meter": false
+        },
+        {
+          "minute": 18,
+          "second": 58,
+          "scorer": "Mattis Wittmann",
+          "team": "away",
+          "team_abbrev": "TSV Wolfschlu.",
+          "seven_meter": false
+        },
+        {
+          "minute": 19,
+          "second": 52,
+          "scorer": "Emilian Schmid",
+          "team": "home",
+          "team_abbrev": "H2Ku Herrenb.",
+          "seven_meter": false
+        },
+        {
+          "minute": 20,
+          "second": 31,
+          "scorer": "Philipp Gr\u00fcb",
+          "team": "away",
+          "team_abbrev": "TSV Wolfschlu.",
+          "seven_meter": false
+        },
+        {
+          "minute": 20,
+          "second": 57,
+          "scorer": "Ben Lifka",
+          "team": "home",
+          "team_abbrev": "H2Ku Herrenb.",
+          "seven_meter": false
+        },
+        {
+          "minute": 21,
+          "second": 47,
+          "scorer": "Magnus Stephan",
+          "team": "away",
+          "team_abbrev": "TSV Wolfschlu.",
+          "seven_meter": false
+        },
+        {
+          "minute": 22,
+          "second": 10,
+          "scorer": "Julian Held",
+          "team": "home",
+          "team_abbrev": "H2Ku Herrenb.",
+          "seven_meter": false
+        },
+        {
+          "minute": 22,
+          "second": 32,
+          "scorer": "Magnus Stephan",
+          "team": "away",
+          "team_abbrev": "TSV Wolfschlu.",
+          "seven_meter": false
+        },
+        {
+          "minute": 25,
+          "second": 48,
+          "scorer": "Lennart Lohrer",
+          "team": "home",
+          "team_abbrev": "H2Ku Herrenb.",
+          "seven_meter": true
+        },
+        {
+          "minute": 26,
+          "second": 24,
+          "scorer": "Philipp Gr\u00fcb",
+          "team": "away",
+          "team_abbrev": "TSV Wolfschlu.",
+          "seven_meter": false
+        },
+        {
+          "minute": 26,
+          "second": 59,
+          "scorer": "Nils Becker",
+          "team": "away",
+          "team_abbrev": "TSV Wolfschlu.",
+          "seven_meter": false
+        },
+        {
+          "minute": 29,
+          "second": 50,
+          "scorer": "Magnus Stephan",
+          "team": "away",
+          "team_abbrev": "TSV Wolfschlu.",
+          "seven_meter": false
+        },
+        {
+          "minute": 29,
+          "second": 56,
+          "scorer": "Julian Schuhmacher",
+          "team": "home",
+          "team_abbrev": "H2Ku Herrenb.",
+          "seven_meter": false
+        },
+        {
+          "minute": 30,
+          "second": 38,
+          "scorer": "Lasse Sch\u00e4fer",
+          "team": "away",
+          "team_abbrev": "TSV Wolfschlu.",
+          "seven_meter": true
+        },
+        {
+          "minute": 31,
+          "second": 14,
+          "scorer": "Jannis Engau",
+          "team": "home",
+          "team_abbrev": "H2Ku Herrenb.",
+          "seven_meter": false
+        },
+        {
+          "minute": 31,
+          "second": 44,
+          "scorer": "Mats Guse",
+          "team": "home",
+          "team_abbrev": "H2Ku Herrenb.",
+          "seven_meter": true
+        },
+        {
+          "minute": 34,
+          "second": 51,
+          "scorer": "Philipp Gr\u00fcb",
+          "team": "away",
+          "team_abbrev": "TSV Wolfschlu.",
+          "seven_meter": false
+        },
+        {
+          "minute": 35,
+          "second": 20,
+          "scorer": "Yanick Bross",
+          "team": "home",
+          "team_abbrev": "H2Ku Herrenb.",
+          "seven_meter": false
+        },
+        {
+          "minute": 35,
+          "second": 52,
+          "scorer": "Janne Wittmann",
+          "team": "away",
+          "team_abbrev": "TSV Wolfschlu.",
+          "seven_meter": false
+        },
+        {
+          "minute": 36,
+          "second": 2,
+          "scorer": "Yanick Bross",
+          "team": "home",
+          "team_abbrev": "H2Ku Herrenb.",
+          "seven_meter": false
+        },
+        {
+          "minute": 36,
+          "second": 46,
+          "scorer": "Lennart Lohrer",
+          "team": "home",
+          "team_abbrev": "H2Ku Herrenb.",
+          "seven_meter": false
+        },
+        {
+          "minute": 37,
+          "second": 19,
+          "scorer": "Emilian Schmid",
+          "team": "home",
+          "team_abbrev": "H2Ku Herrenb.",
+          "seven_meter": false
+        },
+        {
+          "minute": 38,
+          "second": 7,
+          "scorer": "Mattis Wittmann",
+          "team": "away",
+          "team_abbrev": "TSV Wolfschlu.",
+          "seven_meter": false
+        },
+        {
+          "minute": 39,
+          "second": 17,
+          "scorer": "Yanick Bross",
+          "team": "home",
+          "team_abbrev": "H2Ku Herrenb.",
+          "seven_meter": false
+        },
+        {
+          "minute": 40,
+          "second": 26,
+          "scorer": "Lasse Sch\u00e4fer",
+          "team": "away",
+          "team_abbrev": "TSV Wolfschlu.",
+          "seven_meter": false
+        },
+        {
+          "minute": 41,
+          "second": 1,
+          "scorer": "Ben Lifka",
+          "team": "home",
+          "team_abbrev": "H2Ku Herrenb.",
+          "seven_meter": false
+        },
+        {
+          "minute": 41,
+          "second": 51,
+          "scorer": "Philipp Gr\u00fcb",
+          "team": "away",
+          "team_abbrev": "TSV Wolfschlu.",
+          "seven_meter": false
+        },
+        {
+          "minute": 45,
+          "second": 26,
+          "scorer": "Nils Becker",
+          "team": "away",
+          "team_abbrev": "TSV Wolfschlu.",
+          "seven_meter": false
+        },
+        {
+          "minute": 47,
+          "second": 7,
+          "scorer": "Mattis Wittmann",
+          "team": "away",
+          "team_abbrev": "TSV Wolfschlu.",
+          "seven_meter": false
+        },
+        {
+          "minute": 48,
+          "second": 5,
+          "scorer": "Lasse Sch\u00e4fer",
+          "team": "away",
+          "team_abbrev": "TSV Wolfschlu.",
+          "seven_meter": false
+        },
+        {
+          "minute": 48,
+          "second": 16,
+          "scorer": "Lennart Lohrer",
+          "team": "home",
+          "team_abbrev": "H2Ku Herrenb.",
+          "seven_meter": false
+        },
+        {
+          "minute": 49,
+          "second": 8,
+          "scorer": "Lasse Sch\u00e4fer",
+          "team": "away",
+          "team_abbrev": "TSV Wolfschlu.",
+          "seven_meter": true
+        },
+        {
+          "minute": 50,
+          "second": 0,
+          "scorer": "Lennart Lohrer",
+          "team": "home",
+          "team_abbrev": "H2Ku Herrenb.",
+          "seven_meter": false
+        },
+        {
+          "minute": 50,
+          "second": 34,
+          "scorer": "Lasse Sch\u00e4fer",
+          "team": "away",
+          "team_abbrev": "TSV Wolfschlu.",
+          "seven_meter": false
+        },
+        {
+          "minute": 51,
+          "second": 49,
+          "scorer": "Jannik R\u00f6hm",
+          "team": "home",
+          "team_abbrev": "H2Ku Herrenb.",
+          "seven_meter": false
+        },
+        {
+          "minute": 53,
+          "second": 2,
+          "scorer": "Mattis Wittmann",
+          "team": "away",
+          "team_abbrev": "TSV Wolfschlu.",
+          "seven_meter": false
+        },
+        {
+          "minute": 54,
+          "second": 34,
+          "scorer": "Mattis Wittmann",
+          "team": "away",
+          "team_abbrev": "TSV Wolfschlu.",
+          "seven_meter": false
+        },
+        {
+          "minute": 55,
+          "second": 49,
+          "scorer": "Lasse Sch\u00e4fer",
+          "team": "away",
+          "team_abbrev": "TSV Wolfschlu.",
+          "seven_meter": false
+        },
+        {
+          "minute": 56,
+          "second": 19,
+          "scorer": "Michael Ocker",
+          "team": "away",
+          "team_abbrev": "TSV Wolfschlu.",
+          "seven_meter": false
+        },
+        {
+          "minute": 56,
+          "second": 27,
+          "scorer": "Jannik R\u00f6hm",
+          "team": "home",
+          "team_abbrev": "H2Ku Herrenb.",
+          "seven_meter": false
+        },
+        {
+          "minute": 57,
+          "second": 15,
+          "scorer": "Mats Guse",
+          "team": "home",
+          "team_abbrev": "H2Ku Herrenb.",
+          "seven_meter": true
+        },
+        {
+          "minute": 59,
+          "second": 36,
+          "scorer": "Anton Kleiner",
+          "team": "away",
+          "team_abbrev": "TSV Wolfschlu.",
+          "seven_meter": false
+        }
+      ],
+      "final_score": "29:37",
+      "half_duration": 30,
+      "officials": {
+        "referees": [
+          "Felix Pagallies",
+          "Tanja Seiffert"
+        ],
+        "timekeepers": [
+          "Martin Sch\u00e4fer"
+        ],
+        "secretaries": [
+          "Dirk Lifka"
+        ]
+      },
+      "graphic_path": "output/graphics/TSV_Wolfschlugen_vs_SG_H2Ku_Herrenberg_So_0712.png"
+    }
+  ]
+}

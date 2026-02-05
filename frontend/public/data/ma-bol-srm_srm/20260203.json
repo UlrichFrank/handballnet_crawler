@@ -1,0 +1,756 @@
+{
+  "date": "20260203",
+  "games": [
+    {
+      "game_id": "handball4all.baden-wuerttemberg.8849387",
+      "order": 53,
+      "date": "Di, 03.02.",
+      "home": {
+        "team_name": "MTV Stuttgart",
+        "players": [
+          {
+            "name": "Christian Payer",
+            "goals": 5,
+            "two_min_penalties": 0,
+            "yellow_cards": 1,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Bilal Bakir",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Ilias Jacques",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Oskar Brandt",
+            "goals": 1,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Ruben Kirchhauser",
+            "goals": 2,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Paul St\u00e4cker",
+            "goals": 3,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 1,
+            "seven_meters_goals": 1
+          },
+          {
+            "name": "Marc Geib",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Victor Pey Klinge",
+            "goals": 4,
+            "two_min_penalties": 1,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Eric Ferdinand",
+            "goals": 3,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 2,
+            "seven_meters_goals": 2
+          },
+          {
+            "name": "Theo Bernecker",
+            "goals": 11,
+            "two_min_penalties": 1,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 1,
+            "seven_meters_goals": 0
+          }
+        ]
+      },
+      "away": {
+        "team_name": "Hbi Weilimdorf/Feuerbach",
+        "players": [
+          {
+            "name": "Jonah Stich",
+            "goals": 3,
+            "two_min_penalties": 1,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Matteo Merigault",
+            "goals": 1,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Nico Buck",
+            "goals": 2,
+            "two_min_penalties": 2,
+            "yellow_cards": 1,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Niklas Finn John",
+            "goals": 8,
+            "two_min_penalties": 1,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Noah Schulz",
+            "goals": 1,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Noah Stephan",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 1,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Jonas Herweg",
+            "goals": 6,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Robin Schilling",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Rihard Sol",
+            "goals": 1,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Tom Weber",
+            "goals": 14,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 1,
+            "seven_meters_goals": 0
+          }
+        ]
+      },
+      "goals_timeline": [
+        {
+          "minute": 0,
+          "second": 58,
+          "scorer": "Theo Bernecker",
+          "team": "home",
+          "team_abbrev": "MTV Stuttgart",
+          "seven_meter": false
+        },
+        {
+          "minute": 2,
+          "second": 45,
+          "scorer": "Jonas Herweg",
+          "team": "away",
+          "team_abbrev": "Hbi Weil/Feuer",
+          "seven_meter": false
+        },
+        {
+          "minute": 3,
+          "second": 18,
+          "scorer": "Theo Bernecker",
+          "team": "home",
+          "team_abbrev": "MTV Stuttgart",
+          "seven_meter": false
+        },
+        {
+          "minute": 4,
+          "second": 29,
+          "scorer": "Noah Schulz",
+          "team": "away",
+          "team_abbrev": "Hbi Weil/Feuer",
+          "seven_meter": false
+        },
+        {
+          "minute": 5,
+          "second": 45,
+          "scorer": "Tom Weber",
+          "team": "away",
+          "team_abbrev": "Hbi Weil/Feuer",
+          "seven_meter": false
+        },
+        {
+          "minute": 5,
+          "second": 55,
+          "scorer": "Christian Payer",
+          "team": "home",
+          "team_abbrev": "MTV Stuttgart",
+          "seven_meter": false
+        },
+        {
+          "minute": 6,
+          "second": 9,
+          "scorer": "Niklas John",
+          "team": "away",
+          "team_abbrev": "Hbi Weil/Feuer",
+          "seven_meter": false
+        },
+        {
+          "minute": 7,
+          "second": 24,
+          "scorer": "Paul St\u00e4cker",
+          "team": "home",
+          "team_abbrev": "MTV Stuttgart",
+          "seven_meter": true
+        },
+        {
+          "minute": 9,
+          "second": 51,
+          "scorer": "Niklas John",
+          "team": "away",
+          "team_abbrev": "Hbi Weil/Feuer",
+          "seven_meter": false
+        },
+        {
+          "minute": 10,
+          "second": 11,
+          "scorer": "Theo Bernecker",
+          "team": "home",
+          "team_abbrev": "MTV Stuttgart",
+          "seven_meter": false
+        },
+        {
+          "minute": 10,
+          "second": 39,
+          "scorer": "Matteo Merigault",
+          "team": "away",
+          "team_abbrev": "Hbi Weil/Feuer",
+          "seven_meter": false
+        },
+        {
+          "minute": 12,
+          "second": 2,
+          "scorer": "Niklas John",
+          "team": "away",
+          "team_abbrev": "Hbi Weil/Feuer",
+          "seven_meter": false
+        },
+        {
+          "minute": 12,
+          "second": 38,
+          "scorer": "Jonah Stich",
+          "team": "away",
+          "team_abbrev": "Hbi Weil/Feuer",
+          "seven_meter": false
+        },
+        {
+          "minute": 13,
+          "second": 12,
+          "scorer": "Eric Ferdinand",
+          "team": "home",
+          "team_abbrev": "MTV Stuttgart",
+          "seven_meter": true
+        },
+        {
+          "minute": 14,
+          "second": 20,
+          "scorer": "Victor Pey Klinge",
+          "team": "home",
+          "team_abbrev": "MTV Stuttgart",
+          "seven_meter": false
+        },
+        {
+          "minute": 14,
+          "second": 37,
+          "scorer": "Tom Weber",
+          "team": "away",
+          "team_abbrev": "Hbi Weil/Feuer",
+          "seven_meter": false
+        },
+        {
+          "minute": 15,
+          "second": 5,
+          "scorer": "Theo Bernecker",
+          "team": "home",
+          "team_abbrev": "MTV Stuttgart",
+          "seven_meter": false
+        },
+        {
+          "minute": 19,
+          "second": 30,
+          "scorer": "Jonas Herweg",
+          "team": "away",
+          "team_abbrev": "Hbi Weil/Feuer",
+          "seven_meter": false
+        },
+        {
+          "minute": 20,
+          "second": 5,
+          "scorer": "Niklas John",
+          "team": "away",
+          "team_abbrev": "Hbi Weil/Feuer",
+          "seven_meter": true
+        },
+        {
+          "minute": 22,
+          "second": 36,
+          "scorer": "Theo Bernecker",
+          "team": "home",
+          "team_abbrev": "MTV Stuttgart",
+          "seven_meter": false
+        },
+        {
+          "minute": 23,
+          "second": 22,
+          "scorer": "Theo Bernecker",
+          "team": "home",
+          "team_abbrev": "MTV Stuttgart",
+          "seven_meter": false
+        },
+        {
+          "minute": 27,
+          "second": 7,
+          "scorer": "Theo Bernecker",
+          "team": "home",
+          "team_abbrev": "MTV Stuttgart",
+          "seven_meter": false
+        },
+        {
+          "minute": 27,
+          "second": 49,
+          "scorer": "Tom Weber",
+          "team": "away",
+          "team_abbrev": "Hbi Weil/Feuer",
+          "seven_meter": false
+        },
+        {
+          "minute": 28,
+          "second": 24,
+          "scorer": "Victor Pey Klinge",
+          "team": "home",
+          "team_abbrev": "MTV Stuttgart",
+          "seven_meter": false
+        },
+        {
+          "minute": 30,
+          "second": 55,
+          "scorer": "Tom Weber",
+          "team": "away",
+          "team_abbrev": "Hbi Weil/Feuer",
+          "seven_meter": false
+        },
+        {
+          "minute": 32,
+          "second": 11,
+          "scorer": "Nico Buck",
+          "team": "away",
+          "team_abbrev": "Hbi Weil/Feuer",
+          "seven_meter": false
+        },
+        {
+          "minute": 32,
+          "second": 46,
+          "scorer": "Theo Bernecker",
+          "team": "home",
+          "team_abbrev": "MTV Stuttgart",
+          "seven_meter": false
+        },
+        {
+          "minute": 33,
+          "second": 22,
+          "scorer": "Tom Weber",
+          "team": "away",
+          "team_abbrev": "Hbi Weil/Feuer",
+          "seven_meter": false
+        },
+        {
+          "minute": 33,
+          "second": 55,
+          "scorer": "Victor Pey Klinge",
+          "team": "home",
+          "team_abbrev": "MTV Stuttgart",
+          "seven_meter": false
+        },
+        {
+          "minute": 34,
+          "second": 8,
+          "scorer": "Jonas Herweg",
+          "team": "away",
+          "team_abbrev": "Hbi Weil/Feuer",
+          "seven_meter": false
+        },
+        {
+          "minute": 34,
+          "second": 57,
+          "scorer": "Paul St\u00e4cker",
+          "team": "home",
+          "team_abbrev": "MTV Stuttgart",
+          "seven_meter": false
+        },
+        {
+          "minute": 35,
+          "second": 17,
+          "scorer": "Tom Weber",
+          "team": "away",
+          "team_abbrev": "Hbi Weil/Feuer",
+          "seven_meter": false
+        },
+        {
+          "minute": 37,
+          "second": 25,
+          "scorer": "Tom Weber",
+          "team": "away",
+          "team_abbrev": "Hbi Weil/Feuer",
+          "seven_meter": false
+        },
+        {
+          "minute": 38,
+          "second": 45,
+          "scorer": "Niklas John",
+          "team": "away",
+          "team_abbrev": "Hbi Weil/Feuer",
+          "seven_meter": true
+        },
+        {
+          "minute": 39,
+          "second": 39,
+          "scorer": "Paul St\u00e4cker",
+          "team": "home",
+          "team_abbrev": "MTV Stuttgart",
+          "seven_meter": false
+        },
+        {
+          "minute": 39,
+          "second": 51,
+          "scorer": "Tom Weber",
+          "team": "away",
+          "team_abbrev": "Hbi Weil/Feuer",
+          "seven_meter": false
+        },
+        {
+          "minute": 40,
+          "second": 53,
+          "scorer": "Rihard Sol",
+          "team": "away",
+          "team_abbrev": "Hbi Weil/Feuer",
+          "seven_meter": false
+        },
+        {
+          "minute": 41,
+          "second": 22,
+          "scorer": "Christian Payer",
+          "team": "home",
+          "team_abbrev": "MTV Stuttgart",
+          "seven_meter": false
+        },
+        {
+          "minute": 41,
+          "second": 36,
+          "scorer": "Jonah Stich",
+          "team": "away",
+          "team_abbrev": "Hbi Weil/Feuer",
+          "seven_meter": false
+        },
+        {
+          "minute": 42,
+          "second": 2,
+          "scorer": "Tom Weber",
+          "team": "away",
+          "team_abbrev": "Hbi Weil/Feuer",
+          "seven_meter": false
+        },
+        {
+          "minute": 43,
+          "second": 25,
+          "scorer": "Christian Payer",
+          "team": "home",
+          "team_abbrev": "MTV Stuttgart",
+          "seven_meter": false
+        },
+        {
+          "minute": 44,
+          "second": 22,
+          "scorer": "Tom Weber",
+          "team": "away",
+          "team_abbrev": "Hbi Weil/Feuer",
+          "seven_meter": false
+        },
+        {
+          "minute": 44,
+          "second": 50,
+          "scorer": "Christian Payer",
+          "team": "home",
+          "team_abbrev": "MTV Stuttgart",
+          "seven_meter": false
+        },
+        {
+          "minute": 45,
+          "second": 12,
+          "scorer": "Tom Weber",
+          "team": "away",
+          "team_abbrev": "Hbi Weil/Feuer",
+          "seven_meter": false
+        },
+        {
+          "minute": 48,
+          "second": 38,
+          "scorer": "Tom Weber",
+          "team": "away",
+          "team_abbrev": "Hbi Weil/Feuer",
+          "seven_meter": false
+        },
+        {
+          "minute": 49,
+          "second": 9,
+          "scorer": "Christian Payer",
+          "team": "home",
+          "team_abbrev": "MTV Stuttgart",
+          "seven_meter": false
+        },
+        {
+          "minute": 49,
+          "second": 38,
+          "scorer": "Jonas Herweg",
+          "team": "away",
+          "team_abbrev": "Hbi Weil/Feuer",
+          "seven_meter": false
+        },
+        {
+          "minute": 50,
+          "second": 6,
+          "scorer": "Eric Ferdinand",
+          "team": "home",
+          "team_abbrev": "MTV Stuttgart",
+          "seven_meter": true
+        },
+        {
+          "minute": 50,
+          "second": 24,
+          "scorer": "Jonas Herweg",
+          "team": "away",
+          "team_abbrev": "Hbi Weil/Feuer",
+          "seven_meter": false
+        },
+        {
+          "minute": 50,
+          "second": 44,
+          "scorer": "Tom Weber",
+          "team": "away",
+          "team_abbrev": "Hbi Weil/Feuer",
+          "seven_meter": false
+        },
+        {
+          "minute": 50,
+          "second": 57,
+          "scorer": "Victor Pey Klinge",
+          "team": "home",
+          "team_abbrev": "MTV Stuttgart",
+          "seven_meter": false
+        },
+        {
+          "minute": 51,
+          "second": 32,
+          "scorer": "Theo Bernecker",
+          "team": "home",
+          "team_abbrev": "MTV Stuttgart",
+          "seven_meter": false
+        },
+        {
+          "minute": 52,
+          "second": 53,
+          "scorer": "Niklas John",
+          "team": "away",
+          "team_abbrev": "Hbi Weil/Feuer",
+          "seven_meter": true
+        },
+        {
+          "minute": 53,
+          "second": 44,
+          "scorer": "Theo Bernecker",
+          "team": "home",
+          "team_abbrev": "MTV Stuttgart",
+          "seven_meter": false
+        },
+        {
+          "minute": 53,
+          "second": 56,
+          "scorer": "Nico Buck",
+          "team": "away",
+          "team_abbrev": "Hbi Weil/Feuer",
+          "seven_meter": false
+        },
+        {
+          "minute": 54,
+          "second": 5,
+          "scorer": "Ruben Kirchhauser",
+          "team": "home",
+          "team_abbrev": "MTV Stuttgart",
+          "seven_meter": false
+        },
+        {
+          "minute": 55,
+          "second": 22,
+          "scorer": "Jonah Stich",
+          "team": "away",
+          "team_abbrev": "Hbi Weil/Feuer",
+          "seven_meter": false
+        },
+        {
+          "minute": 55,
+          "second": 56,
+          "scorer": "Tom Weber",
+          "team": "away",
+          "team_abbrev": "Hbi Weil/Feuer",
+          "seven_meter": false
+        },
+        {
+          "minute": 56,
+          "second": 18,
+          "scorer": "Oskar Brandt",
+          "team": "home",
+          "team_abbrev": "MTV Stuttgart",
+          "seven_meter": false
+        },
+        {
+          "minute": 57,
+          "second": 17,
+          "scorer": "Eric Ferdinand",
+          "team": "home",
+          "team_abbrev": "MTV Stuttgart",
+          "seven_meter": false
+        },
+        {
+          "minute": 57,
+          "second": 51,
+          "scorer": "Ruben Kirchhauser",
+          "team": "home",
+          "team_abbrev": "MTV Stuttgart",
+          "seven_meter": false
+        },
+        {
+          "minute": 58,
+          "second": 16,
+          "scorer": "Niklas John",
+          "team": "away",
+          "team_abbrev": "Hbi Weil/Feuer",
+          "seven_meter": false
+        },
+        {
+          "minute": 58,
+          "second": 49,
+          "scorer": "Theo Bernecker",
+          "team": "home",
+          "team_abbrev": "MTV Stuttgart",
+          "seven_meter": false
+        },
+        {
+          "minute": 59,
+          "second": 22,
+          "scorer": "Niklas John",
+          "team": "away",
+          "team_abbrev": "Hbi Weil/Feuer",
+          "seven_meter": true
+        },
+        {
+          "minute": 59,
+          "second": 54,
+          "scorer": "Jonas Herweg",
+          "team": "away",
+          "team_abbrev": "Hbi Weil/Feuer",
+          "seven_meter": false
+        }
+      ],
+      "final_score": "29:36",
+      "half_duration": 30,
+      "officials": {
+        "referees": [
+          "Felix Hach"
+        ],
+        "timekeepers": [
+          "Ben Kamer"
+        ],
+        "secretaries": [
+          "Armin Weber"
+        ]
+      },
+      "graphic_path": "output/graphics/MTV_Stuttgart_vs_Hbi_Weilimdorf_Feuer_Di_0302.png"
+    }
+  ]
+}

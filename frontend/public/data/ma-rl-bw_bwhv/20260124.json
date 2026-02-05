@@ -1,0 +1,823 @@
+{
+  "date": "20260124",
+  "games": [
+    {
+      "game_id": "handball4all.baden-wuerttemberg.8664161",
+      "order": 62,
+      "date": "Sa, 24.01.",
+      "home": {
+        "team_name": "Team Stuttgart",
+        "players": [
+          {
+            "name": "Joel Mekonnen",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Dominik Burgi",
+            "goals": 1,
+            "two_min_penalties": 1,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Felix Strotbek",
+            "goals": 5,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Robin Frank",
+            "goals": 8,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Aaron Burkert",
+            "goals": 5,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 1,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Lewin Frey",
+            "goals": 5,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Tom Hughes",
+            "goals": 9,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 3,
+            "seven_meters_goals": 3
+          },
+          {
+            "name": "Alexander Diekmann",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Ben Miess",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Benedikt Jelen",
+            "goals": 1,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Gregor Behrendsen",
+            "goals": 1,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Ole Krauter",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Leopold Baisch",
+            "goals": 2,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 1,
+            "seven_meters_goals": 1
+          }
+        ]
+      },
+      "away": {
+        "team_name": "TSV Heiningen 1892",
+        "players": [
+          {
+            "name": "David Seyfang",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Noah Bachmaier",
+            "goals": 2,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Thorin N\u00e4gele",
+            "goals": 1,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Maximilian Rieger",
+            "goals": 7,
+            "two_min_penalties": 0,
+            "yellow_cards": 1,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Janne Matteo Braun",
+            "goals": 5,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Josa Schmid",
+            "goals": 3,
+            "two_min_penalties": 1,
+            "yellow_cards": 1,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Mika Ehrmann",
+            "goals": 3,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Jannick M\u00fcller-Gaebele",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Felix Sebastian Wei\u00dfenborn",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Vincent M\u00fcller",
+            "goals": 5,
+            "two_min_penalties": 1,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Finn M\u00fcller",
+            "goals": 4,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 2,
+            "seven_meters_goals": 2
+          },
+          {
+            "name": "Liam Bencak",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          }
+        ]
+      },
+      "goals_timeline": [
+        {
+          "minute": 1,
+          "second": 39,
+          "scorer": "Mika Ehrmann",
+          "team": "home",
+          "team_abbrev": "TSV Heiningen",
+          "seven_meter": false
+        },
+        {
+          "minute": 1,
+          "second": 54,
+          "scorer": "Tom Hughes",
+          "team": "away",
+          "team_abbrev": "Team Stuttgart",
+          "seven_meter": false
+        },
+        {
+          "minute": 2,
+          "second": 14,
+          "scorer": "Maximilian Rieger",
+          "team": "home",
+          "team_abbrev": "TSV Heiningen",
+          "seven_meter": false
+        },
+        {
+          "minute": 2,
+          "second": 53,
+          "scorer": "Maximilian Rieger",
+          "team": "home",
+          "team_abbrev": "TSV Heiningen",
+          "seven_meter": false
+        },
+        {
+          "minute": 3,
+          "second": 3,
+          "scorer": "Aaron Burkert",
+          "team": "away",
+          "team_abbrev": "Team Stuttgart",
+          "seven_meter": false
+        },
+        {
+          "minute": 3,
+          "second": 47,
+          "scorer": "Robin Frank",
+          "team": "away",
+          "team_abbrev": "Team Stuttgart",
+          "seven_meter": false
+        },
+        {
+          "minute": 4,
+          "second": 41,
+          "scorer": "Robin Frank",
+          "team": "away",
+          "team_abbrev": "Team Stuttgart",
+          "seven_meter": false
+        },
+        {
+          "minute": 5,
+          "second": 39,
+          "scorer": "Finn M\u00fcller",
+          "team": "home",
+          "team_abbrev": "TSV Heiningen",
+          "seven_meter": true
+        },
+        {
+          "minute": 7,
+          "second": 33,
+          "scorer": "Josa Schmid",
+          "team": "home",
+          "team_abbrev": "TSV Heiningen",
+          "seven_meter": false
+        },
+        {
+          "minute": 8,
+          "second": 3,
+          "scorer": "Tom Hughes",
+          "team": "away",
+          "team_abbrev": "Team Stuttgart",
+          "seven_meter": false
+        },
+        {
+          "minute": 8,
+          "second": 19,
+          "scorer": "Janne Braun",
+          "team": "home",
+          "team_abbrev": "TSV Heiningen",
+          "seven_meter": false
+        },
+        {
+          "minute": 8,
+          "second": 51,
+          "scorer": "Felix Strotbek",
+          "team": "away",
+          "team_abbrev": "Team Stuttgart",
+          "seven_meter": false
+        },
+        {
+          "minute": 9,
+          "second": 55,
+          "scorer": "Janne Braun",
+          "team": "home",
+          "team_abbrev": "TSV Heiningen",
+          "seven_meter": false
+        },
+        {
+          "minute": 10,
+          "second": 14,
+          "scorer": "Aaron Burkert",
+          "team": "away",
+          "team_abbrev": "Team Stuttgart",
+          "seven_meter": false
+        },
+        {
+          "minute": 11,
+          "second": 0,
+          "scorer": "Dominik Burgi",
+          "team": "away",
+          "team_abbrev": "Team Stuttgart",
+          "seven_meter": false
+        },
+        {
+          "minute": 13,
+          "second": 7,
+          "scorer": "Lewin Frey",
+          "team": "away",
+          "team_abbrev": "Team Stuttgart",
+          "seven_meter": false
+        },
+        {
+          "minute": 15,
+          "second": 1,
+          "scorer": "Tom Hughes",
+          "team": "away",
+          "team_abbrev": "Team Stuttgart",
+          "seven_meter": true
+        },
+        {
+          "minute": 15,
+          "second": 38,
+          "scorer": "Robin Frank",
+          "team": "away",
+          "team_abbrev": "Team Stuttgart",
+          "seven_meter": false
+        },
+        {
+          "minute": 17,
+          "second": 0,
+          "scorer": "Vincent M\u00fcller",
+          "team": "home",
+          "team_abbrev": "TSV Heiningen",
+          "seven_meter": false
+        },
+        {
+          "minute": 21,
+          "second": 8,
+          "scorer": "Finn M\u00fcller",
+          "team": "home",
+          "team_abbrev": "TSV Heiningen",
+          "seven_meter": true
+        },
+        {
+          "minute": 21,
+          "second": 41,
+          "scorer": "Gregor Behrendsen",
+          "team": "away",
+          "team_abbrev": "Team Stuttgart",
+          "seven_meter": false
+        },
+        {
+          "minute": 22,
+          "second": 7,
+          "scorer": "Josa Schmid",
+          "team": "home",
+          "team_abbrev": "TSV Heiningen",
+          "seven_meter": false
+        },
+        {
+          "minute": 23,
+          "second": 3,
+          "scorer": "Aaron Burkert",
+          "team": "away",
+          "team_abbrev": "Team Stuttgart",
+          "seven_meter": false
+        },
+        {
+          "minute": 24,
+          "second": 32,
+          "scorer": "Robin Frank",
+          "team": "away",
+          "team_abbrev": "Team Stuttgart",
+          "seven_meter": false
+        },
+        {
+          "minute": 25,
+          "second": 39,
+          "scorer": "Robin Frank",
+          "team": "away",
+          "team_abbrev": "Team Stuttgart",
+          "seven_meter": false
+        },
+        {
+          "minute": 26,
+          "second": 43,
+          "scorer": "Thorin N\u00e4gele",
+          "team": "home",
+          "team_abbrev": "TSV Heiningen",
+          "seven_meter": false
+        },
+        {
+          "minute": 28,
+          "second": 33,
+          "scorer": "Maximilian Rieger",
+          "team": "home",
+          "team_abbrev": "TSV Heiningen",
+          "seven_meter": false
+        },
+        {
+          "minute": 30,
+          "second": 37,
+          "scorer": "Janne Braun",
+          "team": "home",
+          "team_abbrev": "TSV Heiningen",
+          "seven_meter": false
+        },
+        {
+          "minute": 30,
+          "second": 59,
+          "scorer": "Tom Hughes",
+          "team": "away",
+          "team_abbrev": "Team Stuttgart",
+          "seven_meter": true
+        },
+        {
+          "minute": 31,
+          "second": 32,
+          "scorer": "Noah Bachmaier",
+          "team": "home",
+          "team_abbrev": "TSV Heiningen",
+          "seven_meter": false
+        },
+        {
+          "minute": 31,
+          "second": 55,
+          "scorer": "Robin Frank",
+          "team": "away",
+          "team_abbrev": "Team Stuttgart",
+          "seven_meter": false
+        },
+        {
+          "minute": 32,
+          "second": 49,
+          "scorer": "Vincent M\u00fcller",
+          "team": "home",
+          "team_abbrev": "TSV Heiningen",
+          "seven_meter": false
+        },
+        {
+          "minute": 33,
+          "second": 40,
+          "scorer": "Janne Braun",
+          "team": "home",
+          "team_abbrev": "TSV Heiningen",
+          "seven_meter": false
+        },
+        {
+          "minute": 34,
+          "second": 46,
+          "scorer": "Tom Hughes",
+          "team": "away",
+          "team_abbrev": "Team Stuttgart",
+          "seven_meter": true
+        },
+        {
+          "minute": 35,
+          "second": 48,
+          "scorer": "Lewin Frey",
+          "team": "away",
+          "team_abbrev": "Team Stuttgart",
+          "seven_meter": false
+        },
+        {
+          "minute": 36,
+          "second": 40,
+          "scorer": "Noah Bachmaier",
+          "team": "home",
+          "team_abbrev": "TSV Heiningen",
+          "seven_meter": false
+        },
+        {
+          "minute": 37,
+          "second": 30,
+          "scorer": "Felix Strotbek",
+          "team": "away",
+          "team_abbrev": "Team Stuttgart",
+          "seven_meter": false
+        },
+        {
+          "minute": 37,
+          "second": 43,
+          "scorer": "Maximilian Rieger",
+          "team": "home",
+          "team_abbrev": "TSV Heiningen",
+          "seven_meter": false
+        },
+        {
+          "minute": 39,
+          "second": 4,
+          "scorer": "Maximilian Rieger",
+          "team": "home",
+          "team_abbrev": "TSV Heiningen",
+          "seven_meter": false
+        },
+        {
+          "minute": 39,
+          "second": 37,
+          "scorer": "Aaron Burkert",
+          "team": "away",
+          "team_abbrev": "Team Stuttgart",
+          "seven_meter": false
+        },
+        {
+          "minute": 39,
+          "second": 48,
+          "scorer": "Vincent M\u00fcller",
+          "team": "home",
+          "team_abbrev": "TSV Heiningen",
+          "seven_meter": false
+        },
+        {
+          "minute": 40,
+          "second": 32,
+          "scorer": "Tom Hughes",
+          "team": "away",
+          "team_abbrev": "Team Stuttgart",
+          "seven_meter": false
+        },
+        {
+          "minute": 41,
+          "second": 22,
+          "scorer": "Robin Frank",
+          "team": "away",
+          "team_abbrev": "Team Stuttgart",
+          "seven_meter": false
+        },
+        {
+          "minute": 41,
+          "second": 57,
+          "scorer": "Maximilian Rieger",
+          "team": "home",
+          "team_abbrev": "TSV Heiningen",
+          "seven_meter": false
+        },
+        {
+          "minute": 42,
+          "second": 10,
+          "scorer": "Aaron Burkert",
+          "team": "away",
+          "team_abbrev": "Team Stuttgart",
+          "seven_meter": false
+        },
+        {
+          "minute": 42,
+          "second": 22,
+          "scorer": "Robin Frank",
+          "team": "away",
+          "team_abbrev": "Team Stuttgart",
+          "seven_meter": false
+        },
+        {
+          "minute": 43,
+          "second": 18,
+          "scorer": "Mika Ehrmann",
+          "team": "home",
+          "team_abbrev": "TSV Heiningen",
+          "seven_meter": false
+        },
+        {
+          "minute": 44,
+          "second": 28,
+          "scorer": "Tom Hughes",
+          "team": "away",
+          "team_abbrev": "Team Stuttgart",
+          "seven_meter": false
+        },
+        {
+          "minute": 44,
+          "second": 51,
+          "scorer": "Lewin Frey",
+          "team": "away",
+          "team_abbrev": "Team Stuttgart",
+          "seven_meter": false
+        },
+        {
+          "minute": 46,
+          "second": 2,
+          "scorer": "Lewin Frey",
+          "team": "away",
+          "team_abbrev": "Team Stuttgart",
+          "seven_meter": false
+        },
+        {
+          "minute": 46,
+          "second": 43,
+          "scorer": "Lewin Frey",
+          "team": "away",
+          "team_abbrev": "Team Stuttgart",
+          "seven_meter": false
+        },
+        {
+          "minute": 47,
+          "second": 40,
+          "scorer": "Tom Hughes",
+          "team": "away",
+          "team_abbrev": "Team Stuttgart",
+          "seven_meter": false
+        },
+        {
+          "minute": 48,
+          "second": 34,
+          "scorer": "Vincent M\u00fcller",
+          "team": "home",
+          "team_abbrev": "TSV Heiningen",
+          "seven_meter": false
+        },
+        {
+          "minute": 49,
+          "second": 4,
+          "scorer": "Felix Strotbek",
+          "team": "away",
+          "team_abbrev": "Team Stuttgart",
+          "seven_meter": false
+        },
+        {
+          "minute": 49,
+          "second": 48,
+          "scorer": "Josa Schmid",
+          "team": "home",
+          "team_abbrev": "TSV Heiningen",
+          "seven_meter": false
+        },
+        {
+          "minute": 50,
+          "second": 31,
+          "scorer": "Tom Hughes",
+          "team": "away",
+          "team_abbrev": "Team Stuttgart",
+          "seven_meter": false
+        },
+        {
+          "minute": 51,
+          "second": 56,
+          "scorer": "Felix Strotbek",
+          "team": "away",
+          "team_abbrev": "Team Stuttgart",
+          "seven_meter": false
+        },
+        {
+          "minute": 53,
+          "second": 2,
+          "scorer": "Maximilian Rieger",
+          "team": "home",
+          "team_abbrev": "TSV Heiningen",
+          "seven_meter": false
+        },
+        {
+          "minute": 54,
+          "second": 15,
+          "scorer": "Vincent M\u00fcller",
+          "team": "home",
+          "team_abbrev": "TSV Heiningen",
+          "seven_meter": false
+        },
+        {
+          "minute": 54,
+          "second": 47,
+          "scorer": "Felix Strotbek",
+          "team": "away",
+          "team_abbrev": "Team Stuttgart",
+          "seven_meter": false
+        },
+        {
+          "minute": 55,
+          "second": 27,
+          "scorer": "Janne Braun",
+          "team": "home",
+          "team_abbrev": "TSV Heiningen",
+          "seven_meter": false
+        },
+        {
+          "minute": 56,
+          "second": 14,
+          "scorer": "Leopold Baisch",
+          "team": "away",
+          "team_abbrev": "Team Stuttgart",
+          "seven_meter": false
+        },
+        {
+          "minute": 56,
+          "second": 50,
+          "scorer": "Benedikt Jelen",
+          "team": "away",
+          "team_abbrev": "Team Stuttgart",
+          "seven_meter": false
+        },
+        {
+          "minute": 57,
+          "second": 18,
+          "scorer": "Mika Ehrmann",
+          "team": "home",
+          "team_abbrev": "TSV Heiningen",
+          "seven_meter": false
+        },
+        {
+          "minute": 58,
+          "second": 10,
+          "scorer": "Finn M\u00fcller",
+          "team": "home",
+          "team_abbrev": "TSV Heiningen",
+          "seven_meter": false
+        },
+        {
+          "minute": 58,
+          "second": 58,
+          "scorer": "Leopold Baisch",
+          "team": "away",
+          "team_abbrev": "Team Stuttgart",
+          "seven_meter": true
+        },
+        {
+          "minute": 59,
+          "second": 56,
+          "scorer": "Finn M\u00fcller",
+          "team": "home",
+          "team_abbrev": "TSV Heiningen",
+          "seven_meter": false
+        }
+      ],
+      "final_score": "30:37",
+      "half_duration": 30,
+      "officials": {
+        "referees": [
+          "Florian Kunz",
+          "Matthias Twardon"
+        ],
+        "timekeepers": [
+          "Oswald Frank"
+        ],
+        "secretaries": [
+          "Markus Bachmaier"
+        ]
+      },
+      "graphic_path": "output/graphics/Team_Stuttgart_vs_TSV_Heiningen_1892_Sa_2401.png"
+    }
+  ]
+}

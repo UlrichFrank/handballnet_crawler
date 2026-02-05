@@ -1,0 +1,887 @@
+{
+  "date": "20251102",
+  "games": [
+    {
+      "game_id": "handball4all.baden-wuerttemberg.8666111",
+      "order": 21,
+      "date": "So, 02.11.",
+      "home": {
+        "team_name": "HSC Schmiden/Oeffingen 2004",
+        "players": [
+          {
+            "name": "Marius Prime\u00dfnig",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Maximilian Knapp",
+            "goals": 9,
+            "two_min_penalties": 0,
+            "yellow_cards": 1,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 1,
+            "seven_meters_goals": 1
+          },
+          {
+            "name": "Luca Blind",
+            "goals": 7,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Frederik Hampel",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 1,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Simon Rothwein",
+            "goals": 4,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Max Hueber",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Christian Koch",
+            "goals": 4,
+            "two_min_penalties": 0,
+            "yellow_cards": 1,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Philipp Gro\u00df",
+            "goals": 1,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Robin Kursawe",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Matyas Srnka",
+            "goals": 4,
+            "two_min_penalties": 0,
+            "yellow_cards": 1,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Eliah Amort",
+            "goals": 5,
+            "two_min_penalties": 1,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Leonas Johann Renz",
+            "goals": 3,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Benjamin Hess",
+            "goals": 1,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Collin Pohl",
+            "goals": 3,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          }
+        ]
+      },
+      "away": {
+        "team_name": "TEAM Esslingen",
+        "players": [
+          {
+            "name": "Rouwen Bieda",
+            "goals": 1,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Samuel Finzelberg",
+            "goals": 3,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 1,
+            "seven_meters_goals": 1
+          },
+          {
+            "name": "Jakub Swierzy",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Mika Erben",
+            "goals": 4,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Felix G\u00fcnther",
+            "goals": 2,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Jonah Scharpf",
+            "goals": 1,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Benjamin Moser",
+            "goals": 4,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Jonas Lippoth",
+            "goals": 1,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Max Lutz",
+            "goals": 4,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Vincent Eldh",
+            "goals": 6,
+            "two_min_penalties": 1,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Raphael R\u00f6scheisen",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Adam Karlsson",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Luca Legner",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Moritz Bechlars",
+            "goals": 2,
+            "two_min_penalties": 0,
+            "yellow_cards": 1,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Samuel Dal Piva",
+            "goals": 1,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          }
+        ]
+      },
+      "goals_timeline": [
+        {
+          "minute": 0,
+          "second": 18,
+          "scorer": "Vincent Eldh",
+          "team": "home",
+          "team_abbrev": "TEAM Esslingen",
+          "seven_meter": false
+        },
+        {
+          "minute": 0,
+          "second": 34,
+          "scorer": "Luca Blind",
+          "team": "away",
+          "team_abbrev": "HSC Schm/Oeff",
+          "seven_meter": false
+        },
+        {
+          "minute": 3,
+          "second": 46,
+          "scorer": "Vincent Eldh",
+          "team": "home",
+          "team_abbrev": "TEAM Esslingen",
+          "seven_meter": false
+        },
+        {
+          "minute": 4,
+          "second": 7,
+          "scorer": "Simon Rothwein",
+          "team": "away",
+          "team_abbrev": "HSC Schm/Oeff",
+          "seven_meter": false
+        },
+        {
+          "minute": 6,
+          "second": 36,
+          "scorer": "Eliah Amort",
+          "team": "away",
+          "team_abbrev": "HSC Schm/Oeff",
+          "seven_meter": false
+        },
+        {
+          "minute": 6,
+          "second": 51,
+          "scorer": "Vincent Eldh",
+          "team": "home",
+          "team_abbrev": "TEAM Esslingen",
+          "seven_meter": false
+        },
+        {
+          "minute": 7,
+          "second": 1,
+          "scorer": "Maximilian Knapp",
+          "team": "away",
+          "team_abbrev": "HSC Schm/Oeff",
+          "seven_meter": false
+        },
+        {
+          "minute": 7,
+          "second": 33,
+          "scorer": "Philipp Gro\u00df",
+          "team": "away",
+          "team_abbrev": "HSC Schm/Oeff",
+          "seven_meter": false
+        },
+        {
+          "minute": 7,
+          "second": 59,
+          "scorer": "Eliah Amort",
+          "team": "away",
+          "team_abbrev": "HSC Schm/Oeff",
+          "seven_meter": false
+        },
+        {
+          "minute": 8,
+          "second": 36,
+          "scorer": "Maximilian Knapp",
+          "team": "away",
+          "team_abbrev": "HSC Schm/Oeff",
+          "seven_meter": false
+        },
+        {
+          "minute": 8,
+          "second": 54,
+          "scorer": "Max Lutz",
+          "team": "home",
+          "team_abbrev": "TEAM Esslingen",
+          "seven_meter": false
+        },
+        {
+          "minute": 9,
+          "second": 1,
+          "scorer": "Eliah Amort",
+          "team": "away",
+          "team_abbrev": "HSC Schm/Oeff",
+          "seven_meter": false
+        },
+        {
+          "minute": 9,
+          "second": 27,
+          "scorer": "Maximilian Knapp",
+          "team": "away",
+          "team_abbrev": "HSC Schm/Oeff",
+          "seven_meter": false
+        },
+        {
+          "minute": 9,
+          "second": 42,
+          "scorer": "Benjamin Moser",
+          "team": "home",
+          "team_abbrev": "TEAM Esslingen",
+          "seven_meter": false
+        },
+        {
+          "minute": 9,
+          "second": 54,
+          "scorer": "Matyas Srnka",
+          "team": "away",
+          "team_abbrev": "HSC Schm/Oeff",
+          "seven_meter": false
+        },
+        {
+          "minute": 10,
+          "second": 53,
+          "scorer": "Mika Erben",
+          "team": "home",
+          "team_abbrev": "TEAM Esslingen",
+          "seven_meter": false
+        },
+        {
+          "minute": 11,
+          "second": 9,
+          "scorer": "Simon Rothwein",
+          "team": "away",
+          "team_abbrev": "HSC Schm/Oeff",
+          "seven_meter": false
+        },
+        {
+          "minute": 11,
+          "second": 22,
+          "scorer": "Jonah Scharpf",
+          "team": "home",
+          "team_abbrev": "TEAM Esslingen",
+          "seven_meter": false
+        },
+        {
+          "minute": 13,
+          "second": 10,
+          "scorer": "Vincent Eldh",
+          "team": "home",
+          "team_abbrev": "TEAM Esslingen",
+          "seven_meter": false
+        },
+        {
+          "minute": 14,
+          "second": 22,
+          "scorer": "Christian Koch",
+          "team": "away",
+          "team_abbrev": "HSC Schm/Oeff",
+          "seven_meter": false
+        },
+        {
+          "minute": 15,
+          "second": 19,
+          "scorer": "Luca Blind",
+          "team": "away",
+          "team_abbrev": "HSC Schm/Oeff",
+          "seven_meter": false
+        },
+        {
+          "minute": 15,
+          "second": 59,
+          "scorer": "Samuel Dal Piva",
+          "team": "home",
+          "team_abbrev": "TEAM Esslingen",
+          "seven_meter": false
+        },
+        {
+          "minute": 17,
+          "second": 23,
+          "scorer": "Maximilian Knapp",
+          "team": "away",
+          "team_abbrev": "HSC Schm/Oeff",
+          "seven_meter": false
+        },
+        {
+          "minute": 17,
+          "second": 31,
+          "scorer": "Mika Erben",
+          "team": "home",
+          "team_abbrev": "TEAM Esslingen",
+          "seven_meter": false
+        },
+        {
+          "minute": 17,
+          "second": 58,
+          "scorer": "Felix G\u00fcnther",
+          "team": "home",
+          "team_abbrev": "TEAM Esslingen",
+          "seven_meter": false
+        },
+        {
+          "minute": 18,
+          "second": 42,
+          "scorer": "Felix G\u00fcnther",
+          "team": "home",
+          "team_abbrev": "TEAM Esslingen",
+          "seven_meter": false
+        },
+        {
+          "minute": 18,
+          "second": 57,
+          "scorer": "Matyas Srnka",
+          "team": "away",
+          "team_abbrev": "HSC Schm/Oeff",
+          "seven_meter": false
+        },
+        {
+          "minute": 20,
+          "second": 40,
+          "scorer": "Maximilian Knapp",
+          "team": "away",
+          "team_abbrev": "HSC Schm/Oeff",
+          "seven_meter": true
+        },
+        {
+          "minute": 21,
+          "second": 43,
+          "scorer": "Jonas Lippoth",
+          "team": "home",
+          "team_abbrev": "TEAM Esslingen",
+          "seven_meter": false
+        },
+        {
+          "minute": 21,
+          "second": 54,
+          "scorer": "Maximilian Knapp",
+          "team": "away",
+          "team_abbrev": "HSC Schm/Oeff",
+          "seven_meter": false
+        },
+        {
+          "minute": 22,
+          "second": 13,
+          "scorer": "Max Lutz",
+          "team": "home",
+          "team_abbrev": "TEAM Esslingen",
+          "seven_meter": false
+        },
+        {
+          "minute": 22,
+          "second": 34,
+          "scorer": "Christian Koch",
+          "team": "away",
+          "team_abbrev": "HSC Schm/Oeff",
+          "seven_meter": false
+        },
+        {
+          "minute": 23,
+          "second": 3,
+          "scorer": "Max Lutz",
+          "team": "home",
+          "team_abbrev": "TEAM Esslingen",
+          "seven_meter": false
+        },
+        {
+          "minute": 23,
+          "second": 13,
+          "scorer": "Luca Blind",
+          "team": "away",
+          "team_abbrev": "HSC Schm/Oeff",
+          "seven_meter": false
+        },
+        {
+          "minute": 23,
+          "second": 32,
+          "scorer": "Benjamin Moser",
+          "team": "home",
+          "team_abbrev": "TEAM Esslingen",
+          "seven_meter": false
+        },
+        {
+          "minute": 24,
+          "second": 1,
+          "scorer": "Matyas Srnka",
+          "team": "away",
+          "team_abbrev": "HSC Schm/Oeff",
+          "seven_meter": false
+        },
+        {
+          "minute": 26,
+          "second": 24,
+          "scorer": "Christian Koch",
+          "team": "away",
+          "team_abbrev": "HSC Schm/Oeff",
+          "seven_meter": false
+        },
+        {
+          "minute": 26,
+          "second": 52,
+          "scorer": "Christian Koch",
+          "team": "away",
+          "team_abbrev": "HSC Schm/Oeff",
+          "seven_meter": false
+        },
+        {
+          "minute": 27,
+          "second": 16,
+          "scorer": "Samuel Finzelberg",
+          "team": "home",
+          "team_abbrev": "TEAM Esslingen",
+          "seven_meter": false
+        },
+        {
+          "minute": 28,
+          "second": 11,
+          "scorer": "Luca Blind",
+          "team": "away",
+          "team_abbrev": "HSC Schm/Oeff",
+          "seven_meter": false
+        },
+        {
+          "minute": 28,
+          "second": 32,
+          "scorer": "Max Lutz",
+          "team": "home",
+          "team_abbrev": "TEAM Esslingen",
+          "seven_meter": false
+        },
+        {
+          "minute": 28,
+          "second": 45,
+          "scorer": "Collin Pohl",
+          "team": "away",
+          "team_abbrev": "HSC Schm/Oeff",
+          "seven_meter": false
+        },
+        {
+          "minute": 29,
+          "second": 32,
+          "scorer": "Vincent Eldh",
+          "team": "home",
+          "team_abbrev": "TEAM Esslingen",
+          "seven_meter": false
+        },
+        {
+          "minute": 30,
+          "second": 5,
+          "scorer": "Matyas Srnka",
+          "team": "away",
+          "team_abbrev": "HSC Schm/Oeff",
+          "seven_meter": false
+        },
+        {
+          "minute": 30,
+          "second": 30,
+          "scorer": "Luca Blind",
+          "team": "away",
+          "team_abbrev": "HSC Schm/Oeff",
+          "seven_meter": false
+        },
+        {
+          "minute": 30,
+          "second": 53,
+          "scorer": "Samuel Finzelberg",
+          "team": "home",
+          "team_abbrev": "TEAM Esslingen",
+          "seven_meter": false
+        },
+        {
+          "minute": 32,
+          "second": 10,
+          "scorer": "Eliah Amort",
+          "team": "away",
+          "team_abbrev": "HSC Schm/Oeff",
+          "seven_meter": false
+        },
+        {
+          "minute": 33,
+          "second": 21,
+          "scorer": "Mika Erben",
+          "team": "home",
+          "team_abbrev": "TEAM Esslingen",
+          "seven_meter": false
+        },
+        {
+          "minute": 33,
+          "second": 36,
+          "scorer": "Collin Pohl",
+          "team": "away",
+          "team_abbrev": "HSC Schm/Oeff",
+          "seven_meter": false
+        },
+        {
+          "minute": 36,
+          "second": 52,
+          "scorer": "Vincent Eldh",
+          "team": "home",
+          "team_abbrev": "TEAM Esslingen",
+          "seven_meter": false
+        },
+        {
+          "minute": 37,
+          "second": 33,
+          "scorer": "Benjamin Moser",
+          "team": "home",
+          "team_abbrev": "TEAM Esslingen",
+          "seven_meter": false
+        },
+        {
+          "minute": 38,
+          "second": 9,
+          "scorer": "Eliah Amort",
+          "team": "away",
+          "team_abbrev": "HSC Schm/Oeff",
+          "seven_meter": false
+        },
+        {
+          "minute": 38,
+          "second": 50,
+          "scorer": "Mika Erben",
+          "team": "home",
+          "team_abbrev": "TEAM Esslingen",
+          "seven_meter": false
+        },
+        {
+          "minute": 39,
+          "second": 1,
+          "scorer": "Collin Pohl",
+          "team": "away",
+          "team_abbrev": "HSC Schm/Oeff",
+          "seven_meter": false
+        },
+        {
+          "minute": 39,
+          "second": 51,
+          "scorer": "Simon Rothwein",
+          "team": "away",
+          "team_abbrev": "HSC Schm/Oeff",
+          "seven_meter": false
+        },
+        {
+          "minute": 40,
+          "second": 21,
+          "scorer": "Benjamin Hess",
+          "team": "away",
+          "team_abbrev": "HSC Schm/Oeff",
+          "seven_meter": false
+        },
+        {
+          "minute": 41,
+          "second": 21,
+          "scorer": "Benjamin Moser",
+          "team": "home",
+          "team_abbrev": "TEAM Esslingen",
+          "seven_meter": false
+        },
+        {
+          "minute": 41,
+          "second": 47,
+          "scorer": "Leonas Renz",
+          "team": "away",
+          "team_abbrev": "HSC Schm/Oeff",
+          "seven_meter": false
+        },
+        {
+          "minute": 43,
+          "second": 44,
+          "scorer": "Simon Rothwein",
+          "team": "away",
+          "team_abbrev": "HSC Schm/Oeff",
+          "seven_meter": false
+        },
+        {
+          "minute": 44,
+          "second": 6,
+          "scorer": "Rouwen Bieda",
+          "team": "home",
+          "team_abbrev": "TEAM Esslingen",
+          "seven_meter": false
+        },
+        {
+          "minute": 44,
+          "second": 26,
+          "scorer": "Maximilian Knapp",
+          "team": "away",
+          "team_abbrev": "HSC Schm/Oeff",
+          "seven_meter": false
+        },
+        {
+          "minute": 45,
+          "second": 51,
+          "scorer": "Leonas Renz",
+          "team": "away",
+          "team_abbrev": "HSC Schm/Oeff",
+          "seven_meter": false
+        },
+        {
+          "minute": 46,
+          "second": 16,
+          "scorer": "Leonas Renz",
+          "team": "away",
+          "team_abbrev": "HSC Schm/Oeff",
+          "seven_meter": false
+        },
+        {
+          "minute": 46,
+          "second": 52,
+          "scorer": "Moritz Bechlars",
+          "team": "home",
+          "team_abbrev": "TEAM Esslingen",
+          "seven_meter": false
+        },
+        {
+          "minute": 47,
+          "second": 18,
+          "scorer": "Luca Blind",
+          "team": "away",
+          "team_abbrev": "HSC Schm/Oeff",
+          "seven_meter": false
+        },
+        {
+          "minute": 47,
+          "second": 29,
+          "scorer": "Moritz Bechlars",
+          "team": "home",
+          "team_abbrev": "TEAM Esslingen",
+          "seven_meter": false
+        },
+        {
+          "minute": 47,
+          "second": 40,
+          "scorer": "Maximilian Knapp",
+          "team": "away",
+          "team_abbrev": "HSC Schm/Oeff",
+          "seven_meter": false
+        },
+        {
+          "minute": 49,
+          "second": 1,
+          "scorer": "Samuel Finzelberg",
+          "team": "home",
+          "team_abbrev": "TEAM Esslingen",
+          "seven_meter": true
+        },
+        {
+          "minute": 49,
+          "second": 37,
+          "scorer": "Luca Blind",
+          "team": "away",
+          "team_abbrev": "HSC Schm/Oeff",
+          "seven_meter": false
+        },
+        {
+          "minute": 49,
+          "second": 55,
+          "scorer": "Maximilian Knapp",
+          "team": "away",
+          "team_abbrev": "HSC Schm/Oeff",
+          "seven_meter": false
+        }
+      ],
+      "final_score": "29:41",
+      "half_duration": 30,
+      "officials": {
+        "referees": [
+          "Silas Aldinger",
+          "Laurent Cirkin"
+        ],
+        "timekeepers": [
+          "Christoph Gro\u00df"
+        ],
+        "secretaries": [
+          "Maureen Bieda"
+        ]
+      },
+      "graphic_path": "output/graphics/HSC_Schmiden_Oeffing_vs_TEAM_Esslingen_So_0211.png"
+    }
+  ]
+}

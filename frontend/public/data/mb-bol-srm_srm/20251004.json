@@ -1,0 +1,724 @@
+{
+  "date": "20251004",
+  "games": [
+    {
+      "game_id": "handball4all.baden-wuerttemberg.8849912",
+      "order": 5,
+      "date": "Sa, 04.10.",
+      "home": {
+        "team_name": "SV Fellbach",
+        "players": [
+          {
+            "name": "David M\u00f6dinger",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Tim Nico Plieninger",
+            "goals": 2,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Antonin Salvi",
+            "goals": 11,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Tim R\u00f6ttgen",
+            "goals": 10,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Noah Schnaitmann",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Julian Diener",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Lukas Kowollik",
+            "goals": 8,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Severin Banning",
+            "goals": 1,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Nico Paul Rihm",
+            "goals": 5,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Andi Pehlic",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          }
+        ]
+      },
+      "away": {
+        "team_name": "SV Hohenacker-Neustadt",
+        "players": [
+          {
+            "name": "Mahir Said Efe Bozat",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Leon Brunck",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Ioannis Bouchlias",
+            "goals": 5,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Leonard Ganz",
+            "goals": 6,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Paul Angelusch",
+            "goals": 13,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Leon Idiga",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Niklas Funke",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Onur Yildiz",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Jannik Huber",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "N.N. N.N.",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          }
+        ]
+      },
+      "goals_timeline": [
+        {
+          "minute": 0,
+          "second": 24,
+          "scorer": "Leonard Ganz",
+          "team": "home",
+          "team_abbrev": "SV Hohen-Neu",
+          "seven_meter": false
+        },
+        {
+          "minute": 2,
+          "second": 14,
+          "scorer": "Nico Rihm",
+          "team": "away",
+          "team_abbrev": "SV Fellbach",
+          "seven_meter": false
+        },
+        {
+          "minute": 2,
+          "second": 44,
+          "scorer": "Leonard Ganz",
+          "team": "home",
+          "team_abbrev": "SV Hohen-Neu",
+          "seven_meter": false
+        },
+        {
+          "minute": 2,
+          "second": 51,
+          "scorer": "Lukas Kowollik",
+          "team": "away",
+          "team_abbrev": "SV Fellbach",
+          "seven_meter": false
+        },
+        {
+          "minute": 4,
+          "second": 14,
+          "scorer": "Antonin Salvi",
+          "team": "away",
+          "team_abbrev": "SV Fellbach",
+          "seven_meter": false
+        },
+        {
+          "minute": 4,
+          "second": 38,
+          "scorer": "Antonin Salvi",
+          "team": "away",
+          "team_abbrev": "SV Fellbach",
+          "seven_meter": false
+        },
+        {
+          "minute": 6,
+          "second": 36,
+          "scorer": "Antonin Salvi",
+          "team": "away",
+          "team_abbrev": "SV Fellbach",
+          "seven_meter": false
+        },
+        {
+          "minute": 8,
+          "second": 5,
+          "scorer": "Lukas Kowollik",
+          "team": "away",
+          "team_abbrev": "SV Fellbach",
+          "seven_meter": false
+        },
+        {
+          "minute": 8,
+          "second": 46,
+          "scorer": "Nico Rihm",
+          "team": "away",
+          "team_abbrev": "SV Fellbach",
+          "seven_meter": false
+        },
+        {
+          "minute": 9,
+          "second": 27,
+          "scorer": "Paul Angelusch",
+          "team": "home",
+          "team_abbrev": "SV Hohen-Neu",
+          "seven_meter": false
+        },
+        {
+          "minute": 10,
+          "second": 23,
+          "scorer": "Paul Angelusch",
+          "team": "home",
+          "team_abbrev": "SV Hohen-Neu",
+          "seven_meter": false
+        },
+        {
+          "minute": 11,
+          "second": 11,
+          "scorer": "Paul Angelusch",
+          "team": "home",
+          "team_abbrev": "SV Hohen-Neu",
+          "seven_meter": false
+        },
+        {
+          "minute": 12,
+          "second": 9,
+          "scorer": "Lukas Kowollik",
+          "team": "away",
+          "team_abbrev": "SV Fellbach",
+          "seven_meter": false
+        },
+        {
+          "minute": 13,
+          "second": 6,
+          "scorer": "Tim R\u00f6ttgen",
+          "team": "away",
+          "team_abbrev": "SV Fellbach",
+          "seven_meter": false
+        },
+        {
+          "minute": 13,
+          "second": 43,
+          "scorer": "Tim Plieninger",
+          "team": "away",
+          "team_abbrev": "SV Fellbach",
+          "seven_meter": false
+        },
+        {
+          "minute": 14,
+          "second": 2,
+          "scorer": "Ioannis Bouchlias",
+          "team": "home",
+          "team_abbrev": "SV Hohen-Neu",
+          "seven_meter": false
+        },
+        {
+          "minute": 14,
+          "second": 34,
+          "scorer": "Lukas Kowollik",
+          "team": "away",
+          "team_abbrev": "SV Fellbach",
+          "seven_meter": false
+        },
+        {
+          "minute": 15,
+          "second": 51,
+          "scorer": "Ioannis Bouchlias",
+          "team": "home",
+          "team_abbrev": "SV Hohen-Neu",
+          "seven_meter": false
+        },
+        {
+          "minute": 16,
+          "second": 24,
+          "scorer": "Tim R\u00f6ttgen",
+          "team": "away",
+          "team_abbrev": "SV Fellbach",
+          "seven_meter": false
+        },
+        {
+          "minute": 17,
+          "second": 57,
+          "scorer": "Paul Angelusch",
+          "team": "home",
+          "team_abbrev": "SV Hohen-Neu",
+          "seven_meter": false
+        },
+        {
+          "minute": 19,
+          "second": 3,
+          "scorer": "Tim R\u00f6ttgen",
+          "team": "away",
+          "team_abbrev": "SV Fellbach",
+          "seven_meter": false
+        },
+        {
+          "minute": 20,
+          "second": 37,
+          "scorer": "Nico Rihm",
+          "team": "away",
+          "team_abbrev": "SV Fellbach",
+          "seven_meter": false
+        },
+        {
+          "minute": 20,
+          "second": 48,
+          "scorer": "Paul Angelusch",
+          "team": "home",
+          "team_abbrev": "SV Hohen-Neu",
+          "seven_meter": false
+        },
+        {
+          "minute": 21,
+          "second": 38,
+          "scorer": "Paul Angelusch",
+          "team": "home",
+          "team_abbrev": "SV Hohen-Neu",
+          "seven_meter": false
+        },
+        {
+          "minute": 24,
+          "second": 5,
+          "scorer": "Nico Rihm",
+          "team": "away",
+          "team_abbrev": "SV Fellbach",
+          "seven_meter": false
+        },
+        {
+          "minute": 24,
+          "second": 40,
+          "scorer": "Paul Angelusch",
+          "team": "home",
+          "team_abbrev": "SV Hohen-Neu",
+          "seven_meter": false
+        },
+        {
+          "minute": 24,
+          "second": 56,
+          "scorer": "Severin Banning",
+          "team": "away",
+          "team_abbrev": "SV Fellbach",
+          "seven_meter": false
+        },
+        {
+          "minute": 26,
+          "second": 51,
+          "scorer": "Ioannis Bouchlias",
+          "team": "home",
+          "team_abbrev": "SV Hohen-Neu",
+          "seven_meter": false
+        },
+        {
+          "minute": 28,
+          "second": 3,
+          "scorer": "Tim R\u00f6ttgen",
+          "team": "away",
+          "team_abbrev": "SV Fellbach",
+          "seven_meter": false
+        },
+        {
+          "minute": 29,
+          "second": 17,
+          "scorer": "Leonard Ganz",
+          "team": "home",
+          "team_abbrev": "SV Hohen-Neu",
+          "seven_meter": false
+        },
+        {
+          "minute": 29,
+          "second": 34,
+          "scorer": "Tim R\u00f6ttgen",
+          "team": "away",
+          "team_abbrev": "SV Fellbach",
+          "seven_meter": false
+        },
+        {
+          "minute": 29,
+          "second": 49,
+          "scorer": "Paul Angelusch",
+          "team": "home",
+          "team_abbrev": "SV Hohen-Neu",
+          "seven_meter": false
+        },
+        {
+          "minute": 31,
+          "second": 11,
+          "scorer": "Lukas Kowollik",
+          "team": "away",
+          "team_abbrev": "SV Fellbach",
+          "seven_meter": false
+        },
+        {
+          "minute": 31,
+          "second": 50,
+          "scorer": "Tim R\u00f6ttgen",
+          "team": "away",
+          "team_abbrev": "SV Fellbach",
+          "seven_meter": false
+        },
+        {
+          "minute": 32,
+          "second": 27,
+          "scorer": "Paul Angelusch",
+          "team": "home",
+          "team_abbrev": "SV Hohen-Neu",
+          "seven_meter": false
+        },
+        {
+          "minute": 32,
+          "second": 48,
+          "scorer": "Tim Plieninger",
+          "team": "away",
+          "team_abbrev": "SV Fellbach",
+          "seven_meter": false
+        },
+        {
+          "minute": 33,
+          "second": 11,
+          "scorer": "Tim R\u00f6ttgen",
+          "team": "away",
+          "team_abbrev": "SV Fellbach",
+          "seven_meter": false
+        },
+        {
+          "minute": 34,
+          "second": 19,
+          "scorer": "Nico Rihm",
+          "team": "away",
+          "team_abbrev": "SV Fellbach",
+          "seven_meter": true
+        },
+        {
+          "minute": 35,
+          "second": 1,
+          "scorer": "Tim R\u00f6ttgen",
+          "team": "away",
+          "team_abbrev": "SV Fellbach",
+          "seven_meter": false
+        },
+        {
+          "minute": 35,
+          "second": 31,
+          "scorer": "Leonard Ganz",
+          "team": "home",
+          "team_abbrev": "SV Hohen-Neu",
+          "seven_meter": false
+        },
+        {
+          "minute": 36,
+          "second": 13,
+          "scorer": "Ioannis Bouchlias",
+          "team": "home",
+          "team_abbrev": "SV Hohen-Neu",
+          "seven_meter": false
+        },
+        {
+          "minute": 36,
+          "second": 52,
+          "scorer": "Antonin Salvi",
+          "team": "away",
+          "team_abbrev": "SV Fellbach",
+          "seven_meter": false
+        },
+        {
+          "minute": 37,
+          "second": 25,
+          "scorer": "Paul Angelusch",
+          "team": "home",
+          "team_abbrev": "SV Hohen-Neu",
+          "seven_meter": false
+        },
+        {
+          "minute": 37,
+          "second": 35,
+          "scorer": "Tim R\u00f6ttgen",
+          "team": "away",
+          "team_abbrev": "SV Fellbach",
+          "seven_meter": false
+        },
+        {
+          "minute": 38,
+          "second": 7,
+          "scorer": "Antonin Salvi",
+          "team": "away",
+          "team_abbrev": "SV Fellbach",
+          "seven_meter": false
+        },
+        {
+          "minute": 38,
+          "second": 53,
+          "scorer": "Lukas Kowollik",
+          "team": "away",
+          "team_abbrev": "SV Fellbach",
+          "seven_meter": false
+        },
+        {
+          "minute": 39,
+          "second": 37,
+          "scorer": "Antonin Salvi",
+          "team": "away",
+          "team_abbrev": "SV Fellbach",
+          "seven_meter": false
+        },
+        {
+          "minute": 40,
+          "second": 6,
+          "scorer": "Paul Angelusch",
+          "team": "home",
+          "team_abbrev": "SV Hohen-Neu",
+          "seven_meter": false
+        },
+        {
+          "minute": 40,
+          "second": 11,
+          "scorer": "Tim R\u00f6ttgen",
+          "team": "away",
+          "team_abbrev": "SV Fellbach",
+          "seven_meter": false
+        },
+        {
+          "minute": 40,
+          "second": 48,
+          "scorer": "Leonard Ganz",
+          "team": "home",
+          "team_abbrev": "SV Hohen-Neu",
+          "seven_meter": false
+        },
+        {
+          "minute": 41,
+          "second": 21,
+          "scorer": "Antonin Salvi",
+          "team": "away",
+          "team_abbrev": "SV Fellbach",
+          "seven_meter": false
+        },
+        {
+          "minute": 42,
+          "second": 9,
+          "scorer": "Leonard Ganz",
+          "team": "home",
+          "team_abbrev": "SV Hohen-Neu",
+          "seven_meter": false
+        },
+        {
+          "minute": 42,
+          "second": 36,
+          "scorer": "Antonin Salvi",
+          "team": "away",
+          "team_abbrev": "SV Fellbach",
+          "seven_meter": false
+        },
+        {
+          "minute": 44,
+          "second": 11,
+          "scorer": "Paul Angelusch",
+          "team": "home",
+          "team_abbrev": "SV Hohen-Neu",
+          "seven_meter": false
+        },
+        {
+          "minute": 46,
+          "second": 46,
+          "scorer": "Lukas Kowollik",
+          "team": "away",
+          "team_abbrev": "SV Fellbach",
+          "seven_meter": false
+        },
+        {
+          "minute": 47,
+          "second": 49,
+          "scorer": "Paul Angelusch",
+          "team": "home",
+          "team_abbrev": "SV Hohen-Neu",
+          "seven_meter": false
+        },
+        {
+          "minute": 48,
+          "second": 0,
+          "scorer": "Antonin Salvi",
+          "team": "away",
+          "team_abbrev": "SV Fellbach",
+          "seven_meter": false
+        },
+        {
+          "minute": 48,
+          "second": 19,
+          "scorer": "Ioannis Bouchlias",
+          "team": "home",
+          "team_abbrev": "SV Hohen-Neu",
+          "seven_meter": false
+        },
+        {
+          "minute": 48,
+          "second": 35,
+          "scorer": "Antonin Salvi",
+          "team": "away",
+          "team_abbrev": "SV Fellbach",
+          "seven_meter": false
+        },
+        {
+          "minute": 49,
+          "second": 32,
+          "scorer": "Antonin Salvi",
+          "team": "away",
+          "team_abbrev": "SV Fellbach",
+          "seven_meter": false
+        },
+        {
+          "minute": 49,
+          "second": 49,
+          "scorer": "Lukas Kowollik",
+          "team": "away",
+          "team_abbrev": "SV Fellbach",
+          "seven_meter": false
+        }
+      ],
+      "final_score": "24:37",
+      "half_duration": 30,
+      "officials": {
+        "referees": [
+          "Gerrit B\u00f6nisch"
+        ],
+        "timekeepers": [
+          "Heiko Kusche"
+        ],
+        "secretaries": [
+          "Funke Lutz"
+        ]
+      },
+      "graphic_path": "output/graphics/SV_Fellbach_vs_SV_Hohenacker-Neusta_Sa_0410.png"
+    }
+  ]
+}

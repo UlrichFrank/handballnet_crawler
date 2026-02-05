@@ -1,0 +1,680 @@
+{
+  "date": "20251214",
+  "games": [
+    {
+      "game_id": "handball4all.baden-wuerttemberg.8849427",
+      "order": 38,
+      "date": "So, 14.12.",
+      "home": {
+        "team_name": "MTV Stuttgart",
+        "players": [
+          {
+            "name": "Ben Kamer",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Christian Payer",
+            "goals": 2,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Bilal Bakir",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Ilias Jacques",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Oskar Brandt",
+            "goals": 1,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Ruben Kirchhauser",
+            "goals": 10,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Marc Geib",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Victor Pey Klinge",
+            "goals": 3,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Eric Ferdinand",
+            "goals": 7,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Theo Bernecker",
+            "goals": 10,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 5,
+            "seven_meters_goals": 4
+          },
+          {
+            "name": "Fabio Mohn",
+            "goals": 4,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          }
+        ]
+      },
+      "away": {
+        "team_name": "TV Bittenfeld 1898 2",
+        "players": [
+          {
+            "name": "Eric Schmalzried",
+            "goals": 2,
+            "two_min_penalties": 1,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 2,
+            "seven_meters_goals": 1
+          },
+          {
+            "name": "Niko Schweikardt",
+            "goals": 10,
+            "two_min_penalties": 1,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Moritz Moldenhauer",
+            "goals": 4,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "David M\u00f6dinger",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Felix Kl\u00f6pfer",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Raik-M. Bogislawski",
+            "goals": 9,
+            "two_min_penalties": 1,
+            "yellow_cards": 1,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Felix Bauer",
+            "goals": 5,
+            "two_min_penalties": 1,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 2,
+            "seven_meters_goals": 1
+          }
+        ]
+      },
+      "goals_timeline": [
+        {
+          "minute": 0,
+          "second": 51,
+          "scorer": "Eric Ferdinand",
+          "team": "home",
+          "team_abbrev": "MTV Stuttgart",
+          "seven_meter": false
+        },
+        {
+          "minute": 1,
+          "second": 33,
+          "scorer": "Eric Ferdinand",
+          "team": "home",
+          "team_abbrev": "MTV Stuttgart",
+          "seven_meter": false
+        },
+        {
+          "minute": 2,
+          "second": 28,
+          "scorer": "Felix Bauer",
+          "team": "away",
+          "team_abbrev": "TV Bittenfeld 2",
+          "seven_meter": true
+        },
+        {
+          "minute": 3,
+          "second": 12,
+          "scorer": "Eric Ferdinand",
+          "team": "home",
+          "team_abbrev": "MTV Stuttgart",
+          "seven_meter": false
+        },
+        {
+          "minute": 4,
+          "second": 23,
+          "scorer": "Theo Bernecker",
+          "team": "home",
+          "team_abbrev": "MTV Stuttgart",
+          "seven_meter": true
+        },
+        {
+          "minute": 5,
+          "second": 55,
+          "scorer": "Theo Bernecker",
+          "team": "home",
+          "team_abbrev": "MTV Stuttgart",
+          "seven_meter": false
+        },
+        {
+          "minute": 7,
+          "second": 14,
+          "scorer": "Eric Ferdinand",
+          "team": "home",
+          "team_abbrev": "MTV Stuttgart",
+          "seven_meter": false
+        },
+        {
+          "minute": 9,
+          "second": 24,
+          "scorer": "Eric Schmalzried",
+          "team": "away",
+          "team_abbrev": "TV Bittenfeld 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 10,
+          "second": 24,
+          "scorer": "Fabio Mohn",
+          "team": "home",
+          "team_abbrev": "MTV Stuttgart",
+          "seven_meter": false
+        },
+        {
+          "minute": 13,
+          "second": 1,
+          "scorer": "Victor Pey Klinge",
+          "team": "home",
+          "team_abbrev": "MTV Stuttgart",
+          "seven_meter": false
+        },
+        {
+          "minute": 13,
+          "second": 45,
+          "scorer": "Niko Schweikardt",
+          "team": "away",
+          "team_abbrev": "TV Bittenfeld 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 14,
+          "second": 21,
+          "scorer": "Ruben Kirchhauser",
+          "team": "home",
+          "team_abbrev": "MTV Stuttgart",
+          "seven_meter": false
+        },
+        {
+          "minute": 15,
+          "second": 9,
+          "scorer": "Fabio Mohn",
+          "team": "home",
+          "team_abbrev": "MTV Stuttgart",
+          "seven_meter": false
+        },
+        {
+          "minute": 17,
+          "second": 39,
+          "scorer": "Niko Schweikardt",
+          "team": "away",
+          "team_abbrev": "TV Bittenfeld 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 19,
+          "second": 38,
+          "scorer": "Ruben Kirchhauser",
+          "team": "home",
+          "team_abbrev": "MTV Stuttgart",
+          "seven_meter": false
+        },
+        {
+          "minute": 20,
+          "second": 1,
+          "scorer": "Niko Schweikardt",
+          "team": "away",
+          "team_abbrev": "TV Bittenfeld 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 22,
+          "second": 5,
+          "scorer": "Theo Bernecker",
+          "team": "home",
+          "team_abbrev": "MTV Stuttgart",
+          "seven_meter": true
+        },
+        {
+          "minute": 22,
+          "second": 47,
+          "scorer": "Felix Bauer",
+          "team": "away",
+          "team_abbrev": "TV Bittenfeld 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 25,
+          "second": 58,
+          "scorer": "Ruben Kirchhauser",
+          "team": "home",
+          "team_abbrev": "MTV Stuttgart",
+          "seven_meter": false
+        },
+        {
+          "minute": 26,
+          "second": 52,
+          "scorer": "Eric Ferdinand",
+          "team": "home",
+          "team_abbrev": "MTV Stuttgart",
+          "seven_meter": false
+        },
+        {
+          "minute": 28,
+          "second": 7,
+          "scorer": "Theo Bernecker",
+          "team": "home",
+          "team_abbrev": "MTV Stuttgart",
+          "seven_meter": false
+        },
+        {
+          "minute": 29,
+          "second": 8,
+          "scorer": "Oskar Brandt",
+          "team": "home",
+          "team_abbrev": "MTV Stuttgart",
+          "seven_meter": false
+        },
+        {
+          "minute": 31,
+          "second": 14,
+          "scorer": "Niko Schweikardt",
+          "team": "away",
+          "team_abbrev": "TV Bittenfeld 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 31,
+          "second": 26,
+          "scorer": "Victor Pey Klinge",
+          "team": "home",
+          "team_abbrev": "MTV Stuttgart",
+          "seven_meter": false
+        },
+        {
+          "minute": 32,
+          "second": 1,
+          "scorer": "Niko Schweikardt",
+          "team": "away",
+          "team_abbrev": "TV Bittenfeld 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 32,
+          "second": 20,
+          "scorer": "Christian Payer",
+          "team": "home",
+          "team_abbrev": "MTV Stuttgart",
+          "seven_meter": false
+        },
+        {
+          "minute": 33,
+          "second": 31,
+          "scorer": "Theo Bernecker",
+          "team": "home",
+          "team_abbrev": "MTV Stuttgart",
+          "seven_meter": true
+        },
+        {
+          "minute": 35,
+          "second": 4,
+          "scorer": "Eric Schmalzried",
+          "team": "away",
+          "team_abbrev": "TV Bittenfeld 2",
+          "seven_meter": true
+        },
+        {
+          "minute": 35,
+          "second": 59,
+          "scorer": "Ruben Kirchhauser",
+          "team": "home",
+          "team_abbrev": "MTV Stuttgart",
+          "seven_meter": false
+        },
+        {
+          "minute": 36,
+          "second": 21,
+          "scorer": "Moritz Moldenhauer",
+          "team": "away",
+          "team_abbrev": "TV Bittenfeld 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 36,
+          "second": 41,
+          "scorer": "Theo Bernecker",
+          "team": "home",
+          "team_abbrev": "MTV Stuttgart",
+          "seven_meter": false
+        },
+        {
+          "minute": 37,
+          "second": 11,
+          "scorer": "Ruben Kirchhauser",
+          "team": "home",
+          "team_abbrev": "MTV Stuttgart",
+          "seven_meter": false
+        },
+        {
+          "minute": 39,
+          "second": 23,
+          "scorer": "Ruben Kirchhauser",
+          "team": "home",
+          "team_abbrev": "MTV Stuttgart",
+          "seven_meter": false
+        },
+        {
+          "minute": 39,
+          "second": 45,
+          "scorer": "Moritz Moldenhauer",
+          "team": "away",
+          "team_abbrev": "TV Bittenfeld 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 41,
+          "second": 4,
+          "scorer": "Theo Bernecker",
+          "team": "home",
+          "team_abbrev": "MTV Stuttgart",
+          "seven_meter": true
+        },
+        {
+          "minute": 42,
+          "second": 2,
+          "scorer": "Felix Bauer",
+          "team": "away",
+          "team_abbrev": "TV Bittenfeld 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 42,
+          "second": 42,
+          "scorer": "Fabio Mohn",
+          "team": "home",
+          "team_abbrev": "MTV Stuttgart",
+          "seven_meter": false
+        },
+        {
+          "minute": 43,
+          "second": 3,
+          "scorer": "Niko Schweikardt",
+          "team": "away",
+          "team_abbrev": "TV Bittenfeld 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 43,
+          "second": 33,
+          "scorer": "Eric Ferdinand",
+          "team": "home",
+          "team_abbrev": "MTV Stuttgart",
+          "seven_meter": false
+        },
+        {
+          "minute": 44,
+          "second": 16,
+          "scorer": "Ruben Kirchhauser",
+          "team": "home",
+          "team_abbrev": "MTV Stuttgart",
+          "seven_meter": false
+        },
+        {
+          "minute": 45,
+          "second": 47,
+          "scorer": "Fabio Mohn",
+          "team": "home",
+          "team_abbrev": "MTV Stuttgart",
+          "seven_meter": false
+        },
+        {
+          "minute": 46,
+          "second": 55,
+          "scorer": "Niko Schweikardt",
+          "team": "away",
+          "team_abbrev": "TV Bittenfeld 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 47,
+          "second": 6,
+          "scorer": "Ruben Kirchhauser",
+          "team": "home",
+          "team_abbrev": "MTV Stuttgart",
+          "seven_meter": false
+        },
+        {
+          "minute": 47,
+          "second": 45,
+          "scorer": "Niko Schweikardt",
+          "team": "away",
+          "team_abbrev": "TV Bittenfeld 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 48,
+          "second": 16,
+          "scorer": "Ruben Kirchhauser",
+          "team": "home",
+          "team_abbrev": "MTV Stuttgart",
+          "seven_meter": false
+        },
+        {
+          "minute": 49,
+          "second": 10,
+          "scorer": "Victor Pey Klinge",
+          "team": "home",
+          "team_abbrev": "MTV Stuttgart",
+          "seven_meter": false
+        },
+        {
+          "minute": 49,
+          "second": 50,
+          "scorer": "Felix Bauer",
+          "team": "away",
+          "team_abbrev": "TV Bittenfeld 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 50,
+          "second": 33,
+          "scorer": "Theo Bernecker",
+          "team": "home",
+          "team_abbrev": "MTV Stuttgart",
+          "seven_meter": false
+        },
+        {
+          "minute": 52,
+          "second": 11,
+          "scorer": "Ruben Kirchhauser",
+          "team": "home",
+          "team_abbrev": "MTV Stuttgart",
+          "seven_meter": false
+        },
+        {
+          "minute": 53,
+          "second": 21,
+          "scorer": "Christian Payer",
+          "team": "home",
+          "team_abbrev": "MTV Stuttgart",
+          "seven_meter": false
+        },
+        {
+          "minute": 54,
+          "second": 15,
+          "scorer": "Theo Bernecker",
+          "team": "home",
+          "team_abbrev": "MTV Stuttgart",
+          "seven_meter": false
+        },
+        {
+          "minute": 54,
+          "second": 51,
+          "scorer": "Niko Schweikardt",
+          "team": "away",
+          "team_abbrev": "TV Bittenfeld 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 55,
+          "second": 23,
+          "scorer": "Eric Ferdinand",
+          "team": "home",
+          "team_abbrev": "MTV Stuttgart",
+          "seven_meter": false
+        },
+        {
+          "minute": 56,
+          "second": 11,
+          "scorer": "Niko Schweikardt",
+          "team": "away",
+          "team_abbrev": "TV Bittenfeld 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 56,
+          "second": 56,
+          "scorer": "Moritz Moldenhauer",
+          "team": "away",
+          "team_abbrev": "TV Bittenfeld 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 57,
+          "second": 23,
+          "scorer": "Felix Bauer",
+          "team": "away",
+          "team_abbrev": "TV Bittenfeld 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 57,
+          "second": 57,
+          "scorer": "Moritz Moldenhauer",
+          "team": "away",
+          "team_abbrev": "TV Bittenfeld 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 59,
+          "second": 49,
+          "scorer": "Theo Bernecker",
+          "team": "home",
+          "team_abbrev": "MTV Stuttgart",
+          "seven_meter": false
+        }
+      ],
+      "final_score": "37:21",
+      "half_duration": 30,
+      "officials": {
+        "referees": [
+          "Sandra Sch\u00e4dle"
+        ],
+        "timekeepers": [
+          "Jacqueline Bader"
+        ],
+        "secretaries": [
+          "Harald Bauer"
+        ]
+      },
+      "graphic_path": "output/graphics/MTV_Stuttgart_vs_TV_Bittenfeld_1898_2_So_1412.png"
+    }
+  ]
+}

@@ -1,0 +1,721 @@
+{
+  "date": "20260131",
+  "games": [
+    {
+      "game_id": "handball4all.baden-wuerttemberg.8664156",
+      "order": 67,
+      "date": "Sa, 31.01.",
+      "home": {
+        "team_name": "HB Ludwigsburg",
+        "players": [
+          {
+            "name": "Nils Alexander Skalicky",
+            "goals": 7,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Justin Wehmeier",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Mika Beck",
+            "goals": 2,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Jadon Heine",
+            "goals": 5,
+            "two_min_penalties": 1,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Dennis Zwirner",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Louis F\u00e4rber",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Rafael Kl\u00fcber",
+            "goals": 2,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Janne W\u00fcrth",
+            "goals": 6,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Simon Gro\u00dfhans",
+            "goals": 5,
+            "two_min_penalties": 1,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 3,
+            "seven_meters_goals": 3
+          },
+          {
+            "name": "Mika Hoffmann",
+            "goals": 2,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Pascal Gro\u00dfhans",
+            "goals": 4,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          }
+        ]
+      },
+      "away": {
+        "team_name": "SG JHA Baden",
+        "players": [
+          {
+            "name": "Noah Meier",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Max Kresin",
+            "goals": 2,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Til Ackermann",
+            "goals": 10,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 2,
+            "seven_meters_goals": 1
+          },
+          {
+            "name": "Lennis Joel Wild",
+            "goals": 3,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Joshua Jelinko",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Moritz Frank",
+            "goals": 2,
+            "two_min_penalties": 1,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Frederic Leopold Hahn",
+            "goals": 3,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "James Bl\u00fcthner",
+            "goals": 1,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 1,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Lenny Gushurst",
+            "goals": 1,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Adrian Dogoter",
+            "goals": 3,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Adrian Caleta",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          }
+        ]
+      },
+      "goals_timeline": [
+        {
+          "minute": 0,
+          "second": 43,
+          "scorer": "Lennis Wild",
+          "team": "home",
+          "team_abbrev": "SG JHA Baden",
+          "seven_meter": false
+        },
+        {
+          "minute": 0,
+          "second": 51,
+          "scorer": "Nils Skalicky",
+          "team": "away",
+          "team_abbrev": "HB Ludwigsburg",
+          "seven_meter": false
+        },
+        {
+          "minute": 1,
+          "second": 29,
+          "scorer": "Til Ackermann",
+          "team": "home",
+          "team_abbrev": "SG JHA Baden",
+          "seven_meter": false
+        },
+        {
+          "minute": 2,
+          "second": 24,
+          "scorer": "Moritz Frank",
+          "team": "home",
+          "team_abbrev": "SG JHA Baden",
+          "seven_meter": false
+        },
+        {
+          "minute": 3,
+          "second": 50,
+          "scorer": "Frederic Hahn",
+          "team": "home",
+          "team_abbrev": "SG JHA Baden",
+          "seven_meter": false
+        },
+        {
+          "minute": 3,
+          "second": 57,
+          "scorer": "Jadon Heine",
+          "team": "away",
+          "team_abbrev": "HB Ludwigsburg",
+          "seven_meter": false
+        },
+        {
+          "minute": 4,
+          "second": 54,
+          "scorer": "Mika Beck",
+          "team": "away",
+          "team_abbrev": "HB Ludwigsburg",
+          "seven_meter": false
+        },
+        {
+          "minute": 5,
+          "second": 25,
+          "scorer": "Janne W\u00fcrth",
+          "team": "away",
+          "team_abbrev": "HB Ludwigsburg",
+          "seven_meter": false
+        },
+        {
+          "minute": 5,
+          "second": 49,
+          "scorer": "Til Ackermann",
+          "team": "home",
+          "team_abbrev": "SG JHA Baden",
+          "seven_meter": false
+        },
+        {
+          "minute": 5,
+          "second": 58,
+          "scorer": "Nils Skalicky",
+          "team": "away",
+          "team_abbrev": "HB Ludwigsburg",
+          "seven_meter": false
+        },
+        {
+          "minute": 6,
+          "second": 21,
+          "scorer": "Til Ackermann",
+          "team": "home",
+          "team_abbrev": "SG JHA Baden",
+          "seven_meter": false
+        },
+        {
+          "minute": 6,
+          "second": 58,
+          "scorer": "Simon Gro\u00dfhans",
+          "team": "away",
+          "team_abbrev": "HB Ludwigsburg",
+          "seven_meter": true
+        },
+        {
+          "minute": 7,
+          "second": 35,
+          "scorer": "Til Ackermann",
+          "team": "home",
+          "team_abbrev": "SG JHA Baden",
+          "seven_meter": false
+        },
+        {
+          "minute": 7,
+          "second": 45,
+          "scorer": "Mika Hoffmann",
+          "team": "away",
+          "team_abbrev": "HB Ludwigsburg",
+          "seven_meter": false
+        },
+        {
+          "minute": 8,
+          "second": 38,
+          "scorer": "Janne W\u00fcrth",
+          "team": "away",
+          "team_abbrev": "HB Ludwigsburg",
+          "seven_meter": false
+        },
+        {
+          "minute": 9,
+          "second": 21,
+          "scorer": "Til Ackermann",
+          "team": "home",
+          "team_abbrev": "SG JHA Baden",
+          "seven_meter": false
+        },
+        {
+          "minute": 14,
+          "second": 4,
+          "scorer": "Mika Hoffmann",
+          "team": "away",
+          "team_abbrev": "HB Ludwigsburg",
+          "seven_meter": false
+        },
+        {
+          "minute": 15,
+          "second": 2,
+          "scorer": "Simon Gro\u00dfhans",
+          "team": "away",
+          "team_abbrev": "HB Ludwigsburg",
+          "seven_meter": false
+        },
+        {
+          "minute": 18,
+          "second": 42,
+          "scorer": "Nils Skalicky",
+          "team": "away",
+          "team_abbrev": "HB Ludwigsburg",
+          "seven_meter": false
+        },
+        {
+          "minute": 19,
+          "second": 30,
+          "scorer": "Max Kresin",
+          "team": "home",
+          "team_abbrev": "SG JHA Baden",
+          "seven_meter": false
+        },
+        {
+          "minute": 19,
+          "second": 55,
+          "scorer": "Jadon Heine",
+          "team": "away",
+          "team_abbrev": "HB Ludwigsburg",
+          "seven_meter": false
+        },
+        {
+          "minute": 21,
+          "second": 31,
+          "scorer": "Jadon Heine",
+          "team": "away",
+          "team_abbrev": "HB Ludwigsburg",
+          "seven_meter": false
+        },
+        {
+          "minute": 22,
+          "second": 14,
+          "scorer": "Nils Skalicky",
+          "team": "away",
+          "team_abbrev": "HB Ludwigsburg",
+          "seven_meter": false
+        },
+        {
+          "minute": 22,
+          "second": 43,
+          "scorer": "Max Kresin",
+          "team": "home",
+          "team_abbrev": "SG JHA Baden",
+          "seven_meter": false
+        },
+        {
+          "minute": 23,
+          "second": 19,
+          "scorer": "Lenny Gushurst",
+          "team": "home",
+          "team_abbrev": "SG JHA Baden",
+          "seven_meter": false
+        },
+        {
+          "minute": 23,
+          "second": 21,
+          "scorer": "Nils Skalicky",
+          "team": "away",
+          "team_abbrev": "HB Ludwigsburg",
+          "seven_meter": false
+        },
+        {
+          "minute": 23,
+          "second": 56,
+          "scorer": "Nils Skalicky",
+          "team": "away",
+          "team_abbrev": "HB Ludwigsburg",
+          "seven_meter": false
+        },
+        {
+          "minute": 27,
+          "second": 12,
+          "scorer": "Jadon Heine",
+          "team": "away",
+          "team_abbrev": "HB Ludwigsburg",
+          "seven_meter": false
+        },
+        {
+          "minute": 27,
+          "second": 40,
+          "scorer": "Lennis Wild",
+          "team": "home",
+          "team_abbrev": "SG JHA Baden",
+          "seven_meter": false
+        },
+        {
+          "minute": 31,
+          "second": 33,
+          "scorer": "Simon Gro\u00dfhans",
+          "team": "away",
+          "team_abbrev": "HB Ludwigsburg",
+          "seven_meter": true
+        },
+        {
+          "minute": 32,
+          "second": 6,
+          "scorer": "Adrian Dogoter",
+          "team": "home",
+          "team_abbrev": "SG JHA Baden",
+          "seven_meter": false
+        },
+        {
+          "minute": 32,
+          "second": 14,
+          "scorer": "Pascal Gro\u00dfhans",
+          "team": "away",
+          "team_abbrev": "HB Ludwigsburg",
+          "seven_meter": false
+        },
+        {
+          "minute": 32,
+          "second": 49,
+          "scorer": "Pascal Gro\u00dfhans",
+          "team": "away",
+          "team_abbrev": "HB Ludwigsburg",
+          "seven_meter": false
+        },
+        {
+          "minute": 33,
+          "second": 29,
+          "scorer": "Frederic Hahn",
+          "team": "home",
+          "team_abbrev": "SG JHA Baden",
+          "seven_meter": false
+        },
+        {
+          "minute": 33,
+          "second": 35,
+          "scorer": "Rafael Kl\u00fcber",
+          "team": "away",
+          "team_abbrev": "HB Ludwigsburg",
+          "seven_meter": false
+        },
+        {
+          "minute": 35,
+          "second": 50,
+          "scorer": "Pascal Gro\u00dfhans",
+          "team": "away",
+          "team_abbrev": "HB Ludwigsburg",
+          "seven_meter": false
+        },
+        {
+          "minute": 36,
+          "second": 32,
+          "scorer": "Til Ackermann",
+          "team": "home",
+          "team_abbrev": "SG JHA Baden",
+          "seven_meter": false
+        },
+        {
+          "minute": 37,
+          "second": 4,
+          "scorer": "Jadon Heine",
+          "team": "away",
+          "team_abbrev": "HB Ludwigsburg",
+          "seven_meter": false
+        },
+        {
+          "minute": 39,
+          "second": 28,
+          "scorer": "Til Ackermann",
+          "team": "home",
+          "team_abbrev": "SG JHA Baden",
+          "seven_meter": true
+        },
+        {
+          "minute": 40,
+          "second": 34,
+          "scorer": "Moritz Frank",
+          "team": "home",
+          "team_abbrev": "SG JHA Baden",
+          "seven_meter": false
+        },
+        {
+          "minute": 41,
+          "second": 28,
+          "scorer": "Janne W\u00fcrth",
+          "team": "away",
+          "team_abbrev": "HB Ludwigsburg",
+          "seven_meter": false
+        },
+        {
+          "minute": 41,
+          "second": 47,
+          "scorer": "Til Ackermann",
+          "team": "home",
+          "team_abbrev": "SG JHA Baden",
+          "seven_meter": false
+        },
+        {
+          "minute": 42,
+          "second": 21,
+          "scorer": "Lennis Wild",
+          "team": "home",
+          "team_abbrev": "SG JHA Baden",
+          "seven_meter": false
+        },
+        {
+          "minute": 42,
+          "second": 33,
+          "scorer": "Mika Beck",
+          "team": "away",
+          "team_abbrev": "HB Ludwigsburg",
+          "seven_meter": false
+        },
+        {
+          "minute": 43,
+          "second": 30,
+          "scorer": "Janne W\u00fcrth",
+          "team": "away",
+          "team_abbrev": "HB Ludwigsburg",
+          "seven_meter": false
+        },
+        {
+          "minute": 44,
+          "second": 16,
+          "scorer": "Rafael Kl\u00fcber",
+          "team": "away",
+          "team_abbrev": "HB Ludwigsburg",
+          "seven_meter": false
+        },
+        {
+          "minute": 45,
+          "second": 15,
+          "scorer": "Adrian Dogoter",
+          "team": "home",
+          "team_abbrev": "SG JHA Baden",
+          "seven_meter": false
+        },
+        {
+          "minute": 46,
+          "second": 22,
+          "scorer": "Nils Skalicky",
+          "team": "away",
+          "team_abbrev": "HB Ludwigsburg",
+          "seven_meter": false
+        },
+        {
+          "minute": 48,
+          "second": 52,
+          "scorer": "Til Ackermann",
+          "team": "home",
+          "team_abbrev": "SG JHA Baden",
+          "seven_meter": false
+        },
+        {
+          "minute": 49,
+          "second": 27,
+          "scorer": "Til Ackermann",
+          "team": "home",
+          "team_abbrev": "SG JHA Baden",
+          "seven_meter": false
+        },
+        {
+          "minute": 49,
+          "second": 59,
+          "scorer": "Pascal Gro\u00dfhans",
+          "team": "away",
+          "team_abbrev": "HB Ludwigsburg",
+          "seven_meter": false
+        },
+        {
+          "minute": 50,
+          "second": 21,
+          "scorer": "James Bl\u00fcthner",
+          "team": "home",
+          "team_abbrev": "SG JHA Baden",
+          "seven_meter": false
+        },
+        {
+          "minute": 50,
+          "second": 58,
+          "scorer": "Frederic Hahn",
+          "team": "home",
+          "team_abbrev": "SG JHA Baden",
+          "seven_meter": false
+        },
+        {
+          "minute": 51,
+          "second": 45,
+          "scorer": "Janne W\u00fcrth",
+          "team": "away",
+          "team_abbrev": "HB Ludwigsburg",
+          "seven_meter": false
+        },
+        {
+          "minute": 55,
+          "second": 53,
+          "scorer": "Simon Gro\u00dfhans",
+          "team": "away",
+          "team_abbrev": "HB Ludwigsburg",
+          "seven_meter": true
+        },
+        {
+          "minute": 58,
+          "second": 2,
+          "scorer": "Janne W\u00fcrth",
+          "team": "away",
+          "team_abbrev": "HB Ludwigsburg",
+          "seven_meter": false
+        },
+        {
+          "minute": 59,
+          "second": 16,
+          "scorer": "Adrian Dogoter",
+          "team": "home",
+          "team_abbrev": "SG JHA Baden",
+          "seven_meter": false
+        },
+        {
+          "minute": 59,
+          "second": 22,
+          "scorer": "Simon Gro\u00dfhans",
+          "team": "away",
+          "team_abbrev": "HB Ludwigsburg",
+          "seven_meter": false
+        }
+      ],
+      "final_score": "25:33",
+      "half_duration": 30,
+      "officials": {
+        "referees": [
+          "Bj\u00f6rn Emig",
+          "Daniel Fischer"
+        ],
+        "timekeepers": [
+          "Tino Stecher"
+        ],
+        "secretaries": [
+          "Folke Ackermann"
+        ]
+      },
+      "graphic_path": "output/graphics/HB_Ludwigsburg_vs_SG_JHA_Baden_Sa_3101.png"
+    }
+  ]
+}

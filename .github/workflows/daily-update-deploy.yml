@@ -190,7 +190,13 @@ jobs:
             echo "✅ Copied error log"
           fi
           
-          git add frontend/public/data/ frontend/public/error_log.json
+          # Add changes to git
+          git add frontend/public/data/
+          if [ -f "frontend/public/error_log.json" ]; then
+            git add frontend/public/error_log.json
+            echo "📋 Error log added to commit"
+          fi
+          
           git commit -m "chore: Update game data and error log from scraper [skip ci]"
           git push origin data
           echo "✅ Data and error log pushed to data branch"

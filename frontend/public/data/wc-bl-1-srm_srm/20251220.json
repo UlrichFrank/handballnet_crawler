@@ -1,0 +1,754 @@
+{
+  "date": "20251220",
+  "games": [
+    {
+      "game_id": "handball4all.baden-wuerttemberg.8852447",
+      "order": 32,
+      "date": "Sa, 20.12.",
+      "home": {
+        "team_name": "HC Oppenweiler/Backnang",
+        "players": [
+          {
+            "name": "Ida Marlene Backi",
+            "goals": 9,
+            "two_min_penalties": 0,
+            "yellow_cards": 1,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Leana Matena",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Selina K\u00fcbler",
+            "goals": 1,
+            "two_min_penalties": 1,
+            "yellow_cards": 1,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Luisa Diederich",
+            "goals": 1,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Leni Betz",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Emilia Sofie Belz",
+            "goals": 8,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Nele Schwaderer",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Frieda F\u00f6rster",
+            "goals": 1,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Melina Lucia Mouratidis",
+            "goals": 1,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Emelie Latsch",
+            "goals": 1,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Leonie Pia Lamsfu\u00df",
+            "goals": 11,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Alina Miller",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          }
+        ]
+      },
+      "away": {
+        "team_name": "TV Stetten",
+        "players": [
+          {
+            "name": "Marlene Figiel",
+            "goals": 2,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Klara Gre\u00df",
+            "goals": 2,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 1,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Ella Ei\u00dfele",
+            "goals": 5,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 1,
+            "seven_meters_goals": 1
+          },
+          {
+            "name": "Mina Korkmaz",
+            "goals": 1,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Johanne Siemers",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Selina Kuch",
+            "goals": 7,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Mia Dau",
+            "goals": 5,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Leni Pauline Schmid",
+            "goals": 2,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Karla Matic",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Lise M\u00f6hlmann",
+            "goals": 2,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Olivia Synek",
+            "goals": 2,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 1,
+            "seven_meters_goals": 1
+          }
+        ]
+      },
+      "goals_timeline": [
+        {
+          "minute": 1,
+          "second": 19,
+          "scorer": "Frieda F\u00f6rster",
+          "team": "home",
+          "team_abbrev": "HCOB Opp/BK",
+          "seven_meter": false
+        },
+        {
+          "minute": 2,
+          "second": 19,
+          "scorer": "Ida Backi",
+          "team": "home",
+          "team_abbrev": "HCOB Opp/BK",
+          "seven_meter": false
+        },
+        {
+          "minute": 2,
+          "second": 42,
+          "scorer": "Emilia Belz",
+          "team": "home",
+          "team_abbrev": "HCOB Opp/BK",
+          "seven_meter": false
+        },
+        {
+          "minute": 2,
+          "second": 57,
+          "scorer": "Ella Ei\u00dfele",
+          "team": "away",
+          "team_abbrev": "TV Stetten",
+          "seven_meter": false
+        },
+        {
+          "minute": 4,
+          "second": 12,
+          "scorer": "Leonie Lamsfu\u00df",
+          "team": "home",
+          "team_abbrev": "HCOB Opp/BK",
+          "seven_meter": false
+        },
+        {
+          "minute": 4,
+          "second": 34,
+          "scorer": "Mia Dau",
+          "team": "away",
+          "team_abbrev": "TV Stetten",
+          "seven_meter": false
+        },
+        {
+          "minute": 4,
+          "second": 59,
+          "scorer": "Emilia Belz",
+          "team": "home",
+          "team_abbrev": "HCOB Opp/BK",
+          "seven_meter": false
+        },
+        {
+          "minute": 5,
+          "second": 6,
+          "scorer": "Marlene Figiel",
+          "team": "away",
+          "team_abbrev": "TV Stetten",
+          "seven_meter": false
+        },
+        {
+          "minute": 5,
+          "second": 47,
+          "scorer": "Leni Schmid",
+          "team": "away",
+          "team_abbrev": "TV Stetten",
+          "seven_meter": false
+        },
+        {
+          "minute": 6,
+          "second": 38,
+          "scorer": "Ida Backi",
+          "team": "home",
+          "team_abbrev": "HCOB Opp/BK",
+          "seven_meter": true
+        },
+        {
+          "minute": 7,
+          "second": 0,
+          "scorer": "Mia Dau",
+          "team": "away",
+          "team_abbrev": "TV Stetten",
+          "seven_meter": false
+        },
+        {
+          "minute": 7,
+          "second": 20,
+          "scorer": "Leonie Lamsfu\u00df",
+          "team": "home",
+          "team_abbrev": "HCOB Opp/BK",
+          "seven_meter": false
+        },
+        {
+          "minute": 8,
+          "second": 5,
+          "scorer": "Selina Kuch",
+          "team": "away",
+          "team_abbrev": "TV Stetten",
+          "seven_meter": false
+        },
+        {
+          "minute": 8,
+          "second": 48,
+          "scorer": "Ida Backi",
+          "team": "home",
+          "team_abbrev": "HCOB Opp/BK",
+          "seven_meter": false
+        },
+        {
+          "minute": 9,
+          "second": 16,
+          "scorer": "Selina Kuch",
+          "team": "away",
+          "team_abbrev": "TV Stetten",
+          "seven_meter": false
+        },
+        {
+          "minute": 9,
+          "second": 43,
+          "scorer": "Emilia Belz",
+          "team": "home",
+          "team_abbrev": "HCOB Opp/BK",
+          "seven_meter": false
+        },
+        {
+          "minute": 10,
+          "second": 13,
+          "scorer": "Selina K\u00fcbler",
+          "team": "home",
+          "team_abbrev": "HCOB Opp/BK",
+          "seven_meter": false
+        },
+        {
+          "minute": 11,
+          "second": 56,
+          "scorer": "Leni Schmid",
+          "team": "away",
+          "team_abbrev": "TV Stetten",
+          "seven_meter": false
+        },
+        {
+          "minute": 12,
+          "second": 47,
+          "scorer": "Leonie Lamsfu\u00df",
+          "team": "home",
+          "team_abbrev": "HCOB Opp/BK",
+          "seven_meter": false
+        },
+        {
+          "minute": 13,
+          "second": 5,
+          "scorer": "Lise M\u00f6hlmann",
+          "team": "away",
+          "team_abbrev": "TV Stetten",
+          "seven_meter": false
+        },
+        {
+          "minute": 13,
+          "second": 47,
+          "scorer": "Leonie Lamsfu\u00df",
+          "team": "home",
+          "team_abbrev": "HCOB Opp/BK",
+          "seven_meter": false
+        },
+        {
+          "minute": 14,
+          "second": 32,
+          "scorer": "Emilia Belz",
+          "team": "home",
+          "team_abbrev": "HCOB Opp/BK",
+          "seven_meter": false
+        },
+        {
+          "minute": 15,
+          "second": 19,
+          "scorer": "Ida Backi",
+          "team": "home",
+          "team_abbrev": "HCOB Opp/BK",
+          "seven_meter": false
+        },
+        {
+          "minute": 15,
+          "second": 35,
+          "scorer": "Ella Ei\u00dfele",
+          "team": "away",
+          "team_abbrev": "TV Stetten",
+          "seven_meter": false
+        },
+        {
+          "minute": 16,
+          "second": 33,
+          "scorer": "Leonie Lamsfu\u00df",
+          "team": "home",
+          "team_abbrev": "HCOB Opp/BK",
+          "seven_meter": false
+        },
+        {
+          "minute": 17,
+          "second": 18,
+          "scorer": "Klara Gre\u00df",
+          "team": "away",
+          "team_abbrev": "TV Stetten",
+          "seven_meter": false
+        },
+        {
+          "minute": 17,
+          "second": 46,
+          "scorer": "Mia Dau",
+          "team": "away",
+          "team_abbrev": "TV Stetten",
+          "seven_meter": false
+        },
+        {
+          "minute": 18,
+          "second": 5,
+          "scorer": "Ida Backi",
+          "team": "home",
+          "team_abbrev": "HCOB Opp/BK",
+          "seven_meter": false
+        },
+        {
+          "minute": 18,
+          "second": 40,
+          "scorer": "Lise M\u00f6hlmann",
+          "team": "away",
+          "team_abbrev": "TV Stetten",
+          "seven_meter": false
+        },
+        {
+          "minute": 20,
+          "second": 57,
+          "scorer": "Mia Dau",
+          "team": "away",
+          "team_abbrev": "TV Stetten",
+          "seven_meter": false
+        },
+        {
+          "minute": 23,
+          "second": 43,
+          "scorer": "Ida Backi",
+          "team": "home",
+          "team_abbrev": "HCOB Opp/BK",
+          "seven_meter": false
+        },
+        {
+          "minute": 24,
+          "second": 2,
+          "scorer": "Mina Korkmaz",
+          "team": "away",
+          "team_abbrev": "TV Stetten",
+          "seven_meter": false
+        },
+        {
+          "minute": 24,
+          "second": 12,
+          "scorer": "Leonie Lamsfu\u00df",
+          "team": "home",
+          "team_abbrev": "HCOB Opp/BK",
+          "seven_meter": false
+        },
+        {
+          "minute": 24,
+          "second": 32,
+          "scorer": "Selina Kuch",
+          "team": "away",
+          "team_abbrev": "TV Stetten",
+          "seven_meter": false
+        },
+        {
+          "minute": 26,
+          "second": 40,
+          "scorer": "Klara Gre\u00df",
+          "team": "away",
+          "team_abbrev": "TV Stetten",
+          "seven_meter": false
+        },
+        {
+          "minute": 27,
+          "second": 18,
+          "scorer": "Marlene Figiel",
+          "team": "away",
+          "team_abbrev": "TV Stetten",
+          "seven_meter": false
+        },
+        {
+          "minute": 27,
+          "second": 35,
+          "scorer": "Emilia Belz",
+          "team": "home",
+          "team_abbrev": "HCOB Opp/BK",
+          "seven_meter": false
+        },
+        {
+          "minute": 28,
+          "second": 11,
+          "scorer": "Luisa Diederich",
+          "team": "home",
+          "team_abbrev": "HCOB Opp/BK",
+          "seven_meter": false
+        },
+        {
+          "minute": 30,
+          "second": 54,
+          "scorer": "Ella Ei\u00dfele",
+          "team": "away",
+          "team_abbrev": "TV Stetten",
+          "seven_meter": false
+        },
+        {
+          "minute": 31,
+          "second": 12,
+          "scorer": "Leonie Lamsfu\u00df",
+          "team": "home",
+          "team_abbrev": "HCOB Opp/BK",
+          "seven_meter": false
+        },
+        {
+          "minute": 32,
+          "second": 13,
+          "scorer": "Leonie Lamsfu\u00df",
+          "team": "home",
+          "team_abbrev": "HCOB Opp/BK",
+          "seven_meter": false
+        },
+        {
+          "minute": 32,
+          "second": 50,
+          "scorer": "Leonie Lamsfu\u00df",
+          "team": "home",
+          "team_abbrev": "HCOB Opp/BK",
+          "seven_meter": false
+        },
+        {
+          "minute": 33,
+          "second": 34,
+          "scorer": "Emilia Belz",
+          "team": "home",
+          "team_abbrev": "HCOB Opp/BK",
+          "seven_meter": false
+        },
+        {
+          "minute": 35,
+          "second": 29,
+          "scorer": "Ida Backi",
+          "team": "home",
+          "team_abbrev": "HCOB Opp/BK",
+          "seven_meter": false
+        },
+        {
+          "minute": 36,
+          "second": 52,
+          "scorer": "Ella Ei\u00dfele",
+          "team": "away",
+          "team_abbrev": "TV Stetten",
+          "seven_meter": true
+        },
+        {
+          "minute": 37,
+          "second": 36,
+          "scorer": "Ida Backi",
+          "team": "home",
+          "team_abbrev": "HCOB Opp/BK",
+          "seven_meter": false
+        },
+        {
+          "minute": 39,
+          "second": 33,
+          "scorer": "Ida Backi",
+          "team": "home",
+          "team_abbrev": "HCOB Opp/BK",
+          "seven_meter": true
+        },
+        {
+          "minute": 40,
+          "second": 43,
+          "scorer": "Ella Ei\u00dfele",
+          "team": "away",
+          "team_abbrev": "TV Stetten",
+          "seven_meter": false
+        },
+        {
+          "minute": 41,
+          "second": 37,
+          "scorer": "Selina Kuch",
+          "team": "away",
+          "team_abbrev": "TV Stetten",
+          "seven_meter": false
+        },
+        {
+          "minute": 42,
+          "second": 33,
+          "scorer": "Olivia Synek",
+          "team": "away",
+          "team_abbrev": "TV Stetten",
+          "seven_meter": true
+        },
+        {
+          "minute": 42,
+          "second": 53,
+          "scorer": "Emelie Latsch",
+          "team": "home",
+          "team_abbrev": "HCOB Opp/BK",
+          "seven_meter": false
+        },
+        {
+          "minute": 44,
+          "second": 18,
+          "scorer": "Leonie Lamsfu\u00df",
+          "team": "home",
+          "team_abbrev": "HCOB Opp/BK",
+          "seven_meter": false
+        },
+        {
+          "minute": 44,
+          "second": 31,
+          "scorer": "Olivia Synek",
+          "team": "away",
+          "team_abbrev": "TV Stetten",
+          "seven_meter": false
+        },
+        {
+          "minute": 44,
+          "second": 59,
+          "scorer": "Emilia Belz",
+          "team": "home",
+          "team_abbrev": "HCOB Opp/BK",
+          "seven_meter": false
+        },
+        {
+          "minute": 45,
+          "second": 17,
+          "scorer": "Selina Kuch",
+          "team": "away",
+          "team_abbrev": "TV Stetten",
+          "seven_meter": false
+        },
+        {
+          "minute": 45,
+          "second": 48,
+          "scorer": "Emilia Belz",
+          "team": "home",
+          "team_abbrev": "HCOB Opp/BK",
+          "seven_meter": false
+        },
+        {
+          "minute": 46,
+          "second": 49,
+          "scorer": "Leonie Lamsfu\u00df",
+          "team": "home",
+          "team_abbrev": "HCOB Opp/BK",
+          "seven_meter": false
+        },
+        {
+          "minute": 47,
+          "second": 46,
+          "scorer": "Selina Kuch",
+          "team": "away",
+          "team_abbrev": "TV Stetten",
+          "seven_meter": false
+        },
+        {
+          "minute": 48,
+          "second": 5,
+          "scorer": "Melina Mouratidis",
+          "team": "home",
+          "team_abbrev": "HCOB Opp/BK",
+          "seven_meter": false
+        },
+        {
+          "minute": 48,
+          "second": 36,
+          "scorer": "Mia Dau",
+          "team": "away",
+          "team_abbrev": "TV Stetten",
+          "seven_meter": false
+        },
+        {
+          "minute": 49,
+          "second": 9,
+          "scorer": "Selina Kuch",
+          "team": "away",
+          "team_abbrev": "TV Stetten",
+          "seven_meter": false
+        }
+      ],
+      "final_score": "33:28",
+      "half_duration": 30,
+      "officials": {
+        "referees": [
+          "Fabio Appenzeller"
+        ],
+        "timekeepers": [
+          "Markus Matena"
+        ],
+        "secretaries": [
+          "Stefanie Kiedaisch"
+        ]
+      },
+      "graphic_path": "output/graphics/HC_Oppenweiler_Backn_vs_TV_Stetten_Sa_2012.png"
+    }
+  ]
+}

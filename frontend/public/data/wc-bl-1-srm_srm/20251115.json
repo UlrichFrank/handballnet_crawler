@@ -1,0 +1,812 @@
+{
+  "date": "20251115",
+  "games": [
+    {
+      "game_id": "handball4all.baden-wuerttemberg.8852327",
+      "order": 18,
+      "date": "Sa, 15.11.",
+      "home": {
+        "team_name": "HC Oppenweiler/Backnang",
+        "players": [
+          {
+            "name": "Ida Marlene Backi",
+            "goals": 10,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Selina K\u00fcbler",
+            "goals": 2,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 1,
+            "seven_meters_goals": 1
+          },
+          {
+            "name": "Luisa Diederich",
+            "goals": 3,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Leni Betz",
+            "goals": 1,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Emilia Sofie Belz",
+            "goals": 6,
+            "two_min_penalties": 1,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Nele Schwaderer",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Frieda F\u00f6rster",
+            "goals": 2,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Melina Lucia Mouratidis",
+            "goals": 5,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Emelie Latsch",
+            "goals": 1,
+            "two_min_penalties": 0,
+            "yellow_cards": 1,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Leonie Pia Lamsfu\u00df",
+            "goals": 16,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Alina Miller",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          }
+        ]
+      },
+      "away": {
+        "team_name": "HSC Schmiden/Oeffingen 2004",
+        "players": [
+          {
+            "name": "Lynn R\u00fchle",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Olivia Bischoff",
+            "goals": 2,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Annika Nossek",
+            "goals": 4,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Olivia Rivero",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Emma Wieskus",
+            "goals": 5,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 2,
+            "seven_meters_goals": 2
+          },
+          {
+            "name": "Lucy Henderson",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Pia Schweizer",
+            "goals": 2,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Romy Adelmann",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Emelie Hirsch",
+            "goals": 0,
+            "two_min_penalties": 1,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Emilia \u00d6zalp",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Ella Thiemar",
+            "goals": 7,
+            "two_min_penalties": 0,
+            "yellow_cards": 1,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Johanna Rombold",
+            "goals": 1,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Julia An Ngoc Nguyen",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          }
+        ]
+      },
+      "goals_timeline": [
+        {
+          "minute": 0,
+          "second": 21,
+          "scorer": "Leonie Lamsfu\u00df",
+          "team": "home",
+          "team_abbrev": "HCOB Opp/BK",
+          "seven_meter": false
+        },
+        {
+          "minute": 1,
+          "second": 52,
+          "scorer": "Pia Schweizer",
+          "team": "away",
+          "team_abbrev": "HSC Schm/Oeff",
+          "seven_meter": false
+        },
+        {
+          "minute": 2,
+          "second": 28,
+          "scorer": "Melina Mouratidis",
+          "team": "home",
+          "team_abbrev": "HCOB Opp/BK",
+          "seven_meter": false
+        },
+        {
+          "minute": 4,
+          "second": 12,
+          "scorer": "Ida Backi",
+          "team": "home",
+          "team_abbrev": "HCOB Opp/BK",
+          "seven_meter": false
+        },
+        {
+          "minute": 4,
+          "second": 47,
+          "scorer": "Leonie Lamsfu\u00df",
+          "team": "home",
+          "team_abbrev": "HCOB Opp/BK",
+          "seven_meter": false
+        },
+        {
+          "minute": 7,
+          "second": 26,
+          "scorer": "Leonie Lamsfu\u00df",
+          "team": "home",
+          "team_abbrev": "HCOB Opp/BK",
+          "seven_meter": false
+        },
+        {
+          "minute": 8,
+          "second": 39,
+          "scorer": "Emilia Belz",
+          "team": "home",
+          "team_abbrev": "HCOB Opp/BK",
+          "seven_meter": false
+        },
+        {
+          "minute": 9,
+          "second": 13,
+          "scorer": "Johanna Rombold",
+          "team": "away",
+          "team_abbrev": "HSC Schm/Oeff",
+          "seven_meter": false
+        },
+        {
+          "minute": 9,
+          "second": 43,
+          "scorer": "Ida Backi",
+          "team": "home",
+          "team_abbrev": "HCOB Opp/BK",
+          "seven_meter": true
+        },
+        {
+          "minute": 10,
+          "second": 47,
+          "scorer": "Leonie Lamsfu\u00df",
+          "team": "home",
+          "team_abbrev": "HCOB Opp/BK",
+          "seven_meter": false
+        },
+        {
+          "minute": 11,
+          "second": 12,
+          "scorer": "Ida Backi",
+          "team": "home",
+          "team_abbrev": "HCOB Opp/BK",
+          "seven_meter": false
+        },
+        {
+          "minute": 12,
+          "second": 29,
+          "scorer": "Selina K\u00fcbler",
+          "team": "home",
+          "team_abbrev": "HCOB Opp/BK",
+          "seven_meter": true
+        },
+        {
+          "minute": 13,
+          "second": 17,
+          "scorer": "Emma Wieskus",
+          "team": "away",
+          "team_abbrev": "HSC Schm/Oeff",
+          "seven_meter": false
+        },
+        {
+          "minute": 13,
+          "second": 40,
+          "scorer": "Luisa Diederich",
+          "team": "home",
+          "team_abbrev": "HCOB Opp/BK",
+          "seven_meter": false
+        },
+        {
+          "minute": 15,
+          "second": 0,
+          "scorer": "Olivia Bischoff",
+          "team": "away",
+          "team_abbrev": "HSC Schm/Oeff",
+          "seven_meter": false
+        },
+        {
+          "minute": 15,
+          "second": 16,
+          "scorer": "Emilia Belz",
+          "team": "home",
+          "team_abbrev": "HCOB Opp/BK",
+          "seven_meter": false
+        },
+        {
+          "minute": 15,
+          "second": 56,
+          "scorer": "Pia Schweizer",
+          "team": "away",
+          "team_abbrev": "HSC Schm/Oeff",
+          "seven_meter": false
+        },
+        {
+          "minute": 16,
+          "second": 9,
+          "scorer": "Leonie Lamsfu\u00df",
+          "team": "home",
+          "team_abbrev": "HCOB Opp/BK",
+          "seven_meter": false
+        },
+        {
+          "minute": 16,
+          "second": 36,
+          "scorer": "Leonie Lamsfu\u00df",
+          "team": "home",
+          "team_abbrev": "HCOB Opp/BK",
+          "seven_meter": false
+        },
+        {
+          "minute": 17,
+          "second": 1,
+          "scorer": "Ida Backi",
+          "team": "home",
+          "team_abbrev": "HCOB Opp/BK",
+          "seven_meter": false
+        },
+        {
+          "minute": 18,
+          "second": 37,
+          "scorer": "Leonie Lamsfu\u00df",
+          "team": "home",
+          "team_abbrev": "HCOB Opp/BK",
+          "seven_meter": false
+        },
+        {
+          "minute": 20,
+          "second": 14,
+          "scorer": "Melina Mouratidis",
+          "team": "home",
+          "team_abbrev": "HCOB Opp/BK",
+          "seven_meter": false
+        },
+        {
+          "minute": 21,
+          "second": 6,
+          "scorer": "Emma Wieskus",
+          "team": "away",
+          "team_abbrev": "HSC Schm/Oeff",
+          "seven_meter": true
+        },
+        {
+          "minute": 22,
+          "second": 52,
+          "scorer": "Annika Nossek",
+          "team": "away",
+          "team_abbrev": "HSC Schm/Oeff",
+          "seven_meter": false
+        },
+        {
+          "minute": 23,
+          "second": 40,
+          "scorer": "Annika Nossek",
+          "team": "away",
+          "team_abbrev": "HSC Schm/Oeff",
+          "seven_meter": false
+        },
+        {
+          "minute": 24,
+          "second": 14,
+          "scorer": "Melina Mouratidis",
+          "team": "home",
+          "team_abbrev": "HCOB Opp/BK",
+          "seven_meter": false
+        },
+        {
+          "minute": 24,
+          "second": 53,
+          "scorer": "Annika Nossek",
+          "team": "away",
+          "team_abbrev": "HSC Schm/Oeff",
+          "seven_meter": false
+        },
+        {
+          "minute": 25,
+          "second": 20,
+          "scorer": "Emilia Belz",
+          "team": "home",
+          "team_abbrev": "HCOB Opp/BK",
+          "seven_meter": false
+        },
+        {
+          "minute": 26,
+          "second": 2,
+          "scorer": "Ella Thiemar",
+          "team": "away",
+          "team_abbrev": "HSC Schm/Oeff",
+          "seven_meter": false
+        },
+        {
+          "minute": 27,
+          "second": 36,
+          "scorer": "Emelie Latsch",
+          "team": "home",
+          "team_abbrev": "HCOB Opp/BK",
+          "seven_meter": false
+        },
+        {
+          "minute": 27,
+          "second": 54,
+          "scorer": "Ella Thiemar",
+          "team": "away",
+          "team_abbrev": "HSC Schm/Oeff",
+          "seven_meter": false
+        },
+        {
+          "minute": 28,
+          "second": 7,
+          "scorer": "Ida Backi",
+          "team": "home",
+          "team_abbrev": "HCOB Opp/BK",
+          "seven_meter": false
+        },
+        {
+          "minute": 28,
+          "second": 47,
+          "scorer": "Leonie Lamsfu\u00df",
+          "team": "home",
+          "team_abbrev": "HCOB Opp/BK",
+          "seven_meter": false
+        },
+        {
+          "minute": 29,
+          "second": 51,
+          "scorer": "Emilia Belz",
+          "team": "home",
+          "team_abbrev": "HCOB Opp/BK",
+          "seven_meter": false
+        },
+        {
+          "minute": 30,
+          "second": 19,
+          "scorer": "Leonie Lamsfu\u00df",
+          "team": "home",
+          "team_abbrev": "HCOB Opp/BK",
+          "seven_meter": false
+        },
+        {
+          "minute": 30,
+          "second": 42,
+          "scorer": "Ella Thiemar",
+          "team": "away",
+          "team_abbrev": "HSC Schm/Oeff",
+          "seven_meter": false
+        },
+        {
+          "minute": 30,
+          "second": 55,
+          "scorer": "Leonie Lamsfu\u00df",
+          "team": "home",
+          "team_abbrev": "HCOB Opp/BK",
+          "seven_meter": false
+        },
+        {
+          "minute": 31,
+          "second": 52,
+          "scorer": "Ella Thiemar",
+          "team": "away",
+          "team_abbrev": "HSC Schm/Oeff",
+          "seven_meter": false
+        },
+        {
+          "minute": 33,
+          "second": 8,
+          "scorer": "Frieda F\u00f6rster",
+          "team": "home",
+          "team_abbrev": "HCOB Opp/BK",
+          "seven_meter": false
+        },
+        {
+          "minute": 34,
+          "second": 17,
+          "scorer": "Ella Thiemar",
+          "team": "away",
+          "team_abbrev": "HSC Schm/Oeff",
+          "seven_meter": false
+        },
+        {
+          "minute": 34,
+          "second": 31,
+          "scorer": "Ida Backi",
+          "team": "home",
+          "team_abbrev": "HCOB Opp/BK",
+          "seven_meter": false
+        },
+        {
+          "minute": 35,
+          "second": 2,
+          "scorer": "Frieda F\u00f6rster",
+          "team": "home",
+          "team_abbrev": "HCOB Opp/BK",
+          "seven_meter": false
+        },
+        {
+          "minute": 35,
+          "second": 47,
+          "scorer": "Leonie Lamsfu\u00df",
+          "team": "home",
+          "team_abbrev": "HCOB Opp/BK",
+          "seven_meter": false
+        },
+        {
+          "minute": 36,
+          "second": 8,
+          "scorer": "Ella Thiemar",
+          "team": "away",
+          "team_abbrev": "HSC Schm/Oeff",
+          "seven_meter": false
+        },
+        {
+          "minute": 36,
+          "second": 24,
+          "scorer": "Luisa Diederich",
+          "team": "home",
+          "team_abbrev": "HCOB Opp/BK",
+          "seven_meter": false
+        },
+        {
+          "minute": 37,
+          "second": 0,
+          "scorer": "Ida Backi",
+          "team": "home",
+          "team_abbrev": "HCOB Opp/BK",
+          "seven_meter": false
+        },
+        {
+          "minute": 37,
+          "second": 50,
+          "scorer": "Leonie Lamsfu\u00df",
+          "team": "home",
+          "team_abbrev": "HCOB Opp/BK",
+          "seven_meter": false
+        },
+        {
+          "minute": 38,
+          "second": 16,
+          "scorer": "Ella Thiemar",
+          "team": "away",
+          "team_abbrev": "HSC Schm/Oeff",
+          "seven_meter": false
+        },
+        {
+          "minute": 39,
+          "second": 20,
+          "scorer": "Leonie Lamsfu\u00df",
+          "team": "home",
+          "team_abbrev": "HCOB Opp/BK",
+          "seven_meter": false
+        },
+        {
+          "minute": 39,
+          "second": 54,
+          "scorer": "Leonie Lamsfu\u00df",
+          "team": "home",
+          "team_abbrev": "HCOB Opp/BK",
+          "seven_meter": false
+        },
+        {
+          "minute": 40,
+          "second": 22,
+          "scorer": "Emma Wieskus",
+          "team": "away",
+          "team_abbrev": "HSC Schm/Oeff",
+          "seven_meter": false
+        },
+        {
+          "minute": 40,
+          "second": 38,
+          "scorer": "Emilia Belz",
+          "team": "home",
+          "team_abbrev": "HCOB Opp/BK",
+          "seven_meter": false
+        },
+        {
+          "minute": 41,
+          "second": 21,
+          "scorer": "Emilia Belz",
+          "team": "home",
+          "team_abbrev": "HCOB Opp/BK",
+          "seven_meter": false
+        },
+        {
+          "minute": 41,
+          "second": 56,
+          "scorer": "Ida Backi",
+          "team": "home",
+          "team_abbrev": "HCOB Opp/BK",
+          "seven_meter": false
+        },
+        {
+          "minute": 42,
+          "second": 28,
+          "scorer": "Leni Betz",
+          "team": "home",
+          "team_abbrev": "HCOB Opp/BK",
+          "seven_meter": false
+        },
+        {
+          "minute": 43,
+          "second": 19,
+          "scorer": "Melina Mouratidis",
+          "team": "home",
+          "team_abbrev": "HCOB Opp/BK",
+          "seven_meter": false
+        },
+        {
+          "minute": 44,
+          "second": 9,
+          "scorer": "Emma Wieskus",
+          "team": "away",
+          "team_abbrev": "HSC Schm/Oeff",
+          "seven_meter": false
+        },
+        {
+          "minute": 44,
+          "second": 16,
+          "scorer": "Luisa Diederich",
+          "team": "home",
+          "team_abbrev": "HCOB Opp/BK",
+          "seven_meter": false
+        },
+        {
+          "minute": 44,
+          "second": 42,
+          "scorer": "Emma Wieskus",
+          "team": "away",
+          "team_abbrev": "HSC Schm/Oeff",
+          "seven_meter": true
+        },
+        {
+          "minute": 44,
+          "second": 57,
+          "scorer": "Melina Mouratidis",
+          "team": "home",
+          "team_abbrev": "HCOB Opp/BK",
+          "seven_meter": false
+        },
+        {
+          "minute": 46,
+          "second": 8,
+          "scorer": "Olivia Bischoff",
+          "team": "away",
+          "team_abbrev": "HSC Schm/Oeff",
+          "seven_meter": false
+        },
+        {
+          "minute": 46,
+          "second": 24,
+          "scorer": "Ida Backi",
+          "team": "home",
+          "team_abbrev": "HCOB Opp/BK",
+          "seven_meter": false
+        },
+        {
+          "minute": 47,
+          "second": 35,
+          "scorer": "Leonie Lamsfu\u00df",
+          "team": "home",
+          "team_abbrev": "HCOB Opp/BK",
+          "seven_meter": false
+        },
+        {
+          "minute": 48,
+          "second": 6,
+          "scorer": "Ida Backi",
+          "team": "home",
+          "team_abbrev": "HCOB Opp/BK",
+          "seven_meter": false
+        },
+        {
+          "minute": 49,
+          "second": 28,
+          "scorer": "Selina K\u00fcbler",
+          "team": "home",
+          "team_abbrev": "HCOB Opp/BK",
+          "seven_meter": false
+        },
+        {
+          "minute": 49,
+          "second": 43,
+          "scorer": "Annika Nossek",
+          "team": "away",
+          "team_abbrev": "HSC Schm/Oeff",
+          "seven_meter": false
+        },
+        {
+          "minute": 49,
+          "second": 51,
+          "scorer": "Leonie Lamsfu\u00df",
+          "team": "home",
+          "team_abbrev": "HCOB Opp/BK",
+          "seven_meter": false
+        }
+      ],
+      "final_score": "46:21",
+      "half_duration": 30,
+      "officials": {
+        "referees": [
+          "Fabio Appenzeller"
+        ],
+        "timekeepers": [
+          "Nico Latsch"
+        ],
+        "secretaries": [
+          "Silvana Thiemar"
+        ]
+      },
+      "graphic_path": "output/graphics/HC_Oppenweiler_Backn_vs_HSC_Schmiden_Oeffing_Sa_1511.png"
+    }
+  ]
+}

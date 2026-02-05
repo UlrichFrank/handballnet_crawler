@@ -1,0 +1,1387 @@
+{
+  "date": "20260201",
+  "games": [
+    {
+      "game_id": "handball4all.baden-wuerttemberg.8852402",
+      "order": 41,
+      "date": "So, 01.02.",
+      "home": {
+        "team_name": "SV Fellbach",
+        "players": [
+          {
+            "name": "Amalia von der Schulenburg",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Emilia Haag",
+            "goals": 9,
+            "two_min_penalties": 2,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 2,
+            "seven_meters_goals": 2
+          },
+          {
+            "name": "Jasmin Degler",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Sophia Mack",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Miriam R\u00f6der",
+            "goals": 1,
+            "two_min_penalties": 1,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Lia Fodor",
+            "goals": 5,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Annette Lerchner",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Fatima Mbodji",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Emilja Star\u0107evi\u0107",
+            "goals": 6,
+            "two_min_penalties": 1,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Maili K\u00fchner",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Laura Keller",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          }
+        ]
+      },
+      "away": {
+        "team_name": "HC Oppenweiler/Backnang",
+        "players": [
+          {
+            "name": "Ida Marlene Backi",
+            "goals": 10,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Leni Betz",
+            "goals": 2,
+            "two_min_penalties": 0,
+            "yellow_cards": 1,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Emilia Sofie Belz",
+            "goals": 7,
+            "two_min_penalties": 1,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Nele Schwaderer",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Frieda F\u00f6rster",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Melina Lucia Mouratidis",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Emelie Latsch",
+            "goals": 2,
+            "two_min_penalties": 1,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Leonie Pia Lamsfu\u00df",
+            "goals": 7,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Alina Miller",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          }
+        ]
+      },
+      "goals_timeline": [
+        {
+          "minute": 0,
+          "second": 16,
+          "scorer": "Emilia Haag",
+          "team": "home",
+          "team_abbrev": "SV Fellbach",
+          "seven_meter": false
+        },
+        {
+          "minute": 0,
+          "second": 29,
+          "scorer": "Leonie Lamsfu\u00df",
+          "team": "away",
+          "team_abbrev": "HCOB Opp/BK",
+          "seven_meter": false
+        },
+        {
+          "minute": 1,
+          "second": 18,
+          "scorer": "Emilia Belz",
+          "team": "away",
+          "team_abbrev": "HCOB Opp/BK",
+          "seven_meter": false
+        },
+        {
+          "minute": 1,
+          "second": 36,
+          "scorer": "Emilja Star\u0107evi\u0107",
+          "team": "home",
+          "team_abbrev": "SV Fellbach",
+          "seven_meter": false
+        },
+        {
+          "minute": 3,
+          "second": 2,
+          "scorer": "Emilia Haag",
+          "team": "home",
+          "team_abbrev": "SV Fellbach",
+          "seven_meter": true
+        },
+        {
+          "minute": 3,
+          "second": 49,
+          "scorer": "Ida Backi",
+          "team": "away",
+          "team_abbrev": "HCOB Opp/BK",
+          "seven_meter": false
+        },
+        {
+          "minute": 4,
+          "second": 26,
+          "scorer": "Emilja Star\u0107evi\u0107",
+          "team": "home",
+          "team_abbrev": "SV Fellbach",
+          "seven_meter": false
+        },
+        {
+          "minute": 6,
+          "second": 3,
+          "scorer": "Ida Backi",
+          "team": "away",
+          "team_abbrev": "HCOB Opp/BK",
+          "seven_meter": false
+        },
+        {
+          "minute": 8,
+          "second": 10,
+          "scorer": "Emilja Star\u0107evi\u0107",
+          "team": "home",
+          "team_abbrev": "SV Fellbach",
+          "seven_meter": false
+        },
+        {
+          "minute": 8,
+          "second": 46,
+          "scorer": "Leonie Lamsfu\u00df",
+          "team": "away",
+          "team_abbrev": "HCOB Opp/BK",
+          "seven_meter": false
+        },
+        {
+          "minute": 8,
+          "second": 59,
+          "scorer": "Emilia Haag",
+          "team": "home",
+          "team_abbrev": "SV Fellbach",
+          "seven_meter": false
+        },
+        {
+          "minute": 10,
+          "second": 5,
+          "scorer": "Emelie Latsch",
+          "team": "away",
+          "team_abbrev": "HCOB Opp/BK",
+          "seven_meter": false
+        },
+        {
+          "minute": 10,
+          "second": 26,
+          "scorer": "Leonie Lamsfu\u00df",
+          "team": "away",
+          "team_abbrev": "HCOB Opp/BK",
+          "seven_meter": false
+        },
+        {
+          "minute": 12,
+          "second": 47,
+          "scorer": "Ida Backi",
+          "team": "away",
+          "team_abbrev": "HCOB Opp/BK",
+          "seven_meter": true
+        },
+        {
+          "minute": 15,
+          "second": 18,
+          "scorer": "Emilia Haag",
+          "team": "home",
+          "team_abbrev": "SV Fellbach",
+          "seven_meter": true
+        },
+        {
+          "minute": 16,
+          "second": 52,
+          "scorer": "Ida Backi",
+          "team": "away",
+          "team_abbrev": "HCOB Opp/BK",
+          "seven_meter": false
+        },
+        {
+          "minute": 17,
+          "second": 19,
+          "scorer": "Lia Fodor",
+          "team": "home",
+          "team_abbrev": "SV Fellbach",
+          "seven_meter": false
+        },
+        {
+          "minute": 17,
+          "second": 36,
+          "scorer": "Ida Backi",
+          "team": "away",
+          "team_abbrev": "HCOB Opp/BK",
+          "seven_meter": false
+        },
+        {
+          "minute": 19,
+          "second": 25,
+          "scorer": "Ida Backi",
+          "team": "away",
+          "team_abbrev": "HCOB Opp/BK",
+          "seven_meter": true
+        },
+        {
+          "minute": 21,
+          "second": 3,
+          "scorer": "Lia Fodor",
+          "team": "home",
+          "team_abbrev": "SV Fellbach",
+          "seven_meter": false
+        },
+        {
+          "minute": 21,
+          "second": 22,
+          "scorer": "Emilia Belz",
+          "team": "away",
+          "team_abbrev": "HCOB Opp/BK",
+          "seven_meter": false
+        },
+        {
+          "minute": 23,
+          "second": 0,
+          "scorer": "Leonie Lamsfu\u00df",
+          "team": "away",
+          "team_abbrev": "HCOB Opp/BK",
+          "seven_meter": false
+        },
+        {
+          "minute": 23,
+          "second": 50,
+          "scorer": "Emilia Haag",
+          "team": "home",
+          "team_abbrev": "SV Fellbach",
+          "seven_meter": false
+        },
+        {
+          "minute": 24,
+          "second": 30,
+          "scorer": "Emilia Belz",
+          "team": "away",
+          "team_abbrev": "HCOB Opp/BK",
+          "seven_meter": false
+        },
+        {
+          "minute": 25,
+          "second": 33,
+          "scorer": "Lia Fodor",
+          "team": "home",
+          "team_abbrev": "SV Fellbach",
+          "seven_meter": false
+        },
+        {
+          "minute": 25,
+          "second": 46,
+          "scorer": "Ida Backi",
+          "team": "away",
+          "team_abbrev": "HCOB Opp/BK",
+          "seven_meter": false
+        },
+        {
+          "minute": 26,
+          "second": 18,
+          "scorer": "Lia Fodor",
+          "team": "home",
+          "team_abbrev": "SV Fellbach",
+          "seven_meter": false
+        },
+        {
+          "minute": 26,
+          "second": 43,
+          "scorer": "Leni Betz",
+          "team": "away",
+          "team_abbrev": "HCOB Opp/BK",
+          "seven_meter": false
+        },
+        {
+          "minute": 26,
+          "second": 59,
+          "scorer": "Emilia Haag",
+          "team": "home",
+          "team_abbrev": "SV Fellbach",
+          "seven_meter": false
+        },
+        {
+          "minute": 29,
+          "second": 55,
+          "scorer": "Emilia Haag",
+          "team": "home",
+          "team_abbrev": "SV Fellbach",
+          "seven_meter": false
+        },
+        {
+          "minute": 31,
+          "second": 0,
+          "scorer": "Emilja Star\u0107evi\u0107",
+          "team": "home",
+          "team_abbrev": "SV Fellbach",
+          "seven_meter": false
+        },
+        {
+          "minute": 31,
+          "second": 37,
+          "scorer": "Emilia Belz",
+          "team": "away",
+          "team_abbrev": "HCOB Opp/BK",
+          "seven_meter": false
+        },
+        {
+          "minute": 32,
+          "second": 39,
+          "scorer": "Leonie Lamsfu\u00df",
+          "team": "away",
+          "team_abbrev": "HCOB Opp/BK",
+          "seven_meter": false
+        },
+        {
+          "minute": 32,
+          "second": 52,
+          "scorer": "Emilja Star\u0107evi\u0107",
+          "team": "home",
+          "team_abbrev": "SV Fellbach",
+          "seven_meter": false
+        },
+        {
+          "minute": 34,
+          "second": 11,
+          "scorer": "Emilia Belz",
+          "team": "away",
+          "team_abbrev": "HCOB Opp/BK",
+          "seven_meter": false
+        },
+        {
+          "minute": 35,
+          "second": 55,
+          "scorer": "Lia Fodor",
+          "team": "home",
+          "team_abbrev": "SV Fellbach",
+          "seven_meter": false
+        },
+        {
+          "minute": 36,
+          "second": 37,
+          "scorer": "Emelie Latsch",
+          "team": "away",
+          "team_abbrev": "HCOB Opp/BK",
+          "seven_meter": false
+        },
+        {
+          "minute": 38,
+          "second": 27,
+          "scorer": "Ida Backi",
+          "team": "away",
+          "team_abbrev": "HCOB Opp/BK",
+          "seven_meter": false
+        },
+        {
+          "minute": 40,
+          "second": 54,
+          "scorer": "Emilja Star\u0107evi\u0107",
+          "team": "home",
+          "team_abbrev": "SV Fellbach",
+          "seven_meter": false
+        },
+        {
+          "minute": 43,
+          "second": 38,
+          "scorer": "Leonie Lamsfu\u00df",
+          "team": "away",
+          "team_abbrev": "HCOB Opp/BK",
+          "seven_meter": false
+        },
+        {
+          "minute": 44,
+          "second": 6,
+          "scorer": "Ida Backi",
+          "team": "away",
+          "team_abbrev": "HCOB Opp/BK",
+          "seven_meter": false
+        },
+        {
+          "minute": 44,
+          "second": 52,
+          "scorer": "Leni Betz",
+          "team": "away",
+          "team_abbrev": "HCOB Opp/BK",
+          "seven_meter": false
+        },
+        {
+          "minute": 45,
+          "second": 23,
+          "scorer": "Emilia Belz",
+          "team": "away",
+          "team_abbrev": "HCOB Opp/BK",
+          "seven_meter": false
+        },
+        {
+          "minute": 46,
+          "second": 26,
+          "scorer": "Leonie Lamsfu\u00df",
+          "team": "away",
+          "team_abbrev": "HCOB Opp/BK",
+          "seven_meter": false
+        },
+        {
+          "minute": 47,
+          "second": 17,
+          "scorer": "Ida Backi",
+          "team": "away",
+          "team_abbrev": "HCOB Opp/BK",
+          "seven_meter": false
+        },
+        {
+          "minute": 47,
+          "second": 34,
+          "scorer": "Emilia Haag",
+          "team": "home",
+          "team_abbrev": "SV Fellbach",
+          "seven_meter": false
+        },
+        {
+          "minute": 48,
+          "second": 9,
+          "scorer": "Emilia Belz",
+          "team": "away",
+          "team_abbrev": "HCOB Opp/BK",
+          "seven_meter": false
+        },
+        {
+          "minute": 49,
+          "second": 3,
+          "scorer": "Emilia Haag",
+          "team": "home",
+          "team_abbrev": "SV Fellbach",
+          "seven_meter": false
+        },
+        {
+          "minute": 49,
+          "second": 34,
+          "scorer": "Miriam R\u00f6der",
+          "team": "home",
+          "team_abbrev": "SV Fellbach",
+          "seven_meter": false
+        }
+      ],
+      "final_score": "21:28",
+      "half_duration": 30,
+      "officials": {
+        "referees": [
+          "Fiona K\u00e4mpf"
+        ],
+        "timekeepers": [
+          "Britta Mbodji"
+        ],
+        "secretaries": [
+          "Nico Latsch"
+        ]
+      },
+      "graphic_path": "output/graphics/SV_Fellbach_vs_HC_Oppenweiler_Backn_So_0102.png"
+    },
+    {
+      "game_id": "handball4all.baden-wuerttemberg.8852407",
+      "order": 42,
+      "date": "So, 01.02.",
+      "home": {
+        "team_name": "TV Stetten",
+        "players": [
+          {
+            "name": "Marlene Figiel",
+            "goals": 4,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Amelia Kipka",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Klara Gre\u00df",
+            "goals": 7,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 2,
+            "seven_meters_goals": 2
+          },
+          {
+            "name": "Federica Weber",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Mina Korkmaz",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Olivia Synek",
+            "goals": 2,
+            "two_min_penalties": 1,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 1,
+            "seven_meters_goals": 1
+          },
+          {
+            "name": "Johanne Siemers",
+            "goals": 1,
+            "two_min_penalties": 1,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Selina Kuch",
+            "goals": 4,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 1,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Mia Dau",
+            "goals": 6,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Martha Greiner",
+            "goals": 2,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Karla Matic",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Leila Kiedaisch",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Lise M\u00f6hlmann",
+            "goals": 1,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          }
+        ]
+      },
+      "away": {
+        "team_name": "JSG Handball Rudersberg-Weissach im Tal",
+        "players": [
+          {
+            "name": "Sophie Reber",
+            "goals": 4,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Emely Mayle",
+            "goals": 0,
+            "two_min_penalties": 1,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Mina V\u00f6lker",
+            "goals": 2,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Marie Fritz",
+            "goals": 4,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Maja Ritscher",
+            "goals": 5,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Thien Kim Nguyen",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Emma Kramer",
+            "goals": 0,
+            "two_min_penalties": 1,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Maya Medel",
+            "goals": 4,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 2,
+            "seven_meters_goals": 2
+          },
+          {
+            "name": "Jona Lilli Hogh",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Matilda Dickhaut",
+            "goals": 8,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 1,
+            "seven_meters_goals": 1
+          },
+          {
+            "name": "Emma B\u00e4uerle",
+            "goals": 2,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Mina Abdulah",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Mariana Will",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Freyja Dickhaut",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Frida Fehr",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 1,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          }
+        ]
+      },
+      "goals_timeline": [
+        {
+          "minute": 0,
+          "second": 20,
+          "scorer": "Klara Gre\u00df",
+          "team": "home",
+          "team_abbrev": "TV Stetten",
+          "seven_meter": true
+        },
+        {
+          "minute": 1,
+          "second": 44,
+          "scorer": "Matilda Dickhaut",
+          "team": "away",
+          "team_abbrev": "JSG HaRuWe",
+          "seven_meter": false
+        },
+        {
+          "minute": 1,
+          "second": 54,
+          "scorer": "Marie Fritz",
+          "team": "away",
+          "team_abbrev": "JSG HaRuWe",
+          "seven_meter": false
+        },
+        {
+          "minute": 2,
+          "second": 20,
+          "scorer": "Mia Dau",
+          "team": "home",
+          "team_abbrev": "TV Stetten",
+          "seven_meter": false
+        },
+        {
+          "minute": 3,
+          "second": 50,
+          "scorer": "Sophie Reber",
+          "team": "away",
+          "team_abbrev": "JSG HaRuWe",
+          "seven_meter": false
+        },
+        {
+          "minute": 4,
+          "second": 13,
+          "scorer": "Johanne Siemers",
+          "team": "home",
+          "team_abbrev": "TV Stetten",
+          "seven_meter": false
+        },
+        {
+          "minute": 6,
+          "second": 11,
+          "scorer": "Matilda Dickhaut",
+          "team": "away",
+          "team_abbrev": "JSG HaRuWe",
+          "seven_meter": false
+        },
+        {
+          "minute": 7,
+          "second": 56,
+          "scorer": "Klara Gre\u00df",
+          "team": "home",
+          "team_abbrev": "TV Stetten",
+          "seven_meter": false
+        },
+        {
+          "minute": 8,
+          "second": 27,
+          "scorer": "Sophie Reber",
+          "team": "away",
+          "team_abbrev": "JSG HaRuWe",
+          "seven_meter": false
+        },
+        {
+          "minute": 11,
+          "second": 13,
+          "scorer": "Klara Gre\u00df",
+          "team": "home",
+          "team_abbrev": "TV Stetten",
+          "seven_meter": false
+        },
+        {
+          "minute": 11,
+          "second": 31,
+          "scorer": "Mina V\u00f6lker",
+          "team": "away",
+          "team_abbrev": "JSG HaRuWe",
+          "seven_meter": false
+        },
+        {
+          "minute": 11,
+          "second": 54,
+          "scorer": "Mia Dau",
+          "team": "home",
+          "team_abbrev": "TV Stetten",
+          "seven_meter": false
+        },
+        {
+          "minute": 12,
+          "second": 50,
+          "scorer": "Maya Medel",
+          "team": "away",
+          "team_abbrev": "JSG HaRuWe",
+          "seven_meter": false
+        },
+        {
+          "minute": 13,
+          "second": 29,
+          "scorer": "Marie Fritz",
+          "team": "away",
+          "team_abbrev": "JSG HaRuWe",
+          "seven_meter": false
+        },
+        {
+          "minute": 15,
+          "second": 15,
+          "scorer": "Marie Fritz",
+          "team": "away",
+          "team_abbrev": "JSG HaRuWe",
+          "seven_meter": false
+        },
+        {
+          "minute": 15,
+          "second": 33,
+          "scorer": "Marlene Figiel",
+          "team": "home",
+          "team_abbrev": "TV Stetten",
+          "seven_meter": false
+        },
+        {
+          "minute": 17,
+          "second": 18,
+          "scorer": "Mia Dau",
+          "team": "home",
+          "team_abbrev": "TV Stetten",
+          "seven_meter": false
+        },
+        {
+          "minute": 17,
+          "second": 51,
+          "scorer": "Lise M\u00f6hlmann",
+          "team": "home",
+          "team_abbrev": "TV Stetten",
+          "seven_meter": false
+        },
+        {
+          "minute": 19,
+          "second": 5,
+          "scorer": "Maya Medel",
+          "team": "away",
+          "team_abbrev": "JSG HaRuWe",
+          "seven_meter": true
+        },
+        {
+          "minute": 19,
+          "second": 48,
+          "scorer": "Olivia Synek",
+          "team": "home",
+          "team_abbrev": "TV Stetten",
+          "seven_meter": false
+        },
+        {
+          "minute": 20,
+          "second": 23,
+          "scorer": "Sophie Reber",
+          "team": "away",
+          "team_abbrev": "JSG HaRuWe",
+          "seven_meter": false
+        },
+        {
+          "minute": 20,
+          "second": 56,
+          "scorer": "Selina Kuch",
+          "team": "home",
+          "team_abbrev": "TV Stetten",
+          "seven_meter": false
+        },
+        {
+          "minute": 21,
+          "second": 34,
+          "scorer": "Mia Dau",
+          "team": "home",
+          "team_abbrev": "TV Stetten",
+          "seven_meter": false
+        },
+        {
+          "minute": 23,
+          "second": 20,
+          "scorer": "Emma B\u00e4uerle",
+          "team": "away",
+          "team_abbrev": "JSG HaRuWe",
+          "seven_meter": false
+        },
+        {
+          "minute": 23,
+          "second": 49,
+          "scorer": "Martha Greiner",
+          "team": "home",
+          "team_abbrev": "TV Stetten",
+          "seven_meter": false
+        },
+        {
+          "minute": 25,
+          "second": 29,
+          "scorer": "Matilda Dickhaut",
+          "team": "away",
+          "team_abbrev": "JSG HaRuWe",
+          "seven_meter": true
+        },
+        {
+          "minute": 25,
+          "second": 44,
+          "scorer": "Selina Kuch",
+          "team": "home",
+          "team_abbrev": "TV Stetten",
+          "seven_meter": false
+        },
+        {
+          "minute": 26,
+          "second": 17,
+          "scorer": "Maja Ritscher",
+          "team": "away",
+          "team_abbrev": "JSG HaRuWe",
+          "seven_meter": false
+        },
+        {
+          "minute": 27,
+          "second": 37,
+          "scorer": "Martha Greiner",
+          "team": "home",
+          "team_abbrev": "TV Stetten",
+          "seven_meter": false
+        },
+        {
+          "minute": 28,
+          "second": 13,
+          "scorer": "Maja Ritscher",
+          "team": "away",
+          "team_abbrev": "JSG HaRuWe",
+          "seven_meter": false
+        },
+        {
+          "minute": 28,
+          "second": 57,
+          "scorer": "Matilda Dickhaut",
+          "team": "away",
+          "team_abbrev": "JSG HaRuWe",
+          "seven_meter": false
+        },
+        {
+          "minute": 30,
+          "second": 48,
+          "scorer": "Emma B\u00e4uerle",
+          "team": "away",
+          "team_abbrev": "JSG HaRuWe",
+          "seven_meter": false
+        },
+        {
+          "minute": 32,
+          "second": 20,
+          "scorer": "Maja Ritscher",
+          "team": "away",
+          "team_abbrev": "JSG HaRuWe",
+          "seven_meter": false
+        },
+        {
+          "minute": 32,
+          "second": 46,
+          "scorer": "Selina Kuch",
+          "team": "home",
+          "team_abbrev": "TV Stetten",
+          "seven_meter": false
+        },
+        {
+          "minute": 33,
+          "second": 26,
+          "scorer": "Matilda Dickhaut",
+          "team": "away",
+          "team_abbrev": "JSG HaRuWe",
+          "seven_meter": false
+        },
+        {
+          "minute": 34,
+          "second": 14,
+          "scorer": "Olivia Synek",
+          "team": "home",
+          "team_abbrev": "TV Stetten",
+          "seven_meter": true
+        },
+        {
+          "minute": 35,
+          "second": 55,
+          "scorer": "Matilda Dickhaut",
+          "team": "away",
+          "team_abbrev": "JSG HaRuWe",
+          "seven_meter": false
+        },
+        {
+          "minute": 36,
+          "second": 17,
+          "scorer": "Mia Dau",
+          "team": "home",
+          "team_abbrev": "TV Stetten",
+          "seven_meter": false
+        },
+        {
+          "minute": 36,
+          "second": 59,
+          "scorer": "Matilda Dickhaut",
+          "team": "away",
+          "team_abbrev": "JSG HaRuWe",
+          "seven_meter": false
+        },
+        {
+          "minute": 38,
+          "second": 42,
+          "scorer": "Klara Gre\u00df",
+          "team": "home",
+          "team_abbrev": "TV Stetten",
+          "seven_meter": true
+        },
+        {
+          "minute": 39,
+          "second": 23,
+          "scorer": "Mina V\u00f6lker",
+          "team": "away",
+          "team_abbrev": "JSG HaRuWe",
+          "seven_meter": false
+        },
+        {
+          "minute": 40,
+          "second": 29,
+          "scorer": "Selina Kuch",
+          "team": "home",
+          "team_abbrev": "TV Stetten",
+          "seven_meter": false
+        },
+        {
+          "minute": 40,
+          "second": 50,
+          "scorer": "Marie Fritz",
+          "team": "away",
+          "team_abbrev": "JSG HaRuWe",
+          "seven_meter": false
+        },
+        {
+          "minute": 41,
+          "second": 13,
+          "scorer": "Klara Gre\u00df",
+          "team": "home",
+          "team_abbrev": "TV Stetten",
+          "seven_meter": false
+        },
+        {
+          "minute": 41,
+          "second": 52,
+          "scorer": "Maya Medel",
+          "team": "away",
+          "team_abbrev": "JSG HaRuWe",
+          "seven_meter": true
+        },
+        {
+          "minute": 42,
+          "second": 44,
+          "scorer": "Klara Gre\u00df",
+          "team": "home",
+          "team_abbrev": "TV Stetten",
+          "seven_meter": false
+        },
+        {
+          "minute": 43,
+          "second": 4,
+          "scorer": "Maja Ritscher",
+          "team": "away",
+          "team_abbrev": "JSG HaRuWe",
+          "seven_meter": false
+        },
+        {
+          "minute": 43,
+          "second": 30,
+          "scorer": "Marlene Figiel",
+          "team": "home",
+          "team_abbrev": "TV Stetten",
+          "seven_meter": false
+        },
+        {
+          "minute": 44,
+          "second": 8,
+          "scorer": "Marlene Figiel",
+          "team": "home",
+          "team_abbrev": "TV Stetten",
+          "seven_meter": false
+        },
+        {
+          "minute": 45,
+          "second": 0,
+          "scorer": "Maja Ritscher",
+          "team": "away",
+          "team_abbrev": "JSG HaRuWe",
+          "seven_meter": false
+        },
+        {
+          "minute": 45,
+          "second": 21,
+          "scorer": "Marlene Figiel",
+          "team": "home",
+          "team_abbrev": "TV Stetten",
+          "seven_meter": false
+        },
+        {
+          "minute": 47,
+          "second": 24,
+          "scorer": "Mia Dau",
+          "team": "home",
+          "team_abbrev": "TV Stetten",
+          "seven_meter": false
+        },
+        {
+          "minute": 48,
+          "second": 38,
+          "scorer": "Maya Medel",
+          "team": "away",
+          "team_abbrev": "JSG HaRuWe",
+          "seven_meter": false
+        },
+        {
+          "minute": 49,
+          "second": 2,
+          "scorer": "Klara Gre\u00df",
+          "team": "home",
+          "team_abbrev": "TV Stetten",
+          "seven_meter": false
+        },
+        {
+          "minute": 49,
+          "second": 2,
+          "scorer": "Sophie Reber",
+          "team": "away",
+          "team_abbrev": "JSG HaRuWe",
+          "seven_meter": false
+        },
+        {
+          "minute": 49,
+          "second": 38,
+          "scorer": "Matilda Dickhaut",
+          "team": "away",
+          "team_abbrev": "JSG HaRuWe",
+          "seven_meter": false
+        }
+      ],
+      "final_score": "27:29",
+      "half_duration": 30,
+      "officials": {
+        "referees": [
+          "Dummy0-JUHASL"
+        ],
+        "timekeepers": [
+          "Fatih Korkmaz"
+        ],
+        "secretaries": [
+          "Frank Ritscher"
+        ]
+      },
+      "graphic_path": "output/graphics/TV_Stetten_vs_JSG_Handball_Rudersb_So_0102.png"
+    }
+  ]
+}

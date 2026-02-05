@@ -1,0 +1,668 @@
+{
+  "date": "20260111",
+  "games": [
+    {
+      "game_id": "handball4all.baden-wuerttemberg.8852412",
+      "order": 33,
+      "date": "So, 11.01.",
+      "home": {
+        "team_name": "SF Schwaikheim",
+        "players": [
+          {
+            "name": "Leni Fahrner",
+            "goals": 4,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Maja Kopp",
+            "goals": 1,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Josephine Ivenz",
+            "goals": 1,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Luisa Riek",
+            "goals": 4,
+            "two_min_penalties": 1,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Lotta Ulrich",
+            "goals": 2,
+            "two_min_penalties": 1,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Nola Koch",
+            "goals": 13,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 2,
+            "seven_meters_goals": 2
+          },
+          {
+            "name": "Hanna Koop",
+            "goals": 2,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Emilia Ivenz",
+            "goals": 4,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Laura Florkow",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Melina Markaij",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Katharina Kalka",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Veronika Frank",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          }
+        ]
+      },
+      "away": {
+        "team_name": "HSK Urbach-Pl\u00fcderhausen",
+        "players": [
+          {
+            "name": "Binsha Thapa",
+            "goals": 13,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 1,
+            "seven_meters_goals": 1
+          },
+          {
+            "name": "Lina Angelmahr",
+            "goals": 0,
+            "two_min_penalties": 1,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Julia Jurkowski",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Marieke Dottermusch",
+            "goals": 1,
+            "two_min_penalties": 0,
+            "yellow_cards": 1,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Elaine Kutasi",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Sansa Lindenborn",
+            "goals": 0,
+            "two_min_penalties": 1,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Alicia Heinle",
+            "goals": 9,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Luisa Letsch",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          }
+        ]
+      },
+      "goals_timeline": [
+        {
+          "minute": 0,
+          "second": 38,
+          "scorer": "Leni Fahrner",
+          "team": "home",
+          "team_abbrev": "SF Schwaikheim",
+          "seven_meter": false
+        },
+        {
+          "minute": 1,
+          "second": 25,
+          "scorer": "Luisa Riek",
+          "team": "home",
+          "team_abbrev": "SF Schwaikheim",
+          "seven_meter": false
+        },
+        {
+          "minute": 1,
+          "second": 58,
+          "scorer": "Leni Fahrner",
+          "team": "home",
+          "team_abbrev": "SF Schwaikheim",
+          "seven_meter": false
+        },
+        {
+          "minute": 2,
+          "second": 47,
+          "scorer": "Luisa Riek",
+          "team": "home",
+          "team_abbrev": "SF Schwaikheim",
+          "seven_meter": false
+        },
+        {
+          "minute": 3,
+          "second": 42,
+          "scorer": "Emilia Ivenz",
+          "team": "home",
+          "team_abbrev": "SF Schwaikheim",
+          "seven_meter": false
+        },
+        {
+          "minute": 4,
+          "second": 45,
+          "scorer": "Lotta Ulrich",
+          "team": "home",
+          "team_abbrev": "SF Schwaikheim",
+          "seven_meter": false
+        },
+        {
+          "minute": 6,
+          "second": 14,
+          "scorer": "Alicia Heinle",
+          "team": "away",
+          "team_abbrev": "HSK Ur-Pl\u00fc",
+          "seven_meter": false
+        },
+        {
+          "minute": 6,
+          "second": 45,
+          "scorer": "Emilia Ivenz",
+          "team": "home",
+          "team_abbrev": "SF Schwaikheim",
+          "seven_meter": false
+        },
+        {
+          "minute": 9,
+          "second": 55,
+          "scorer": "Nola Koch",
+          "team": "home",
+          "team_abbrev": "SF Schwaikheim",
+          "seven_meter": false
+        },
+        {
+          "minute": 10,
+          "second": 48,
+          "scorer": "Leni Fahrner",
+          "team": "home",
+          "team_abbrev": "SF Schwaikheim",
+          "seven_meter": false
+        },
+        {
+          "minute": 11,
+          "second": 16,
+          "scorer": "Leni Fahrner",
+          "team": "home",
+          "team_abbrev": "SF Schwaikheim",
+          "seven_meter": false
+        },
+        {
+          "minute": 11,
+          "second": 35,
+          "scorer": "Binsha Thapa",
+          "team": "away",
+          "team_abbrev": "HSK Ur-Pl\u00fc",
+          "seven_meter": false
+        },
+        {
+          "minute": 12,
+          "second": 17,
+          "scorer": "Hanna Koop",
+          "team": "home",
+          "team_abbrev": "SF Schwaikheim",
+          "seven_meter": false
+        },
+        {
+          "minute": 12,
+          "second": 43,
+          "scorer": "Nola Koch",
+          "team": "home",
+          "team_abbrev": "SF Schwaikheim",
+          "seven_meter": false
+        },
+        {
+          "minute": 13,
+          "second": 51,
+          "scorer": "Nola Koch",
+          "team": "home",
+          "team_abbrev": "SF Schwaikheim",
+          "seven_meter": false
+        },
+        {
+          "minute": 15,
+          "second": 1,
+          "scorer": "Alicia Heinle",
+          "team": "away",
+          "team_abbrev": "HSK Ur-Pl\u00fc",
+          "seven_meter": false
+        },
+        {
+          "minute": 15,
+          "second": 36,
+          "scorer": "Binsha Thapa",
+          "team": "away",
+          "team_abbrev": "HSK Ur-Pl\u00fc",
+          "seven_meter": false
+        },
+        {
+          "minute": 16,
+          "second": 20,
+          "scorer": "Binsha Thapa",
+          "team": "away",
+          "team_abbrev": "HSK Ur-Pl\u00fc",
+          "seven_meter": false
+        },
+        {
+          "minute": 18,
+          "second": 17,
+          "scorer": "Emilia Ivenz",
+          "team": "home",
+          "team_abbrev": "SF Schwaikheim",
+          "seven_meter": false
+        },
+        {
+          "minute": 18,
+          "second": 42,
+          "scorer": "Binsha Thapa",
+          "team": "away",
+          "team_abbrev": "HSK Ur-Pl\u00fc",
+          "seven_meter": false
+        },
+        {
+          "minute": 19,
+          "second": 36,
+          "scorer": "Binsha Thapa",
+          "team": "away",
+          "team_abbrev": "HSK Ur-Pl\u00fc",
+          "seven_meter": false
+        },
+        {
+          "minute": 21,
+          "second": 1,
+          "scorer": "Nola Koch",
+          "team": "home",
+          "team_abbrev": "SF Schwaikheim",
+          "seven_meter": true
+        },
+        {
+          "minute": 21,
+          "second": 28,
+          "scorer": "Josephine Ivenz",
+          "team": "home",
+          "team_abbrev": "SF Schwaikheim",
+          "seven_meter": false
+        },
+        {
+          "minute": 23,
+          "second": 3,
+          "scorer": "Binsha Thapa",
+          "team": "away",
+          "team_abbrev": "HSK Ur-Pl\u00fc",
+          "seven_meter": false
+        },
+        {
+          "minute": 23,
+          "second": 46,
+          "scorer": "Alicia Heinle",
+          "team": "away",
+          "team_abbrev": "HSK Ur-Pl\u00fc",
+          "seven_meter": false
+        },
+        {
+          "minute": 26,
+          "second": 16,
+          "scorer": "Alicia Heinle",
+          "team": "away",
+          "team_abbrev": "HSK Ur-Pl\u00fc",
+          "seven_meter": false
+        },
+        {
+          "minute": 27,
+          "second": 8,
+          "scorer": "Binsha Thapa",
+          "team": "away",
+          "team_abbrev": "HSK Ur-Pl\u00fc",
+          "seven_meter": false
+        },
+        {
+          "minute": 27,
+          "second": 53,
+          "scorer": "Nola Koch",
+          "team": "home",
+          "team_abbrev": "SF Schwaikheim",
+          "seven_meter": true
+        },
+        {
+          "minute": 28,
+          "second": 21,
+          "scorer": "Binsha Thapa",
+          "team": "away",
+          "team_abbrev": "HSK Ur-Pl\u00fc",
+          "seven_meter": false
+        },
+        {
+          "minute": 28,
+          "second": 29,
+          "scorer": "Nola Koch",
+          "team": "home",
+          "team_abbrev": "SF Schwaikheim",
+          "seven_meter": false
+        },
+        {
+          "minute": 29,
+          "second": 2,
+          "scorer": "Nola Koch",
+          "team": "home",
+          "team_abbrev": "SF Schwaikheim",
+          "seven_meter": false
+        },
+        {
+          "minute": 29,
+          "second": 27,
+          "scorer": "Alicia Heinle",
+          "team": "away",
+          "team_abbrev": "HSK Ur-Pl\u00fc",
+          "seven_meter": false
+        },
+        {
+          "minute": 29,
+          "second": 49,
+          "scorer": "Nola Koch",
+          "team": "home",
+          "team_abbrev": "SF Schwaikheim",
+          "seven_meter": false
+        },
+        {
+          "minute": 30,
+          "second": 6,
+          "scorer": "Binsha Thapa",
+          "team": "away",
+          "team_abbrev": "HSK Ur-Pl\u00fc",
+          "seven_meter": false
+        },
+        {
+          "minute": 31,
+          "second": 13,
+          "scorer": "Luisa Riek",
+          "team": "home",
+          "team_abbrev": "SF Schwaikheim",
+          "seven_meter": false
+        },
+        {
+          "minute": 31,
+          "second": 53,
+          "scorer": "Lotta Ulrich",
+          "team": "home",
+          "team_abbrev": "SF Schwaikheim",
+          "seven_meter": false
+        },
+        {
+          "minute": 32,
+          "second": 20,
+          "scorer": "Binsha Thapa",
+          "team": "away",
+          "team_abbrev": "HSK Ur-Pl\u00fc",
+          "seven_meter": false
+        },
+        {
+          "minute": 32,
+          "second": 55,
+          "scorer": "Binsha Thapa",
+          "team": "away",
+          "team_abbrev": "HSK Ur-Pl\u00fc",
+          "seven_meter": true
+        },
+        {
+          "minute": 33,
+          "second": 30,
+          "scorer": "Alicia Heinle",
+          "team": "away",
+          "team_abbrev": "HSK Ur-Pl\u00fc",
+          "seven_meter": false
+        },
+        {
+          "minute": 34,
+          "second": 8,
+          "scorer": "Alicia Heinle",
+          "team": "away",
+          "team_abbrev": "HSK Ur-Pl\u00fc",
+          "seven_meter": false
+        },
+        {
+          "minute": 36,
+          "second": 4,
+          "scorer": "Binsha Thapa",
+          "team": "away",
+          "team_abbrev": "HSK Ur-Pl\u00fc",
+          "seven_meter": false
+        },
+        {
+          "minute": 37,
+          "second": 26,
+          "scorer": "Hanna Koop",
+          "team": "home",
+          "team_abbrev": "SF Schwaikheim",
+          "seven_meter": false
+        },
+        {
+          "minute": 40,
+          "second": 47,
+          "scorer": "Maja Kopp",
+          "team": "home",
+          "team_abbrev": "SF Schwaikheim",
+          "seven_meter": false
+        },
+        {
+          "minute": 42,
+          "second": 2,
+          "scorer": "Marieke Dottermusch",
+          "team": "away",
+          "team_abbrev": "HSK Ur-Pl\u00fc",
+          "seven_meter": false
+        },
+        {
+          "minute": 42,
+          "second": 12,
+          "scorer": "Nola Koch",
+          "team": "home",
+          "team_abbrev": "SF Schwaikheim",
+          "seven_meter": false
+        },
+        {
+          "minute": 43,
+          "second": 4,
+          "scorer": "Nola Koch",
+          "team": "home",
+          "team_abbrev": "SF Schwaikheim",
+          "seven_meter": false
+        },
+        {
+          "minute": 44,
+          "second": 1,
+          "scorer": "Binsha Thapa",
+          "team": "away",
+          "team_abbrev": "HSK Ur-Pl\u00fc",
+          "seven_meter": false
+        },
+        {
+          "minute": 44,
+          "second": 51,
+          "scorer": "Nola Koch",
+          "team": "home",
+          "team_abbrev": "SF Schwaikheim",
+          "seven_meter": false
+        },
+        {
+          "minute": 45,
+          "second": 32,
+          "scorer": "Emilia Ivenz",
+          "team": "home",
+          "team_abbrev": "SF Schwaikheim",
+          "seven_meter": false
+        },
+        {
+          "minute": 46,
+          "second": 2,
+          "scorer": "Nola Koch",
+          "team": "home",
+          "team_abbrev": "SF Schwaikheim",
+          "seven_meter": false
+        },
+        {
+          "minute": 46,
+          "second": 24,
+          "scorer": "Alicia Heinle",
+          "team": "away",
+          "team_abbrev": "HSK Ur-Pl\u00fc",
+          "seven_meter": false
+        },
+        {
+          "minute": 47,
+          "second": 3,
+          "scorer": "Luisa Riek",
+          "team": "home",
+          "team_abbrev": "SF Schwaikheim",
+          "seven_meter": false
+        },
+        {
+          "minute": 47,
+          "second": 55,
+          "scorer": "Nola Koch",
+          "team": "home",
+          "team_abbrev": "SF Schwaikheim",
+          "seven_meter": false
+        },
+        {
+          "minute": 49,
+          "second": 1,
+          "scorer": "Alicia Heinle",
+          "team": "away",
+          "team_abbrev": "HSK Ur-Pl\u00fc",
+          "seven_meter": false
+        }
+      ],
+      "final_score": "31:23",
+      "half_duration": 30,
+      "officials": {
+        "referees": [
+          "Fiona K\u00e4mpf"
+        ],
+        "timekeepers": [
+          "Jannik Michel"
+        ],
+        "secretaries": [
+          "Florian Letsch"
+        ]
+      },
+      "graphic_path": "output/graphics/SF_Schwaikheim_vs_HSK_Urbach-Pl\u00fcderhau_So_1101.png"
+    }
+  ]
+}

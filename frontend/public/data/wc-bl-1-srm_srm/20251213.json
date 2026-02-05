@@ -1,0 +1,658 @@
+{
+  "date": "20251213",
+  "games": [
+    {
+      "game_id": "handball4all.baden-wuerttemberg.8852262",
+      "order": 31,
+      "date": "Sa, 13.12.",
+      "home": {
+        "team_name": "JSG Handball Rudersberg-Weissach im Tal",
+        "players": [
+          {
+            "name": "Emely Mayle",
+            "goals": 0,
+            "two_min_penalties": 1,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Mina V\u00f6lker",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Thien Kim Nguyen",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Maja Ritscher",
+            "goals": 4,
+            "two_min_penalties": 0,
+            "yellow_cards": 1,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Milla Szasz",
+            "goals": 7,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 2,
+            "seven_meters_goals": 2
+          },
+          {
+            "name": "Eleonore Fezer",
+            "goals": 1,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Emma Kramer",
+            "goals": 0,
+            "two_min_penalties": 1,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Maya Medel",
+            "goals": 7,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Jona Lilli Hogh",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 1,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Matilda Dickhaut",
+            "goals": 4,
+            "two_min_penalties": 2,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 3,
+            "seven_meters_goals": 2
+          },
+          {
+            "name": "Emma B\u00e4uerle",
+            "goals": 3,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Mina Abdulah",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Mariana Will",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Freyja Dickhaut",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Frida Fehr",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          }
+        ]
+      },
+      "away": {
+        "team_name": "TV Stetten",
+        "players": [
+          {
+            "name": "Marlene Figiel",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Amelia Kipka",
+            "goals": 1,
+            "two_min_penalties": 0,
+            "yellow_cards": 1,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Klara Gre\u00df",
+            "goals": 4,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 3,
+            "seven_meters_goals": 1
+          },
+          {
+            "name": "Ella Ei\u00dfele",
+            "goals": 7,
+            "two_min_penalties": 0,
+            "yellow_cards": 1,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 2,
+            "seven_meters_goals": 1
+          },
+          {
+            "name": "Johanne Siemers",
+            "goals": 1,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Selina Kuch",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Mia Dau",
+            "goals": 5,
+            "two_min_penalties": 0,
+            "yellow_cards": 1,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Martha Greiner",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Leni Pauline Schmid",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Karla Matic",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Lise M\u00f6hlmann",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Olivia Synek",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 1,
+            "seven_meters_goals": 0
+          }
+        ]
+      },
+      "goals_timeline": [
+        {
+          "minute": 0,
+          "second": 39,
+          "scorer": "Mia Dau",
+          "team": "home",
+          "team_abbrev": "TV Stetten",
+          "seven_meter": false
+        },
+        {
+          "minute": 1,
+          "second": 32,
+          "scorer": "Ella Ei\u00dfele",
+          "team": "home",
+          "team_abbrev": "TV Stetten",
+          "seven_meter": false
+        },
+        {
+          "minute": 2,
+          "second": 0,
+          "scorer": "Milla Szasz",
+          "team": "away",
+          "team_abbrev": "JSG HaRuWe",
+          "seven_meter": false
+        },
+        {
+          "minute": 2,
+          "second": 20,
+          "scorer": "Ella Ei\u00dfele",
+          "team": "home",
+          "team_abbrev": "TV Stetten",
+          "seven_meter": false
+        },
+        {
+          "minute": 2,
+          "second": 27,
+          "scorer": "Maja Ritscher",
+          "team": "away",
+          "team_abbrev": "JSG HaRuWe",
+          "seven_meter": false
+        },
+        {
+          "minute": 3,
+          "second": 9,
+          "scorer": "Johanne Siemers",
+          "team": "home",
+          "team_abbrev": "TV Stetten",
+          "seven_meter": false
+        },
+        {
+          "minute": 4,
+          "second": 32,
+          "scorer": "Matilda Dickhaut",
+          "team": "away",
+          "team_abbrev": "JSG HaRuWe",
+          "seven_meter": true
+        },
+        {
+          "minute": 5,
+          "second": 10,
+          "scorer": "Ella Ei\u00dfele",
+          "team": "home",
+          "team_abbrev": "TV Stetten",
+          "seven_meter": false
+        },
+        {
+          "minute": 5,
+          "second": 56,
+          "scorer": "Matilda Dickhaut",
+          "team": "away",
+          "team_abbrev": "JSG HaRuWe",
+          "seven_meter": true
+        },
+        {
+          "minute": 10,
+          "second": 46,
+          "scorer": "Milla Szasz",
+          "team": "away",
+          "team_abbrev": "JSG HaRuWe",
+          "seven_meter": true
+        },
+        {
+          "minute": 11,
+          "second": 10,
+          "scorer": "Mia Dau",
+          "team": "home",
+          "team_abbrev": "TV Stetten",
+          "seven_meter": false
+        },
+        {
+          "minute": 12,
+          "second": 35,
+          "scorer": "Ella Ei\u00dfele",
+          "team": "home",
+          "team_abbrev": "TV Stetten",
+          "seven_meter": false
+        },
+        {
+          "minute": 14,
+          "second": 14,
+          "scorer": "Emma B\u00e4uerle",
+          "team": "away",
+          "team_abbrev": "JSG HaRuWe",
+          "seven_meter": false
+        },
+        {
+          "minute": 15,
+          "second": 23,
+          "scorer": "Maya Medel",
+          "team": "away",
+          "team_abbrev": "JSG HaRuWe",
+          "seven_meter": false
+        },
+        {
+          "minute": 15,
+          "second": 58,
+          "scorer": "Matilda Dickhaut",
+          "team": "away",
+          "team_abbrev": "JSG HaRuWe",
+          "seven_meter": false
+        },
+        {
+          "minute": 16,
+          "second": 34,
+          "scorer": "Emma B\u00e4uerle",
+          "team": "away",
+          "team_abbrev": "JSG HaRuWe",
+          "seven_meter": false
+        },
+        {
+          "minute": 16,
+          "second": 45,
+          "scorer": "Mia Dau",
+          "team": "home",
+          "team_abbrev": "TV Stetten",
+          "seven_meter": false
+        },
+        {
+          "minute": 17,
+          "second": 39,
+          "scorer": "Maya Medel",
+          "team": "away",
+          "team_abbrev": "JSG HaRuWe",
+          "seven_meter": false
+        },
+        {
+          "minute": 19,
+          "second": 22,
+          "scorer": "Klara Gre\u00df",
+          "team": "home",
+          "team_abbrev": "TV Stetten",
+          "seven_meter": false
+        },
+        {
+          "minute": 22,
+          "second": 55,
+          "scorer": "Klara Gre\u00df",
+          "team": "home",
+          "team_abbrev": "TV Stetten",
+          "seven_meter": true
+        },
+        {
+          "minute": 24,
+          "second": 37,
+          "scorer": "Klara Gre\u00df",
+          "team": "home",
+          "team_abbrev": "TV Stetten",
+          "seven_meter": false
+        },
+        {
+          "minute": 25,
+          "second": 0,
+          "scorer": "Matilda Dickhaut",
+          "team": "away",
+          "team_abbrev": "JSG HaRuWe",
+          "seven_meter": false
+        },
+        {
+          "minute": 26,
+          "second": 54,
+          "scorer": "Maya Medel",
+          "team": "away",
+          "team_abbrev": "JSG HaRuWe",
+          "seven_meter": false
+        },
+        {
+          "minute": 27,
+          "second": 13,
+          "scorer": "Mia Dau",
+          "team": "home",
+          "team_abbrev": "TV Stetten",
+          "seven_meter": false
+        },
+        {
+          "minute": 29,
+          "second": 8,
+          "scorer": "Maya Medel",
+          "team": "away",
+          "team_abbrev": "JSG HaRuWe",
+          "seven_meter": false
+        },
+        {
+          "minute": 29,
+          "second": 27,
+          "scorer": "Eleonore Fezer",
+          "team": "away",
+          "team_abbrev": "JSG HaRuWe",
+          "seven_meter": false
+        },
+        {
+          "minute": 31,
+          "second": 11,
+          "scorer": "Maya Medel",
+          "team": "away",
+          "team_abbrev": "JSG HaRuWe",
+          "seven_meter": false
+        },
+        {
+          "minute": 33,
+          "second": 24,
+          "scorer": "Milla Szasz",
+          "team": "away",
+          "team_abbrev": "JSG HaRuWe",
+          "seven_meter": true
+        },
+        {
+          "minute": 33,
+          "second": 38,
+          "scorer": "Ella Ei\u00dfele",
+          "team": "home",
+          "team_abbrev": "TV Stetten",
+          "seven_meter": false
+        },
+        {
+          "minute": 34,
+          "second": 35,
+          "scorer": "Milla Szasz",
+          "team": "away",
+          "team_abbrev": "JSG HaRuWe",
+          "seven_meter": false
+        },
+        {
+          "minute": 37,
+          "second": 8,
+          "scorer": "Mia Dau",
+          "team": "home",
+          "team_abbrev": "TV Stetten",
+          "seven_meter": false
+        },
+        {
+          "minute": 37,
+          "second": 44,
+          "scorer": "Maya Medel",
+          "team": "away",
+          "team_abbrev": "JSG HaRuWe",
+          "seven_meter": false
+        },
+        {
+          "minute": 38,
+          "second": 20,
+          "scorer": "Ella Ei\u00dfele",
+          "team": "home",
+          "team_abbrev": "TV Stetten",
+          "seven_meter": true
+        },
+        {
+          "minute": 38,
+          "second": 59,
+          "scorer": "Maja Ritscher",
+          "team": "away",
+          "team_abbrev": "JSG HaRuWe",
+          "seven_meter": false
+        },
+        {
+          "minute": 39,
+          "second": 28,
+          "scorer": "Milla Szasz",
+          "team": "away",
+          "team_abbrev": "JSG HaRuWe",
+          "seven_meter": false
+        },
+        {
+          "minute": 39,
+          "second": 51,
+          "scorer": "Maya Medel",
+          "team": "away",
+          "team_abbrev": "JSG HaRuWe",
+          "seven_meter": false
+        },
+        {
+          "minute": 40,
+          "second": 17,
+          "scorer": "Ella Ei\u00dfele",
+          "team": "home",
+          "team_abbrev": "TV Stetten",
+          "seven_meter": false
+        },
+        {
+          "minute": 40,
+          "second": 28,
+          "scorer": "Milla Szasz",
+          "team": "away",
+          "team_abbrev": "JSG HaRuWe",
+          "seven_meter": false
+        },
+        {
+          "minute": 41,
+          "second": 5,
+          "scorer": "Emma B\u00e4uerle",
+          "team": "away",
+          "team_abbrev": "JSG HaRuWe",
+          "seven_meter": false
+        },
+        {
+          "minute": 42,
+          "second": 2,
+          "scorer": "Maja Ritscher",
+          "team": "away",
+          "team_abbrev": "JSG HaRuWe",
+          "seven_meter": false
+        },
+        {
+          "minute": 42,
+          "second": 29,
+          "scorer": "Klara Gre\u00df",
+          "team": "home",
+          "team_abbrev": "TV Stetten",
+          "seven_meter": false
+        },
+        {
+          "minute": 43,
+          "second": 2,
+          "scorer": "Amelia Kipka",
+          "team": "home",
+          "team_abbrev": "TV Stetten",
+          "seven_meter": false
+        },
+        {
+          "minute": 46,
+          "second": 5,
+          "scorer": "Maja Ritscher",
+          "team": "away",
+          "team_abbrev": "JSG HaRuWe",
+          "seven_meter": false
+        },
+        {
+          "minute": 49,
+          "second": 46,
+          "scorer": "Milla Szasz",
+          "team": "away",
+          "team_abbrev": "JSG HaRuWe",
+          "seven_meter": false
+        }
+      ],
+      "final_score": "18:26",
+      "half_duration": 30,
+      "officials": {
+        "referees": [
+          "Michael Frenz"
+        ],
+        "timekeepers": [
+          "Theresa K\u00f6rner"
+        ],
+        "secretaries": [
+          "Marcus Figiel"
+        ]
+      },
+      "graphic_path": "output/graphics/JSG_Handball_Rudersb_vs_TV_Stetten_Sa_1312.png"
+    }
+  ]
+}

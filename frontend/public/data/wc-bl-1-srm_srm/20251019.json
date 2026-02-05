@@ -1,0 +1,698 @@
+{
+  "date": "20251019",
+  "games": [
+    {
+      "game_id": "handball4all.baden-wuerttemberg.8852287",
+      "order": 11,
+      "date": "So, 19.10.",
+      "home": {
+        "team_name": "TV Stetten",
+        "players": [
+          {
+            "name": "Marlene Figiel",
+            "goals": 6,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Federica Weber",
+            "goals": 1,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Mina Korkmaz",
+            "goals": 2,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Olivia Synek",
+            "goals": 5,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Johanne Siemers",
+            "goals": 2,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Selina Kuch",
+            "goals": 8,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Mia Dau",
+            "goals": 11,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Martha Greiner",
+            "goals": 2,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Leni Pauline Schmid",
+            "goals": 4,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Karla Matic",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Leila Kiedaisch",
+            "goals": 1,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 1,
+            "seven_meters_goals": 1
+          },
+          {
+            "name": "Lise M\u00f6hlmann",
+            "goals": 2,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 2,
+            "seven_meters_goals": 1
+          }
+        ]
+      },
+      "away": {
+        "team_name": "SF Schwaikheim",
+        "players": [
+          {
+            "name": "Leni Fahrner",
+            "goals": 11,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 2,
+            "seven_meters_goals": 2
+          },
+          {
+            "name": "Emma Kienzle",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Josephine Ivenz",
+            "goals": 1,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Lotta Ulrich",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Hanna Koop",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Emilia Ivenz",
+            "goals": 3,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Melina Markaij",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          }
+        ]
+      },
+      "goals_timeline": [
+        {
+          "minute": 1,
+          "second": 6,
+          "scorer": "Mia Dau",
+          "team": "home",
+          "team_abbrev": "TV Stetten",
+          "seven_meter": false
+        },
+        {
+          "minute": 2,
+          "second": 9,
+          "scorer": "Mia Dau",
+          "team": "home",
+          "team_abbrev": "TV Stetten",
+          "seven_meter": false
+        },
+        {
+          "minute": 3,
+          "second": 3,
+          "scorer": "Leni Fahrner",
+          "team": "away",
+          "team_abbrev": "SF Schwaikheim",
+          "seven_meter": false
+        },
+        {
+          "minute": 3,
+          "second": 28,
+          "scorer": "Selina Kuch",
+          "team": "home",
+          "team_abbrev": "TV Stetten",
+          "seven_meter": false
+        },
+        {
+          "minute": 5,
+          "second": 3,
+          "scorer": "Leni Fahrner",
+          "team": "away",
+          "team_abbrev": "SF Schwaikheim",
+          "seven_meter": true
+        },
+        {
+          "minute": 6,
+          "second": 27,
+          "scorer": "Marlene Figiel",
+          "team": "home",
+          "team_abbrev": "TV Stetten",
+          "seven_meter": false
+        },
+        {
+          "minute": 7,
+          "second": 19,
+          "scorer": "Selina Kuch",
+          "team": "home",
+          "team_abbrev": "TV Stetten",
+          "seven_meter": false
+        },
+        {
+          "minute": 8,
+          "second": 39,
+          "scorer": "Selina Kuch",
+          "team": "home",
+          "team_abbrev": "TV Stetten",
+          "seven_meter": false
+        },
+        {
+          "minute": 9,
+          "second": 23,
+          "scorer": "Johanne Siemers",
+          "team": "home",
+          "team_abbrev": "TV Stetten",
+          "seven_meter": false
+        },
+        {
+          "minute": 9,
+          "second": 39,
+          "scorer": "Leni Fahrner",
+          "team": "away",
+          "team_abbrev": "SF Schwaikheim",
+          "seven_meter": false
+        },
+        {
+          "minute": 9,
+          "second": 52,
+          "scorer": "Marlene Figiel",
+          "team": "home",
+          "team_abbrev": "TV Stetten",
+          "seven_meter": false
+        },
+        {
+          "minute": 11,
+          "second": 47,
+          "scorer": "Mia Dau",
+          "team": "home",
+          "team_abbrev": "TV Stetten",
+          "seven_meter": false
+        },
+        {
+          "minute": 12,
+          "second": 43,
+          "scorer": "Olivia Synek",
+          "team": "home",
+          "team_abbrev": "TV Stetten",
+          "seven_meter": false
+        },
+        {
+          "minute": 13,
+          "second": 13,
+          "scorer": "Olivia Synek",
+          "team": "home",
+          "team_abbrev": "TV Stetten",
+          "seven_meter": false
+        },
+        {
+          "minute": 14,
+          "second": 0,
+          "scorer": "Mia Dau",
+          "team": "home",
+          "team_abbrev": "TV Stetten",
+          "seven_meter": false
+        },
+        {
+          "minute": 14,
+          "second": 36,
+          "scorer": "Josephine Ivenz",
+          "team": "away",
+          "team_abbrev": "SF Schwaikheim",
+          "seven_meter": false
+        },
+        {
+          "minute": 16,
+          "second": 0,
+          "scorer": "Marlene Figiel",
+          "team": "home",
+          "team_abbrev": "TV Stetten",
+          "seven_meter": false
+        },
+        {
+          "minute": 16,
+          "second": 58,
+          "scorer": "Marlene Figiel",
+          "team": "home",
+          "team_abbrev": "TV Stetten",
+          "seven_meter": false
+        },
+        {
+          "minute": 17,
+          "second": 38,
+          "scorer": "Leni Fahrner",
+          "team": "away",
+          "team_abbrev": "SF Schwaikheim",
+          "seven_meter": true
+        },
+        {
+          "minute": 18,
+          "second": 4,
+          "scorer": "Leni Schmid",
+          "team": "home",
+          "team_abbrev": "TV Stetten",
+          "seven_meter": false
+        },
+        {
+          "minute": 18,
+          "second": 48,
+          "scorer": "Federica Weber",
+          "team": "home",
+          "team_abbrev": "TV Stetten",
+          "seven_meter": false
+        },
+        {
+          "minute": 19,
+          "second": 11,
+          "scorer": "Leni Fahrner",
+          "team": "away",
+          "team_abbrev": "SF Schwaikheim",
+          "seven_meter": false
+        },
+        {
+          "minute": 19,
+          "second": 48,
+          "scorer": "Lise M\u00f6hlmann",
+          "team": "home",
+          "team_abbrev": "TV Stetten",
+          "seven_meter": true
+        },
+        {
+          "minute": 20,
+          "second": 15,
+          "scorer": "Leni Schmid",
+          "team": "home",
+          "team_abbrev": "TV Stetten",
+          "seven_meter": false
+        },
+        {
+          "minute": 20,
+          "second": 32,
+          "scorer": "Leni Fahrner",
+          "team": "away",
+          "team_abbrev": "SF Schwaikheim",
+          "seven_meter": false
+        },
+        {
+          "minute": 21,
+          "second": 7,
+          "scorer": "Leni Fahrner",
+          "team": "away",
+          "team_abbrev": "SF Schwaikheim",
+          "seven_meter": false
+        },
+        {
+          "minute": 21,
+          "second": 36,
+          "scorer": "Marlene Figiel",
+          "team": "home",
+          "team_abbrev": "TV Stetten",
+          "seven_meter": false
+        },
+        {
+          "minute": 23,
+          "second": 4,
+          "scorer": "Mina Korkmaz",
+          "team": "home",
+          "team_abbrev": "TV Stetten",
+          "seven_meter": false
+        },
+        {
+          "minute": 25,
+          "second": 18,
+          "scorer": "Mia Dau",
+          "team": "home",
+          "team_abbrev": "TV Stetten",
+          "seven_meter": false
+        },
+        {
+          "minute": 25,
+          "second": 44,
+          "scorer": "Mia Dau",
+          "team": "home",
+          "team_abbrev": "TV Stetten",
+          "seven_meter": false
+        },
+        {
+          "minute": 26,
+          "second": 51,
+          "scorer": "Mia Dau",
+          "team": "home",
+          "team_abbrev": "TV Stetten",
+          "seven_meter": false
+        },
+        {
+          "minute": 27,
+          "second": 41,
+          "scorer": "Olivia Synek",
+          "team": "home",
+          "team_abbrev": "TV Stetten",
+          "seven_meter": false
+        },
+        {
+          "minute": 28,
+          "second": 15,
+          "scorer": "Marlene Figiel",
+          "team": "home",
+          "team_abbrev": "TV Stetten",
+          "seven_meter": false
+        },
+        {
+          "minute": 29,
+          "second": 8,
+          "scorer": "Leni Fahrner",
+          "team": "away",
+          "team_abbrev": "SF Schwaikheim",
+          "seven_meter": false
+        },
+        {
+          "minute": 29,
+          "second": 20,
+          "scorer": "Selina Kuch",
+          "team": "home",
+          "team_abbrev": "TV Stetten",
+          "seven_meter": false
+        },
+        {
+          "minute": 30,
+          "second": 22,
+          "scorer": "Leila Kiedaisch",
+          "team": "home",
+          "team_abbrev": "TV Stetten",
+          "seven_meter": true
+        },
+        {
+          "minute": 30,
+          "second": 53,
+          "scorer": "Selina Kuch",
+          "team": "home",
+          "team_abbrev": "TV Stetten",
+          "seven_meter": false
+        },
+        {
+          "minute": 31,
+          "second": 25,
+          "scorer": "Emilia Ivenz",
+          "team": "away",
+          "team_abbrev": "SF Schwaikheim",
+          "seven_meter": false
+        },
+        {
+          "minute": 31,
+          "second": 36,
+          "scorer": "Johanne Siemers",
+          "team": "home",
+          "team_abbrev": "TV Stetten",
+          "seven_meter": false
+        },
+        {
+          "minute": 32,
+          "second": 25,
+          "scorer": "Mia Dau",
+          "team": "home",
+          "team_abbrev": "TV Stetten",
+          "seven_meter": false
+        },
+        {
+          "minute": 34,
+          "second": 39,
+          "scorer": "Mia Dau",
+          "team": "home",
+          "team_abbrev": "TV Stetten",
+          "seven_meter": false
+        },
+        {
+          "minute": 35,
+          "second": 26,
+          "scorer": "Leni Fahrner",
+          "team": "away",
+          "team_abbrev": "SF Schwaikheim",
+          "seven_meter": false
+        },
+        {
+          "minute": 35,
+          "second": 39,
+          "scorer": "Olivia Synek",
+          "team": "home",
+          "team_abbrev": "TV Stetten",
+          "seven_meter": false
+        },
+        {
+          "minute": 39,
+          "second": 0,
+          "scorer": "Leni Fahrner",
+          "team": "away",
+          "team_abbrev": "SF Schwaikheim",
+          "seven_meter": false
+        },
+        {
+          "minute": 39,
+          "second": 54,
+          "scorer": "Mina Korkmaz",
+          "team": "home",
+          "team_abbrev": "TV Stetten",
+          "seven_meter": false
+        },
+        {
+          "minute": 40,
+          "second": 36,
+          "scorer": "Martha Greiner",
+          "team": "home",
+          "team_abbrev": "TV Stetten",
+          "seven_meter": false
+        },
+        {
+          "minute": 42,
+          "second": 12,
+          "scorer": "Leni Schmid",
+          "team": "home",
+          "team_abbrev": "TV Stetten",
+          "seven_meter": false
+        },
+        {
+          "minute": 42,
+          "second": 52,
+          "scorer": "Selina Kuch",
+          "team": "home",
+          "team_abbrev": "TV Stetten",
+          "seven_meter": false
+        },
+        {
+          "minute": 43,
+          "second": 11,
+          "scorer": "Emilia Ivenz",
+          "team": "away",
+          "team_abbrev": "SF Schwaikheim",
+          "seven_meter": false
+        },
+        {
+          "minute": 43,
+          "second": 39,
+          "scorer": "Selina Kuch",
+          "team": "home",
+          "team_abbrev": "TV Stetten",
+          "seven_meter": false
+        },
+        {
+          "minute": 44,
+          "second": 7,
+          "scorer": "Martha Greiner",
+          "team": "home",
+          "team_abbrev": "TV Stetten",
+          "seven_meter": false
+        },
+        {
+          "minute": 45,
+          "second": 33,
+          "scorer": "Lise M\u00f6hlmann",
+          "team": "home",
+          "team_abbrev": "TV Stetten",
+          "seven_meter": false
+        },
+        {
+          "minute": 45,
+          "second": 57,
+          "scorer": "Leni Fahrner",
+          "team": "away",
+          "team_abbrev": "SF Schwaikheim",
+          "seven_meter": false
+        },
+        {
+          "minute": 46,
+          "second": 17,
+          "scorer": "Selina Kuch",
+          "team": "home",
+          "team_abbrev": "TV Stetten",
+          "seven_meter": false
+        },
+        {
+          "minute": 47,
+          "second": 30,
+          "scorer": "Leni Schmid",
+          "team": "home",
+          "team_abbrev": "TV Stetten",
+          "seven_meter": false
+        },
+        {
+          "minute": 48,
+          "second": 16,
+          "scorer": "Mia Dau",
+          "team": "home",
+          "team_abbrev": "TV Stetten",
+          "seven_meter": false
+        },
+        {
+          "minute": 48,
+          "second": 40,
+          "scorer": "Mia Dau",
+          "team": "home",
+          "team_abbrev": "TV Stetten",
+          "seven_meter": false
+        },
+        {
+          "minute": 49,
+          "second": 44,
+          "scorer": "Emilia Ivenz",
+          "team": "away",
+          "team_abbrev": "SF Schwaikheim",
+          "seven_meter": false
+        },
+        {
+          "minute": 49,
+          "second": 52,
+          "scorer": "Olivia Synek",
+          "team": "home",
+          "team_abbrev": "TV Stetten",
+          "seven_meter": false
+        }
+      ],
+      "final_score": "44:15",
+      "half_duration": 30,
+      "officials": {
+        "referees": [
+          "Markus Gr\u00e4f"
+        ],
+        "timekeepers": [
+          "Philipp Greiner"
+        ],
+        "secretaries": [
+          "Thomas Ulrich"
+        ]
+      },
+      "graphic_path": "output/graphics/TV_Stetten_vs_SF_Schwaikheim_So_1910.png"
+    }
+  ]
+}

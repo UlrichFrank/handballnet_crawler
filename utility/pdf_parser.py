@@ -306,3 +306,109 @@ def add_seven_meters_to_players(players: List[Dict], seven_meter_data: Dict) -> 
             player['seven_meters_goals'] = 0
     
     return players
+
+
+def extract_red_cards_from_pdf(pdf_url: str, base_url: str = "https://www.handball.net", verify_ssl: bool = True) -> Dict[str, bool]:
+    """
+    Download and parse Spielbericht PDF to identify ACTUAL red cards (not 3x 2-minute suspensions).
+    
+    Logic:
+    - A "Disqualifikation" entry is a REAL red card only if there's NO "2-min Strafe" 
+      entry for the same player at the same timestamp immediately before it.
+    - If there IS a 2-min entry just before, it's a suspension due to 3x 2-minute rule.
+    
+    Returns:
+        Dict mapping "PLAYER_NAME (NUMBER, TEAM)" -> True if real red card, False if 3x2-min
+    """
+    
+    red_cards = {}
+    
+    if pdfplumber is None:
+        return red_cards
+    
+    try:
+        if pdf_url.startswith('/'):
+            pdf_url = base_url + pdf_url
+        
+        response = requests.get(pdf_url, timeout=10, verify=verify_ssl, allow_redirects=True)
+        response.raise_for_status()
+        
+        content_type = response.headers.get('content-type', '').lower()
+        if 'pdf' not in content_type and not response.content.startswith(b'%PDF'):
+            return red_cards
+        
+        with tempfile.NamedTemporaryFile(delete=False, suffix='.pdf') as tmp:
+            tmp.write(response.content)
+            tmp_path = tmp.name
+        
+        try:
+            with pdfplumber.open(tmp_path) as pdf:
+                all_rows = []
+                
+                # Extract all rows from timeline tables
+                for page_num, page in enumerate(pdf.pages[2:] if len(pdf.pages) > 2 else []):
+                    tables = page.extract_tables()
+                    
+                    if not tables:
+                        continue
+                    
+                    for table in tables:
+                        for row in table:
+                            if row and len(row) >= 4:
+                                all_rows.append(row)
+                
+                # Now analyze rows for disqualifications
+                for i, row in enumerate(all_rows):
+                    spielzeit = row[1] if len(row) > 1 else None
+                    aktion = row[3] if len(row) > 3 else None
+                    
+                    if not spielzeit or not aktion or "Disqualifikation" not in aktion:
+                        continue
+                    
+                    # Found a disqualification - extract player info
+                    disq_match = re.search(
+                        r'Disqualifikation für\s+(\w+(?:\s+\w+)*)\s+\((\d+),\s*([^)]+)\)',
+                        aktion
+                    )
+                    
+                    if not disq_match:
+                        continue
+                    
+                    player_name = disq_match.group(1).strip()
+                    player_number = disq_match.group(2).strip()
+                    player_team = disq_match.group(3).strip()
+                    player_id = f"{player_name} ({player_number}, {player_team})"
+                    
+                    # Check if previous row has a 2-min Strafe for the same player/time
+                    has_previous_two_min = False
+                    
+                    if i > 0:
+                        prev_row = all_rows[i - 1]
+                        prev_spielzeit = prev_row[1] if len(prev_row) > 1 else None
+                        prev_aktion = prev_row[3] if len(prev_row) > 3 else None
+                        
+                        # Check if same time and same player
+                        if prev_spielzeit == spielzeit and prev_aktion and "2-min Strafe" in prev_aktion:
+                            two_min_match = re.search(
+                                r'2-min Strafe für\s+(\w+(?:\s+\w+)*)\s+\((\d+),\s*([^)]+)\)',
+                                prev_aktion
+                            )
+                            
+                            if two_min_match:
+                                prev_player_name = two_min_match.group(1).strip()
+                                prev_player_number = two_min_match.group(2).strip()
+                                
+                                # Same player?
+                                if (prev_player_name == player_name and 
+                                    prev_player_number == player_number):
+                                    has_previous_two_min = True
+                    
+                    # It's a REAL red card only if NO 2-min entry preceded it
+                    red_cards[player_id] = not has_previous_two_min
+        finally:
+            Path(tmp_path).unlink(missing_ok=True)
+    
+    except Exception as e:
+        pass  # Silent fail
+    
+    return red_cards

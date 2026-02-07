@@ -23,7 +23,7 @@ from selenium.webdriver.common.by import By
 import warnings
 warnings.filterwarnings('ignore')
 
-from utility.pdf_parser import extract_seven_meters_from_pdf, add_seven_meters_to_players, extract_goals_timeline_from_pdf
+from utility.pdf_parser import extract_seven_meters_from_pdf, add_seven_meters_to_players, extract_goals_timeline_from_pdf, extract_red_cards_from_pdf
 from utility.error_logger import ErrorLogger
 
 # Load config from file (default or specified via --config argument)
@@ -751,11 +751,29 @@ def scrape_all_games(driver, games_with_teams, league_config=None, error_logger:
             if pdf_url:
                 seven_meter_data = extract_seven_meters_from_pdf(pdf_url, BASE_URL)
                 goals_timeline = extract_goals_timeline_from_pdf(pdf_url, BASE_URL)
+                red_cards_from_pdf = extract_red_cards_from_pdf(pdf_url, BASE_URL)
                 
                 if seven_meter_data:
                     # Add seven meter data to players
                     home_players = add_seven_meters_to_players(home_players, seven_meter_data)
                     away_players = add_seven_meters_to_players(away_players, seven_meter_data)
+                
+                # Correct red cards based on PDF analysis (only real red cards, not 3x 2-min suspensions)
+                if red_cards_from_pdf:
+                    for team_players in [home_players, away_players]:
+                        for player in team_players:
+                            player_name = player['name']
+                            # Check all possible formats in the PDF
+                            for player_id_format in red_cards_from_pdf.keys():
+                                if player_name in player_id_format:
+                                    # Found a matching disqualification
+                                    is_real_red = red_cards_from_pdf[player_id_format]
+                                    if is_real_red:
+                                        player['red_cards'] = 1
+                                    else:
+                                        # It was a 3x 2-min suspension, not a real red card
+                                        player['red_cards'] = 0
+                                    break
             
             # Extract officials from /info page
             officials = extract_officials_from_info(driver, game_id)

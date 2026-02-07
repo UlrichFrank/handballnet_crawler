@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-02-07T17:23:22.802410Z",
+  "last_updated": "2026-02-07T17:37:47.108209Z",
   "leagues": {
     "mc-ol-3-bw_bwhv": {
       "name": "m\u00e4nnliche C-Jugend Oberliga-Staffel-3",
@@ -37,7 +37,7 @@
         "20260201",
         "20260207"
       ],
-      "last_updated": "2026-02-07T17:23:00.650188Z"
+      "last_updated": "2026-02-07T17:29:34.449801Z"
     },
     "wc-bl-1-srm_srm": {
       "name": "weibliche C-Jugend Bezirksliga Staffel 1",
@@ -70,7 +70,7 @@
         "20260131",
         "20260201"
       ],
-      "last_updated": "2026-02-07T17:23:13.103001Z"
+      "last_updated": "2026-02-07T17:29:48.035112Z"
     },
     "gd-bol-srm_srm": {
       "name": "gemischte D-Jugend Bezirksoberliga",
@@ -99,7 +99,7 @@
         "20260125",
         "20260201"
       ],
-      "last_updated": "2026-02-07T17:23:22.802387Z"
+      "last_updated": "2026-02-07T17:29:59.555070Z"
     },
     "wb-bl-1-srm_srm": {
       "name": "weibliche B-Jugend Bezirksliga Staffel 1",
@@ -132,7 +132,7 @@
         "20260201",
         "20260207"
       ],
-      "last_updated": "2026-02-07T17:23:00.652217Z"
+      "last_updated": "2026-02-07T17:29:34.451768Z"
     },
     "mc-bol-srm_srm": {
       "name": "m\u00e4nnliche C-Jugend Bezirksoberliga",
@@ -163,7 +163,7 @@
         "20260201",
         "20260207"
       ],
-      "last_updated": "2026-02-07T17:23:00.651105Z"
+      "last_updated": "2026-02-07T17:29:34.450737Z"
     },
     "ma-rl-bw_bwhv": {
       "name": "m\u00e4nnliche A-Jugend Regionalliga",
@@ -201,7 +201,7 @@
         "20260201",
         "20260207"
       ],
-      "last_updated": "2026-02-07T17:23:00.644284Z"
+      "last_updated": "2026-02-07T17:29:34.444048Z"
     },
     "ma-ol-1-bw_bwhv": {
       "name": "m\u00e4nnliche A-Jugend Oberliga Staffel 1",
@@ -235,7 +235,7 @@
         "20260201",
         "20260207"
       ],
-      "last_updated": "2026-02-07T17:23:00.645452Z"
+      "last_updated": "2026-02-07T17:29:34.445175Z"
     },
     "ma-bol-srm_srm": {
       "name": "m\u00e4nnliche A-Jugend Bezirksoberliga",
@@ -273,7 +273,7 @@
         "20260203",
         "20260207"
       ],
-      "last_updated": "2026-02-07T17:23:00.646890Z"
+      "last_updated": "2026-02-07T17:29:34.446179Z"
     },
     "mb-ol-2-bw_bwhv": {
       "name": "m\u00e4nnliche B-Jugend Oberliga Staffel 2",
@@ -311,7 +311,7 @@
         "20260201",
         "20260207"
       ],
-      "last_updated": "2026-02-07T17:23:00.647973Z"
+      "last_updated": "2026-02-07T17:29:34.447607Z"
     },
     "mb-bol-srm_srm": {
       "name": "m\u00e4nnliche B-Jugend Bezirksoberliga",
@@ -342,7 +342,41 @@
         "20260201",
         "20260207"
       ],
-      "last_updated": "2026-02-07T17:23:00.649202Z"
+      "last_updated": "2026-02-07T17:29:34.448699Z"
+    },
+    "mc-bl-2-srm_srm": {
+      "name": "m\u00e4nnliche C-Jugend Bezirksliga Staffel 2",
+      "spieltage": [
+        "20250920",
+        "20250921",
+        "20250927",
+        "20251004",
+        "20251005",
+        "20251011",
+        "20251018",
+        "20251025",
+        "20251101",
+        "20251102",
+        "20251108",
+        "20251115",
+        "20251116",
+        "20251122",
+        "20251123",
+        "20251129",
+        "20251130",
+        "20251206",
+        "20251207",
+        "20251213",
+        "20251220",
+        "20260110",
+        "20260117",
+        "20260124",
+        "20260125",
+        "20260131",
+        "20260201",
+        "20260207"
+      ],
+      "last_updated": "2026-02-07T17:37:47.108185Z"
     }
   }
 }

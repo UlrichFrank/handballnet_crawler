@@ -59,3 +59,4 @@ frontend/public/data/meta.json
 !extract*.json
 
 node_modules/
+.env

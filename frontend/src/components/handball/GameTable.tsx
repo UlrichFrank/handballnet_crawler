@@ -268,44 +268,44 @@ export function GameTable({ league, teamName }: GameTableProps) {
                         value={totalStats.goals}
                         type="goals"
                         hasAttempts={totalStats.seven_meters}
-                        className={playerIdx % 2 === 0 ? 'bg-white' : 'bg-hb-playerGray2'}
+                        className={playerIdx % 2 === 0 ? 'bg-white dark:bg-slate-900' : 'bg-gray-50 dark:bg-slate-800'}
                         bold
                       />
                       <StatCell
                         value={totalStats.seven_meters}
                         type="attempts"
-                        className={playerIdx % 2 === 0 ? 'bg-white' : 'bg-hb-playerGray2'}
+                        className={playerIdx % 2 === 0 ? 'bg-white dark:bg-slate-900' : 'bg-gray-50 dark:bg-slate-800'}
                         bold
                       />
                       <StatCell
                         value={totalStats.seven_meters_goals}
                         type="seven_goals"
                         hasAttempts={totalStats.seven_meters}
-                        className={playerIdx % 2 === 0 ? 'bg-white' : 'bg-hb-playerGray2'}
+                        className={playerIdx % 2 === 0 ? 'bg-white dark:bg-slate-900' : 'bg-gray-50 dark:bg-slate-800'}
                         bold
                       />
                       <StatCell
                         value={totalStats.two_min_penalties}
                         type="other"
-                        className={playerIdx % 2 === 0 ? 'bg-white' : 'bg-hb-playerGray2'}
+                        className={playerIdx % 2 === 0 ? 'bg-white dark:bg-slate-900' : 'bg-gray-50 dark:bg-slate-800'}
                         bold
                       />
                       <StatCell
                         value={totalStats.yellow_cards}
                         type="other"
-                        className={playerIdx % 2 === 0 ? 'bg-white' : 'bg-hb-playerGray2'}
+                        className={playerIdx % 2 === 0 ? 'bg-white dark:bg-slate-900' : 'bg-gray-50 dark:bg-slate-800'}
                         bold
                       />
                       <StatCell
                         value={totalStats.red_cards}
                         type="other"
-                        className={playerIdx % 2 === 0 ? 'bg-white' : 'bg-hb-playerGray2'}
+                        className={playerIdx % 2 === 0 ? 'bg-white dark:bg-slate-900' : 'bg-gray-50 dark:bg-slate-800'}
                         bold
                       />
                       <StatCell
                         value={totalStats.blue_cards}
                         type="other"
-                        className={playerIdx % 2 === 0 ? 'bg-white' : 'bg-hb-playerGray2'}
+                        className={playerIdx % 2 === 0 ? 'bg-white dark:bg-slate-900' : 'bg-gray-50 dark:bg-slate-800'}
                         bold
                       />
                       <td className={`px-3 py-2 text-center text-sm font-bold border border-gray-200 dark:border-slate-700 whitespace-nowrap ${playerIdx % 2 === 0 ? 'bg-white dark:bg-slate-900' : 'bg-hb-playerGray2 dark:bg-slate-800'}`} style={{ minWidth: '36px' }}>

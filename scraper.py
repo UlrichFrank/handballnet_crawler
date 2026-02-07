@@ -236,8 +236,8 @@ def extract_game_ids_from_spielplan(driver, league_id):
         
         page_games = []
         
-        # Find all game links from spielbericht
-        game_links = soup.find_all('a', href=re.compile(r'/spiele/handball4all.*spielbericht'))
+        # Find all game links from spielbericht OR info (spielbericht requires login, info/aufstellung works for all)
+        game_links = soup.find_all('a', href=re.compile(r'/spiele/handball4all.*(spielbericht|info)'))
         
         for link in game_links:
             href = link.get('href', '')

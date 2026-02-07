@@ -1,0 +1,839 @@
+{
+  "date": "20260131",
+  "games": [
+    {
+      "game_id": "handball4all.baden-wuerttemberg.8669141",
+      "order": 0,
+      "date": "Sa, 31.01.",
+      "home": {
+        "team_name": "SV Leonberg/Eltingen",
+        "players": [
+          {
+            "name": "Noah Yazici",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Mika Rokkenbauch",
+            "goals": 9,
+            "two_min_penalties": 0,
+            "yellow_cards": 1,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Henry Lamm",
+            "goals": 4,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "David Nicolescu",
+            "goals": 10,
+            "two_min_penalties": 1,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Theo Salfeld",
+            "goals": 1,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Frederik Frey",
+            "goals": 9,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 1,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Lorenz Buch",
+            "goals": 0,
+            "two_min_penalties": 1,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Sebastian Tim Kiefer",
+            "goals": 0,
+            "two_min_penalties": 1,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Luka Birmanac",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Yoshua Burr",
+            "goals": 4,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 1,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Mattis Behrend",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Nicolay Scherrer",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          }
+        ]
+      },
+      "away": {
+        "team_name": "HSG Sch\u00f6nbuch",
+        "players": [
+          {
+            "name": "Felix Oelert",
+            "goals": 10,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Simon Braun",
+            "goals": 4,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Ben Mombour",
+            "goals": 2,
+            "two_min_penalties": 1,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 1,
+            "seven_meters_goals": 1
+          },
+          {
+            "name": "Denis Balke",
+            "goals": 3,
+            "two_min_penalties": 1,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Adam Allami",
+            "goals": 2,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Felix Klietz",
+            "goals": 9,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Marian Bork",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Florin Lenk",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Theo Casteas",
+            "goals": 6,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Mattis Maurer",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          }
+        ]
+      },
+      "goals_timeline": [
+        {
+          "minute": 1,
+          "second": 4,
+          "scorer": "David Nicolescu",
+          "team": "home",
+          "team_abbrev": "SV Leonb/Elt",
+          "seven_meter": false
+        },
+        {
+          "minute": 2,
+          "second": 5,
+          "scorer": "Felix Oelert",
+          "team": "away",
+          "team_abbrev": "HSG Sch\u00f6nbuch",
+          "seven_meter": false
+        },
+        {
+          "minute": 3,
+          "second": 20,
+          "scorer": "Simon Braun",
+          "team": "away",
+          "team_abbrev": "HSG Sch\u00f6nbuch",
+          "seven_meter": false
+        },
+        {
+          "minute": 4,
+          "second": 50,
+          "scorer": "Frederik Frey",
+          "team": "home",
+          "team_abbrev": "SV Leonb/Elt",
+          "seven_meter": false
+        },
+        {
+          "minute": 5,
+          "second": 15,
+          "scorer": "Theo Casteas",
+          "team": "away",
+          "team_abbrev": "HSG Sch\u00f6nbuch",
+          "seven_meter": false
+        },
+        {
+          "minute": 5,
+          "second": 24,
+          "scorer": "David Nicolescu",
+          "team": "home",
+          "team_abbrev": "SV Leonb/Elt",
+          "seven_meter": false
+        },
+        {
+          "minute": 5,
+          "second": 34,
+          "scorer": "Felix Klietz",
+          "team": "away",
+          "team_abbrev": "HSG Sch\u00f6nbuch",
+          "seven_meter": false
+        },
+        {
+          "minute": 6,
+          "second": 1,
+          "scorer": "Felix Klietz",
+          "team": "away",
+          "team_abbrev": "HSG Sch\u00f6nbuch",
+          "seven_meter": false
+        },
+        {
+          "minute": 6,
+          "second": 11,
+          "scorer": "Frederik Frey",
+          "team": "home",
+          "team_abbrev": "SV Leonb/Elt",
+          "seven_meter": false
+        },
+        {
+          "minute": 6,
+          "second": 26,
+          "scorer": "David Nicolescu",
+          "team": "home",
+          "team_abbrev": "SV Leonb/Elt",
+          "seven_meter": false
+        },
+        {
+          "minute": 8,
+          "second": 47,
+          "scorer": "Denis Balke",
+          "team": "away",
+          "team_abbrev": "HSG Sch\u00f6nbuch",
+          "seven_meter": false
+        },
+        {
+          "minute": 10,
+          "second": 5,
+          "scorer": "Felix Klietz",
+          "team": "away",
+          "team_abbrev": "HSG Sch\u00f6nbuch",
+          "seven_meter": false
+        },
+        {
+          "minute": 11,
+          "second": 56,
+          "scorer": "David Nicolescu",
+          "team": "home",
+          "team_abbrev": "SV Leonb/Elt",
+          "seven_meter": false
+        },
+        {
+          "minute": 12,
+          "second": 41,
+          "scorer": "Simon Braun",
+          "team": "away",
+          "team_abbrev": "HSG Sch\u00f6nbuch",
+          "seven_meter": false
+        },
+        {
+          "minute": 12,
+          "second": 52,
+          "scorer": "Yoshua Burr",
+          "team": "home",
+          "team_abbrev": "SV Leonb/Elt",
+          "seven_meter": false
+        },
+        {
+          "minute": 13,
+          "second": 1,
+          "scorer": "Felix Klietz",
+          "team": "away",
+          "team_abbrev": "HSG Sch\u00f6nbuch",
+          "seven_meter": false
+        },
+        {
+          "minute": 13,
+          "second": 30,
+          "scorer": "Henry Lamm",
+          "team": "home",
+          "team_abbrev": "SV Leonb/Elt",
+          "seven_meter": false
+        },
+        {
+          "minute": 13,
+          "second": 57,
+          "scorer": "Felix Oelert",
+          "team": "away",
+          "team_abbrev": "HSG Sch\u00f6nbuch",
+          "seven_meter": false
+        },
+        {
+          "minute": 14,
+          "second": 25,
+          "scorer": "Frederik Frey",
+          "team": "home",
+          "team_abbrev": "SV Leonb/Elt",
+          "seven_meter": false
+        },
+        {
+          "minute": 15,
+          "second": 27,
+          "scorer": "Denis Balke",
+          "team": "away",
+          "team_abbrev": "HSG Sch\u00f6nbuch",
+          "seven_meter": false
+        },
+        {
+          "minute": 15,
+          "second": 52,
+          "scorer": "David Nicolescu",
+          "team": "home",
+          "team_abbrev": "SV Leonb/Elt",
+          "seven_meter": false
+        },
+        {
+          "minute": 16,
+          "second": 1,
+          "scorer": "Felix Oelert",
+          "team": "away",
+          "team_abbrev": "HSG Sch\u00f6nbuch",
+          "seven_meter": false
+        },
+        {
+          "minute": 18,
+          "second": 11,
+          "scorer": "Felix Oelert",
+          "team": "away",
+          "team_abbrev": "HSG Sch\u00f6nbuch",
+          "seven_meter": false
+        },
+        {
+          "minute": 18,
+          "second": 38,
+          "scorer": "Mika Rokkenbauch",
+          "team": "home",
+          "team_abbrev": "SV Leonb/Elt",
+          "seven_meter": false
+        },
+        {
+          "minute": 19,
+          "second": 38,
+          "scorer": "Theo Salfeld",
+          "team": "home",
+          "team_abbrev": "SV Leonb/Elt",
+          "seven_meter": false
+        },
+        {
+          "minute": 20,
+          "second": 2,
+          "scorer": "Theo Casteas",
+          "team": "away",
+          "team_abbrev": "HSG Sch\u00f6nbuch",
+          "seven_meter": false
+        },
+        {
+          "minute": 20,
+          "second": 57,
+          "scorer": "Ben Mombour",
+          "team": "away",
+          "team_abbrev": "HSG Sch\u00f6nbuch",
+          "seven_meter": true
+        },
+        {
+          "minute": 21,
+          "second": 27,
+          "scorer": "Mika Rokkenbauch",
+          "team": "home",
+          "team_abbrev": "SV Leonb/Elt",
+          "seven_meter": false
+        },
+        {
+          "minute": 22,
+          "second": 1,
+          "scorer": "Felix Oelert",
+          "team": "away",
+          "team_abbrev": "HSG Sch\u00f6nbuch",
+          "seven_meter": false
+        },
+        {
+          "minute": 22,
+          "second": 25,
+          "scorer": "Mika Rokkenbauch",
+          "team": "home",
+          "team_abbrev": "SV Leonb/Elt",
+          "seven_meter": false
+        },
+        {
+          "minute": 22,
+          "second": 40,
+          "scorer": "Felix Klietz",
+          "team": "away",
+          "team_abbrev": "HSG Sch\u00f6nbuch",
+          "seven_meter": false
+        },
+        {
+          "minute": 23,
+          "second": 2,
+          "scorer": "Frederik Frey",
+          "team": "home",
+          "team_abbrev": "SV Leonb/Elt",
+          "seven_meter": false
+        },
+        {
+          "minute": 23,
+          "second": 29,
+          "scorer": "Mika Rokkenbauch",
+          "team": "home",
+          "team_abbrev": "SV Leonb/Elt",
+          "seven_meter": false
+        },
+        {
+          "minute": 23,
+          "second": 52,
+          "scorer": "Mika Rokkenbauch",
+          "team": "home",
+          "team_abbrev": "SV Leonb/Elt",
+          "seven_meter": false
+        },
+        {
+          "minute": 25,
+          "second": 0,
+          "scorer": "David Nicolescu",
+          "team": "home",
+          "team_abbrev": "SV Leonb/Elt",
+          "seven_meter": false
+        },
+        {
+          "minute": 25,
+          "second": 27,
+          "scorer": "Frederik Frey",
+          "team": "home",
+          "team_abbrev": "SV Leonb/Elt",
+          "seven_meter": false
+        },
+        {
+          "minute": 25,
+          "second": 41,
+          "scorer": "Simon Braun",
+          "team": "away",
+          "team_abbrev": "HSG Sch\u00f6nbuch",
+          "seven_meter": false
+        },
+        {
+          "minute": 26,
+          "second": 29,
+          "scorer": "Henry Lamm",
+          "team": "home",
+          "team_abbrev": "SV Leonb/Elt",
+          "seven_meter": false
+        },
+        {
+          "minute": 27,
+          "second": 1,
+          "scorer": "Yoshua Burr",
+          "team": "home",
+          "team_abbrev": "SV Leonb/Elt",
+          "seven_meter": false
+        },
+        {
+          "minute": 27,
+          "second": 25,
+          "scorer": "Simon Braun",
+          "team": "away",
+          "team_abbrev": "HSG Sch\u00f6nbuch",
+          "seven_meter": false
+        },
+        {
+          "minute": 28,
+          "second": 4,
+          "scorer": "Denis Balke",
+          "team": "away",
+          "team_abbrev": "HSG Sch\u00f6nbuch",
+          "seven_meter": false
+        },
+        {
+          "minute": 28,
+          "second": 26,
+          "scorer": "Felix Klietz",
+          "team": "away",
+          "team_abbrev": "HSG Sch\u00f6nbuch",
+          "seven_meter": false
+        },
+        {
+          "minute": 29,
+          "second": 15,
+          "scorer": "Mika Rokkenbauch",
+          "team": "home",
+          "team_abbrev": "SV Leonb/Elt",
+          "seven_meter": false
+        },
+        {
+          "minute": 30,
+          "second": 14,
+          "scorer": "David Nicolescu",
+          "team": "home",
+          "team_abbrev": "SV Leonb/Elt",
+          "seven_meter": false
+        },
+        {
+          "minute": 30,
+          "second": 42,
+          "scorer": "Theo Casteas",
+          "team": "away",
+          "team_abbrev": "HSG Sch\u00f6nbuch",
+          "seven_meter": false
+        },
+        {
+          "minute": 31,
+          "second": 32,
+          "scorer": "Frederik Frey",
+          "team": "home",
+          "team_abbrev": "SV Leonb/Elt",
+          "seven_meter": false
+        },
+        {
+          "minute": 32,
+          "second": 2,
+          "scorer": "David Nicolescu",
+          "team": "home",
+          "team_abbrev": "SV Leonb/Elt",
+          "seven_meter": false
+        },
+        {
+          "minute": 32,
+          "second": 45,
+          "scorer": "Felix Klietz",
+          "team": "away",
+          "team_abbrev": "HSG Sch\u00f6nbuch",
+          "seven_meter": false
+        },
+        {
+          "minute": 33,
+          "second": 13,
+          "scorer": "Henry Lamm",
+          "team": "home",
+          "team_abbrev": "SV Leonb/Elt",
+          "seven_meter": false
+        },
+        {
+          "minute": 33,
+          "second": 19,
+          "scorer": "Felix Klietz",
+          "team": "away",
+          "team_abbrev": "HSG Sch\u00f6nbuch",
+          "seven_meter": false
+        },
+        {
+          "minute": 33,
+          "second": 48,
+          "scorer": "David Nicolescu",
+          "team": "home",
+          "team_abbrev": "SV Leonb/Elt",
+          "seven_meter": false
+        },
+        {
+          "minute": 34,
+          "second": 0,
+          "scorer": "Felix Oelert",
+          "team": "away",
+          "team_abbrev": "HSG Sch\u00f6nbuch",
+          "seven_meter": false
+        },
+        {
+          "minute": 34,
+          "second": 33,
+          "scorer": "Felix Klietz",
+          "team": "away",
+          "team_abbrev": "HSG Sch\u00f6nbuch",
+          "seven_meter": false
+        },
+        {
+          "minute": 35,
+          "second": 37,
+          "scorer": "Frederik Frey",
+          "team": "home",
+          "team_abbrev": "SV Leonb/Elt",
+          "seven_meter": false
+        },
+        {
+          "minute": 36,
+          "second": 6,
+          "scorer": "Felix Oelert",
+          "team": "away",
+          "team_abbrev": "HSG Sch\u00f6nbuch",
+          "seven_meter": false
+        },
+        {
+          "minute": 36,
+          "second": 21,
+          "scorer": "Frederik Frey",
+          "team": "home",
+          "team_abbrev": "SV Leonb/Elt",
+          "seven_meter": false
+        },
+        {
+          "minute": 38,
+          "second": 8,
+          "scorer": "Adam Allami",
+          "team": "away",
+          "team_abbrev": "HSG Sch\u00f6nbuch",
+          "seven_meter": false
+        },
+        {
+          "minute": 38,
+          "second": 32,
+          "scorer": "Adam Allami",
+          "team": "away",
+          "team_abbrev": "HSG Sch\u00f6nbuch",
+          "seven_meter": false
+        },
+        {
+          "minute": 38,
+          "second": 51,
+          "scorer": "Frederik Frey",
+          "team": "home",
+          "team_abbrev": "SV Leonb/Elt",
+          "seven_meter": false
+        },
+        {
+          "minute": 39,
+          "second": 18,
+          "scorer": "Felix Oelert",
+          "team": "away",
+          "team_abbrev": "HSG Sch\u00f6nbuch",
+          "seven_meter": false
+        },
+        {
+          "minute": 40,
+          "second": 16,
+          "scorer": "Ben Mombour",
+          "team": "away",
+          "team_abbrev": "HSG Sch\u00f6nbuch",
+          "seven_meter": false
+        },
+        {
+          "minute": 40,
+          "second": 26,
+          "scorer": "Mika Rokkenbauch",
+          "team": "home",
+          "team_abbrev": "SV Leonb/Elt",
+          "seven_meter": false
+        },
+        {
+          "minute": 40,
+          "second": 26,
+          "scorer": "Mika Rokkenbauch",
+          "team": "home",
+          "team_abbrev": "SV Leonb/Elt",
+          "seven_meter": false
+        },
+        {
+          "minute": 40,
+          "second": 26,
+          "scorer": "Felix Oelert",
+          "team": "away",
+          "team_abbrev": "HSG Sch\u00f6nbuch",
+          "seven_meter": false
+        },
+        {
+          "minute": 41,
+          "second": 52,
+          "scorer": "Theo Casteas",
+          "team": "away",
+          "team_abbrev": "HSG Sch\u00f6nbuch",
+          "seven_meter": false
+        },
+        {
+          "minute": 42,
+          "second": 40,
+          "scorer": "Yoshua Burr",
+          "team": "home",
+          "team_abbrev": "SV Leonb/Elt",
+          "seven_meter": false
+        },
+        {
+          "minute": 43,
+          "second": 6,
+          "scorer": "Theo Casteas",
+          "team": "away",
+          "team_abbrev": "HSG Sch\u00f6nbuch",
+          "seven_meter": false
+        },
+        {
+          "minute": 43,
+          "second": 36,
+          "scorer": "Mika Rokkenbauch",
+          "team": "home",
+          "team_abbrev": "SV Leonb/Elt",
+          "seven_meter": false
+        },
+        {
+          "minute": 43,
+          "second": 42,
+          "scorer": "Theo Casteas",
+          "team": "away",
+          "team_abbrev": "HSG Sch\u00f6nbuch",
+          "seven_meter": false
+        },
+        {
+          "minute": 44,
+          "second": 3,
+          "scorer": "David Nicolescu",
+          "team": "home",
+          "team_abbrev": "SV Leonb/Elt",
+          "seven_meter": false
+        },
+        {
+          "minute": 45,
+          "second": 12,
+          "scorer": "Yoshua Burr",
+          "team": "home",
+          "team_abbrev": "SV Leonb/Elt",
+          "seven_meter": false
+        },
+        {
+          "minute": 45,
+          "second": 28,
+          "scorer": "Felix Oelert",
+          "team": "away",
+          "team_abbrev": "HSG Sch\u00f6nbuch",
+          "seven_meter": false
+        },
+        {
+          "minute": 46,
+          "second": 49,
+          "scorer": "Henry Lamm",
+          "team": "home",
+          "team_abbrev": "SV Leonb/Elt",
+          "seven_meter": false
+        }
+      ],
+      "final_score": "37:36",
+      "half_duration": 30,
+      "officials": {
+        "referees": [
+          "Manuel Bernl\u00f6hr"
+        ],
+        "timekeepers": [
+          "Michael Frey"
+        ],
+        "secretaries": [
+          "J\u00fcrgen W\u00fcscht"
+        ]
+      }
+    }
+  ]
+}

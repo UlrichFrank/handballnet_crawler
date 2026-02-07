@@ -43,8 +43,8 @@ export function Navigation() {
   };
 
   return (
-    <div className="flex gap-4 wrap items-center justify-between">
-      <div className="flex gap-4 wrap items-center">
+    <div className="flex flex-col gap-3 md:flex-row md:gap-4 md:items-center md:justify-between">
+      <div className="flex gap-2 md:gap-4 flex-wrap items-center overflow-x-auto">
         {navigationItems.map((item) => {
           const Icon = item.icon;
           const active = isActive(item.path);
@@ -53,20 +53,20 @@ export function Navigation() {
             <NavLink
               key={item.path}
               to={item.path}
-              className={`flex items-center gap-2 px-4 py-2 rounded-lg font-medium transition-colors ${
+              className={`flex items-center gap-1 md:gap-2 px-2 md:px-4 py-2 rounded-lg font-medium transition-colors whitespace-nowrap text-sm md:text-base ${
                 active
                   ? 'bg-blue-100 dark:bg-blue-900 text-blue-900 dark:text-blue-100'
                   : 'bg-transparent text-gray-700 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-slate-800'
               }`}
             >
-              <Icon className="w-4 h-4" />
-              {item.label}
+              <Icon className="w-4 h-4 flex-shrink-0" />
+              <span className="hidden sm:inline">{item.label}</span>
             </NavLink>
           );
         })}
       </div>
       
-      <div style={{ minWidth: '250px' }}>
+      <div className="w-full md:w-auto md:min-w-[250px]">
         <LeagueSelector
           leagues={leagues}
           selectedLeague={selectedLeague}

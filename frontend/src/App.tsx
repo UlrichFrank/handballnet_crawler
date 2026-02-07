@@ -43,18 +43,18 @@ function AppContent() {
         <LeagueProvider>
             <Router basename={getBasename()}>
                 <div className="min-h-screen bg-white dark:bg-slate-950 text-gray-900 dark:text-gray-100 transition-colors duration-300">
-                    <div className="border-b border-gray-200 dark:border-slate-700 p-4">
-                        <div className="flex justify-between items-center mb-4">
-                            <Link to="/" className="flex items-center gap-2 text-3xl font-bold text-blue-900 dark:text-blue-400 hover:opacity-80 transition-opacity cursor-pointer">
-                                <img src={teamLogoUrl} alt="Handball Crawler Logo" className="h-10 w-10 object-contain" />
-                                <span>handball.net Crawler</span>
+                    <div className="border-b border-gray-200 dark:border-slate-700 p-3 md:p-4">
+                        <div className="flex flex-col md:flex-row justify-between md:items-center gap-3 mb-3 md:mb-4">
+                            <Link to="/" className="flex items-center gap-2 text-xl md:text-3xl font-bold text-blue-900 dark:text-blue-400 hover:opacity-80 transition-opacity cursor-pointer">
+                                <img src={teamLogoUrl} alt="Handball Crawler Logo" className="h-8 md:h-10 w-8 md:w-10 object-contain flex-shrink-0" />
+                                <span className="text-sm md:text-base">handball.net Crawler</span>
                             </Link>
                             <ThemeToggle />
                         </div>
                         <Navigation />
                     </div>
 
-                    <div className="p-4">
+                    <div className="p-3 md:p-4">
                         <Routes>
                             <Route path="/" element={<HandballPage />} />
                             <Route path="/handball" element={<HandballPage />} />

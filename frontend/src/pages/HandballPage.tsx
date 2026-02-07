@@ -51,8 +51,8 @@ export function HandballPage() {
   return (
     <div className="space-y-6 p-6 bg-gray-50 dark:bg-slate-950 min-h-screen">
       <div>
-        <h1 className="text-4xl font-bold text-blue-900 dark:text-blue-400 mb-2">Handball Statistiken</h1>
-        <p className="text-gray-600 dark:text-gray-400">Sieh dir Teamspiele und Spielerstatistiken an</p>
+        <h1 className="text-4xl font-bold text-blue-900 dark:text-blue-400 mb-2">Spiele</h1>
+        <p className="text-gray-600 dark:text-gray-400">Sieh dir Spiele und Spielerstatistiken an</p>
       </div>
 
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4">

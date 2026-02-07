@@ -1,0 +1,830 @@
+{
+  "date": "20251123",
+  "games": [
+    {
+      "game_id": "handball4all.baden-wuerttemberg.8853357",
+      "order": 19,
+      "date": "So, 23.11.",
+      "home": {
+        "team_name": "TSV Alfdorf/Lorch/Waldhausen",
+        "players": [
+          {
+            "name": "Patrick V\u00f6gele",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Hannes Behringer",
+            "goals": 5,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Theo Schneefu\u00df",
+            "goals": 7,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Silas Fritz",
+            "goals": 4,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Lucca Holz",
+            "goals": 5,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 1,
+            "seven_meters_goals": 1
+          },
+          {
+            "name": "Noah Wahl",
+            "goals": 5,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 1,
+            "seven_meters_goals": 1
+          },
+          {
+            "name": "Ole Erik Winter",
+            "goals": 10,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Mika Zapfl",
+            "goals": 2,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Maxim Barei\u00df",
+            "goals": 2,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Matteo Klenk",
+            "goals": 1,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Max Bareiss",
+            "goals": 3,
+            "two_min_penalties": 2,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          }
+        ]
+      },
+      "away": {
+        "team_name": "HSG Gablenberg-Gaisburg",
+        "players": [
+          {
+            "name": "Ben Blocher",
+            "goals": 3,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 2,
+            "seven_meters_goals": 2
+          },
+          {
+            "name": "Manuel Berner",
+            "goals": 7,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Mateo Braun",
+            "goals": 2,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Axel Monsier-Thoumas",
+            "goals": 1,
+            "two_min_penalties": 1,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Nathan Reimold",
+            "goals": 4,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Mika Salzig",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Noe Ottenbacher",
+            "goals": 7,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Benjamin Albrecht",
+            "goals": 5,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 3,
+            "seven_meters_goals": 2
+          },
+          {
+            "name": "Anton Demel",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Nik Ottenbacher",
+            "goals": 1,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          }
+        ]
+      },
+      "goals_timeline": [
+        {
+          "minute": 1,
+          "second": 16,
+          "scorer": "Hannes Behringer",
+          "team": "home",
+          "team_abbrev": "TSV ALLOWA",
+          "seven_meter": false
+        },
+        {
+          "minute": 3,
+          "second": 5,
+          "scorer": "Max Bareiss",
+          "team": "home",
+          "team_abbrev": "TSV ALLOWA",
+          "seven_meter": false
+        },
+        {
+          "minute": 4,
+          "second": 2,
+          "scorer": "Theo Schneefu\u00df",
+          "team": "home",
+          "team_abbrev": "TSV ALLOWA",
+          "seven_meter": false
+        },
+        {
+          "minute": 4,
+          "second": 40,
+          "scorer": "Ole Winter",
+          "team": "home",
+          "team_abbrev": "TSV ALLOWA",
+          "seven_meter": false
+        },
+        {
+          "minute": 5,
+          "second": 0,
+          "scorer": "Benjamin Albrecht",
+          "team": "away",
+          "team_abbrev": "HSG Gab-Gais",
+          "seven_meter": false
+        },
+        {
+          "minute": 5,
+          "second": 10,
+          "scorer": "Lucca Holz",
+          "team": "home",
+          "team_abbrev": "TSV ALLOWA",
+          "seven_meter": false
+        },
+        {
+          "minute": 5,
+          "second": 37,
+          "scorer": "Benjamin Albrecht",
+          "team": "away",
+          "team_abbrev": "HSG Gab-Gais",
+          "seven_meter": true
+        },
+        {
+          "minute": 6,
+          "second": 15,
+          "scorer": "Theo Schneefu\u00df",
+          "team": "home",
+          "team_abbrev": "TSV ALLOWA",
+          "seven_meter": false
+        },
+        {
+          "minute": 6,
+          "second": 31,
+          "scorer": "Lucca Holz",
+          "team": "home",
+          "team_abbrev": "TSV ALLOWA",
+          "seven_meter": false
+        },
+        {
+          "minute": 6,
+          "second": 49,
+          "scorer": "Manuel Berner",
+          "team": "away",
+          "team_abbrev": "HSG Gab-Gais",
+          "seven_meter": false
+        },
+        {
+          "minute": 6,
+          "second": 58,
+          "scorer": "Noah Wahl",
+          "team": "home",
+          "team_abbrev": "TSV ALLOWA",
+          "seven_meter": false
+        },
+        {
+          "minute": 7,
+          "second": 38,
+          "scorer": "Ole Winter",
+          "team": "home",
+          "team_abbrev": "TSV ALLOWA",
+          "seven_meter": false
+        },
+        {
+          "minute": 7,
+          "second": 56,
+          "scorer": "Benjamin Albrecht",
+          "team": "away",
+          "team_abbrev": "HSG Gab-Gais",
+          "seven_meter": false
+        },
+        {
+          "minute": 8,
+          "second": 13,
+          "scorer": "Manuel Berner",
+          "team": "away",
+          "team_abbrev": "HSG Gab-Gais",
+          "seven_meter": false
+        },
+        {
+          "minute": 8,
+          "second": 37,
+          "scorer": "Ole Winter",
+          "team": "home",
+          "team_abbrev": "TSV ALLOWA",
+          "seven_meter": false
+        },
+        {
+          "minute": 8,
+          "second": 47,
+          "scorer": "Benjamin Albrecht",
+          "team": "away",
+          "team_abbrev": "HSG Gab-Gais",
+          "seven_meter": false
+        },
+        {
+          "minute": 9,
+          "second": 10,
+          "scorer": "Lucca Holz",
+          "team": "home",
+          "team_abbrev": "TSV ALLOWA",
+          "seven_meter": false
+        },
+        {
+          "minute": 9,
+          "second": 22,
+          "scorer": "Manuel Berner",
+          "team": "away",
+          "team_abbrev": "HSG Gab-Gais",
+          "seven_meter": false
+        },
+        {
+          "minute": 9,
+          "second": 50,
+          "scorer": "Ben Blocher",
+          "team": "away",
+          "team_abbrev": "HSG Gab-Gais",
+          "seven_meter": false
+        },
+        {
+          "minute": 10,
+          "second": 9,
+          "scorer": "Theo Schneefu\u00df",
+          "team": "home",
+          "team_abbrev": "TSV ALLOWA",
+          "seven_meter": false
+        },
+        {
+          "minute": 10,
+          "second": 24,
+          "scorer": "Ole Winter",
+          "team": "home",
+          "team_abbrev": "TSV ALLOWA",
+          "seven_meter": false
+        },
+        {
+          "minute": 10,
+          "second": 42,
+          "scorer": "Nathan Reimold",
+          "team": "away",
+          "team_abbrev": "HSG Gab-Gais",
+          "seven_meter": false
+        },
+        {
+          "minute": 11,
+          "second": 22,
+          "scorer": "Ole Winter",
+          "team": "home",
+          "team_abbrev": "TSV ALLOWA",
+          "seven_meter": false
+        },
+        {
+          "minute": 11,
+          "second": 33,
+          "scorer": "Nathan Reimold",
+          "team": "away",
+          "team_abbrev": "HSG Gab-Gais",
+          "seven_meter": false
+        },
+        {
+          "minute": 11,
+          "second": 54,
+          "scorer": "Hannes Behringer",
+          "team": "home",
+          "team_abbrev": "TSV ALLOWA",
+          "seven_meter": false
+        },
+        {
+          "minute": 12,
+          "second": 15,
+          "scorer": "Mateo Braun",
+          "team": "away",
+          "team_abbrev": "HSG Gab-Gais",
+          "seven_meter": false
+        },
+        {
+          "minute": 13,
+          "second": 19,
+          "scorer": "Nathan Reimold",
+          "team": "away",
+          "team_abbrev": "HSG Gab-Gais",
+          "seven_meter": false
+        },
+        {
+          "minute": 14,
+          "second": 0,
+          "scorer": "Ben Blocher",
+          "team": "away",
+          "team_abbrev": "HSG Gab-Gais",
+          "seven_meter": true
+        },
+        {
+          "minute": 14,
+          "second": 13,
+          "scorer": "Max Bareiss",
+          "team": "home",
+          "team_abbrev": "TSV ALLOWA",
+          "seven_meter": false
+        },
+        {
+          "minute": 14,
+          "second": 34,
+          "scorer": "Manuel Berner",
+          "team": "away",
+          "team_abbrev": "HSG Gab-Gais",
+          "seven_meter": false
+        },
+        {
+          "minute": 14,
+          "second": 52,
+          "scorer": "Hannes Behringer",
+          "team": "home",
+          "team_abbrev": "TSV ALLOWA",
+          "seven_meter": false
+        },
+        {
+          "minute": 17,
+          "second": 0,
+          "scorer": "Ole Winter",
+          "team": "home",
+          "team_abbrev": "TSV ALLOWA",
+          "seven_meter": true
+        },
+        {
+          "minute": 18,
+          "second": 5,
+          "scorer": "Noe Ottenbacher",
+          "team": "away",
+          "team_abbrev": "HSG Gab-Gais",
+          "seven_meter": false
+        },
+        {
+          "minute": 18,
+          "second": 21,
+          "scorer": "Max Bareiss",
+          "team": "home",
+          "team_abbrev": "TSV ALLOWA",
+          "seven_meter": false
+        },
+        {
+          "minute": 18,
+          "second": 39,
+          "scorer": "Hannes Behringer",
+          "team": "home",
+          "team_abbrev": "TSV ALLOWA",
+          "seven_meter": false
+        },
+        {
+          "minute": 19,
+          "second": 13,
+          "scorer": "Noah Wahl",
+          "team": "home",
+          "team_abbrev": "TSV ALLOWA",
+          "seven_meter": false
+        },
+        {
+          "minute": 19,
+          "second": 38,
+          "scorer": "Ben Blocher",
+          "team": "away",
+          "team_abbrev": "HSG Gab-Gais",
+          "seven_meter": true
+        },
+        {
+          "minute": 20,
+          "second": 0,
+          "scorer": "Ole Winter",
+          "team": "home",
+          "team_abbrev": "TSV ALLOWA",
+          "seven_meter": false
+        },
+        {
+          "minute": 20,
+          "second": 19,
+          "scorer": "Noah Wahl",
+          "team": "home",
+          "team_abbrev": "TSV ALLOWA",
+          "seven_meter": false
+        },
+        {
+          "minute": 20,
+          "second": 34,
+          "scorer": "Manuel Berner",
+          "team": "away",
+          "team_abbrev": "HSG Gab-Gais",
+          "seven_meter": false
+        },
+        {
+          "minute": 20,
+          "second": 47,
+          "scorer": "Maxim Barei\u00df",
+          "team": "home",
+          "team_abbrev": "TSV ALLOWA",
+          "seven_meter": false
+        },
+        {
+          "minute": 22,
+          "second": 12,
+          "scorer": "Theo Schneefu\u00df",
+          "team": "home",
+          "team_abbrev": "TSV ALLOWA",
+          "seven_meter": false
+        },
+        {
+          "minute": 22,
+          "second": 37,
+          "scorer": "Ole Winter",
+          "team": "home",
+          "team_abbrev": "TSV ALLOWA",
+          "seven_meter": false
+        },
+        {
+          "minute": 22,
+          "second": 51,
+          "scorer": "Noe Ottenbacher",
+          "team": "away",
+          "team_abbrev": "HSG Gab-Gais",
+          "seven_meter": false
+        },
+        {
+          "minute": 24,
+          "second": 30,
+          "scorer": "Hannes Behringer",
+          "team": "home",
+          "team_abbrev": "TSV ALLOWA",
+          "seven_meter": false
+        },
+        {
+          "minute": 24,
+          "second": 48,
+          "scorer": "Manuel Berner",
+          "team": "away",
+          "team_abbrev": "HSG Gab-Gais",
+          "seven_meter": false
+        },
+        {
+          "minute": 25,
+          "second": 36,
+          "scorer": "Benjamin Albrecht",
+          "team": "away",
+          "team_abbrev": "HSG Gab-Gais",
+          "seven_meter": true
+        },
+        {
+          "minute": 25,
+          "second": 59,
+          "scorer": "Theo Schneefu\u00df",
+          "team": "home",
+          "team_abbrev": "TSV ALLOWA",
+          "seven_meter": false
+        },
+        {
+          "minute": 26,
+          "second": 53,
+          "scorer": "Ole Winter",
+          "team": "home",
+          "team_abbrev": "TSV ALLOWA",
+          "seven_meter": false
+        },
+        {
+          "minute": 27,
+          "second": 16,
+          "scorer": "Noe Ottenbacher",
+          "team": "away",
+          "team_abbrev": "HSG Gab-Gais",
+          "seven_meter": false
+        },
+        {
+          "minute": 28,
+          "second": 19,
+          "scorer": "Ole Winter",
+          "team": "home",
+          "team_abbrev": "TSV ALLOWA",
+          "seven_meter": false
+        },
+        {
+          "minute": 28,
+          "second": 53,
+          "scorer": "Maxim Barei\u00df",
+          "team": "home",
+          "team_abbrev": "TSV ALLOWA",
+          "seven_meter": false
+        },
+        {
+          "minute": 29,
+          "second": 18,
+          "scorer": "Lucca Holz",
+          "team": "home",
+          "team_abbrev": "TSV ALLOWA",
+          "seven_meter": false
+        },
+        {
+          "minute": 29,
+          "second": 34,
+          "scorer": "Manuel Berner",
+          "team": "away",
+          "team_abbrev": "HSG Gab-Gais",
+          "seven_meter": false
+        },
+        {
+          "minute": 30,
+          "second": 42,
+          "scorer": "Silas Fritz",
+          "team": "home",
+          "team_abbrev": "TSV ALLOWA",
+          "seven_meter": false
+        },
+        {
+          "minute": 32,
+          "second": 24,
+          "scorer": "Silas Fritz",
+          "team": "home",
+          "team_abbrev": "TSV ALLOWA",
+          "seven_meter": false
+        },
+        {
+          "minute": 34,
+          "second": 7,
+          "scorer": "Matteo Klenk",
+          "team": "home",
+          "team_abbrev": "TSV ALLOWA",
+          "seven_meter": false
+        },
+        {
+          "minute": 34,
+          "second": 23,
+          "scorer": "Mateo Braun",
+          "team": "away",
+          "team_abbrev": "HSG Gab-Gais",
+          "seven_meter": false
+        },
+        {
+          "minute": 34,
+          "second": 38,
+          "scorer": "Mika Zapfl",
+          "team": "home",
+          "team_abbrev": "TSV ALLOWA",
+          "seven_meter": false
+        },
+        {
+          "minute": 34,
+          "second": 46,
+          "scorer": "Nathan Reimold",
+          "team": "away",
+          "team_abbrev": "HSG Gab-Gais",
+          "seven_meter": false
+        },
+        {
+          "minute": 34,
+          "second": 56,
+          "scorer": "Silas Fritz",
+          "team": "home",
+          "team_abbrev": "TSV ALLOWA",
+          "seven_meter": false
+        },
+        {
+          "minute": 35,
+          "second": 15,
+          "scorer": "Noah Wahl",
+          "team": "home",
+          "team_abbrev": "TSV ALLOWA",
+          "seven_meter": false
+        },
+        {
+          "minute": 35,
+          "second": 59,
+          "scorer": "Noah Wahl",
+          "team": "home",
+          "team_abbrev": "TSV ALLOWA",
+          "seven_meter": true
+        },
+        {
+          "minute": 37,
+          "second": 8,
+          "scorer": "Nik Ottenbacher",
+          "team": "away",
+          "team_abbrev": "HSG Gab-Gais",
+          "seven_meter": false
+        },
+        {
+          "minute": 37,
+          "second": 19,
+          "scorer": "Mika Zapfl",
+          "team": "home",
+          "team_abbrev": "TSV ALLOWA",
+          "seven_meter": false
+        },
+        {
+          "minute": 37,
+          "second": 38,
+          "scorer": "Noe Ottenbacher",
+          "team": "away",
+          "team_abbrev": "HSG Gab-Gais",
+          "seven_meter": false
+        },
+        {
+          "minute": 37,
+          "second": 53,
+          "scorer": "Silas Fritz",
+          "team": "home",
+          "team_abbrev": "TSV ALLOWA",
+          "seven_meter": false
+        },
+        {
+          "minute": 38,
+          "second": 6,
+          "scorer": "Noe Ottenbacher",
+          "team": "away",
+          "team_abbrev": "HSG Gab-Gais",
+          "seven_meter": false
+        },
+        {
+          "minute": 38,
+          "second": 34,
+          "scorer": "Theo Schneefu\u00df",
+          "team": "home",
+          "team_abbrev": "TSV ALLOWA",
+          "seven_meter": false
+        },
+        {
+          "minute": 39,
+          "second": 18,
+          "scorer": "Lucca Holz",
+          "team": "home",
+          "team_abbrev": "TSV ALLOWA",
+          "seven_meter": true
+        },
+        {
+          "minute": 39,
+          "second": 41,
+          "scorer": "Theo Schneefu\u00df",
+          "team": "home",
+          "team_abbrev": "TSV ALLOWA",
+          "seven_meter": false
+        },
+        {
+          "minute": 39,
+          "second": 52,
+          "scorer": "Noe Ottenbacher",
+          "team": "away",
+          "team_abbrev": "HSG Gab-Gais",
+          "seven_meter": false
+        },
+        {
+          "minute": 40,
+          "second": 0,
+          "scorer": "Noe Ottenbacher",
+          "team": "away",
+          "team_abbrev": "HSG Gab-Gais",
+          "seven_meter": false
+        }
+      ],
+      "final_score": "44:29",
+      "half_duration": 30,
+      "officials": {
+        "referees": [
+          "Finn Bareiss"
+        ],
+        "timekeepers": [
+          "J\u00f6eg Sch\u00f6berl"
+        ],
+        "secretaries": [
+          "Klaus Berner"
+        ]
+      },
+      "graphic_path": "output/graphics/TSV_Alfdorf_Lorch_Wa_vs_HSG_Gablenberg-Gaisb_So_2311.png"
+    }
+  ]
+}

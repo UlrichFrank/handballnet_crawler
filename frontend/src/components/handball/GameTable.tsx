@@ -4,7 +4,7 @@ import { LeagueConfig, Game } from '../../types/handball';
 import { StatCell } from './StatCell';
 import { GameTimelineDialog } from './GameTimelineDialog';
 import { useGameHighlight, GameHighlightUtils } from '../../hooks/useGameHighlight';
-import { Activity } from 'lucide-react';
+import { Activity, Info } from 'lucide-react';
 
 interface GameTableProps {
   league: LeagueConfig;
@@ -13,6 +13,7 @@ interface GameTableProps {
 
 export function GameTable({ league, teamName }: GameTableProps) {
   const [players, setPlayers] = useState<string[]>([]);
+  const [selectedPlayer, setSelectedPlayer] = useState<string | null>(null);
   const [teamGames, setTeamGames] = useState<Game[]>([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
@@ -101,10 +102,10 @@ export function GameTable({ league, teamName }: GameTableProps) {
           <thead>
             <tr>
               <th
-                className="sticky left-0 z-20 bg-blue-900 dark:bg-blue-600 text-white px-4 py-3 text-left text-sm font-bold border border-blue-200 dark:border-blue-700 whitespace-nowrap"
-                style={{ minWidth: '180px' }}
+                className="sticky left-0 z-20 bg-blue-900 dark:bg-blue-600 text-white px-2 md:px-4 py-3 text-left text-xs md:text-sm font-bold border border-blue-200 dark:border-blue-700 whitespace-nowrap"
+                style={{ minWidth: '80px' }}
               >
-                Player
+                Spieler
               </th>
                             {teamGames.map((game, idx) => {
                 const fullGame = allGames.find(
@@ -207,10 +208,21 @@ export function GameTable({ league, teamName }: GameTableProps) {
             {players.map((playerName, playerIdx) => (
               <tr key={playerName} className={playerIdx % 2 === 0 ? 'bg-white dark:bg-slate-900 hover:bg-blue-50 dark:hover:bg-slate-800' : 'bg-gray-50 dark:bg-slate-800 hover:bg-blue-50 dark:hover:bg-slate-700'}>
                 <td
-                  className="sticky left-0 z-10 bg-inherit px-4 py-2 text-sm font-semibold border border-gray-200 dark:border-slate-700 text-gray-900 dark:text-gray-100 text-left whitespace-nowrap"
-                  style={{ minWidth: '180px' }}
+                  className="sticky left-0 z-10 bg-inherit px-2 md:px-4 py-2 text-xs md:text-sm font-semibold border border-gray-200 dark:border-slate-700 text-gray-900 dark:text-gray-100 text-left whitespace-nowrap"
+                  style={{ minWidth: '80px' }}
                 >
-                  {playerName}
+                  <div className="flex items-center gap-1">
+                    <span className="md:hidden">{playerName.split(' ').slice(-1)[0]}</span>
+                    <span className="hidden md:inline">{playerName}</span>
+                    <button
+                      onClick={() => setSelectedPlayer(playerName)}
+                      className="md:hidden p-1 hover:bg-blue-100 dark:hover:bg-blue-900 rounded transition-colors"
+                      title="Vollständiger Name"
+                      aria-label={`Info für ${playerName}`}
+                    >
+                      <Info className="w-4 h-4 text-blue-600 dark:text-blue-400" />
+                    </button>
+                  </div>
                 </td>
 
                 {/* Game stats */}
@@ -388,6 +400,77 @@ export function GameTable({ league, teamName }: GameTableProps) {
           halfDuration={league.half_duration}
           selectedTeamName={teamName}
         />
+      )}
+
+      {/* Player Info Modal */}
+      {selectedPlayer && (
+        <div
+          className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50 p-4"
+          onClick={() => setSelectedPlayer(null)}
+        >
+          <div
+            className="bg-white dark:bg-slate-900 rounded-lg shadow-xl max-w-sm w-full p-6"
+            onClick={(e) => e.stopPropagation()}
+          >
+            <div className="flex justify-between items-center mb-4">
+              <h2 className="text-2xl font-bold text-gray-900 dark:text-gray-100">
+                {selectedPlayer}
+              </h2>
+              <button
+                onClick={() => setSelectedPlayer(null)}
+                className="text-gray-500 hover:text-gray-700 dark:text-gray-400 dark:hover:text-gray-200 text-2xl font-bold"
+              >
+                ✕
+              </button>
+            </div>
+
+            <div className="space-y-3 mb-4">
+              <div className="border-t border-gray-200 dark:border-slate-700 pt-3">
+                <p className="text-sm text-gray-600 dark:text-gray-400 mb-2">
+                  📊 Statistiken über alle Spiele
+                </p>
+                {(() => {
+                  const totalStats = dataService.getPlayerTotalStats(teamGames, selectedPlayer);
+                  return (
+                    <div className="grid grid-cols-2 gap-2 text-sm">
+                      <div className="bg-blue-50 dark:bg-blue-900 p-2 rounded">
+                        <span className="text-gray-600 dark:text-gray-400">Tore</span>
+                        <p className="text-lg font-bold text-blue-900 dark:text-blue-100">
+                          {totalStats.goals}
+                        </p>
+                      </div>
+                      <div className="bg-green-50 dark:bg-green-900 p-2 rounded">
+                        <span className="text-gray-600 dark:text-gray-400">7m Versuche</span>
+                        <p className="text-lg font-bold text-green-900 dark:text-green-100">
+                          {totalStats.seven_meters}
+                        </p>
+                      </div>
+                      <div className="bg-yellow-50 dark:bg-yellow-900 p-2 rounded">
+                        <span className="text-gray-600 dark:text-gray-400">2-Min Strafen</span>
+                        <p className="text-lg font-bold text-yellow-900 dark:text-yellow-100">
+                          {totalStats.two_min_penalties}
+                        </p>
+                      </div>
+                      <div className="bg-red-50 dark:bg-red-900 p-2 rounded">
+                        <span className="text-gray-600 dark:text-gray-400">Rote Karten</span>
+                        <p className="text-lg font-bold text-red-900 dark:text-red-100">
+                          {totalStats.red_cards}
+                        </p>
+                      </div>
+                    </div>
+                  );
+                })()}
+              </div>
+            </div>
+
+            <button
+              onClick={() => setSelectedPlayer(null)}
+              className="w-full bg-blue-600 hover:bg-blue-700 dark:bg-blue-700 dark:hover:bg-blue-600 text-white font-semibold py-2 rounded-lg transition-colors"
+            >
+              Schließen
+            </button>
+          </div>
+        </div>
       )}
     </div>
   );

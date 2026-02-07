@@ -1,13 +1,13 @@
 import { NavLink, useLocation } from 'react-router-dom';
-import { BarChartIcon, TableIcon, InfoCircledIcon } from '@radix-ui/react-icons';
+import { PlayIcon, TableIcon, BarChartIcon, MixerVerticalIcon, InfoCircledIcon } from '@radix-ui/react-icons';
 import { LeagueSelector } from './handball/LeagueSelector';
 import { useLeague } from '../contexts/LeagueContext';
 
 const navigationItems = [
   {
     path: '/handball',
-    label: 'Spieler',
-    icon: BarChartIcon,
+    label: 'Spiele',
+    icon: PlayIcon,
   },
   {
     path: '/standings',
@@ -22,7 +22,7 @@ const navigationItems = [
   {
     path: '/officials',
     label: 'Spielleitung',
-    icon: BarChartIcon,
+    icon: MixerVerticalIcon,
   },
   {
     path: '/status',

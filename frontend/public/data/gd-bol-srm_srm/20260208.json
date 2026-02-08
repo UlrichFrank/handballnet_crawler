@@ -1,0 +1,666 @@
+{
+  "date": "20260208",
+  "games": [
+    {
+      "game_id": "handball4all.baden-wuerttemberg.8853277",
+      "order": 45,
+      "date": "Su, 08.02.",
+      "home": {
+        "team_name": "Team Stuttgart",
+        "players": [
+          {
+            "name": "Mats B\u00fchler",
+            "goals": 1,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Kilian Zhezhov",
+            "goals": 8,
+            "two_min_penalties": 1,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 1,
+            "seven_meters_goals": 1
+          },
+          {
+            "name": "Jakob Rehm",
+            "goals": 4,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Otto Leistert",
+            "goals": 2,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Maximilian Blanz",
+            "goals": 1,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Emil Zai\u00df",
+            "goals": 2,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Adrian Rebmann",
+            "goals": 3,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Neo Manz",
+            "goals": 1,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Samson Herbst",
+            "goals": 1,
+            "two_min_penalties": 1,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Enno Eich",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Jannes Frank",
+            "goals": 1,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Leo Volle",
+            "goals": 3,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Raphael Wurster",
+            "goals": 3,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Peter Fischer",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          }
+        ]
+      },
+      "away": {
+        "team_name": "TV Bittenfeld 1898",
+        "players": [
+          {
+            "name": "Max Randi",
+            "goals": 5,
+            "two_min_penalties": 2,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Mats Streuber",
+            "goals": 1,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "David Klein",
+            "goals": 2,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 1,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Maximilian Moldenhauer",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Levin Lobedank",
+            "goals": 6,
+            "two_min_penalties": 1,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Benjamin Faust",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Fynn Ockert",
+            "goals": 5,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Paul Stadler",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Tristan Schepp",
+            "goals": 1,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          }
+        ]
+      },
+      "goals_timeline": [
+        {
+          "minute": 1,
+          "second": 49,
+          "scorer": "Levin Lobedank",
+          "team": "home",
+          "team_abbrev": "TV Bittenfeld",
+          "seven_meter": false
+        },
+        {
+          "minute": 2,
+          "second": 45,
+          "scorer": "Levin Lobedank",
+          "team": "home",
+          "team_abbrev": "TV Bittenfeld",
+          "seven_meter": false
+        },
+        {
+          "minute": 3,
+          "second": 5,
+          "scorer": "Kilian Zhezhov",
+          "team": "away",
+          "team_abbrev": "Team Stuttgart",
+          "seven_meter": false
+        },
+        {
+          "minute": 3,
+          "second": 24,
+          "scorer": "Max Randi",
+          "team": "home",
+          "team_abbrev": "TV Bittenfeld",
+          "seven_meter": false
+        },
+        {
+          "minute": 3,
+          "second": 24,
+          "scorer": "Max Randi",
+          "team": "home",
+          "team_abbrev": "TV Bittenfeld",
+          "seven_meter": false
+        },
+        {
+          "minute": 5,
+          "second": 16,
+          "scorer": "Jakob Rehm",
+          "team": "away",
+          "team_abbrev": "Team Stuttgart",
+          "seven_meter": false
+        },
+        {
+          "minute": 6,
+          "second": 6,
+          "scorer": "David Klein",
+          "team": "home",
+          "team_abbrev": "TV Bittenfeld",
+          "seven_meter": false
+        },
+        {
+          "minute": 6,
+          "second": 16,
+          "scorer": "Otto Leistert",
+          "team": "away",
+          "team_abbrev": "Team Stuttgart",
+          "seven_meter": false
+        },
+        {
+          "minute": 8,
+          "second": 35,
+          "scorer": "Emil Zai\u00df",
+          "team": "away",
+          "team_abbrev": "Team Stuttgart",
+          "seven_meter": false
+        },
+        {
+          "minute": 10,
+          "second": 32,
+          "scorer": "Jakob Rehm",
+          "team": "away",
+          "team_abbrev": "Team Stuttgart",
+          "seven_meter": false
+        },
+        {
+          "minute": 10,
+          "second": 54,
+          "scorer": "Max Randi",
+          "team": "home",
+          "team_abbrev": "TV Bittenfeld",
+          "seven_meter": false
+        },
+        {
+          "minute": 10,
+          "second": 54,
+          "scorer": "Fynn Ockert",
+          "team": "home",
+          "team_abbrev": "TV Bittenfeld",
+          "seven_meter": false
+        },
+        {
+          "minute": 11,
+          "second": 18,
+          "scorer": "Kilian Zhezhov",
+          "team": "away",
+          "team_abbrev": "Team Stuttgart",
+          "seven_meter": false
+        },
+        {
+          "minute": 11,
+          "second": 55,
+          "scorer": "Adrian Rebmann",
+          "team": "away",
+          "team_abbrev": "Team Stuttgart",
+          "seven_meter": false
+        },
+        {
+          "minute": 13,
+          "second": 46,
+          "scorer": "Adrian Rebmann",
+          "team": "away",
+          "team_abbrev": "Team Stuttgart",
+          "seven_meter": false
+        },
+        {
+          "minute": 14,
+          "second": 26,
+          "scorer": "Kilian Zhezhov",
+          "team": "away",
+          "team_abbrev": "Team Stuttgart",
+          "seven_meter": false
+        },
+        {
+          "minute": 16,
+          "second": 46,
+          "scorer": "Samson Herbst",
+          "team": "away",
+          "team_abbrev": "Team Stuttgart",
+          "seven_meter": false
+        },
+        {
+          "minute": 17,
+          "second": 52,
+          "scorer": "Leo Volle",
+          "team": "away",
+          "team_abbrev": "Team Stuttgart",
+          "seven_meter": false
+        },
+        {
+          "minute": 17,
+          "second": 52,
+          "scorer": "Raphael Wurster",
+          "team": "away",
+          "team_abbrev": "Team Stuttgart",
+          "seven_meter": false
+        },
+        {
+          "minute": 18,
+          "second": 23,
+          "scorer": "Fynn Ockert",
+          "team": "home",
+          "team_abbrev": "TV Bittenfeld",
+          "seven_meter": false
+        },
+        {
+          "minute": 18,
+          "second": 57,
+          "scorer": "Raphael Wurster",
+          "team": "away",
+          "team_abbrev": "Team Stuttgart",
+          "seven_meter": false
+        },
+        {
+          "minute": 20,
+          "second": 46,
+          "scorer": "David Klein",
+          "team": "home",
+          "team_abbrev": "TV Bittenfeld",
+          "seven_meter": false
+        },
+        {
+          "minute": 22,
+          "second": 15,
+          "scorer": "Kilian Zhezhov",
+          "team": "away",
+          "team_abbrev": "Team Stuttgart",
+          "seven_meter": false
+        },
+        {
+          "minute": 22,
+          "second": 45,
+          "scorer": "Levin Lobedank",
+          "team": "home",
+          "team_abbrev": "TV Bittenfeld",
+          "seven_meter": false
+        },
+        {
+          "minute": 22,
+          "second": 56,
+          "scorer": "Raphael Wurster",
+          "team": "away",
+          "team_abbrev": "Team Stuttgart",
+          "seven_meter": false
+        },
+        {
+          "minute": 23,
+          "second": 15,
+          "scorer": "Max Randi",
+          "team": "home",
+          "team_abbrev": "TV Bittenfeld",
+          "seven_meter": false
+        },
+        {
+          "minute": 24,
+          "second": 26,
+          "scorer": "Kilian Zhezhov",
+          "team": "away",
+          "team_abbrev": "Team Stuttgart",
+          "seven_meter": true
+        },
+        {
+          "minute": 24,
+          "second": 35,
+          "scorer": "Neo Manz",
+          "team": "away",
+          "team_abbrev": "Team Stuttgart",
+          "seven_meter": false
+        },
+        {
+          "minute": 25,
+          "second": 28,
+          "scorer": "Adrian Rebmann",
+          "team": "away",
+          "team_abbrev": "Team Stuttgart",
+          "seven_meter": false
+        },
+        {
+          "minute": 26,
+          "second": 41,
+          "scorer": "Mats Streuber",
+          "team": "home",
+          "team_abbrev": "TV Bittenfeld",
+          "seven_meter": false
+        },
+        {
+          "minute": 26,
+          "second": 57,
+          "scorer": "Kilian Zhezhov",
+          "team": "away",
+          "team_abbrev": "Team Stuttgart",
+          "seven_meter": false
+        },
+        {
+          "minute": 27,
+          "second": 21,
+          "scorer": "Tristan Schepp",
+          "team": "home",
+          "team_abbrev": "TV Bittenfeld",
+          "seven_meter": false
+        },
+        {
+          "minute": 27,
+          "second": 41,
+          "scorer": "Maximilian Blanz",
+          "team": "away",
+          "team_abbrev": "Team Stuttgart",
+          "seven_meter": false
+        },
+        {
+          "minute": 28,
+          "second": 37,
+          "scorer": "Fynn Ockert",
+          "team": "home",
+          "team_abbrev": "TV Bittenfeld",
+          "seven_meter": false
+        },
+        {
+          "minute": 28,
+          "second": 44,
+          "scorer": "Kilian Zhezhov",
+          "team": "away",
+          "team_abbrev": "Team Stuttgart",
+          "seven_meter": false
+        },
+        {
+          "minute": 29,
+          "second": 23,
+          "scorer": "Emil Zai\u00df",
+          "team": "away",
+          "team_abbrev": "Team Stuttgart",
+          "seven_meter": false
+        },
+        {
+          "minute": 29,
+          "second": 55,
+          "scorer": "Kilian Zhezhov",
+          "team": "away",
+          "team_abbrev": "Team Stuttgart",
+          "seven_meter": false
+        },
+        {
+          "minute": 31,
+          "second": 2,
+          "scorer": "Levin Lobedank",
+          "team": "home",
+          "team_abbrev": "TV Bittenfeld",
+          "seven_meter": false
+        },
+        {
+          "minute": 31,
+          "second": 29,
+          "scorer": "Jannes Frank",
+          "team": "away",
+          "team_abbrev": "Team Stuttgart",
+          "seven_meter": false
+        },
+        {
+          "minute": 31,
+          "second": 45,
+          "scorer": "Jakob Rehm",
+          "team": "away",
+          "team_abbrev": "Team Stuttgart",
+          "seven_meter": false
+        },
+        {
+          "minute": 32,
+          "second": 30,
+          "scorer": "Fynn Ockert",
+          "team": "home",
+          "team_abbrev": "TV Bittenfeld",
+          "seven_meter": false
+        },
+        {
+          "minute": 34,
+          "second": 6,
+          "scorer": "Max Randi",
+          "team": "home",
+          "team_abbrev": "TV Bittenfeld",
+          "seven_meter": false
+        },
+        {
+          "minute": 34,
+          "second": 15,
+          "scorer": "Jakob Rehm",
+          "team": "away",
+          "team_abbrev": "Team Stuttgart",
+          "seven_meter": false
+        },
+        {
+          "minute": 35,
+          "second": 5,
+          "scorer": "Fynn Ockert",
+          "team": "home",
+          "team_abbrev": "TV Bittenfeld",
+          "seven_meter": false
+        },
+        {
+          "minute": 35,
+          "second": 17,
+          "scorer": "Otto Leistert",
+          "team": "away",
+          "team_abbrev": "Team Stuttgart",
+          "seven_meter": false
+        },
+        {
+          "minute": 36,
+          "second": 52,
+          "scorer": "Levin Lobedank",
+          "team": "home",
+          "team_abbrev": "TV Bittenfeld",
+          "seven_meter": false
+        },
+        {
+          "minute": 39,
+          "second": 4,
+          "scorer": "Mats B\u00fchler",
+          "team": "away",
+          "team_abbrev": "Team Stuttgart",
+          "seven_meter": false
+        },
+        {
+          "minute": 39,
+          "second": 21,
+          "scorer": "Levin Lobedank",
+          "team": "home",
+          "team_abbrev": "TV Bittenfeld",
+          "seven_meter": false
+        },
+        {
+          "minute": 39,
+          "second": 58,
+          "scorer": "Leo Volle",
+          "team": "away",
+          "team_abbrev": "Team Stuttgart",
+          "seven_meter": false
+        },
+        {
+          "minute": 39,
+          "second": 58,
+          "scorer": "Leo Volle",
+          "team": "away",
+          "team_abbrev": "Team Stuttgart",
+          "seven_meter": false
+        }
+      ],
+      "final_score": "20:30",
+      "half_duration": 30,
+      "officials": {
+        "referees": [
+          "Leon Pfl\u00fcger"
+        ],
+        "timekeepers": [
+          "Marcus Zai\u00df"
+        ],
+        "secretaries": [
+          "Christoph Streuber"
+        ]
+      },
+      "graphic_path": "output/graphics/Team_Stuttgart_vs_TV_Bittenfeld_1898_Su_0802.png"
+    }
+  ]
+}

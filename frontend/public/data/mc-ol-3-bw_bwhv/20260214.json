@@ -1,0 +1,782 @@
+{
+  "date": "20260214",
+  "games": [
+    {
+      "game_id": "handball4all.baden-wuerttemberg.8669261",
+      "order": 75,
+      "date": "Sa, 14.02.",
+      "home": {
+        "team_name": "Spvgg M\u00f6ssingen",
+        "players": [
+          {
+            "name": "Michel Betz",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Milo Gustav Freiheit",
+            "goals": 1,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Bennett Schneider",
+            "goals": 3,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 1,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Lasse Herter",
+            "goals": 4,
+            "two_min_penalties": 1,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Matti Noa Rein",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Jakob Lange",
+            "goals": 1,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Josua Ehmann",
+            "goals": 11,
+            "two_min_penalties": 0,
+            "yellow_cards": 1,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 4,
+            "seven_meters_goals": 4
+          },
+          {
+            "name": "Jakob Wagner",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Arvid Hipp",
+            "goals": 7,
+            "two_min_penalties": 1,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 1,
+            "seven_meters_goals": 1
+          },
+          {
+            "name": "Keno Sickinger",
+            "goals": 2,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          }
+        ]
+      },
+      "away": {
+        "team_name": "HSG Konstanz",
+        "players": [
+          {
+            "name": "Sujann Kageendran",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Kilian Senger",
+            "goals": 6,
+            "two_min_penalties": 0,
+            "yellow_cards": 1,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Suriya Kageendran",
+            "goals": 4,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Philipp Krause-Wichmann",
+            "goals": 3,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Max Bergen",
+            "goals": 2,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 1,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Arun Schellinger",
+            "goals": 3,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 1,
+            "seven_meters_goals": 1
+          },
+          {
+            "name": "Oskar Buhl",
+            "goals": 1,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Niklas Reichmann",
+            "goals": 1,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Ben Schr\u00f6dl",
+            "goals": 6,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 1,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Carl Wissmann",
+            "goals": 1,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Manuel Sauter",
+            "goals": 6,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Noan Robert Steppeler",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Ruben Baier",
+            "goals": 2,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Lion Hehr",
+            "goals": 1,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Oliver Gerd Radimirsch",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          }
+        ]
+      },
+      "goals_timeline": [
+        {
+          "minute": 1,
+          "second": 42,
+          "scorer": "Arvid Hipp",
+          "team": "home",
+          "team_abbrev": "Spvgg M\u00f6ssing.",
+          "seven_meter": false
+        },
+        {
+          "minute": 5,
+          "second": 25,
+          "scorer": "Manuel Sauter",
+          "team": "away",
+          "team_abbrev": "HSG Konstanz",
+          "seven_meter": false
+        },
+        {
+          "minute": 6,
+          "second": 12,
+          "scorer": "Keno Sickinger",
+          "team": "home",
+          "team_abbrev": "Spvgg M\u00f6ssing.",
+          "seven_meter": false
+        },
+        {
+          "minute": 6,
+          "second": 29,
+          "scorer": "Kilian Senger",
+          "team": "away",
+          "team_abbrev": "HSG Konstanz",
+          "seven_meter": false
+        },
+        {
+          "minute": 8,
+          "second": 0,
+          "scorer": "Kilian Senger",
+          "team": "away",
+          "team_abbrev": "HSG Konstanz",
+          "seven_meter": false
+        },
+        {
+          "minute": 8,
+          "second": 18,
+          "scorer": "Arvid Hipp",
+          "team": "home",
+          "team_abbrev": "Spvgg M\u00f6ssing.",
+          "seven_meter": false
+        },
+        {
+          "minute": 8,
+          "second": 44,
+          "scorer": "Arun Schellinger",
+          "team": "away",
+          "team_abbrev": "HSG Konstanz",
+          "seven_meter": false
+        },
+        {
+          "minute": 10,
+          "second": 5,
+          "scorer": "Manuel Sauter",
+          "team": "away",
+          "team_abbrev": "HSG Konstanz",
+          "seven_meter": false
+        },
+        {
+          "minute": 10,
+          "second": 49,
+          "scorer": "Josua Ehmann",
+          "team": "home",
+          "team_abbrev": "Spvgg M\u00f6ssing.",
+          "seven_meter": false
+        },
+        {
+          "minute": 11,
+          "second": 2,
+          "scorer": "Manuel Sauter",
+          "team": "away",
+          "team_abbrev": "HSG Konstanz",
+          "seven_meter": false
+        },
+        {
+          "minute": 11,
+          "second": 21,
+          "scorer": "Kilian Senger",
+          "team": "away",
+          "team_abbrev": "HSG Konstanz",
+          "seven_meter": false
+        },
+        {
+          "minute": 11,
+          "second": 57,
+          "scorer": "Lasse Herter",
+          "team": "home",
+          "team_abbrev": "Spvgg M\u00f6ssing.",
+          "seven_meter": false
+        },
+        {
+          "minute": 12,
+          "second": 29,
+          "scorer": "Arun Schellinger",
+          "team": "away",
+          "team_abbrev": "HSG Konstanz",
+          "seven_meter": true
+        },
+        {
+          "minute": 12,
+          "second": 46,
+          "scorer": "Ruben Baier",
+          "team": "away",
+          "team_abbrev": "HSG Konstanz",
+          "seven_meter": false
+        },
+        {
+          "minute": 13,
+          "second": 21,
+          "scorer": "Ruben Baier",
+          "team": "away",
+          "team_abbrev": "HSG Konstanz",
+          "seven_meter": false
+        },
+        {
+          "minute": 14,
+          "second": 28,
+          "scorer": "Max Bergen",
+          "team": "away",
+          "team_abbrev": "HSG Konstanz",
+          "seven_meter": false
+        },
+        {
+          "minute": 15,
+          "second": 22,
+          "scorer": "Arvid Hipp",
+          "team": "home",
+          "team_abbrev": "Spvgg M\u00f6ssing.",
+          "seven_meter": false
+        },
+        {
+          "minute": 15,
+          "second": 49,
+          "scorer": "Manuel Sauter",
+          "team": "away",
+          "team_abbrev": "HSG Konstanz",
+          "seven_meter": false
+        },
+        {
+          "minute": 18,
+          "second": 15,
+          "scorer": "Josua Ehmann",
+          "team": "home",
+          "team_abbrev": "Spvgg M\u00f6ssing.",
+          "seven_meter": true
+        },
+        {
+          "minute": 19,
+          "second": 57,
+          "scorer": "Jakob Lange",
+          "team": "home",
+          "team_abbrev": "Spvgg M\u00f6ssing.",
+          "seven_meter": false
+        },
+        {
+          "minute": 20,
+          "second": 23,
+          "scorer": "Niklas Reichmann",
+          "team": "away",
+          "team_abbrev": "HSG Konstanz",
+          "seven_meter": false
+        },
+        {
+          "minute": 20,
+          "second": 45,
+          "scorer": "Bennett Schneider",
+          "team": "home",
+          "team_abbrev": "Spvgg M\u00f6ssing.",
+          "seven_meter": false
+        },
+        {
+          "minute": 21,
+          "second": 48,
+          "scorer": "Ben Schr\u00f6dl",
+          "team": "away",
+          "team_abbrev": "HSG Konstanz",
+          "seven_meter": false
+        },
+        {
+          "minute": 23,
+          "second": 21,
+          "scorer": "Arvid Hipp",
+          "team": "home",
+          "team_abbrev": "Spvgg M\u00f6ssing.",
+          "seven_meter": true
+        },
+        {
+          "minute": 23,
+          "second": 51,
+          "scorer": "Ben Schr\u00f6dl",
+          "team": "away",
+          "team_abbrev": "HSG Konstanz",
+          "seven_meter": false
+        },
+        {
+          "minute": 25,
+          "second": 22,
+          "scorer": "Ben Schr\u00f6dl",
+          "team": "away",
+          "team_abbrev": "HSG Konstanz",
+          "seven_meter": false
+        },
+        {
+          "minute": 26,
+          "second": 18,
+          "scorer": "Milo Freiheit",
+          "team": "home",
+          "team_abbrev": "Spvgg M\u00f6ssing.",
+          "seven_meter": false
+        },
+        {
+          "minute": 27,
+          "second": 1,
+          "scorer": "Ben Schr\u00f6dl",
+          "team": "away",
+          "team_abbrev": "HSG Konstanz",
+          "seven_meter": false
+        },
+        {
+          "minute": 27,
+          "second": 22,
+          "scorer": "Carl Wissmann",
+          "team": "away",
+          "team_abbrev": "HSG Konstanz",
+          "seven_meter": false
+        },
+        {
+          "minute": 27,
+          "second": 53,
+          "scorer": "Arvid Hipp",
+          "team": "home",
+          "team_abbrev": "Spvgg M\u00f6ssing.",
+          "seven_meter": false
+        },
+        {
+          "minute": 28,
+          "second": 19,
+          "scorer": "Ben Schr\u00f6dl",
+          "team": "away",
+          "team_abbrev": "HSG Konstanz",
+          "seven_meter": false
+        },
+        {
+          "minute": 28,
+          "second": 49,
+          "scorer": "Suriya Kageendran",
+          "team": "away",
+          "team_abbrev": "HSG Konstanz",
+          "seven_meter": false
+        },
+        {
+          "minute": 29,
+          "second": 2,
+          "scorer": "Bennett Schneider",
+          "team": "home",
+          "team_abbrev": "Spvgg M\u00f6ssing.",
+          "seven_meter": false
+        },
+        {
+          "minute": 29,
+          "second": 24,
+          "scorer": "Ben Schr\u00f6dl",
+          "team": "away",
+          "team_abbrev": "HSG Konstanz",
+          "seven_meter": false
+        },
+        {
+          "minute": 29,
+          "second": 59,
+          "scorer": "Lasse Herter",
+          "team": "home",
+          "team_abbrev": "Spvgg M\u00f6ssing.",
+          "seven_meter": false
+        },
+        {
+          "minute": 30,
+          "second": 10,
+          "scorer": "Suriya Kageendran",
+          "team": "away",
+          "team_abbrev": "HSG Konstanz",
+          "seven_meter": false
+        },
+        {
+          "minute": 30,
+          "second": 37,
+          "scorer": "Bennett Schneider",
+          "team": "home",
+          "team_abbrev": "Spvgg M\u00f6ssing.",
+          "seven_meter": false
+        },
+        {
+          "minute": 31,
+          "second": 15,
+          "scorer": "Oskar Buhl",
+          "team": "away",
+          "team_abbrev": "HSG Konstanz",
+          "seven_meter": false
+        },
+        {
+          "minute": 32,
+          "second": 18,
+          "scorer": "Keno Sickinger",
+          "team": "home",
+          "team_abbrev": "Spvgg M\u00f6ssing.",
+          "seven_meter": false
+        },
+        {
+          "minute": 32,
+          "second": 29,
+          "scorer": "Suriya Kageendran",
+          "team": "away",
+          "team_abbrev": "HSG Konstanz",
+          "seven_meter": false
+        },
+        {
+          "minute": 32,
+          "second": 52,
+          "scorer": "Josua Ehmann",
+          "team": "home",
+          "team_abbrev": "Spvgg M\u00f6ssing.",
+          "seven_meter": true
+        },
+        {
+          "minute": 34,
+          "second": 56,
+          "scorer": "Lion Hehr",
+          "team": "away",
+          "team_abbrev": "HSG Konstanz",
+          "seven_meter": false
+        },
+        {
+          "minute": 35,
+          "second": 44,
+          "scorer": "Josua Ehmann",
+          "team": "home",
+          "team_abbrev": "Spvgg M\u00f6ssing.",
+          "seven_meter": true
+        },
+        {
+          "minute": 37,
+          "second": 27,
+          "scorer": "Josua Ehmann",
+          "team": "home",
+          "team_abbrev": "Spvgg M\u00f6ssing.",
+          "seven_meter": false
+        },
+        {
+          "minute": 37,
+          "second": 50,
+          "scorer": "Kilian Senger",
+          "team": "away",
+          "team_abbrev": "HSG Konstanz",
+          "seven_meter": false
+        },
+        {
+          "minute": 38,
+          "second": 10,
+          "scorer": "Manuel Sauter",
+          "team": "away",
+          "team_abbrev": "HSG Konstanz",
+          "seven_meter": false
+        },
+        {
+          "minute": 38,
+          "second": 23,
+          "scorer": "Josua Ehmann",
+          "team": "home",
+          "team_abbrev": "Spvgg M\u00f6ssing.",
+          "seven_meter": false
+        },
+        {
+          "minute": 38,
+          "second": 57,
+          "scorer": "Kilian Senger",
+          "team": "away",
+          "team_abbrev": "HSG Konstanz",
+          "seven_meter": false
+        },
+        {
+          "minute": 39,
+          "second": 45,
+          "scorer": "Josua Ehmann",
+          "team": "home",
+          "team_abbrev": "Spvgg M\u00f6ssing.",
+          "seven_meter": false
+        },
+        {
+          "minute": 40,
+          "second": 9,
+          "scorer": "Suriya Kageendran",
+          "team": "away",
+          "team_abbrev": "HSG Konstanz",
+          "seven_meter": false
+        },
+        {
+          "minute": 40,
+          "second": 52,
+          "scorer": "Josua Ehmann",
+          "team": "home",
+          "team_abbrev": "Spvgg M\u00f6ssing.",
+          "seven_meter": false
+        },
+        {
+          "minute": 41,
+          "second": 5,
+          "scorer": "Max Bergen",
+          "team": "away",
+          "team_abbrev": "HSG Konstanz",
+          "seven_meter": false
+        },
+        {
+          "minute": 41,
+          "second": 17,
+          "scorer": "Lasse Herter",
+          "team": "home",
+          "team_abbrev": "Spvgg M\u00f6ssing.",
+          "seven_meter": false
+        },
+        {
+          "minute": 43,
+          "second": 41,
+          "scorer": "Lasse Herter",
+          "team": "home",
+          "team_abbrev": "Spvgg M\u00f6ssing.",
+          "seven_meter": false
+        },
+        {
+          "minute": 43,
+          "second": 55,
+          "scorer": "Manuel Sauter",
+          "team": "away",
+          "team_abbrev": "HSG Konstanz",
+          "seven_meter": false
+        },
+        {
+          "minute": 44,
+          "second": 30,
+          "scorer": "Josua Ehmann",
+          "team": "home",
+          "team_abbrev": "Spvgg M\u00f6ssing.",
+          "seven_meter": true
+        },
+        {
+          "minute": 46,
+          "second": 32,
+          "scorer": "Arvid Hipp",
+          "team": "home",
+          "team_abbrev": "Spvgg M\u00f6ssing.",
+          "seven_meter": false
+        },
+        {
+          "minute": 47,
+          "second": 53,
+          "scorer": "Josua Ehmann",
+          "team": "home",
+          "team_abbrev": "Spvgg M\u00f6ssing.",
+          "seven_meter": false
+        },
+        {
+          "minute": 48,
+          "second": 9,
+          "scorer": "Arun Schellinger",
+          "team": "away",
+          "team_abbrev": "HSG Konstanz",
+          "seven_meter": false
+        },
+        {
+          "minute": 48,
+          "second": 20,
+          "scorer": "Arvid Hipp",
+          "team": "home",
+          "team_abbrev": "Spvgg M\u00f6ssing.",
+          "seven_meter": false
+        },
+        {
+          "minute": 49,
+          "second": 4,
+          "scorer": "Josua Ehmann",
+          "team": "home",
+          "team_abbrev": "Spvgg M\u00f6ssing.",
+          "seven_meter": false
+        },
+        {
+          "minute": 49,
+          "second": 49,
+          "scorer": "Kilian Senger",
+          "team": "away",
+          "team_abbrev": "HSG Konstanz",
+          "seven_meter": false
+        }
+      ],
+      "final_score": "29:33",
+      "half_duration": 30,
+      "officials": {
+        "referees": [
+          "Marc Beck"
+        ],
+        "timekeepers": [
+          "Diana Betz"
+        ],
+        "secretaries": [
+          "Claudia Ehmann"
+        ]
+      },
+      "graphic_path": "output/graphics/Spvgg_M\u00f6ssingen_vs_HSG_Konstanz_Sa_1402.png"
+    }
+  ]
+}

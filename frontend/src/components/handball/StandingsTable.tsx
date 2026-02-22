@@ -138,7 +138,7 @@ export function StandingsTable({ league }: StandingsTableProps) {
       <table className="w-full">
         <thead>
           <tr className="bg-blue-900 dark:bg-blue-600 text-white border-b border-blue-200 dark:border-blue-700">
-            <th className="px-4 py-3 text-left text-sm font-bold">Platz</th>
+            <th className="px-4 py-3 text-left text-sm font-bold">Rang</th>
             <th className="px-4 py-3 text-left text-sm font-bold">Team</th>
             <th className="px-4 py-3 text-center text-sm font-bold">Sp.</th>
             <th className="px-4 py-3 text-center text-sm font-bold">S</th>
@@ -154,7 +154,7 @@ export function StandingsTable({ league }: StandingsTableProps) {
               key={standing.team}
               className={idx % 2 === 0 ? 'bg-white dark:bg-slate-900 hover:bg-blue-50 dark:hover:bg-slate-800' : 'bg-gray-50 dark:bg-slate-800 hover:bg-blue-50 dark:hover:bg-slate-700'}
             >
-              <td className="px-4 py-3 text-center font-bold text-gray-900 dark:text-gray-100 border-b border-gray-200 dark:border-slate-700">
+              <td className="px-4 py-3 text-left font-bold text-gray-900 dark:text-gray-100 border-b border-gray-200 dark:border-slate-700">
                 {idx + 1}
               </td>
               <td className="px-4 py-3 text-left text-gray-900 dark:text-gray-100 border-b border-gray-200 dark:border-slate-700">

@@ -1,5 +1,6 @@
 import { useLeague } from '../contexts/LeagueContext';
 import { StandingsTable } from '../components/handball/StandingsTable';
+import { CrossTable } from '../components/handball/CrossTable';
 
 export function StandingsPage() {
   const { selectedLeague } = useLeague();
@@ -17,12 +18,8 @@ export function StandingsPage() {
 
   return (
     <div className="space-y-6 p-6 bg-gray-50 dark:bg-slate-950 min-h-screen">
-      <div>
-        <h1 className="text-4xl font-bold text-blue-900 dark:text-blue-400 mb-2">Tabelle</h1>
-        <p className="text-gray-600 dark:text-gray-400">Liga-Standings und Rankings</p>
-      </div>
-
       <StandingsTable league={selectedLeague} />
+      <CrossTable league={selectedLeague} />
     </div>
   );
 }

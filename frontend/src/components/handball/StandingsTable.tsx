@@ -134,56 +134,63 @@ export function StandingsTable({ league }: StandingsTableProps) {
   }
 
   return (
-    <div className="bg-white dark:bg-slate-900 rounded-lg shadow-lg overflow-hidden">
-      <table className="w-full">
-        <thead>
-          <tr className="bg-blue-900 dark:bg-blue-600 text-white border-b border-blue-200 dark:border-blue-700">
-            <th className="px-4 py-3 text-left text-sm font-bold">Platz</th>
-            <th className="px-4 py-3 text-left text-sm font-bold">Team</th>
-            <th className="px-4 py-3 text-center text-sm font-bold">Sp.</th>
-            <th className="px-4 py-3 text-center text-sm font-bold">S</th>
-            <th className="px-4 py-3 text-center text-sm font-bold">U</th>
-            <th className="px-4 py-3 text-center text-sm font-bold">N</th>
-            <th className="px-4 py-3 text-center text-sm font-bold">T</th>
-            <th className="px-4 py-3 text-center text-sm font-bold">+/-</th>
-          </tr>
-        </thead>
-        <tbody>
-          {standings.map((standing, idx) => (
-            <tr
-              key={standing.team}
-              className={idx % 2 === 0 ? 'bg-white dark:bg-slate-900 hover:bg-blue-50 dark:hover:bg-slate-800' : 'bg-gray-50 dark:bg-slate-800 hover:bg-blue-50 dark:hover:bg-slate-700'}
-            >
-              <td className="px-4 py-3 text-center font-bold text-gray-900 dark:text-gray-100 border-b border-gray-200 dark:border-slate-700">
-                {idx + 1}
-              </td>
-              <td className="px-4 py-3 text-left text-gray-900 dark:text-gray-100 border-b border-gray-200 dark:border-slate-700">
-                {standing.team}
-              </td>
-              <td className="px-4 py-3 text-center text-gray-900 dark:text-gray-100 border-b border-gray-200 dark:border-slate-700">
-                {standing.games}
-              </td>
-              <td className="px-4 py-3 text-center text-gray-900 dark:text-gray-100 border-b border-gray-200 dark:border-slate-700">
-                {standing.wins}
-              </td>
-              <td className="px-4 py-3 text-center text-gray-900 dark:text-gray-100 border-b border-gray-200 dark:border-slate-700">
-                {standing.draws}
-              </td>
-              <td className="px-4 py-3 text-center text-gray-900 dark:text-gray-100 border-b border-gray-200 dark:border-slate-700">
-                {standing.losses}
-              </td>
-              <td className="px-4 py-3 text-center text-gray-900 dark:text-gray-100 border-b border-gray-200 dark:border-slate-700">
-                {standing.goalsFor}:{standing.goalsAgainst} <span className={standing.goalDiff > 0 ? 'text-green-600 dark:text-green-400 font-semibold' : standing.goalDiff < 0 ? 'text-red-600 dark:text-red-400 font-semibold' : 'text-gray-500'}>({standing.goalDiff > 0 ? '+' : ''}{standing.goalDiff})</span>
-              </td>
-              <td className="px-4 py-3 text-center text-gray-900 dark:text-gray-100 border-b border-gray-200 dark:border-slate-700">
-                <span>{standing.pointsFor}</span>
-                <span className="text-gray-400 dark:text-gray-500 mx-1">/</span>
-                <span>{standing.pointsAgainst}</span>
-              </td>
+    <div>
+      <div>
+        <h1 className="text-4xl font-bold text-blue-900 dark:text-blue-400 mb-2">Tabelle</h1>
+        <p className="text-gray-600 dark:text-gray-400">Liga-Standings und Rankings</p>
+      </div>
+
+      <div className="bg-white dark:bg-slate-900 rounded-lg shadow-lg overflow-hidden">
+        <table className="w-full">
+          <thead>
+            <tr className="bg-blue-900 dark:bg-blue-600 text-white border-b border-blue-200 dark:border-blue-700">
+              <th className="px-4 py-3 text-left text-sm font-bold">Rang</th>
+              <th className="px-4 py-3 text-left text-sm font-bold">Team</th>
+              <th className="px-4 py-3 text-center text-sm font-bold">Sp.</th>
+              <th className="px-4 py-3 text-center text-sm font-bold">S</th>
+              <th className="px-4 py-3 text-center text-sm font-bold">U</th>
+              <th className="px-4 py-3 text-center text-sm font-bold">N</th>
+              <th className="px-4 py-3 text-center text-sm font-bold">T</th>
+              <th className="px-4 py-3 text-center text-sm font-bold">+/-</th>
             </tr>
-          ))}
-        </tbody>
-      </table>
+          </thead>
+          <tbody>
+            {standings.map((standing, idx) => (
+              <tr
+                key={standing.team}
+                className={idx % 2 === 0 ? 'bg-white dark:bg-slate-900 hover:bg-blue-50 dark:hover:bg-slate-800' : 'bg-gray-50 dark:bg-slate-800 hover:bg-blue-50 dark:hover:bg-slate-700'}
+              >
+                <td className="px-4 py-3 text-left font-bold text-gray-900 dark:text-gray-100 border-b border-gray-200 dark:border-slate-700">
+                  {idx + 1}
+                </td>
+                <td className="px-4 py-3 text-left text-gray-900 dark:text-gray-100 border-b border-gray-200 dark:border-slate-700">
+                  {standing.team}
+                </td>
+                <td className="px-4 py-3 text-center text-gray-900 dark:text-gray-100 border-b border-gray-200 dark:border-slate-700">
+                  {standing.games}
+                </td>
+                <td className="px-4 py-3 text-center text-gray-900 dark:text-gray-100 border-b border-gray-200 dark:border-slate-700">
+                  {standing.wins}
+                </td>
+                <td className="px-4 py-3 text-center text-gray-900 dark:text-gray-100 border-b border-gray-200 dark:border-slate-700">
+                  {standing.draws}
+                </td>
+                <td className="px-4 py-3 text-center text-gray-900 dark:text-gray-100 border-b border-gray-200 dark:border-slate-700">
+                  {standing.losses}
+                </td>
+                <td className="px-4 py-3 text-center text-gray-900 dark:text-gray-100 border-b border-gray-200 dark:border-slate-700">
+                  {standing.goalsFor}:{standing.goalsAgainst} <span className={standing.goalDiff > 0 ? 'text-green-600 dark:text-green-400 font-semibold' : standing.goalDiff < 0 ? 'text-red-600 dark:text-red-400 font-semibold' : 'text-gray-500'}>({standing.goalDiff > 0 ? '+' : ''}{standing.goalDiff})</span>
+                </td>
+                <td className="px-4 py-3 text-center text-gray-900 dark:text-gray-100 border-b border-gray-200 dark:border-slate-700">
+                  <span>{standing.pointsFor}</span>
+                  <span className="text-gray-400 dark:text-gray-500 mx-1">/</span>
+                  <span>{standing.pointsAgainst}</span>
+                </td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
     </div>
   );
 }

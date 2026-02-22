@@ -7,9 +7,11 @@ interface CrossTableProps {
 }
 
 // First (label) column fixed width
-const FIRST_COL_W = 216; // px  (3× the ~48px data cols, then +50%)
+const FIRST_COL_W = 180; // reduced slightly from 216 to fit better on mobile
+// Data columns: stable width for games/dates
+const DATA_COL_W = 48; // px
 // Header row height = first column width (gives rotated names enough room)
-const HEADER_ROW_H = 216; // px  (+50% of previous 144px)
+const HEADER_ROW_H = 180; // matches FIRST_COL_W
 // Body rows: fixed equal height
 const ROW_H = 40; // px
 
@@ -83,14 +85,17 @@ export function CrossTable({ league }: CrossTableProps) {
                      */}
                     <table
                         className="border-collapse w-full"
-                        style={{ tableLayout: 'fixed' }}
+                        style={{
+                            tableLayout: 'fixed',
+                            minWidth: `${FIRST_COL_W + teams.length * DATA_COL_W}px`
+                        }}
                     >
                         <colgroup>
                             {/* First column: fixed width */}
                             <col style={{ width: `${FIRST_COL_W}px` }} />
-                            {/* Data columns: no explicit width → share remaining space equally */}
+                            {/* Data columns: fixed width to prevent squashing on mobile */}
                             {teams.map((t) => (
-                                <col key={t} />
+                                <col key={t} style={{ width: `${DATA_COL_W}px` }} />
                             ))}
                         </colgroup>
 

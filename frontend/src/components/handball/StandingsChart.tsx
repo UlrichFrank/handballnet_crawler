@@ -84,11 +84,18 @@ export function StandingsChart({ league }: StandingsChartProps) {
         const date = dateByIndex[payload.value] ?? '';
         return (
             <g transform={`translate(${x},${y})`}>
-                <text x={0} y={0} dy={12} textAnchor="middle" fontSize={10} fill="currentColor" className="text-gray-600 dark:text-gray-400">
-                    {payload.value}
-                </text>
                 {date && (
-                    <text x={0} y={0} dy={24} textAnchor="middle" fontSize={9} fill="currentColor" className="text-gray-400 dark:text-gray-500">
+                    <text
+                        x={0}
+                        y={0}
+                        dy={12} // Gleicher Wert wie vorher bei der Zahl, um dort zu landen
+                        textAnchor="end" // "start" bewirkt bei rotate(180), dass das Textende am Ankerpunkt sitzt
+                        fontSize={9}
+                        fill="currentColor"
+                        className="text-gray-400 dark:text-gray-500"
+                        writingMode='vertical-rl'
+                        transform='rotate(180)'
+                    >
                         {date}
                     </text>
                 )}
@@ -161,7 +168,7 @@ export function StandingsChart({ league }: StandingsChartProps) {
                             reversed
                             domain={[1, nTeams]}
                             ticks={Array.from({ length: nTeams }, (_, i) => i + 1)}
-                            label={{ value: 'Platz', angle: -90, position: 'insideLeft', offset: 10, fontSize: 12 }}
+                            label={{ value: 'Rang', angle: -90, position: 'insideLeft', offset: 10, fontSize: 12 }}
                             tick={{ fontSize: 11 }}
                             tickLine={false}
                             width={32}

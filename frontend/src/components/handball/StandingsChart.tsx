@@ -88,7 +88,7 @@ export function StandingsChart({ league }: StandingsChartProps) {
                     <text
                         x={0}
                         y={0}
-                        dy={12} // Gleicher Wert wie vorher bei der Zahl, um dort zu landen
+                        dy={5} // Gleicher Wert wie vorher bei der Zahl, um dort zu landen
                         textAnchor="end" // "start" bewirkt bei rotate(180), dass das Textende am Ankerpunkt sitzt
                         fontSize={9}
                         fill="currentColor"

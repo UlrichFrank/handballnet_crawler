@@ -301,7 +301,7 @@ class DataService {
     secretaries: Map<string, { count: number; games: Array<{ date: string; home: string; away: string; score: string }> }>;
   }> {
     const gameData = await this.getAggregatedGameData(outName);
-    
+
     const referees = new Map<string, { count: number; games: Array<{ date: string; home: string; away: string; score: string }> }>();
     const timekeepers = new Map<string, { count: number; games: Array<{ date: string; home: string; away: string; score: string }> }>();
     const secretaries = new Map<string, { count: number; games: Array<{ date: string; home: string; away: string; score: string }> }>();
@@ -427,7 +427,7 @@ class DataService {
    */
   async getSevenMeterShooters(outName: string) {
     const playerStats = await this.getPlayerStatistics(outName);
-    
+
     return playerStats
       .filter(p => p.sevenMetersAttempts > 0)
       .map(p => ({
@@ -634,17 +634,17 @@ class DataService {
    */
   private calculateGiniCoefficient(values: number[]): number {
     if (values.length === 0) return 0;
-    
+
     const sorted = [...values].sort((a, b) => a - b);
     const n = sorted.length;
     const mean = sorted.reduce((a, b) => a + b, 0) / n;
-    
+
     if (mean === 0) return 0;
-    
+
     const sumAbsDiff = sorted.reduce((sum, val, i) => {
       return sum + ((i + 1) * val);
     }, 0);
-    
+
     return (2 * sumAbsDiff) / (n * n * mean) - (n + 1) / n;
   }
 
@@ -679,7 +679,7 @@ class DataService {
       .map(([teamName, playerGoals]) => {
         const sorted = [...playerGoals].sort((a, b) => a - b);
         const avg = playerGoals.reduce((a, b) => a + b, 0) / playerGoals.length;
-        
+
         let median: number;
         if (sorted.length % 2 === 0) {
           median = (sorted[sorted.length / 2 - 1] + sorted[sorted.length / 2]) / 2;
@@ -702,7 +702,7 @@ class DataService {
    */
   async getRefereeStatistics(outName: string) {
     const gameData = await this.getAggregatedGameData(outName);
-    
+
     const refereeStats = new Map<string, {
       games: number;
       yellowCards: number;
@@ -757,6 +757,113 @@ class DataService {
         ...stats
       }))
       .sort((a, b) => b.games - a.games);
+  }
+
+  /**
+   * Get standings progression across all Spieltage.
+   * Returns one entry per Spieltag with the rank of every team at that point.
+   */
+  async getStandingsProgression(leagueId: string): Promise<Array<{
+    spieltag: number;
+    date: string; // DD.MM. formatted
+    [team: string]: number | string;
+  }>> {
+    const meta = await this.loadMeta();
+    const liga = meta.leagues[leagueId];
+    if (!liga || !liga.spieltage || liga.spieltage.length === 0) {
+      throw new Error(`No Spieltag data available for ${leagueId}`);
+    }
+
+    // Cumulative team stats (across all spieltage loaded so far)
+    const teamStats = new Map<string, {
+      points: number;
+      goalDiff: number;
+      goalsFor: number;
+    }>();
+
+    const result: Array<{ spieltag: number; date: string;[team: string]: number | string }> = [];
+    let spieltagIndex = 1;
+
+    // Format yyyymmdd filename → DD.MM.
+    const formatFileDate = (filename: string): string => {
+      if (filename.length >= 8) {
+        return `${filename.slice(6, 8)}.${filename.slice(4, 6)}.`;
+      }
+      return '';
+    };
+
+    for (const spieltagFile of liga.spieltage) {
+      try {
+        const response = await fetch(
+          `${getBasePath()}/data/${leagueId}/${spieltagFile}.json?t=${Date.now()}`
+        );
+        if (!response.ok) continue;
+        const data = await response.json();
+        if (!data.games || !Array.isArray(data.games)) continue;
+
+        // Accumulate results from this spieltag's games
+        data.games.forEach((game: any) => {
+          const homeTeam: string = game.home?.team_name;
+          const awayTeam: string = game.away?.team_name;
+          if (!homeTeam || !awayTeam) return;
+          if (!game.home?.players || !game.away?.players) return;
+
+          const homeGoals = game.home.players.reduce((s: number, p: any) => s + (p.goals || 0), 0);
+          const awayGoals = game.away.players.reduce((s: number, p: any) => s + (p.goals || 0), 0);
+
+          // Only count if game actually has goals (played)
+          if (homeGoals === 0 && awayGoals === 0) return;
+
+          const initTeam = (t: string) => {
+            if (!teamStats.has(t)) teamStats.set(t, { points: 0, goalDiff: 0, goalsFor: 0 });
+          };
+          initTeam(homeTeam);
+          initTeam(awayTeam);
+
+          const home = teamStats.get(homeTeam)!;
+          const away = teamStats.get(awayTeam)!;
+
+          home.goalsFor += homeGoals;
+          home.goalDiff += homeGoals - awayGoals;
+          away.goalsFor += awayGoals;
+          away.goalDiff += awayGoals - homeGoals;
+
+          if (homeGoals > awayGoals) {
+            home.points += 2;
+          } else if (awayGoals > homeGoals) {
+            away.points += 2;
+          } else {
+            home.points += 1;
+            away.points += 1;
+          }
+        });
+
+        // Skip this spieltag if no teams have been populated yet
+        if (teamStats.size === 0) { spieltagIndex++; continue; }
+
+        // Rank teams: sort by points → goalDiff → goalsFor
+        const sorted = Array.from(teamStats.entries())
+          .sort(([, a], [, b]) => {
+            if (b.points !== a.points) return b.points - a.points;
+            if (b.goalDiff !== a.goalDiff) return b.goalDiff - a.goalDiff;
+            return b.goalsFor - a.goalsFor;
+          });
+
+        const entry: { spieltag: number; date: string;[team: string]: number | string } = {
+          spieltag: spieltagIndex,
+          date: formatFileDate(spieltagFile),
+        };
+        sorted.forEach(([team], idx) => {
+          entry[team] = idx + 1;
+        });
+        result.push(entry);
+      } catch (err) {
+        console.warn(`Failed to process Spieltag ${spieltagFile}:`, err);
+      }
+      spieltagIndex++;
+    }
+
+    return result;
   }
 }
 

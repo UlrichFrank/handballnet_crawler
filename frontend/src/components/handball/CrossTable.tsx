@@ -124,12 +124,10 @@ export function CrossTable({ league }: CrossTableProps) {
                                                 style={{
                                                     writingMode: 'vertical-rl',
                                                     transform: 'rotate(180deg)',
-                                                    overflowWrap: 'break-word',
-                                                    wordBreak: 'break-word',
-                                                    hyphens: 'auto',
-                                                    lineHeight: '1.2',
                                                     maxHeight: `${HEADER_ROW_H - 12}px`,
+                                                    whiteSpace: 'nowrap',
                                                     overflow: 'hidden',
+                                                    textOverflow: 'ellipsis',
                                                 }}
                                             >
                                                 {team}
@@ -151,10 +149,9 @@ export function CrossTable({ league }: CrossTableProps) {
                                     <th
                                         className="bg-blue-900 dark:bg-blue-600 text-white border border-blue-800 dark:border-blue-700 p-2 text-xs font-bold text-left align-middle overflow-hidden"
                                         style={{
-                                            overflowWrap: 'break-word',
-                                            wordBreak: 'break-word',
-                                            hyphens: 'auto',
-                                            lineHeight: '1.3',
+                                            whiteSpace: 'nowrap',
+                                            overflow: 'hidden',
+                                            textOverflow: 'ellipsis',
                                         }}
                                     >
                                         {homeTeam}

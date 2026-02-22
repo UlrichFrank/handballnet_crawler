@@ -8,8 +8,9 @@ import { TeamOffenseTable } from '../components/statistics/TeamOffenseTable';
 import { TeamDefenseTable } from '../components/statistics/TeamDefenseTable';
 import { TeamDisciplineTable } from '../components/statistics/TeamDisciplineTable';
 import { GoalDistributionTable } from '../components/statistics/GoalDistributionTable';
+import { RefereeStatisticsTable } from '../components/statistics/RefereeStatisticsTable';
 
-type StatisticTab = 'scorers' | 'seven-meter' | 'ratio' | 'offense' | 'defense' | 'discipline' | 'goal-distribution';
+type StatisticTab = 'scorers' | 'seven-meter' | 'ratio' | 'offense' | 'defense' | 'discipline' | 'goal-distribution' | 'referees';
 
 export function StatisticsPage() {
   const { selectedLeague } = useLeague();
@@ -67,6 +68,7 @@ export function StatisticsPage() {
     { id: 'goal-distribution', label: 'Verteilung', icon: '🎲' },
     { id: 'defense', label: 'Beste Verteidigung', icon: '🛡️' },
     { id: 'discipline', label: 'Fair-Play', icon: '📋' },
+    { id: 'referees', label: 'Schiedsrichter', icon: '🧑‍⚖️' },
   ];
 
   return (
@@ -87,11 +89,10 @@ export function StatisticsPage() {
               <button
                 key={tab.id}
                 onClick={() => setActiveTab(tab.id)}
-                className={`px-4 py-2 rounded-lg whitespace-nowrap text-sm font-medium transition-colors ${
-                  activeTab === tab.id
+                className={`px-4 py-2 rounded-lg whitespace-nowrap text-sm font-medium transition-colors ${activeTab === tab.id
                     ? 'bg-blue-900 dark:bg-blue-600 text-white'
                     : 'bg-gray-100 dark:bg-slate-800 text-gray-700 dark:text-gray-300 hover:bg-gray-200 dark:hover:bg-slate-700'
-                }`}
+                  }`}
               >
                 {tab.icon} {tab.label}
               </button>
@@ -117,6 +118,7 @@ export function StatisticsPage() {
             {activeTab === 'goal-distribution' && <GoalDistributionTable league={selectedLeague} />}
             {activeTab === 'defense' && <TeamDefenseTable league={selectedLeague} />}
             {activeTab === 'discipline' && <TeamDisciplineTable league={selectedLeague} />}
+            {activeTab === 'referees' && <RefereeStatisticsTable league={selectedLeague} />}
           </>
         )}
       </div>

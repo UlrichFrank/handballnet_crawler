@@ -696,6 +696,68 @@ class DataService {
       })
       .sort((a, b) => b.avgGoalsPerPlayer - a.avgGoalsPerPlayer);
   }
+
+  /**
+   * Get referee statistics (games and penalties)
+   */
+  async getRefereeStatistics(outName: string) {
+    const gameData = await this.getAggregatedGameData(outName);
+    
+    const refereeStats = new Map<string, {
+      games: number;
+      yellowCards: number;
+      twoMinPenalties: number;
+      redCards: number;
+      blueCards: number;
+    }>();
+
+    gameData.games.forEach((game: any) => {
+      if (!game.officials || !game.officials.referees) return;
+
+      let yellowCards = 0;
+      let twoMinPenalties = 0;
+      let redCards = 0;
+      let blueCards = 0;
+
+      const addPenalties = (players: any[]) => {
+        if (!players) return;
+        players.forEach((p: any) => {
+          yellowCards += p.yellow_cards || 0;
+          twoMinPenalties += p.two_min_penalties || 0;
+          redCards += p.red_cards || 0;
+          blueCards += p.blue_cards || 0;
+        });
+      };
+
+      if (game.home && game.home.players) addPenalties(game.home.players);
+      if (game.away && game.away.players) addPenalties(game.away.players);
+
+      game.officials.referees.forEach((name: string) => {
+        if (!refereeStats.has(name)) {
+          refereeStats.set(name, {
+            games: 0,
+            yellowCards: 0,
+            twoMinPenalties: 0,
+            redCards: 0,
+            blueCards: 0
+          });
+        }
+        const stats = refereeStats.get(name)!;
+        stats.games += 1;
+        stats.yellowCards += yellowCards;
+        stats.twoMinPenalties += twoMinPenalties;
+        stats.redCards += redCards;
+        stats.blueCards += blueCards;
+      });
+    });
+
+    return Array.from(refereeStats.entries())
+      .map(([name, stats]) => ({
+        name,
+        ...stats
+      }))
+      .sort((a, b) => b.games - a.games);
+  }
 }
 
 export const dataService = new DataService();

@@ -1,0 +1,1335 @@
+{
+  "date": "20260228",
+  "games": [
+    {
+      "game_id": "handball4all.baden-wuerttemberg.8856927",
+      "order": 53,
+      "date": "Sa, 28.02.",
+      "home": {
+        "team_name": "SG Heumaden-Sillenbuch",
+        "players": [
+          {
+            "name": "Hugo Fayard",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Alexander Tresselt",
+            "goals": 5,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Mathis Burgdorf",
+            "goals": 2,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Jonte Eichenberg",
+            "goals": 5,
+            "two_min_penalties": 0,
+            "yellow_cards": 1,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Lasse W\u00fcrth",
+            "goals": 14,
+            "two_min_penalties": 1,
+            "yellow_cards": 1,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Maximilian Bauer",
+            "goals": 2,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Simon Knust",
+            "goals": 3,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Silas Gampe",
+            "goals": 1,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Eyad Gorgy",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          }
+        ]
+      },
+      "away": {
+        "team_name": "SV Fellbach",
+        "players": [
+          {
+            "name": "Johannes Sch\u00e4fer",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 1,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Sergio Messina",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Leon Munk",
+            "goals": 12,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 1,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Paul Kusche",
+            "goals": 2,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 1,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Manuel Pahland",
+            "goals": 1,
+            "two_min_penalties": 1,
+            "yellow_cards": 1,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Enea Miracapillo",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Milo Gutwillinger",
+            "goals": 7,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 1,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Raul Terren Grande",
+            "goals": 2,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Malik Talha",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          }
+        ]
+      },
+      "goals_timeline": [
+        {
+          "minute": 1,
+          "second": 0,
+          "scorer": "Lasse W\u00fcrth",
+          "team": "home",
+          "team_abbrev": "SG Heum-Sill",
+          "seven_meter": false
+        },
+        {
+          "minute": 3,
+          "second": 42,
+          "scorer": "Lasse W\u00fcrth",
+          "team": "home",
+          "team_abbrev": "SG Heum-Sill",
+          "seven_meter": false
+        },
+        {
+          "minute": 4,
+          "second": 3,
+          "scorer": "Leon Munk",
+          "team": "away",
+          "team_abbrev": "SV Fellbach",
+          "seven_meter": false
+        },
+        {
+          "minute": 4,
+          "second": 48,
+          "scorer": "Lasse W\u00fcrth",
+          "team": "home",
+          "team_abbrev": "SG Heum-Sill",
+          "seven_meter": false
+        },
+        {
+          "minute": 7,
+          "second": 47,
+          "scorer": "Leon Munk",
+          "team": "away",
+          "team_abbrev": "SV Fellbach",
+          "seven_meter": false
+        },
+        {
+          "minute": 8,
+          "second": 8,
+          "scorer": "Lasse W\u00fcrth",
+          "team": "home",
+          "team_abbrev": "SG Heum-Sill",
+          "seven_meter": false
+        },
+        {
+          "minute": 8,
+          "second": 41,
+          "scorer": "Leon Munk",
+          "team": "away",
+          "team_abbrev": "SV Fellbach",
+          "seven_meter": false
+        },
+        {
+          "minute": 10,
+          "second": 12,
+          "scorer": "Lasse W\u00fcrth",
+          "team": "home",
+          "team_abbrev": "SG Heum-Sill",
+          "seven_meter": false
+        },
+        {
+          "minute": 10,
+          "second": 43,
+          "scorer": "Paul Kusche",
+          "team": "away",
+          "team_abbrev": "SV Fellbach",
+          "seven_meter": false
+        },
+        {
+          "minute": 11,
+          "second": 6,
+          "scorer": "Alexander Tresselt",
+          "team": "home",
+          "team_abbrev": "SG Heum-Sill",
+          "seven_meter": false
+        },
+        {
+          "minute": 12,
+          "second": 12,
+          "scorer": "Lasse W\u00fcrth",
+          "team": "home",
+          "team_abbrev": "SG Heum-Sill",
+          "seven_meter": false
+        },
+        {
+          "minute": 12,
+          "second": 54,
+          "scorer": "Leon Munk",
+          "team": "away",
+          "team_abbrev": "SV Fellbach",
+          "seven_meter": false
+        },
+        {
+          "minute": 13,
+          "second": 11,
+          "scorer": "Maximilian Bauer",
+          "team": "home",
+          "team_abbrev": "SG Heum-Sill",
+          "seven_meter": false
+        },
+        {
+          "minute": 13,
+          "second": 58,
+          "scorer": "Lasse W\u00fcrth",
+          "team": "home",
+          "team_abbrev": "SG Heum-Sill",
+          "seven_meter": false
+        },
+        {
+          "minute": 14,
+          "second": 51,
+          "scorer": "Jonte Eichenberg",
+          "team": "home",
+          "team_abbrev": "SG Heum-Sill",
+          "seven_meter": false
+        },
+        {
+          "minute": 16,
+          "second": 16,
+          "scorer": "Lasse W\u00fcrth",
+          "team": "home",
+          "team_abbrev": "SG Heum-Sill",
+          "seven_meter": false
+        },
+        {
+          "minute": 17,
+          "second": 27,
+          "scorer": "Simon Knust",
+          "team": "home",
+          "team_abbrev": "SG Heum-Sill",
+          "seven_meter": false
+        },
+        {
+          "minute": 18,
+          "second": 4,
+          "scorer": "Leon Munk",
+          "team": "away",
+          "team_abbrev": "SV Fellbach",
+          "seven_meter": false
+        },
+        {
+          "minute": 18,
+          "second": 37,
+          "scorer": "Lasse W\u00fcrth",
+          "team": "home",
+          "team_abbrev": "SG Heum-Sill",
+          "seven_meter": false
+        },
+        {
+          "minute": 18,
+          "second": 57,
+          "scorer": "Leon Munk",
+          "team": "away",
+          "team_abbrev": "SV Fellbach",
+          "seven_meter": false
+        },
+        {
+          "minute": 19,
+          "second": 36,
+          "scorer": "Leon Munk",
+          "team": "away",
+          "team_abbrev": "SV Fellbach",
+          "seven_meter": false
+        },
+        {
+          "minute": 21,
+          "second": 11,
+          "scorer": "Mathis Burgdorf",
+          "team": "home",
+          "team_abbrev": "SG Heum-Sill",
+          "seven_meter": false
+        },
+        {
+          "minute": 21,
+          "second": 34,
+          "scorer": "Milo Gutwillinger",
+          "team": "away",
+          "team_abbrev": "SV Fellbach",
+          "seven_meter": false
+        },
+        {
+          "minute": 22,
+          "second": 30,
+          "scorer": "Simon Knust",
+          "team": "home",
+          "team_abbrev": "SG Heum-Sill",
+          "seven_meter": false
+        },
+        {
+          "minute": 22,
+          "second": 58,
+          "scorer": "Paul Kusche",
+          "team": "away",
+          "team_abbrev": "SV Fellbach",
+          "seven_meter": false
+        },
+        {
+          "minute": 23,
+          "second": 17,
+          "scorer": "Alexander Tresselt",
+          "team": "home",
+          "team_abbrev": "SG Heum-Sill",
+          "seven_meter": false
+        },
+        {
+          "minute": 25,
+          "second": 19,
+          "scorer": "Jonte Eichenberg",
+          "team": "home",
+          "team_abbrev": "SG Heum-Sill",
+          "seven_meter": false
+        },
+        {
+          "minute": 25,
+          "second": 44,
+          "scorer": "Leon Munk",
+          "team": "away",
+          "team_abbrev": "SV Fellbach",
+          "seven_meter": false
+        },
+        {
+          "minute": 26,
+          "second": 38,
+          "scorer": "Leon Munk",
+          "team": "away",
+          "team_abbrev": "SV Fellbach",
+          "seven_meter": false
+        },
+        {
+          "minute": 27,
+          "second": 0,
+          "scorer": "Maximilian Bauer",
+          "team": "home",
+          "team_abbrev": "SG Heum-Sill",
+          "seven_meter": false
+        },
+        {
+          "minute": 27,
+          "second": 17,
+          "scorer": "Raul Terren Grande",
+          "team": "away",
+          "team_abbrev": "SV Fellbach",
+          "seven_meter": false
+        },
+        {
+          "minute": 28,
+          "second": 41,
+          "scorer": "Alexander Tresselt",
+          "team": "home",
+          "team_abbrev": "SG Heum-Sill",
+          "seven_meter": false
+        },
+        {
+          "minute": 30,
+          "second": 57,
+          "scorer": "Jonte Eichenberg",
+          "team": "home",
+          "team_abbrev": "SG Heum-Sill",
+          "seven_meter": false
+        },
+        {
+          "minute": 31,
+          "second": 48,
+          "scorer": "Leon Munk",
+          "team": "away",
+          "team_abbrev": "SV Fellbach",
+          "seven_meter": false
+        },
+        {
+          "minute": 31,
+          "second": 54,
+          "scorer": "Lasse W\u00fcrth",
+          "team": "home",
+          "team_abbrev": "SG Heum-Sill",
+          "seven_meter": false
+        },
+        {
+          "minute": 34,
+          "second": 58,
+          "scorer": "Manuel Pahland",
+          "team": "away",
+          "team_abbrev": "SV Fellbach",
+          "seven_meter": false
+        },
+        {
+          "minute": 35,
+          "second": 32,
+          "scorer": "Alexander Tresselt",
+          "team": "home",
+          "team_abbrev": "SG Heum-Sill",
+          "seven_meter": false
+        },
+        {
+          "minute": 38,
+          "second": 27,
+          "scorer": "Milo Gutwillinger",
+          "team": "away",
+          "team_abbrev": "SV Fellbach",
+          "seven_meter": false
+        },
+        {
+          "minute": 39,
+          "second": 27,
+          "scorer": "Lasse W\u00fcrth",
+          "team": "home",
+          "team_abbrev": "SG Heum-Sill",
+          "seven_meter": false
+        },
+        {
+          "minute": 39,
+          "second": 38,
+          "scorer": "Milo Gutwillinger",
+          "team": "away",
+          "team_abbrev": "SV Fellbach",
+          "seven_meter": false
+        },
+        {
+          "minute": 40,
+          "second": 12,
+          "scorer": "Milo Gutwillinger",
+          "team": "away",
+          "team_abbrev": "SV Fellbach",
+          "seven_meter": false
+        },
+        {
+          "minute": 40,
+          "second": 28,
+          "scorer": "Lasse W\u00fcrth",
+          "team": "home",
+          "team_abbrev": "SG Heum-Sill",
+          "seven_meter": false
+        },
+        {
+          "minute": 40,
+          "second": 44,
+          "scorer": "Leon Munk",
+          "team": "away",
+          "team_abbrev": "SV Fellbach",
+          "seven_meter": false
+        },
+        {
+          "minute": 41,
+          "second": 2,
+          "scorer": "Jonte Eichenberg",
+          "team": "home",
+          "team_abbrev": "SG Heum-Sill",
+          "seven_meter": false
+        },
+        {
+          "minute": 42,
+          "second": 23,
+          "scorer": "Lasse W\u00fcrth",
+          "team": "home",
+          "team_abbrev": "SG Heum-Sill",
+          "seven_meter": false
+        },
+        {
+          "minute": 43,
+          "second": 47,
+          "scorer": "Milo Gutwillinger",
+          "team": "away",
+          "team_abbrev": "SV Fellbach",
+          "seven_meter": false
+        },
+        {
+          "minute": 44,
+          "second": 6,
+          "scorer": "Alexander Tresselt",
+          "team": "home",
+          "team_abbrev": "SG Heum-Sill",
+          "seven_meter": false
+        },
+        {
+          "minute": 44,
+          "second": 17,
+          "scorer": "Lasse W\u00fcrth",
+          "team": "home",
+          "team_abbrev": "SG Heum-Sill",
+          "seven_meter": false
+        },
+        {
+          "minute": 44,
+          "second": 20,
+          "scorer": "Milo Gutwillinger",
+          "team": "away",
+          "team_abbrev": "SV Fellbach",
+          "seven_meter": false
+        },
+        {
+          "minute": 45,
+          "second": 8,
+          "scorer": "Leon Munk",
+          "team": "away",
+          "team_abbrev": "SV Fellbach",
+          "seven_meter": false
+        },
+        {
+          "minute": 45,
+          "second": 27,
+          "scorer": "Silas Gampe",
+          "team": "home",
+          "team_abbrev": "SG Heum-Sill",
+          "seven_meter": false
+        },
+        {
+          "minute": 47,
+          "second": 26,
+          "scorer": "Jonte Eichenberg",
+          "team": "home",
+          "team_abbrev": "SG Heum-Sill",
+          "seven_meter": false
+        },
+        {
+          "minute": 47,
+          "second": 39,
+          "scorer": "Raul Terren Grande",
+          "team": "away",
+          "team_abbrev": "SV Fellbach",
+          "seven_meter": false
+        },
+        {
+          "minute": 47,
+          "second": 52,
+          "scorer": "Mathis Burgdorf",
+          "team": "home",
+          "team_abbrev": "SG Heum-Sill",
+          "seven_meter": false
+        },
+        {
+          "minute": 48,
+          "second": 22,
+          "scorer": "Milo Gutwillinger",
+          "team": "away",
+          "team_abbrev": "SV Fellbach",
+          "seven_meter": false
+        },
+        {
+          "minute": 49,
+          "second": 25,
+          "scorer": "Simon Knust",
+          "team": "home",
+          "team_abbrev": "SG Heum-Sill",
+          "seven_meter": false
+        }
+      ],
+      "final_score": "32:24",
+      "half_duration": 30,
+      "officials": {
+        "referees": [
+          "Max Bergschneider"
+        ],
+        "timekeepers": [
+          "Fred W\u00fcrth"
+        ],
+        "secretaries": [
+          "Silke Talha"
+        ]
+      },
+      "graphic_path": "output/graphics/SG_Heumaden-Sillenbu_vs_SV_Fellbach_Sa_2802.png"
+    },
+    {
+      "game_id": "handball4all.baden-wuerttemberg.8856932",
+      "order": 54,
+      "date": "Sa, 28.02.",
+      "home": {
+        "team_name": "TSF Ditzingen",
+        "players": [
+          {
+            "name": "Silas Hertlein",
+            "goals": 10,
+            "two_min_penalties": 0,
+            "yellow_cards": 1,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 5,
+            "seven_meters_goals": 5
+          },
+          {
+            "name": "Florian Kocher",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Ben Niklas Fuchs",
+            "goals": 1,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Ruben Stein",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Felix Schmidt",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Hannes Leonard K\u00f6der",
+            "goals": 1,
+            "two_min_penalties": 1,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Arne Liemer",
+            "goals": 17,
+            "two_min_penalties": 0,
+            "yellow_cards": 1,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 1,
+            "seven_meters_goals": 1
+          },
+          {
+            "name": "Jona Kanya",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Jan Lorenz",
+            "goals": 1,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Lukas K\u00f6nig",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Tilmann Kluck",
+            "goals": 2,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Rafael Lukas Bock",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          }
+        ]
+      },
+      "away": {
+        "team_name": "HandballTeam Heckeng\u00e4u 2",
+        "players": [
+          {
+            "name": "Joris Kossok",
+            "goals": 1,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Levin Bubser",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Janne Pieper",
+            "goals": 1,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Nikolai Borshov",
+            "goals": 3,
+            "two_min_penalties": 0,
+            "yellow_cards": 1,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "David Luis Maffenbaer",
+            "goals": 1,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Thi\u00ean \u00c2n Nguyen",
+            "goals": 3,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Raphael Ogrinec",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Gregor Winkler",
+            "goals": 1,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Semih \u00d6zay",
+            "goals": 11,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 5,
+            "seven_meters_goals": 5
+          },
+          {
+            "name": "Julius D\u00e4sch",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          }
+        ]
+      },
+      "goals_timeline": [
+        {
+          "minute": 0,
+          "second": 26,
+          "scorer": "Arne Liemer",
+          "team": "home",
+          "team_abbrev": "TSF Ditzingen",
+          "seven_meter": false
+        },
+        {
+          "minute": 0,
+          "second": 56,
+          "scorer": "Joris Kossok",
+          "team": "away",
+          "team_abbrev": "HT Heckeng\u00e4u 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 2,
+          "second": 33,
+          "scorer": "Semih \u00d6zay",
+          "team": "away",
+          "team_abbrev": "HT Heckeng\u00e4u 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 5,
+          "second": 27,
+          "scorer": "Semih \u00d6zay",
+          "team": "away",
+          "team_abbrev": "HT Heckeng\u00e4u 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 6,
+          "second": 1,
+          "scorer": "Silas Hertlein",
+          "team": "home",
+          "team_abbrev": "TSF Ditzingen",
+          "seven_meter": true
+        },
+        {
+          "minute": 8,
+          "second": 12,
+          "scorer": "Thi\u00ean Nguyen",
+          "team": "away",
+          "team_abbrev": "HT Heckeng\u00e4u 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 8,
+          "second": 28,
+          "scorer": "Arne Liemer",
+          "team": "home",
+          "team_abbrev": "TSF Ditzingen",
+          "seven_meter": false
+        },
+        {
+          "minute": 9,
+          "second": 29,
+          "scorer": "Silas Hertlein",
+          "team": "home",
+          "team_abbrev": "TSF Ditzingen",
+          "seven_meter": false
+        },
+        {
+          "minute": 11,
+          "second": 12,
+          "scorer": "Arne Liemer",
+          "team": "home",
+          "team_abbrev": "TSF Ditzingen",
+          "seven_meter": false
+        },
+        {
+          "minute": 12,
+          "second": 29,
+          "scorer": "Arne Liemer",
+          "team": "home",
+          "team_abbrev": "TSF Ditzingen",
+          "seven_meter": false
+        },
+        {
+          "minute": 12,
+          "second": 59,
+          "scorer": "Arne Liemer",
+          "team": "home",
+          "team_abbrev": "TSF Ditzingen",
+          "seven_meter": false
+        },
+        {
+          "minute": 13,
+          "second": 37,
+          "scorer": "Silas Hertlein",
+          "team": "home",
+          "team_abbrev": "TSF Ditzingen",
+          "seven_meter": false
+        },
+        {
+          "minute": 15,
+          "second": 33,
+          "scorer": "Arne Liemer",
+          "team": "home",
+          "team_abbrev": "TSF Ditzingen",
+          "seven_meter": false
+        },
+        {
+          "minute": 16,
+          "second": 14,
+          "scorer": "Hannes K\u00f6der",
+          "team": "home",
+          "team_abbrev": "TSF Ditzingen",
+          "seven_meter": false
+        },
+        {
+          "minute": 16,
+          "second": 48,
+          "scorer": "Semih \u00d6zay",
+          "team": "away",
+          "team_abbrev": "HT Heckeng\u00e4u 2",
+          "seven_meter": true
+        },
+        {
+          "minute": 17,
+          "second": 58,
+          "scorer": "Semih \u00d6zay",
+          "team": "away",
+          "team_abbrev": "HT Heckeng\u00e4u 2",
+          "seven_meter": true
+        },
+        {
+          "minute": 19,
+          "second": 39,
+          "scorer": "Thi\u00ean Nguyen",
+          "team": "away",
+          "team_abbrev": "HT Heckeng\u00e4u 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 20,
+          "second": 30,
+          "scorer": "Tilmann Kluck",
+          "team": "home",
+          "team_abbrev": "TSF Ditzingen",
+          "seven_meter": false
+        },
+        {
+          "minute": 20,
+          "second": 49,
+          "scorer": "Semih \u00d6zay",
+          "team": "away",
+          "team_abbrev": "HT Heckeng\u00e4u 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 21,
+          "second": 24,
+          "scorer": "Silas Hertlein",
+          "team": "home",
+          "team_abbrev": "TSF Ditzingen",
+          "seven_meter": true
+        },
+        {
+          "minute": 22,
+          "second": 57,
+          "scorer": "Arne Liemer",
+          "team": "home",
+          "team_abbrev": "TSF Ditzingen",
+          "seven_meter": false
+        },
+        {
+          "minute": 23,
+          "second": 12,
+          "scorer": "Arne Liemer",
+          "team": "home",
+          "team_abbrev": "TSF Ditzingen",
+          "seven_meter": false
+        },
+        {
+          "minute": 24,
+          "second": 49,
+          "scorer": "David Maffenbaer",
+          "team": "away",
+          "team_abbrev": "HT Heckeng\u00e4u 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 25,
+          "second": 24,
+          "scorer": "Gregor Winkler",
+          "team": "away",
+          "team_abbrev": "HT Heckeng\u00e4u 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 25,
+          "second": 39,
+          "scorer": "Silas Hertlein",
+          "team": "home",
+          "team_abbrev": "TSF Ditzingen",
+          "seven_meter": true
+        },
+        {
+          "minute": 26,
+          "second": 21,
+          "scorer": "Semih \u00d6zay",
+          "team": "away",
+          "team_abbrev": "HT Heckeng\u00e4u 2",
+          "seven_meter": true
+        },
+        {
+          "minute": 27,
+          "second": 30,
+          "scorer": "Semih \u00d6zay",
+          "team": "away",
+          "team_abbrev": "HT Heckeng\u00e4u 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 27,
+          "second": 47,
+          "scorer": "Ben Fuchs",
+          "team": "home",
+          "team_abbrev": "TSF Ditzingen",
+          "seven_meter": false
+        },
+        {
+          "minute": 28,
+          "second": 4,
+          "scorer": "Janne Pieper",
+          "team": "away",
+          "team_abbrev": "HT Heckeng\u00e4u 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 28,
+          "second": 17,
+          "scorer": "Silas Hertlein",
+          "team": "home",
+          "team_abbrev": "TSF Ditzingen",
+          "seven_meter": false
+        },
+        {
+          "minute": 29,
+          "second": 41,
+          "scorer": "Arne Liemer",
+          "team": "home",
+          "team_abbrev": "TSF Ditzingen",
+          "seven_meter": false
+        },
+        {
+          "minute": 29,
+          "second": 56,
+          "scorer": "Semih \u00d6zay",
+          "team": "away",
+          "team_abbrev": "HT Heckeng\u00e4u 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 30,
+          "second": 33,
+          "scorer": "Tilmann Kluck",
+          "team": "home",
+          "team_abbrev": "TSF Ditzingen",
+          "seven_meter": false
+        },
+        {
+          "minute": 31,
+          "second": 26,
+          "scorer": "Silas Hertlein",
+          "team": "home",
+          "team_abbrev": "TSF Ditzingen",
+          "seven_meter": false
+        },
+        {
+          "minute": 32,
+          "second": 18,
+          "scorer": "Arne Liemer",
+          "team": "home",
+          "team_abbrev": "TSF Ditzingen",
+          "seven_meter": false
+        },
+        {
+          "minute": 32,
+          "second": 36,
+          "scorer": "Nikolai Borshov",
+          "team": "away",
+          "team_abbrev": "HT Heckeng\u00e4u 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 34,
+          "second": 20,
+          "scorer": "Nikolai Borshov",
+          "team": "away",
+          "team_abbrev": "HT Heckeng\u00e4u 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 34,
+          "second": 37,
+          "scorer": "Arne Liemer",
+          "team": "home",
+          "team_abbrev": "TSF Ditzingen",
+          "seven_meter": false
+        },
+        {
+          "minute": 36,
+          "second": 49,
+          "scorer": "Arne Liemer",
+          "team": "home",
+          "team_abbrev": "TSF Ditzingen",
+          "seven_meter": false
+        },
+        {
+          "minute": 38,
+          "second": 14,
+          "scorer": "Silas Hertlein",
+          "team": "home",
+          "team_abbrev": "TSF Ditzingen",
+          "seven_meter": true
+        },
+        {
+          "minute": 39,
+          "second": 20,
+          "scorer": "Nikolai Borshov",
+          "team": "away",
+          "team_abbrev": "HT Heckeng\u00e4u 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 39,
+          "second": 44,
+          "scorer": "Arne Liemer",
+          "team": "home",
+          "team_abbrev": "TSF Ditzingen",
+          "seven_meter": false
+        },
+        {
+          "minute": 40,
+          "second": 33,
+          "scorer": "Arne Liemer",
+          "team": "home",
+          "team_abbrev": "TSF Ditzingen",
+          "seven_meter": false
+        },
+        {
+          "minute": 42,
+          "second": 1,
+          "scorer": "Semih \u00d6zay",
+          "team": "away",
+          "team_abbrev": "HT Heckeng\u00e4u 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 43,
+          "second": 28,
+          "scorer": "Arne Liemer",
+          "team": "home",
+          "team_abbrev": "TSF Ditzingen",
+          "seven_meter": false
+        },
+        {
+          "minute": 44,
+          "second": 56,
+          "scorer": "Arne Liemer",
+          "team": "home",
+          "team_abbrev": "TSF Ditzingen",
+          "seven_meter": true
+        },
+        {
+          "minute": 46,
+          "second": 55,
+          "scorer": "Thi\u00ean Nguyen",
+          "team": "away",
+          "team_abbrev": "HT Heckeng\u00e4u 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 47,
+          "second": 23,
+          "scorer": "Silas Hertlein",
+          "team": "home",
+          "team_abbrev": "TSF Ditzingen",
+          "seven_meter": true
+        },
+        {
+          "minute": 47,
+          "second": 49,
+          "scorer": "Semih \u00d6zay",
+          "team": "away",
+          "team_abbrev": "HT Heckeng\u00e4u 2",
+          "seven_meter": true
+        },
+        {
+          "minute": 48,
+          "second": 9,
+          "scorer": "Jan Lorenz",
+          "team": "home",
+          "team_abbrev": "TSF Ditzingen",
+          "seven_meter": false
+        },
+        {
+          "minute": 48,
+          "second": 37,
+          "scorer": "Semih \u00d6zay",
+          "team": "away",
+          "team_abbrev": "HT Heckeng\u00e4u 2",
+          "seven_meter": true
+        },
+        {
+          "minute": 48,
+          "second": 52,
+          "scorer": "Silas Hertlein",
+          "team": "home",
+          "team_abbrev": "TSF Ditzingen",
+          "seven_meter": false
+        },
+        {
+          "minute": 50,
+          "second": 0,
+          "scorer": "Arne Liemer",
+          "team": "home",
+          "team_abbrev": "TSF Ditzingen",
+          "seven_meter": false
+        }
+      ],
+      "final_score": "32:21",
+      "half_duration": 30,
+      "officials": {
+        "referees": [
+          "Dummy0-JUHASL"
+        ],
+        "timekeepers": [],
+        "secretaries": []
+      },
+      "graphic_path": "output/graphics/TSF_Ditzingen_vs_HandballTeam_Heckeng_Sa_2802.png"
+    }
+  ]
+}

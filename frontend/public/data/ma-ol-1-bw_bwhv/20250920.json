@@ -1,0 +1,825 @@
+{
+  "date": "20250920",
+  "games": [
+    {
+      "game_id": "handball4all.baden-wuerttemberg.8664286",
+      "order": 0,
+      "date": "Sa, 20.09.",
+      "home": {
+        "team_name": "BW Feldkirch",
+        "players": [
+          {
+            "name": "Yannick Epp",
+            "goals": 1,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Pius Inama",
+            "goals": 4,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Dario Bachinger",
+            "goals": 2,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 1,
+            "seven_meters_goals": 1
+          },
+          {
+            "name": "Fionn Epp",
+            "goals": 8,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Nico Schachinger",
+            "goals": 1,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Tobias Schuler",
+            "goals": 3,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Kilian Epp",
+            "goals": 10,
+            "two_min_penalties": 0,
+            "yellow_cards": 1,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 2,
+            "seven_meters_goals": 1
+          },
+          {
+            "name": "Elia Peter",
+            "goals": 8,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 1,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Yoseph Volger",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Lukas Nosch",
+            "goals": 5,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 2,
+            "seven_meters_goals": 1
+          },
+          {
+            "name": "Arved Claus",
+            "goals": 2,
+            "two_min_penalties": 0,
+            "yellow_cards": 1,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Henrique De Mello Zischler",
+            "goals": 1,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Luis Kaufmann",
+            "goals": 1,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          }
+        ]
+      },
+      "away": {
+        "team_name": "Team Stuttgart 2",
+        "players": [
+          {
+            "name": "Lennart Scheuermann",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Josip Vidovic",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Marwin K\u00fchnel",
+            "goals": 1,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Benedikt Weber",
+            "goals": 2,
+            "two_min_penalties": 1,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Marvin Frech",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Ben Miess",
+            "goals": 1,
+            "two_min_penalties": 1,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Benedikt Jelen",
+            "goals": 4,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Daniel Heeb",
+            "goals": 2,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 1,
+            "seven_meters_goals": 1
+          },
+          {
+            "name": "Ole Krauter",
+            "goals": 3,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Leopold Baisch",
+            "goals": 3,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 2,
+            "seven_meters_goals": 2
+          },
+          {
+            "name": "Tom Eisenmann",
+            "goals": 2,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Philipp Grettenberger",
+            "goals": 2,
+            "two_min_penalties": 1,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Marin Biljeskovic",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 1,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          }
+        ]
+      },
+      "goals_timeline": [
+        {
+          "minute": 1,
+          "second": 16,
+          "scorer": "Leopold Baisch",
+          "team": "home",
+          "team_abbrev": "Team Stuttgart 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 3,
+          "second": 5,
+          "scorer": "Lukas Nosch",
+          "team": "away",
+          "team_abbrev": "BW Feldkirch",
+          "seven_meter": false
+        },
+        {
+          "minute": 4,
+          "second": 10,
+          "scorer": "Marwin K\u00fchnel",
+          "team": "home",
+          "team_abbrev": "Team Stuttgart 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 5,
+          "second": 40,
+          "scorer": "Pius Inama",
+          "team": "away",
+          "team_abbrev": "BW Feldkirch",
+          "seven_meter": false
+        },
+        {
+          "minute": 6,
+          "second": 14,
+          "scorer": "Ole Krauter",
+          "team": "home",
+          "team_abbrev": "Team Stuttgart 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 6,
+          "second": 27,
+          "scorer": "Kilian Epp",
+          "team": "away",
+          "team_abbrev": "BW Feldkirch",
+          "seven_meter": false
+        },
+        {
+          "minute": 7,
+          "second": 19,
+          "scorer": "Fionn Epp",
+          "team": "away",
+          "team_abbrev": "BW Feldkirch",
+          "seven_meter": false
+        },
+        {
+          "minute": 7,
+          "second": 47,
+          "scorer": "Ole Krauter",
+          "team": "home",
+          "team_abbrev": "Team Stuttgart 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 10,
+          "second": 35,
+          "scorer": "Kilian Epp",
+          "team": "away",
+          "team_abbrev": "BW Feldkirch",
+          "seven_meter": true
+        },
+        {
+          "minute": 12,
+          "second": 30,
+          "scorer": "Pius Inama",
+          "team": "away",
+          "team_abbrev": "BW Feldkirch",
+          "seven_meter": false
+        },
+        {
+          "minute": 14,
+          "second": 16,
+          "scorer": "Kilian Epp",
+          "team": "away",
+          "team_abbrev": "BW Feldkirch",
+          "seven_meter": false
+        },
+        {
+          "minute": 15,
+          "second": 23,
+          "scorer": "Kilian Epp",
+          "team": "away",
+          "team_abbrev": "BW Feldkirch",
+          "seven_meter": false
+        },
+        {
+          "minute": 16,
+          "second": 37,
+          "scorer": "Pius Inama",
+          "team": "away",
+          "team_abbrev": "BW Feldkirch",
+          "seven_meter": false
+        },
+        {
+          "minute": 17,
+          "second": 25,
+          "scorer": "Kilian Epp",
+          "team": "away",
+          "team_abbrev": "BW Feldkirch",
+          "seven_meter": false
+        },
+        {
+          "minute": 25,
+          "second": 1,
+          "scorer": "Elia Peter",
+          "team": "away",
+          "team_abbrev": "BW Feldkirch",
+          "seven_meter": false
+        },
+        {
+          "minute": 25,
+          "second": 43,
+          "scorer": "Tobias Schuler",
+          "team": "away",
+          "team_abbrev": "BW Feldkirch",
+          "seven_meter": false
+        },
+        {
+          "minute": 27,
+          "second": 10,
+          "scorer": "Benedikt Jelen",
+          "team": "home",
+          "team_abbrev": "Team Stuttgart 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 27,
+          "second": 48,
+          "scorer": "Dario Bachinger",
+          "team": "away",
+          "team_abbrev": "BW Feldkirch",
+          "seven_meter": true
+        },
+        {
+          "minute": 28,
+          "second": 27,
+          "scorer": "Yannick Epp",
+          "team": "away",
+          "team_abbrev": "BW Feldkirch",
+          "seven_meter": false
+        },
+        {
+          "minute": 28,
+          "second": 51,
+          "scorer": "Tom Eisenmann",
+          "team": "home",
+          "team_abbrev": "Team Stuttgart 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 28,
+          "second": 58,
+          "scorer": "Lukas Nosch",
+          "team": "away",
+          "team_abbrev": "BW Feldkirch",
+          "seven_meter": false
+        },
+        {
+          "minute": 29,
+          "second": 28,
+          "scorer": "Benedikt Jelen",
+          "team": "home",
+          "team_abbrev": "Team Stuttgart 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 29,
+          "second": 52,
+          "scorer": "Arved Claus",
+          "team": "away",
+          "team_abbrev": "BW Feldkirch",
+          "seven_meter": false
+        },
+        {
+          "minute": 30,
+          "second": 56,
+          "scorer": "Fionn Epp",
+          "team": "away",
+          "team_abbrev": "BW Feldkirch",
+          "seven_meter": false
+        },
+        {
+          "minute": 32,
+          "second": 10,
+          "scorer": "Kilian Epp",
+          "team": "away",
+          "team_abbrev": "BW Feldkirch",
+          "seven_meter": false
+        },
+        {
+          "minute": 33,
+          "second": 12,
+          "scorer": "Arved Claus",
+          "team": "away",
+          "team_abbrev": "BW Feldkirch",
+          "seven_meter": false
+        },
+        {
+          "minute": 34,
+          "second": 0,
+          "scorer": "Fionn Epp",
+          "team": "away",
+          "team_abbrev": "BW Feldkirch",
+          "seven_meter": false
+        },
+        {
+          "minute": 34,
+          "second": 52,
+          "scorer": "Kilian Epp",
+          "team": "away",
+          "team_abbrev": "BW Feldkirch",
+          "seven_meter": false
+        },
+        {
+          "minute": 35,
+          "second": 48,
+          "scorer": "Kilian Epp",
+          "team": "away",
+          "team_abbrev": "BW Feldkirch",
+          "seven_meter": false
+        },
+        {
+          "minute": 36,
+          "second": 28,
+          "scorer": "Fionn Epp",
+          "team": "away",
+          "team_abbrev": "BW Feldkirch",
+          "seven_meter": false
+        },
+        {
+          "minute": 36,
+          "second": 58,
+          "scorer": "Leopold Baisch",
+          "team": "home",
+          "team_abbrev": "Team Stuttgart 2",
+          "seven_meter": true
+        },
+        {
+          "minute": 37,
+          "second": 27,
+          "scorer": "Luis Kaufmann",
+          "team": "away",
+          "team_abbrev": "BW Feldkirch",
+          "seven_meter": false
+        },
+        {
+          "minute": 37,
+          "second": 49,
+          "scorer": "Tom Eisenmann",
+          "team": "home",
+          "team_abbrev": "Team Stuttgart 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 38,
+          "second": 12,
+          "scorer": "Kilian Epp",
+          "team": "away",
+          "team_abbrev": "BW Feldkirch",
+          "seven_meter": false
+        },
+        {
+          "minute": 38,
+          "second": 40,
+          "scorer": "Philipp Grettenberger",
+          "team": "home",
+          "team_abbrev": "Team Stuttgart 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 39,
+          "second": 33,
+          "scorer": "Fionn Epp",
+          "team": "away",
+          "team_abbrev": "BW Feldkirch",
+          "seven_meter": false
+        },
+        {
+          "minute": 40,
+          "second": 34,
+          "scorer": "Lukas Nosch",
+          "team": "away",
+          "team_abbrev": "BW Feldkirch",
+          "seven_meter": true
+        },
+        {
+          "minute": 41,
+          "second": 14,
+          "scorer": "Leopold Baisch",
+          "team": "home",
+          "team_abbrev": "Team Stuttgart 2",
+          "seven_meter": true
+        },
+        {
+          "minute": 41,
+          "second": 38,
+          "scorer": "Benedikt Jelen",
+          "team": "home",
+          "team_abbrev": "Team Stuttgart 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 41,
+          "second": 51,
+          "scorer": "Fionn Epp",
+          "team": "away",
+          "team_abbrev": "BW Feldkirch",
+          "seven_meter": false
+        },
+        {
+          "minute": 42,
+          "second": 39,
+          "scorer": "Lukas Nosch",
+          "team": "away",
+          "team_abbrev": "BW Feldkirch",
+          "seven_meter": false
+        },
+        {
+          "minute": 43,
+          "second": 38,
+          "scorer": "Fionn Epp",
+          "team": "away",
+          "team_abbrev": "BW Feldkirch",
+          "seven_meter": false
+        },
+        {
+          "minute": 43,
+          "second": 57,
+          "scorer": "Pius Inama",
+          "team": "away",
+          "team_abbrev": "BW Feldkirch",
+          "seven_meter": false
+        },
+        {
+          "minute": 44,
+          "second": 40,
+          "scorer": "Ole Krauter",
+          "team": "home",
+          "team_abbrev": "Team Stuttgart 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 46,
+          "second": 9,
+          "scorer": "Fionn Epp",
+          "team": "away",
+          "team_abbrev": "BW Feldkirch",
+          "seven_meter": false
+        },
+        {
+          "minute": 47,
+          "second": 0,
+          "scorer": "Dario Bachinger",
+          "team": "away",
+          "team_abbrev": "BW Feldkirch",
+          "seven_meter": false
+        },
+        {
+          "minute": 47,
+          "second": 11,
+          "scorer": "Benedikt Jelen",
+          "team": "home",
+          "team_abbrev": "Team Stuttgart 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 47,
+          "second": 29,
+          "scorer": "Tobias Schuler",
+          "team": "away",
+          "team_abbrev": "BW Feldkirch",
+          "seven_meter": false
+        },
+        {
+          "minute": 47,
+          "second": 36,
+          "scorer": "Philipp Grettenberger",
+          "team": "home",
+          "team_abbrev": "Team Stuttgart 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 48,
+          "second": 41,
+          "scorer": "Ben Miess",
+          "team": "home",
+          "team_abbrev": "Team Stuttgart 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 49,
+          "second": 48,
+          "scorer": "Elia Peter",
+          "team": "away",
+          "team_abbrev": "BW Feldkirch",
+          "seven_meter": false
+        },
+        {
+          "minute": 50,
+          "second": 58,
+          "scorer": "Lukas Nosch",
+          "team": "away",
+          "team_abbrev": "BW Feldkirch",
+          "seven_meter": false
+        },
+        {
+          "minute": 52,
+          "second": 5,
+          "scorer": "Daniel Heeb",
+          "team": "home",
+          "team_abbrev": "Team Stuttgart 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 52,
+          "second": 33,
+          "scorer": "Elia Peter",
+          "team": "away",
+          "team_abbrev": "BW Feldkirch",
+          "seven_meter": false
+        },
+        {
+          "minute": 53,
+          "second": 37,
+          "scorer": "Elia Peter",
+          "team": "away",
+          "team_abbrev": "BW Feldkirch",
+          "seven_meter": false
+        },
+        {
+          "minute": 54,
+          "second": 6,
+          "scorer": "Daniel Heeb",
+          "team": "home",
+          "team_abbrev": "Team Stuttgart 2",
+          "seven_meter": true
+        },
+        {
+          "minute": 54,
+          "second": 36,
+          "scorer": "Kilian Epp",
+          "team": "away",
+          "team_abbrev": "BW Feldkirch",
+          "seven_meter": false
+        },
+        {
+          "minute": 55,
+          "second": 43,
+          "scorer": "Tobias Schuler",
+          "team": "away",
+          "team_abbrev": "BW Feldkirch",
+          "seven_meter": false
+        },
+        {
+          "minute": 56,
+          "second": 38,
+          "scorer": "Elia Peter",
+          "team": "away",
+          "team_abbrev": "BW Feldkirch",
+          "seven_meter": false
+        },
+        {
+          "minute": 57,
+          "second": 14,
+          "scorer": "Elia Peter",
+          "team": "away",
+          "team_abbrev": "BW Feldkirch",
+          "seven_meter": false
+        },
+        {
+          "minute": 57,
+          "second": 53,
+          "scorer": "Elia Peter",
+          "team": "away",
+          "team_abbrev": "BW Feldkirch",
+          "seven_meter": false
+        },
+        {
+          "minute": 58,
+          "second": 37,
+          "scorer": "Elia Peter",
+          "team": "away",
+          "team_abbrev": "BW Feldkirch",
+          "seven_meter": false
+        },
+        {
+          "minute": 58,
+          "second": 55,
+          "scorer": "Benedikt Weber",
+          "team": "home",
+          "team_abbrev": "Team Stuttgart 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 59,
+          "second": 28,
+          "scorer": "Nico Schachinger",
+          "team": "away",
+          "team_abbrev": "BW Feldkirch",
+          "seven_meter": false
+        },
+        {
+          "minute": 59,
+          "second": 57,
+          "scorer": "Henrique De Mello Zischler",
+          "team": "away",
+          "team_abbrev": "BW Feldkirch",
+          "seven_meter": false
+        },
+        {
+          "minute": 60,
+          "second": 0,
+          "scorer": "Benedikt Weber",
+          "team": "home",
+          "team_abbrev": "Team Stuttgart 2",
+          "seven_meter": false
+        }
+      ],
+      "final_score": "20:46",
+      "half_duration": 30,
+      "officials": {
+        "referees": [
+          "Peter Robert Schlund",
+          "Philipp Leonard Sch\u00e4ffer"
+        ],
+        "timekeepers": [
+          "J\u00fcrgen Nosch"
+        ],
+        "secretaries": [
+          "Makus K\u00fchnel"
+        ]
+      },
+      "graphic_path": "output/graphics/BW_Feldkirch_vs_Team_Stuttgart_2_Sa_2009.png"
+    }
+  ]
+}

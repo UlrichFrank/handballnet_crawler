@@ -1,0 +1,750 @@
+{
+  "date": "20251220",
+  "games": [
+    {
+      "game_id": "handball4all.baden-wuerttemberg.8664361",
+      "order": 52,
+      "date": "Sa, 20.12.",
+      "home": {
+        "team_name": "BW Feldkirch",
+        "players": [
+          {
+            "name": "Yannick Epp",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Pius Inama",
+            "goals": 2,
+            "two_min_penalties": 2,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Fionn Epp",
+            "goals": 6,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Paul Wohlmuth",
+            "goals": 4,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 2,
+            "seven_meters_goals": 2
+          },
+          {
+            "name": "Kilian Epp",
+            "goals": 3,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Bence Szabo",
+            "goals": 2,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Elia Peter",
+            "goals": 1,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Arved Claus",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Dario Bachinger",
+            "goals": 3,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Tobias Schuler",
+            "goals": 3,
+            "two_min_penalties": 0,
+            "yellow_cards": 1,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Lukas Nosch",
+            "goals": 3,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Simon Fenkart",
+            "goals": 1,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Luis Kaufmann",
+            "goals": 1,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Yoseph Volger",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          }
+        ]
+      },
+      "away": {
+        "team_name": "TSV Wolfschlugen",
+        "players": [
+          {
+            "name": "Lukas Wilhelm",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Luca Solimando",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Mattis Wittmann",
+            "goals": 6,
+            "two_min_penalties": 1,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Lasse Sch\u00e4fer",
+            "goals": 1,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Janne Wittmann",
+            "goals": 1,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Nils Becker",
+            "goals": 0,
+            "two_min_penalties": 1,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Marlon Stoll",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Magnus Stephan",
+            "goals": 1,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Anton Kleiner",
+            "goals": 1,
+            "two_min_penalties": 1,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Philipp Gr\u00fcb",
+            "goals": 6,
+            "two_min_penalties": 1,
+            "yellow_cards": 1,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 5,
+            "seven_meters_goals": 4
+          },
+          {
+            "name": "Vincent W\u00fcst",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Adrian Schmidt",
+            "goals": 1,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "David Walter Blumauer",
+            "goals": 7,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Tom Haussmann",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Michael Ocker",
+            "goals": 0,
+            "two_min_penalties": 1,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          }
+        ]
+      },
+      "goals_timeline": [
+        {
+          "minute": 0,
+          "second": 37,
+          "scorer": "David Blumauer",
+          "team": "home",
+          "team_abbrev": "TSV Wolfschlu.",
+          "seven_meter": false
+        },
+        {
+          "minute": 0,
+          "second": 59,
+          "scorer": "Fionn Epp",
+          "team": "away",
+          "team_abbrev": "BW Feldkirch",
+          "seven_meter": false
+        },
+        {
+          "minute": 1,
+          "second": 32,
+          "scorer": "Kilian Epp",
+          "team": "away",
+          "team_abbrev": "BW Feldkirch",
+          "seven_meter": false
+        },
+        {
+          "minute": 1,
+          "second": 51,
+          "scorer": "Janne Wittmann",
+          "team": "home",
+          "team_abbrev": "TSV Wolfschlu.",
+          "seven_meter": false
+        },
+        {
+          "minute": 2,
+          "second": 15,
+          "scorer": "David Blumauer",
+          "team": "home",
+          "team_abbrev": "TSV Wolfschlu.",
+          "seven_meter": false
+        },
+        {
+          "minute": 2,
+          "second": 38,
+          "scorer": "Kilian Epp",
+          "team": "away",
+          "team_abbrev": "BW Feldkirch",
+          "seven_meter": false
+        },
+        {
+          "minute": 3,
+          "second": 40,
+          "scorer": "Paul Wohlmuth",
+          "team": "away",
+          "team_abbrev": "BW Feldkirch",
+          "seven_meter": true
+        },
+        {
+          "minute": 4,
+          "second": 23,
+          "scorer": "Kilian Epp",
+          "team": "away",
+          "team_abbrev": "BW Feldkirch",
+          "seven_meter": false
+        },
+        {
+          "minute": 7,
+          "second": 18,
+          "scorer": "Fionn Epp",
+          "team": "away",
+          "team_abbrev": "BW Feldkirch",
+          "seven_meter": false
+        },
+        {
+          "minute": 8,
+          "second": 8,
+          "scorer": "Magnus Stephan",
+          "team": "home",
+          "team_abbrev": "TSV Wolfschlu.",
+          "seven_meter": false
+        },
+        {
+          "minute": 8,
+          "second": 47,
+          "scorer": "Paul Wohlmuth",
+          "team": "away",
+          "team_abbrev": "BW Feldkirch",
+          "seven_meter": false
+        },
+        {
+          "minute": 9,
+          "second": 31,
+          "scorer": "Dario Bachinger",
+          "team": "away",
+          "team_abbrev": "BW Feldkirch",
+          "seven_meter": false
+        },
+        {
+          "minute": 9,
+          "second": 59,
+          "scorer": "Mattis Wittmann",
+          "team": "home",
+          "team_abbrev": "TSV Wolfschlu.",
+          "seven_meter": false
+        },
+        {
+          "minute": 11,
+          "second": 6,
+          "scorer": "Adrian Schmidt",
+          "team": "home",
+          "team_abbrev": "TSV Wolfschlu.",
+          "seven_meter": false
+        },
+        {
+          "minute": 11,
+          "second": 25,
+          "scorer": "Fionn Epp",
+          "team": "away",
+          "team_abbrev": "BW Feldkirch",
+          "seven_meter": false
+        },
+        {
+          "minute": 14,
+          "second": 12,
+          "scorer": "Bence Szabo",
+          "team": "away",
+          "team_abbrev": "BW Feldkirch",
+          "seven_meter": false
+        },
+        {
+          "minute": 14,
+          "second": 44,
+          "scorer": "Mattis Wittmann",
+          "team": "home",
+          "team_abbrev": "TSV Wolfschlu.",
+          "seven_meter": false
+        },
+        {
+          "minute": 16,
+          "second": 2,
+          "scorer": "Lukas Nosch",
+          "team": "away",
+          "team_abbrev": "BW Feldkirch",
+          "seven_meter": false
+        },
+        {
+          "minute": 16,
+          "second": 40,
+          "scorer": "Philipp Gr\u00fcb",
+          "team": "home",
+          "team_abbrev": "TSV Wolfschlu.",
+          "seven_meter": true
+        },
+        {
+          "minute": 17,
+          "second": 23,
+          "scorer": "Fionn Epp",
+          "team": "away",
+          "team_abbrev": "BW Feldkirch",
+          "seven_meter": false
+        },
+        {
+          "minute": 19,
+          "second": 51,
+          "scorer": "David Blumauer",
+          "team": "home",
+          "team_abbrev": "TSV Wolfschlu.",
+          "seven_meter": false
+        },
+        {
+          "minute": 19,
+          "second": 59,
+          "scorer": "Paul Wohlmuth",
+          "team": "away",
+          "team_abbrev": "BW Feldkirch",
+          "seven_meter": false
+        },
+        {
+          "minute": 21,
+          "second": 27,
+          "scorer": "Paul Wohlmuth",
+          "team": "away",
+          "team_abbrev": "BW Feldkirch",
+          "seven_meter": true
+        },
+        {
+          "minute": 22,
+          "second": 6,
+          "scorer": "David Blumauer",
+          "team": "home",
+          "team_abbrev": "TSV Wolfschlu.",
+          "seven_meter": false
+        },
+        {
+          "minute": 23,
+          "second": 12,
+          "scorer": "Philipp Gr\u00fcb",
+          "team": "home",
+          "team_abbrev": "TSV Wolfschlu.",
+          "seven_meter": true
+        },
+        {
+          "minute": 23,
+          "second": 46,
+          "scorer": "Bence Szabo",
+          "team": "away",
+          "team_abbrev": "BW Feldkirch",
+          "seven_meter": false
+        },
+        {
+          "minute": 26,
+          "second": 54,
+          "scorer": "Simon Fenkart",
+          "team": "away",
+          "team_abbrev": "BW Feldkirch",
+          "seven_meter": false
+        },
+        {
+          "minute": 27,
+          "second": 38,
+          "scorer": "Mattis Wittmann",
+          "team": "home",
+          "team_abbrev": "TSV Wolfschlu.",
+          "seven_meter": false
+        },
+        {
+          "minute": 29,
+          "second": 1,
+          "scorer": "Elia Peter",
+          "team": "away",
+          "team_abbrev": "BW Feldkirch",
+          "seven_meter": false
+        },
+        {
+          "minute": 29,
+          "second": 29,
+          "scorer": "David Blumauer",
+          "team": "home",
+          "team_abbrev": "TSV Wolfschlu.",
+          "seven_meter": false
+        },
+        {
+          "minute": 29,
+          "second": 52,
+          "scorer": "Tobias Schuler",
+          "team": "away",
+          "team_abbrev": "BW Feldkirch",
+          "seven_meter": false
+        },
+        {
+          "minute": 29,
+          "second": 59,
+          "scorer": "Mattis Wittmann",
+          "team": "home",
+          "team_abbrev": "TSV Wolfschlu.",
+          "seven_meter": false
+        },
+        {
+          "minute": 30,
+          "second": 40,
+          "scorer": "Lasse Sch\u00e4fer",
+          "team": "home",
+          "team_abbrev": "TSV Wolfschlu.",
+          "seven_meter": false
+        },
+        {
+          "minute": 33,
+          "second": 18,
+          "scorer": "Lukas Nosch",
+          "team": "away",
+          "team_abbrev": "BW Feldkirch",
+          "seven_meter": false
+        },
+        {
+          "minute": 34,
+          "second": 11,
+          "scorer": "Luis Kaufmann",
+          "team": "away",
+          "team_abbrev": "BW Feldkirch",
+          "seven_meter": false
+        },
+        {
+          "minute": 35,
+          "second": 9,
+          "scorer": "Fionn Epp",
+          "team": "away",
+          "team_abbrev": "BW Feldkirch",
+          "seven_meter": false
+        },
+        {
+          "minute": 38,
+          "second": 14,
+          "scorer": "Philipp Gr\u00fcb",
+          "team": "home",
+          "team_abbrev": "TSV Wolfschlu.",
+          "seven_meter": false
+        },
+        {
+          "minute": 42,
+          "second": 6,
+          "scorer": "Philipp Gr\u00fcb",
+          "team": "home",
+          "team_abbrev": "TSV Wolfschlu.",
+          "seven_meter": false
+        },
+        {
+          "minute": 43,
+          "second": 20,
+          "scorer": "Mattis Wittmann",
+          "team": "home",
+          "team_abbrev": "TSV Wolfschlu.",
+          "seven_meter": false
+        },
+        {
+          "minute": 43,
+          "second": 55,
+          "scorer": "Dario Bachinger",
+          "team": "away",
+          "team_abbrev": "BW Feldkirch",
+          "seven_meter": false
+        },
+        {
+          "minute": 44,
+          "second": 39,
+          "scorer": "Tobias Schuler",
+          "team": "away",
+          "team_abbrev": "BW Feldkirch",
+          "seven_meter": false
+        },
+        {
+          "minute": 45,
+          "second": 35,
+          "scorer": "Anton Kleiner",
+          "team": "home",
+          "team_abbrev": "TSV Wolfschlu.",
+          "seven_meter": false
+        },
+        {
+          "minute": 47,
+          "second": 23,
+          "scorer": "Philipp Gr\u00fcb",
+          "team": "home",
+          "team_abbrev": "TSV Wolfschlu.",
+          "seven_meter": true
+        },
+        {
+          "minute": 47,
+          "second": 43,
+          "scorer": "Lukas Nosch",
+          "team": "away",
+          "team_abbrev": "BW Feldkirch",
+          "seven_meter": false
+        },
+        {
+          "minute": 48,
+          "second": 44,
+          "scorer": "Philipp Gr\u00fcb",
+          "team": "home",
+          "team_abbrev": "TSV Wolfschlu.",
+          "seven_meter": true
+        },
+        {
+          "minute": 50,
+          "second": 30,
+          "scorer": "Pius Inama",
+          "team": "away",
+          "team_abbrev": "BW Feldkirch",
+          "seven_meter": false
+        },
+        {
+          "minute": 51,
+          "second": 20,
+          "scorer": "David Blumauer",
+          "team": "home",
+          "team_abbrev": "TSV Wolfschlu.",
+          "seven_meter": false
+        },
+        {
+          "minute": 53,
+          "second": 30,
+          "scorer": "Tobias Schuler",
+          "team": "away",
+          "team_abbrev": "BW Feldkirch",
+          "seven_meter": false
+        },
+        {
+          "minute": 54,
+          "second": 43,
+          "scorer": "Mattis Wittmann",
+          "team": "home",
+          "team_abbrev": "TSV Wolfschlu.",
+          "seven_meter": false
+        },
+        {
+          "minute": 55,
+          "second": 16,
+          "scorer": "Fionn Epp",
+          "team": "away",
+          "team_abbrev": "BW Feldkirch",
+          "seven_meter": false
+        },
+        {
+          "minute": 56,
+          "second": 38,
+          "scorer": "David Blumauer",
+          "team": "home",
+          "team_abbrev": "TSV Wolfschlu.",
+          "seven_meter": false
+        },
+        {
+          "minute": 58,
+          "second": 30,
+          "scorer": "Dario Bachinger",
+          "team": "away",
+          "team_abbrev": "BW Feldkirch",
+          "seven_meter": false
+        },
+        {
+          "minute": 59,
+          "second": 20,
+          "scorer": "Pius Inama",
+          "team": "away",
+          "team_abbrev": "BW Feldkirch",
+          "seven_meter": false
+        }
+      ],
+      "final_score": "24:29",
+      "half_duration": 30,
+      "officials": {
+        "referees": [
+          "Heino Stieger"
+        ],
+        "timekeepers": [
+          "J\u00fcrgen Nosch"
+        ],
+        "secretaries": [
+          "Alexandra Gr\u00fcb"
+        ]
+      },
+      "graphic_path": "output/graphics/BW_Feldkirch_vs_TSV_Wolfschlugen_Sa_2012.png"
+    }
+  ]
+}

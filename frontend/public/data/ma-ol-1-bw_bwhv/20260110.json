@@ -1,0 +1,789 @@
+{
+  "date": "20260110",
+  "games": [
+    {
+      "game_id": "handball4all.baden-wuerttemberg.8664556",
+      "order": 53,
+      "date": "Sa, 10.01.",
+      "home": {
+        "team_name": "BW Feldkirch",
+        "players": [
+          {
+            "name": "Yannick Epp",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Pius Inama",
+            "goals": 6,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Fionn Epp",
+            "goals": 4,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Paul Wohlmuth",
+            "goals": 8,
+            "two_min_penalties": 1,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 1,
+            "seven_meters_goals": 1
+          },
+          {
+            "name": "Kilian Epp",
+            "goals": 9,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Bence Szabo",
+            "goals": 7,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 3,
+            "seven_meters_goals": 3
+          },
+          {
+            "name": "Elia Peter",
+            "goals": 2,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Arved Claus",
+            "goals": 1,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Nico Schachinger",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Lukas Nosch",
+            "goals": 2,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Simon Fenkart",
+            "goals": 1,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Luis Kaufmann",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Yoseph Volger",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          }
+        ]
+      },
+      "away": {
+        "team_name": "HSG Bargau/Bettringen",
+        "players": [
+          {
+            "name": "Ben F\u00fcrst",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "David Ritz",
+            "goals": 6,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Paul Offenh\u00e4user",
+            "goals": 2,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Leo Mayer",
+            "goals": 6,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 4,
+            "seven_meters_goals": 3
+          },
+          {
+            "name": "Philipp Kolb",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Thilo Hegele",
+            "goals": 2,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Benjamin S\u00fc\u00df",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Lennard Sonnentag",
+            "goals": 3,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 1,
+            "seven_meters_goals": 1
+          },
+          {
+            "name": "Lennard Kolb",
+            "goals": 3,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Sebastian Koscheluh",
+            "goals": 2,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Fabian Barth",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          }
+        ]
+      },
+      "goals_timeline": [
+        {
+          "minute": 0,
+          "second": 31,
+          "scorer": "Paul Offenh\u00e4user",
+          "team": "home",
+          "team_abbrev": "HSG Barg/Bettr",
+          "seven_meter": false
+        },
+        {
+          "minute": 1,
+          "second": 25,
+          "scorer": "Kilian Epp",
+          "team": "away",
+          "team_abbrev": "BW Feldkirch",
+          "seven_meter": false
+        },
+        {
+          "minute": 2,
+          "second": 58,
+          "scorer": "Kilian Epp",
+          "team": "away",
+          "team_abbrev": "BW Feldkirch",
+          "seven_meter": false
+        },
+        {
+          "minute": 3,
+          "second": 58,
+          "scorer": "Pius Inama",
+          "team": "away",
+          "team_abbrev": "BW Feldkirch",
+          "seven_meter": false
+        },
+        {
+          "minute": 4,
+          "second": 53,
+          "scorer": "Leo Mayer",
+          "team": "home",
+          "team_abbrev": "HSG Barg/Bettr",
+          "seven_meter": true
+        },
+        {
+          "minute": 5,
+          "second": 34,
+          "scorer": "Pius Inama",
+          "team": "away",
+          "team_abbrev": "BW Feldkirch",
+          "seven_meter": false
+        },
+        {
+          "minute": 7,
+          "second": 4,
+          "scorer": "Lukas Nosch",
+          "team": "away",
+          "team_abbrev": "BW Feldkirch",
+          "seven_meter": false
+        },
+        {
+          "minute": 7,
+          "second": 56,
+          "scorer": "Kilian Epp",
+          "team": "away",
+          "team_abbrev": "BW Feldkirch",
+          "seven_meter": false
+        },
+        {
+          "minute": 9,
+          "second": 33,
+          "scorer": "Leo Mayer",
+          "team": "home",
+          "team_abbrev": "HSG Barg/Bettr",
+          "seven_meter": false
+        },
+        {
+          "minute": 9,
+          "second": 45,
+          "scorer": "Lukas Nosch",
+          "team": "away",
+          "team_abbrev": "BW Feldkirch",
+          "seven_meter": false
+        },
+        {
+          "minute": 10,
+          "second": 7,
+          "scorer": "Paul Offenh\u00e4user",
+          "team": "home",
+          "team_abbrev": "HSG Barg/Bettr",
+          "seven_meter": false
+        },
+        {
+          "minute": 10,
+          "second": 43,
+          "scorer": "Lennard Kolb",
+          "team": "home",
+          "team_abbrev": "HSG Barg/Bettr",
+          "seven_meter": false
+        },
+        {
+          "minute": 11,
+          "second": 35,
+          "scorer": "Fionn Epp",
+          "team": "away",
+          "team_abbrev": "BW Feldkirch",
+          "seven_meter": false
+        },
+        {
+          "minute": 12,
+          "second": 5,
+          "scorer": "David Ritz",
+          "team": "home",
+          "team_abbrev": "HSG Barg/Bettr",
+          "seven_meter": false
+        },
+        {
+          "minute": 12,
+          "second": 39,
+          "scorer": "Kilian Epp",
+          "team": "away",
+          "team_abbrev": "BW Feldkirch",
+          "seven_meter": false
+        },
+        {
+          "minute": 13,
+          "second": 8,
+          "scorer": "Thilo Hegele",
+          "team": "home",
+          "team_abbrev": "HSG Barg/Bettr",
+          "seven_meter": false
+        },
+        {
+          "minute": 14,
+          "second": 6,
+          "scorer": "David Ritz",
+          "team": "home",
+          "team_abbrev": "HSG Barg/Bettr",
+          "seven_meter": false
+        },
+        {
+          "minute": 16,
+          "second": 51,
+          "scorer": "David Ritz",
+          "team": "home",
+          "team_abbrev": "HSG Barg/Bettr",
+          "seven_meter": false
+        },
+        {
+          "minute": 17,
+          "second": 22,
+          "scorer": "Paul Wohlmuth",
+          "team": "away",
+          "team_abbrev": "BW Feldkirch",
+          "seven_meter": true
+        },
+        {
+          "minute": 18,
+          "second": 6,
+          "scorer": "Paul Wohlmuth",
+          "team": "away",
+          "team_abbrev": "BW Feldkirch",
+          "seven_meter": false
+        },
+        {
+          "minute": 18,
+          "second": 29,
+          "scorer": "David Ritz",
+          "team": "home",
+          "team_abbrev": "HSG Barg/Bettr",
+          "seven_meter": false
+        },
+        {
+          "minute": 19,
+          "second": 17,
+          "scorer": "Kilian Epp",
+          "team": "away",
+          "team_abbrev": "BW Feldkirch",
+          "seven_meter": false
+        },
+        {
+          "minute": 21,
+          "second": 57,
+          "scorer": "Paul Wohlmuth",
+          "team": "away",
+          "team_abbrev": "BW Feldkirch",
+          "seven_meter": false
+        },
+        {
+          "minute": 23,
+          "second": 43,
+          "scorer": "David Ritz",
+          "team": "home",
+          "team_abbrev": "HSG Barg/Bettr",
+          "seven_meter": false
+        },
+        {
+          "minute": 24,
+          "second": 9,
+          "scorer": "Bence Szabo",
+          "team": "away",
+          "team_abbrev": "BW Feldkirch",
+          "seven_meter": false
+        },
+        {
+          "minute": 25,
+          "second": 28,
+          "scorer": "Elia Peter",
+          "team": "away",
+          "team_abbrev": "BW Feldkirch",
+          "seven_meter": false
+        },
+        {
+          "minute": 26,
+          "second": 15,
+          "scorer": "Lennard Sonnentag",
+          "team": "home",
+          "team_abbrev": "HSG Barg/Bettr",
+          "seven_meter": false
+        },
+        {
+          "minute": 27,
+          "second": 22,
+          "scorer": "Bence Szabo",
+          "team": "away",
+          "team_abbrev": "BW Feldkirch",
+          "seven_meter": true
+        },
+        {
+          "minute": 28,
+          "second": 33,
+          "scorer": "Elia Peter",
+          "team": "away",
+          "team_abbrev": "BW Feldkirch",
+          "seven_meter": false
+        },
+        {
+          "minute": 29,
+          "second": 15,
+          "scorer": "Lennard Sonnentag",
+          "team": "home",
+          "team_abbrev": "HSG Barg/Bettr",
+          "seven_meter": false
+        },
+        {
+          "minute": 29,
+          "second": 29,
+          "scorer": "Arved Claus",
+          "team": "away",
+          "team_abbrev": "BW Feldkirch",
+          "seven_meter": false
+        },
+        {
+          "minute": 30,
+          "second": 0,
+          "scorer": "Leo Mayer",
+          "team": "home",
+          "team_abbrev": "HSG Barg/Bettr",
+          "seven_meter": false
+        },
+        {
+          "minute": 30,
+          "second": 33,
+          "scorer": "Fionn Epp",
+          "team": "away",
+          "team_abbrev": "BW Feldkirch",
+          "seven_meter": false
+        },
+        {
+          "minute": 32,
+          "second": 37,
+          "scorer": "Fionn Epp",
+          "team": "away",
+          "team_abbrev": "BW Feldkirch",
+          "seven_meter": false
+        },
+        {
+          "minute": 34,
+          "second": 33,
+          "scorer": "Kilian Epp",
+          "team": "away",
+          "team_abbrev": "BW Feldkirch",
+          "seven_meter": false
+        },
+        {
+          "minute": 35,
+          "second": 16,
+          "scorer": "Fionn Epp",
+          "team": "away",
+          "team_abbrev": "BW Feldkirch",
+          "seven_meter": false
+        },
+        {
+          "minute": 36,
+          "second": 6,
+          "scorer": "Leo Mayer",
+          "team": "home",
+          "team_abbrev": "HSG Barg/Bettr",
+          "seven_meter": true
+        },
+        {
+          "minute": 37,
+          "second": 32,
+          "scorer": "Simon Fenkart",
+          "team": "away",
+          "team_abbrev": "BW Feldkirch",
+          "seven_meter": false
+        },
+        {
+          "minute": 39,
+          "second": 59,
+          "scorer": "Bence Szabo",
+          "team": "away",
+          "team_abbrev": "BW Feldkirch",
+          "seven_meter": true
+        },
+        {
+          "minute": 41,
+          "second": 10,
+          "scorer": "Leo Mayer",
+          "team": "home",
+          "team_abbrev": "HSG Barg/Bettr",
+          "seven_meter": false
+        },
+        {
+          "minute": 41,
+          "second": 35,
+          "scorer": "Lennard Kolb",
+          "team": "home",
+          "team_abbrev": "HSG Barg/Bettr",
+          "seven_meter": false
+        },
+        {
+          "minute": 41,
+          "second": 49,
+          "scorer": "Paul Wohlmuth",
+          "team": "away",
+          "team_abbrev": "BW Feldkirch",
+          "seven_meter": false
+        },
+        {
+          "minute": 42,
+          "second": 41,
+          "scorer": "Bence Szabo",
+          "team": "away",
+          "team_abbrev": "BW Feldkirch",
+          "seven_meter": false
+        },
+        {
+          "minute": 45,
+          "second": 25,
+          "scorer": "Bence Szabo",
+          "team": "away",
+          "team_abbrev": "BW Feldkirch",
+          "seven_meter": true
+        },
+        {
+          "minute": 46,
+          "second": 24,
+          "scorer": "Leo Mayer",
+          "team": "home",
+          "team_abbrev": "HSG Barg/Bettr",
+          "seven_meter": true
+        },
+        {
+          "minute": 46,
+          "second": 59,
+          "scorer": "Pius Inama",
+          "team": "away",
+          "team_abbrev": "BW Feldkirch",
+          "seven_meter": false
+        },
+        {
+          "minute": 47,
+          "second": 25,
+          "scorer": "David Ritz",
+          "team": "home",
+          "team_abbrev": "HSG Barg/Bettr",
+          "seven_meter": false
+        },
+        {
+          "minute": 47,
+          "second": 59,
+          "scorer": "Kilian Epp",
+          "team": "away",
+          "team_abbrev": "BW Feldkirch",
+          "seven_meter": false
+        },
+        {
+          "minute": 48,
+          "second": 23,
+          "scorer": "Pius Inama",
+          "team": "away",
+          "team_abbrev": "BW Feldkirch",
+          "seven_meter": false
+        },
+        {
+          "minute": 49,
+          "second": 14,
+          "scorer": "Bence Szabo",
+          "team": "away",
+          "team_abbrev": "BW Feldkirch",
+          "seven_meter": false
+        },
+        {
+          "minute": 50,
+          "second": 9,
+          "scorer": "Paul Wohlmuth",
+          "team": "away",
+          "team_abbrev": "BW Feldkirch",
+          "seven_meter": false
+        },
+        {
+          "minute": 51,
+          "second": 13,
+          "scorer": "Thilo Hegele",
+          "team": "home",
+          "team_abbrev": "HSG Barg/Bettr",
+          "seven_meter": false
+        },
+        {
+          "minute": 51,
+          "second": 57,
+          "scorer": "Lennard Sonnentag",
+          "team": "home",
+          "team_abbrev": "HSG Barg/Bettr",
+          "seven_meter": true
+        },
+        {
+          "minute": 52,
+          "second": 10,
+          "scorer": "Pius Inama",
+          "team": "away",
+          "team_abbrev": "BW Feldkirch",
+          "seven_meter": false
+        },
+        {
+          "minute": 52,
+          "second": 56,
+          "scorer": "Kilian Epp",
+          "team": "away",
+          "team_abbrev": "BW Feldkirch",
+          "seven_meter": false
+        },
+        {
+          "minute": 53,
+          "second": 32,
+          "scorer": "Sebastian Koscheluh",
+          "team": "home",
+          "team_abbrev": "HSG Barg/Bettr",
+          "seven_meter": false
+        },
+        {
+          "minute": 53,
+          "second": 55,
+          "scorer": "Paul Wohlmuth",
+          "team": "away",
+          "team_abbrev": "BW Feldkirch",
+          "seven_meter": false
+        },
+        {
+          "minute": 54,
+          "second": 40,
+          "scorer": "Kilian Epp",
+          "team": "away",
+          "team_abbrev": "BW Feldkirch",
+          "seven_meter": false
+        },
+        {
+          "minute": 55,
+          "second": 27,
+          "scorer": "Pius Inama",
+          "team": "away",
+          "team_abbrev": "BW Feldkirch",
+          "seven_meter": false
+        },
+        {
+          "minute": 56,
+          "second": 44,
+          "scorer": "Lennard Kolb",
+          "team": "home",
+          "team_abbrev": "HSG Barg/Bettr",
+          "seven_meter": false
+        },
+        {
+          "minute": 56,
+          "second": 54,
+          "scorer": "Paul Wohlmuth",
+          "team": "away",
+          "team_abbrev": "BW Feldkirch",
+          "seven_meter": false
+        },
+        {
+          "minute": 57,
+          "second": 45,
+          "scorer": "Bence Szabo",
+          "team": "away",
+          "team_abbrev": "BW Feldkirch",
+          "seven_meter": false
+        },
+        {
+          "minute": 59,
+          "second": 44,
+          "scorer": "Sebastian Koscheluh",
+          "team": "home",
+          "team_abbrev": "HSG Barg/Bettr",
+          "seven_meter": false
+        },
+        {
+          "minute": 59,
+          "second": 55,
+          "scorer": "Paul Wohlmuth",
+          "team": "away",
+          "team_abbrev": "BW Feldkirch",
+          "seven_meter": false
+        }
+      ],
+      "final_score": "24:40",
+      "half_duration": 30,
+      "officials": {
+        "referees": [
+          "Thomas Brzoska",
+          "Monika Frick"
+        ],
+        "timekeepers": [
+          "J\u00fcrgen Nosch"
+        ],
+        "secretaries": [
+          "Oliver Barth"
+        ]
+      },
+      "graphic_path": "output/graphics/BW_Feldkirch_vs_HSG_Bargau_Bettringe_Sa_1001.png"
+    }
+  ]
+}

@@ -1,0 +1,1001 @@
+{
+  "date": "20251129",
+  "games": [
+    {
+      "game_id": "handball4all.baden-wuerttemberg.8853472",
+      "order": 20,
+      "date": "Sa, 29.11.",
+      "home": {
+        "team_name": "SG Schorndorf 1846",
+        "players": [
+          {
+            "name": "Jonas Skrzypczyk",
+            "goals": 2,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Eric Tiberius Koser",
+            "goals": 10,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Ben Luis Schlechter",
+            "goals": 2,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Timo Kaden",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Jussi W\u00f6hrle",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Lian Benjamin Senzenberger",
+            "goals": 2,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Bennett Felix Link",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Domenik Bl\u00fcmle",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Emil D\u00e4tsch",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          }
+        ]
+      },
+      "away": {
+        "team_name": "TSB Schw\u00e4bisch Gm\u00fcnd",
+        "players": [
+          {
+            "name": "Magnus Frey",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Bastian Marx",
+            "goals": 5,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 2,
+            "seven_meters_goals": 2
+          },
+          {
+            "name": "Alexander Knoll",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Keo Badenbach",
+            "goals": 5,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Samuel Sohnle",
+            "goals": 3,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Louis Heissenberger",
+            "goals": 1,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Finn Burwitz",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Jona Wagner",
+            "goals": 4,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          }
+        ]
+      },
+      "goals_timeline": [
+        {
+          "minute": 0,
+          "second": 51,
+          "scorer": "Eric Koser",
+          "team": "home",
+          "team_abbrev": "SG Schorndorf",
+          "seven_meter": false
+        },
+        {
+          "minute": 1,
+          "second": 29,
+          "scorer": "Keo Badenbach",
+          "team": "away",
+          "team_abbrev": "TSB Schw.Gm\u00fcnd",
+          "seven_meter": false
+        },
+        {
+          "minute": 2,
+          "second": 12,
+          "scorer": "Eric Koser",
+          "team": "home",
+          "team_abbrev": "SG Schorndorf",
+          "seven_meter": false
+        },
+        {
+          "minute": 3,
+          "second": 2,
+          "scorer": "Eric Koser",
+          "team": "home",
+          "team_abbrev": "SG Schorndorf",
+          "seven_meter": false
+        },
+        {
+          "minute": 4,
+          "second": 1,
+          "scorer": "Bastian Marx",
+          "team": "away",
+          "team_abbrev": "TSB Schw.Gm\u00fcnd",
+          "seven_meter": false
+        },
+        {
+          "minute": 4,
+          "second": 34,
+          "scorer": "Jonas Skrzypczyk",
+          "team": "home",
+          "team_abbrev": "SG Schorndorf",
+          "seven_meter": false
+        },
+        {
+          "minute": 6,
+          "second": 54,
+          "scorer": "Ben Schlechter",
+          "team": "home",
+          "team_abbrev": "SG Schorndorf",
+          "seven_meter": false
+        },
+        {
+          "minute": 10,
+          "second": 10,
+          "scorer": "Ben Schlechter",
+          "team": "home",
+          "team_abbrev": "SG Schorndorf",
+          "seven_meter": false
+        },
+        {
+          "minute": 10,
+          "second": 22,
+          "scorer": "Samuel Sohnle",
+          "team": "away",
+          "team_abbrev": "TSB Schw.Gm\u00fcnd",
+          "seven_meter": false
+        },
+        {
+          "minute": 11,
+          "second": 28,
+          "scorer": "Eric Koser",
+          "team": "home",
+          "team_abbrev": "SG Schorndorf",
+          "seven_meter": false
+        },
+        {
+          "minute": 12,
+          "second": 36,
+          "scorer": "Bastian Marx",
+          "team": "away",
+          "team_abbrev": "TSB Schw.Gm\u00fcnd",
+          "seven_meter": true
+        },
+        {
+          "minute": 13,
+          "second": 45,
+          "scorer": "Eric Koser",
+          "team": "home",
+          "team_abbrev": "SG Schorndorf",
+          "seven_meter": false
+        },
+        {
+          "minute": 15,
+          "second": 28,
+          "scorer": "Jonas Skrzypczyk",
+          "team": "home",
+          "team_abbrev": "SG Schorndorf",
+          "seven_meter": false
+        },
+        {
+          "minute": 15,
+          "second": 41,
+          "scorer": "Samuel Sohnle",
+          "team": "away",
+          "team_abbrev": "TSB Schw.Gm\u00fcnd",
+          "seven_meter": false
+        },
+        {
+          "minute": 16,
+          "second": 35,
+          "scorer": "Bastian Marx",
+          "team": "away",
+          "team_abbrev": "TSB Schw.Gm\u00fcnd",
+          "seven_meter": false
+        },
+        {
+          "minute": 19,
+          "second": 14,
+          "scorer": "Keo Badenbach",
+          "team": "away",
+          "team_abbrev": "TSB Schw.Gm\u00fcnd",
+          "seven_meter": false
+        },
+        {
+          "minute": 19,
+          "second": 49,
+          "scorer": "Eric Koser",
+          "team": "home",
+          "team_abbrev": "SG Schorndorf",
+          "seven_meter": false
+        },
+        {
+          "minute": 20,
+          "second": 24,
+          "scorer": "Samuel Sohnle",
+          "team": "away",
+          "team_abbrev": "TSB Schw.Gm\u00fcnd",
+          "seven_meter": false
+        },
+        {
+          "minute": 22,
+          "second": 19,
+          "scorer": "Bastian Marx",
+          "team": "away",
+          "team_abbrev": "TSB Schw.Gm\u00fcnd",
+          "seven_meter": false
+        },
+        {
+          "minute": 22,
+          "second": 47,
+          "scorer": "Lian Senzenberger",
+          "team": "home",
+          "team_abbrev": "SG Schorndorf",
+          "seven_meter": false
+        },
+        {
+          "minute": 26,
+          "second": 3,
+          "scorer": "Jona Wagner",
+          "team": "away",
+          "team_abbrev": "TSB Schw.Gm\u00fcnd",
+          "seven_meter": false
+        },
+        {
+          "minute": 26,
+          "second": 51,
+          "scorer": "Jona Wagner",
+          "team": "away",
+          "team_abbrev": "TSB Schw.Gm\u00fcnd",
+          "seven_meter": false
+        },
+        {
+          "minute": 29,
+          "second": 14,
+          "scorer": "Keo Badenbach",
+          "team": "away",
+          "team_abbrev": "TSB Schw.Gm\u00fcnd",
+          "seven_meter": false
+        },
+        {
+          "minute": 30,
+          "second": 5,
+          "scorer": "Eric Koser",
+          "team": "home",
+          "team_abbrev": "SG Schorndorf",
+          "seven_meter": true
+        },
+        {
+          "minute": 31,
+          "second": 4,
+          "scorer": "Eric Koser",
+          "team": "home",
+          "team_abbrev": "SG Schorndorf",
+          "seven_meter": false
+        },
+        {
+          "minute": 32,
+          "second": 21,
+          "scorer": "Jona Wagner",
+          "team": "away",
+          "team_abbrev": "TSB Schw.Gm\u00fcnd",
+          "seven_meter": false
+        },
+        {
+          "minute": 32,
+          "second": 58,
+          "scorer": "Lian Senzenberger",
+          "team": "home",
+          "team_abbrev": "SG Schorndorf",
+          "seven_meter": false
+        },
+        {
+          "minute": 34,
+          "second": 20,
+          "scorer": "Eric Koser",
+          "team": "home",
+          "team_abbrev": "SG Schorndorf",
+          "seven_meter": false
+        },
+        {
+          "minute": 35,
+          "second": 30,
+          "scorer": "Keo Badenbach",
+          "team": "away",
+          "team_abbrev": "TSB Schw.Gm\u00fcnd",
+          "seven_meter": false
+        },
+        {
+          "minute": 36,
+          "second": 38,
+          "scorer": "Louis Heissenberger",
+          "team": "away",
+          "team_abbrev": "TSB Schw.Gm\u00fcnd",
+          "seven_meter": false
+        },
+        {
+          "minute": 36,
+          "second": 50,
+          "scorer": "Eric Koser",
+          "team": "home",
+          "team_abbrev": "SG Schorndorf",
+          "seven_meter": false
+        },
+        {
+          "minute": 37,
+          "second": 36,
+          "scorer": "Bastian Marx",
+          "team": "away",
+          "team_abbrev": "TSB Schw.Gm\u00fcnd",
+          "seven_meter": true
+        },
+        {
+          "minute": 38,
+          "second": 25,
+          "scorer": "Jona Wagner",
+          "team": "away",
+          "team_abbrev": "TSB Schw.Gm\u00fcnd",
+          "seven_meter": false
+        },
+        {
+          "minute": 39,
+          "second": 12,
+          "scorer": "Keo Badenbach",
+          "team": "away",
+          "team_abbrev": "TSB Schw.Gm\u00fcnd",
+          "seven_meter": false
+        }
+      ],
+      "final_score": "16:18",
+      "half_duration": 30,
+      "officials": {
+        "referees": [
+          "Moritz Krombach"
+        ],
+        "timekeepers": [],
+        "secretaries": [
+          "Tanja Sohnle"
+        ]
+      },
+      "graphic_path": "output/graphics/SG_Schorndorf_1846_vs_TSB_Schw\u00e4bisch_Gm\u00fcnd_Sa_2911.png"
+    },
+    {
+      "game_id": "handball4all.baden-wuerttemberg.8853462",
+      "order": 21,
+      "date": "Sa, 29.11.",
+      "home": {
+        "team_name": "SV Leonberg/Eltingen",
+        "players": [
+          {
+            "name": "Noah Yazici",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Paul Ide",
+            "goals": 3,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Finn Sautter",
+            "goals": 1,
+            "two_min_penalties": 1,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 1,
+            "seven_meters_goals": 1
+          },
+          {
+            "name": "Gideon K\u00f6rber",
+            "goals": 1,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Robin Thomas",
+            "goals": 0,
+            "two_min_penalties": 1,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Ben Digel",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Elias Schwab",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Julian Langer",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Liam Schr\u00e4pel",
+            "goals": 3,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Timo Rokkenbauch",
+            "goals": 5,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 1,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Milo Gera",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          }
+        ]
+      },
+      "away": {
+        "team_name": "TSV Alfdorf/Lorch/Waldhausen",
+        "players": [
+          {
+            "name": "Patrick V\u00f6gele",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Lenny Grgic",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Hannes Behringer",
+            "goals": 2,
+            "two_min_penalties": 0,
+            "yellow_cards": 1,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Theo Schneefu\u00df",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Silas Fritz",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Lucca Holz",
+            "goals": 2,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Noah Wahl",
+            "goals": 8,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Ole Erik Winter",
+            "goals": 5,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Mika Zapfl",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Maxim Barei\u00df",
+            "goals": 1,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Matteo Klenk",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Max Bareiss",
+            "goals": 2,
+            "two_min_penalties": 0,
+            "yellow_cards": 1,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          }
+        ]
+      },
+      "goals_timeline": [
+        {
+          "minute": 1,
+          "second": 4,
+          "scorer": "Liam Schr\u00e4pel",
+          "team": "home",
+          "team_abbrev": "SV Leonb/Elt",
+          "seven_meter": false
+        },
+        {
+          "minute": 1,
+          "second": 13,
+          "scorer": "Noah Wahl",
+          "team": "away",
+          "team_abbrev": "TSV ALLOWA",
+          "seven_meter": false
+        },
+        {
+          "minute": 1,
+          "second": 39,
+          "scorer": "Timo Rokkenbauch",
+          "team": "home",
+          "team_abbrev": "SV Leonb/Elt",
+          "seven_meter": false
+        },
+        {
+          "minute": 2,
+          "second": 57,
+          "scorer": "Liam Schr\u00e4pel",
+          "team": "home",
+          "team_abbrev": "SV Leonb/Elt",
+          "seven_meter": false
+        },
+        {
+          "minute": 8,
+          "second": 11,
+          "scorer": "Hannes Behringer",
+          "team": "away",
+          "team_abbrev": "TSV ALLOWA",
+          "seven_meter": false
+        },
+        {
+          "minute": 8,
+          "second": 44,
+          "scorer": "Finn Sautter",
+          "team": "home",
+          "team_abbrev": "SV Leonb/Elt",
+          "seven_meter": true
+        },
+        {
+          "minute": 11,
+          "second": 56,
+          "scorer": "Ole Winter",
+          "team": "away",
+          "team_abbrev": "TSV ALLOWA",
+          "seven_meter": false
+        },
+        {
+          "minute": 12,
+          "second": 11,
+          "scorer": "Timo Rokkenbauch",
+          "team": "home",
+          "team_abbrev": "SV Leonb/Elt",
+          "seven_meter": false
+        },
+        {
+          "minute": 12,
+          "second": 26,
+          "scorer": "Ole Winter",
+          "team": "away",
+          "team_abbrev": "TSV ALLOWA",
+          "seven_meter": true
+        },
+        {
+          "minute": 12,
+          "second": 58,
+          "scorer": "Ole Winter",
+          "team": "away",
+          "team_abbrev": "TSV ALLOWA",
+          "seven_meter": false
+        },
+        {
+          "minute": 13,
+          "second": 12,
+          "scorer": "Paul Ide",
+          "team": "home",
+          "team_abbrev": "SV Leonb/Elt",
+          "seven_meter": false
+        },
+        {
+          "minute": 14,
+          "second": 8,
+          "scorer": "Noah Wahl",
+          "team": "away",
+          "team_abbrev": "TSV ALLOWA",
+          "seven_meter": false
+        },
+        {
+          "minute": 15,
+          "second": 38,
+          "scorer": "Lucca Holz",
+          "team": "away",
+          "team_abbrev": "TSV ALLOWA",
+          "seven_meter": false
+        },
+        {
+          "minute": 20,
+          "second": 26,
+          "scorer": "Liam Schr\u00e4pel",
+          "team": "home",
+          "team_abbrev": "SV Leonb/Elt",
+          "seven_meter": false
+        },
+        {
+          "minute": 20,
+          "second": 39,
+          "scorer": "Lucca Holz",
+          "team": "away",
+          "team_abbrev": "TSV ALLOWA",
+          "seven_meter": false
+        },
+        {
+          "minute": 21,
+          "second": 39,
+          "scorer": "Ole Winter",
+          "team": "away",
+          "team_abbrev": "TSV ALLOWA",
+          "seven_meter": false
+        },
+        {
+          "minute": 22,
+          "second": 7,
+          "scorer": "Max Bareiss",
+          "team": "away",
+          "team_abbrev": "TSV ALLOWA",
+          "seven_meter": false
+        },
+        {
+          "minute": 23,
+          "second": 24,
+          "scorer": "Hannes Behringer",
+          "team": "away",
+          "team_abbrev": "TSV ALLOWA",
+          "seven_meter": false
+        },
+        {
+          "minute": 23,
+          "second": 40,
+          "scorer": "Timo Rokkenbauch",
+          "team": "home",
+          "team_abbrev": "SV Leonb/Elt",
+          "seven_meter": false
+        },
+        {
+          "minute": 24,
+          "second": 27,
+          "scorer": "Ole Winter",
+          "team": "away",
+          "team_abbrev": "TSV ALLOWA",
+          "seven_meter": false
+        },
+        {
+          "minute": 24,
+          "second": 51,
+          "scorer": "Noah Wahl",
+          "team": "away",
+          "team_abbrev": "TSV ALLOWA",
+          "seven_meter": false
+        },
+        {
+          "minute": 27,
+          "second": 2,
+          "scorer": "Gideon K\u00f6rber",
+          "team": "home",
+          "team_abbrev": "SV Leonb/Elt",
+          "seven_meter": false
+        },
+        {
+          "minute": 27,
+          "second": 30,
+          "scorer": "Paul Ide",
+          "team": "home",
+          "team_abbrev": "SV Leonb/Elt",
+          "seven_meter": false
+        },
+        {
+          "minute": 30,
+          "second": 6,
+          "scorer": "Noah Wahl",
+          "team": "away",
+          "team_abbrev": "TSV ALLOWA",
+          "seven_meter": false
+        },
+        {
+          "minute": 31,
+          "second": 24,
+          "scorer": "Maxim Barei\u00df",
+          "team": "away",
+          "team_abbrev": "TSV ALLOWA",
+          "seven_meter": false
+        },
+        {
+          "minute": 31,
+          "second": 38,
+          "scorer": "Timo Rokkenbauch",
+          "team": "home",
+          "team_abbrev": "SV Leonb/Elt",
+          "seven_meter": false
+        },
+        {
+          "minute": 32,
+          "second": 24,
+          "scorer": "Noah Wahl",
+          "team": "away",
+          "team_abbrev": "TSV ALLOWA",
+          "seven_meter": false
+        },
+        {
+          "minute": 35,
+          "second": 30,
+          "scorer": "Timo Rokkenbauch",
+          "team": "home",
+          "team_abbrev": "SV Leonb/Elt",
+          "seven_meter": false
+        },
+        {
+          "minute": 36,
+          "second": 11,
+          "scorer": "Paul Ide",
+          "team": "home",
+          "team_abbrev": "SV Leonb/Elt",
+          "seven_meter": false
+        },
+        {
+          "minute": 37,
+          "second": 23,
+          "scorer": "Max Bareiss",
+          "team": "away",
+          "team_abbrev": "TSV ALLOWA",
+          "seven_meter": false
+        },
+        {
+          "minute": 39,
+          "second": 29,
+          "scorer": "Noah Wahl",
+          "team": "away",
+          "team_abbrev": "TSV ALLOWA",
+          "seven_meter": false
+        },
+        {
+          "minute": 39,
+          "second": 43,
+          "scorer": "Noah Wahl",
+          "team": "away",
+          "team_abbrev": "TSV ALLOWA",
+          "seven_meter": false
+        },
+        {
+          "minute": 40,
+          "second": 0,
+          "scorer": "Noah Wahl",
+          "team": "away",
+          "team_abbrev": "TSV ALLOWA",
+          "seven_meter": false
+        }
+      ],
+      "final_score": "13:20",
+      "half_duration": 30,
+      "officials": {
+        "referees": [
+          "Loen Pireva"
+        ],
+        "timekeepers": [
+          "Judie-Marie Sautter"
+        ],
+        "secretaries": [
+          "Nicolas Ide"
+        ]
+      },
+      "graphic_path": "output/graphics/SV_Leonberg_Eltingen_vs_TSV_Alfdorf_Lorch_Wa_Sa_2911.png"
+    }
+  ]
+}

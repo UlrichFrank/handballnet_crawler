@@ -1,0 +1,482 @@
+{
+  "date": "20251108",
+  "games": [
+    {
+      "game_id": "handball4all.baden-wuerttemberg.8853417",
+      "order": 12,
+      "date": "Sa, 08.11.",
+      "home": {
+        "team_name": "TSB Schw\u00e4bisch Gm\u00fcnd",
+        "players": [
+          {
+            "name": "Bastian Marx",
+            "goals": 6,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Oskar Waldenmaier",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Alexander Knoll",
+            "goals": 5,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 1,
+            "seven_meters_goals": 1
+          },
+          {
+            "name": "Valentin Patzl",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Nil Scherberger",
+            "goals": 5,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Keo Badenbach",
+            "goals": 5,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Samuel Sohnle",
+            "goals": 1,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Louis Heissenberger",
+            "goals": 1,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Finn Burwitz",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          }
+        ]
+      },
+      "away": {
+        "team_name": "HSG Gablenberg-Gaisburg",
+        "players": [
+          {
+            "name": "Ben Blocher",
+            "goals": 4,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 1,
+            "seven_meters_goals": 1
+          },
+          {
+            "name": "Manuel Berner",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Mika Salzig",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Axel Monsier-Thoumas",
+            "goals": 3,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Dusko Jovic",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Noe Ottenbacher",
+            "goals": 3,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Benjamin Albrecht",
+            "goals": 1,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 1,
+            "seven_meters_goals": 1
+          },
+          {
+            "name": "Anton Demel",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Nik Ottenbacher",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Marius Pf\u00e4nder",
+            "goals": 1,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          }
+        ]
+      },
+      "goals_timeline": [
+        {
+          "minute": 0,
+          "second": 30,
+          "scorer": "Nil Scherberger",
+          "team": "home",
+          "team_abbrev": "TSB Schw.Gm\u00fcnd",
+          "seven_meter": false
+        },
+        {
+          "minute": 0,
+          "second": 51,
+          "scorer": "Ben Blocher",
+          "team": "away",
+          "team_abbrev": "HSG Gab-Gais",
+          "seven_meter": false
+        },
+        {
+          "minute": 1,
+          "second": 8,
+          "scorer": "Alexander Knoll",
+          "team": "home",
+          "team_abbrev": "TSB Schw.Gm\u00fcnd",
+          "seven_meter": false
+        },
+        {
+          "minute": 1,
+          "second": 56,
+          "scorer": "Ben Blocher",
+          "team": "away",
+          "team_abbrev": "HSG Gab-Gais",
+          "seven_meter": true
+        },
+        {
+          "minute": 2,
+          "second": 41,
+          "scorer": "Ben Blocher",
+          "team": "away",
+          "team_abbrev": "HSG Gab-Gais",
+          "seven_meter": false
+        },
+        {
+          "minute": 3,
+          "second": 5,
+          "scorer": "Noe Ottenbacher",
+          "team": "away",
+          "team_abbrev": "HSG Gab-Gais",
+          "seven_meter": false
+        },
+        {
+          "minute": 4,
+          "second": 5,
+          "scorer": "Alexander Knoll",
+          "team": "home",
+          "team_abbrev": "TSB Schw.Gm\u00fcnd",
+          "seven_meter": true
+        },
+        {
+          "minute": 4,
+          "second": 57,
+          "scorer": "Nil Scherberger",
+          "team": "home",
+          "team_abbrev": "TSB Schw.Gm\u00fcnd",
+          "seven_meter": false
+        },
+        {
+          "minute": 6,
+          "second": 59,
+          "scorer": "Ben Blocher",
+          "team": "away",
+          "team_abbrev": "HSG Gab-Gais",
+          "seven_meter": false
+        },
+        {
+          "minute": 10,
+          "second": 25,
+          "scorer": "Bastian Marx",
+          "team": "home",
+          "team_abbrev": "TSB Schw.Gm\u00fcnd",
+          "seven_meter": false
+        },
+        {
+          "minute": 11,
+          "second": 26,
+          "scorer": "Nil Scherberger",
+          "team": "home",
+          "team_abbrev": "TSB Schw.Gm\u00fcnd",
+          "seven_meter": false
+        },
+        {
+          "minute": 12,
+          "second": 32,
+          "scorer": "Nil Scherberger",
+          "team": "home",
+          "team_abbrev": "TSB Schw.Gm\u00fcnd",
+          "seven_meter": false
+        },
+        {
+          "minute": 14,
+          "second": 52,
+          "scorer": "Alexander Knoll",
+          "team": "home",
+          "team_abbrev": "TSB Schw.Gm\u00fcnd",
+          "seven_meter": false
+        },
+        {
+          "minute": 15,
+          "second": 42,
+          "scorer": "Louis Heissenberger",
+          "team": "home",
+          "team_abbrev": "TSB Schw.Gm\u00fcnd",
+          "seven_meter": false
+        },
+        {
+          "minute": 20,
+          "second": 13,
+          "scorer": "Samuel Sohnle",
+          "team": "home",
+          "team_abbrev": "TSB Schw.Gm\u00fcnd",
+          "seven_meter": false
+        },
+        {
+          "minute": 21,
+          "second": 44,
+          "scorer": "Keo Badenbach",
+          "team": "home",
+          "team_abbrev": "TSB Schw.Gm\u00fcnd",
+          "seven_meter": false
+        },
+        {
+          "minute": 22,
+          "second": 16,
+          "scorer": "Bastian Marx",
+          "team": "home",
+          "team_abbrev": "TSB Schw.Gm\u00fcnd",
+          "seven_meter": false
+        },
+        {
+          "minute": 22,
+          "second": 40,
+          "scorer": "Keo Badenbach",
+          "team": "home",
+          "team_abbrev": "TSB Schw.Gm\u00fcnd",
+          "seven_meter": false
+        },
+        {
+          "minute": 23,
+          "second": 24,
+          "scorer": "Benjamin Albrecht",
+          "team": "away",
+          "team_abbrev": "HSG Gab-Gais",
+          "seven_meter": true
+        },
+        {
+          "minute": 23,
+          "second": 59,
+          "scorer": "Bastian Marx",
+          "team": "home",
+          "team_abbrev": "TSB Schw.Gm\u00fcnd",
+          "seven_meter": false
+        },
+        {
+          "minute": 26,
+          "second": 54,
+          "scorer": "Noe Ottenbacher",
+          "team": "away",
+          "team_abbrev": "HSG Gab-Gais",
+          "seven_meter": false
+        },
+        {
+          "minute": 28,
+          "second": 18,
+          "scorer": "Bastian Marx",
+          "team": "home",
+          "team_abbrev": "TSB Schw.Gm\u00fcnd",
+          "seven_meter": false
+        },
+        {
+          "minute": 30,
+          "second": 23,
+          "scorer": "Bastian Marx",
+          "team": "home",
+          "team_abbrev": "TSB Schw.Gm\u00fcnd",
+          "seven_meter": false
+        },
+        {
+          "minute": 31,
+          "second": 8,
+          "scorer": "Alexander Knoll",
+          "team": "home",
+          "team_abbrev": "TSB Schw.Gm\u00fcnd",
+          "seven_meter": false
+        },
+        {
+          "minute": 34,
+          "second": 13,
+          "scorer": "Alexander Knoll",
+          "team": "home",
+          "team_abbrev": "TSB Schw.Gm\u00fcnd",
+          "seven_meter": false
+        },
+        {
+          "minute": 34,
+          "second": 27,
+          "scorer": "Bastian Marx",
+          "team": "home",
+          "team_abbrev": "TSB Schw.Gm\u00fcnd",
+          "seven_meter": false
+        },
+        {
+          "minute": 35,
+          "second": 19,
+          "scorer": "Noe Ottenbacher",
+          "team": "away",
+          "team_abbrev": "HSG Gab-Gais",
+          "seven_meter": false
+        },
+        {
+          "minute": 36,
+          "second": 3,
+          "scorer": "Marius Pf\u00e4nder",
+          "team": "away",
+          "team_abbrev": "HSG Gab-Gais",
+          "seven_meter": false
+        },
+        {
+          "minute": 36,
+          "second": 24,
+          "scorer": "Keo Badenbach",
+          "team": "home",
+          "team_abbrev": "TSB Schw.Gm\u00fcnd",
+          "seven_meter": false
+        },
+        {
+          "minute": 36,
+          "second": 58,
+          "scorer": "Keo Badenbach",
+          "team": "home",
+          "team_abbrev": "TSB Schw.Gm\u00fcnd",
+          "seven_meter": false
+        },
+        {
+          "minute": 38,
+          "second": 44,
+          "scorer": "Nil Scherberger",
+          "team": "home",
+          "team_abbrev": "TSB Schw.Gm\u00fcnd",
+          "seven_meter": false
+        },
+        {
+          "minute": 39,
+          "second": 44,
+          "scorer": "Keo Badenbach",
+          "team": "home",
+          "team_abbrev": "TSB Schw.Gm\u00fcnd",
+          "seven_meter": false
+        }
+      ],
+      "final_score": "23:9",
+      "half_duration": 30,
+      "officials": {
+        "referees": [
+          "Elias Wittek"
+        ],
+        "timekeepers": [
+          "Nicole Wittek"
+        ],
+        "secretaries": [
+          "Teresa Demel"
+        ]
+      },
+      "graphic_path": "output/graphics/TSB_Schw\u00e4bisch_Gm\u00fcnd_vs_HSG_Gablenberg-Gaisb_Sa_0811.png"
+    }
+  ]
+}

@@ -1,0 +1,586 @@
+{
+  "date": "20251019",
+  "games": [
+    {
+      "game_id": "handball4all.baden-wuerttemberg.8849952",
+      "order": 12,
+      "date": "So, 19.10.",
+      "home": {
+        "team_name": "SV Leonberg/Eltingen",
+        "players": [
+          {
+            "name": "Theo Salfeld",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Simon Funk",
+            "goals": 4,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Loen Pireva",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Ivano Ivicevic",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Arne Arvid G\u00fcrtler",
+            "goals": 5,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Marc Zerfass",
+            "goals": 2,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 1,
+            "seven_meters_goals": 1
+          },
+          {
+            "name": "Frederik Frey",
+            "goals": 5,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 2,
+            "seven_meters_goals": 2
+          },
+          {
+            "name": "N.N. N.N.",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Luka Birmanac",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Maximilian Lang",
+            "goals": 2,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Yoshua Burr",
+            "goals": 2,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          }
+        ]
+      },
+      "away": {
+        "team_name": "SG Remstal",
+        "players": [
+          {
+            "name": "Marc Hutt",
+            "goals": 1,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Bennet Oberholz",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Moritz Bitterling",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Niklas von Kietzell",
+            "goals": 2,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Noah Illg",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Lino Widmann",
+            "goals": 3,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 1,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Laurin Heim",
+            "goals": 3,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Vladyslav Petrov",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Louis von Kietzell",
+            "goals": 2,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Niklas Eugen Fischer",
+            "goals": 3,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Felix Keul",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Moritz Tom M\u00fcller",
+            "goals": 6,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          }
+        ]
+      },
+      "goals_timeline": [
+        {
+          "minute": 3,
+          "second": 40,
+          "scorer": "Yoshua Burr",
+          "team": "home",
+          "team_abbrev": "SV Leonb/Elt",
+          "seven_meter": false
+        },
+        {
+          "minute": 5,
+          "second": 34,
+          "scorer": "Frederik Frey",
+          "team": "home",
+          "team_abbrev": "SV Leonb/Elt",
+          "seven_meter": true
+        },
+        {
+          "minute": 5,
+          "second": 56,
+          "scorer": "Marc Hutt",
+          "team": "away",
+          "team_abbrev": "SG Remstal",
+          "seven_meter": false
+        },
+        {
+          "minute": 6,
+          "second": 44,
+          "scorer": "Marc Zerfass",
+          "team": "home",
+          "team_abbrev": "SV Leonb/Elt",
+          "seven_meter": false
+        },
+        {
+          "minute": 7,
+          "second": 8,
+          "scorer": "Louis von Kietzell",
+          "team": "away",
+          "team_abbrev": "SG Remstal",
+          "seven_meter": false
+        },
+        {
+          "minute": 9,
+          "second": 14,
+          "scorer": "Marc Zerfass",
+          "team": "home",
+          "team_abbrev": "SV Leonb/Elt",
+          "seven_meter": true
+        },
+        {
+          "minute": 9,
+          "second": 50,
+          "scorer": "Laurin Heim",
+          "team": "away",
+          "team_abbrev": "SG Remstal",
+          "seven_meter": false
+        },
+        {
+          "minute": 10,
+          "second": 13,
+          "scorer": "Lino Widmann",
+          "team": "away",
+          "team_abbrev": "SG Remstal",
+          "seven_meter": false
+        },
+        {
+          "minute": 11,
+          "second": 18,
+          "scorer": "Frederik Frey",
+          "team": "home",
+          "team_abbrev": "SV Leonb/Elt",
+          "seven_meter": false
+        },
+        {
+          "minute": 13,
+          "second": 15,
+          "scorer": "Niklas von Kietzell",
+          "team": "away",
+          "team_abbrev": "SG Remstal",
+          "seven_meter": false
+        },
+        {
+          "minute": 15,
+          "second": 43,
+          "scorer": "Moritz M\u00fcller",
+          "team": "away",
+          "team_abbrev": "SG Remstal",
+          "seven_meter": false
+        },
+        {
+          "minute": 17,
+          "second": 5,
+          "scorer": "Arne G\u00fcrtler",
+          "team": "home",
+          "team_abbrev": "SV Leonb/Elt",
+          "seven_meter": false
+        },
+        {
+          "minute": 18,
+          "second": 8,
+          "scorer": "Simon Funk",
+          "team": "home",
+          "team_abbrev": "SV Leonb/Elt",
+          "seven_meter": false
+        },
+        {
+          "minute": 18,
+          "second": 31,
+          "scorer": "Niklas Fischer",
+          "team": "away",
+          "team_abbrev": "SG Remstal",
+          "seven_meter": false
+        },
+        {
+          "minute": 18,
+          "second": 52,
+          "scorer": "Arne G\u00fcrtler",
+          "team": "home",
+          "team_abbrev": "SV Leonb/Elt",
+          "seven_meter": false
+        },
+        {
+          "minute": 19,
+          "second": 17,
+          "scorer": "Arne G\u00fcrtler",
+          "team": "home",
+          "team_abbrev": "SV Leonb/Elt",
+          "seven_meter": false
+        },
+        {
+          "minute": 19,
+          "second": 49,
+          "scorer": "Lino Widmann",
+          "team": "away",
+          "team_abbrev": "SG Remstal",
+          "seven_meter": false
+        },
+        {
+          "minute": 21,
+          "second": 36,
+          "scorer": "Niklas Fischer",
+          "team": "away",
+          "team_abbrev": "SG Remstal",
+          "seven_meter": false
+        },
+        {
+          "minute": 22,
+          "second": 30,
+          "scorer": "Laurin Heim",
+          "team": "away",
+          "team_abbrev": "SG Remstal",
+          "seven_meter": false
+        },
+        {
+          "minute": 26,
+          "second": 2,
+          "scorer": "Frederik Frey",
+          "team": "home",
+          "team_abbrev": "SV Leonb/Elt",
+          "seven_meter": false
+        },
+        {
+          "minute": 27,
+          "second": 3,
+          "scorer": "Moritz M\u00fcller",
+          "team": "away",
+          "team_abbrev": "SG Remstal",
+          "seven_meter": false
+        },
+        {
+          "minute": 27,
+          "second": 57,
+          "scorer": "Moritz M\u00fcller",
+          "team": "away",
+          "team_abbrev": "SG Remstal",
+          "seven_meter": false
+        },
+        {
+          "minute": 28,
+          "second": 24,
+          "scorer": "Arne G\u00fcrtler",
+          "team": "home",
+          "team_abbrev": "SV Leonb/Elt",
+          "seven_meter": false
+        },
+        {
+          "minute": 29,
+          "second": 6,
+          "scorer": "Niklas Fischer",
+          "team": "away",
+          "team_abbrev": "SG Remstal",
+          "seven_meter": false
+        },
+        {
+          "minute": 31,
+          "second": 0,
+          "scorer": "Frederik Frey",
+          "team": "home",
+          "team_abbrev": "SV Leonb/Elt",
+          "seven_meter": false
+        },
+        {
+          "minute": 31,
+          "second": 51,
+          "scorer": "Moritz M\u00fcller",
+          "team": "away",
+          "team_abbrev": "SG Remstal",
+          "seven_meter": false
+        },
+        {
+          "minute": 32,
+          "second": 16,
+          "scorer": "Simon Funk",
+          "team": "home",
+          "team_abbrev": "SV Leonb/Elt",
+          "seven_meter": false
+        },
+        {
+          "minute": 32,
+          "second": 52,
+          "scorer": "Arne G\u00fcrtler",
+          "team": "home",
+          "team_abbrev": "SV Leonb/Elt",
+          "seven_meter": false
+        },
+        {
+          "minute": 34,
+          "second": 15,
+          "scorer": "Moritz M\u00fcller",
+          "team": "away",
+          "team_abbrev": "SG Remstal",
+          "seven_meter": false
+        },
+        {
+          "minute": 35,
+          "second": 1,
+          "scorer": "Simon Funk",
+          "team": "home",
+          "team_abbrev": "SV Leonb/Elt",
+          "seven_meter": false
+        },
+        {
+          "minute": 35,
+          "second": 43,
+          "scorer": "Maximilian Lang",
+          "team": "home",
+          "team_abbrev": "SV Leonb/Elt",
+          "seven_meter": false
+        },
+        {
+          "minute": 36,
+          "second": 6,
+          "scorer": "Laurin Heim",
+          "team": "away",
+          "team_abbrev": "SG Remstal",
+          "seven_meter": false
+        },
+        {
+          "minute": 37,
+          "second": 51,
+          "scorer": "Frederik Frey",
+          "team": "home",
+          "team_abbrev": "SV Leonb/Elt",
+          "seven_meter": true
+        },
+        {
+          "minute": 40,
+          "second": 3,
+          "scorer": "Simon Funk",
+          "team": "home",
+          "team_abbrev": "SV Leonb/Elt",
+          "seven_meter": false
+        },
+        {
+          "minute": 40,
+          "second": 37,
+          "scorer": "Niklas von Kietzell",
+          "team": "away",
+          "team_abbrev": "SG Remstal",
+          "seven_meter": false
+        },
+        {
+          "minute": 41,
+          "second": 5,
+          "scorer": "Maximilian Lang",
+          "team": "home",
+          "team_abbrev": "SV Leonb/Elt",
+          "seven_meter": false
+        },
+        {
+          "minute": 41,
+          "second": 54,
+          "scorer": "Yoshua Burr",
+          "team": "home",
+          "team_abbrev": "SV Leonb/Elt",
+          "seven_meter": false
+        },
+        {
+          "minute": 43,
+          "second": 50,
+          "scorer": "Moritz M\u00fcller",
+          "team": "away",
+          "team_abbrev": "SG Remstal",
+          "seven_meter": false
+        },
+        {
+          "minute": 46,
+          "second": 12,
+          "scorer": "Lino Widmann",
+          "team": "away",
+          "team_abbrev": "SG Remstal",
+          "seven_meter": false
+        },
+        {
+          "minute": 47,
+          "second": 39,
+          "scorer": "Louis von Kietzell",
+          "team": "away",
+          "team_abbrev": "SG Remstal",
+          "seven_meter": false
+        }
+      ],
+      "final_score": "20:20",
+      "half_duration": 30,
+      "officials": {
+        "referees": [
+          "Gregor Mohr"
+        ],
+        "timekeepers": [
+          "Kushtrim Pireva"
+        ],
+        "secretaries": [
+          "Michael Frey"
+        ]
+      },
+      "graphic_path": "output/graphics/SV_Leonberg_Eltingen_vs_SG_Remstal_So_1910.png"
+    }
+  ]
+}

@@ -1,0 +1,602 @@
+{
+  "date": "20251122",
+  "games": [
+    {
+      "game_id": "handball4all.baden-wuerttemberg.8856762",
+      "order": 27,
+      "date": "Sa, 22.11.",
+      "home": {
+        "team_name": "HSC Schmiden/Oeffingen 2004 2",
+        "players": [
+          {
+            "name": "Noah Schmidt",
+            "goals": 12,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 1,
+            "seven_meters_goals": 1
+          },
+          {
+            "name": "Mattis Kaufmann",
+            "goals": 2,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Tom M\u00e4uerle",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Moritz Roos",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Lucien Chaumette",
+            "goals": 1,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Hannes Tippmar",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Johannes Koch",
+            "goals": 3,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Jonathan Reuter",
+            "goals": 1,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Lasse Gollhofer",
+            "goals": 1,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Marius Grimm",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Cristian Siciliano",
+            "goals": 4,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          }
+        ]
+      },
+      "away": {
+        "team_name": "HandballTeam Heckeng\u00e4u 2",
+        "players": [
+          {
+            "name": "Levin Bubser",
+            "goals": 1,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Nikolai Borshov",
+            "goals": 7,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 2,
+            "seven_meters_goals": 2
+          },
+          {
+            "name": "Semih \u00d6zay",
+            "goals": 2,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 1,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Benno Huber",
+            "goals": 6,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Linus Haag",
+            "goals": 2,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Thi\u00ean \u00c2n Nguyen",
+            "goals": 3,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Julius D\u00e4sch",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Gregor Winkler",
+            "goals": 2,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          }
+        ]
+      },
+      "goals_timeline": [
+        {
+          "minute": 0,
+          "second": 18,
+          "scorer": "Noah Schmidt",
+          "team": "home",
+          "team_abbrev": "HSC Schm/Oeff 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 0,
+          "second": 43,
+          "scorer": "Semih \u00d6zay",
+          "team": "away",
+          "team_abbrev": "HT Heckeng\u00e4u 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 1,
+          "second": 36,
+          "scorer": "Benno Huber",
+          "team": "away",
+          "team_abbrev": "HT Heckeng\u00e4u 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 4,
+          "second": 2,
+          "scorer": "Semih \u00d6zay",
+          "team": "away",
+          "team_abbrev": "HT Heckeng\u00e4u 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 5,
+          "second": 14,
+          "scorer": "Noah Schmidt",
+          "team": "home",
+          "team_abbrev": "HSC Schm/Oeff 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 7,
+          "second": 33,
+          "scorer": "Noah Schmidt",
+          "team": "home",
+          "team_abbrev": "HSC Schm/Oeff 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 7,
+          "second": 37,
+          "scorer": "Levin Bubser",
+          "team": "away",
+          "team_abbrev": "HT Heckeng\u00e4u 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 10,
+          "second": 3,
+          "scorer": "Lasse Gollhofer",
+          "team": "home",
+          "team_abbrev": "HSC Schm/Oeff 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 10,
+          "second": 29,
+          "scorer": "Linus Haag",
+          "team": "away",
+          "team_abbrev": "HT Heckeng\u00e4u 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 12,
+          "second": 7,
+          "scorer": "Noah Schmidt",
+          "team": "home",
+          "team_abbrev": "HSC Schm/Oeff 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 16,
+          "second": 57,
+          "scorer": "Lucien Chaumette",
+          "team": "home",
+          "team_abbrev": "HSC Schm/Oeff 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 17,
+          "second": 43,
+          "scorer": "Noah Schmidt",
+          "team": "home",
+          "team_abbrev": "HSC Schm/Oeff 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 18,
+          "second": 54,
+          "scorer": "Noah Schmidt",
+          "team": "home",
+          "team_abbrev": "HSC Schm/Oeff 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 21,
+          "second": 0,
+          "scorer": "Thi\u00ean Nguyen",
+          "team": "away",
+          "team_abbrev": "HT Heckeng\u00e4u 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 21,
+          "second": 52,
+          "scorer": "Thi\u00ean Nguyen",
+          "team": "away",
+          "team_abbrev": "HT Heckeng\u00e4u 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 22,
+          "second": 52,
+          "scorer": "Johannes Koch",
+          "team": "home",
+          "team_abbrev": "HSC Schm/Oeff 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 23,
+          "second": 23,
+          "scorer": "Johannes Koch",
+          "team": "home",
+          "team_abbrev": "HSC Schm/Oeff 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 24,
+          "second": 5,
+          "scorer": "Noah Schmidt",
+          "team": "home",
+          "team_abbrev": "HSC Schm/Oeff 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 25,
+          "second": 15,
+          "scorer": "Benno Huber",
+          "team": "away",
+          "team_abbrev": "HT Heckeng\u00e4u 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 26,
+          "second": 27,
+          "scorer": "Nikolai Borshov",
+          "team": "away",
+          "team_abbrev": "HT Heckeng\u00e4u 2",
+          "seven_meter": true
+        },
+        {
+          "minute": 26,
+          "second": 44,
+          "scorer": "Noah Schmidt",
+          "team": "home",
+          "team_abbrev": "HSC Schm/Oeff 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 29,
+          "second": 27,
+          "scorer": "Linus Haag",
+          "team": "away",
+          "team_abbrev": "HT Heckeng\u00e4u 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 31,
+          "second": 4,
+          "scorer": "Nikolai Borshov",
+          "team": "away",
+          "team_abbrev": "HT Heckeng\u00e4u 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 32,
+          "second": 43,
+          "scorer": "Cristian Siciliano",
+          "team": "home",
+          "team_abbrev": "HSC Schm/Oeff 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 36,
+          "second": 4,
+          "scorer": "Gregor Winkler",
+          "team": "away",
+          "team_abbrev": "HT Heckeng\u00e4u 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 36,
+          "second": 16,
+          "scorer": "Cristian Siciliano",
+          "team": "home",
+          "team_abbrev": "HSC Schm/Oeff 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 37,
+          "second": 10,
+          "scorer": "Benno Huber",
+          "team": "away",
+          "team_abbrev": "HT Heckeng\u00e4u 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 37,
+          "second": 55,
+          "scorer": "Cristian Siciliano",
+          "team": "home",
+          "team_abbrev": "HSC Schm/Oeff 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 38,
+          "second": 47,
+          "scorer": "Noah Schmidt",
+          "team": "home",
+          "team_abbrev": "HSC Schm/Oeff 2",
+          "seven_meter": true
+        },
+        {
+          "minute": 40,
+          "second": 5,
+          "scorer": "Jonathan Reuter",
+          "team": "home",
+          "team_abbrev": "HSC Schm/Oeff 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 40,
+          "second": 59,
+          "scorer": "Nikolai Borshov",
+          "team": "away",
+          "team_abbrev": "HT Heckeng\u00e4u 2",
+          "seven_meter": true
+        },
+        {
+          "minute": 41,
+          "second": 16,
+          "scorer": "Cristian Siciliano",
+          "team": "home",
+          "team_abbrev": "HSC Schm/Oeff 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 41,
+          "second": 56,
+          "scorer": "Nikolai Borshov",
+          "team": "away",
+          "team_abbrev": "HT Heckeng\u00e4u 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 42,
+          "second": 31,
+          "scorer": "Nikolai Borshov",
+          "team": "away",
+          "team_abbrev": "HT Heckeng\u00e4u 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 42,
+          "second": 50,
+          "scorer": "Mattis Kaufmann",
+          "team": "home",
+          "team_abbrev": "HSC Schm/Oeff 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 43,
+          "second": 29,
+          "scorer": "Benno Huber",
+          "team": "away",
+          "team_abbrev": "HT Heckeng\u00e4u 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 44,
+          "second": 16,
+          "scorer": "Noah Schmidt",
+          "team": "home",
+          "team_abbrev": "HSC Schm/Oeff 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 44,
+          "second": 32,
+          "scorer": "Benno Huber",
+          "team": "away",
+          "team_abbrev": "HT Heckeng\u00e4u 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 44,
+          "second": 49,
+          "scorer": "Mattis Kaufmann",
+          "team": "home",
+          "team_abbrev": "HSC Schm/Oeff 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 45,
+          "second": 31,
+          "scorer": "Benno Huber",
+          "team": "away",
+          "team_abbrev": "HT Heckeng\u00e4u 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 45,
+          "second": 59,
+          "scorer": "Johannes Koch",
+          "team": "home",
+          "team_abbrev": "HSC Schm/Oeff 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 46,
+          "second": 52,
+          "scorer": "Nikolai Borshov",
+          "team": "away",
+          "team_abbrev": "HT Heckeng\u00e4u 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 47,
+          "second": 21,
+          "scorer": "Noah Schmidt",
+          "team": "home",
+          "team_abbrev": "HSC Schm/Oeff 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 47,
+          "second": 39,
+          "scorer": "Thi\u00ean Nguyen",
+          "team": "away",
+          "team_abbrev": "HT Heckeng\u00e4u 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 48,
+          "second": 53,
+          "scorer": "Nikolai Borshov",
+          "team": "away",
+          "team_abbrev": "HT Heckeng\u00e4u 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 49,
+          "second": 41,
+          "scorer": "Noah Schmidt",
+          "team": "home",
+          "team_abbrev": "HSC Schm/Oeff 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 49,
+          "second": 52,
+          "scorer": "Gregor Winkler",
+          "team": "away",
+          "team_abbrev": "HT Heckeng\u00e4u 2",
+          "seven_meter": false
+        }
+      ],
+      "final_score": "24:23",
+      "half_duration": 30,
+      "officials": {
+        "referees": [
+          "Dummy0-JUHASL"
+        ],
+        "timekeepers": [
+          "Christoph Gollhofer"
+        ],
+        "secretaries": [
+          "Alexander Borshov"
+        ]
+      },
+      "graphic_path": "output/graphics/HSC_Schmiden_Oeffing_vs_HandballTeam_Heckeng_Sa_2211.png"
+    }
+  ]
+}

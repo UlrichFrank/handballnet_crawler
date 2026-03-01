@@ -1,0 +1,1219 @@
+{
+  "date": "20251129",
+  "games": [
+    {
+      "game_id": "handball4all.baden-wuerttemberg.8856782",
+      "order": 29,
+      "date": "Sa, 29.11.",
+      "home": {
+        "team_name": "HandballTeam Heckeng\u00e4u 2",
+        "players": [
+          {
+            "name": "Nikolai Borshov",
+            "goals": 4,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Semih \u00d6zay",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Joris Kossok",
+            "goals": 1,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Benno Huber",
+            "goals": 1,
+            "two_min_penalties": 2,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Janne Pieper",
+            "goals": 2,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 1,
+            "seven_meters_goals": 1
+          },
+          {
+            "name": "Julius D\u00e4sch",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Linus Haag",
+            "goals": 2,
+            "two_min_penalties": 1,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Lian Noel Bauer",
+            "goals": 1,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "David Luis Maffenbaer",
+            "goals": 4,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          }
+        ]
+      },
+      "away": {
+        "team_name": "Hbi Weilimdorf/Feuerbach",
+        "players": [
+          {
+            "name": "Jonathan Buchschuster",
+            "goals": 7,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 1,
+            "seven_meters_goals": 1
+          },
+          {
+            "name": "Bastian Schwarz",
+            "goals": 4,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Johannes M\u00fchlebach",
+            "goals": 4,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Mats Del Gaizo",
+            "goals": 3,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Pepe Kaposztas",
+            "goals": 2,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Hannes Runge",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Benedikt Eschke",
+            "goals": 2,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 1,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Ferdinand Lentz",
+            "goals": 2,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Fabio Pfister",
+            "goals": 2,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Christoph K\u00f6hl",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Justus Wurster",
+            "goals": 10,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 1,
+            "seven_meters_goals": 1
+          },
+          {
+            "name": "Noah Norz",
+            "goals": 2,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 1,
+            "seven_meters_goals": 1
+          }
+        ]
+      },
+      "goals_timeline": [
+        {
+          "minute": 0,
+          "second": 36,
+          "scorer": "Joris Kossok",
+          "team": "home",
+          "team_abbrev": "HT Heckeng\u00e4u 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 0,
+          "second": 54,
+          "scorer": "Jonathan Buchschuster",
+          "team": "away",
+          "team_abbrev": "Hbi Weil/Feuer",
+          "seven_meter": false
+        },
+        {
+          "minute": 2,
+          "second": 6,
+          "scorer": "Justus Wurster",
+          "team": "away",
+          "team_abbrev": "Hbi Weil/Feuer",
+          "seven_meter": false
+        },
+        {
+          "minute": 2,
+          "second": 54,
+          "scorer": "Pepe Kaposztas",
+          "team": "away",
+          "team_abbrev": "Hbi Weil/Feuer",
+          "seven_meter": false
+        },
+        {
+          "minute": 3,
+          "second": 49,
+          "scorer": "Linus Haag",
+          "team": "home",
+          "team_abbrev": "HT Heckeng\u00e4u 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 4,
+          "second": 5,
+          "scorer": "Jonathan Buchschuster",
+          "team": "away",
+          "team_abbrev": "Hbi Weil/Feuer",
+          "seven_meter": false
+        },
+        {
+          "minute": 4,
+          "second": 42,
+          "scorer": "Linus Haag",
+          "team": "home",
+          "team_abbrev": "HT Heckeng\u00e4u 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 5,
+          "second": 50,
+          "scorer": "David Maffenbaer",
+          "team": "home",
+          "team_abbrev": "HT Heckeng\u00e4u 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 6,
+          "second": 1,
+          "scorer": "Benedikt Eschke",
+          "team": "away",
+          "team_abbrev": "Hbi Weil/Feuer",
+          "seven_meter": false
+        },
+        {
+          "minute": 6,
+          "second": 34,
+          "scorer": "Johannes M\u00fchlebach",
+          "team": "away",
+          "team_abbrev": "Hbi Weil/Feuer",
+          "seven_meter": false
+        },
+        {
+          "minute": 7,
+          "second": 59,
+          "scorer": "Justus Wurster",
+          "team": "away",
+          "team_abbrev": "Hbi Weil/Feuer",
+          "seven_meter": false
+        },
+        {
+          "minute": 8,
+          "second": 26,
+          "scorer": "Jonathan Buchschuster",
+          "team": "away",
+          "team_abbrev": "Hbi Weil/Feuer",
+          "seven_meter": false
+        },
+        {
+          "minute": 9,
+          "second": 3,
+          "scorer": "Benno Huber",
+          "team": "home",
+          "team_abbrev": "HT Heckeng\u00e4u 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 9,
+          "second": 58,
+          "scorer": "Johannes M\u00fchlebach",
+          "team": "away",
+          "team_abbrev": "Hbi Weil/Feuer",
+          "seven_meter": false
+        },
+        {
+          "minute": 10,
+          "second": 55,
+          "scorer": "Benedikt Eschke",
+          "team": "away",
+          "team_abbrev": "Hbi Weil/Feuer",
+          "seven_meter": false
+        },
+        {
+          "minute": 13,
+          "second": 13,
+          "scorer": "Johannes M\u00fchlebach",
+          "team": "away",
+          "team_abbrev": "Hbi Weil/Feuer",
+          "seven_meter": false
+        },
+        {
+          "minute": 15,
+          "second": 5,
+          "scorer": "Nikolai Borshov",
+          "team": "home",
+          "team_abbrev": "HT Heckeng\u00e4u 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 15,
+          "second": 47,
+          "scorer": "Pepe Kaposztas",
+          "team": "away",
+          "team_abbrev": "Hbi Weil/Feuer",
+          "seven_meter": false
+        },
+        {
+          "minute": 16,
+          "second": 37,
+          "scorer": "Bastian Schwarz",
+          "team": "away",
+          "team_abbrev": "Hbi Weil/Feuer",
+          "seven_meter": false
+        },
+        {
+          "minute": 16,
+          "second": 51,
+          "scorer": "Janne Pieper",
+          "team": "home",
+          "team_abbrev": "HT Heckeng\u00e4u 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 17,
+          "second": 17,
+          "scorer": "Bastian Schwarz",
+          "team": "away",
+          "team_abbrev": "Hbi Weil/Feuer",
+          "seven_meter": false
+        },
+        {
+          "minute": 19,
+          "second": 10,
+          "scorer": "Fabio Pfister",
+          "team": "away",
+          "team_abbrev": "Hbi Weil/Feuer",
+          "seven_meter": false
+        },
+        {
+          "minute": 20,
+          "second": 30,
+          "scorer": "Bastian Schwarz",
+          "team": "away",
+          "team_abbrev": "Hbi Weil/Feuer",
+          "seven_meter": false
+        },
+        {
+          "minute": 20,
+          "second": 51,
+          "scorer": "Fabio Pfister",
+          "team": "away",
+          "team_abbrev": "Hbi Weil/Feuer",
+          "seven_meter": false
+        },
+        {
+          "minute": 22,
+          "second": 32,
+          "scorer": "Janne Pieper",
+          "team": "home",
+          "team_abbrev": "HT Heckeng\u00e4u 2",
+          "seven_meter": true
+        },
+        {
+          "minute": 23,
+          "second": 34,
+          "scorer": "Jonathan Buchschuster",
+          "team": "away",
+          "team_abbrev": "Hbi Weil/Feuer",
+          "seven_meter": false
+        },
+        {
+          "minute": 24,
+          "second": 48,
+          "scorer": "Nikolai Borshov",
+          "team": "home",
+          "team_abbrev": "HT Heckeng\u00e4u 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 25,
+          "second": 0,
+          "scorer": "Ferdinand Lentz",
+          "team": "away",
+          "team_abbrev": "Hbi Weil/Feuer",
+          "seven_meter": false
+        },
+        {
+          "minute": 25,
+          "second": 42,
+          "scorer": "Ferdinand Lentz",
+          "team": "away",
+          "team_abbrev": "Hbi Weil/Feuer",
+          "seven_meter": false
+        },
+        {
+          "minute": 26,
+          "second": 0,
+          "scorer": "David Maffenbaer",
+          "team": "home",
+          "team_abbrev": "HT Heckeng\u00e4u 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 26,
+          "second": 10,
+          "scorer": "Bastian Schwarz",
+          "team": "away",
+          "team_abbrev": "Hbi Weil/Feuer",
+          "seven_meter": false
+        },
+        {
+          "minute": 26,
+          "second": 31,
+          "scorer": "Justus Wurster",
+          "team": "away",
+          "team_abbrev": "Hbi Weil/Feuer",
+          "seven_meter": false
+        },
+        {
+          "minute": 27,
+          "second": 39,
+          "scorer": "Noah Norz",
+          "team": "away",
+          "team_abbrev": "Hbi Weil/Feuer",
+          "seven_meter": true
+        },
+        {
+          "minute": 28,
+          "second": 27,
+          "scorer": "Justus Wurster",
+          "team": "away",
+          "team_abbrev": "Hbi Weil/Feuer",
+          "seven_meter": false
+        },
+        {
+          "minute": 29,
+          "second": 10,
+          "scorer": "Justus Wurster",
+          "team": "away",
+          "team_abbrev": "Hbi Weil/Feuer",
+          "seven_meter": false
+        },
+        {
+          "minute": 30,
+          "second": 59,
+          "scorer": "David Maffenbaer",
+          "team": "home",
+          "team_abbrev": "HT Heckeng\u00e4u 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 32,
+          "second": 12,
+          "scorer": "Mats Del Gaizo",
+          "team": "away",
+          "team_abbrev": "Hbi Weil/Feuer",
+          "seven_meter": false
+        },
+        {
+          "minute": 33,
+          "second": 0,
+          "scorer": "Noah Norz",
+          "team": "away",
+          "team_abbrev": "Hbi Weil/Feuer",
+          "seven_meter": false
+        },
+        {
+          "minute": 33,
+          "second": 29,
+          "scorer": "Justus Wurster",
+          "team": "away",
+          "team_abbrev": "Hbi Weil/Feuer",
+          "seven_meter": false
+        },
+        {
+          "minute": 34,
+          "second": 1,
+          "scorer": "Justus Wurster",
+          "team": "away",
+          "team_abbrev": "Hbi Weil/Feuer",
+          "seven_meter": false
+        },
+        {
+          "minute": 36,
+          "second": 22,
+          "scorer": "Justus Wurster",
+          "team": "away",
+          "team_abbrev": "Hbi Weil/Feuer",
+          "seven_meter": false
+        },
+        {
+          "minute": 37,
+          "second": 18,
+          "scorer": "David Maffenbaer",
+          "team": "home",
+          "team_abbrev": "HT Heckeng\u00e4u 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 37,
+          "second": 48,
+          "scorer": "Justus Wurster",
+          "team": "away",
+          "team_abbrev": "Hbi Weil/Feuer",
+          "seven_meter": true
+        },
+        {
+          "minute": 38,
+          "second": 13,
+          "scorer": "Mats Del Gaizo",
+          "team": "away",
+          "team_abbrev": "Hbi Weil/Feuer",
+          "seven_meter": false
+        },
+        {
+          "minute": 38,
+          "second": 30,
+          "scorer": "Nikolai Borshov",
+          "team": "home",
+          "team_abbrev": "HT Heckeng\u00e4u 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 39,
+          "second": 15,
+          "scorer": "Mats Del Gaizo",
+          "team": "away",
+          "team_abbrev": "Hbi Weil/Feuer",
+          "seven_meter": false
+        },
+        {
+          "minute": 43,
+          "second": 19,
+          "scorer": "Lian Bauer",
+          "team": "home",
+          "team_abbrev": "HT Heckeng\u00e4u 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 43,
+          "second": 36,
+          "scorer": "Johannes M\u00fchlebach",
+          "team": "away",
+          "team_abbrev": "Hbi Weil/Feuer",
+          "seven_meter": false
+        },
+        {
+          "minute": 46,
+          "second": 34,
+          "scorer": "Jonathan Buchschuster",
+          "team": "away",
+          "team_abbrev": "Hbi Weil/Feuer",
+          "seven_meter": true
+        },
+        {
+          "minute": 47,
+          "second": 2,
+          "scorer": "Nikolai Borshov",
+          "team": "home",
+          "team_abbrev": "HT Heckeng\u00e4u 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 48,
+          "second": 12,
+          "scorer": "Jonathan Buchschuster",
+          "team": "away",
+          "team_abbrev": "Hbi Weil/Feuer",
+          "seven_meter": false
+        },
+        {
+          "minute": 48,
+          "second": 39,
+          "scorer": "Justus Wurster",
+          "team": "away",
+          "team_abbrev": "Hbi Weil/Feuer",
+          "seven_meter": false
+        },
+        {
+          "minute": 49,
+          "second": 28,
+          "scorer": "Jonathan Buchschuster",
+          "team": "away",
+          "team_abbrev": "Hbi Weil/Feuer",
+          "seven_meter": false
+        }
+      ],
+      "final_score": "15:38",
+      "half_duration": 30,
+      "officials": {
+        "referees": [
+          "Andreas Buzer"
+        ],
+        "timekeepers": [
+          "Oskar Gruber"
+        ],
+        "secretaries": [
+          "Kai M\u00fchlebach"
+        ]
+      },
+      "graphic_path": "output/graphics/HandballTeam_Heckeng_vs_Hbi_Weilimdorf_Feuer_Sa_2911.png"
+    },
+    {
+      "game_id": "handball4all.baden-wuerttemberg.8856787",
+      "order": 30,
+      "date": "Sa, 29.11.",
+      "home": {
+        "team_name": "SV Fellbach",
+        "players": [
+          {
+            "name": "Johannes Sch\u00e4fer",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Paul Kusche",
+            "goals": 2,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Sergio Messina",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Leon Munk",
+            "goals": 6,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 1,
+            "seven_meters_goals": 1
+          },
+          {
+            "name": "Milo Gutwillinger",
+            "goals": 2,
+            "two_min_penalties": 1,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Enea Miracapillo",
+            "goals": 5,
+            "two_min_penalties": 0,
+            "yellow_cards": 1,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Raul Terren Grande",
+            "goals": 4,
+            "two_min_penalties": 1,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Malik Talha",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          }
+        ]
+      },
+      "away": {
+        "team_name": "HSC Schmiden/Oeffingen 2004 2",
+        "players": [
+          {
+            "name": "Mattis Kaufmann",
+            "goals": 8,
+            "two_min_penalties": 1,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Tom M\u00e4uerle",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Konrad Hampel",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Johannes Koch",
+            "goals": 0,
+            "two_min_penalties": 1,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Lasse Gollhofer",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Hannes Tippmar",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Benedikt Rebmann",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Louk Rothwein",
+            "goals": 2,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Noah Schmidt",
+            "goals": 10,
+            "two_min_penalties": 3,
+            "yellow_cards": 0,
+            "red_cards": 1,
+            "blue_cards": 0,
+            "seven_meters": 1,
+            "seven_meters_goals": 1
+          },
+          {
+            "name": "Marius Grimm",
+            "goals": 1,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Cristian Siciliano",
+            "goals": 1,
+            "two_min_penalties": 1,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          }
+        ]
+      },
+      "goals_timeline": [
+        {
+          "minute": 1,
+          "second": 17,
+          "scorer": "Enea Miracapillo",
+          "team": "home",
+          "team_abbrev": "SV Fellbach",
+          "seven_meter": false
+        },
+        {
+          "minute": 1,
+          "second": 42,
+          "scorer": "Mattis Kaufmann",
+          "team": "away",
+          "team_abbrev": "HSC Schm/Oeff 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 7,
+          "second": 46,
+          "scorer": "Louk Rothwein",
+          "team": "away",
+          "team_abbrev": "HSC Schm/Oeff 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 9,
+          "second": 28,
+          "scorer": "Noah Schmidt",
+          "team": "away",
+          "team_abbrev": "HSC Schm/Oeff 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 11,
+          "second": 1,
+          "scorer": "Enea Miracapillo",
+          "team": "home",
+          "team_abbrev": "SV Fellbach",
+          "seven_meter": false
+        },
+        {
+          "minute": 11,
+          "second": 55,
+          "scorer": "Milo Gutwillinger",
+          "team": "home",
+          "team_abbrev": "SV Fellbach",
+          "seven_meter": false
+        },
+        {
+          "minute": 12,
+          "second": 31,
+          "scorer": "Raul Terren Grande",
+          "team": "home",
+          "team_abbrev": "SV Fellbach",
+          "seven_meter": false
+        },
+        {
+          "minute": 13,
+          "second": 54,
+          "scorer": "Paul Kusche",
+          "team": "home",
+          "team_abbrev": "SV Fellbach",
+          "seven_meter": false
+        },
+        {
+          "minute": 15,
+          "second": 12,
+          "scorer": "Raul Terren Grande",
+          "team": "home",
+          "team_abbrev": "SV Fellbach",
+          "seven_meter": false
+        },
+        {
+          "minute": 15,
+          "second": 34,
+          "scorer": "Mattis Kaufmann",
+          "team": "away",
+          "team_abbrev": "HSC Schm/Oeff 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 16,
+          "second": 12,
+          "scorer": "Raul Terren Grande",
+          "team": "home",
+          "team_abbrev": "SV Fellbach",
+          "seven_meter": false
+        },
+        {
+          "minute": 16,
+          "second": 56,
+          "scorer": "Noah Schmidt",
+          "team": "away",
+          "team_abbrev": "HSC Schm/Oeff 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 17,
+          "second": 31,
+          "scorer": "Leon Munk",
+          "team": "home",
+          "team_abbrev": "SV Fellbach",
+          "seven_meter": false
+        },
+        {
+          "minute": 18,
+          "second": 9,
+          "scorer": "Noah Schmidt",
+          "team": "away",
+          "team_abbrev": "HSC Schm/Oeff 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 18,
+          "second": 52,
+          "scorer": "Noah Schmidt",
+          "team": "away",
+          "team_abbrev": "HSC Schm/Oeff 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 19,
+          "second": 33,
+          "scorer": "Leon Munk",
+          "team": "home",
+          "team_abbrev": "SV Fellbach",
+          "seven_meter": false
+        },
+        {
+          "minute": 19,
+          "second": 55,
+          "scorer": "Louk Rothwein",
+          "team": "away",
+          "team_abbrev": "HSC Schm/Oeff 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 21,
+          "second": 59,
+          "scorer": "Noah Schmidt",
+          "team": "away",
+          "team_abbrev": "HSC Schm/Oeff 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 22,
+          "second": 14,
+          "scorer": "Milo Gutwillinger",
+          "team": "home",
+          "team_abbrev": "SV Fellbach",
+          "seven_meter": false
+        },
+        {
+          "minute": 22,
+          "second": 35,
+          "scorer": "Noah Schmidt",
+          "team": "away",
+          "team_abbrev": "HSC Schm/Oeff 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 28,
+          "second": 24,
+          "scorer": "Noah Schmidt",
+          "team": "away",
+          "team_abbrev": "HSC Schm/Oeff 2",
+          "seven_meter": true
+        },
+        {
+          "minute": 32,
+          "second": 16,
+          "scorer": "Raul Terren Grande",
+          "team": "home",
+          "team_abbrev": "SV Fellbach",
+          "seven_meter": false
+        },
+        {
+          "minute": 33,
+          "second": 48,
+          "scorer": "Marius Grimm",
+          "team": "away",
+          "team_abbrev": "HSC Schm/Oeff 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 34,
+          "second": 56,
+          "scorer": "Noah Schmidt",
+          "team": "away",
+          "team_abbrev": "HSC Schm/Oeff 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 35,
+          "second": 59,
+          "scorer": "Noah Schmidt",
+          "team": "away",
+          "team_abbrev": "HSC Schm/Oeff 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 36,
+          "second": 52,
+          "scorer": "Leon Munk",
+          "team": "home",
+          "team_abbrev": "SV Fellbach",
+          "seven_meter": false
+        },
+        {
+          "minute": 37,
+          "second": 8,
+          "scorer": "Mattis Kaufmann",
+          "team": "away",
+          "team_abbrev": "HSC Schm/Oeff 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 38,
+          "second": 20,
+          "scorer": "Mattis Kaufmann",
+          "team": "away",
+          "team_abbrev": "HSC Schm/Oeff 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 39,
+          "second": 18,
+          "scorer": "Mattis Kaufmann",
+          "team": "away",
+          "team_abbrev": "HSC Schm/Oeff 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 40,
+          "second": 45,
+          "scorer": "Paul Kusche",
+          "team": "home",
+          "team_abbrev": "SV Fellbach",
+          "seven_meter": false
+        },
+        {
+          "minute": 41,
+          "second": 37,
+          "scorer": "Mattis Kaufmann",
+          "team": "away",
+          "team_abbrev": "HSC Schm/Oeff 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 42,
+          "second": 9,
+          "scorer": "Enea Miracapillo",
+          "team": "home",
+          "team_abbrev": "SV Fellbach",
+          "seven_meter": false
+        },
+        {
+          "minute": 45,
+          "second": 0,
+          "scorer": "Enea Miracapillo",
+          "team": "home",
+          "team_abbrev": "SV Fellbach",
+          "seven_meter": false
+        },
+        {
+          "minute": 45,
+          "second": 30,
+          "scorer": "Cristian Siciliano",
+          "team": "away",
+          "team_abbrev": "HSC Schm/Oeff 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 46,
+          "second": 21,
+          "scorer": "Noah Schmidt",
+          "team": "away",
+          "team_abbrev": "HSC Schm/Oeff 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 46,
+          "second": 53,
+          "scorer": "Leon Munk",
+          "team": "home",
+          "team_abbrev": "SV Fellbach",
+          "seven_meter": false
+        },
+        {
+          "minute": 47,
+          "second": 11,
+          "scorer": "Mattis Kaufmann",
+          "team": "away",
+          "team_abbrev": "HSC Schm/Oeff 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 48,
+          "second": 1,
+          "scorer": "Mattis Kaufmann",
+          "team": "away",
+          "team_abbrev": "HSC Schm/Oeff 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 48,
+          "second": 41,
+          "scorer": "Leon Munk",
+          "team": "home",
+          "team_abbrev": "SV Fellbach",
+          "seven_meter": true
+        },
+        {
+          "minute": 49,
+          "second": 9,
+          "scorer": "Leon Munk",
+          "team": "home",
+          "team_abbrev": "SV Fellbach",
+          "seven_meter": false
+        },
+        {
+          "minute": 50,
+          "second": 0,
+          "scorer": "Enea Miracapillo",
+          "team": "home",
+          "team_abbrev": "SV Fellbach",
+          "seven_meter": false
+        }
+      ],
+      "final_score": "19:22",
+      "half_duration": 30,
+      "officials": {
+        "referees": [
+          "Liam Gruber"
+        ],
+        "timekeepers": [
+          "Silke Thala"
+        ],
+        "secretaries": [
+          "Birgit Hampel"
+        ]
+      },
+      "graphic_path": "output/graphics/SV_Fellbach_vs_HSC_Schmiden_Oeffing_Sa_2911.png"
+    }
+  ]
+}

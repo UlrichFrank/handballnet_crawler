@@ -1,0 +1,1301 @@
+{
+  "date": "20260131",
+  "games": [
+    {
+      "game_id": "handball4all.baden-wuerttemberg.8856092",
+      "order": 38,
+      "date": "Sa, 31.01.",
+      "home": {
+        "team_name": "HC Winnenden",
+        "players": [
+          {
+            "name": "Lukas Widmann",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Liam Wyckoff",
+            "goals": 2,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Tim K\u00f6hler",
+            "goals": 4,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Mika Klingler",
+            "goals": 2,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Jakob Fuchs",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Maximilien Spieler",
+            "goals": 8,
+            "two_min_penalties": 1,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Niklas Mynarek",
+            "goals": 3,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Raphael Keller",
+            "goals": 1,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Samuel Rose",
+            "goals": 2,
+            "two_min_penalties": 1,
+            "yellow_cards": 1,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Mika Kischel",
+            "goals": 1,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Noah Lang",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          }
+        ]
+      },
+      "away": {
+        "team_name": "SV Hohenacker-Neustadt",
+        "players": [
+          {
+            "name": "Jonah Radowski",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Luca Terisacco",
+            "goals": 1,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Leonard Leist",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Marcel Kostka",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Felix Z\u00fchlsdorf",
+            "goals": 3,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 1,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Benjamin Funke",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Lenny Vogel",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Ben Besuch",
+            "goals": 6,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 1,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Levi Richter",
+            "goals": 5,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Laurenz Klimmeck",
+            "goals": 2,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Silas Mahler",
+            "goals": 2,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Lian Schwarz",
+            "goals": 1,
+            "two_min_penalties": 0,
+            "yellow_cards": 1,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          }
+        ]
+      },
+      "goals_timeline": [
+        {
+          "minute": 0,
+          "second": 26,
+          "scorer": "Ben Besuch",
+          "team": "home",
+          "team_abbrev": "SV Hohen-Neu",
+          "seven_meter": false
+        },
+        {
+          "minute": 2,
+          "second": 18,
+          "scorer": "Maximilien Spieler",
+          "team": "away",
+          "team_abbrev": "HC Winnenden",
+          "seven_meter": false
+        },
+        {
+          "minute": 3,
+          "second": 16,
+          "scorer": "Levi Richter",
+          "team": "home",
+          "team_abbrev": "SV Hohen-Neu",
+          "seven_meter": false
+        },
+        {
+          "minute": 4,
+          "second": 20,
+          "scorer": "Felix Z\u00fchlsdorf",
+          "team": "home",
+          "team_abbrev": "SV Hohen-Neu",
+          "seven_meter": false
+        },
+        {
+          "minute": 4,
+          "second": 33,
+          "scorer": "Maximilien Spieler",
+          "team": "away",
+          "team_abbrev": "HC Winnenden",
+          "seven_meter": false
+        },
+        {
+          "minute": 5,
+          "second": 1,
+          "scorer": "Ben Besuch",
+          "team": "home",
+          "team_abbrev": "SV Hohen-Neu",
+          "seven_meter": false
+        },
+        {
+          "minute": 7,
+          "second": 10,
+          "scorer": "Tim K\u00f6hler",
+          "team": "away",
+          "team_abbrev": "HC Winnenden",
+          "seven_meter": false
+        },
+        {
+          "minute": 11,
+          "second": 11,
+          "scorer": "Maximilien Spieler",
+          "team": "away",
+          "team_abbrev": "HC Winnenden",
+          "seven_meter": false
+        },
+        {
+          "minute": 12,
+          "second": 15,
+          "scorer": "Samuel Rose",
+          "team": "away",
+          "team_abbrev": "HC Winnenden",
+          "seven_meter": false
+        },
+        {
+          "minute": 14,
+          "second": 8,
+          "scorer": "Maximilien Spieler",
+          "team": "away",
+          "team_abbrev": "HC Winnenden",
+          "seven_meter": false
+        },
+        {
+          "minute": 15,
+          "second": 15,
+          "scorer": "Samuel Rose",
+          "team": "away",
+          "team_abbrev": "HC Winnenden",
+          "seven_meter": false
+        },
+        {
+          "minute": 15,
+          "second": 45,
+          "scorer": "Mika Klingler",
+          "team": "away",
+          "team_abbrev": "HC Winnenden",
+          "seven_meter": false
+        },
+        {
+          "minute": 16,
+          "second": 41,
+          "scorer": "Laurenz Klimmeck",
+          "team": "home",
+          "team_abbrev": "SV Hohen-Neu",
+          "seven_meter": false
+        },
+        {
+          "minute": 17,
+          "second": 16,
+          "scorer": "Mika Klingler",
+          "team": "away",
+          "team_abbrev": "HC Winnenden",
+          "seven_meter": false
+        },
+        {
+          "minute": 17,
+          "second": 39,
+          "scorer": "Felix Z\u00fchlsdorf",
+          "team": "home",
+          "team_abbrev": "SV Hohen-Neu",
+          "seven_meter": false
+        },
+        {
+          "minute": 18,
+          "second": 32,
+          "scorer": "Ben Besuch",
+          "team": "home",
+          "team_abbrev": "SV Hohen-Neu",
+          "seven_meter": false
+        },
+        {
+          "minute": 19,
+          "second": 10,
+          "scorer": "Mika Kischel",
+          "team": "away",
+          "team_abbrev": "HC Winnenden",
+          "seven_meter": false
+        },
+        {
+          "minute": 20,
+          "second": 38,
+          "scorer": "Felix Z\u00fchlsdorf",
+          "team": "home",
+          "team_abbrev": "SV Hohen-Neu",
+          "seven_meter": false
+        },
+        {
+          "minute": 23,
+          "second": 45,
+          "scorer": "Liam Wyckoff",
+          "team": "away",
+          "team_abbrev": "HC Winnenden",
+          "seven_meter": false
+        },
+        {
+          "minute": 26,
+          "second": 2,
+          "scorer": "Silas Mahler",
+          "team": "home",
+          "team_abbrev": "SV Hohen-Neu",
+          "seven_meter": false
+        },
+        {
+          "minute": 26,
+          "second": 56,
+          "scorer": "Maximilien Spieler",
+          "team": "away",
+          "team_abbrev": "HC Winnenden",
+          "seven_meter": false
+        },
+        {
+          "minute": 28,
+          "second": 2,
+          "scorer": "Maximilien Spieler",
+          "team": "away",
+          "team_abbrev": "HC Winnenden",
+          "seven_meter": false
+        },
+        {
+          "minute": 28,
+          "second": 40,
+          "scorer": "Levi Richter",
+          "team": "home",
+          "team_abbrev": "SV Hohen-Neu",
+          "seven_meter": false
+        },
+        {
+          "minute": 29,
+          "second": 57,
+          "scorer": "Levi Richter",
+          "team": "home",
+          "team_abbrev": "SV Hohen-Neu",
+          "seven_meter": false
+        },
+        {
+          "minute": 30,
+          "second": 32,
+          "scorer": "Maximilien Spieler",
+          "team": "away",
+          "team_abbrev": "HC Winnenden",
+          "seven_meter": false
+        },
+        {
+          "minute": 30,
+          "second": 53,
+          "scorer": "Ben Besuch",
+          "team": "home",
+          "team_abbrev": "SV Hohen-Neu",
+          "seven_meter": false
+        },
+        {
+          "minute": 32,
+          "second": 30,
+          "scorer": "Niklas Mynarek",
+          "team": "away",
+          "team_abbrev": "HC Winnenden",
+          "seven_meter": false
+        },
+        {
+          "minute": 33,
+          "second": 4,
+          "scorer": "Ben Besuch",
+          "team": "home",
+          "team_abbrev": "SV Hohen-Neu",
+          "seven_meter": false
+        },
+        {
+          "minute": 34,
+          "second": 50,
+          "scorer": "Levi Richter",
+          "team": "home",
+          "team_abbrev": "SV Hohen-Neu",
+          "seven_meter": false
+        },
+        {
+          "minute": 35,
+          "second": 28,
+          "scorer": "Tim K\u00f6hler",
+          "team": "away",
+          "team_abbrev": "HC Winnenden",
+          "seven_meter": false
+        },
+        {
+          "minute": 35,
+          "second": 55,
+          "scorer": "Levi Richter",
+          "team": "home",
+          "team_abbrev": "SV Hohen-Neu",
+          "seven_meter": false
+        },
+        {
+          "minute": 36,
+          "second": 26,
+          "scorer": "Liam Wyckoff",
+          "team": "away",
+          "team_abbrev": "HC Winnenden",
+          "seven_meter": false
+        },
+        {
+          "minute": 37,
+          "second": 26,
+          "scorer": "Silas Mahler",
+          "team": "home",
+          "team_abbrev": "SV Hohen-Neu",
+          "seven_meter": false
+        },
+        {
+          "minute": 38,
+          "second": 8,
+          "scorer": "Ben Besuch",
+          "team": "home",
+          "team_abbrev": "SV Hohen-Neu",
+          "seven_meter": false
+        },
+        {
+          "minute": 39,
+          "second": 52,
+          "scorer": "Niklas Mynarek",
+          "team": "away",
+          "team_abbrev": "HC Winnenden",
+          "seven_meter": false
+        },
+        {
+          "minute": 42,
+          "second": 27,
+          "scorer": "Lian Schwarz",
+          "team": "home",
+          "team_abbrev": "SV Hohen-Neu",
+          "seven_meter": false
+        },
+        {
+          "minute": 44,
+          "second": 10,
+          "scorer": "Laurenz Klimmeck",
+          "team": "home",
+          "team_abbrev": "SV Hohen-Neu",
+          "seven_meter": false
+        },
+        {
+          "minute": 44,
+          "second": 40,
+          "scorer": "Tim K\u00f6hler",
+          "team": "away",
+          "team_abbrev": "HC Winnenden",
+          "seven_meter": false
+        },
+        {
+          "minute": 45,
+          "second": 35,
+          "scorer": "Raphael Keller",
+          "team": "away",
+          "team_abbrev": "HC Winnenden",
+          "seven_meter": false
+        },
+        {
+          "minute": 46,
+          "second": 9,
+          "scorer": "Luca Terisacco",
+          "team": "home",
+          "team_abbrev": "SV Hohen-Neu",
+          "seven_meter": false
+        },
+        {
+          "minute": 46,
+          "second": 40,
+          "scorer": "Niklas Mynarek",
+          "team": "away",
+          "team_abbrev": "HC Winnenden",
+          "seven_meter": false
+        },
+        {
+          "minute": 48,
+          "second": 55,
+          "scorer": "Maximilien Spieler",
+          "team": "away",
+          "team_abbrev": "HC Winnenden",
+          "seven_meter": false
+        },
+        {
+          "minute": 49,
+          "second": 55,
+          "scorer": "Tim K\u00f6hler",
+          "team": "away",
+          "team_abbrev": "HC Winnenden",
+          "seven_meter": false
+        }
+      ],
+      "final_score": "20:23",
+      "half_duration": 30,
+      "officials": {
+        "referees": [
+          "Mathias Wsgner"
+        ],
+        "timekeepers": [
+          "Luisa Andre\u00df"
+        ],
+        "secretaries": [
+          "Judith Z\u00fchlsdorf"
+        ]
+      },
+      "graphic_path": "output/graphics/HC_Winnenden_vs_SV_Hohenacker-Neusta_Sa_3101.png"
+    },
+    {
+      "game_id": "handball4all.baden-wuerttemberg.8856082",
+      "order": 39,
+      "date": "Sa, 31.01.",
+      "home": {
+        "team_name": "Team Stuttgart 2",
+        "players": [
+          {
+            "name": "Alexander Winter",
+            "goals": 3,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 2,
+            "seven_meters_goals": 2
+          },
+          {
+            "name": "Ben Stremlow",
+            "goals": 1,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Mats Kiesel",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Felix Tomek",
+            "goals": 1,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Theo Traub",
+            "goals": 4,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Ludwig Textor",
+            "goals": 2,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Louis Kr\u00fcger",
+            "goals": 1,
+            "two_min_penalties": 1,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Kilian Zhezhov",
+            "goals": 4,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Robin Riedel",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Raphael Eholzer",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Jonah Fink",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Leo Volle",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Moritz Weishaupt",
+            "goals": 4,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 2,
+            "seven_meters_goals": 1
+          }
+        ]
+      },
+      "away": {
+        "team_name": "SG Schorndorf 1846",
+        "players": [
+          {
+            "name": "Felix Steeb",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Luis Alexander Steinhauer",
+            "goals": 2,
+            "two_min_penalties": 1,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Cornelius Sailer",
+            "goals": 14,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Oscar Hess",
+            "goals": 8,
+            "two_min_penalties": 1,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Christian Pachner",
+            "goals": 8,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Jannis Mitja Naumann",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Samuil Sheytanov",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 1,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Felix Mattis Pick",
+            "goals": 1,
+            "two_min_penalties": 1,
+            "yellow_cards": 1,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Kalle Biler",
+            "goals": 2,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          }
+        ]
+      },
+      "goals_timeline": [
+        {
+          "minute": 0,
+          "second": 51,
+          "scorer": "Cornelius Sailer",
+          "team": "home",
+          "team_abbrev": "SG Schorndorf",
+          "seven_meter": false
+        },
+        {
+          "minute": 1,
+          "second": 20,
+          "scorer": "Oscar Hess",
+          "team": "home",
+          "team_abbrev": "SG Schorndorf",
+          "seven_meter": false
+        },
+        {
+          "minute": 1,
+          "second": 56,
+          "scorer": "Cornelius Sailer",
+          "team": "home",
+          "team_abbrev": "SG Schorndorf",
+          "seven_meter": false
+        },
+        {
+          "minute": 3,
+          "second": 15,
+          "scorer": "Christian Pachner",
+          "team": "home",
+          "team_abbrev": "SG Schorndorf",
+          "seven_meter": false
+        },
+        {
+          "minute": 3,
+          "second": 39,
+          "scorer": "Felix Tomek",
+          "team": "away",
+          "team_abbrev": "Team Stuttgart 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 3,
+          "second": 57,
+          "scorer": "Christian Pachner",
+          "team": "home",
+          "team_abbrev": "SG Schorndorf",
+          "seven_meter": false
+        },
+        {
+          "minute": 4,
+          "second": 24,
+          "scorer": "Cornelius Sailer",
+          "team": "home",
+          "team_abbrev": "SG Schorndorf",
+          "seven_meter": false
+        },
+        {
+          "minute": 5,
+          "second": 15,
+          "scorer": "Moritz Weishaupt",
+          "team": "away",
+          "team_abbrev": "Team Stuttgart 2",
+          "seven_meter": true
+        },
+        {
+          "minute": 6,
+          "second": 15,
+          "scorer": "Cornelius Sailer",
+          "team": "home",
+          "team_abbrev": "SG Schorndorf",
+          "seven_meter": false
+        },
+        {
+          "minute": 7,
+          "second": 44,
+          "scorer": "Oscar Hess",
+          "team": "home",
+          "team_abbrev": "SG Schorndorf",
+          "seven_meter": false
+        },
+        {
+          "minute": 10,
+          "second": 14,
+          "scorer": "Moritz Weishaupt",
+          "team": "away",
+          "team_abbrev": "Team Stuttgart 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 10,
+          "second": 54,
+          "scorer": "Oscar Hess",
+          "team": "home",
+          "team_abbrev": "SG Schorndorf",
+          "seven_meter": false
+        },
+        {
+          "minute": 11,
+          "second": 37,
+          "scorer": "Cornelius Sailer",
+          "team": "home",
+          "team_abbrev": "SG Schorndorf",
+          "seven_meter": false
+        },
+        {
+          "minute": 11,
+          "second": 54,
+          "scorer": "Louis Kr\u00fcger",
+          "team": "away",
+          "team_abbrev": "Team Stuttgart 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 13,
+          "second": 18,
+          "scorer": "Christian Pachner",
+          "team": "home",
+          "team_abbrev": "SG Schorndorf",
+          "seven_meter": false
+        },
+        {
+          "minute": 13,
+          "second": 59,
+          "scorer": "Oscar Hess",
+          "team": "home",
+          "team_abbrev": "SG Schorndorf",
+          "seven_meter": false
+        },
+        {
+          "minute": 15,
+          "second": 6,
+          "scorer": "Cornelius Sailer",
+          "team": "home",
+          "team_abbrev": "SG Schorndorf",
+          "seven_meter": false
+        },
+        {
+          "minute": 15,
+          "second": 39,
+          "scorer": "Theo Traub",
+          "team": "away",
+          "team_abbrev": "Team Stuttgart 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 15,
+          "second": 49,
+          "scorer": "Christian Pachner",
+          "team": "home",
+          "team_abbrev": "SG Schorndorf",
+          "seven_meter": false
+        },
+        {
+          "minute": 16,
+          "second": 14,
+          "scorer": "Theo Traub",
+          "team": "away",
+          "team_abbrev": "Team Stuttgart 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 16,
+          "second": 58,
+          "scorer": "Theo Traub",
+          "team": "away",
+          "team_abbrev": "Team Stuttgart 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 17,
+          "second": 28,
+          "scorer": "Luis Steinhauer",
+          "team": "home",
+          "team_abbrev": "SG Schorndorf",
+          "seven_meter": false
+        },
+        {
+          "minute": 18,
+          "second": 4,
+          "scorer": "Theo Traub",
+          "team": "away",
+          "team_abbrev": "Team Stuttgart 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 18,
+          "second": 13,
+          "scorer": "Christian Pachner",
+          "team": "home",
+          "team_abbrev": "SG Schorndorf",
+          "seven_meter": false
+        },
+        {
+          "minute": 18,
+          "second": 37,
+          "scorer": "Alexander Winter",
+          "team": "away",
+          "team_abbrev": "Team Stuttgart 2",
+          "seven_meter": true
+        },
+        {
+          "minute": 21,
+          "second": 27,
+          "scorer": "Oscar Hess",
+          "team": "home",
+          "team_abbrev": "SG Schorndorf",
+          "seven_meter": false
+        },
+        {
+          "minute": 22,
+          "second": 19,
+          "scorer": "Cornelius Sailer",
+          "team": "home",
+          "team_abbrev": "SG Schorndorf",
+          "seven_meter": false
+        },
+        {
+          "minute": 25,
+          "second": 51,
+          "scorer": "Ludwig Textor",
+          "team": "away",
+          "team_abbrev": "Team Stuttgart 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 28,
+          "second": 15,
+          "scorer": "Kilian Zhezhov",
+          "team": "away",
+          "team_abbrev": "Team Stuttgart 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 29,
+          "second": 23,
+          "scorer": "Cornelius Sailer",
+          "team": "home",
+          "team_abbrev": "SG Schorndorf",
+          "seven_meter": false
+        },
+        {
+          "minute": 30,
+          "second": 19,
+          "scorer": "Ludwig Textor",
+          "team": "away",
+          "team_abbrev": "Team Stuttgart 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 30,
+          "second": 51,
+          "scorer": "Kalle Biler",
+          "team": "home",
+          "team_abbrev": "SG Schorndorf",
+          "seven_meter": false
+        },
+        {
+          "minute": 31,
+          "second": 22,
+          "scorer": "Kilian Zhezhov",
+          "team": "away",
+          "team_abbrev": "Team Stuttgart 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 31,
+          "second": 41,
+          "scorer": "Christian Pachner",
+          "team": "home",
+          "team_abbrev": "SG Schorndorf",
+          "seven_meter": false
+        },
+        {
+          "minute": 32,
+          "second": 16,
+          "scorer": "Kalle Biler",
+          "team": "home",
+          "team_abbrev": "SG Schorndorf",
+          "seven_meter": false
+        },
+        {
+          "minute": 34,
+          "second": 20,
+          "scorer": "Kilian Zhezhov",
+          "team": "away",
+          "team_abbrev": "Team Stuttgart 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 36,
+          "second": 44,
+          "scorer": "Oscar Hess",
+          "team": "home",
+          "team_abbrev": "SG Schorndorf",
+          "seven_meter": false
+        },
+        {
+          "minute": 37,
+          "second": 33,
+          "scorer": "Oscar Hess",
+          "team": "home",
+          "team_abbrev": "SG Schorndorf",
+          "seven_meter": false
+        },
+        {
+          "minute": 39,
+          "second": 47,
+          "scorer": "Christian Pachner",
+          "team": "home",
+          "team_abbrev": "SG Schorndorf",
+          "seven_meter": false
+        },
+        {
+          "minute": 40,
+          "second": 41,
+          "scorer": "Luis Steinhauer",
+          "team": "home",
+          "team_abbrev": "SG Schorndorf",
+          "seven_meter": false
+        },
+        {
+          "minute": 41,
+          "second": 37,
+          "scorer": "Alexander Winter",
+          "team": "away",
+          "team_abbrev": "Team Stuttgart 2",
+          "seven_meter": true
+        },
+        {
+          "minute": 42,
+          "second": 0,
+          "scorer": "Oscar Hess",
+          "team": "home",
+          "team_abbrev": "SG Schorndorf",
+          "seven_meter": false
+        },
+        {
+          "minute": 42,
+          "second": 18,
+          "scorer": "Kilian Zhezhov",
+          "team": "away",
+          "team_abbrev": "Team Stuttgart 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 43,
+          "second": 12,
+          "scorer": "Cornelius Sailer",
+          "team": "home",
+          "team_abbrev": "SG Schorndorf",
+          "seven_meter": false
+        },
+        {
+          "minute": 44,
+          "second": 52,
+          "scorer": "Alexander Winter",
+          "team": "away",
+          "team_abbrev": "Team Stuttgart 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 45,
+          "second": 42,
+          "scorer": "Ben Stremlow",
+          "team": "away",
+          "team_abbrev": "Team Stuttgart 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 45,
+          "second": 57,
+          "scorer": "Cornelius Sailer",
+          "team": "home",
+          "team_abbrev": "SG Schorndorf",
+          "seven_meter": false
+        },
+        {
+          "minute": 46,
+          "second": 23,
+          "scorer": "Cornelius Sailer",
+          "team": "home",
+          "team_abbrev": "SG Schorndorf",
+          "seven_meter": false
+        },
+        {
+          "minute": 46,
+          "second": 56,
+          "scorer": "Christian Pachner",
+          "team": "home",
+          "team_abbrev": "SG Schorndorf",
+          "seven_meter": false
+        },
+        {
+          "minute": 47,
+          "second": 13,
+          "scorer": "Cornelius Sailer",
+          "team": "home",
+          "team_abbrev": "SG Schorndorf",
+          "seven_meter": false
+        },
+        {
+          "minute": 48,
+          "second": 4,
+          "scorer": "Cornelius Sailer",
+          "team": "home",
+          "team_abbrev": "SG Schorndorf",
+          "seven_meter": false
+        },
+        {
+          "minute": 48,
+          "second": 51,
+          "scorer": "Moritz Weishaupt",
+          "team": "away",
+          "team_abbrev": "Team Stuttgart 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 49,
+          "second": 18,
+          "scorer": "Felix Pick",
+          "team": "home",
+          "team_abbrev": "SG Schorndorf",
+          "seven_meter": false
+        },
+        {
+          "minute": 49,
+          "second": 56,
+          "scorer": "Moritz Weishaupt",
+          "team": "away",
+          "team_abbrev": "Team Stuttgart 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 50,
+          "second": 0,
+          "scorer": "Cornelius Sailer",
+          "team": "home",
+          "team_abbrev": "SG Schorndorf",
+          "seven_meter": false
+        }
+      ],
+      "final_score": "35:20",
+      "half_duration": 30,
+      "officials": {
+        "referees": [
+          "Alfons Szczesny"
+        ],
+        "timekeepers": [
+          "Ralf Weishaupt"
+        ],
+        "secretaries": [
+          "Ventsislav Sheytanov"
+        ]
+      },
+      "graphic_path": "output/graphics/Team_Stuttgart_2_vs_SG_Schorndorf_1846_Sa_3101.png"
+    }
+  ]
+}

@@ -1,0 +1,560 @@
+{
+  "date": "20260228",
+  "games": [
+    {
+      "game_id": "handball4all.baden-wuerttemberg.8669201",
+      "order": 76,
+      "date": "ag, 28.02.",
+      "home": {
+        "team_name": "Spvgg M\u00f6ssingen",
+        "players": [
+          {
+            "name": "Michel Betz",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Luca Kern",
+            "goals": 1,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Bennett Schneider",
+            "goals": 1,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Matti Noa Rein",
+            "goals": 3,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Josha Kuschmierz",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Josua Ehmann",
+            "goals": 7,
+            "two_min_penalties": 1,
+            "yellow_cards": 1,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 5,
+            "seven_meters_goals": 5
+          },
+          {
+            "name": "Jakob Friedrich Buschbacher",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Arvid Hipp",
+            "goals": 6,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 1,
+            "seven_meters_goals": 1
+          },
+          {
+            "name": "Lennart Stuhlfauth",
+            "goals": 3,
+            "two_min_penalties": 2,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Keno Sickinger",
+            "goals": 2,
+            "two_min_penalties": 1,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          }
+        ]
+      },
+      "away": {
+        "team_name": "DJK Singen",
+        "players": [
+          {
+            "name": "Maximilian Wei\u00df",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Hendrik Messer",
+            "goals": 6,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 4,
+            "seven_meters_goals": 3
+          },
+          {
+            "name": "Elija Kusche",
+            "goals": 1,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Alan Klimisch",
+            "goals": 2,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Daniel Losizki",
+            "goals": 4,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 1,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Liam Kuchta",
+            "goals": 3,
+            "two_min_penalties": 0,
+            "yellow_cards": 1,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 1,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Julian Wei\u00df",
+            "goals": 4,
+            "two_min_penalties": 1,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "David Wanzo",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          }
+        ]
+      },
+      "goals_timeline": [
+        {
+          "minute": 2,
+          "second": 7,
+          "scorer": "Arvid Hipp",
+          "team": "home",
+          "team_abbrev": "Spvgg M\u00f6ssing.",
+          "seven_meter": false
+        },
+        {
+          "minute": 2,
+          "second": 49,
+          "scorer": "Lennart Stuhlfauth",
+          "team": "home",
+          "team_abbrev": "Spvgg M\u00f6ssing.",
+          "seven_meter": false
+        },
+        {
+          "minute": 3,
+          "second": 30,
+          "scorer": "Hendrik Messer",
+          "team": "away",
+          "team_abbrev": "DJK Singen",
+          "seven_meter": false
+        },
+        {
+          "minute": 4,
+          "second": 40,
+          "scorer": "Josua Ehmann",
+          "team": "home",
+          "team_abbrev": "Spvgg M\u00f6ssing.",
+          "seven_meter": true
+        },
+        {
+          "minute": 5,
+          "second": 16,
+          "scorer": "Arvid Hipp",
+          "team": "home",
+          "team_abbrev": "Spvgg M\u00f6ssing.",
+          "seven_meter": false
+        },
+        {
+          "minute": 6,
+          "second": 38,
+          "scorer": "Arvid Hipp",
+          "team": "home",
+          "team_abbrev": "Spvgg M\u00f6ssing.",
+          "seven_meter": true
+        },
+        {
+          "minute": 7,
+          "second": 6,
+          "scorer": "Lennart Stuhlfauth",
+          "team": "home",
+          "team_abbrev": "Spvgg M\u00f6ssing.",
+          "seven_meter": false
+        },
+        {
+          "minute": 8,
+          "second": 29,
+          "scorer": "Lennart Stuhlfauth",
+          "team": "home",
+          "team_abbrev": "Spvgg M\u00f6ssing.",
+          "seven_meter": false
+        },
+        {
+          "minute": 9,
+          "second": 59,
+          "scorer": "Luca Kern",
+          "team": "home",
+          "team_abbrev": "Spvgg M\u00f6ssing.",
+          "seven_meter": false
+        },
+        {
+          "minute": 10,
+          "second": 8,
+          "scorer": "Liam Kuchta",
+          "team": "away",
+          "team_abbrev": "DJK Singen",
+          "seven_meter": false
+        },
+        {
+          "minute": 12,
+          "second": 37,
+          "scorer": "Daniel Losizki",
+          "team": "away",
+          "team_abbrev": "DJK Singen",
+          "seven_meter": false
+        },
+        {
+          "minute": 12,
+          "second": 59,
+          "scorer": "Josua Ehmann",
+          "team": "home",
+          "team_abbrev": "Spvgg M\u00f6ssing.",
+          "seven_meter": false
+        },
+        {
+          "minute": 15,
+          "second": 48,
+          "scorer": "Elija Kusche",
+          "team": "away",
+          "team_abbrev": "DJK Singen",
+          "seven_meter": false
+        },
+        {
+          "minute": 17,
+          "second": 8,
+          "scorer": "Hendrik Messer",
+          "team": "away",
+          "team_abbrev": "DJK Singen",
+          "seven_meter": true
+        },
+        {
+          "minute": 18,
+          "second": 23,
+          "scorer": "Alan Klimisch",
+          "team": "away",
+          "team_abbrev": "DJK Singen",
+          "seven_meter": false
+        },
+        {
+          "minute": 21,
+          "second": 23,
+          "scorer": "Matti Rein",
+          "team": "home",
+          "team_abbrev": "Spvgg M\u00f6ssing.",
+          "seven_meter": false
+        },
+        {
+          "minute": 23,
+          "second": 44,
+          "scorer": "Josua Ehmann",
+          "team": "home",
+          "team_abbrev": "Spvgg M\u00f6ssing.",
+          "seven_meter": true
+        },
+        {
+          "minute": 26,
+          "second": 9,
+          "scorer": "Arvid Hipp",
+          "team": "home",
+          "team_abbrev": "Spvgg M\u00f6ssing.",
+          "seven_meter": false
+        },
+        {
+          "minute": 26,
+          "second": 43,
+          "scorer": "Hendrik Messer",
+          "team": "away",
+          "team_abbrev": "DJK Singen",
+          "seven_meter": true
+        },
+        {
+          "minute": 26,
+          "second": 57,
+          "scorer": "Josua Ehmann",
+          "team": "home",
+          "team_abbrev": "Spvgg M\u00f6ssing.",
+          "seven_meter": true
+        },
+        {
+          "minute": 27,
+          "second": 24,
+          "scorer": "Daniel Losizki",
+          "team": "away",
+          "team_abbrev": "DJK Singen",
+          "seven_meter": false
+        },
+        {
+          "minute": 29,
+          "second": 2,
+          "scorer": "Julian Wei\u00df",
+          "team": "away",
+          "team_abbrev": "DJK Singen",
+          "seven_meter": false
+        },
+        {
+          "minute": 29,
+          "second": 11,
+          "scorer": "Josua Ehmann",
+          "team": "home",
+          "team_abbrev": "Spvgg M\u00f6ssing.",
+          "seven_meter": false
+        },
+        {
+          "minute": 30,
+          "second": 11,
+          "scorer": "Julian Wei\u00df",
+          "team": "away",
+          "team_abbrev": "DJK Singen",
+          "seven_meter": false
+        },
+        {
+          "minute": 30,
+          "second": 53,
+          "scorer": "Bennett Schneider",
+          "team": "home",
+          "team_abbrev": "Spvgg M\u00f6ssing.",
+          "seven_meter": false
+        },
+        {
+          "minute": 31,
+          "second": 12,
+          "scorer": "Alan Klimisch",
+          "team": "away",
+          "team_abbrev": "DJK Singen",
+          "seven_meter": false
+        },
+        {
+          "minute": 31,
+          "second": 55,
+          "scorer": "Matti Rein",
+          "team": "home",
+          "team_abbrev": "Spvgg M\u00f6ssing.",
+          "seven_meter": false
+        },
+        {
+          "minute": 32,
+          "second": 10,
+          "scorer": "Liam Kuchta",
+          "team": "away",
+          "team_abbrev": "DJK Singen",
+          "seven_meter": false
+        },
+        {
+          "minute": 32,
+          "second": 46,
+          "scorer": "Daniel Losizki",
+          "team": "away",
+          "team_abbrev": "DJK Singen",
+          "seven_meter": false
+        },
+        {
+          "minute": 33,
+          "second": 8,
+          "scorer": "Arvid Hipp",
+          "team": "home",
+          "team_abbrev": "Spvgg M\u00f6ssing.",
+          "seven_meter": false
+        },
+        {
+          "minute": 35,
+          "second": 12,
+          "scorer": "Liam Kuchta",
+          "team": "away",
+          "team_abbrev": "DJK Singen",
+          "seven_meter": false
+        },
+        {
+          "minute": 35,
+          "second": 24,
+          "scorer": "Matti Rein",
+          "team": "home",
+          "team_abbrev": "Spvgg M\u00f6ssing.",
+          "seven_meter": false
+        },
+        {
+          "minute": 35,
+          "second": 48,
+          "scorer": "Hendrik Messer",
+          "team": "away",
+          "team_abbrev": "DJK Singen",
+          "seven_meter": false
+        },
+        {
+          "minute": 36,
+          "second": 48,
+          "scorer": "Keno Sickinger",
+          "team": "home",
+          "team_abbrev": "Spvgg M\u00f6ssing.",
+          "seven_meter": false
+        },
+        {
+          "minute": 37,
+          "second": 11,
+          "scorer": "Daniel Losizki",
+          "team": "away",
+          "team_abbrev": "DJK Singen",
+          "seven_meter": false
+        },
+        {
+          "minute": 39,
+          "second": 58,
+          "scorer": "Hendrik Messer",
+          "team": "away",
+          "team_abbrev": "DJK Singen",
+          "seven_meter": true
+        },
+        {
+          "minute": 41,
+          "second": 19,
+          "scorer": "Josua Ehmann",
+          "team": "home",
+          "team_abbrev": "Spvgg M\u00f6ssing.",
+          "seven_meter": true
+        },
+        {
+          "minute": 44,
+          "second": 53,
+          "scorer": "Hendrik Messer",
+          "team": "away",
+          "team_abbrev": "DJK Singen",
+          "seven_meter": false
+        },
+        {
+          "minute": 47,
+          "second": 47,
+          "scorer": "Josua Ehmann",
+          "team": "home",
+          "team_abbrev": "Spvgg M\u00f6ssing.",
+          "seven_meter": true
+        },
+        {
+          "minute": 48,
+          "second": 38,
+          "scorer": "Julian Wei\u00df",
+          "team": "away",
+          "team_abbrev": "DJK Singen",
+          "seven_meter": false
+        },
+        {
+          "minute": 48,
+          "second": 51,
+          "scorer": "Arvid Hipp",
+          "team": "home",
+          "team_abbrev": "Spvgg M\u00f6ssing.",
+          "seven_meter": false
+        },
+        {
+          "minute": 49,
+          "second": 38,
+          "scorer": "Julian Wei\u00df",
+          "team": "away",
+          "team_abbrev": "DJK Singen",
+          "seven_meter": false
+        },
+        {
+          "minute": 50,
+          "second": 0,
+          "scorer": "Keno Sickinger",
+          "team": "home",
+          "team_abbrev": "Spvgg M\u00f6ssing.",
+          "seven_meter": false
+        }
+      ],
+      "final_score": "23:20",
+      "half_duration": 30,
+      "officials": {
+        "referees": [
+          "Alessandro DAlberti"
+        ],
+        "timekeepers": [
+          "Anke Buschbacher"
+        ],
+        "secretaries": [
+          "Maike Hipp"
+        ]
+      },
+      "graphic_path": "output/graphics/Spvgg_M\u00f6ssingen_vs_DJK_Singen_ag_2802.png"
+    }
+  ]
+}

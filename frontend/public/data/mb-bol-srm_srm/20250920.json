@@ -1,0 +1,1533 @@
+{
+  "date": "20250920",
+  "games": [
+    {
+      "game_id": "handball4all.baden-wuerttemberg.8850082",
+      "order": 0,
+      "date": "Sa, 20.09.",
+      "home": {
+        "team_name": "SV Hohenacker-Neustadt",
+        "players": [
+          {
+            "name": "Mahir Said Efe Bozat",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Leon Brunck",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Ioannis Bouchlias",
+            "goals": 10,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Leonard Ganz",
+            "goals": 4,
+            "two_min_penalties": 1,
+            "yellow_cards": 1,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Paul Angelusch",
+            "goals": 5,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Luca Tosca",
+            "goals": 8,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 2,
+            "seven_meters_goals": 2
+          },
+          {
+            "name": "Leon Idiga",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Niklas Funke",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Onur Yildiz",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Jannik Huber",
+            "goals": 4,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Lukas Ketterer",
+            "goals": 3,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          }
+        ]
+      },
+      "away": {
+        "team_name": "SG Remstal",
+        "players": [
+          {
+            "name": "Marc Hutt",
+            "goals": 1,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Moritz Bitterling",
+            "goals": 5,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Moritz Tom M\u00fcller",
+            "goals": 9,
+            "two_min_penalties": 0,
+            "yellow_cards": 1,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Noah Illg",
+            "goals": 0,
+            "two_min_penalties": 1,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Laurin Heim",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Bennet Oberholz",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Louis von Kietzell",
+            "goals": 5,
+            "two_min_penalties": 1,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "N.N. N.N.",
+            "goals": 5,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "N.N. N.N.",
+            "goals": 5,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Vladyslav Petrov",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Niklas Eugen Fischer",
+            "goals": 1,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Fabian Juraschek",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          }
+        ]
+      },
+      "goals_timeline": [
+        {
+          "minute": 0,
+          "second": 29,
+          "scorer": "Louis von Kietzell",
+          "team": "home",
+          "team_abbrev": "SG Remstal",
+          "seven_meter": false
+        },
+        {
+          "minute": 0,
+          "second": 46,
+          "scorer": "Lukas Ketterer",
+          "team": "away",
+          "team_abbrev": "SV Hohen-Neu",
+          "seven_meter": false
+        },
+        {
+          "minute": 1,
+          "second": 59,
+          "scorer": "Ioannis Bouchlias",
+          "team": "away",
+          "team_abbrev": "SV Hohen-Neu",
+          "seven_meter": false
+        },
+        {
+          "minute": 2,
+          "second": 27,
+          "scorer": "Moritz M\u00fcller",
+          "team": "home",
+          "team_abbrev": "SG Remstal",
+          "seven_meter": false
+        },
+        {
+          "minute": 4,
+          "second": 47,
+          "scorer": "Ioannis Bouchlias",
+          "team": "away",
+          "team_abbrev": "SV Hohen-Neu",
+          "seven_meter": false
+        },
+        {
+          "minute": 5,
+          "second": 26,
+          "scorer": "Niklas von Kietzell",
+          "team": "home",
+          "team_abbrev": "SG Remstal",
+          "seven_meter": false
+        },
+        {
+          "minute": 5,
+          "second": 37,
+          "scorer": "Ioannis Bouchlias",
+          "team": "away",
+          "team_abbrev": "SV Hohen-Neu",
+          "seven_meter": false
+        },
+        {
+          "minute": 5,
+          "second": 54,
+          "scorer": "Louis von Kietzell",
+          "team": "home",
+          "team_abbrev": "SG Remstal",
+          "seven_meter": false
+        },
+        {
+          "minute": 6,
+          "second": 17,
+          "scorer": "Paul Angelusch",
+          "team": "away",
+          "team_abbrev": "SV Hohen-Neu",
+          "seven_meter": false
+        },
+        {
+          "minute": 7,
+          "second": 6,
+          "scorer": "Moritz M\u00fcller",
+          "team": "home",
+          "team_abbrev": "SG Remstal",
+          "seven_meter": false
+        },
+        {
+          "minute": 7,
+          "second": 24,
+          "scorer": "Leonard Ganz",
+          "team": "away",
+          "team_abbrev": "SV Hohen-Neu",
+          "seven_meter": false
+        },
+        {
+          "minute": 7,
+          "second": 49,
+          "scorer": "Neo Klein",
+          "team": "home",
+          "team_abbrev": "SG Remstal",
+          "seven_meter": false
+        },
+        {
+          "minute": 8,
+          "second": 39,
+          "scorer": "Luca Tosca",
+          "team": "away",
+          "team_abbrev": "SV Hohen-Neu",
+          "seven_meter": false
+        },
+        {
+          "minute": 10,
+          "second": 24,
+          "scorer": "Moritz M\u00fcller",
+          "team": "home",
+          "team_abbrev": "SG Remstal",
+          "seven_meter": false
+        },
+        {
+          "minute": 10,
+          "second": 57,
+          "scorer": "Jannik Huber",
+          "team": "away",
+          "team_abbrev": "SV Hohen-Neu",
+          "seven_meter": false
+        },
+        {
+          "minute": 11,
+          "second": 29,
+          "scorer": "Paul Angelusch",
+          "team": "away",
+          "team_abbrev": "SV Hohen-Neu",
+          "seven_meter": false
+        },
+        {
+          "minute": 11,
+          "second": 59,
+          "scorer": "Moritz M\u00fcller",
+          "team": "home",
+          "team_abbrev": "SG Remstal",
+          "seven_meter": false
+        },
+        {
+          "minute": 12,
+          "second": 43,
+          "scorer": "Paul Angelusch",
+          "team": "away",
+          "team_abbrev": "SV Hohen-Neu",
+          "seven_meter": false
+        },
+        {
+          "minute": 13,
+          "second": 36,
+          "scorer": "Moritz M\u00fcller",
+          "team": "home",
+          "team_abbrev": "SG Remstal",
+          "seven_meter": true
+        },
+        {
+          "minute": 17,
+          "second": 37,
+          "scorer": "Paul Angelusch",
+          "team": "away",
+          "team_abbrev": "SV Hohen-Neu",
+          "seven_meter": false
+        },
+        {
+          "minute": 18,
+          "second": 44,
+          "scorer": "Luca Tosca",
+          "team": "away",
+          "team_abbrev": "SV Hohen-Neu",
+          "seven_meter": false
+        },
+        {
+          "minute": 19,
+          "second": 23,
+          "scorer": "Ioannis Bouchlias",
+          "team": "away",
+          "team_abbrev": "SV Hohen-Neu",
+          "seven_meter": false
+        },
+        {
+          "minute": 20,
+          "second": 10,
+          "scorer": "Niklas von Kietzell",
+          "team": "home",
+          "team_abbrev": "SG Remstal",
+          "seven_meter": false
+        },
+        {
+          "minute": 20,
+          "second": 39,
+          "scorer": "Louis von Kietzell",
+          "team": "home",
+          "team_abbrev": "SG Remstal",
+          "seven_meter": false
+        },
+        {
+          "minute": 21,
+          "second": 28,
+          "scorer": "Luca Tosca",
+          "team": "away",
+          "team_abbrev": "SV Hohen-Neu",
+          "seven_meter": false
+        },
+        {
+          "minute": 22,
+          "second": 17,
+          "scorer": "Ioannis Bouchlias",
+          "team": "away",
+          "team_abbrev": "SV Hohen-Neu",
+          "seven_meter": false
+        },
+        {
+          "minute": 22,
+          "second": 32,
+          "scorer": "Niklas von Kietzell",
+          "team": "home",
+          "team_abbrev": "SG Remstal",
+          "seven_meter": false
+        },
+        {
+          "minute": 23,
+          "second": 40,
+          "scorer": "Moritz M\u00fcller",
+          "team": "home",
+          "team_abbrev": "SG Remstal",
+          "seven_meter": false
+        },
+        {
+          "minute": 24,
+          "second": 11,
+          "scorer": "Moritz M\u00fcller",
+          "team": "home",
+          "team_abbrev": "SG Remstal",
+          "seven_meter": false
+        },
+        {
+          "minute": 24,
+          "second": 51,
+          "scorer": "Niklas von Kietzell",
+          "team": "home",
+          "team_abbrev": "SG Remstal",
+          "seven_meter": false
+        },
+        {
+          "minute": 25,
+          "second": 16,
+          "scorer": "Luca Tosca",
+          "team": "away",
+          "team_abbrev": "SV Hohen-Neu",
+          "seven_meter": true
+        },
+        {
+          "minute": 25,
+          "second": 16,
+          "scorer": "Niklas von Kietzell",
+          "team": "home",
+          "team_abbrev": "SG Remstal",
+          "seven_meter": false
+        },
+        {
+          "minute": 25,
+          "second": 16,
+          "scorer": "Jannik Huber",
+          "team": "away",
+          "team_abbrev": "SV Hohen-Neu",
+          "seven_meter": false
+        },
+        {
+          "minute": 25,
+          "second": 16,
+          "scorer": "Moritz Bitterling",
+          "team": "home",
+          "team_abbrev": "SG Remstal",
+          "seven_meter": false
+        },
+        {
+          "minute": 25,
+          "second": 16,
+          "scorer": "Luca Tosca",
+          "team": "away",
+          "team_abbrev": "SV Hohen-Neu",
+          "seven_meter": false
+        },
+        {
+          "minute": 25,
+          "second": 41,
+          "scorer": "Niklas Fischer",
+          "team": "home",
+          "team_abbrev": "SG Remstal",
+          "seven_meter": false
+        },
+        {
+          "minute": 27,
+          "second": 59,
+          "scorer": "Neo Klein",
+          "team": "home",
+          "team_abbrev": "SG Remstal",
+          "seven_meter": false
+        },
+        {
+          "minute": 30,
+          "second": 9,
+          "scorer": "Jannik Huber",
+          "team": "away",
+          "team_abbrev": "SV Hohen-Neu",
+          "seven_meter": false
+        },
+        {
+          "minute": 30,
+          "second": 41,
+          "scorer": "Jannik Huber",
+          "team": "away",
+          "team_abbrev": "SV Hohen-Neu",
+          "seven_meter": false
+        },
+        {
+          "minute": 31,
+          "second": 28,
+          "scorer": "Paul Angelusch",
+          "team": "away",
+          "team_abbrev": "SV Hohen-Neu",
+          "seven_meter": false
+        },
+        {
+          "minute": 32,
+          "second": 48,
+          "scorer": "Moritz Bitterling",
+          "team": "home",
+          "team_abbrev": "SG Remstal",
+          "seven_meter": false
+        },
+        {
+          "minute": 33,
+          "second": 0,
+          "scorer": "Leonard Ganz",
+          "team": "away",
+          "team_abbrev": "SV Hohen-Neu",
+          "seven_meter": false
+        },
+        {
+          "minute": 35,
+          "second": 17,
+          "scorer": "Leonard Ganz",
+          "team": "away",
+          "team_abbrev": "SV Hohen-Neu",
+          "seven_meter": false
+        },
+        {
+          "minute": 35,
+          "second": 58,
+          "scorer": "Lukas Ketterer",
+          "team": "away",
+          "team_abbrev": "SV Hohen-Neu",
+          "seven_meter": false
+        },
+        {
+          "minute": 37,
+          "second": 8,
+          "scorer": "Neo Klein",
+          "team": "home",
+          "team_abbrev": "SG Remstal",
+          "seven_meter": false
+        },
+        {
+          "minute": 37,
+          "second": 25,
+          "scorer": "Ioannis Bouchlias",
+          "team": "away",
+          "team_abbrev": "SV Hohen-Neu",
+          "seven_meter": false
+        },
+        {
+          "minute": 38,
+          "second": 3,
+          "scorer": "Moritz Bitterling",
+          "team": "home",
+          "team_abbrev": "SG Remstal",
+          "seven_meter": false
+        },
+        {
+          "minute": 38,
+          "second": 17,
+          "scorer": "Lukas Ketterer",
+          "team": "away",
+          "team_abbrev": "SV Hohen-Neu",
+          "seven_meter": false
+        },
+        {
+          "minute": 38,
+          "second": 53,
+          "scorer": "Ioannis Bouchlias",
+          "team": "away",
+          "team_abbrev": "SV Hohen-Neu",
+          "seven_meter": false
+        },
+        {
+          "minute": 39,
+          "second": 12,
+          "scorer": "Marc Hutt",
+          "team": "home",
+          "team_abbrev": "SG Remstal",
+          "seven_meter": false
+        },
+        {
+          "minute": 39,
+          "second": 27,
+          "scorer": "Leonard Ganz",
+          "team": "away",
+          "team_abbrev": "SV Hohen-Neu",
+          "seven_meter": false
+        },
+        {
+          "minute": 40,
+          "second": 9,
+          "scorer": "Moritz Bitterling",
+          "team": "home",
+          "team_abbrev": "SG Remstal",
+          "seven_meter": false
+        },
+        {
+          "minute": 40,
+          "second": 32,
+          "scorer": "Ioannis Bouchlias",
+          "team": "away",
+          "team_abbrev": "SV Hohen-Neu",
+          "seven_meter": false
+        },
+        {
+          "minute": 41,
+          "second": 46,
+          "scorer": "Neo Klein",
+          "team": "home",
+          "team_abbrev": "SG Remstal",
+          "seven_meter": false
+        },
+        {
+          "minute": 42,
+          "second": 35,
+          "scorer": "Moritz M\u00fcller",
+          "team": "home",
+          "team_abbrev": "SG Remstal",
+          "seven_meter": false
+        },
+        {
+          "minute": 43,
+          "second": 13,
+          "scorer": "Louis von Kietzell",
+          "team": "home",
+          "team_abbrev": "SG Remstal",
+          "seven_meter": false
+        },
+        {
+          "minute": 43,
+          "second": 54,
+          "scorer": "Louis von Kietzell",
+          "team": "home",
+          "team_abbrev": "SG Remstal",
+          "seven_meter": false
+        },
+        {
+          "minute": 44,
+          "second": 45,
+          "scorer": "Moritz Bitterling",
+          "team": "home",
+          "team_abbrev": "SG Remstal",
+          "seven_meter": false
+        },
+        {
+          "minute": 45,
+          "second": 58,
+          "scorer": "Luca Tosca",
+          "team": "away",
+          "team_abbrev": "SV Hohen-Neu",
+          "seven_meter": true
+        },
+        {
+          "minute": 46,
+          "second": 45,
+          "scorer": "Neo Klein",
+          "team": "home",
+          "team_abbrev": "SG Remstal",
+          "seven_meter": false
+        },
+        {
+          "minute": 47,
+          "second": 6,
+          "scorer": "Ioannis Bouchlias",
+          "team": "away",
+          "team_abbrev": "SV Hohen-Neu",
+          "seven_meter": false
+        },
+        {
+          "minute": 48,
+          "second": 21,
+          "scorer": "Luca Tosca",
+          "team": "away",
+          "team_abbrev": "SV Hohen-Neu",
+          "seven_meter": false
+        },
+        {
+          "minute": 48,
+          "second": 34,
+          "scorer": "Moritz M\u00fcller",
+          "team": "home",
+          "team_abbrev": "SG Remstal",
+          "seven_meter": false
+        },
+        {
+          "minute": 49,
+          "second": 19,
+          "scorer": "Luca Tosca",
+          "team": "away",
+          "team_abbrev": "SV Hohen-Neu",
+          "seven_meter": false
+        },
+        {
+          "minute": 49,
+          "second": 43,
+          "scorer": "Ioannis Bouchlias",
+          "team": "away",
+          "team_abbrev": "SV Hohen-Neu",
+          "seven_meter": false
+        }
+      ],
+      "final_score": "31:34",
+      "half_duration": 30,
+      "officials": {
+        "referees": [
+          "Rebecca Rohlfing"
+        ],
+        "timekeepers": [
+          "laurabarbuto"
+        ],
+        "secretaries": [
+          "Werner M\u00fcller"
+        ]
+      },
+      "graphic_path": "output/graphics/SV_Hohenacker-Neusta_vs_SG_Remstal_Sa_2009.png"
+    },
+    {
+      "game_id": "handball4all.baden-wuerttemberg.8849877",
+      "order": 1,
+      "date": "Sa, 20.09.",
+      "home": {
+        "team_name": "Hbi Weilimdorf/Feuerbach",
+        "players": [
+          {
+            "name": "Noah Stephan",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Franz L\u00e4mmlein",
+            "goals": 3,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Noah Schulz",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Tom Siemes",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Raphael G\u00fcnter",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Tom Pfisterer",
+            "goals": 1,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Collin Pohl",
+            "goals": 4,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Jonas Herweg",
+            "goals": 6,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Adrian Jochmann",
+            "goals": 0,
+            "two_min_penalties": 1,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Jakob M\u00fcller",
+            "goals": 2,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Daniel Vasilevskij",
+            "goals": 1,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Mika Nagel",
+            "goals": 2,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Darwin Brockhoff",
+            "goals": 1,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Noah Moretton",
+            "goals": 2,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Esat Sari",
+            "goals": 1,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          }
+        ]
+      },
+      "away": {
+        "team_name": "HSC Schmiden/Oeffingen 2004 2",
+        "players": [
+          {
+            "name": "Carl Gollhofer",
+            "goals": 3,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "N.N. N.N.",
+            "goals": 1,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "N.N. N.N.",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Marius Prime\u00dfnig",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Maximilian Knapp",
+            "goals": 11,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 1,
+            "seven_meters_goals": 1
+          },
+          {
+            "name": "N.N. N.N.",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Felix Wertz",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "N.N. N.N.",
+            "goals": 3,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Felix Schweizer",
+            "goals": 1,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Maximilian Schelbert",
+            "goals": 1,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Lennart Witzens",
+            "goals": 5,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Florian Reisch",
+            "goals": 2,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Linus Schweizer",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Julian Wyhler",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "N.N. N.N.",
+            "goals": 2,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          }
+        ]
+      },
+      "goals_timeline": [
+        {
+          "minute": 1,
+          "second": 43,
+          "scorer": "Lennart Witzens",
+          "team": "home",
+          "team_abbrev": "HSC Schm/Oeff 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 1,
+          "second": 48,
+          "scorer": "Daniel Vasilevskij",
+          "team": "away",
+          "team_abbrev": "Hbi Weil/Feuer",
+          "seven_meter": false
+        },
+        {
+          "minute": 1,
+          "second": 57,
+          "scorer": "Ben Grote",
+          "team": "home",
+          "team_abbrev": "HSC Schm/Oeff 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 2,
+          "second": 12,
+          "scorer": "Jonas Herweg",
+          "team": "away",
+          "team_abbrev": "Hbi Weil/Feuer",
+          "seven_meter": false
+        },
+        {
+          "minute": 3,
+          "second": 28,
+          "scorer": "Lennart Witzens",
+          "team": "home",
+          "team_abbrev": "HSC Schm/Oeff 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 3,
+          "second": 57,
+          "scorer": "Florian Reisch",
+          "team": "home",
+          "team_abbrev": "HSC Schm/Oeff 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 5,
+          "second": 26,
+          "scorer": "Mika Nagel",
+          "team": "away",
+          "team_abbrev": "Hbi Weil/Feuer",
+          "seven_meter": false
+        },
+        {
+          "minute": 5,
+          "second": 59,
+          "scorer": "Esat Sari",
+          "team": "away",
+          "team_abbrev": "Hbi Weil/Feuer",
+          "seven_meter": false
+        },
+        {
+          "minute": 6,
+          "second": 22,
+          "scorer": "Collin Pohl",
+          "team": "away",
+          "team_abbrev": "Hbi Weil/Feuer",
+          "seven_meter": false
+        },
+        {
+          "minute": 6,
+          "second": 48,
+          "scorer": "Lennart Witzens",
+          "team": "home",
+          "team_abbrev": "HSC Schm/Oeff 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 7,
+          "second": 36,
+          "scorer": "Maximilian Knapp",
+          "team": "home",
+          "team_abbrev": "HSC Schm/Oeff 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 9,
+          "second": 7,
+          "scorer": "Mika Nagel",
+          "team": "away",
+          "team_abbrev": "Hbi Weil/Feuer",
+          "seven_meter": false
+        },
+        {
+          "minute": 10,
+          "second": 16,
+          "scorer": "Jonas Herweg",
+          "team": "away",
+          "team_abbrev": "Hbi Weil/Feuer",
+          "seven_meter": false
+        },
+        {
+          "minute": 11,
+          "second": 0,
+          "scorer": "Ben Grote",
+          "team": "home",
+          "team_abbrev": "HSC Schm/Oeff 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 12,
+          "second": 35,
+          "scorer": "Ben Grote",
+          "team": "home",
+          "team_abbrev": "HSC Schm/Oeff 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 14,
+          "second": 36,
+          "scorer": "Jonas Herweg",
+          "team": "away",
+          "team_abbrev": "Hbi Weil/Feuer",
+          "seven_meter": false
+        },
+        {
+          "minute": 15,
+          "second": 15,
+          "scorer": "Maximilian Knapp",
+          "team": "home",
+          "team_abbrev": "HSC Schm/Oeff 2",
+          "seven_meter": true
+        },
+        {
+          "minute": 15,
+          "second": 24,
+          "scorer": "Jonas Herweg",
+          "team": "away",
+          "team_abbrev": "Hbi Weil/Feuer",
+          "seven_meter": false
+        },
+        {
+          "minute": 16,
+          "second": 16,
+          "scorer": "Carl Gollhofer",
+          "team": "home",
+          "team_abbrev": "HSC Schm/Oeff 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 16,
+          "second": 37,
+          "scorer": "Noah Moretton",
+          "team": "away",
+          "team_abbrev": "Hbi Weil/Feuer",
+          "seven_meter": false
+        },
+        {
+          "minute": 17,
+          "second": 8,
+          "scorer": "Jonas Herweg",
+          "team": "away",
+          "team_abbrev": "Hbi Weil/Feuer",
+          "seven_meter": false
+        },
+        {
+          "minute": 18,
+          "second": 29,
+          "scorer": "Carl Gollhofer",
+          "team": "home",
+          "team_abbrev": "HSC Schm/Oeff 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 19,
+          "second": 22,
+          "scorer": "Franz L\u00e4mmlein",
+          "team": "away",
+          "team_abbrev": "Hbi Weil/Feuer",
+          "seven_meter": false
+        },
+        {
+          "minute": 19,
+          "second": 40,
+          "scorer": "Maximilian Knapp",
+          "team": "home",
+          "team_abbrev": "HSC Schm/Oeff 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 20,
+          "second": 52,
+          "scorer": "Maximilian Knapp",
+          "team": "home",
+          "team_abbrev": "HSC Schm/Oeff 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 23,
+          "second": 41,
+          "scorer": "Frederik Hampel",
+          "team": "home",
+          "team_abbrev": "HSC Schm/Oeff 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 24,
+          "second": 41,
+          "scorer": "Noah Moretton",
+          "team": "away",
+          "team_abbrev": "Hbi Weil/Feuer",
+          "seven_meter": false
+        },
+        {
+          "minute": 26,
+          "second": 33,
+          "scorer": "Jonas Gneithing",
+          "team": "home",
+          "team_abbrev": "HSC Schm/Oeff 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 29,
+          "second": 19,
+          "scorer": "Maximilian Knapp",
+          "team": "home",
+          "team_abbrev": "HSC Schm/Oeff 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 30,
+          "second": 37,
+          "scorer": "Maximilian Knapp",
+          "team": "home",
+          "team_abbrev": "HSC Schm/Oeff 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 31,
+          "second": 17,
+          "scorer": "Jonas Gneithing",
+          "team": "home",
+          "team_abbrev": "HSC Schm/Oeff 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 31,
+          "second": 53,
+          "scorer": "Florian Reisch",
+          "team": "home",
+          "team_abbrev": "HSC Schm/Oeff 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 32,
+          "second": 28,
+          "scorer": "Maximilian Knapp",
+          "team": "home",
+          "team_abbrev": "HSC Schm/Oeff 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 33,
+          "second": 31,
+          "scorer": "Carl Gollhofer",
+          "team": "home",
+          "team_abbrev": "HSC Schm/Oeff 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 35,
+          "second": 41,
+          "scorer": "Franz L\u00e4mmlein",
+          "team": "away",
+          "team_abbrev": "Hbi Weil/Feuer",
+          "seven_meter": false
+        },
+        {
+          "minute": 36,
+          "second": 19,
+          "scorer": "Felix Schweizer",
+          "team": "home",
+          "team_abbrev": "HSC Schm/Oeff 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 37,
+          "second": 52,
+          "scorer": "Collin Pohl",
+          "team": "away",
+          "team_abbrev": "Hbi Weil/Feuer",
+          "seven_meter": false
+        },
+        {
+          "minute": 40,
+          "second": 22,
+          "scorer": "Darwin Brockhoff",
+          "team": "away",
+          "team_abbrev": "Hbi Weil/Feuer",
+          "seven_meter": false
+        },
+        {
+          "minute": 40,
+          "second": 44,
+          "scorer": "Jakob M\u00fcller",
+          "team": "away",
+          "team_abbrev": "Hbi Weil/Feuer",
+          "seven_meter": false
+        },
+        {
+          "minute": 41,
+          "second": 32,
+          "scorer": "Maximilian Knapp",
+          "team": "home",
+          "team_abbrev": "HSC Schm/Oeff 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 42,
+          "second": 12,
+          "scorer": "Franz L\u00e4mmlein",
+          "team": "away",
+          "team_abbrev": "Hbi Weil/Feuer",
+          "seven_meter": false
+        },
+        {
+          "minute": 43,
+          "second": 20,
+          "scorer": "Jonas Herweg",
+          "team": "away",
+          "team_abbrev": "Hbi Weil/Feuer",
+          "seven_meter": false
+        },
+        {
+          "minute": 43,
+          "second": 40,
+          "scorer": "Maximilian Knapp",
+          "team": "home",
+          "team_abbrev": "HSC Schm/Oeff 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 45,
+          "second": 5,
+          "scorer": "Maximilian Knapp",
+          "team": "home",
+          "team_abbrev": "HSC Schm/Oeff 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 45,
+          "second": 32,
+          "scorer": "Lennart Witzens",
+          "team": "home",
+          "team_abbrev": "HSC Schm/Oeff 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 45,
+          "second": 46,
+          "scorer": "Tom Pfisterer",
+          "team": "away",
+          "team_abbrev": "Hbi Weil/Feuer",
+          "seven_meter": false
+        },
+        {
+          "minute": 46,
+          "second": 28,
+          "scorer": "Collin Pohl",
+          "team": "away",
+          "team_abbrev": "Hbi Weil/Feuer",
+          "seven_meter": false
+        },
+        {
+          "minute": 46,
+          "second": 44,
+          "scorer": "Lennart Witzens",
+          "team": "home",
+          "team_abbrev": "HSC Schm/Oeff 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 47,
+          "second": 16,
+          "scorer": "Jakob M\u00fcller",
+          "team": "away",
+          "team_abbrev": "Hbi Weil/Feuer",
+          "seven_meter": false
+        },
+        {
+          "minute": 47,
+          "second": 51,
+          "scorer": "Maximilian Knapp",
+          "team": "home",
+          "team_abbrev": "HSC Schm/Oeff 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 48,
+          "second": 34,
+          "scorer": "Collin Pohl",
+          "team": "away",
+          "team_abbrev": "Hbi Weil/Feuer",
+          "seven_meter": false
+        },
+        {
+          "minute": 48,
+          "second": 44,
+          "scorer": "Maximilian Schelbert",
+          "team": "home",
+          "team_abbrev": "HSC Schm/Oeff 2",
+          "seven_meter": false
+        }
+      ],
+      "final_score": "29:23",
+      "half_duration": 30,
+      "officials": {
+        "referees": [
+          "Jonas Marten Gregor"
+        ],
+        "timekeepers": [
+          "Katharina Helmling"
+        ],
+        "secretaries": [
+          "Lars Gneithing"
+        ]
+      },
+      "graphic_path": "output/graphics/Hbi_Weilimdorf_Feuer_vs_HSC_Schmiden_Oeffing_Sa_2009.png"
+    }
+  ]
+}

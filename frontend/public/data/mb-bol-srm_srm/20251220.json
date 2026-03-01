@@ -1,0 +1,730 @@
+{
+  "date": "20251220",
+  "games": [
+    {
+      "game_id": "handball4all.baden-wuerttemberg.8850147",
+      "order": 30,
+      "date": "Sa, 20.12.",
+      "home": {
+        "team_name": "Hbi Weilimdorf/Feuerbach",
+        "players": [
+          {
+            "name": "Noah Schulz",
+            "goals": 3,
+            "two_min_penalties": 1,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Tom Siemes",
+            "goals": 0,
+            "two_min_penalties": 1,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Raphael G\u00fcnter",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Adrian Jochmann",
+            "goals": 2,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Jonas Herweg",
+            "goals": 9,
+            "two_min_penalties": 0,
+            "yellow_cards": 1,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Robin Ruhland",
+            "goals": 2,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 1,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Jakob M\u00fcller",
+            "goals": 1,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Julian Lorenz",
+            "goals": 2,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Mika Nagel",
+            "goals": 2,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "David Pohl",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Henry Rattka",
+            "goals": 1,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Darwin Brockhoff",
+            "goals": 1,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          }
+        ]
+      },
+      "away": {
+        "team_name": "Team Stuttgart 2",
+        "players": [
+          {
+            "name": "Lias Steinle",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Justus Weigel",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Mads Steinle",
+            "goals": 2,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 3,
+            "seven_meters_goals": 1
+          },
+          {
+            "name": "Silvester Hoen",
+            "goals": 2,
+            "two_min_penalties": 0,
+            "yellow_cards": 1,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Paul Mosnier-Thoumas",
+            "goals": 3,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Yann Ettling",
+            "goals": 8,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Tim Bidell",
+            "goals": 8,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Fabian Stiehl",
+            "goals": 4,
+            "two_min_penalties": 0,
+            "yellow_cards": 1,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "David Herre",
+            "goals": 6,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Philip Leiser",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Finn Holzinger",
+            "goals": 5,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          }
+        ]
+      },
+      "goals_timeline": [
+        {
+          "minute": 0,
+          "second": 20,
+          "scorer": "David Herre",
+          "team": "home",
+          "team_abbrev": "Team Stuttgart 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 1,
+          "second": 20,
+          "scorer": "Silvester Hoen",
+          "team": "home",
+          "team_abbrev": "Team Stuttgart 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 4,
+          "second": 0,
+          "scorer": "Yann Ettling",
+          "team": "home",
+          "team_abbrev": "Team Stuttgart 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 4,
+          "second": 58,
+          "scorer": "Yann Ettling",
+          "team": "home",
+          "team_abbrev": "Team Stuttgart 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 5,
+          "second": 27,
+          "scorer": "David Herre",
+          "team": "home",
+          "team_abbrev": "Team Stuttgart 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 5,
+          "second": 55,
+          "scorer": "Jonas Herweg",
+          "team": "away",
+          "team_abbrev": "Hbi Weil/Feuer",
+          "seven_meter": false
+        },
+        {
+          "minute": 6,
+          "second": 41,
+          "scorer": "David Herre",
+          "team": "home",
+          "team_abbrev": "Team Stuttgart 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 7,
+          "second": 50,
+          "scorer": "Jonas Herweg",
+          "team": "away",
+          "team_abbrev": "Hbi Weil/Feuer",
+          "seven_meter": false
+        },
+        {
+          "minute": 8,
+          "second": 12,
+          "scorer": "Yann Ettling",
+          "team": "home",
+          "team_abbrev": "Team Stuttgart 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 9,
+          "second": 0,
+          "scorer": "Darwin Brockhoff",
+          "team": "away",
+          "team_abbrev": "Hbi Weil/Feuer",
+          "seven_meter": false
+        },
+        {
+          "minute": 9,
+          "second": 46,
+          "scorer": "Mika Nagel",
+          "team": "away",
+          "team_abbrev": "Hbi Weil/Feuer",
+          "seven_meter": false
+        },
+        {
+          "minute": 10,
+          "second": 4,
+          "scorer": "Fabian Stiehl",
+          "team": "home",
+          "team_abbrev": "Team Stuttgart 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 10,
+          "second": 41,
+          "scorer": "Jonas Herweg",
+          "team": "away",
+          "team_abbrev": "Hbi Weil/Feuer",
+          "seven_meter": false
+        },
+        {
+          "minute": 10,
+          "second": 53,
+          "scorer": "Tim Bidell",
+          "team": "home",
+          "team_abbrev": "Team Stuttgart 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 11,
+          "second": 28,
+          "scorer": "Tim Bidell",
+          "team": "home",
+          "team_abbrev": "Team Stuttgart 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 14,
+          "second": 40,
+          "scorer": "Noah Schulz",
+          "team": "away",
+          "team_abbrev": "Hbi Weil/Feuer",
+          "seven_meter": false
+        },
+        {
+          "minute": 15,
+          "second": 56,
+          "scorer": "Fabian Stiehl",
+          "team": "home",
+          "team_abbrev": "Team Stuttgart 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 17,
+          "second": 1,
+          "scorer": "Henry Rattka",
+          "team": "away",
+          "team_abbrev": "Hbi Weil/Feuer",
+          "seven_meter": false
+        },
+        {
+          "minute": 17,
+          "second": 24,
+          "scorer": "Jonas Herweg",
+          "team": "away",
+          "team_abbrev": "Hbi Weil/Feuer",
+          "seven_meter": false
+        },
+        {
+          "minute": 18,
+          "second": 1,
+          "scorer": "Noah Schulz",
+          "team": "away",
+          "team_abbrev": "Hbi Weil/Feuer",
+          "seven_meter": false
+        },
+        {
+          "minute": 18,
+          "second": 50,
+          "scorer": "Yann Ettling",
+          "team": "home",
+          "team_abbrev": "Team Stuttgart 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 19,
+          "second": 22,
+          "scorer": "Tim Bidell",
+          "team": "home",
+          "team_abbrev": "Team Stuttgart 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 19,
+          "second": 41,
+          "scorer": "Noah Schulz",
+          "team": "away",
+          "team_abbrev": "Hbi Weil/Feuer",
+          "seven_meter": false
+        },
+        {
+          "minute": 20,
+          "second": 40,
+          "scorer": "Yann Ettling",
+          "team": "home",
+          "team_abbrev": "Team Stuttgart 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 22,
+          "second": 5,
+          "scorer": "Fabian Stiehl",
+          "team": "home",
+          "team_abbrev": "Team Stuttgart 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 22,
+          "second": 49,
+          "scorer": "Jakob M\u00fcller",
+          "team": "away",
+          "team_abbrev": "Hbi Weil/Feuer",
+          "seven_meter": false
+        },
+        {
+          "minute": 23,
+          "second": 18,
+          "scorer": "David Herre",
+          "team": "home",
+          "team_abbrev": "Team Stuttgart 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 23,
+          "second": 46,
+          "scorer": "Yann Ettling",
+          "team": "home",
+          "team_abbrev": "Team Stuttgart 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 25,
+          "second": 0,
+          "scorer": "Yann Ettling",
+          "team": "home",
+          "team_abbrev": "Team Stuttgart 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 25,
+          "second": 27,
+          "scorer": "Jonas Herweg",
+          "team": "away",
+          "team_abbrev": "Hbi Weil/Feuer",
+          "seven_meter": false
+        },
+        {
+          "minute": 26,
+          "second": 0,
+          "scorer": "Yann Ettling",
+          "team": "home",
+          "team_abbrev": "Team Stuttgart 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 26,
+          "second": 38,
+          "scorer": "Finn Holzinger",
+          "team": "home",
+          "team_abbrev": "Team Stuttgart 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 27,
+          "second": 5,
+          "scorer": "David Herre",
+          "team": "home",
+          "team_abbrev": "Team Stuttgart 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 27,
+          "second": 17,
+          "scorer": "Jonas Herweg",
+          "team": "away",
+          "team_abbrev": "Hbi Weil/Feuer",
+          "seven_meter": false
+        },
+        {
+          "minute": 27,
+          "second": 39,
+          "scorer": "Finn Holzinger",
+          "team": "home",
+          "team_abbrev": "Team Stuttgart 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 29,
+          "second": 5,
+          "scorer": "Julian Lorenz",
+          "team": "away",
+          "team_abbrev": "Hbi Weil/Feuer",
+          "seven_meter": false
+        },
+        {
+          "minute": 29,
+          "second": 45,
+          "scorer": "Jonas Herweg",
+          "team": "away",
+          "team_abbrev": "Hbi Weil/Feuer",
+          "seven_meter": false
+        },
+        {
+          "minute": 30,
+          "second": 13,
+          "scorer": "Finn Holzinger",
+          "team": "home",
+          "team_abbrev": "Team Stuttgart 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 30,
+          "second": 36,
+          "scorer": "Jonas Herweg",
+          "team": "away",
+          "team_abbrev": "Hbi Weil/Feuer",
+          "seven_meter": false
+        },
+        {
+          "minute": 30,
+          "second": 50,
+          "scorer": "David Herre",
+          "team": "home",
+          "team_abbrev": "Team Stuttgart 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 31,
+          "second": 14,
+          "scorer": "Tim Bidell",
+          "team": "home",
+          "team_abbrev": "Team Stuttgart 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 31,
+          "second": 36,
+          "scorer": "Julian Lorenz",
+          "team": "away",
+          "team_abbrev": "Hbi Weil/Feuer",
+          "seven_meter": false
+        },
+        {
+          "minute": 32,
+          "second": 50,
+          "scorer": "Silvester Hoen",
+          "team": "home",
+          "team_abbrev": "Team Stuttgart 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 33,
+          "second": 23,
+          "scorer": "Tim Bidell",
+          "team": "home",
+          "team_abbrev": "Team Stuttgart 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 33,
+          "second": 39,
+          "scorer": "Robin Ruhland",
+          "team": "away",
+          "team_abbrev": "Hbi Weil/Feuer",
+          "seven_meter": false
+        },
+        {
+          "minute": 34,
+          "second": 26,
+          "scorer": "Mads Steinle",
+          "team": "home",
+          "team_abbrev": "Team Stuttgart 2",
+          "seven_meter": true
+        },
+        {
+          "minute": 35,
+          "second": 44,
+          "scorer": "Mads Steinle",
+          "team": "home",
+          "team_abbrev": "Team Stuttgart 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 35,
+          "second": 56,
+          "scorer": "Adrian Jochmann",
+          "team": "away",
+          "team_abbrev": "Hbi Weil/Feuer",
+          "seven_meter": false
+        },
+        {
+          "minute": 36,
+          "second": 26,
+          "scorer": "Jonas Herweg",
+          "team": "away",
+          "team_abbrev": "Hbi Weil/Feuer",
+          "seven_meter": false
+        },
+        {
+          "minute": 38,
+          "second": 8,
+          "scorer": "Robin Ruhland",
+          "team": "away",
+          "team_abbrev": "Hbi Weil/Feuer",
+          "seven_meter": false
+        },
+        {
+          "minute": 39,
+          "second": 56,
+          "scorer": "Tim Bidell",
+          "team": "home",
+          "team_abbrev": "Team Stuttgart 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 40,
+          "second": 37,
+          "scorer": "Fabian Stiehl",
+          "team": "home",
+          "team_abbrev": "Team Stuttgart 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 42,
+          "second": 26,
+          "scorer": "Adrian Jochmann",
+          "team": "away",
+          "team_abbrev": "Hbi Weil/Feuer",
+          "seven_meter": false
+        },
+        {
+          "minute": 42,
+          "second": 48,
+          "scorer": "Tim Bidell",
+          "team": "home",
+          "team_abbrev": "Team Stuttgart 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 45,
+          "second": 29,
+          "scorer": "Mika Nagel",
+          "team": "away",
+          "team_abbrev": "Hbi Weil/Feuer",
+          "seven_meter": false
+        },
+        {
+          "minute": 46,
+          "second": 8,
+          "scorer": "Tim Bidell",
+          "team": "home",
+          "team_abbrev": "Team Stuttgart 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 46,
+          "second": 31,
+          "scorer": "Finn Holzinger",
+          "team": "home",
+          "team_abbrev": "Team Stuttgart 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 49,
+          "second": 56,
+          "scorer": "Finn Holzinger",
+          "team": "home",
+          "team_abbrev": "Team Stuttgart 2",
+          "seven_meter": false
+        }
+      ],
+      "final_score": "35:23",
+      "half_duration": 30,
+      "officials": {
+        "referees": [
+          "Janna Sch\u00f6nemann"
+        ],
+        "timekeepers": [
+          "Emmanuel Moretton"
+        ],
+        "secretaries": [
+          "Marco Stiehl"
+        ]
+      },
+      "graphic_path": "output/graphics/Hbi_Weilimdorf_Feuer_vs_Team_Stuttgart_2_Sa_2012.png"
+    }
+  ]
+}

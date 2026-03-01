@@ -1,0 +1,726 @@
+{
+  "date": "20260117",
+  "games": [
+    {
+      "game_id": "handball4all.baden-wuerttemberg.8850087",
+      "order": 32,
+      "date": "Sa, 17.01.",
+      "home": {
+        "team_name": "HandballTeam Heckeng\u00e4u",
+        "players": [
+          {
+            "name": "Erik M\u00fcller",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Tim Nast",
+            "goals": 1,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Jona Len Storz",
+            "goals": 6,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Samuel Wei\u00df",
+            "goals": 8,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 2,
+            "seven_meters_goals": 1
+          },
+          {
+            "name": "Julian Raith",
+            "goals": 2,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Ben Weiss",
+            "goals": 4,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Jonas Schmelzer",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Jannik Feuerrohr",
+            "goals": 1,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Mikka St\u00f6lzer",
+            "goals": 6,
+            "two_min_penalties": 1,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Lars Gehring",
+            "goals": 7,
+            "two_min_penalties": 0,
+            "yellow_cards": 1,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 1,
+            "seven_meters_goals": 1
+          }
+        ]
+      },
+      "away": {
+        "team_name": "SG Remstal",
+        "players": [
+          {
+            "name": "Moritz Tom M\u00fcller",
+            "goals": 9,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Noah Illg",
+            "goals": 1,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Marc Hutt",
+            "goals": 2,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Bennet Oberholz",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Louis von Kietzell",
+            "goals": 5,
+            "two_min_penalties": 1,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Maximilian Hasert",
+            "goals": 5,
+            "two_min_penalties": 0,
+            "yellow_cards": 1,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Niklas von Kietzell",
+            "goals": 2,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Neo Klein",
+            "goals": 1,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Vladyslav Petrov",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Niklas Eugen Fischer",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Liam Hasert",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          }
+        ]
+      },
+      "goals_timeline": [
+        {
+          "minute": 1,
+          "second": 22,
+          "scorer": "Lars Gehring",
+          "team": "home",
+          "team_abbrev": "HT Heckeng\u00e4u",
+          "seven_meter": true
+        },
+        {
+          "minute": 2,
+          "second": 13,
+          "scorer": "Moritz M\u00fcller",
+          "team": "away",
+          "team_abbrev": "SG Remstal",
+          "seven_meter": true
+        },
+        {
+          "minute": 2,
+          "second": 38,
+          "scorer": "Lars Gehring",
+          "team": "home",
+          "team_abbrev": "HT Heckeng\u00e4u",
+          "seven_meter": false
+        },
+        {
+          "minute": 4,
+          "second": 14,
+          "scorer": "Mikka St\u00f6lzer",
+          "team": "home",
+          "team_abbrev": "HT Heckeng\u00e4u",
+          "seven_meter": false
+        },
+        {
+          "minute": 5,
+          "second": 2,
+          "scorer": "Niklas von Kietzell",
+          "team": "away",
+          "team_abbrev": "SG Remstal",
+          "seven_meter": false
+        },
+        {
+          "minute": 7,
+          "second": 55,
+          "scorer": "Louis von Kietzell",
+          "team": "away",
+          "team_abbrev": "SG Remstal",
+          "seven_meter": false
+        },
+        {
+          "minute": 8,
+          "second": 37,
+          "scorer": "Lars Gehring",
+          "team": "home",
+          "team_abbrev": "HT Heckeng\u00e4u",
+          "seven_meter": false
+        },
+        {
+          "minute": 8,
+          "second": 56,
+          "scorer": "Louis von Kietzell",
+          "team": "away",
+          "team_abbrev": "SG Remstal",
+          "seven_meter": false
+        },
+        {
+          "minute": 9,
+          "second": 22,
+          "scorer": "Lars Gehring",
+          "team": "home",
+          "team_abbrev": "HT Heckeng\u00e4u",
+          "seven_meter": false
+        },
+        {
+          "minute": 10,
+          "second": 45,
+          "scorer": "Jannik Feuerrohr",
+          "team": "home",
+          "team_abbrev": "HT Heckeng\u00e4u",
+          "seven_meter": false
+        },
+        {
+          "minute": 11,
+          "second": 3,
+          "scorer": "Moritz M\u00fcller",
+          "team": "away",
+          "team_abbrev": "SG Remstal",
+          "seven_meter": false
+        },
+        {
+          "minute": 11,
+          "second": 32,
+          "scorer": "Samuel Wei\u00df",
+          "team": "home",
+          "team_abbrev": "HT Heckeng\u00e4u",
+          "seven_meter": false
+        },
+        {
+          "minute": 12,
+          "second": 12,
+          "scorer": "Samuel Wei\u00df",
+          "team": "home",
+          "team_abbrev": "HT Heckeng\u00e4u",
+          "seven_meter": false
+        },
+        {
+          "minute": 13,
+          "second": 18,
+          "scorer": "Moritz M\u00fcller",
+          "team": "away",
+          "team_abbrev": "SG Remstal",
+          "seven_meter": false
+        },
+        {
+          "minute": 14,
+          "second": 2,
+          "scorer": "Louis von Kietzell",
+          "team": "away",
+          "team_abbrev": "SG Remstal",
+          "seven_meter": false
+        },
+        {
+          "minute": 14,
+          "second": 27,
+          "scorer": "Ben Weiss",
+          "team": "home",
+          "team_abbrev": "HT Heckeng\u00e4u",
+          "seven_meter": false
+        },
+        {
+          "minute": 15,
+          "second": 18,
+          "scorer": "Moritz M\u00fcller",
+          "team": "away",
+          "team_abbrev": "SG Remstal",
+          "seven_meter": false
+        },
+        {
+          "minute": 15,
+          "second": 37,
+          "scorer": "Jona Storz",
+          "team": "home",
+          "team_abbrev": "HT Heckeng\u00e4u",
+          "seven_meter": false
+        },
+        {
+          "minute": 18,
+          "second": 28,
+          "scorer": "Lars Gehring",
+          "team": "home",
+          "team_abbrev": "HT Heckeng\u00e4u",
+          "seven_meter": false
+        },
+        {
+          "minute": 19,
+          "second": 55,
+          "scorer": "Samuel Wei\u00df",
+          "team": "home",
+          "team_abbrev": "HT Heckeng\u00e4u",
+          "seven_meter": false
+        },
+        {
+          "minute": 20,
+          "second": 12,
+          "scorer": "Neo Klein",
+          "team": "away",
+          "team_abbrev": "SG Remstal",
+          "seven_meter": false
+        },
+        {
+          "minute": 20,
+          "second": 57,
+          "scorer": "Mikka St\u00f6lzer",
+          "team": "home",
+          "team_abbrev": "HT Heckeng\u00e4u",
+          "seven_meter": false
+        },
+        {
+          "minute": 22,
+          "second": 18,
+          "scorer": "Samuel Wei\u00df",
+          "team": "home",
+          "team_abbrev": "HT Heckeng\u00e4u",
+          "seven_meter": true
+        },
+        {
+          "minute": 22,
+          "second": 42,
+          "scorer": "Maximilian Hasert",
+          "team": "away",
+          "team_abbrev": "SG Remstal",
+          "seven_meter": false
+        },
+        {
+          "minute": 23,
+          "second": 2,
+          "scorer": "Jona Storz",
+          "team": "home",
+          "team_abbrev": "HT Heckeng\u00e4u",
+          "seven_meter": false
+        },
+        {
+          "minute": 23,
+          "second": 9,
+          "scorer": "Maximilian Hasert",
+          "team": "away",
+          "team_abbrev": "SG Remstal",
+          "seven_meter": false
+        },
+        {
+          "minute": 23,
+          "second": 22,
+          "scorer": "Jona Storz",
+          "team": "home",
+          "team_abbrev": "HT Heckeng\u00e4u",
+          "seven_meter": false
+        },
+        {
+          "minute": 23,
+          "second": 45,
+          "scorer": "Marc Hutt",
+          "team": "away",
+          "team_abbrev": "SG Remstal",
+          "seven_meter": false
+        },
+        {
+          "minute": 25,
+          "second": 0,
+          "scorer": "Samuel Wei\u00df",
+          "team": "home",
+          "team_abbrev": "HT Heckeng\u00e4u",
+          "seven_meter": false
+        },
+        {
+          "minute": 27,
+          "second": 50,
+          "scorer": "Louis von Kietzell",
+          "team": "away",
+          "team_abbrev": "SG Remstal",
+          "seven_meter": false
+        },
+        {
+          "minute": 28,
+          "second": 25,
+          "scorer": "Samuel Wei\u00df",
+          "team": "home",
+          "team_abbrev": "HT Heckeng\u00e4u",
+          "seven_meter": false
+        },
+        {
+          "minute": 28,
+          "second": 41,
+          "scorer": "Samuel Wei\u00df",
+          "team": "home",
+          "team_abbrev": "HT Heckeng\u00e4u",
+          "seven_meter": false
+        },
+        {
+          "minute": 29,
+          "second": 6,
+          "scorer": "Jona Storz",
+          "team": "home",
+          "team_abbrev": "HT Heckeng\u00e4u",
+          "seven_meter": false
+        },
+        {
+          "minute": 29,
+          "second": 24,
+          "scorer": "Maximilian Hasert",
+          "team": "away",
+          "team_abbrev": "SG Remstal",
+          "seven_meter": false
+        },
+        {
+          "minute": 31,
+          "second": 5,
+          "scorer": "Maximilian Hasert",
+          "team": "away",
+          "team_abbrev": "SG Remstal",
+          "seven_meter": false
+        },
+        {
+          "minute": 31,
+          "second": 41,
+          "scorer": "Mikka St\u00f6lzer",
+          "team": "home",
+          "team_abbrev": "HT Heckeng\u00e4u",
+          "seven_meter": false
+        },
+        {
+          "minute": 33,
+          "second": 33,
+          "scorer": "Lars Gehring",
+          "team": "home",
+          "team_abbrev": "HT Heckeng\u00e4u",
+          "seven_meter": false
+        },
+        {
+          "minute": 34,
+          "second": 6,
+          "scorer": "Jona Storz",
+          "team": "home",
+          "team_abbrev": "HT Heckeng\u00e4u",
+          "seven_meter": false
+        },
+        {
+          "minute": 34,
+          "second": 55,
+          "scorer": "Moritz M\u00fcller",
+          "team": "away",
+          "team_abbrev": "SG Remstal",
+          "seven_meter": true
+        },
+        {
+          "minute": 35,
+          "second": 19,
+          "scorer": "Lars Gehring",
+          "team": "home",
+          "team_abbrev": "HT Heckeng\u00e4u",
+          "seven_meter": false
+        },
+        {
+          "minute": 36,
+          "second": 57,
+          "scorer": "Niklas von Kietzell",
+          "team": "away",
+          "team_abbrev": "SG Remstal",
+          "seven_meter": true
+        },
+        {
+          "minute": 37,
+          "second": 24,
+          "scorer": "Ben Weiss",
+          "team": "home",
+          "team_abbrev": "HT Heckeng\u00e4u",
+          "seven_meter": false
+        },
+        {
+          "minute": 37,
+          "second": 40,
+          "scorer": "Ben Weiss",
+          "team": "home",
+          "team_abbrev": "HT Heckeng\u00e4u",
+          "seven_meter": false
+        },
+        {
+          "minute": 38,
+          "second": 11,
+          "scorer": "Louis von Kietzell",
+          "team": "away",
+          "team_abbrev": "SG Remstal",
+          "seven_meter": false
+        },
+        {
+          "minute": 38,
+          "second": 36,
+          "scorer": "Ben Weiss",
+          "team": "home",
+          "team_abbrev": "HT Heckeng\u00e4u",
+          "seven_meter": false
+        },
+        {
+          "minute": 40,
+          "second": 7,
+          "scorer": "Samuel Wei\u00df",
+          "team": "home",
+          "team_abbrev": "HT Heckeng\u00e4u",
+          "seven_meter": false
+        },
+        {
+          "minute": 40,
+          "second": 42,
+          "scorer": "Moritz M\u00fcller",
+          "team": "away",
+          "team_abbrev": "SG Remstal",
+          "seven_meter": false
+        },
+        {
+          "minute": 41,
+          "second": 7,
+          "scorer": "Mikka St\u00f6lzer",
+          "team": "home",
+          "team_abbrev": "HT Heckeng\u00e4u",
+          "seven_meter": false
+        },
+        {
+          "minute": 42,
+          "second": 6,
+          "scorer": "Mikka St\u00f6lzer",
+          "team": "home",
+          "team_abbrev": "HT Heckeng\u00e4u",
+          "seven_meter": false
+        },
+        {
+          "minute": 42,
+          "second": 29,
+          "scorer": "Marc Hutt",
+          "team": "away",
+          "team_abbrev": "SG Remstal",
+          "seven_meter": false
+        },
+        {
+          "minute": 42,
+          "second": 52,
+          "scorer": "Mikka St\u00f6lzer",
+          "team": "home",
+          "team_abbrev": "HT Heckeng\u00e4u",
+          "seven_meter": false
+        },
+        {
+          "minute": 43,
+          "second": 11,
+          "scorer": "Moritz M\u00fcller",
+          "team": "away",
+          "team_abbrev": "SG Remstal",
+          "seven_meter": false
+        },
+        {
+          "minute": 43,
+          "second": 39,
+          "scorer": "Julian Raith",
+          "team": "home",
+          "team_abbrev": "HT Heckeng\u00e4u",
+          "seven_meter": false
+        },
+        {
+          "minute": 44,
+          "second": 1,
+          "scorer": "Moritz M\u00fcller",
+          "team": "away",
+          "team_abbrev": "SG Remstal",
+          "seven_meter": false
+        },
+        {
+          "minute": 44,
+          "second": 18,
+          "scorer": "Jona Storz",
+          "team": "home",
+          "team_abbrev": "HT Heckeng\u00e4u",
+          "seven_meter": false
+        },
+        {
+          "minute": 44,
+          "second": 31,
+          "scorer": "Moritz M\u00fcller",
+          "team": "away",
+          "team_abbrev": "SG Remstal",
+          "seven_meter": false
+        },
+        {
+          "minute": 47,
+          "second": 30,
+          "scorer": "Maximilian Hasert",
+          "team": "away",
+          "team_abbrev": "SG Remstal",
+          "seven_meter": false
+        },
+        {
+          "minute": 48,
+          "second": 9,
+          "scorer": "Julian Raith",
+          "team": "home",
+          "team_abbrev": "HT Heckeng\u00e4u",
+          "seven_meter": false
+        },
+        {
+          "minute": 48,
+          "second": 25,
+          "scorer": "Noah Illg",
+          "team": "away",
+          "team_abbrev": "SG Remstal",
+          "seven_meter": false
+        },
+        {
+          "minute": 49,
+          "second": 54,
+          "scorer": "Tim Nast",
+          "team": "home",
+          "team_abbrev": "HT Heckeng\u00e4u",
+          "seven_meter": false
+        }
+      ],
+      "final_score": "35:25",
+      "half_duration": 30,
+      "officials": {
+        "referees": [
+          "Janna Sch\u00f6nemann"
+        ],
+        "timekeepers": [
+          "Robert Gehring"
+        ],
+        "secretaries": [
+          "Werner M\u00fcller"
+        ]
+      },
+      "graphic_path": "output/graphics/HandballTeam_Heckeng_vs_SG_Remstal_Sa_1701.png"
+    }
+  ]
+}

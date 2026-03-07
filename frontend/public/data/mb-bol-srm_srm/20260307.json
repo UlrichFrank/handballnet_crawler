@@ -1,0 +1,1231 @@
+{
+  "date": "20260307",
+  "games": [
+    {
+      "game_id": "handball4all.baden-wuerttemberg.8850192",
+      "order": 49,
+      "date": "Sa, 07.03.",
+      "home": {
+        "team_name": "Team Stuttgart 2",
+        "players": [
+          {
+            "name": "Jakob Robbe",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Lias Steinle",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Erik Eisele",
+            "goals": 1,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 1,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Justus Weigel",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Mads Steinle",
+            "goals": 1,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Silvester Hoen",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Samuel Schlumberger-Ruiz",
+            "goals": 2,
+            "two_min_penalties": 1,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Yann Ettling",
+            "goals": 4,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 2,
+            "seven_meters_goals": 2
+          },
+          {
+            "name": "Tim Bidell",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "David Herre",
+            "goals": 3,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Tim Rieger",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Finn Holzinger",
+            "goals": 2,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Ole Heuser",
+            "goals": 0,
+            "two_min_penalties": 1,
+            "yellow_cards": 1,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Marin Biljeskovic",
+            "goals": 4,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          }
+        ]
+      },
+      "away": {
+        "team_name": "SV Fellbach",
+        "players": [
+          {
+            "name": "David M\u00f6dinger",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Tim Nico Plieninger",
+            "goals": 3,
+            "two_min_penalties": 1,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Antonin Salvi",
+            "goals": 2,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Christian Pachner",
+            "goals": 2,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Tim R\u00f6ttgen",
+            "goals": 4,
+            "two_min_penalties": 0,
+            "yellow_cards": 1,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Noah Schnaitmann",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Jonte Kurtz",
+            "goals": 4,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Lukas Kowollik",
+            "goals": 2,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Severin Banning",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Nico Paul Rihm",
+            "goals": 5,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Matthis Groeger",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          }
+        ]
+      },
+      "goals_timeline": [
+        {
+          "minute": 0,
+          "second": 44,
+          "scorer": "Yann Ettling",
+          "team": "home",
+          "team_abbrev": "Team Stuttgart 2",
+          "seven_meter": true
+        },
+        {
+          "minute": 2,
+          "second": 43,
+          "scorer": "Jonte Kurtz",
+          "team": "away",
+          "team_abbrev": "SV Fellbach",
+          "seven_meter": false
+        },
+        {
+          "minute": 3,
+          "second": 12,
+          "scorer": "Christian Pachner",
+          "team": "away",
+          "team_abbrev": "SV Fellbach",
+          "seven_meter": false
+        },
+        {
+          "minute": 4,
+          "second": 32,
+          "scorer": "Jonte Kurtz",
+          "team": "away",
+          "team_abbrev": "SV Fellbach",
+          "seven_meter": false
+        },
+        {
+          "minute": 5,
+          "second": 39,
+          "scorer": "Tim R\u00f6ttgen",
+          "team": "away",
+          "team_abbrev": "SV Fellbach",
+          "seven_meter": false
+        },
+        {
+          "minute": 6,
+          "second": 56,
+          "scorer": "Tim R\u00f6ttgen",
+          "team": "away",
+          "team_abbrev": "SV Fellbach",
+          "seven_meter": false
+        },
+        {
+          "minute": 12,
+          "second": 55,
+          "scorer": "Tim Plieninger",
+          "team": "away",
+          "team_abbrev": "SV Fellbach",
+          "seven_meter": false
+        },
+        {
+          "minute": 13,
+          "second": 58,
+          "scorer": "Jonte Kurtz",
+          "team": "away",
+          "team_abbrev": "SV Fellbach",
+          "seven_meter": false
+        },
+        {
+          "minute": 15,
+          "second": 6,
+          "scorer": "Mads Steinle",
+          "team": "home",
+          "team_abbrev": "Team Stuttgart 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 16,
+          "second": 45,
+          "scorer": "Christian Pachner",
+          "team": "away",
+          "team_abbrev": "SV Fellbach",
+          "seven_meter": false
+        },
+        {
+          "minute": 18,
+          "second": 44,
+          "scorer": "Nico Rihm",
+          "team": "away",
+          "team_abbrev": "SV Fellbach",
+          "seven_meter": false
+        },
+        {
+          "minute": 20,
+          "second": 43,
+          "scorer": "Erik Eisele",
+          "team": "home",
+          "team_abbrev": "Team Stuttgart 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 22,
+          "second": 37,
+          "scorer": "Jonte Kurtz",
+          "team": "away",
+          "team_abbrev": "SV Fellbach",
+          "seven_meter": false
+        },
+        {
+          "minute": 22,
+          "second": 58,
+          "scorer": "Yann Ettling",
+          "team": "home",
+          "team_abbrev": "Team Stuttgart 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 23,
+          "second": 14,
+          "scorer": "Tim Plieninger",
+          "team": "away",
+          "team_abbrev": "SV Fellbach",
+          "seven_meter": false
+        },
+        {
+          "minute": 26,
+          "second": 37,
+          "scorer": "Finn Holzinger",
+          "team": "home",
+          "team_abbrev": "Team Stuttgart 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 27,
+          "second": 12,
+          "scorer": "Nico Rihm",
+          "team": "away",
+          "team_abbrev": "SV Fellbach",
+          "seven_meter": false
+        },
+        {
+          "minute": 28,
+          "second": 12,
+          "scorer": "Tim R\u00f6ttgen",
+          "team": "away",
+          "team_abbrev": "SV Fellbach",
+          "seven_meter": false
+        },
+        {
+          "minute": 28,
+          "second": 36,
+          "scorer": "Yann Ettling",
+          "team": "home",
+          "team_abbrev": "Team Stuttgart 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 28,
+          "second": 54,
+          "scorer": "Tim Plieninger",
+          "team": "away",
+          "team_abbrev": "SV Fellbach",
+          "seven_meter": false
+        },
+        {
+          "minute": 29,
+          "second": 1,
+          "scorer": "Finn Holzinger",
+          "team": "home",
+          "team_abbrev": "Team Stuttgart 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 29,
+          "second": 57,
+          "scorer": "Yann Ettling",
+          "team": "home",
+          "team_abbrev": "Team Stuttgart 2",
+          "seven_meter": true
+        },
+        {
+          "minute": 32,
+          "second": 2,
+          "scorer": "Nico Rihm",
+          "team": "away",
+          "team_abbrev": "SV Fellbach",
+          "seven_meter": false
+        },
+        {
+          "minute": 32,
+          "second": 16,
+          "scorer": "Marin Biljeskovic",
+          "team": "home",
+          "team_abbrev": "Team Stuttgart 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 32,
+          "second": 43,
+          "scorer": "Nico Rihm",
+          "team": "away",
+          "team_abbrev": "SV Fellbach",
+          "seven_meter": false
+        },
+        {
+          "minute": 32,
+          "second": 55,
+          "scorer": "David Herre",
+          "team": "home",
+          "team_abbrev": "Team Stuttgart 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 33,
+          "second": 15,
+          "scorer": "Lukas Kowollik",
+          "team": "away",
+          "team_abbrev": "SV Fellbach",
+          "seven_meter": false
+        },
+        {
+          "minute": 33,
+          "second": 54,
+          "scorer": "Antonin Salvi",
+          "team": "away",
+          "team_abbrev": "SV Fellbach",
+          "seven_meter": false
+        },
+        {
+          "minute": 34,
+          "second": 43,
+          "scorer": "Nico Rihm",
+          "team": "away",
+          "team_abbrev": "SV Fellbach",
+          "seven_meter": false
+        },
+        {
+          "minute": 35,
+          "second": 35,
+          "scorer": "Marin Biljeskovic",
+          "team": "home",
+          "team_abbrev": "Team Stuttgart 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 36,
+          "second": 35,
+          "scorer": "Lukas Kowollik",
+          "team": "away",
+          "team_abbrev": "SV Fellbach",
+          "seven_meter": false
+        },
+        {
+          "minute": 37,
+          "second": 12,
+          "scorer": "David Herre",
+          "team": "home",
+          "team_abbrev": "Team Stuttgart 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 39,
+          "second": 48,
+          "scorer": "David Herre",
+          "team": "home",
+          "team_abbrev": "Team Stuttgart 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 40,
+          "second": 13,
+          "scorer": "Tim R\u00f6ttgen",
+          "team": "away",
+          "team_abbrev": "SV Fellbach",
+          "seven_meter": false
+        },
+        {
+          "minute": 40,
+          "second": 56,
+          "scorer": "Marin Biljeskovic",
+          "team": "home",
+          "team_abbrev": "Team Stuttgart 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 41,
+          "second": 35,
+          "scorer": "Marin Biljeskovic",
+          "team": "home",
+          "team_abbrev": "Team Stuttgart 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 41,
+          "second": 57,
+          "scorer": "Antonin Salvi",
+          "team": "away",
+          "team_abbrev": "SV Fellbach",
+          "seven_meter": false
+        }
+      ],
+      "final_score": "15:22",
+      "half_duration": 30,
+      "officials": {
+        "referees": [
+          "Patrik Fr\u00f6schle"
+        ],
+        "timekeepers": [
+          "Marc Holzinger"
+        ],
+        "secretaries": [
+          "Frank Plieninger"
+        ]
+      },
+      "graphic_path": "output/graphics/Team_Stuttgart_2_vs_SV_Fellbach_Sa_0703.png"
+    },
+    {
+      "game_id": "handball4all.baden-wuerttemberg.8850187",
+      "order": 50,
+      "date": "Sa, 07.03.",
+      "home": {
+        "team_name": "SV Leonberg/Eltingen",
+        "players": [
+          {
+            "name": "Jona Rankel",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Mika Rokkenbauch",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Nael Geli Schwind",
+            "goals": 8,
+            "two_min_penalties": 1,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Simon Funk",
+            "goals": 1,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Jan Lekies",
+            "goals": 4,
+            "two_min_penalties": 1,
+            "yellow_cards": 1,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Loen Pireva",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Tim Strobel",
+            "goals": 2,
+            "two_min_penalties": 1,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Arne Arvid G\u00fcrtler",
+            "goals": 2,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Marc Zerfass",
+            "goals": 4,
+            "two_min_penalties": 1,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 1,
+            "seven_meters_goals": 1
+          },
+          {
+            "name": "Frederik Frey",
+            "goals": 1,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Felix Deutsch",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 1,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Maximilian Lang",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Yoshua Burr",
+            "goals": 1,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          }
+        ]
+      },
+      "away": {
+        "team_name": "HandballTeam Heckeng\u00e4u",
+        "players": [
+          {
+            "name": "Mikka St\u00f6lzer",
+            "goals": 5,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Julian Raith",
+            "goals": 1,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Jona Len Storz",
+            "goals": 1,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Niklas Engert",
+            "goals": 7,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 5,
+            "seven_meters_goals": 3
+          },
+          {
+            "name": "Jannik Feuerrohr",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Samuel Wei\u00df",
+            "goals": 1,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Nathanael Ruopp",
+            "goals": 0,
+            "two_min_penalties": 1,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Jan Isselhard",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Valentin Kossok",
+            "goals": 1,
+            "two_min_penalties": 1,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Philipp Ro\u00dfberg",
+            "goals": 7,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 1,
+            "seven_meters_goals": 1
+          },
+          {
+            "name": "Erik M\u00fcller",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Jonas Schmelzer",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          }
+        ]
+      },
+      "goals_timeline": [
+        {
+          "minute": 1,
+          "second": 6,
+          "scorer": "Nael Geli Schwind",
+          "team": "home",
+          "team_abbrev": "SV Leonb/Elt",
+          "seven_meter": false
+        },
+        {
+          "minute": 1,
+          "second": 48,
+          "scorer": "Niklas Engert",
+          "team": "away",
+          "team_abbrev": "HT Heckeng\u00e4u",
+          "seven_meter": true
+        },
+        {
+          "minute": 5,
+          "second": 36,
+          "scorer": "Niklas Engert",
+          "team": "away",
+          "team_abbrev": "HT Heckeng\u00e4u",
+          "seven_meter": true
+        },
+        {
+          "minute": 5,
+          "second": 51,
+          "scorer": "Tim Strobel",
+          "team": "home",
+          "team_abbrev": "SV Leonb/Elt",
+          "seven_meter": false
+        },
+        {
+          "minute": 6,
+          "second": 35,
+          "scorer": "Jan Lekies",
+          "team": "home",
+          "team_abbrev": "SV Leonb/Elt",
+          "seven_meter": false
+        },
+        {
+          "minute": 7,
+          "second": 46,
+          "scorer": "Niklas Engert",
+          "team": "away",
+          "team_abbrev": "HT Heckeng\u00e4u",
+          "seven_meter": false
+        },
+        {
+          "minute": 8,
+          "second": 18,
+          "scorer": "Nael Geli Schwind",
+          "team": "home",
+          "team_abbrev": "SV Leonb/Elt",
+          "seven_meter": false
+        },
+        {
+          "minute": 8,
+          "second": 51,
+          "scorer": "Mikka St\u00f6lzer",
+          "team": "away",
+          "team_abbrev": "HT Heckeng\u00e4u",
+          "seven_meter": false
+        },
+        {
+          "minute": 9,
+          "second": 7,
+          "scorer": "Arne G\u00fcrtler",
+          "team": "home",
+          "team_abbrev": "SV Leonb/Elt",
+          "seven_meter": false
+        },
+        {
+          "minute": 9,
+          "second": 21,
+          "scorer": "Julian Raith",
+          "team": "away",
+          "team_abbrev": "HT Heckeng\u00e4u",
+          "seven_meter": false
+        },
+        {
+          "minute": 9,
+          "second": 28,
+          "scorer": "Nael Geli Schwind",
+          "team": "home",
+          "team_abbrev": "SV Leonb/Elt",
+          "seven_meter": false
+        },
+        {
+          "minute": 10,
+          "second": 3,
+          "scorer": "Mikka St\u00f6lzer",
+          "team": "away",
+          "team_abbrev": "HT Heckeng\u00e4u",
+          "seven_meter": false
+        },
+        {
+          "minute": 10,
+          "second": 12,
+          "scorer": "Tim Strobel",
+          "team": "home",
+          "team_abbrev": "SV Leonb/Elt",
+          "seven_meter": false
+        },
+        {
+          "minute": 10,
+          "second": 39,
+          "scorer": "Jona Storz",
+          "team": "away",
+          "team_abbrev": "HT Heckeng\u00e4u",
+          "seven_meter": false
+        },
+        {
+          "minute": 12,
+          "second": 43,
+          "scorer": "Nael Geli Schwind",
+          "team": "home",
+          "team_abbrev": "SV Leonb/Elt",
+          "seven_meter": false
+        },
+        {
+          "minute": 14,
+          "second": 27,
+          "scorer": "Mikka St\u00f6lzer",
+          "team": "away",
+          "team_abbrev": "HT Heckeng\u00e4u",
+          "seven_meter": false
+        },
+        {
+          "minute": 15,
+          "second": 28,
+          "scorer": "Philipp Ro\u00dfberg",
+          "team": "away",
+          "team_abbrev": "HT Heckeng\u00e4u",
+          "seven_meter": false
+        },
+        {
+          "minute": 16,
+          "second": 14,
+          "scorer": "Nael Geli Schwind",
+          "team": "home",
+          "team_abbrev": "SV Leonb/Elt",
+          "seven_meter": false
+        },
+        {
+          "minute": 17,
+          "second": 55,
+          "scorer": "Jan Lekies",
+          "team": "home",
+          "team_abbrev": "SV Leonb/Elt",
+          "seven_meter": false
+        },
+        {
+          "minute": 20,
+          "second": 12,
+          "scorer": "Niklas Engert",
+          "team": "away",
+          "team_abbrev": "HT Heckeng\u00e4u",
+          "seven_meter": true
+        },
+        {
+          "minute": 20,
+          "second": 12,
+          "scorer": "Jan Lekies",
+          "team": "home",
+          "team_abbrev": "SV Leonb/Elt",
+          "seven_meter": false
+        },
+        {
+          "minute": 20,
+          "second": 25,
+          "scorer": "Nael Geli Schwind",
+          "team": "home",
+          "team_abbrev": "SV Leonb/Elt",
+          "seven_meter": true
+        },
+        {
+          "minute": 21,
+          "second": 8,
+          "scorer": "Niklas Engert",
+          "team": "away",
+          "team_abbrev": "HT Heckeng\u00e4u",
+          "seven_meter": false
+        },
+        {
+          "minute": 21,
+          "second": 47,
+          "scorer": "Philipp Ro\u00dfberg",
+          "team": "away",
+          "team_abbrev": "HT Heckeng\u00e4u",
+          "seven_meter": false
+        },
+        {
+          "minute": 22,
+          "second": 32,
+          "scorer": "Marc Zerfass",
+          "team": "home",
+          "team_abbrev": "SV Leonb/Elt",
+          "seven_meter": false
+        },
+        {
+          "minute": 28,
+          "second": 9,
+          "scorer": "Frederik Frey",
+          "team": "home",
+          "team_abbrev": "SV Leonb/Elt",
+          "seven_meter": false
+        },
+        {
+          "minute": 28,
+          "second": 35,
+          "scorer": "Niklas Engert",
+          "team": "away",
+          "team_abbrev": "HT Heckeng\u00e4u",
+          "seven_meter": false
+        },
+        {
+          "minute": 29,
+          "second": 0,
+          "scorer": "Nael Geli Schwind",
+          "team": "home",
+          "team_abbrev": "SV Leonb/Elt",
+          "seven_meter": true
+        },
+        {
+          "minute": 30,
+          "second": 42,
+          "scorer": "Nael Geli Schwind",
+          "team": "home",
+          "team_abbrev": "SV Leonb/Elt",
+          "seven_meter": false
+        },
+        {
+          "minute": 31,
+          "second": 13,
+          "scorer": "Samuel Wei\u00df",
+          "team": "away",
+          "team_abbrev": "HT Heckeng\u00e4u",
+          "seven_meter": false
+        },
+        {
+          "minute": 32,
+          "second": 36,
+          "scorer": "Arne G\u00fcrtler",
+          "team": "home",
+          "team_abbrev": "SV Leonb/Elt",
+          "seven_meter": false
+        },
+        {
+          "minute": 33,
+          "second": 37,
+          "scorer": "Simon Funk",
+          "team": "home",
+          "team_abbrev": "SV Leonb/Elt",
+          "seven_meter": false
+        },
+        {
+          "minute": 35,
+          "second": 44,
+          "scorer": "Yoshua Burr",
+          "team": "home",
+          "team_abbrev": "SV Leonb/Elt",
+          "seven_meter": false
+        },
+        {
+          "minute": 37,
+          "second": 9,
+          "scorer": "Marc Zerfass",
+          "team": "home",
+          "team_abbrev": "SV Leonb/Elt",
+          "seven_meter": true
+        },
+        {
+          "minute": 39,
+          "second": 17,
+          "scorer": "Mikka St\u00f6lzer",
+          "team": "away",
+          "team_abbrev": "HT Heckeng\u00e4u",
+          "seven_meter": false
+        },
+        {
+          "minute": 39,
+          "second": 25,
+          "scorer": "Marc Zerfass",
+          "team": "home",
+          "team_abbrev": "SV Leonb/Elt",
+          "seven_meter": false
+        },
+        {
+          "minute": 40,
+          "second": 11,
+          "scorer": "Mikka St\u00f6lzer",
+          "team": "away",
+          "team_abbrev": "HT Heckeng\u00e4u",
+          "seven_meter": false
+        },
+        {
+          "minute": 41,
+          "second": 40,
+          "scorer": "Marc Zerfass",
+          "team": "home",
+          "team_abbrev": "SV Leonb/Elt",
+          "seven_meter": false
+        },
+        {
+          "minute": 43,
+          "second": 1,
+          "scorer": "Valentin Kossok",
+          "team": "away",
+          "team_abbrev": "HT Heckeng\u00e4u",
+          "seven_meter": false
+        },
+        {
+          "minute": 43,
+          "second": 45,
+          "scorer": "Niklas Engert",
+          "team": "away",
+          "team_abbrev": "HT Heckeng\u00e4u",
+          "seven_meter": false
+        },
+        {
+          "minute": 44,
+          "second": 3,
+          "scorer": "Jan Lekies",
+          "team": "home",
+          "team_abbrev": "SV Leonb/Elt",
+          "seven_meter": false
+        },
+        {
+          "minute": 44,
+          "second": 20,
+          "scorer": "Philipp Ro\u00dfberg",
+          "team": "away",
+          "team_abbrev": "HT Heckeng\u00e4u",
+          "seven_meter": false
+        },
+        {
+          "minute": 44,
+          "second": 50,
+          "scorer": "Philipp Ro\u00dfberg",
+          "team": "away",
+          "team_abbrev": "HT Heckeng\u00e4u",
+          "seven_meter": false
+        },
+        {
+          "minute": 45,
+          "second": 46,
+          "scorer": "Philipp Ro\u00dfberg",
+          "team": "away",
+          "team_abbrev": "HT Heckeng\u00e4u",
+          "seven_meter": false
+        },
+        {
+          "minute": 47,
+          "second": 22,
+          "scorer": "Philipp Ro\u00dfberg",
+          "team": "away",
+          "team_abbrev": "HT Heckeng\u00e4u",
+          "seven_meter": true
+        },
+        {
+          "minute": 48,
+          "second": 7,
+          "scorer": "Philipp Ro\u00dfberg",
+          "team": "away",
+          "team_abbrev": "HT Heckeng\u00e4u",
+          "seven_meter": false
+        }
+      ],
+      "final_score": "23:23",
+      "half_duration": 30,
+      "officials": {
+        "referees": [
+          "Johannes Kruschel"
+        ],
+        "timekeepers": [
+          "Kushtrim Pireva"
+        ],
+        "secretaries": [
+          "Michael Frey"
+        ]
+      },
+      "graphic_path": "output/graphics/SV_Leonberg_Eltingen_vs_HandballTeam_Heckeng_Sa_0703.png"
+    }
+  ]
+}

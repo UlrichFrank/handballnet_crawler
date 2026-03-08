@@ -1,0 +1,819 @@
+{
+  "date": "20260308",
+  "games": [
+    {
+      "game_id": "handball4all.baden-wuerttemberg.8664731",
+      "order": 81,
+      "date": "Su, 08.03.",
+      "home": {
+        "team_name": "Team Stuttgart 2",
+        "players": [
+          {
+            "name": "Ben Schmid",
+            "goals": 1,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Jonah Faber",
+            "goals": 4,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Josip Vidovic",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Marwin K\u00fchnel",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Benedikt Weber",
+            "goals": 1,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Mads Steinle",
+            "goals": 1,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Marvin Frech",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Ben Miess",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Benedikt Jelen",
+            "goals": 8,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Bastian Leuze",
+            "goals": 1,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Enric Pena Brossa",
+            "goals": 1,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Tim Bidell",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Theo Bernecker",
+            "goals": 0,
+            "two_min_penalties": 1,
+            "yellow_cards": 1,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Leopold Baisch",
+            "goals": 7,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 5,
+            "seven_meters_goals": 4
+          },
+          {
+            "name": "Philipp Grettenberger",
+            "goals": 5,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 1,
+            "seven_meters_goals": 1
+          },
+          {
+            "name": "Marin Biljeskovic",
+            "goals": 3,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          }
+        ]
+      },
+      "away": {
+        "team_name": "HSG Bargau/Bettringen",
+        "players": [
+          {
+            "name": "Jonas Wei\u00df",
+            "goals": 1,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Tim Gro\u00df",
+            "goals": 3,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Paul Offenh\u00e4user",
+            "goals": 5,
+            "two_min_penalties": 1,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Leo Mayer",
+            "goals": 5,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 3,
+            "seven_meters_goals": 1
+          },
+          {
+            "name": "Philipp Kolb",
+            "goals": 1,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Thilo Hegele",
+            "goals": 0,
+            "two_min_penalties": 1,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Benjamin S\u00fc\u00df",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Lennard Kolb",
+            "goals": 5,
+            "two_min_penalties": 0,
+            "yellow_cards": 1,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Sebastian Koscheluh",
+            "goals": 3,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Lennard Sonnentag",
+            "goals": 9,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 1,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Noel Aktas",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          }
+        ]
+      },
+      "goals_timeline": [
+        {
+          "minute": 0,
+          "second": 30,
+          "scorer": "Philipp Grettenberger",
+          "team": "home",
+          "team_abbrev": "Team Stuttgart 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 0,
+          "second": 46,
+          "scorer": "Lennard Sonnentag",
+          "team": "away",
+          "team_abbrev": "HSG Barg/Bettr",
+          "seven_meter": false
+        },
+        {
+          "minute": 1,
+          "second": 38,
+          "scorer": "Benedikt Jelen",
+          "team": "home",
+          "team_abbrev": "Team Stuttgart 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 2,
+          "second": 0,
+          "scorer": "Lennard Kolb",
+          "team": "away",
+          "team_abbrev": "HSG Barg/Bettr",
+          "seven_meter": false
+        },
+        {
+          "minute": 2,
+          "second": 20,
+          "scorer": "Marin Biljeskovic",
+          "team": "home",
+          "team_abbrev": "Team Stuttgart 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 3,
+          "second": 29,
+          "scorer": "Lennard Sonnentag",
+          "team": "away",
+          "team_abbrev": "HSG Barg/Bettr",
+          "seven_meter": false
+        },
+        {
+          "minute": 4,
+          "second": 13,
+          "scorer": "Marin Biljeskovic",
+          "team": "home",
+          "team_abbrev": "Team Stuttgart 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 4,
+          "second": 49,
+          "scorer": "Sebastian Koscheluh",
+          "team": "away",
+          "team_abbrev": "HSG Barg/Bettr",
+          "seven_meter": false
+        },
+        {
+          "minute": 5,
+          "second": 30,
+          "scorer": "Lennard Sonnentag",
+          "team": "away",
+          "team_abbrev": "HSG Barg/Bettr",
+          "seven_meter": false
+        },
+        {
+          "minute": 5,
+          "second": 50,
+          "scorer": "Jonah Faber",
+          "team": "home",
+          "team_abbrev": "Team Stuttgart 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 7,
+          "second": 22,
+          "scorer": "Leopold Baisch",
+          "team": "home",
+          "team_abbrev": "Team Stuttgart 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 8,
+          "second": 16,
+          "scorer": "Jonah Faber",
+          "team": "home",
+          "team_abbrev": "Team Stuttgart 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 11,
+          "second": 12,
+          "scorer": "Tim Gro\u00df",
+          "team": "away",
+          "team_abbrev": "HSG Barg/Bettr",
+          "seven_meter": false
+        },
+        {
+          "minute": 12,
+          "second": 43,
+          "scorer": "Ben Schmid",
+          "team": "home",
+          "team_abbrev": "Team Stuttgart 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 13,
+          "second": 55,
+          "scorer": "Leo Mayer",
+          "team": "away",
+          "team_abbrev": "HSG Barg/Bettr",
+          "seven_meter": true
+        },
+        {
+          "minute": 14,
+          "second": 53,
+          "scorer": "Tim Gro\u00df",
+          "team": "away",
+          "team_abbrev": "HSG Barg/Bettr",
+          "seven_meter": false
+        },
+        {
+          "minute": 15,
+          "second": 52,
+          "scorer": "Leopold Baisch",
+          "team": "home",
+          "team_abbrev": "Team Stuttgart 2",
+          "seven_meter": true
+        },
+        {
+          "minute": 16,
+          "second": 8,
+          "scorer": "Leo Mayer",
+          "team": "away",
+          "team_abbrev": "HSG Barg/Bettr",
+          "seven_meter": false
+        },
+        {
+          "minute": 16,
+          "second": 18,
+          "scorer": "Philipp Grettenberger",
+          "team": "home",
+          "team_abbrev": "Team Stuttgart 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 17,
+          "second": 14,
+          "scorer": "Leopold Baisch",
+          "team": "home",
+          "team_abbrev": "Team Stuttgart 2",
+          "seven_meter": true
+        },
+        {
+          "minute": 17,
+          "second": 43,
+          "scorer": "Leo Mayer",
+          "team": "away",
+          "team_abbrev": "HSG Barg/Bettr",
+          "seven_meter": false
+        },
+        {
+          "minute": 18,
+          "second": 22,
+          "scorer": "Jonah Faber",
+          "team": "home",
+          "team_abbrev": "Team Stuttgart 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 19,
+          "second": 33,
+          "scorer": "Jonah Faber",
+          "team": "home",
+          "team_abbrev": "Team Stuttgart 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 20,
+          "second": 15,
+          "scorer": "Lennard Sonnentag",
+          "team": "away",
+          "team_abbrev": "HSG Barg/Bettr",
+          "seven_meter": false
+        },
+        {
+          "minute": 24,
+          "second": 37,
+          "scorer": "Paul Offenh\u00e4user",
+          "team": "away",
+          "team_abbrev": "HSG Barg/Bettr",
+          "seven_meter": false
+        },
+        {
+          "minute": 25,
+          "second": 30,
+          "scorer": "Lennard Kolb",
+          "team": "away",
+          "team_abbrev": "HSG Barg/Bettr",
+          "seven_meter": false
+        },
+        {
+          "minute": 26,
+          "second": 6,
+          "scorer": "Leopold Baisch",
+          "team": "home",
+          "team_abbrev": "Team Stuttgart 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 27,
+          "second": 17,
+          "scorer": "Paul Offenh\u00e4user",
+          "team": "away",
+          "team_abbrev": "HSG Barg/Bettr",
+          "seven_meter": false
+        },
+        {
+          "minute": 27,
+          "second": 44,
+          "scorer": "Philipp Kolb",
+          "team": "away",
+          "team_abbrev": "HSG Barg/Bettr",
+          "seven_meter": false
+        },
+        {
+          "minute": 28,
+          "second": 15,
+          "scorer": "Paul Offenh\u00e4user",
+          "team": "away",
+          "team_abbrev": "HSG Barg/Bettr",
+          "seven_meter": false
+        },
+        {
+          "minute": 28,
+          "second": 42,
+          "scorer": "Mads Steinle",
+          "team": "home",
+          "team_abbrev": "Team Stuttgart 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 29,
+          "second": 24,
+          "scorer": "Leo Mayer",
+          "team": "away",
+          "team_abbrev": "HSG Barg/Bettr",
+          "seven_meter": false
+        },
+        {
+          "minute": 29,
+          "second": 35,
+          "scorer": "Leopold Baisch",
+          "team": "home",
+          "team_abbrev": "Team Stuttgart 2",
+          "seven_meter": true
+        },
+        {
+          "minute": 29,
+          "second": 57,
+          "scorer": "Lennard Kolb",
+          "team": "away",
+          "team_abbrev": "HSG Barg/Bettr",
+          "seven_meter": false
+        },
+        {
+          "minute": 30,
+          "second": 26,
+          "scorer": "Lennard Kolb",
+          "team": "away",
+          "team_abbrev": "HSG Barg/Bettr",
+          "seven_meter": false
+        },
+        {
+          "minute": 30,
+          "second": 51,
+          "scorer": "Benedikt Jelen",
+          "team": "home",
+          "team_abbrev": "Team Stuttgart 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 31,
+          "second": 53,
+          "scorer": "Benedikt Jelen",
+          "team": "home",
+          "team_abbrev": "Team Stuttgart 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 33,
+          "second": 7,
+          "scorer": "Lennard Sonnentag",
+          "team": "away",
+          "team_abbrev": "HSG Barg/Bettr",
+          "seven_meter": false
+        },
+        {
+          "minute": 33,
+          "second": 19,
+          "scorer": "Marin Biljeskovic",
+          "team": "home",
+          "team_abbrev": "Team Stuttgart 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 34,
+          "second": 24,
+          "scorer": "Lennard Kolb",
+          "team": "away",
+          "team_abbrev": "HSG Barg/Bettr",
+          "seven_meter": false
+        },
+        {
+          "minute": 35,
+          "second": 18,
+          "scorer": "Philipp Grettenberger",
+          "team": "home",
+          "team_abbrev": "Team Stuttgart 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 35,
+          "second": 40,
+          "scorer": "Sebastian Koscheluh",
+          "team": "away",
+          "team_abbrev": "HSG Barg/Bettr",
+          "seven_meter": false
+        },
+        {
+          "minute": 36,
+          "second": 28,
+          "scorer": "Sebastian Koscheluh",
+          "team": "away",
+          "team_abbrev": "HSG Barg/Bettr",
+          "seven_meter": false
+        },
+        {
+          "minute": 36,
+          "second": 54,
+          "scorer": "Leopold Baisch",
+          "team": "home",
+          "team_abbrev": "Team Stuttgart 2",
+          "seven_meter": true
+        },
+        {
+          "minute": 37,
+          "second": 54,
+          "scorer": "Benedikt Jelen",
+          "team": "home",
+          "team_abbrev": "Team Stuttgart 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 38,
+          "second": 27,
+          "scorer": "Lennard Sonnentag",
+          "team": "away",
+          "team_abbrev": "HSG Barg/Bettr",
+          "seven_meter": false
+        },
+        {
+          "minute": 38,
+          "second": 42,
+          "scorer": "Benedikt Jelen",
+          "team": "home",
+          "team_abbrev": "Team Stuttgart 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 39,
+          "second": 29,
+          "scorer": "Benedikt Jelen",
+          "team": "home",
+          "team_abbrev": "Team Stuttgart 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 40,
+          "second": 33,
+          "scorer": "Benedikt Jelen",
+          "team": "home",
+          "team_abbrev": "Team Stuttgart 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 42,
+          "second": 9,
+          "scorer": "Tim Gro\u00df",
+          "team": "away",
+          "team_abbrev": "HSG Barg/Bettr",
+          "seven_meter": false
+        },
+        {
+          "minute": 42,
+          "second": 36,
+          "scorer": "Philipp Grettenberger",
+          "team": "home",
+          "team_abbrev": "Team Stuttgart 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 44,
+          "second": 15,
+          "scorer": "Paul Offenh\u00e4user",
+          "team": "away",
+          "team_abbrev": "HSG Barg/Bettr",
+          "seven_meter": false
+        },
+        {
+          "minute": 47,
+          "second": 47,
+          "scorer": "Leopold Baisch",
+          "team": "home",
+          "team_abbrev": "Team Stuttgart 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 48,
+          "second": 51,
+          "scorer": "Leo Mayer",
+          "team": "away",
+          "team_abbrev": "HSG Barg/Bettr",
+          "seven_meter": false
+        },
+        {
+          "minute": 49,
+          "second": 24,
+          "scorer": "Benedikt Jelen",
+          "team": "home",
+          "team_abbrev": "Team Stuttgart 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 49,
+          "second": 52,
+          "scorer": "Lennard Sonnentag",
+          "team": "away",
+          "team_abbrev": "HSG Barg/Bettr",
+          "seven_meter": false
+        },
+        {
+          "minute": 50,
+          "second": 18,
+          "scorer": "Benedikt Weber",
+          "team": "home",
+          "team_abbrev": "Team Stuttgart 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 50,
+          "second": 49,
+          "scorer": "Paul Offenh\u00e4user",
+          "team": "away",
+          "team_abbrev": "HSG Barg/Bettr",
+          "seven_meter": false
+        },
+        {
+          "minute": 51,
+          "second": 39,
+          "scorer": "Lennard Sonnentag",
+          "team": "away",
+          "team_abbrev": "HSG Barg/Bettr",
+          "seven_meter": false
+        },
+        {
+          "minute": 52,
+          "second": 9,
+          "scorer": "Enric Pena Brossa",
+          "team": "home",
+          "team_abbrev": "Team Stuttgart 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 52,
+          "second": 28,
+          "scorer": "Jonas Wei\u00df",
+          "team": "away",
+          "team_abbrev": "HSG Barg/Bettr",
+          "seven_meter": false
+        },
+        {
+          "minute": 55,
+          "second": 17,
+          "scorer": "Lennard Sonnentag",
+          "team": "away",
+          "team_abbrev": "HSG Barg/Bettr",
+          "seven_meter": false
+        },
+        {
+          "minute": 56,
+          "second": 40,
+          "scorer": "Bastian Leuze",
+          "team": "home",
+          "team_abbrev": "Team Stuttgart 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 59,
+          "second": 39,
+          "scorer": "Philipp Grettenberger",
+          "team": "home",
+          "team_abbrev": "Team Stuttgart 2",
+          "seven_meter": true
+        }
+      ],
+      "final_score": "32:32",
+      "half_duration": 30,
+      "officials": {
+        "referees": [
+          "Maurice Lang",
+          "Jos\u00e9 Manuel Ferreira"
+        ],
+        "timekeepers": [
+          "Markus K\u00fchnel"
+        ],
+        "secretaries": [
+          "Achim Kolb"
+        ]
+      },
+      "graphic_path": "output/graphics/Team_Stuttgart_2_vs_HSG_Bargau_Bettringe_Su_0803.png"
+    }
+  ]
+}

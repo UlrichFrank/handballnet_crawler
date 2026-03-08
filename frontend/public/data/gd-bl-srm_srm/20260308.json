@@ -1,0 +1,542 @@
+{
+  "date": "20260308",
+  "games": [
+    {
+      "game_id": "handball4all.baden-wuerttemberg.8853552",
+      "order": 48,
+      "date": "Su, 08.03.",
+      "home": {
+        "team_name": "SG Schorndorf 1846",
+        "players": [
+          {
+            "name": "Jonas Skrzypczyk",
+            "goals": 4,
+            "two_min_penalties": 1,
+            "yellow_cards": 1,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Eric Tiberius Koser",
+            "goals": 6,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Theodor Samuel St\u00f6\u00dfer",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Ben Luis Schlechter",
+            "goals": 5,
+            "two_min_penalties": 0,
+            "yellow_cards": 1,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Moritz Caspar Mintzel",
+            "goals": 2,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Jussi W\u00f6hrle",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Bennett Felix Link",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Domenik Bl\u00fcmle",
+            "goals": 2,
+            "two_min_penalties": 2,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Emil D\u00e4tsch",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          }
+        ]
+      },
+      "away": {
+        "team_name": "HSG Gablenberg-Gaisburg",
+        "players": [
+          {
+            "name": "Anton Demel",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Mateo Braun",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Manuel Berner",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Levi Schattel",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Axel Monsier-Thoumas",
+            "goals": 5,
+            "two_min_penalties": 1,
+            "yellow_cards": 1,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Nathan Reimold",
+            "goals": 4,
+            "two_min_penalties": 1,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Ben Blocher",
+            "goals": 6,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 2,
+            "seven_meters_goals": 2
+          },
+          {
+            "name": "Noe Ottenbacher",
+            "goals": 2,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Benjamin Albrecht",
+            "goals": 6,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 3,
+            "seven_meters_goals": 3
+          },
+          {
+            "name": "Nik Ottenbacher",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Dusko Jovic",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Marius Pf\u00e4nder",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          }
+        ]
+      },
+      "goals_timeline": [
+        {
+          "minute": 1,
+          "second": 10,
+          "scorer": "Ben Schlechter",
+          "team": "home",
+          "team_abbrev": "SG Schorndorf",
+          "seven_meter": false
+        },
+        {
+          "minute": 2,
+          "second": 36,
+          "scorer": "Eric Koser",
+          "team": "home",
+          "team_abbrev": "SG Schorndorf",
+          "seven_meter": false
+        },
+        {
+          "minute": 4,
+          "second": 20,
+          "scorer": "Moritz Mintzel",
+          "team": "home",
+          "team_abbrev": "SG Schorndorf",
+          "seven_meter": false
+        },
+        {
+          "minute": 4,
+          "second": 40,
+          "scorer": "Ben Blocher",
+          "team": "away",
+          "team_abbrev": "HSG Gab-Gais",
+          "seven_meter": false
+        },
+        {
+          "minute": 5,
+          "second": 40,
+          "scorer": "Eric Koser",
+          "team": "home",
+          "team_abbrev": "SG Schorndorf",
+          "seven_meter": true
+        },
+        {
+          "minute": 6,
+          "second": 31,
+          "scorer": "Nathan Reimold",
+          "team": "away",
+          "team_abbrev": "HSG Gab-Gais",
+          "seven_meter": false
+        },
+        {
+          "minute": 8,
+          "second": 38,
+          "scorer": "Ben Blocher",
+          "team": "away",
+          "team_abbrev": "HSG Gab-Gais",
+          "seven_meter": false
+        },
+        {
+          "minute": 9,
+          "second": 4,
+          "scorer": "Domenik Bl\u00fcmle",
+          "team": "home",
+          "team_abbrev": "SG Schorndorf",
+          "seven_meter": false
+        },
+        {
+          "minute": 9,
+          "second": 43,
+          "scorer": "Ben Blocher",
+          "team": "away",
+          "team_abbrev": "HSG Gab-Gais",
+          "seven_meter": true
+        },
+        {
+          "minute": 9,
+          "second": 57,
+          "scorer": "Eric Koser",
+          "team": "home",
+          "team_abbrev": "SG Schorndorf",
+          "seven_meter": false
+        },
+        {
+          "minute": 12,
+          "second": 28,
+          "scorer": "Ben Schlechter",
+          "team": "home",
+          "team_abbrev": "SG Schorndorf",
+          "seven_meter": false
+        },
+        {
+          "minute": 13,
+          "second": 22,
+          "scorer": "Moritz Mintzel",
+          "team": "home",
+          "team_abbrev": "SG Schorndorf",
+          "seven_meter": false
+        },
+        {
+          "minute": 14,
+          "second": 33,
+          "scorer": "Benjamin Albrecht",
+          "team": "away",
+          "team_abbrev": "HSG Gab-Gais",
+          "seven_meter": true
+        },
+        {
+          "minute": 15,
+          "second": 1,
+          "scorer": "Eric Koser",
+          "team": "home",
+          "team_abbrev": "SG Schorndorf",
+          "seven_meter": false
+        },
+        {
+          "minute": 15,
+          "second": 42,
+          "scorer": "Jonas Skrzypczyk",
+          "team": "home",
+          "team_abbrev": "SG Schorndorf",
+          "seven_meter": false
+        },
+        {
+          "minute": 16,
+          "second": 31,
+          "scorer": "Noe Ottenbacher",
+          "team": "away",
+          "team_abbrev": "HSG Gab-Gais",
+          "seven_meter": false
+        },
+        {
+          "minute": 17,
+          "second": 28,
+          "scorer": "Noe Ottenbacher",
+          "team": "away",
+          "team_abbrev": "HSG Gab-Gais",
+          "seven_meter": false
+        },
+        {
+          "minute": 18,
+          "second": 6,
+          "scorer": "Benjamin Albrecht",
+          "team": "away",
+          "team_abbrev": "HSG Gab-Gais",
+          "seven_meter": true
+        },
+        {
+          "minute": 18,
+          "second": 29,
+          "scorer": "Jonas Skrzypczyk",
+          "team": "home",
+          "team_abbrev": "SG Schorndorf",
+          "seven_meter": false
+        },
+        {
+          "minute": 19,
+          "second": 54,
+          "scorer": "Nathan Reimold",
+          "team": "away",
+          "team_abbrev": "HSG Gab-Gais",
+          "seven_meter": false
+        },
+        {
+          "minute": 21,
+          "second": 13,
+          "scorer": "Benjamin Albrecht",
+          "team": "away",
+          "team_abbrev": "HSG Gab-Gais",
+          "seven_meter": false
+        },
+        {
+          "minute": 21,
+          "second": 36,
+          "scorer": "Ben Schlechter",
+          "team": "home",
+          "team_abbrev": "SG Schorndorf",
+          "seven_meter": false
+        },
+        {
+          "minute": 22,
+          "second": 17,
+          "scorer": "Benjamin Albrecht",
+          "team": "away",
+          "team_abbrev": "HSG Gab-Gais",
+          "seven_meter": false
+        },
+        {
+          "minute": 22,
+          "second": 31,
+          "scorer": "Eric Koser",
+          "team": "home",
+          "team_abbrev": "SG Schorndorf",
+          "seven_meter": false
+        },
+        {
+          "minute": 24,
+          "second": 13,
+          "scorer": "Ben Schlechter",
+          "team": "home",
+          "team_abbrev": "SG Schorndorf",
+          "seven_meter": false
+        },
+        {
+          "minute": 25,
+          "second": 41,
+          "scorer": "Ben Blocher",
+          "team": "away",
+          "team_abbrev": "HSG Gab-Gais",
+          "seven_meter": false
+        },
+        {
+          "minute": 27,
+          "second": 6,
+          "scorer": "Benjamin Albrecht",
+          "team": "away",
+          "team_abbrev": "HSG Gab-Gais",
+          "seven_meter": false
+        },
+        {
+          "minute": 28,
+          "second": 26,
+          "scorer": "Eric Koser",
+          "team": "home",
+          "team_abbrev": "SG Schorndorf",
+          "seven_meter": false
+        },
+        {
+          "minute": 29,
+          "second": 36,
+          "scorer": "Ben Blocher",
+          "team": "away",
+          "team_abbrev": "HSG Gab-Gais",
+          "seven_meter": true
+        },
+        {
+          "minute": 34,
+          "second": 9,
+          "scorer": "Jonas Skrzypczyk",
+          "team": "home",
+          "team_abbrev": "SG Schorndorf",
+          "seven_meter": false
+        },
+        {
+          "minute": 35,
+          "second": 11,
+          "scorer": "Domenik Bl\u00fcmle",
+          "team": "home",
+          "team_abbrev": "SG Schorndorf",
+          "seven_meter": false
+        },
+        {
+          "minute": 35,
+          "second": 58,
+          "scorer": "Benjamin Albrecht",
+          "team": "away",
+          "team_abbrev": "HSG Gab-Gais",
+          "seven_meter": true
+        },
+        {
+          "minute": 36,
+          "second": 46,
+          "scorer": "Nathan Reimold",
+          "team": "away",
+          "team_abbrev": "HSG Gab-Gais",
+          "seven_meter": false
+        },
+        {
+          "minute": 37,
+          "second": 4,
+          "scorer": "Ben Schlechter",
+          "team": "home",
+          "team_abbrev": "SG Schorndorf",
+          "seven_meter": false
+        },
+        {
+          "minute": 37,
+          "second": 31,
+          "scorer": "Ben Blocher",
+          "team": "away",
+          "team_abbrev": "HSG Gab-Gais",
+          "seven_meter": false
+        },
+        {
+          "minute": 38,
+          "second": 41,
+          "scorer": "Nathan Reimold",
+          "team": "away",
+          "team_abbrev": "HSG Gab-Gais",
+          "seven_meter": false
+        },
+        {
+          "minute": 38,
+          "second": 56,
+          "scorer": "Jonas Skrzypczyk",
+          "team": "home",
+          "team_abbrev": "SG Schorndorf",
+          "seven_meter": false
+        }
+      ],
+      "final_score": "19:18",
+      "half_duration": 30,
+      "officials": {
+        "referees": [
+          "Parnitzke Laurin"
+        ],
+        "timekeepers": [
+          "Max Barei\u00df"
+        ],
+        "secretaries": [
+          "Klaus Berner"
+        ]
+      },
+      "graphic_path": "output/graphics/SG_Schorndorf_1846_vs_HSG_Gablenberg-Gaisb_Su_0803.png"
+    }
+  ]
+}

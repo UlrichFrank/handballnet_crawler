@@ -1,0 +1,741 @@
+{
+  "date": "20260321",
+  "games": [
+    {
+      "game_id": "handball4all.baden-wuerttemberg.8664256",
+      "order": 86,
+      "date": "Sa, 21.03.",
+      "home": {
+        "team_name": "Team Stuttgart",
+        "players": [
+          {
+            "name": "Joel Mekonnen",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Dominik Burgi",
+            "goals": 2,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Felix Strotbek",
+            "goals": 3,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Yannick \u00d6sterle",
+            "goals": 8,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 1,
+            "seven_meters_goals": 1
+          },
+          {
+            "name": "Robin Frank",
+            "goals": 2,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Lewin Frey",
+            "goals": 5,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Tom Hughes",
+            "goals": 5,
+            "two_min_penalties": 1,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 5,
+            "seven_meters_goals": 4
+          },
+          {
+            "name": "Alexander Diekmann",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Jannik Wegner",
+            "goals": 2,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Gregor Behrendsen",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Leopold Baisch",
+            "goals": 3,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Marin Biljeskovic",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          }
+        ]
+      },
+      "away": {
+        "team_name": "SG Pforzheim/Eutingen 2",
+        "players": [
+          {
+            "name": "Mika Greiner",
+            "goals": 5,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 2,
+            "seven_meters_goals": 1
+          },
+          {
+            "name": "Giancarlo Luminario",
+            "goals": 3,
+            "two_min_penalties": 1,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 1,
+            "seven_meters_goals": 1
+          },
+          {
+            "name": "Styrk Barf",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Lenny Sch\u00f6nthaler",
+            "goals": 1,
+            "two_min_penalties": 1,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Tobias Kiefhaber",
+            "goals": 3,
+            "two_min_penalties": 0,
+            "yellow_cards": 1,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Gabriel Da Silva",
+            "goals": 3,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Jakob Kleine",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Hannes Abt",
+            "goals": 2,
+            "two_min_penalties": 1,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Tim Schwert",
+            "goals": 6,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Jonah Straib",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Jonas Schulz",
+            "goals": 1,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Luca W\u00fcst",
+            "goals": 4,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          }
+        ]
+      },
+      "goals_timeline": [
+        {
+          "minute": 0,
+          "second": 40,
+          "scorer": "Gabriel Da Silva",
+          "team": "home",
+          "team_abbrev": "SG PF/Eutingen 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 0,
+          "second": 48,
+          "scorer": "Lewin Frey",
+          "team": "away",
+          "team_abbrev": "Team Stuttgart",
+          "seven_meter": false
+        },
+        {
+          "minute": 1,
+          "second": 36,
+          "scorer": "Mika Greiner",
+          "team": "home",
+          "team_abbrev": "SG PF/Eutingen 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 2,
+          "second": 22,
+          "scorer": "Leopold Baisch",
+          "team": "away",
+          "team_abbrev": "Team Stuttgart",
+          "seven_meter": false
+        },
+        {
+          "minute": 2,
+          "second": 50,
+          "scorer": "Gabriel Da Silva",
+          "team": "home",
+          "team_abbrev": "SG PF/Eutingen 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 3,
+          "second": 4,
+          "scorer": "Tom Hughes",
+          "team": "away",
+          "team_abbrev": "Team Stuttgart",
+          "seven_meter": false
+        },
+        {
+          "minute": 3,
+          "second": 35,
+          "scorer": "Tim Schwert",
+          "team": "home",
+          "team_abbrev": "SG PF/Eutingen 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 3,
+          "second": 47,
+          "scorer": "Jannik Wegner",
+          "team": "away",
+          "team_abbrev": "Team Stuttgart",
+          "seven_meter": false
+        },
+        {
+          "minute": 4,
+          "second": 49,
+          "scorer": "Tom Hughes",
+          "team": "away",
+          "team_abbrev": "Team Stuttgart",
+          "seven_meter": true
+        },
+        {
+          "minute": 5,
+          "second": 57,
+          "scorer": "Leopold Baisch",
+          "team": "away",
+          "team_abbrev": "Team Stuttgart",
+          "seven_meter": false
+        },
+        {
+          "minute": 6,
+          "second": 44,
+          "scorer": "Lewin Frey",
+          "team": "away",
+          "team_abbrev": "Team Stuttgart",
+          "seven_meter": false
+        },
+        {
+          "minute": 7,
+          "second": 37,
+          "scorer": "Mika Greiner",
+          "team": "home",
+          "team_abbrev": "SG PF/Eutingen 2",
+          "seven_meter": true
+        },
+        {
+          "minute": 8,
+          "second": 15,
+          "scorer": "Tom Hughes",
+          "team": "away",
+          "team_abbrev": "Team Stuttgart",
+          "seven_meter": true
+        },
+        {
+          "minute": 9,
+          "second": 7,
+          "scorer": "Yannick \u00d6sterle",
+          "team": "away",
+          "team_abbrev": "Team Stuttgart",
+          "seven_meter": false
+        },
+        {
+          "minute": 11,
+          "second": 34,
+          "scorer": "Mika Greiner",
+          "team": "home",
+          "team_abbrev": "SG PF/Eutingen 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 12,
+          "second": 38,
+          "scorer": "Luca W\u00fcst",
+          "team": "home",
+          "team_abbrev": "SG PF/Eutingen 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 14,
+          "second": 19,
+          "scorer": "Luca W\u00fcst",
+          "team": "home",
+          "team_abbrev": "SG PF/Eutingen 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 14,
+          "second": 41,
+          "scorer": "Yannick \u00d6sterle",
+          "team": "away",
+          "team_abbrev": "Team Stuttgart",
+          "seven_meter": false
+        },
+        {
+          "minute": 17,
+          "second": 17,
+          "scorer": "Hannes Abt",
+          "team": "home",
+          "team_abbrev": "SG PF/Eutingen 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 17,
+          "second": 41,
+          "scorer": "Leopold Baisch",
+          "team": "away",
+          "team_abbrev": "Team Stuttgart",
+          "seven_meter": false
+        },
+        {
+          "minute": 18,
+          "second": 22,
+          "scorer": "Gabriel Da Silva",
+          "team": "home",
+          "team_abbrev": "SG PF/Eutingen 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 18,
+          "second": 35,
+          "scorer": "Dominik Burgi",
+          "team": "away",
+          "team_abbrev": "Team Stuttgart",
+          "seven_meter": false
+        },
+        {
+          "minute": 19,
+          "second": 24,
+          "scorer": "Tobias Kiefhaber",
+          "team": "home",
+          "team_abbrev": "SG PF/Eutingen 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 22,
+          "second": 26,
+          "scorer": "Luca W\u00fcst",
+          "team": "home",
+          "team_abbrev": "SG PF/Eutingen 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 24,
+          "second": 33,
+          "scorer": "Mika Greiner",
+          "team": "home",
+          "team_abbrev": "SG PF/Eutingen 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 25,
+          "second": 19,
+          "scorer": "Tim Schwert",
+          "team": "home",
+          "team_abbrev": "SG PF/Eutingen 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 25,
+          "second": 31,
+          "scorer": "Robin Frank",
+          "team": "away",
+          "team_abbrev": "Team Stuttgart",
+          "seven_meter": false
+        },
+        {
+          "minute": 26,
+          "second": 8,
+          "scorer": "Tim Schwert",
+          "team": "home",
+          "team_abbrev": "SG PF/Eutingen 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 26,
+          "second": 47,
+          "scorer": "Tom Hughes",
+          "team": "away",
+          "team_abbrev": "Team Stuttgart",
+          "seven_meter": true
+        },
+        {
+          "minute": 28,
+          "second": 14,
+          "scorer": "Felix Strotbek",
+          "team": "away",
+          "team_abbrev": "Team Stuttgart",
+          "seven_meter": false
+        },
+        {
+          "minute": 30,
+          "second": 0,
+          "scorer": "Jonas Schulz",
+          "team": "home",
+          "team_abbrev": "SG PF/Eutingen 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 31,
+          "second": 25,
+          "scorer": "Tim Schwert",
+          "team": "home",
+          "team_abbrev": "SG PF/Eutingen 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 31,
+          "second": 55,
+          "scorer": "Yannick \u00d6sterle",
+          "team": "away",
+          "team_abbrev": "Team Stuttgart",
+          "seven_meter": false
+        },
+        {
+          "minute": 32,
+          "second": 34,
+          "scorer": "Lenny Sch\u00f6nthaler",
+          "team": "home",
+          "team_abbrev": "SG PF/Eutingen 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 34,
+          "second": 6,
+          "scorer": "Felix Strotbek",
+          "team": "away",
+          "team_abbrev": "Team Stuttgart",
+          "seven_meter": false
+        },
+        {
+          "minute": 35,
+          "second": 1,
+          "scorer": "Hannes Abt",
+          "team": "home",
+          "team_abbrev": "SG PF/Eutingen 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 35,
+          "second": 18,
+          "scorer": "Lewin Frey",
+          "team": "away",
+          "team_abbrev": "Team Stuttgart",
+          "seven_meter": false
+        },
+        {
+          "minute": 36,
+          "second": 3,
+          "scorer": "Mika Greiner",
+          "team": "home",
+          "team_abbrev": "SG PF/Eutingen 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 36,
+          "second": 16,
+          "scorer": "Lewin Frey",
+          "team": "away",
+          "team_abbrev": "Team Stuttgart",
+          "seven_meter": false
+        },
+        {
+          "minute": 37,
+          "second": 1,
+          "scorer": "Tobias Kiefhaber",
+          "team": "home",
+          "team_abbrev": "SG PF/Eutingen 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 37,
+          "second": 25,
+          "scorer": "Jannik Wegner",
+          "team": "away",
+          "team_abbrev": "Team Stuttgart",
+          "seven_meter": false
+        },
+        {
+          "minute": 38,
+          "second": 3,
+          "scorer": "Giancarlo Luminario",
+          "team": "home",
+          "team_abbrev": "SG PF/Eutingen 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 38,
+          "second": 23,
+          "scorer": "Yannick \u00d6sterle",
+          "team": "away",
+          "team_abbrev": "Team Stuttgart",
+          "seven_meter": false
+        },
+        {
+          "minute": 39,
+          "second": 15,
+          "scorer": "Yannick \u00d6sterle",
+          "team": "away",
+          "team_abbrev": "Team Stuttgart",
+          "seven_meter": false
+        },
+        {
+          "minute": 40,
+          "second": 47,
+          "scorer": "Tom Hughes",
+          "team": "away",
+          "team_abbrev": "Team Stuttgart",
+          "seven_meter": true
+        },
+        {
+          "minute": 42,
+          "second": 41,
+          "scorer": "Yannick \u00d6sterle",
+          "team": "away",
+          "team_abbrev": "Team Stuttgart",
+          "seven_meter": false
+        },
+        {
+          "minute": 43,
+          "second": 32,
+          "scorer": "Giancarlo Luminario",
+          "team": "home",
+          "team_abbrev": "SG PF/Eutingen 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 44,
+          "second": 44,
+          "scorer": "Robin Frank",
+          "team": "away",
+          "team_abbrev": "Team Stuttgart",
+          "seven_meter": false
+        },
+        {
+          "minute": 45,
+          "second": 22,
+          "scorer": "Tim Schwert",
+          "team": "home",
+          "team_abbrev": "SG PF/Eutingen 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 45,
+          "second": 50,
+          "scorer": "Lewin Frey",
+          "team": "away",
+          "team_abbrev": "Team Stuttgart",
+          "seven_meter": false
+        },
+        {
+          "minute": 49,
+          "second": 8,
+          "scorer": "Dominik Burgi",
+          "team": "away",
+          "team_abbrev": "Team Stuttgart",
+          "seven_meter": false
+        },
+        {
+          "minute": 50,
+          "second": 21,
+          "scorer": "Tim Schwert",
+          "team": "home",
+          "team_abbrev": "SG PF/Eutingen 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 50,
+          "second": 54,
+          "scorer": "Felix Strotbek",
+          "team": "away",
+          "team_abbrev": "Team Stuttgart",
+          "seven_meter": false
+        },
+        {
+          "minute": 51,
+          "second": 31,
+          "scorer": "Luca W\u00fcst",
+          "team": "home",
+          "team_abbrev": "SG PF/Eutingen 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 54,
+          "second": 25,
+          "scorer": "Giancarlo Luminario",
+          "team": "home",
+          "team_abbrev": "SG PF/Eutingen 2",
+          "seven_meter": true
+        },
+        {
+          "minute": 55,
+          "second": 14,
+          "scorer": "Yannick \u00d6sterle",
+          "team": "away",
+          "team_abbrev": "Team Stuttgart",
+          "seven_meter": true
+        },
+        {
+          "minute": 57,
+          "second": 31,
+          "scorer": "Tobias Kiefhaber",
+          "team": "home",
+          "team_abbrev": "SG PF/Eutingen 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 59,
+          "second": 20,
+          "scorer": "Yannick \u00d6sterle",
+          "team": "away",
+          "team_abbrev": "Team Stuttgart",
+          "seven_meter": false
+        }
+      ],
+      "final_score": "28:30",
+      "half_duration": 30,
+      "officials": {
+        "referees": [
+          "Marco Pink",
+          "Christian Zeller"
+        ],
+        "timekeepers": [
+          "Oswald Frank"
+        ],
+        "secretaries": [
+          "Wolfgang Abt"
+        ]
+      },
+      "graphic_path": "output/graphics/Team_Stuttgart_vs_SG_Pforzheim_Eutinge_Sa_2103.png"
+    }
+  ]
+}

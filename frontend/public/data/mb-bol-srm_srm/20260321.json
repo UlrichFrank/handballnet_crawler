@@ -1,0 +1,718 @@
+{
+  "date": "20260321",
+  "games": [
+    {
+      "game_id": "handball4all.baden-wuerttemberg.8850212",
+      "order": 53,
+      "date": "Sa, 21.03.",
+      "home": {
+        "team_name": "SV Fellbach",
+        "players": [
+          {
+            "name": "David M\u00f6dinger",
+            "goals": 1,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 1,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Noah Barke",
+            "goals": 0,
+            "two_min_penalties": 1,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Tim Nico Plieninger",
+            "goals": 3,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Christian Pachner",
+            "goals": 6,
+            "two_min_penalties": 0,
+            "yellow_cards": 1,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Leo M\u00fcller",
+            "goals": 1,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Julian Diener",
+            "goals": 1,
+            "two_min_penalties": 0,
+            "yellow_cards": 1,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Raul Terren Grande",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Severin Banning",
+            "goals": 3,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Nico Paul Rihm",
+            "goals": 17,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          }
+        ]
+      },
+      "away": {
+        "team_name": "Hbi Weilimdorf/Feuerbach",
+        "players": [
+          {
+            "name": "Noah Stephan",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Franz L\u00e4mmlein",
+            "goals": 3,
+            "two_min_penalties": 1,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Noah Schulz",
+            "goals": 7,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Raphael G\u00fcnter",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Tom Pfisterer",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Jakob M\u00fcller",
+            "goals": 2,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Jonas Herweg",
+            "goals": 11,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Robin Ruhland",
+            "goals": 1,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Julian Lorenz",
+            "goals": 1,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Adrian Jochmann",
+            "goals": 1,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "David Pohl",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Noah Moretton",
+            "goals": 1,
+            "two_min_penalties": 0,
+            "yellow_cards": 1,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          }
+        ]
+      },
+      "goals_timeline": [
+        {
+          "minute": 0,
+          "second": 29,
+          "scorer": "Nico Rihm",
+          "team": "home",
+          "team_abbrev": "SV Fellbach",
+          "seven_meter": false
+        },
+        {
+          "minute": 1,
+          "second": 4,
+          "scorer": "Nico Rihm",
+          "team": "home",
+          "team_abbrev": "SV Fellbach",
+          "seven_meter": false
+        },
+        {
+          "minute": 1,
+          "second": 33,
+          "scorer": "Nico Rihm",
+          "team": "home",
+          "team_abbrev": "SV Fellbach",
+          "seven_meter": false
+        },
+        {
+          "minute": 2,
+          "second": 18,
+          "scorer": "Christian Pachner",
+          "team": "home",
+          "team_abbrev": "SV Fellbach",
+          "seven_meter": false
+        },
+        {
+          "minute": 3,
+          "second": 12,
+          "scorer": "Jonas Herweg",
+          "team": "away",
+          "team_abbrev": "Hbi Weil/Feuer",
+          "seven_meter": false
+        },
+        {
+          "minute": 4,
+          "second": 16,
+          "scorer": "Jonas Herweg",
+          "team": "away",
+          "team_abbrev": "Hbi Weil/Feuer",
+          "seven_meter": false
+        },
+        {
+          "minute": 5,
+          "second": 52,
+          "scorer": "Nico Rihm",
+          "team": "home",
+          "team_abbrev": "SV Fellbach",
+          "seven_meter": false
+        },
+        {
+          "minute": 6,
+          "second": 48,
+          "scorer": "Christian Pachner",
+          "team": "home",
+          "team_abbrev": "SV Fellbach",
+          "seven_meter": false
+        },
+        {
+          "minute": 7,
+          "second": 31,
+          "scorer": "Nico Rihm",
+          "team": "home",
+          "team_abbrev": "SV Fellbach",
+          "seven_meter": false
+        },
+        {
+          "minute": 8,
+          "second": 35,
+          "scorer": "Noah Schulz",
+          "team": "away",
+          "team_abbrev": "Hbi Weil/Feuer",
+          "seven_meter": false
+        },
+        {
+          "minute": 9,
+          "second": 52,
+          "scorer": "Franz L\u00e4mmlein",
+          "team": "away",
+          "team_abbrev": "Hbi Weil/Feuer",
+          "seven_meter": false
+        },
+        {
+          "minute": 10,
+          "second": 50,
+          "scorer": "Noah Schulz",
+          "team": "away",
+          "team_abbrev": "Hbi Weil/Feuer",
+          "seven_meter": false
+        },
+        {
+          "minute": 11,
+          "second": 30,
+          "scorer": "Nico Rihm",
+          "team": "home",
+          "team_abbrev": "SV Fellbach",
+          "seven_meter": false
+        },
+        {
+          "minute": 12,
+          "second": 13,
+          "scorer": "Christian Pachner",
+          "team": "home",
+          "team_abbrev": "SV Fellbach",
+          "seven_meter": false
+        },
+        {
+          "minute": 12,
+          "second": 35,
+          "scorer": "Jonas Herweg",
+          "team": "away",
+          "team_abbrev": "Hbi Weil/Feuer",
+          "seven_meter": false
+        },
+        {
+          "minute": 13,
+          "second": 15,
+          "scorer": "Robin Ruhland",
+          "team": "away",
+          "team_abbrev": "Hbi Weil/Feuer",
+          "seven_meter": false
+        },
+        {
+          "minute": 13,
+          "second": 39,
+          "scorer": "Nico Rihm",
+          "team": "home",
+          "team_abbrev": "SV Fellbach",
+          "seven_meter": false
+        },
+        {
+          "minute": 14,
+          "second": 41,
+          "scorer": "Julian Lorenz",
+          "team": "away",
+          "team_abbrev": "Hbi Weil/Feuer",
+          "seven_meter": false
+        },
+        {
+          "minute": 15,
+          "second": 4,
+          "scorer": "Nico Rihm",
+          "team": "home",
+          "team_abbrev": "SV Fellbach",
+          "seven_meter": false
+        },
+        {
+          "minute": 15,
+          "second": 30,
+          "scorer": "Jonas Herweg",
+          "team": "away",
+          "team_abbrev": "Hbi Weil/Feuer",
+          "seven_meter": false
+        },
+        {
+          "minute": 16,
+          "second": 38,
+          "scorer": "Jonas Herweg",
+          "team": "away",
+          "team_abbrev": "Hbi Weil/Feuer",
+          "seven_meter": false
+        },
+        {
+          "minute": 17,
+          "second": 8,
+          "scorer": "Noah Schulz",
+          "team": "away",
+          "team_abbrev": "Hbi Weil/Feuer",
+          "seven_meter": false
+        },
+        {
+          "minute": 17,
+          "second": 27,
+          "scorer": "Christian Pachner",
+          "team": "home",
+          "team_abbrev": "SV Fellbach",
+          "seven_meter": false
+        },
+        {
+          "minute": 18,
+          "second": 25,
+          "scorer": "Noah Schulz",
+          "team": "away",
+          "team_abbrev": "Hbi Weil/Feuer",
+          "seven_meter": false
+        },
+        {
+          "minute": 19,
+          "second": 30,
+          "scorer": "Julian Diener",
+          "team": "home",
+          "team_abbrev": "SV Fellbach",
+          "seven_meter": false
+        },
+        {
+          "minute": 21,
+          "second": 36,
+          "scorer": "Noah Schulz",
+          "team": "away",
+          "team_abbrev": "Hbi Weil/Feuer",
+          "seven_meter": false
+        },
+        {
+          "minute": 23,
+          "second": 0,
+          "scorer": "Christian Pachner",
+          "team": "home",
+          "team_abbrev": "SV Fellbach",
+          "seven_meter": false
+        },
+        {
+          "minute": 23,
+          "second": 9,
+          "scorer": "Adrian Jochmann",
+          "team": "away",
+          "team_abbrev": "Hbi Weil/Feuer",
+          "seven_meter": false
+        },
+        {
+          "minute": 23,
+          "second": 55,
+          "scorer": "Jonas Herweg",
+          "team": "away",
+          "team_abbrev": "Hbi Weil/Feuer",
+          "seven_meter": false
+        },
+        {
+          "minute": 24,
+          "second": 29,
+          "scorer": "Tim Plieninger",
+          "team": "home",
+          "team_abbrev": "SV Fellbach",
+          "seven_meter": false
+        },
+        {
+          "minute": 25,
+          "second": 47,
+          "scorer": "Nico Rihm",
+          "team": "home",
+          "team_abbrev": "SV Fellbach",
+          "seven_meter": false
+        },
+        {
+          "minute": 26,
+          "second": 15,
+          "scorer": "Jonas Herweg",
+          "team": "away",
+          "team_abbrev": "Hbi Weil/Feuer",
+          "seven_meter": false
+        },
+        {
+          "minute": 26,
+          "second": 49,
+          "scorer": "Tim Plieninger",
+          "team": "home",
+          "team_abbrev": "SV Fellbach",
+          "seven_meter": false
+        },
+        {
+          "minute": 27,
+          "second": 46,
+          "scorer": "David M\u00f6dinger",
+          "team": "home",
+          "team_abbrev": "SV Fellbach",
+          "seven_meter": false
+        },
+        {
+          "minute": 28,
+          "second": 0,
+          "scorer": "Jonas Herweg",
+          "team": "away",
+          "team_abbrev": "Hbi Weil/Feuer",
+          "seven_meter": false
+        },
+        {
+          "minute": 28,
+          "second": 5,
+          "scorer": "Christian Pachner",
+          "team": "home",
+          "team_abbrev": "SV Fellbach",
+          "seven_meter": false
+        },
+        {
+          "minute": 28,
+          "second": 46,
+          "scorer": "Nico Rihm",
+          "team": "home",
+          "team_abbrev": "SV Fellbach",
+          "seven_meter": false
+        },
+        {
+          "minute": 29,
+          "second": 59,
+          "scorer": "Jonas Herweg",
+          "team": "away",
+          "team_abbrev": "Hbi Weil/Feuer",
+          "seven_meter": false
+        },
+        {
+          "minute": 30,
+          "second": 26,
+          "scorer": "Nico Rihm",
+          "team": "home",
+          "team_abbrev": "SV Fellbach",
+          "seven_meter": false
+        },
+        {
+          "minute": 30,
+          "second": 33,
+          "scorer": "Jonas Herweg",
+          "team": "away",
+          "team_abbrev": "Hbi Weil/Feuer",
+          "seven_meter": false
+        },
+        {
+          "minute": 32,
+          "second": 23,
+          "scorer": "Nico Rihm",
+          "team": "home",
+          "team_abbrev": "SV Fellbach",
+          "seven_meter": false
+        },
+        {
+          "minute": 34,
+          "second": 27,
+          "scorer": "Severin Banning",
+          "team": "home",
+          "team_abbrev": "SV Fellbach",
+          "seven_meter": false
+        },
+        {
+          "minute": 35,
+          "second": 34,
+          "scorer": "Nico Rihm",
+          "team": "home",
+          "team_abbrev": "SV Fellbach",
+          "seven_meter": false
+        },
+        {
+          "minute": 36,
+          "second": 14,
+          "scorer": "Jonas Herweg",
+          "team": "away",
+          "team_abbrev": "Hbi Weil/Feuer",
+          "seven_meter": false
+        },
+        {
+          "minute": 37,
+          "second": 8,
+          "scorer": "Tim Plieninger",
+          "team": "home",
+          "team_abbrev": "SV Fellbach",
+          "seven_meter": false
+        },
+        {
+          "minute": 39,
+          "second": 26,
+          "scorer": "Nico Rihm",
+          "team": "home",
+          "team_abbrev": "SV Fellbach",
+          "seven_meter": false
+        },
+        {
+          "minute": 40,
+          "second": 14,
+          "scorer": "Nico Rihm",
+          "team": "home",
+          "team_abbrev": "SV Fellbach",
+          "seven_meter": false
+        },
+        {
+          "minute": 41,
+          "second": 43,
+          "scorer": "Franz L\u00e4mmlein",
+          "team": "away",
+          "team_abbrev": "Hbi Weil/Feuer",
+          "seven_meter": false
+        },
+        {
+          "minute": 42,
+          "second": 58,
+          "scorer": "Nico Rihm",
+          "team": "home",
+          "team_abbrev": "SV Fellbach",
+          "seven_meter": false
+        },
+        {
+          "minute": 43,
+          "second": 34,
+          "scorer": "Noah Schulz",
+          "team": "away",
+          "team_abbrev": "Hbi Weil/Feuer",
+          "seven_meter": false
+        },
+        {
+          "minute": 45,
+          "second": 14,
+          "scorer": "Nico Rihm",
+          "team": "home",
+          "team_abbrev": "SV Fellbach",
+          "seven_meter": false
+        },
+        {
+          "minute": 45,
+          "second": 44,
+          "scorer": "Severin Banning",
+          "team": "home",
+          "team_abbrev": "SV Fellbach",
+          "seven_meter": false
+        },
+        {
+          "minute": 46,
+          "second": 43,
+          "scorer": "Noah Schulz",
+          "team": "away",
+          "team_abbrev": "Hbi Weil/Feuer",
+          "seven_meter": false
+        },
+        {
+          "minute": 47,
+          "second": 12,
+          "scorer": "Leo M\u00fcller",
+          "team": "home",
+          "team_abbrev": "SV Fellbach",
+          "seven_meter": false
+        },
+        {
+          "minute": 47,
+          "second": 22,
+          "scorer": "Jakob M\u00fcller",
+          "team": "away",
+          "team_abbrev": "Hbi Weil/Feuer",
+          "seven_meter": false
+        },
+        {
+          "minute": 48,
+          "second": 6,
+          "scorer": "Severin Banning",
+          "team": "home",
+          "team_abbrev": "SV Fellbach",
+          "seven_meter": false
+        },
+        {
+          "minute": 48,
+          "second": 23,
+          "scorer": "Noah Moretton",
+          "team": "away",
+          "team_abbrev": "Hbi Weil/Feuer",
+          "seven_meter": false
+        },
+        {
+          "minute": 48,
+          "second": 50,
+          "scorer": "Jakob M\u00fcller",
+          "team": "away",
+          "team_abbrev": "Hbi Weil/Feuer",
+          "seven_meter": false
+        },
+        {
+          "minute": 49,
+          "second": 35,
+          "scorer": "Franz L\u00e4mmlein",
+          "team": "away",
+          "team_abbrev": "Hbi Weil/Feuer",
+          "seven_meter": false
+        }
+      ],
+      "final_score": "32:27",
+      "half_duration": 30,
+      "officials": {
+        "referees": [
+          "Hayg Biberciyan"
+        ],
+        "timekeepers": [
+          "Alexandra Br\u00fcckner"
+        ],
+        "secretaries": [
+          "Karola Herweg"
+        ]
+      },
+      "graphic_path": "output/graphics/SV_Fellbach_vs_Hbi_Weilimdorf_Feuer_Sa_2103.png"
+    }
+  ]
+}

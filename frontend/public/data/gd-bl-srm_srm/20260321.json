@@ -1,0 +1,696 @@
+{
+  "date": "20260321",
+  "games": [
+    {
+      "game_id": "handball4all.baden-wuerttemberg.8853577",
+      "order": 53,
+      "date": "Sa, 21.03.",
+      "home": {
+        "team_name": "TSV Alfdorf/Lorch/Waldhausen",
+        "players": [
+          {
+            "name": "Patrick V\u00f6gele",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Lenny Grgic",
+            "goals": 1,
+            "two_min_penalties": 1,
+            "yellow_cards": 1,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 1,
+            "seven_meters_goals": 1
+          },
+          {
+            "name": "Hannes Behringer",
+            "goals": 2,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Theo Schneefu\u00df",
+            "goals": 5,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Silas Fritz",
+            "goals": 3,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Lucca Holz",
+            "goals": 3,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Noah Wahl",
+            "goals": 8,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Ole Erik Winter",
+            "goals": 9,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Mika Zapfl",
+            "goals": 1,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Maxim Barei\u00df",
+            "goals": 2,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Max Bareiss",
+            "goals": 8,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          }
+        ]
+      },
+      "away": {
+        "team_name": "Hbi Weilimdorf/Feuerbach",
+        "players": [
+          {
+            "name": "Raphael Dengler",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Ferdinand Lentz",
+            "goals": 5,
+            "two_min_penalties": 1,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 2,
+            "seven_meters_goals": 2
+          },
+          {
+            "name": "Adrian Vaislevskji",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Lutz J\u00e4ger",
+            "goals": 1,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Benedikt Gramlich",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Jakob Maaser",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Luis Badmann",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Sebastian Schultz",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Matti Nagel",
+            "goals": 2,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Rafael Unger",
+            "goals": 2,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Fabio Pfister",
+            "goals": 3,
+            "two_min_penalties": 1,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 1,
+            "seven_meters_goals": 1
+          }
+        ]
+      },
+      "goals_timeline": [
+        {
+          "minute": 0,
+          "second": 15,
+          "scorer": "Fabio Pfister",
+          "team": "home",
+          "team_abbrev": "Hbi Weil/Feuer",
+          "seven_meter": false
+        },
+        {
+          "minute": 0,
+          "second": 36,
+          "scorer": "Max Bareiss",
+          "team": "away",
+          "team_abbrev": "TSV ALLOWA",
+          "seven_meter": false
+        },
+        {
+          "minute": 1,
+          "second": 27,
+          "scorer": "Max Bareiss",
+          "team": "away",
+          "team_abbrev": "TSV ALLOWA",
+          "seven_meter": false
+        },
+        {
+          "minute": 2,
+          "second": 36,
+          "scorer": "Ole Winter",
+          "team": "away",
+          "team_abbrev": "TSV ALLOWA",
+          "seven_meter": false
+        },
+        {
+          "minute": 3,
+          "second": 17,
+          "scorer": "Max Bareiss",
+          "team": "away",
+          "team_abbrev": "TSV ALLOWA",
+          "seven_meter": false
+        },
+        {
+          "minute": 4,
+          "second": 53,
+          "scorer": "Ole Winter",
+          "team": "away",
+          "team_abbrev": "TSV ALLOWA",
+          "seven_meter": false
+        },
+        {
+          "minute": 5,
+          "second": 33,
+          "scorer": "Noah Wahl",
+          "team": "away",
+          "team_abbrev": "TSV ALLOWA",
+          "seven_meter": false
+        },
+        {
+          "minute": 6,
+          "second": 30,
+          "scorer": "Ole Winter",
+          "team": "away",
+          "team_abbrev": "TSV ALLOWA",
+          "seven_meter": false
+        },
+        {
+          "minute": 6,
+          "second": 45,
+          "scorer": "Ferdinand Lentz",
+          "team": "home",
+          "team_abbrev": "Hbi Weil/Feuer",
+          "seven_meter": false
+        },
+        {
+          "minute": 8,
+          "second": 30,
+          "scorer": "Rafael Unger",
+          "team": "home",
+          "team_abbrev": "Hbi Weil/Feuer",
+          "seven_meter": false
+        },
+        {
+          "minute": 9,
+          "second": 25,
+          "scorer": "Max Bareiss",
+          "team": "away",
+          "team_abbrev": "TSV ALLOWA",
+          "seven_meter": false
+        },
+        {
+          "minute": 10,
+          "second": 48,
+          "scorer": "Fabio Pfister",
+          "team": "home",
+          "team_abbrev": "Hbi Weil/Feuer",
+          "seven_meter": true
+        },
+        {
+          "minute": 11,
+          "second": 35,
+          "scorer": "Noah Wahl",
+          "team": "away",
+          "team_abbrev": "TSV ALLOWA",
+          "seven_meter": false
+        },
+        {
+          "minute": 12,
+          "second": 5,
+          "scorer": "Maxim Barei\u00df",
+          "team": "away",
+          "team_abbrev": "TSV ALLOWA",
+          "seven_meter": false
+        },
+        {
+          "minute": 13,
+          "second": 34,
+          "scorer": "Max Bareiss",
+          "team": "away",
+          "team_abbrev": "TSV ALLOWA",
+          "seven_meter": false
+        },
+        {
+          "minute": 15,
+          "second": 21,
+          "scorer": "Max Bareiss",
+          "team": "away",
+          "team_abbrev": "TSV ALLOWA",
+          "seven_meter": false
+        },
+        {
+          "minute": 15,
+          "second": 36,
+          "scorer": "Ferdinand Lentz",
+          "team": "home",
+          "team_abbrev": "Hbi Weil/Feuer",
+          "seven_meter": false
+        },
+        {
+          "minute": 15,
+          "second": 48,
+          "scorer": "Theo Schneefu\u00df",
+          "team": "away",
+          "team_abbrev": "TSV ALLOWA",
+          "seven_meter": false
+        },
+        {
+          "minute": 16,
+          "second": 13,
+          "scorer": "Lutz J\u00e4ger",
+          "team": "home",
+          "team_abbrev": "Hbi Weil/Feuer",
+          "seven_meter": false
+        },
+        {
+          "minute": 16,
+          "second": 41,
+          "scorer": "Maxim Barei\u00df",
+          "team": "away",
+          "team_abbrev": "TSV ALLOWA",
+          "seven_meter": false
+        },
+        {
+          "minute": 17,
+          "second": 48,
+          "scorer": "Noah Wahl",
+          "team": "away",
+          "team_abbrev": "TSV ALLOWA",
+          "seven_meter": false
+        },
+        {
+          "minute": 18,
+          "second": 12,
+          "scorer": "Theo Schneefu\u00df",
+          "team": "away",
+          "team_abbrev": "TSV ALLOWA",
+          "seven_meter": false
+        },
+        {
+          "minute": 19,
+          "second": 29,
+          "scorer": "Theo Schneefu\u00df",
+          "team": "away",
+          "team_abbrev": "TSV ALLOWA",
+          "seven_meter": false
+        },
+        {
+          "minute": 21,
+          "second": 9,
+          "scorer": "Ole Winter",
+          "team": "away",
+          "team_abbrev": "TSV ALLOWA",
+          "seven_meter": true
+        },
+        {
+          "minute": 22,
+          "second": 7,
+          "scorer": "Theo Schneefu\u00df",
+          "team": "away",
+          "team_abbrev": "TSV ALLOWA",
+          "seven_meter": false
+        },
+        {
+          "minute": 22,
+          "second": 44,
+          "scorer": "Ole Winter",
+          "team": "away",
+          "team_abbrev": "TSV ALLOWA",
+          "seven_meter": true
+        },
+        {
+          "minute": 23,
+          "second": 34,
+          "scorer": "Ole Winter",
+          "team": "away",
+          "team_abbrev": "TSV ALLOWA",
+          "seven_meter": false
+        },
+        {
+          "minute": 23,
+          "second": 56,
+          "scorer": "Hannes Behringer",
+          "team": "away",
+          "team_abbrev": "TSV ALLOWA",
+          "seven_meter": false
+        },
+        {
+          "minute": 24,
+          "second": 53,
+          "scorer": "Ole Winter",
+          "team": "away",
+          "team_abbrev": "TSV ALLOWA",
+          "seven_meter": true
+        },
+        {
+          "minute": 25,
+          "second": 36,
+          "scorer": "Ferdinand Lentz",
+          "team": "home",
+          "team_abbrev": "Hbi Weil/Feuer",
+          "seven_meter": true
+        },
+        {
+          "minute": 25,
+          "second": 46,
+          "scorer": "Noah Wahl",
+          "team": "away",
+          "team_abbrev": "TSV ALLOWA",
+          "seven_meter": false
+        },
+        {
+          "minute": 26,
+          "second": 15,
+          "scorer": "Max Bareiss",
+          "team": "away",
+          "team_abbrev": "TSV ALLOWA",
+          "seven_meter": false
+        },
+        {
+          "minute": 27,
+          "second": 22,
+          "scorer": "Silas Fritz",
+          "team": "away",
+          "team_abbrev": "TSV ALLOWA",
+          "seven_meter": false
+        },
+        {
+          "minute": 27,
+          "second": 38,
+          "scorer": "Matti Nagel",
+          "team": "home",
+          "team_abbrev": "Hbi Weil/Feuer",
+          "seven_meter": false
+        },
+        {
+          "minute": 27,
+          "second": 56,
+          "scorer": "Ole Winter",
+          "team": "away",
+          "team_abbrev": "TSV ALLOWA",
+          "seven_meter": false
+        },
+        {
+          "minute": 28,
+          "second": 14,
+          "scorer": "Rafael Unger",
+          "team": "home",
+          "team_abbrev": "Hbi Weil/Feuer",
+          "seven_meter": false
+        },
+        {
+          "minute": 28,
+          "second": 50,
+          "scorer": "Noah Wahl",
+          "team": "away",
+          "team_abbrev": "TSV ALLOWA",
+          "seven_meter": false
+        },
+        {
+          "minute": 29,
+          "second": 13,
+          "scorer": "Noah Wahl",
+          "team": "away",
+          "team_abbrev": "TSV ALLOWA",
+          "seven_meter": false
+        },
+        {
+          "minute": 29,
+          "second": 40,
+          "scorer": "Matti Nagel",
+          "team": "home",
+          "team_abbrev": "Hbi Weil/Feuer",
+          "seven_meter": false
+        },
+        {
+          "minute": 29,
+          "second": 48,
+          "scorer": "Ole Winter",
+          "team": "away",
+          "team_abbrev": "TSV ALLOWA",
+          "seven_meter": false
+        },
+        {
+          "minute": 30,
+          "second": 16,
+          "scorer": "Ferdinand Lentz",
+          "team": "home",
+          "team_abbrev": "Hbi Weil/Feuer",
+          "seven_meter": false
+        },
+        {
+          "minute": 30,
+          "second": 28,
+          "scorer": "Noah Wahl",
+          "team": "away",
+          "team_abbrev": "TSV ALLOWA",
+          "seven_meter": false
+        },
+        {
+          "minute": 30,
+          "second": 42,
+          "scorer": "Max Bareiss",
+          "team": "away",
+          "team_abbrev": "TSV ALLOWA",
+          "seven_meter": false
+        },
+        {
+          "minute": 31,
+          "second": 35,
+          "scorer": "Silas Fritz",
+          "team": "away",
+          "team_abbrev": "TSV ALLOWA",
+          "seven_meter": false
+        },
+        {
+          "minute": 32,
+          "second": 9,
+          "scorer": "Lucca Holz",
+          "team": "away",
+          "team_abbrev": "TSV ALLOWA",
+          "seven_meter": false
+        },
+        {
+          "minute": 32,
+          "second": 44,
+          "scorer": "Lucca Holz",
+          "team": "away",
+          "team_abbrev": "TSV ALLOWA",
+          "seven_meter": false
+        },
+        {
+          "minute": 33,
+          "second": 24,
+          "scorer": "Ferdinand Lentz",
+          "team": "home",
+          "team_abbrev": "Hbi Weil/Feuer",
+          "seven_meter": true
+        },
+        {
+          "minute": 33,
+          "second": 40,
+          "scorer": "Lenny Grgic",
+          "team": "away",
+          "team_abbrev": "TSV ALLOWA",
+          "seven_meter": true
+        },
+        {
+          "minute": 34,
+          "second": 33,
+          "scorer": "Silas Fritz",
+          "team": "away",
+          "team_abbrev": "TSV ALLOWA",
+          "seven_meter": false
+        },
+        {
+          "minute": 35,
+          "second": 33,
+          "scorer": "Mika Zapfl",
+          "team": "away",
+          "team_abbrev": "TSV ALLOWA",
+          "seven_meter": false
+        },
+        {
+          "minute": 37,
+          "second": 14,
+          "scorer": "Lucca Holz",
+          "team": "away",
+          "team_abbrev": "TSV ALLOWA",
+          "seven_meter": false
+        },
+        {
+          "minute": 37,
+          "second": 43,
+          "scorer": "Fabio Pfister",
+          "team": "home",
+          "team_abbrev": "Hbi Weil/Feuer",
+          "seven_meter": false
+        },
+        {
+          "minute": 38,
+          "second": 14,
+          "scorer": "Hannes Behringer",
+          "team": "away",
+          "team_abbrev": "TSV ALLOWA",
+          "seven_meter": false
+        },
+        {
+          "minute": 39,
+          "second": 2,
+          "scorer": "Theo Schneefu\u00df",
+          "team": "away",
+          "team_abbrev": "TSV ALLOWA",
+          "seven_meter": false
+        },
+        {
+          "minute": 39,
+          "second": 53,
+          "scorer": "Noah Wahl",
+          "team": "away",
+          "team_abbrev": "TSV ALLOWA",
+          "seven_meter": false
+        }
+      ],
+      "final_score": "13:42",
+      "half_duration": 30,
+      "officials": {
+        "referees": [
+          "Mia Winter"
+        ],
+        "timekeepers": [
+          "Gustav Rothweiler"
+        ],
+        "secretaries": [
+          "Andre Badmann"
+        ]
+      },
+      "graphic_path": "output/graphics/TSV_Alfdorf_Lorch_Wa_vs_Hbi_Weilimdorf_Feuer_Sa_2103.png"
+    }
+  ]
+}

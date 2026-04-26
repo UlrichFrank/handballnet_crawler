@@ -9,8 +9,8 @@
     "timeout": 30,
     "retry_attempts": 3,
     "delay_between_requests": 1,
-    "date_from": "2025-09-13",
-    "date_to": "2026-05-10"
+    "date_from": "2025-07-01",
+    "date_to": "2026-06-30"
   },
   "leagues": [
     {
@@ -72,6 +72,11 @@
       "name": "gd-bl-srm_srm",
       "display_name": "Stuttgart-Rems-Murr - gemischte D-Jugend Bezirksliga",
       "half_duration": 20
-    }
+    },
+    {
+      "name": "baden-wuerttemberg.m-2bk-srm_srm",
+      "display_name": "Stuttgart-Rems-Murr - Männer 2. Bezirksklasse",
+      "half_duration": 30
+    }    
   ]
 }

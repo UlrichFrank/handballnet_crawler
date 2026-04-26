@@ -1,0 +1,674 @@
+{
+  "date": "20260111",
+  "games": [
+    {
+      "game_id": "handball4all.baden-wuerttemberg.8779702",
+      "order": 44,
+      "date": "So, 11.01.",
+      "home": {
+        "team_name": "Hbi Weilimdorf/Feuerbach 3",
+        "players": [
+          {
+            "name": "Niklas Renz",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 1,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Daniel Bossert",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Fabian K\u00fcmmerer",
+            "goals": 7,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 2,
+            "seven_meters_goals": 1
+          },
+          {
+            "name": "Richard Marschke",
+            "goals": 8,
+            "two_min_penalties": 1,
+            "yellow_cards": 1,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Jonah Stich",
+            "goals": 4,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Robin Schilling",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Sebastian Buchfink",
+            "goals": 4,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Heiko Hasenmaile",
+            "goals": 4,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          }
+        ]
+      },
+      "away": {
+        "team_name": "HC Winnenden 4",
+        "players": [
+          {
+            "name": "Marius B\u00f6ttle",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 1,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Simon Oberle",
+            "goals": 1,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Tobias Reimann",
+            "goals": 1,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Marian Lierheimer",
+            "goals": 2,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Aaron Zin\u00dfer",
+            "goals": 4,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 2,
+            "seven_meters_goals": 1
+          },
+          {
+            "name": "Simon Schaar",
+            "goals": 1,
+            "two_min_penalties": 0,
+            "yellow_cards": 1,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Henrik Klein",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Adrian Schulze",
+            "goals": 3,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 1,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Maki Peinirtzorlou",
+            "goals": 1,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Nikola Ilic",
+            "goals": 6,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 1,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Lukas Klenner",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Cedric V\u00f6ller",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Marc Langner",
+            "goals": 1,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Nick K\u00e4sser",
+            "goals": 4,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Kai Kindermann",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          }
+        ]
+      },
+      "goals_timeline": [
+        {
+          "minute": 1,
+          "second": 51,
+          "scorer": "Adrian Schulze",
+          "team": "home",
+          "team_abbrev": "HC Winnenden 4",
+          "seven_meter": false
+        },
+        {
+          "minute": 3,
+          "second": 9,
+          "scorer": "Fabian K\u00fcmmerer",
+          "team": "away",
+          "team_abbrev": "Hbi Weil/Feuer 3",
+          "seven_meter": false
+        },
+        {
+          "minute": 3,
+          "second": 50,
+          "scorer": "Aaron Zin\u00dfer",
+          "team": "home",
+          "team_abbrev": "HC Winnenden 4",
+          "seven_meter": true
+        },
+        {
+          "minute": 4,
+          "second": 27,
+          "scorer": "Aaron Zin\u00dfer",
+          "team": "home",
+          "team_abbrev": "HC Winnenden 4",
+          "seven_meter": false
+        },
+        {
+          "minute": 5,
+          "second": 6,
+          "scorer": "Fabian K\u00fcmmerer",
+          "team": "away",
+          "team_abbrev": "Hbi Weil/Feuer 3",
+          "seven_meter": false
+        },
+        {
+          "minute": 5,
+          "second": 19,
+          "scorer": "Aaron Zin\u00dfer",
+          "team": "home",
+          "team_abbrev": "HC Winnenden 4",
+          "seven_meter": false
+        },
+        {
+          "minute": 6,
+          "second": 56,
+          "scorer": "Sebastian Buchfink",
+          "team": "away",
+          "team_abbrev": "Hbi Weil/Feuer 3",
+          "seven_meter": false
+        },
+        {
+          "minute": 9,
+          "second": 13,
+          "scorer": "Nick K\u00e4sser",
+          "team": "home",
+          "team_abbrev": "HC Winnenden 4",
+          "seven_meter": false
+        },
+        {
+          "minute": 9,
+          "second": 45,
+          "scorer": "Sebastian Buchfink",
+          "team": "away",
+          "team_abbrev": "Hbi Weil/Feuer 3",
+          "seven_meter": false
+        },
+        {
+          "minute": 10,
+          "second": 12,
+          "scorer": "Adrian Schulze",
+          "team": "home",
+          "team_abbrev": "HC Winnenden 4",
+          "seven_meter": false
+        },
+        {
+          "minute": 11,
+          "second": 41,
+          "scorer": "Nikola Ilic",
+          "team": "home",
+          "team_abbrev": "HC Winnenden 4",
+          "seven_meter": false
+        },
+        {
+          "minute": 12,
+          "second": 15,
+          "scorer": "Richard Marschke",
+          "team": "away",
+          "team_abbrev": "Hbi Weil/Feuer 3",
+          "seven_meter": false
+        },
+        {
+          "minute": 13,
+          "second": 11,
+          "scorer": "Heiko Hasenmaile",
+          "team": "away",
+          "team_abbrev": "Hbi Weil/Feuer 3",
+          "seven_meter": false
+        },
+        {
+          "minute": 13,
+          "second": 44,
+          "scorer": "Marc Langner",
+          "team": "home",
+          "team_abbrev": "HC Winnenden 4",
+          "seven_meter": false
+        },
+        {
+          "minute": 16,
+          "second": 4,
+          "scorer": "Richard Marschke",
+          "team": "away",
+          "team_abbrev": "Hbi Weil/Feuer 3",
+          "seven_meter": false
+        },
+        {
+          "minute": 16,
+          "second": 39,
+          "scorer": "Nick K\u00e4sser",
+          "team": "home",
+          "team_abbrev": "HC Winnenden 4",
+          "seven_meter": false
+        },
+        {
+          "minute": 19,
+          "second": 23,
+          "scorer": "Jonah Stich",
+          "team": "away",
+          "team_abbrev": "Hbi Weil/Feuer 3",
+          "seven_meter": false
+        },
+        {
+          "minute": 19,
+          "second": 36,
+          "scorer": "Nick K\u00e4sser",
+          "team": "home",
+          "team_abbrev": "HC Winnenden 4",
+          "seven_meter": false
+        },
+        {
+          "minute": 20,
+          "second": 11,
+          "scorer": "Maki Peinirtzorlou",
+          "team": "home",
+          "team_abbrev": "HC Winnenden 4",
+          "seven_meter": false
+        },
+        {
+          "minute": 20,
+          "second": 37,
+          "scorer": "Sebastian Buchfink",
+          "team": "away",
+          "team_abbrev": "Hbi Weil/Feuer 3",
+          "seven_meter": false
+        },
+        {
+          "minute": 21,
+          "second": 56,
+          "scorer": "Jonah Stich",
+          "team": "away",
+          "team_abbrev": "Hbi Weil/Feuer 3",
+          "seven_meter": false
+        },
+        {
+          "minute": 22,
+          "second": 55,
+          "scorer": "Fabian K\u00fcmmerer",
+          "team": "away",
+          "team_abbrev": "Hbi Weil/Feuer 3",
+          "seven_meter": false
+        },
+        {
+          "minute": 23,
+          "second": 54,
+          "scorer": "Heiko Hasenmaile",
+          "team": "away",
+          "team_abbrev": "Hbi Weil/Feuer 3",
+          "seven_meter": false
+        },
+        {
+          "minute": 24,
+          "second": 57,
+          "scorer": "Fabian K\u00fcmmerer",
+          "team": "away",
+          "team_abbrev": "Hbi Weil/Feuer 3",
+          "seven_meter": false
+        },
+        {
+          "minute": 27,
+          "second": 38,
+          "scorer": "Heiko Hasenmaile",
+          "team": "away",
+          "team_abbrev": "Hbi Weil/Feuer 3",
+          "seven_meter": false
+        },
+        {
+          "minute": 27,
+          "second": 47,
+          "scorer": "Nikola Ilic",
+          "team": "home",
+          "team_abbrev": "HC Winnenden 4",
+          "seven_meter": false
+        },
+        {
+          "minute": 30,
+          "second": 59,
+          "scorer": "Heiko Hasenmaile",
+          "team": "away",
+          "team_abbrev": "Hbi Weil/Feuer 3",
+          "seven_meter": false
+        },
+        {
+          "minute": 32,
+          "second": 31,
+          "scorer": "Simon Schaar",
+          "team": "home",
+          "team_abbrev": "HC Winnenden 4",
+          "seven_meter": false
+        },
+        {
+          "minute": 35,
+          "second": 5,
+          "scorer": "Marian Lierheimer",
+          "team": "home",
+          "team_abbrev": "HC Winnenden 4",
+          "seven_meter": false
+        },
+        {
+          "minute": 35,
+          "second": 37,
+          "scorer": "Fabian K\u00fcmmerer",
+          "team": "away",
+          "team_abbrev": "Hbi Weil/Feuer 3",
+          "seven_meter": false
+        },
+        {
+          "minute": 36,
+          "second": 20,
+          "scorer": "Nikola Ilic",
+          "team": "home",
+          "team_abbrev": "HC Winnenden 4",
+          "seven_meter": false
+        },
+        {
+          "minute": 37,
+          "second": 20,
+          "scorer": "Richard Marschke",
+          "team": "away",
+          "team_abbrev": "Hbi Weil/Feuer 3",
+          "seven_meter": false
+        },
+        {
+          "minute": 37,
+          "second": 50,
+          "scorer": "Richard Marschke",
+          "team": "away",
+          "team_abbrev": "Hbi Weil/Feuer 3",
+          "seven_meter": false
+        },
+        {
+          "minute": 39,
+          "second": 9,
+          "scorer": "Aaron Zin\u00dfer",
+          "team": "home",
+          "team_abbrev": "HC Winnenden 4",
+          "seven_meter": false
+        },
+        {
+          "minute": 39,
+          "second": 42,
+          "scorer": "Nikola Ilic",
+          "team": "home",
+          "team_abbrev": "HC Winnenden 4",
+          "seven_meter": false
+        },
+        {
+          "minute": 40,
+          "second": 30,
+          "scorer": "Simon Oberle",
+          "team": "home",
+          "team_abbrev": "HC Winnenden 4",
+          "seven_meter": false
+        },
+        {
+          "minute": 41,
+          "second": 13,
+          "scorer": "Nikola Ilic",
+          "team": "home",
+          "team_abbrev": "HC Winnenden 4",
+          "seven_meter": false
+        },
+        {
+          "minute": 43,
+          "second": 52,
+          "scorer": "Richard Marschke",
+          "team": "away",
+          "team_abbrev": "Hbi Weil/Feuer 3",
+          "seven_meter": false
+        },
+        {
+          "minute": 44,
+          "second": 43,
+          "scorer": "Sebastian Buchfink",
+          "team": "away",
+          "team_abbrev": "Hbi Weil/Feuer 3",
+          "seven_meter": false
+        },
+        {
+          "minute": 46,
+          "second": 58,
+          "scorer": "Nikola Ilic",
+          "team": "home",
+          "team_abbrev": "HC Winnenden 4",
+          "seven_meter": false
+        },
+        {
+          "minute": 47,
+          "second": 57,
+          "scorer": "Fabian K\u00fcmmerer",
+          "team": "away",
+          "team_abbrev": "Hbi Weil/Feuer 3",
+          "seven_meter": true
+        },
+        {
+          "minute": 48,
+          "second": 21,
+          "scorer": "Jonah Stich",
+          "team": "away",
+          "team_abbrev": "Hbi Weil/Feuer 3",
+          "seven_meter": false
+        },
+        {
+          "minute": 48,
+          "second": 52,
+          "scorer": "Nick K\u00e4sser",
+          "team": "home",
+          "team_abbrev": "HC Winnenden 4",
+          "seven_meter": false
+        },
+        {
+          "minute": 49,
+          "second": 13,
+          "scorer": "Jonah Stich",
+          "team": "away",
+          "team_abbrev": "Hbi Weil/Feuer 3",
+          "seven_meter": false
+        },
+        {
+          "minute": 52,
+          "second": 34,
+          "scorer": "Richard Marschke",
+          "team": "away",
+          "team_abbrev": "Hbi Weil/Feuer 3",
+          "seven_meter": false
+        },
+        {
+          "minute": 54,
+          "second": 14,
+          "scorer": "Fabian K\u00fcmmerer",
+          "team": "away",
+          "team_abbrev": "Hbi Weil/Feuer 3",
+          "seven_meter": false
+        },
+        {
+          "minute": 55,
+          "second": 52,
+          "scorer": "Marian Lierheimer",
+          "team": "home",
+          "team_abbrev": "HC Winnenden 4",
+          "seven_meter": false
+        },
+        {
+          "minute": 56,
+          "second": 56,
+          "scorer": "Adrian Schulze",
+          "team": "home",
+          "team_abbrev": "HC Winnenden 4",
+          "seven_meter": false
+        },
+        {
+          "minute": 57,
+          "second": 12,
+          "scorer": "Richard Marschke",
+          "team": "away",
+          "team_abbrev": "Hbi Weil/Feuer 3",
+          "seven_meter": false
+        },
+        {
+          "minute": 59,
+          "second": 20,
+          "scorer": "Tobias Reimann",
+          "team": "home",
+          "team_abbrev": "HC Winnenden 4",
+          "seven_meter": false
+        },
+        {
+          "minute": 59,
+          "second": 59,
+          "scorer": "Richard Marschke",
+          "team": "away",
+          "team_abbrev": "Hbi Weil/Feuer 3",
+          "seven_meter": false
+        }
+      ],
+      "final_score": "24:27",
+      "half_duration": 30,
+      "officials": {
+        "referees": [
+          "Peter Mevi\u00dfen"
+        ],
+        "timekeepers": [
+          "Lucas Martineck"
+        ],
+        "secretaries": [
+          "Robin Ruhland"
+        ]
+      },
+      "graphic_path": "output/graphics/Hbi_Weilimdorf_Feuer_vs_HC_Winnenden_4_So_1101.png"
+    }
+  ]
+}

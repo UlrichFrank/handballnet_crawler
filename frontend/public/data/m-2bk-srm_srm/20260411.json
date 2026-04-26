@@ -1,0 +1,684 @@
+{
+  "date": "20260411",
+  "games": [
+    {
+      "game_id": "handball4all.baden-wuerttemberg.8779907",
+      "order": 76,
+      "date": "Sa, 11.04.",
+      "home": {
+        "team_name": "SV Leonberg/Eltingen 3",
+        "players": [
+          {
+            "name": "Alexander Rilling",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Maximilian Spindler",
+            "goals": 1,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Tom Hanselmann",
+            "goals": 3,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Markus Weber",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Carsten M\u00fcller",
+            "goals": 8,
+            "two_min_penalties": 0,
+            "yellow_cards": 1,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 5,
+            "seven_meters_goals": 5
+          },
+          {
+            "name": "Andreas Hofs\u00e4\u00df",
+            "goals": 9,
+            "two_min_penalties": 1,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 1,
+            "seven_meters_goals": 1
+          },
+          {
+            "name": "Christoph Straub",
+            "goals": 1,
+            "two_min_penalties": 2,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Lars Libuda",
+            "goals": 5,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 2,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Philipp Schmidt",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Sven Digel",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          }
+        ]
+      },
+      "away": {
+        "team_name": "MTV Stuttgart 3",
+        "players": [
+          {
+            "name": "Ben Kamer",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Christian Hurich",
+            "goals": 2,
+            "two_min_penalties": 1,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Leon M\u00fchleck",
+            "goals": 3,
+            "two_min_penalties": 1,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 2,
+            "seven_meters_goals": 1
+          },
+          {
+            "name": "Raphael Ousman-Daouda",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Moritz Loidold",
+            "goals": 1,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Ben Grippenkoven",
+            "goals": 4,
+            "two_min_penalties": 1,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Laurids Gramlich",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Dominik Mattes",
+            "goals": 4,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 4,
+            "seven_meters_goals": 3
+          },
+          {
+            "name": "Matthias Stahl",
+            "goals": 2,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Jarnail Multani",
+            "goals": 4,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Alexander Betz",
+            "goals": 3,
+            "two_min_penalties": 0,
+            "yellow_cards": 1,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Jonas Haller",
+            "goals": 1,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Daniel Desgronte",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Philipp Schiffbauer",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          }
+        ]
+      },
+      "goals_timeline": [
+        {
+          "minute": 2,
+          "second": 4,
+          "scorer": "Lars Libuda",
+          "team": "home",
+          "team_abbrev": "SV Leonb/Elt 3",
+          "seven_meter": false
+        },
+        {
+          "minute": 3,
+          "second": 29,
+          "scorer": "Christian Hurich",
+          "team": "away",
+          "team_abbrev": "MTV Stuttgart 3",
+          "seven_meter": false
+        },
+        {
+          "minute": 3,
+          "second": 37,
+          "scorer": "Maximilian Spindler",
+          "team": "home",
+          "team_abbrev": "SV Leonb/Elt 3",
+          "seven_meter": false
+        },
+        {
+          "minute": 3,
+          "second": 59,
+          "scorer": "Ben Grippenkoven",
+          "team": "away",
+          "team_abbrev": "MTV Stuttgart 3",
+          "seven_meter": false
+        },
+        {
+          "minute": 4,
+          "second": 9,
+          "scorer": "Lars Libuda",
+          "team": "home",
+          "team_abbrev": "SV Leonb/Elt 3",
+          "seven_meter": false
+        },
+        {
+          "minute": 5,
+          "second": 2,
+          "scorer": "Carsten M\u00fcller",
+          "team": "home",
+          "team_abbrev": "SV Leonb/Elt 3",
+          "seven_meter": false
+        },
+        {
+          "minute": 6,
+          "second": 16,
+          "scorer": "Andreas Hofs\u00e4\u00df",
+          "team": "home",
+          "team_abbrev": "SV Leonb/Elt 3",
+          "seven_meter": false
+        },
+        {
+          "minute": 7,
+          "second": 16,
+          "scorer": "Alexander Betz",
+          "team": "away",
+          "team_abbrev": "MTV Stuttgart 3",
+          "seven_meter": false
+        },
+        {
+          "minute": 7,
+          "second": 24,
+          "scorer": "Andreas Hofs\u00e4\u00df",
+          "team": "home",
+          "team_abbrev": "SV Leonb/Elt 3",
+          "seven_meter": false
+        },
+        {
+          "minute": 9,
+          "second": 3,
+          "scorer": "Moritz Loidold",
+          "team": "away",
+          "team_abbrev": "MTV Stuttgart 3",
+          "seven_meter": false
+        },
+        {
+          "minute": 9,
+          "second": 40,
+          "scorer": "Lars Libuda",
+          "team": "home",
+          "team_abbrev": "SV Leonb/Elt 3",
+          "seven_meter": false
+        },
+        {
+          "minute": 10,
+          "second": 14,
+          "scorer": "Jonas Haller",
+          "team": "away",
+          "team_abbrev": "MTV Stuttgart 3",
+          "seven_meter": false
+        },
+        {
+          "minute": 11,
+          "second": 17,
+          "scorer": "Carsten M\u00fcller",
+          "team": "home",
+          "team_abbrev": "SV Leonb/Elt 3",
+          "seven_meter": true
+        },
+        {
+          "minute": 11,
+          "second": 39,
+          "scorer": "Alexander Betz",
+          "team": "away",
+          "team_abbrev": "MTV Stuttgart 3",
+          "seven_meter": false
+        },
+        {
+          "minute": 11,
+          "second": 58,
+          "scorer": "Andreas Hofs\u00e4\u00df",
+          "team": "home",
+          "team_abbrev": "SV Leonb/Elt 3",
+          "seven_meter": false
+        },
+        {
+          "minute": 12,
+          "second": 18,
+          "scorer": "Ben Grippenkoven",
+          "team": "away",
+          "team_abbrev": "MTV Stuttgart 3",
+          "seven_meter": false
+        },
+        {
+          "minute": 13,
+          "second": 11,
+          "scorer": "Alexander Betz",
+          "team": "away",
+          "team_abbrev": "MTV Stuttgart 3",
+          "seven_meter": false
+        },
+        {
+          "minute": 14,
+          "second": 48,
+          "scorer": "Lars Libuda",
+          "team": "home",
+          "team_abbrev": "SV Leonb/Elt 3",
+          "seven_meter": false
+        },
+        {
+          "minute": 18,
+          "second": 10,
+          "scorer": "Dominik Mattes",
+          "team": "away",
+          "team_abbrev": "MTV Stuttgart 3",
+          "seven_meter": true
+        },
+        {
+          "minute": 18,
+          "second": 25,
+          "scorer": "Tom Hanselmann",
+          "team": "home",
+          "team_abbrev": "SV Leonb/Elt 3",
+          "seven_meter": false
+        },
+        {
+          "minute": 20,
+          "second": 46,
+          "scorer": "Dominik Mattes",
+          "team": "away",
+          "team_abbrev": "MTV Stuttgart 3",
+          "seven_meter": true
+        },
+        {
+          "minute": 22,
+          "second": 4,
+          "scorer": "Andreas Hofs\u00e4\u00df",
+          "team": "home",
+          "team_abbrev": "SV Leonb/Elt 3",
+          "seven_meter": false
+        },
+        {
+          "minute": 23,
+          "second": 39,
+          "scorer": "Leon M\u00fchleck",
+          "team": "away",
+          "team_abbrev": "MTV Stuttgart 3",
+          "seven_meter": false
+        },
+        {
+          "minute": 27,
+          "second": 17,
+          "scorer": "Andreas Hofs\u00e4\u00df",
+          "team": "home",
+          "team_abbrev": "SV Leonb/Elt 3",
+          "seven_meter": false
+        },
+        {
+          "minute": 29,
+          "second": 36,
+          "scorer": "Dominik Mattes",
+          "team": "away",
+          "team_abbrev": "MTV Stuttgart 3",
+          "seven_meter": false
+        },
+        {
+          "minute": 31,
+          "second": 2,
+          "scorer": "Dominik Mattes",
+          "team": "away",
+          "team_abbrev": "MTV Stuttgart 3",
+          "seven_meter": true
+        },
+        {
+          "minute": 32,
+          "second": 26,
+          "scorer": "Christian Hurich",
+          "team": "away",
+          "team_abbrev": "MTV Stuttgart 3",
+          "seven_meter": false
+        },
+        {
+          "minute": 34,
+          "second": 58,
+          "scorer": "Carsten M\u00fcller",
+          "team": "home",
+          "team_abbrev": "SV Leonb/Elt 3",
+          "seven_meter": true
+        },
+        {
+          "minute": 35,
+          "second": 54,
+          "scorer": "Andreas Hofs\u00e4\u00df",
+          "team": "home",
+          "team_abbrev": "SV Leonb/Elt 3",
+          "seven_meter": true
+        },
+        {
+          "minute": 37,
+          "second": 0,
+          "scorer": "Christoph Straub",
+          "team": "home",
+          "team_abbrev": "SV Leonb/Elt 3",
+          "seven_meter": false
+        },
+        {
+          "minute": 37,
+          "second": 42,
+          "scorer": "Jarnail Multani",
+          "team": "away",
+          "team_abbrev": "MTV Stuttgart 3",
+          "seven_meter": false
+        },
+        {
+          "minute": 38,
+          "second": 28,
+          "scorer": "Carsten M\u00fcller",
+          "team": "home",
+          "team_abbrev": "SV Leonb/Elt 3",
+          "seven_meter": true
+        },
+        {
+          "minute": 40,
+          "second": 32,
+          "scorer": "Leon M\u00fchleck",
+          "team": "away",
+          "team_abbrev": "MTV Stuttgart 3",
+          "seven_meter": false
+        },
+        {
+          "minute": 41,
+          "second": 31,
+          "scorer": "Carsten M\u00fcller",
+          "team": "home",
+          "team_abbrev": "SV Leonb/Elt 3",
+          "seven_meter": true
+        },
+        {
+          "minute": 42,
+          "second": 42,
+          "scorer": "Carsten M\u00fcller",
+          "team": "home",
+          "team_abbrev": "SV Leonb/Elt 3",
+          "seven_meter": false
+        },
+        {
+          "minute": 43,
+          "second": 7,
+          "scorer": "Ben Grippenkoven",
+          "team": "away",
+          "team_abbrev": "MTV Stuttgart 3",
+          "seven_meter": false
+        },
+        {
+          "minute": 44,
+          "second": 16,
+          "scorer": "Carsten M\u00fcller",
+          "team": "home",
+          "team_abbrev": "SV Leonb/Elt 3",
+          "seven_meter": false
+        },
+        {
+          "minute": 44,
+          "second": 49,
+          "scorer": "Ben Grippenkoven",
+          "team": "away",
+          "team_abbrev": "MTV Stuttgart 3",
+          "seven_meter": false
+        },
+        {
+          "minute": 45,
+          "second": 44,
+          "scorer": "Matthias Stahl",
+          "team": "away",
+          "team_abbrev": "MTV Stuttgart 3",
+          "seven_meter": false
+        },
+        {
+          "minute": 46,
+          "second": 14,
+          "scorer": "Tom Hanselmann",
+          "team": "home",
+          "team_abbrev": "SV Leonb/Elt 3",
+          "seven_meter": false
+        },
+        {
+          "minute": 47,
+          "second": 15,
+          "scorer": "Leon M\u00fchleck",
+          "team": "away",
+          "team_abbrev": "MTV Stuttgart 3",
+          "seven_meter": true
+        },
+        {
+          "minute": 47,
+          "second": 49,
+          "scorer": "Tom Hanselmann",
+          "team": "home",
+          "team_abbrev": "SV Leonb/Elt 3",
+          "seven_meter": false
+        },
+        {
+          "minute": 48,
+          "second": 12,
+          "scorer": "Matthias Stahl",
+          "team": "away",
+          "team_abbrev": "MTV Stuttgart 3",
+          "seven_meter": false
+        },
+        {
+          "minute": 49,
+          "second": 58,
+          "scorer": "Lars Libuda",
+          "team": "home",
+          "team_abbrev": "SV Leonb/Elt 3",
+          "seven_meter": false
+        },
+        {
+          "minute": 52,
+          "second": 21,
+          "scorer": "Jarnail Multani",
+          "team": "away",
+          "team_abbrev": "MTV Stuttgart 3",
+          "seven_meter": false
+        },
+        {
+          "minute": 52,
+          "second": 48,
+          "scorer": "Andreas Hofs\u00e4\u00df",
+          "team": "home",
+          "team_abbrev": "SV Leonb/Elt 3",
+          "seven_meter": false
+        },
+        {
+          "minute": 55,
+          "second": 22,
+          "scorer": "Carsten M\u00fcller",
+          "team": "home",
+          "team_abbrev": "SV Leonb/Elt 3",
+          "seven_meter": true
+        },
+        {
+          "minute": 57,
+          "second": 23,
+          "scorer": "Jarnail Multani",
+          "team": "away",
+          "team_abbrev": "MTV Stuttgart 3",
+          "seven_meter": false
+        },
+        {
+          "minute": 58,
+          "second": 14,
+          "scorer": "Andreas Hofs\u00e4\u00df",
+          "team": "home",
+          "team_abbrev": "SV Leonb/Elt 3",
+          "seven_meter": false
+        },
+        {
+          "minute": 59,
+          "second": 24,
+          "scorer": "Andreas Hofs\u00e4\u00df",
+          "team": "home",
+          "team_abbrev": "SV Leonb/Elt 3",
+          "seven_meter": false
+        },
+        {
+          "minute": 60,
+          "second": 0,
+          "scorer": "Jarnail Multani",
+          "team": "away",
+          "team_abbrev": "MTV Stuttgart 3",
+          "seven_meter": false
+        }
+      ],
+      "final_score": "27:24",
+      "half_duration": 30,
+      "officials": {
+        "referees": [
+          "Philipp Scholz"
+        ],
+        "timekeepers": [
+          "Luka Birmanac"
+        ],
+        "secretaries": [
+          "Nicolay Scherrer"
+        ]
+      },
+      "graphic_path": "output/graphics/SV_Leonberg_Eltingen_vs_MTV_Stuttgart_3_Sa_1104.png"
+    }
+  ]
+}

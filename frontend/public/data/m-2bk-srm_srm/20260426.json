@@ -1,0 +1,834 @@
+{
+  "date": "20260426",
+  "games": [
+    {
+      "game_id": "handball4all.baden-wuerttemberg.8779912",
+      "order": 84,
+      "date": "Su, 26.04.",
+      "home": {
+        "team_name": "HC Winnenden 4",
+        "players": [
+          {
+            "name": "Marc Antonio Gionfriddo",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Marius B\u00f6ttle",
+            "goals": 2,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Simon Oberle",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Paul Klink",
+            "goals": 5,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Etienne Seibert",
+            "goals": 1,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Marian Lierheimer",
+            "goals": 5,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Aaron Zin\u00dfer",
+            "goals": 2,
+            "two_min_penalties": 1,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 1,
+            "seven_meters_goals": 1
+          },
+          {
+            "name": "Silas Hermann",
+            "goals": 7,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Henrik Klein",
+            "goals": 1,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Adrian Schulze",
+            "goals": 3,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Felix Lachenmaier",
+            "goals": 8,
+            "two_min_penalties": 0,
+            "yellow_cards": 1,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Philipp Kunath",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Nikola Ilic",
+            "goals": 6,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Maki Peinirtzorlou",
+            "goals": 1,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Robin Kral",
+            "goals": 5,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          }
+        ]
+      },
+      "away": {
+        "team_name": "HSG Oberer Neckar 2",
+        "players": [
+          {
+            "name": "Tom Blattner",
+            "goals": 3,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Till Knauke",
+            "goals": 4,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Sebastian Klotz",
+            "goals": 1,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Tobias K\u00f6nig",
+            "goals": 2,
+            "two_min_penalties": 0,
+            "yellow_cards": 1,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Fabian Zimmermann",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Benedikt Ringler",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Marc Bayer",
+            "goals": 4,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Julian Rattinger",
+            "goals": 5,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 3,
+            "seven_meters_goals": 2
+          },
+          {
+            "name": "Jakob Ringler",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Malte Stein",
+            "goals": 1,
+            "two_min_penalties": 1,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Magnus B\u00fchler",
+            "goals": 0,
+            "two_min_penalties": 1,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Marijan Vukovic",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          }
+        ]
+      },
+      "goals_timeline": [
+        {
+          "minute": 0,
+          "second": 38,
+          "scorer": "Marian Lierheimer",
+          "team": "home",
+          "team_abbrev": "HC Winnenden 4",
+          "seven_meter": false
+        },
+        {
+          "minute": 1,
+          "second": 8,
+          "scorer": "Till Knauke",
+          "team": "away",
+          "team_abbrev": "HSG Ob. Neckar 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 4,
+          "second": 7,
+          "scorer": "Nikola Ilic",
+          "team": "home",
+          "team_abbrev": "HC Winnenden 4",
+          "seven_meter": false
+        },
+        {
+          "minute": 4,
+          "second": 54,
+          "scorer": "Marius B\u00f6ttle",
+          "team": "home",
+          "team_abbrev": "HC Winnenden 4",
+          "seven_meter": false
+        },
+        {
+          "minute": 6,
+          "second": 19,
+          "scorer": "Till Knauke",
+          "team": "away",
+          "team_abbrev": "HSG Ob. Neckar 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 6,
+          "second": 38,
+          "scorer": "Nikola Ilic",
+          "team": "home",
+          "team_abbrev": "HC Winnenden 4",
+          "seven_meter": false
+        },
+        {
+          "minute": 6,
+          "second": 50,
+          "scorer": "Felix Lachenmaier",
+          "team": "home",
+          "team_abbrev": "HC Winnenden 4",
+          "seven_meter": false
+        },
+        {
+          "minute": 7,
+          "second": 12,
+          "scorer": "Till Knauke",
+          "team": "away",
+          "team_abbrev": "HSG Ob. Neckar 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 8,
+          "second": 10,
+          "scorer": "Marc Bayer",
+          "team": "away",
+          "team_abbrev": "HSG Ob. Neckar 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 11,
+          "second": 9,
+          "scorer": "Felix Lachenmaier",
+          "team": "home",
+          "team_abbrev": "HC Winnenden 4",
+          "seven_meter": false
+        },
+        {
+          "minute": 12,
+          "second": 19,
+          "scorer": "Marian Lierheimer",
+          "team": "home",
+          "team_abbrev": "HC Winnenden 4",
+          "seven_meter": false
+        },
+        {
+          "minute": 13,
+          "second": 0,
+          "scorer": "Felix Lachenmaier",
+          "team": "home",
+          "team_abbrev": "HC Winnenden 4",
+          "seven_meter": false
+        },
+        {
+          "minute": 14,
+          "second": 3,
+          "scorer": "Nikola Ilic",
+          "team": "home",
+          "team_abbrev": "HC Winnenden 4",
+          "seven_meter": false
+        },
+        {
+          "minute": 14,
+          "second": 43,
+          "scorer": "Julian Rattinger",
+          "team": "away",
+          "team_abbrev": "HSG Ob. Neckar 2",
+          "seven_meter": true
+        },
+        {
+          "minute": 15,
+          "second": 5,
+          "scorer": "Paul Klink",
+          "team": "home",
+          "team_abbrev": "HC Winnenden 4",
+          "seven_meter": false
+        },
+        {
+          "minute": 16,
+          "second": 28,
+          "scorer": "Paul Klink",
+          "team": "home",
+          "team_abbrev": "HC Winnenden 4",
+          "seven_meter": false
+        },
+        {
+          "minute": 17,
+          "second": 6,
+          "scorer": "Silas Hermann",
+          "team": "home",
+          "team_abbrev": "HC Winnenden 4",
+          "seven_meter": false
+        },
+        {
+          "minute": 18,
+          "second": 33,
+          "scorer": "Paul Klink",
+          "team": "home",
+          "team_abbrev": "HC Winnenden 4",
+          "seven_meter": false
+        },
+        {
+          "minute": 19,
+          "second": 25,
+          "scorer": "Silas Hermann",
+          "team": "home",
+          "team_abbrev": "HC Winnenden 4",
+          "seven_meter": false
+        },
+        {
+          "minute": 19,
+          "second": 57,
+          "scorer": "Robin Kral",
+          "team": "home",
+          "team_abbrev": "HC Winnenden 4",
+          "seven_meter": false
+        },
+        {
+          "minute": 20,
+          "second": 32,
+          "scorer": "Marc Bayer",
+          "team": "away",
+          "team_abbrev": "HSG Ob. Neckar 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 20,
+          "second": 52,
+          "scorer": "Silas Hermann",
+          "team": "home",
+          "team_abbrev": "HC Winnenden 4",
+          "seven_meter": false
+        },
+        {
+          "minute": 21,
+          "second": 55,
+          "scorer": "Till Knauke",
+          "team": "away",
+          "team_abbrev": "HSG Ob. Neckar 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 22,
+          "second": 19,
+          "scorer": "Paul Klink",
+          "team": "home",
+          "team_abbrev": "HC Winnenden 4",
+          "seven_meter": false
+        },
+        {
+          "minute": 23,
+          "second": 53,
+          "scorer": "Paul Klink",
+          "team": "home",
+          "team_abbrev": "HC Winnenden 4",
+          "seven_meter": false
+        },
+        {
+          "minute": 25,
+          "second": 6,
+          "scorer": "Marc Bayer",
+          "team": "away",
+          "team_abbrev": "HSG Ob. Neckar 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 25,
+          "second": 25,
+          "scorer": "Maki Peinirtzorlou",
+          "team": "home",
+          "team_abbrev": "HC Winnenden 4",
+          "seven_meter": false
+        },
+        {
+          "minute": 26,
+          "second": 10,
+          "scorer": "Silas Hermann",
+          "team": "home",
+          "team_abbrev": "HC Winnenden 4",
+          "seven_meter": false
+        },
+        {
+          "minute": 26,
+          "second": 46,
+          "scorer": "Robin Kral",
+          "team": "home",
+          "team_abbrev": "HC Winnenden 4",
+          "seven_meter": false
+        },
+        {
+          "minute": 28,
+          "second": 23,
+          "scorer": "Sebastian Klotz",
+          "team": "away",
+          "team_abbrev": "HSG Ob. Neckar 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 30,
+          "second": 34,
+          "scorer": "Adrian Schulze",
+          "team": "home",
+          "team_abbrev": "HC Winnenden 4",
+          "seven_meter": false
+        },
+        {
+          "minute": 31,
+          "second": 52,
+          "scorer": "Felix Lachenmaier",
+          "team": "home",
+          "team_abbrev": "HC Winnenden 4",
+          "seven_meter": false
+        },
+        {
+          "minute": 33,
+          "second": 5,
+          "scorer": "Marian Lierheimer",
+          "team": "home",
+          "team_abbrev": "HC Winnenden 4",
+          "seven_meter": false
+        },
+        {
+          "minute": 34,
+          "second": 3,
+          "scorer": "Marian Lierheimer",
+          "team": "home",
+          "team_abbrev": "HC Winnenden 4",
+          "seven_meter": false
+        },
+        {
+          "minute": 34,
+          "second": 46,
+          "scorer": "Adrian Schulze",
+          "team": "home",
+          "team_abbrev": "HC Winnenden 4",
+          "seven_meter": false
+        },
+        {
+          "minute": 35,
+          "second": 28,
+          "scorer": "Marc Bayer",
+          "team": "away",
+          "team_abbrev": "HSG Ob. Neckar 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 36,
+          "second": 33,
+          "scorer": "Felix Lachenmaier",
+          "team": "home",
+          "team_abbrev": "HC Winnenden 4",
+          "seven_meter": false
+        },
+        {
+          "minute": 37,
+          "second": 28,
+          "scorer": "Aaron Zin\u00dfer",
+          "team": "home",
+          "team_abbrev": "HC Winnenden 4",
+          "seven_meter": false
+        },
+        {
+          "minute": 38,
+          "second": 17,
+          "scorer": "Tom Blattner",
+          "team": "away",
+          "team_abbrev": "HSG Ob. Neckar 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 39,
+          "second": 39,
+          "scorer": "Aaron Zin\u00dfer",
+          "team": "home",
+          "team_abbrev": "HC Winnenden 4",
+          "seven_meter": true
+        },
+        {
+          "minute": 40,
+          "second": 28,
+          "scorer": "Julian Rattinger",
+          "team": "away",
+          "team_abbrev": "HSG Ob. Neckar 2",
+          "seven_meter": true
+        },
+        {
+          "minute": 40,
+          "second": 53,
+          "scorer": "Marian Lierheimer",
+          "team": "home",
+          "team_abbrev": "HC Winnenden 4",
+          "seven_meter": false
+        },
+        {
+          "minute": 41,
+          "second": 21,
+          "scorer": "Julian Rattinger",
+          "team": "away",
+          "team_abbrev": "HSG Ob. Neckar 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 41,
+          "second": 48,
+          "scorer": "Nikola Ilic",
+          "team": "home",
+          "team_abbrev": "HC Winnenden 4",
+          "seven_meter": false
+        },
+        {
+          "minute": 42,
+          "second": 24,
+          "scorer": "Julian Rattinger",
+          "team": "away",
+          "team_abbrev": "HSG Ob. Neckar 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 43,
+          "second": 9,
+          "scorer": "Marius B\u00f6ttle",
+          "team": "home",
+          "team_abbrev": "HC Winnenden 4",
+          "seven_meter": false
+        },
+        {
+          "minute": 43,
+          "second": 56,
+          "scorer": "Nikola Ilic",
+          "team": "home",
+          "team_abbrev": "HC Winnenden 4",
+          "seven_meter": false
+        },
+        {
+          "minute": 45,
+          "second": 4,
+          "scorer": "Julian Rattinger",
+          "team": "away",
+          "team_abbrev": "HSG Ob. Neckar 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 46,
+          "second": 54,
+          "scorer": "Nikola Ilic",
+          "team": "home",
+          "team_abbrev": "HC Winnenden 4",
+          "seven_meter": false
+        },
+        {
+          "minute": 47,
+          "second": 40,
+          "scorer": "Felix Lachenmaier",
+          "team": "home",
+          "team_abbrev": "HC Winnenden 4",
+          "seven_meter": false
+        },
+        {
+          "minute": 47,
+          "second": 57,
+          "scorer": "Silas Hermann",
+          "team": "home",
+          "team_abbrev": "HC Winnenden 4",
+          "seven_meter": false
+        },
+        {
+          "minute": 49,
+          "second": 16,
+          "scorer": "Silas Hermann",
+          "team": "home",
+          "team_abbrev": "HC Winnenden 4",
+          "seven_meter": false
+        },
+        {
+          "minute": 49,
+          "second": 46,
+          "scorer": "Henrik Klein",
+          "team": "home",
+          "team_abbrev": "HC Winnenden 4",
+          "seven_meter": false
+        },
+        {
+          "minute": 50,
+          "second": 39,
+          "scorer": "Tom Blattner",
+          "team": "away",
+          "team_abbrev": "HSG Ob. Neckar 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 50,
+          "second": 39,
+          "scorer": "Malte Stein",
+          "team": "away",
+          "team_abbrev": "HSG Ob. Neckar 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 51,
+          "second": 3,
+          "scorer": "Robin Kral",
+          "team": "home",
+          "team_abbrev": "HC Winnenden 4",
+          "seven_meter": false
+        },
+        {
+          "minute": 51,
+          "second": 50,
+          "scorer": "Robin Kral",
+          "team": "home",
+          "team_abbrev": "HC Winnenden 4",
+          "seven_meter": false
+        },
+        {
+          "minute": 53,
+          "second": 3,
+          "scorer": "Felix Lachenmaier",
+          "team": "home",
+          "team_abbrev": "HC Winnenden 4",
+          "seven_meter": false
+        },
+        {
+          "minute": 54,
+          "second": 2,
+          "scorer": "Robin Kral",
+          "team": "home",
+          "team_abbrev": "HC Winnenden 4",
+          "seven_meter": false
+        },
+        {
+          "minute": 55,
+          "second": 6,
+          "scorer": "Felix Lachenmaier",
+          "team": "home",
+          "team_abbrev": "HC Winnenden 4",
+          "seven_meter": false
+        },
+        {
+          "minute": 55,
+          "second": 29,
+          "scorer": "Tobias K\u00f6nig",
+          "team": "away",
+          "team_abbrev": "HSG Ob. Neckar 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 56,
+          "second": 12,
+          "scorer": "Silas Hermann",
+          "team": "home",
+          "team_abbrev": "HC Winnenden 4",
+          "seven_meter": false
+        },
+        {
+          "minute": 57,
+          "second": 0,
+          "scorer": "Tobias K\u00f6nig",
+          "team": "away",
+          "team_abbrev": "HSG Ob. Neckar 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 58,
+          "second": 36,
+          "scorer": "Adrian Schulze",
+          "team": "home",
+          "team_abbrev": "HC Winnenden 4",
+          "seven_meter": false
+        },
+        {
+          "minute": 59,
+          "second": 20,
+          "scorer": "Etienne Seibert",
+          "team": "home",
+          "team_abbrev": "HC Winnenden 4",
+          "seven_meter": false
+        },
+        {
+          "minute": 59,
+          "second": 53,
+          "scorer": "Tom Blattner",
+          "team": "away",
+          "team_abbrev": "HSG Ob. Neckar 2",
+          "seven_meter": false
+        }
+      ],
+      "final_score": "46:20",
+      "half_duration": 30,
+      "officials": {
+        "referees": [
+          "Raffael St\u00f6lzle"
+        ],
+        "timekeepers": [
+          "Lindsey G\u00fcnther"
+        ],
+        "secretaries": [
+          "Lena Schulze"
+        ]
+      },
+      "graphic_path": "output/graphics/HC_Winnenden_4_vs_HSG_Oberer_Neckar_2_Su_2604.png"
+    }
+  ]
+}

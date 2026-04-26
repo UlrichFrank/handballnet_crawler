@@ -1,0 +1,772 @@
+{
+  "date": "20251130",
+  "games": [
+    {
+      "game_id": "handball4all.baden-wuerttemberg.8779712",
+      "order": 39,
+      "date": "So, 30.11.",
+      "home": {
+        "team_name": "SV Leonberg/Eltingen 3",
+        "players": [
+          {
+            "name": "Fabian Schlatermund",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Maximilian Spindler",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Tom Hanselmann",
+            "goals": 5,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Jannik Trinks",
+            "goals": 1,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Markus Weber",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Carsten M\u00fcller",
+            "goals": 3,
+            "two_min_penalties": 1,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 2,
+            "seven_meters_goals": 2
+          },
+          {
+            "name": "Christoph Straub",
+            "goals": 1,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Christian Arndt",
+            "goals": 2,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 1,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Lars Libuda",
+            "goals": 9,
+            "two_min_penalties": 1,
+            "yellow_cards": 1,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 2,
+            "seven_meters_goals": 2
+          },
+          {
+            "name": "Luca Berner",
+            "goals": 3,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Marco Levin Maier",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Jakob Enzian",
+            "goals": 7,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          }
+        ]
+      },
+      "away": {
+        "team_name": "TSV Alfdorf/Lorch/Waldhausen 3",
+        "players": [
+          {
+            "name": "Philipp Wendisch",
+            "goals": 1,
+            "two_min_penalties": 0,
+            "yellow_cards": 1,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Maik Bareiss",
+            "goals": 3,
+            "two_min_penalties": 1,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Bennet Klenk",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Julian Pretzler",
+            "goals": 2,
+            "two_min_penalties": 1,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Christian Kolb",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Josip Nanz",
+            "goals": 4,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Alexander Pretzler",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Johannes J\u00e4ger",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Jonas Saller",
+            "goals": 3,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Benedikt Baur",
+            "goals": 2,
+            "two_min_penalties": 1,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Lukas Egger",
+            "goals": 14,
+            "two_min_penalties": 1,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 6,
+            "seven_meters_goals": 5
+          },
+          {
+            "name": "Tim Kordulla",
+            "goals": 2,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          }
+        ]
+      },
+      "goals_timeline": [
+        {
+          "minute": 1,
+          "second": 6,
+          "scorer": "Lukas Egger",
+          "team": "home",
+          "team_abbrev": "TSV ALLOWA 3",
+          "seven_meter": false
+        },
+        {
+          "minute": 2,
+          "second": 42,
+          "scorer": "Lars Libuda",
+          "team": "away",
+          "team_abbrev": "SV Leonb/Elt 3",
+          "seven_meter": false
+        },
+        {
+          "minute": 3,
+          "second": 24,
+          "scorer": "Lukas Egger",
+          "team": "home",
+          "team_abbrev": "TSV ALLOWA 3",
+          "seven_meter": false
+        },
+        {
+          "minute": 4,
+          "second": 40,
+          "scorer": "Lars Libuda",
+          "team": "away",
+          "team_abbrev": "SV Leonb/Elt 3",
+          "seven_meter": false
+        },
+        {
+          "minute": 5,
+          "second": 22,
+          "scorer": "Christian Arndt",
+          "team": "away",
+          "team_abbrev": "SV Leonb/Elt 3",
+          "seven_meter": false
+        },
+        {
+          "minute": 6,
+          "second": 26,
+          "scorer": "Christian Arndt",
+          "team": "away",
+          "team_abbrev": "SV Leonb/Elt 3",
+          "seven_meter": false
+        },
+        {
+          "minute": 6,
+          "second": 56,
+          "scorer": "Lukas Egger",
+          "team": "home",
+          "team_abbrev": "TSV ALLOWA 3",
+          "seven_meter": true
+        },
+        {
+          "minute": 7,
+          "second": 39,
+          "scorer": "Julian Pretzler",
+          "team": "home",
+          "team_abbrev": "TSV ALLOWA 3",
+          "seven_meter": false
+        },
+        {
+          "minute": 11,
+          "second": 41,
+          "scorer": "Josip Nanz",
+          "team": "home",
+          "team_abbrev": "TSV ALLOWA 3",
+          "seven_meter": false
+        },
+        {
+          "minute": 13,
+          "second": 38,
+          "scorer": "Maik Bareiss",
+          "team": "home",
+          "team_abbrev": "TSV ALLOWA 3",
+          "seven_meter": false
+        },
+        {
+          "minute": 14,
+          "second": 43,
+          "scorer": "Lars Libuda",
+          "team": "away",
+          "team_abbrev": "SV Leonb/Elt 3",
+          "seven_meter": false
+        },
+        {
+          "minute": 15,
+          "second": 38,
+          "scorer": "Lukas Egger",
+          "team": "home",
+          "team_abbrev": "TSV ALLOWA 3",
+          "seven_meter": true
+        },
+        {
+          "minute": 15,
+          "second": 51,
+          "scorer": "Lars Libuda",
+          "team": "away",
+          "team_abbrev": "SV Leonb/Elt 3",
+          "seven_meter": false
+        },
+        {
+          "minute": 17,
+          "second": 22,
+          "scorer": "Lukas Egger",
+          "team": "home",
+          "team_abbrev": "TSV ALLOWA 3",
+          "seven_meter": true
+        },
+        {
+          "minute": 19,
+          "second": 12,
+          "scorer": "Tom Hanselmann",
+          "team": "away",
+          "team_abbrev": "SV Leonb/Elt 3",
+          "seven_meter": false
+        },
+        {
+          "minute": 19,
+          "second": 22,
+          "scorer": "Benedikt Baur",
+          "team": "home",
+          "team_abbrev": "TSV ALLOWA 3",
+          "seven_meter": false
+        },
+        {
+          "minute": 20,
+          "second": 44,
+          "scorer": "Benedikt Baur",
+          "team": "home",
+          "team_abbrev": "TSV ALLOWA 3",
+          "seven_meter": false
+        },
+        {
+          "minute": 21,
+          "second": 21,
+          "scorer": "Lukas Egger",
+          "team": "home",
+          "team_abbrev": "TSV ALLOWA 3",
+          "seven_meter": false
+        },
+        {
+          "minute": 21,
+          "second": 44,
+          "scorer": "Tom Hanselmann",
+          "team": "away",
+          "team_abbrev": "SV Leonb/Elt 3",
+          "seven_meter": false
+        },
+        {
+          "minute": 22,
+          "second": 3,
+          "scorer": "Jakob Enzian",
+          "team": "away",
+          "team_abbrev": "SV Leonb/Elt 3",
+          "seven_meter": false
+        },
+        {
+          "minute": 22,
+          "second": 32,
+          "scorer": "Tim Kordulla",
+          "team": "home",
+          "team_abbrev": "TSV ALLOWA 3",
+          "seven_meter": false
+        },
+        {
+          "minute": 23,
+          "second": 14,
+          "scorer": "Tom Hanselmann",
+          "team": "away",
+          "team_abbrev": "SV Leonb/Elt 3",
+          "seven_meter": false
+        },
+        {
+          "minute": 24,
+          "second": 3,
+          "scorer": "Lukas Egger",
+          "team": "home",
+          "team_abbrev": "TSV ALLOWA 3",
+          "seven_meter": false
+        },
+        {
+          "minute": 24,
+          "second": 16,
+          "scorer": "Lars Libuda",
+          "team": "away",
+          "team_abbrev": "SV Leonb/Elt 3",
+          "seven_meter": false
+        },
+        {
+          "minute": 25,
+          "second": 13,
+          "scorer": "Luca Berner",
+          "team": "away",
+          "team_abbrev": "SV Leonb/Elt 3",
+          "seven_meter": false
+        },
+        {
+          "minute": 25,
+          "second": 37,
+          "scorer": "Jannik Trinks",
+          "team": "away",
+          "team_abbrev": "SV Leonb/Elt 3",
+          "seven_meter": false
+        },
+        {
+          "minute": 26,
+          "second": 17,
+          "scorer": "Jakob Enzian",
+          "team": "away",
+          "team_abbrev": "SV Leonb/Elt 3",
+          "seven_meter": false
+        },
+        {
+          "minute": 27,
+          "second": 13,
+          "scorer": "Lukas Egger",
+          "team": "home",
+          "team_abbrev": "TSV ALLOWA 3",
+          "seven_meter": false
+        },
+        {
+          "minute": 27,
+          "second": 25,
+          "scorer": "Jakob Enzian",
+          "team": "away",
+          "team_abbrev": "SV Leonb/Elt 3",
+          "seven_meter": false
+        },
+        {
+          "minute": 28,
+          "second": 37,
+          "scorer": "Lars Libuda",
+          "team": "away",
+          "team_abbrev": "SV Leonb/Elt 3",
+          "seven_meter": true
+        },
+        {
+          "minute": 29,
+          "second": 32,
+          "scorer": "Luca Berner",
+          "team": "away",
+          "team_abbrev": "SV Leonb/Elt 3",
+          "seven_meter": false
+        },
+        {
+          "minute": 34,
+          "second": 2,
+          "scorer": "Josip Nanz",
+          "team": "home",
+          "team_abbrev": "TSV ALLOWA 3",
+          "seven_meter": false
+        },
+        {
+          "minute": 34,
+          "second": 25,
+          "scorer": "Luca Berner",
+          "team": "away",
+          "team_abbrev": "SV Leonb/Elt 3",
+          "seven_meter": false
+        },
+        {
+          "minute": 35,
+          "second": 24,
+          "scorer": "Tom Hanselmann",
+          "team": "away",
+          "team_abbrev": "SV Leonb/Elt 3",
+          "seven_meter": false
+        },
+        {
+          "minute": 35,
+          "second": 54,
+          "scorer": "Lars Libuda",
+          "team": "away",
+          "team_abbrev": "SV Leonb/Elt 3",
+          "seven_meter": false
+        },
+        {
+          "minute": 36,
+          "second": 21,
+          "scorer": "Lukas Egger",
+          "team": "home",
+          "team_abbrev": "TSV ALLOWA 3",
+          "seven_meter": false
+        },
+        {
+          "minute": 36,
+          "second": 47,
+          "scorer": "Jakob Enzian",
+          "team": "away",
+          "team_abbrev": "SV Leonb/Elt 3",
+          "seven_meter": false
+        },
+        {
+          "minute": 37,
+          "second": 29,
+          "scorer": "Philipp Wendisch",
+          "team": "home",
+          "team_abbrev": "TSV ALLOWA 3",
+          "seven_meter": false
+        },
+        {
+          "minute": 39,
+          "second": 44,
+          "scorer": "Tim Kordulla",
+          "team": "home",
+          "team_abbrev": "TSV ALLOWA 3",
+          "seven_meter": false
+        },
+        {
+          "minute": 40,
+          "second": 5,
+          "scorer": "Tom Hanselmann",
+          "team": "away",
+          "team_abbrev": "SV Leonb/Elt 3",
+          "seven_meter": false
+        },
+        {
+          "minute": 40,
+          "second": 42,
+          "scorer": "Josip Nanz",
+          "team": "home",
+          "team_abbrev": "TSV ALLOWA 3",
+          "seven_meter": false
+        },
+        {
+          "minute": 42,
+          "second": 8,
+          "scorer": "Lukas Egger",
+          "team": "home",
+          "team_abbrev": "TSV ALLOWA 3",
+          "seven_meter": true
+        },
+        {
+          "minute": 42,
+          "second": 55,
+          "scorer": "Jakob Enzian",
+          "team": "away",
+          "team_abbrev": "SV Leonb/Elt 3",
+          "seven_meter": false
+        },
+        {
+          "minute": 43,
+          "second": 21,
+          "scorer": "Julian Pretzler",
+          "team": "home",
+          "team_abbrev": "TSV ALLOWA 3",
+          "seven_meter": false
+        },
+        {
+          "minute": 43,
+          "second": 45,
+          "scorer": "Lukas Egger",
+          "team": "home",
+          "team_abbrev": "TSV ALLOWA 3",
+          "seven_meter": false
+        },
+        {
+          "minute": 45,
+          "second": 32,
+          "scorer": "Josip Nanz",
+          "team": "home",
+          "team_abbrev": "TSV ALLOWA 3",
+          "seven_meter": false
+        },
+        {
+          "minute": 47,
+          "second": 0,
+          "scorer": "Lars Libuda",
+          "team": "away",
+          "team_abbrev": "SV Leonb/Elt 3",
+          "seven_meter": false
+        },
+        {
+          "minute": 49,
+          "second": 19,
+          "scorer": "Carsten M\u00fcller",
+          "team": "away",
+          "team_abbrev": "SV Leonb/Elt 3",
+          "seven_meter": false
+        },
+        {
+          "minute": 50,
+          "second": 34,
+          "scorer": "Jonas Saller",
+          "team": "home",
+          "team_abbrev": "TSV ALLOWA 3",
+          "seven_meter": false
+        },
+        {
+          "minute": 51,
+          "second": 31,
+          "scorer": "Jonas Saller",
+          "team": "home",
+          "team_abbrev": "TSV ALLOWA 3",
+          "seven_meter": false
+        },
+        {
+          "minute": 51,
+          "second": 48,
+          "scorer": "Lukas Egger",
+          "team": "home",
+          "team_abbrev": "TSV ALLOWA 3",
+          "seven_meter": false
+        },
+        {
+          "minute": 52,
+          "second": 15,
+          "scorer": "Lars Libuda",
+          "team": "away",
+          "team_abbrev": "SV Leonb/Elt 3",
+          "seven_meter": true
+        },
+        {
+          "minute": 53,
+          "second": 20,
+          "scorer": "Maik Bareiss",
+          "team": "home",
+          "team_abbrev": "TSV ALLOWA 3",
+          "seven_meter": false
+        },
+        {
+          "minute": 54,
+          "second": 59,
+          "scorer": "Carsten M\u00fcller",
+          "team": "away",
+          "team_abbrev": "SV Leonb/Elt 3",
+          "seven_meter": true
+        },
+        {
+          "minute": 55,
+          "second": 32,
+          "scorer": "Maik Bareiss",
+          "team": "home",
+          "team_abbrev": "TSV ALLOWA 3",
+          "seven_meter": false
+        },
+        {
+          "minute": 55,
+          "second": 42,
+          "scorer": "Jakob Enzian",
+          "team": "away",
+          "team_abbrev": "SV Leonb/Elt 3",
+          "seven_meter": false
+        },
+        {
+          "minute": 56,
+          "second": 14,
+          "scorer": "Jonas Saller",
+          "team": "home",
+          "team_abbrev": "TSV ALLOWA 3",
+          "seven_meter": false
+        },
+        {
+          "minute": 56,
+          "second": 41,
+          "scorer": "Carsten M\u00fcller",
+          "team": "away",
+          "team_abbrev": "SV Leonb/Elt 3",
+          "seven_meter": true
+        },
+        {
+          "minute": 57,
+          "second": 28,
+          "scorer": "Christoph Straub",
+          "team": "away",
+          "team_abbrev": "SV Leonb/Elt 3",
+          "seven_meter": false
+        },
+        {
+          "minute": 58,
+          "second": 27,
+          "scorer": "Lukas Egger",
+          "team": "home",
+          "team_abbrev": "TSV ALLOWA 3",
+          "seven_meter": true
+        },
+        {
+          "minute": 59,
+          "second": 38,
+          "scorer": "Lukas Egger",
+          "team": "home",
+          "team_abbrev": "TSV ALLOWA 3",
+          "seven_meter": false
+        },
+        {
+          "minute": 60,
+          "second": 0,
+          "scorer": "Jakob Enzian",
+          "team": "away",
+          "team_abbrev": "SV Leonb/Elt 3",
+          "seven_meter": false
+        }
+      ],
+      "final_score": "31:31",
+      "half_duration": 30,
+      "officials": {
+        "referees": [
+          "Julia P\u00fcngel"
+        ],
+        "timekeepers": [
+          "Melanie Glaser"
+        ],
+        "secretaries": [
+          "Patricia Ahlborn"
+        ]
+      },
+      "graphic_path": "output/graphics/SV_Leonberg_Eltingen_vs_TSV_Alfdorf_Lorch_Wa_So_3011.png"
+    }
+  ]
+}

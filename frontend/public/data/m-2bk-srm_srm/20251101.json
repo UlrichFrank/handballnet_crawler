@@ -1,0 +1,690 @@
+{
+  "date": "20251101",
+  "games": [
+    {
+      "game_id": "handball4all.baden-wuerttemberg.8779787",
+      "order": 23,
+      "date": "Sa, 01.11.",
+      "home": {
+        "team_name": "HSG Sulzbach-Murrhardt 2",
+        "players": [
+          {
+            "name": "Max Lang",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "N.N. N.N.",
+            "goals": 5,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Kevin Kander",
+            "goals": 2,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 1,
+            "seven_meters_goals": 1
+          },
+          {
+            "name": "Marcel Franco Olias",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Noah Lenz",
+            "goals": 3,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 3,
+            "seven_meters_goals": 1
+          },
+          {
+            "name": "Florian Traub",
+            "goals": 1,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Tom-Erik Dusch",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Philipp Munz",
+            "goals": 1,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 1,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Tolga Resimoglou",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Tobias Gruber",
+            "goals": 7,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 1,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Renat Habibullin",
+            "goals": 3,
+            "two_min_penalties": 2,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 2,
+            "seven_meters_goals": 2
+          },
+          {
+            "name": "Jannis Kircher",
+            "goals": 4,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          }
+        ]
+      },
+      "away": {
+        "team_name": "TSV Alfdorf/Lorch/Waldhausen 3",
+        "players": [
+          {
+            "name": "Philipp Wendisch",
+            "goals": 2,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Tim Kordulla",
+            "goals": 3,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Vincent Specht",
+            "goals": 8,
+            "two_min_penalties": 0,
+            "yellow_cards": 1,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 2,
+            "seven_meters_goals": 2
+          },
+          {
+            "name": "Alexander Pretzler",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Julian Pretzler",
+            "goals": 5,
+            "two_min_penalties": 0,
+            "yellow_cards": 1,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 5,
+            "seven_meters_goals": 4
+          },
+          {
+            "name": "Alexander Wahl",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Josip Nanz",
+            "goals": 4,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Johannes J\u00e4ger",
+            "goals": 5,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Jens Heinzelmann",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Benedikt Baur",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Christian Kolb",
+            "goals": 0,
+            "two_min_penalties": 1,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          }
+        ]
+      },
+      "goals_timeline": [
+        {
+          "minute": 2,
+          "second": 53,
+          "scorer": "Johannes J\u00e4ger",
+          "team": "home",
+          "team_abbrev": "TSV ALLOWA 3",
+          "seven_meter": false
+        },
+        {
+          "minute": 3,
+          "second": 35,
+          "scorer": "Philipp Wendisch",
+          "team": "home",
+          "team_abbrev": "TSV ALLOWA 3",
+          "seven_meter": false
+        },
+        {
+          "minute": 4,
+          "second": 15,
+          "scorer": "Tobias Gruber",
+          "team": "away",
+          "team_abbrev": "HSG Sulz-Murr 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 6,
+          "second": 11,
+          "scorer": "Johannes J\u00e4ger",
+          "team": "home",
+          "team_abbrev": "TSV ALLOWA 3",
+          "seven_meter": false
+        },
+        {
+          "minute": 6,
+          "second": 22,
+          "scorer": "Leon Oehl",
+          "team": "away",
+          "team_abbrev": "HSG Sulz-Murr 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 6,
+          "second": 54,
+          "scorer": "Julian Pretzler",
+          "team": "home",
+          "team_abbrev": "TSV ALLOWA 3",
+          "seven_meter": true
+        },
+        {
+          "minute": 7,
+          "second": 37,
+          "scorer": "Noah Lenz",
+          "team": "away",
+          "team_abbrev": "HSG Sulz-Murr 2",
+          "seven_meter": true
+        },
+        {
+          "minute": 8,
+          "second": 6,
+          "scorer": "Julian Pretzler",
+          "team": "home",
+          "team_abbrev": "TSV ALLOWA 3",
+          "seven_meter": true
+        },
+        {
+          "minute": 9,
+          "second": 45,
+          "scorer": "Josip Nanz",
+          "team": "home",
+          "team_abbrev": "TSV ALLOWA 3",
+          "seven_meter": false
+        },
+        {
+          "minute": 10,
+          "second": 21,
+          "scorer": "Johannes J\u00e4ger",
+          "team": "home",
+          "team_abbrev": "TSV ALLOWA 3",
+          "seven_meter": false
+        },
+        {
+          "minute": 10,
+          "second": 46,
+          "scorer": "Tobias Gruber",
+          "team": "away",
+          "team_abbrev": "HSG Sulz-Murr 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 11,
+          "second": 20,
+          "scorer": "Noah Lenz",
+          "team": "away",
+          "team_abbrev": "HSG Sulz-Murr 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 13,
+          "second": 8,
+          "scorer": "Florian Traub",
+          "team": "away",
+          "team_abbrev": "HSG Sulz-Murr 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 13,
+          "second": 37,
+          "scorer": "Vincent Specht",
+          "team": "home",
+          "team_abbrev": "TSV ALLOWA 3",
+          "seven_meter": false
+        },
+        {
+          "minute": 13,
+          "second": 53,
+          "scorer": "Leon Oehl",
+          "team": "away",
+          "team_abbrev": "HSG Sulz-Murr 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 20,
+          "second": 1,
+          "scorer": "Vincent Specht",
+          "team": "home",
+          "team_abbrev": "TSV ALLOWA 3",
+          "seven_meter": true
+        },
+        {
+          "minute": 21,
+          "second": 0,
+          "scorer": "Tobias Gruber",
+          "team": "away",
+          "team_abbrev": "HSG Sulz-Murr 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 21,
+          "second": 52,
+          "scorer": "Vincent Specht",
+          "team": "home",
+          "team_abbrev": "TSV ALLOWA 3",
+          "seven_meter": true
+        },
+        {
+          "minute": 23,
+          "second": 21,
+          "scorer": "Vincent Specht",
+          "team": "home",
+          "team_abbrev": "TSV ALLOWA 3",
+          "seven_meter": false
+        },
+        {
+          "minute": 24,
+          "second": 43,
+          "scorer": "Philipp Wendisch",
+          "team": "home",
+          "team_abbrev": "TSV ALLOWA 3",
+          "seven_meter": false
+        },
+        {
+          "minute": 25,
+          "second": 13,
+          "scorer": "Johannes J\u00e4ger",
+          "team": "home",
+          "team_abbrev": "TSV ALLOWA 3",
+          "seven_meter": false
+        },
+        {
+          "minute": 26,
+          "second": 18,
+          "scorer": "Vincent Specht",
+          "team": "home",
+          "team_abbrev": "TSV ALLOWA 3",
+          "seven_meter": false
+        },
+        {
+          "minute": 26,
+          "second": 52,
+          "scorer": "Noah Lenz",
+          "team": "away",
+          "team_abbrev": "HSG Sulz-Murr 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 27,
+          "second": 1,
+          "scorer": "Vincent Specht",
+          "team": "home",
+          "team_abbrev": "TSV ALLOWA 3",
+          "seven_meter": false
+        },
+        {
+          "minute": 27,
+          "second": 36,
+          "scorer": "Kevin Kander",
+          "team": "away",
+          "team_abbrev": "HSG Sulz-Murr 2",
+          "seven_meter": true
+        },
+        {
+          "minute": 28,
+          "second": 14,
+          "scorer": "Julian Pretzler",
+          "team": "home",
+          "team_abbrev": "TSV ALLOWA 3",
+          "seven_meter": true
+        },
+        {
+          "minute": 29,
+          "second": 13,
+          "scorer": "Kevin Kander",
+          "team": "away",
+          "team_abbrev": "HSG Sulz-Murr 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 29,
+          "second": 50,
+          "scorer": "Tobias Gruber",
+          "team": "away",
+          "team_abbrev": "HSG Sulz-Murr 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 32,
+          "second": 9,
+          "scorer": "Tim Kordulla",
+          "team": "home",
+          "team_abbrev": "TSV ALLOWA 3",
+          "seven_meter": false
+        },
+        {
+          "minute": 34,
+          "second": 34,
+          "scorer": "Josip Nanz",
+          "team": "home",
+          "team_abbrev": "TSV ALLOWA 3",
+          "seven_meter": false
+        },
+        {
+          "minute": 35,
+          "second": 24,
+          "scorer": "Philipp Munz",
+          "team": "away",
+          "team_abbrev": "HSG Sulz-Murr 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 35,
+          "second": 42,
+          "scorer": "Vincent Specht",
+          "team": "home",
+          "team_abbrev": "TSV ALLOWA 3",
+          "seven_meter": false
+        },
+        {
+          "minute": 36,
+          "second": 19,
+          "scorer": "Jannis Kircher",
+          "team": "away",
+          "team_abbrev": "HSG Sulz-Murr 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 36,
+          "second": 28,
+          "scorer": "Julian Pretzler",
+          "team": "home",
+          "team_abbrev": "TSV ALLOWA 3",
+          "seven_meter": false
+        },
+        {
+          "minute": 37,
+          "second": 23,
+          "scorer": "Tobias Gruber",
+          "team": "away",
+          "team_abbrev": "HSG Sulz-Murr 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 37,
+          "second": 40,
+          "scorer": "Tim Kordulla",
+          "team": "home",
+          "team_abbrev": "TSV ALLOWA 3",
+          "seven_meter": false
+        },
+        {
+          "minute": 38,
+          "second": 46,
+          "scorer": "Johannes J\u00e4ger",
+          "team": "home",
+          "team_abbrev": "TSV ALLOWA 3",
+          "seven_meter": false
+        },
+        {
+          "minute": 39,
+          "second": 38,
+          "scorer": "Renat Habibullin",
+          "team": "away",
+          "team_abbrev": "HSG Sulz-Murr 2",
+          "seven_meter": true
+        },
+        {
+          "minute": 40,
+          "second": 21,
+          "scorer": "Josip Nanz",
+          "team": "home",
+          "team_abbrev": "TSV ALLOWA 3",
+          "seven_meter": false
+        },
+        {
+          "minute": 41,
+          "second": 29,
+          "scorer": "Josip Nanz",
+          "team": "home",
+          "team_abbrev": "TSV ALLOWA 3",
+          "seven_meter": false
+        },
+        {
+          "minute": 44,
+          "second": 15,
+          "scorer": "Jannis Kircher",
+          "team": "away",
+          "team_abbrev": "HSG Sulz-Murr 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 44,
+          "second": 51,
+          "scorer": "Vincent Specht",
+          "team": "home",
+          "team_abbrev": "TSV ALLOWA 3",
+          "seven_meter": false
+        },
+        {
+          "minute": 45,
+          "second": 1,
+          "scorer": "Tobias Gruber",
+          "team": "away",
+          "team_abbrev": "HSG Sulz-Murr 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 45,
+          "second": 52,
+          "scorer": "Leon Oehl",
+          "team": "away",
+          "team_abbrev": "HSG Sulz-Murr 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 46,
+          "second": 17,
+          "scorer": "Tim Kordulla",
+          "team": "home",
+          "team_abbrev": "TSV ALLOWA 3",
+          "seven_meter": false
+        },
+        {
+          "minute": 48,
+          "second": 28,
+          "scorer": "Renat Habibullin",
+          "team": "away",
+          "team_abbrev": "HSG Sulz-Murr 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 49,
+          "second": 12,
+          "scorer": "Jannis Kircher",
+          "team": "away",
+          "team_abbrev": "HSG Sulz-Murr 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 50,
+          "second": 8,
+          "scorer": "Tobias Gruber",
+          "team": "away",
+          "team_abbrev": "HSG Sulz-Murr 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 51,
+          "second": 42,
+          "scorer": "Jannis Kircher",
+          "team": "away",
+          "team_abbrev": "HSG Sulz-Murr 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 53,
+          "second": 12,
+          "scorer": "Leon Oehl",
+          "team": "away",
+          "team_abbrev": "HSG Sulz-Murr 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 54,
+          "second": 59,
+          "scorer": "Renat Habibullin",
+          "team": "away",
+          "team_abbrev": "HSG Sulz-Murr 2",
+          "seven_meter": true
+        },
+        {
+          "minute": 57,
+          "second": 8,
+          "scorer": "Leon Oehl",
+          "team": "away",
+          "team_abbrev": "HSG Sulz-Murr 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 60,
+          "second": 0,
+          "scorer": "Julian Pretzler",
+          "team": "home",
+          "team_abbrev": "TSV ALLOWA 3",
+          "seven_meter": true
+        }
+      ],
+      "final_score": "27:26",
+      "half_duration": 30,
+      "officials": {
+        "referees": [
+          "Stefan Scheible"
+        ],
+        "timekeepers": [
+          "Lucas Clauss"
+        ],
+        "secretaries": [
+          "Wiese Annika"
+        ]
+      },
+      "graphic_path": "output/graphics/HSG_Sulzbach-Murrhar_vs_TSV_Alfdorf_Lorch_Wa_Sa_0111.png"
+    }
+  ]
+}

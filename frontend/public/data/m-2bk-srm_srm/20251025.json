@@ -1,0 +1,644 @@
+{
+  "date": "20251025",
+  "games": [
+    {
+      "game_id": "handball4all.baden-wuerttemberg.8779667",
+      "order": 22,
+      "date": "Sa, 25.10.",
+      "home": {
+        "team_name": "HSG Oberer Neckar 2",
+        "players": [
+          {
+            "name": "Jakob Ringler",
+            "goals": 1,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Till Knauke",
+            "goals": 5,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 3,
+            "seven_meters_goals": 3
+          },
+          {
+            "name": "Sebastian Klotz",
+            "goals": 2,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Tobias K\u00f6nig",
+            "goals": 2,
+            "two_min_penalties": 1,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Benedikt Ringler",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Marc Bayer",
+            "goals": 8,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 1,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Tom Blattner",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 1,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Marijan Vukovic",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Magnus B\u00fchler",
+            "goals": 1,
+            "two_min_penalties": 2,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          }
+        ]
+      },
+      "away": {
+        "team_name": "TSV Alfdorf/Lorch/Waldhausen 3",
+        "players": [
+          {
+            "name": "Philipp Wendisch",
+            "goals": 2,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Ren\u00e9 Walter",
+            "goals": 3,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Nils M\u00fcrdter",
+            "goals": 3,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Christian Kolb",
+            "goals": 2,
+            "two_min_penalties": 1,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Tim Kordulla",
+            "goals": 7,
+            "two_min_penalties": 1,
+            "yellow_cards": 1,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 1,
+            "seven_meters_goals": 1
+          },
+          {
+            "name": "Johannes J\u00e4ger",
+            "goals": 2,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Nikolai Wiedmann",
+            "goals": 10,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 2,
+            "seven_meters_goals": 1
+          },
+          {
+            "name": "Jens Heinzelmann",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Benedikt Baur",
+            "goals": 3,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Alexander Pretzler",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Lukas Egger",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          }
+        ]
+      },
+      "goals_timeline": [
+        {
+          "minute": 1,
+          "second": 26,
+          "scorer": "Marc Bayer",
+          "team": "home",
+          "team_abbrev": "HSG Ob. Neckar 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 1,
+          "second": 57,
+          "scorer": "Marc Bayer",
+          "team": "home",
+          "team_abbrev": "HSG Ob. Neckar 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 2,
+          "second": 26,
+          "scorer": "Nikolai Wiedmann",
+          "team": "away",
+          "team_abbrev": "TSV ALLOWA 3",
+          "seven_meter": false
+        },
+        {
+          "minute": 2,
+          "second": 52,
+          "scorer": "Marc Bayer",
+          "team": "home",
+          "team_abbrev": "HSG Ob. Neckar 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 3,
+          "second": 6,
+          "scorer": "Tim Kordulla",
+          "team": "away",
+          "team_abbrev": "TSV ALLOWA 3",
+          "seven_meter": false
+        },
+        {
+          "minute": 4,
+          "second": 59,
+          "scorer": "Benedikt Baur",
+          "team": "away",
+          "team_abbrev": "TSV ALLOWA 3",
+          "seven_meter": false
+        },
+        {
+          "minute": 5,
+          "second": 36,
+          "scorer": "Sebastian Klotz",
+          "team": "home",
+          "team_abbrev": "HSG Ob. Neckar 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 7,
+          "second": 11,
+          "scorer": "Nikolai Wiedmann",
+          "team": "away",
+          "team_abbrev": "TSV ALLOWA 3",
+          "seven_meter": false
+        },
+        {
+          "minute": 7,
+          "second": 35,
+          "scorer": "Marc Bayer",
+          "team": "home",
+          "team_abbrev": "HSG Ob. Neckar 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 8,
+          "second": 16,
+          "scorer": "Nikolai Wiedmann",
+          "team": "away",
+          "team_abbrev": "TSV ALLOWA 3",
+          "seven_meter": true
+        },
+        {
+          "minute": 10,
+          "second": 31,
+          "scorer": "Benedikt Baur",
+          "team": "away",
+          "team_abbrev": "TSV ALLOWA 3",
+          "seven_meter": false
+        },
+        {
+          "minute": 12,
+          "second": 12,
+          "scorer": "Philipp Wendisch",
+          "team": "away",
+          "team_abbrev": "TSV ALLOWA 3",
+          "seven_meter": false
+        },
+        {
+          "minute": 14,
+          "second": 24,
+          "scorer": "Tim Kordulla",
+          "team": "away",
+          "team_abbrev": "TSV ALLOWA 3",
+          "seven_meter": false
+        },
+        {
+          "minute": 14,
+          "second": 42,
+          "scorer": "Till Knauke",
+          "team": "home",
+          "team_abbrev": "HSG Ob. Neckar 2",
+          "seven_meter": true
+        },
+        {
+          "minute": 17,
+          "second": 3,
+          "scorer": "Till Knauke",
+          "team": "home",
+          "team_abbrev": "HSG Ob. Neckar 2",
+          "seven_meter": true
+        },
+        {
+          "minute": 18,
+          "second": 51,
+          "scorer": "Tim Kordulla",
+          "team": "away",
+          "team_abbrev": "TSV ALLOWA 3",
+          "seven_meter": false
+        },
+        {
+          "minute": 19,
+          "second": 57,
+          "scorer": "Johannes J\u00e4ger",
+          "team": "away",
+          "team_abbrev": "TSV ALLOWA 3",
+          "seven_meter": false
+        },
+        {
+          "minute": 21,
+          "second": 15,
+          "scorer": "Nikolai Wiedmann",
+          "team": "away",
+          "team_abbrev": "TSV ALLOWA 3",
+          "seven_meter": false
+        },
+        {
+          "minute": 22,
+          "second": 25,
+          "scorer": "Ren\u00e9 Walter",
+          "team": "away",
+          "team_abbrev": "TSV ALLOWA 3",
+          "seven_meter": false
+        },
+        {
+          "minute": 24,
+          "second": 35,
+          "scorer": "Nils M\u00fcrdter",
+          "team": "away",
+          "team_abbrev": "TSV ALLOWA 3",
+          "seven_meter": false
+        },
+        {
+          "minute": 25,
+          "second": 35,
+          "scorer": "Nils M\u00fcrdter",
+          "team": "away",
+          "team_abbrev": "TSV ALLOWA 3",
+          "seven_meter": false
+        },
+        {
+          "minute": 29,
+          "second": 53,
+          "scorer": "Ren\u00e9 Walter",
+          "team": "away",
+          "team_abbrev": "TSV ALLOWA 3",
+          "seven_meter": false
+        },
+        {
+          "minute": 31,
+          "second": 1,
+          "scorer": "Nikolai Wiedmann",
+          "team": "away",
+          "team_abbrev": "TSV ALLOWA 3",
+          "seven_meter": false
+        },
+        {
+          "minute": 32,
+          "second": 11,
+          "scorer": "Benedikt Baur",
+          "team": "away",
+          "team_abbrev": "TSV ALLOWA 3",
+          "seven_meter": false
+        },
+        {
+          "minute": 35,
+          "second": 4,
+          "scorer": "Nikolai Wiedmann",
+          "team": "away",
+          "team_abbrev": "TSV ALLOWA 3",
+          "seven_meter": false
+        },
+        {
+          "minute": 35,
+          "second": 49,
+          "scorer": "Sebastian Klotz",
+          "team": "home",
+          "team_abbrev": "HSG Ob. Neckar 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 36,
+          "second": 21,
+          "scorer": "Tobias K\u00f6nig",
+          "team": "home",
+          "team_abbrev": "HSG Ob. Neckar 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 38,
+          "second": 24,
+          "scorer": "Christian Kolb",
+          "team": "away",
+          "team_abbrev": "TSV ALLOWA 3",
+          "seven_meter": false
+        },
+        {
+          "minute": 38,
+          "second": 32,
+          "scorer": "Till Knauke",
+          "team": "home",
+          "team_abbrev": "HSG Ob. Neckar 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 41,
+          "second": 20,
+          "scorer": "Marc Bayer",
+          "team": "home",
+          "team_abbrev": "HSG Ob. Neckar 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 41,
+          "second": 43,
+          "scorer": "Nikolai Wiedmann",
+          "team": "away",
+          "team_abbrev": "TSV ALLOWA 3",
+          "seven_meter": false
+        },
+        {
+          "minute": 43,
+          "second": 11,
+          "scorer": "Tim Kordulla",
+          "team": "away",
+          "team_abbrev": "TSV ALLOWA 3",
+          "seven_meter": false
+        },
+        {
+          "minute": 43,
+          "second": 41,
+          "scorer": "Marc Bayer",
+          "team": "home",
+          "team_abbrev": "HSG Ob. Neckar 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 44,
+          "second": 40,
+          "scorer": "Nikolai Wiedmann",
+          "team": "away",
+          "team_abbrev": "TSV ALLOWA 3",
+          "seven_meter": false
+        },
+        {
+          "minute": 45,
+          "second": 24,
+          "scorer": "Magnus B\u00fchler",
+          "team": "home",
+          "team_abbrev": "HSG Ob. Neckar 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 45,
+          "second": 42,
+          "scorer": "Philipp Wendisch",
+          "team": "away",
+          "team_abbrev": "TSV ALLOWA 3",
+          "seven_meter": false
+        },
+        {
+          "minute": 46,
+          "second": 50,
+          "scorer": "Till Knauke",
+          "team": "home",
+          "team_abbrev": "HSG Ob. Neckar 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 47,
+          "second": 21,
+          "scorer": "Nikolai Wiedmann",
+          "team": "away",
+          "team_abbrev": "TSV ALLOWA 3",
+          "seven_meter": false
+        },
+        {
+          "minute": 48,
+          "second": 8,
+          "scorer": "Till Knauke",
+          "team": "home",
+          "team_abbrev": "HSG Ob. Neckar 2",
+          "seven_meter": true
+        },
+        {
+          "minute": 51,
+          "second": 9,
+          "scorer": "Tim Kordulla",
+          "team": "away",
+          "team_abbrev": "TSV ALLOWA 3",
+          "seven_meter": false
+        },
+        {
+          "minute": 51,
+          "second": 18,
+          "scorer": "Marc Bayer",
+          "team": "home",
+          "team_abbrev": "HSG Ob. Neckar 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 51,
+          "second": 54,
+          "scorer": "Nils M\u00fcrdter",
+          "team": "away",
+          "team_abbrev": "TSV ALLOWA 3",
+          "seven_meter": false
+        },
+        {
+          "minute": 52,
+          "second": 43,
+          "scorer": "Jakob Ringler",
+          "team": "home",
+          "team_abbrev": "HSG Ob. Neckar 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 53,
+          "second": 5,
+          "scorer": "Johannes J\u00e4ger",
+          "team": "away",
+          "team_abbrev": "TSV ALLOWA 3",
+          "seven_meter": false
+        },
+        {
+          "minute": 53,
+          "second": 37,
+          "scorer": "Tobias K\u00f6nig",
+          "team": "home",
+          "team_abbrev": "HSG Ob. Neckar 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 53,
+          "second": 59,
+          "scorer": "Christian Kolb",
+          "team": "away",
+          "team_abbrev": "TSV ALLOWA 3",
+          "seven_meter": false
+        },
+        {
+          "minute": 54,
+          "second": 38,
+          "scorer": "Marc Bayer",
+          "team": "home",
+          "team_abbrev": "HSG Ob. Neckar 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 56,
+          "second": 26,
+          "scorer": "Tim Kordulla",
+          "team": "away",
+          "team_abbrev": "TSV ALLOWA 3",
+          "seven_meter": true
+        },
+        {
+          "minute": 58,
+          "second": 51,
+          "scorer": "Nikolai Wiedmann",
+          "team": "away",
+          "team_abbrev": "TSV ALLOWA 3",
+          "seven_meter": false
+        },
+        {
+          "minute": 59,
+          "second": 50,
+          "scorer": "Ren\u00e9 Walter",
+          "team": "away",
+          "team_abbrev": "TSV ALLOWA 3",
+          "seven_meter": false
+        },
+        {
+          "minute": 60,
+          "second": 0,
+          "scorer": "Tim Kordulla",
+          "team": "away",
+          "team_abbrev": "TSV ALLOWA 3",
+          "seven_meter": false
+        }
+      ],
+      "final_score": "19:32",
+      "half_duration": 30,
+      "officials": {
+        "referees": [
+          "Lars S\u00f6hner"
+        ],
+        "timekeepers": [
+          "Julian Rattinger"
+        ],
+        "secretaries": [
+          "Paul Bischoff"
+        ]
+      },
+      "graphic_path": "output/graphics/HSG_Oberer_Neckar_2_vs_TSV_Alfdorf_Lorch_Wa_Sa_2510.png"
+    }
+  ]
+}

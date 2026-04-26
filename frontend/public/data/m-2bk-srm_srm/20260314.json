@@ -1,0 +1,722 @@
+{
+  "date": "20260314",
+  "games": [
+    {
+      "game_id": "handball4all.baden-wuerttemberg.8779842",
+      "order": 66,
+      "date": "Sa, 14.03.",
+      "home": {
+        "team_name": "SG Weinstadt 4",
+        "players": [
+          {
+            "name": "Oliver Heck",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Benjamin Geyer",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Ralf Eberhardt",
+            "goals": 4,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Vassilios Sarantis",
+            "goals": 9,
+            "two_min_penalties": 1,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Ronny Zimmermann",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Markus Munz",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Marvin Simon",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Michael Gaupp",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Alexander Hering",
+            "goals": 5,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Benjamin Pott",
+            "goals": 1,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Sebastian Walden",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 1,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Alexander Winhardt",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Simon Bosch",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Yannic Rotter",
+            "goals": 2,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Daniel Milke",
+            "goals": 8,
+            "two_min_penalties": 1,
+            "yellow_cards": 1,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 3,
+            "seven_meters_goals": 2
+          },
+          {
+            "name": "Daniel Gregorius",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          }
+        ]
+      },
+      "away": {
+        "team_name": "HC Winnenden 4",
+        "players": [
+          {
+            "name": "Marius B\u00f6ttle",
+            "goals": 2,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Simon Oberle",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Tobias Reimann",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Aaron Zin\u00dfer",
+            "goals": 1,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 1,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Simon Schaar",
+            "goals": 6,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 1,
+            "seven_meters_goals": 1
+          },
+          {
+            "name": "Henrik Klein",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Adrian Schulze",
+            "goals": 1,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Felix Lachenmaier",
+            "goals": 7,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Maximilian Dvorak",
+            "goals": 1,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Etienne Seibert",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Maki Peinirtzorlou",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Florian Etzel",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Marc Wiedmann",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Lukas Klenner",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Kai Kindermann",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          }
+        ]
+      },
+      "goals_timeline": [
+        {
+          "minute": 2,
+          "second": 36,
+          "scorer": "Vassilios Sarantis",
+          "team": "home",
+          "team_abbrev": "SG Weinstadt 4",
+          "seven_meter": false
+        },
+        {
+          "minute": 3,
+          "second": 40,
+          "scorer": "Daniel Milke",
+          "team": "home",
+          "team_abbrev": "SG Weinstadt 4",
+          "seven_meter": true
+        },
+        {
+          "minute": 4,
+          "second": 22,
+          "scorer": "Benjamin Pott",
+          "team": "home",
+          "team_abbrev": "SG Weinstadt 4",
+          "seven_meter": false
+        },
+        {
+          "minute": 5,
+          "second": 7,
+          "scorer": "Vassilios Sarantis",
+          "team": "home",
+          "team_abbrev": "SG Weinstadt 4",
+          "seven_meter": false
+        },
+        {
+          "minute": 5,
+          "second": 50,
+          "scorer": "Simon Schaar",
+          "team": "away",
+          "team_abbrev": "HC Winnenden 4",
+          "seven_meter": false
+        },
+        {
+          "minute": 6,
+          "second": 26,
+          "scorer": "Ralf Eberhardt",
+          "team": "home",
+          "team_abbrev": "SG Weinstadt 4",
+          "seven_meter": false
+        },
+        {
+          "minute": 6,
+          "second": 47,
+          "scorer": "Aaron Zin\u00dfer",
+          "team": "away",
+          "team_abbrev": "HC Winnenden 4",
+          "seven_meter": false
+        },
+        {
+          "minute": 8,
+          "second": 9,
+          "scorer": "Simon Schaar",
+          "team": "away",
+          "team_abbrev": "HC Winnenden 4",
+          "seven_meter": false
+        },
+        {
+          "minute": 9,
+          "second": 38,
+          "scorer": "Vassilios Sarantis",
+          "team": "home",
+          "team_abbrev": "SG Weinstadt 4",
+          "seven_meter": false
+        },
+        {
+          "minute": 10,
+          "second": 55,
+          "scorer": "Vassilios Sarantis",
+          "team": "home",
+          "team_abbrev": "SG Weinstadt 4",
+          "seven_meter": false
+        },
+        {
+          "minute": 11,
+          "second": 31,
+          "scorer": "Simon Schaar",
+          "team": "away",
+          "team_abbrev": "HC Winnenden 4",
+          "seven_meter": true
+        },
+        {
+          "minute": 12,
+          "second": 39,
+          "scorer": "Yannic Rotter",
+          "team": "home",
+          "team_abbrev": "SG Weinstadt 4",
+          "seven_meter": false
+        },
+        {
+          "minute": 13,
+          "second": 56,
+          "scorer": "Daniel Milke",
+          "team": "home",
+          "team_abbrev": "SG Weinstadt 4",
+          "seven_meter": false
+        },
+        {
+          "minute": 15,
+          "second": 34,
+          "scorer": "Vassilios Sarantis",
+          "team": "home",
+          "team_abbrev": "SG Weinstadt 4",
+          "seven_meter": false
+        },
+        {
+          "minute": 16,
+          "second": 44,
+          "scorer": "Felix Lachenmaier",
+          "team": "away",
+          "team_abbrev": "HC Winnenden 4",
+          "seven_meter": false
+        },
+        {
+          "minute": 17,
+          "second": 13,
+          "scorer": "Alexander Hering",
+          "team": "home",
+          "team_abbrev": "SG Weinstadt 4",
+          "seven_meter": false
+        },
+        {
+          "minute": 21,
+          "second": 15,
+          "scorer": "Daniel Milke",
+          "team": "home",
+          "team_abbrev": "SG Weinstadt 4",
+          "seven_meter": true
+        },
+        {
+          "minute": 21,
+          "second": 57,
+          "scorer": "Daniel Milke",
+          "team": "home",
+          "team_abbrev": "SG Weinstadt 4",
+          "seven_meter": false
+        },
+        {
+          "minute": 22,
+          "second": 14,
+          "scorer": "Marius B\u00f6ttle",
+          "team": "away",
+          "team_abbrev": "HC Winnenden 4",
+          "seven_meter": false
+        },
+        {
+          "minute": 22,
+          "second": 52,
+          "scorer": "Vassilios Sarantis",
+          "team": "home",
+          "team_abbrev": "SG Weinstadt 4",
+          "seven_meter": false
+        },
+        {
+          "minute": 23,
+          "second": 19,
+          "scorer": "Felix Lachenmaier",
+          "team": "away",
+          "team_abbrev": "HC Winnenden 4",
+          "seven_meter": false
+        },
+        {
+          "minute": 27,
+          "second": 33,
+          "scorer": "Ralf Eberhardt",
+          "team": "home",
+          "team_abbrev": "SG Weinstadt 4",
+          "seven_meter": false
+        },
+        {
+          "minute": 28,
+          "second": 18,
+          "scorer": "Simon Schaar",
+          "team": "away",
+          "team_abbrev": "HC Winnenden 4",
+          "seven_meter": false
+        },
+        {
+          "minute": 29,
+          "second": 18,
+          "scorer": "Ralf Eberhardt",
+          "team": "home",
+          "team_abbrev": "SG Weinstadt 4",
+          "seven_meter": false
+        },
+        {
+          "minute": 29,
+          "second": 44,
+          "scorer": "Simon Schaar",
+          "team": "away",
+          "team_abbrev": "HC Winnenden 4",
+          "seven_meter": false
+        },
+        {
+          "minute": 30,
+          "second": 19,
+          "scorer": "Vassilios Sarantis",
+          "team": "home",
+          "team_abbrev": "SG Weinstadt 4",
+          "seven_meter": false
+        },
+        {
+          "minute": 33,
+          "second": 7,
+          "scorer": "Vassilios Sarantis",
+          "team": "home",
+          "team_abbrev": "SG Weinstadt 4",
+          "seven_meter": false
+        },
+        {
+          "minute": 35,
+          "second": 50,
+          "scorer": "Simon Schaar",
+          "team": "away",
+          "team_abbrev": "HC Winnenden 4",
+          "seven_meter": false
+        },
+        {
+          "minute": 37,
+          "second": 43,
+          "scorer": "Ralf Eberhardt",
+          "team": "home",
+          "team_abbrev": "SG Weinstadt 4",
+          "seven_meter": false
+        },
+        {
+          "minute": 38,
+          "second": 52,
+          "scorer": "Felix Lachenmaier",
+          "team": "away",
+          "team_abbrev": "HC Winnenden 4",
+          "seven_meter": false
+        },
+        {
+          "minute": 39,
+          "second": 13,
+          "scorer": "Alexander Hering",
+          "team": "home",
+          "team_abbrev": "SG Weinstadt 4",
+          "seven_meter": false
+        },
+        {
+          "minute": 42,
+          "second": 38,
+          "scorer": "Adrian Schulze",
+          "team": "away",
+          "team_abbrev": "HC Winnenden 4",
+          "seven_meter": false
+        },
+        {
+          "minute": 43,
+          "second": 16,
+          "scorer": "Yannic Rotter",
+          "team": "home",
+          "team_abbrev": "SG Weinstadt 4",
+          "seven_meter": false
+        },
+        {
+          "minute": 43,
+          "second": 45,
+          "scorer": "Marius B\u00f6ttle",
+          "team": "away",
+          "team_abbrev": "HC Winnenden 4",
+          "seven_meter": false
+        },
+        {
+          "minute": 45,
+          "second": 58,
+          "scorer": "Alexander Hering",
+          "team": "home",
+          "team_abbrev": "SG Weinstadt 4",
+          "seven_meter": false
+        },
+        {
+          "minute": 47,
+          "second": 18,
+          "scorer": "Alexander Hering",
+          "team": "home",
+          "team_abbrev": "SG Weinstadt 4",
+          "seven_meter": false
+        },
+        {
+          "minute": 48,
+          "second": 32,
+          "scorer": "Felix Lachenmaier",
+          "team": "away",
+          "team_abbrev": "HC Winnenden 4",
+          "seven_meter": false
+        },
+        {
+          "minute": 49,
+          "second": 5,
+          "scorer": "Daniel Milke",
+          "team": "home",
+          "team_abbrev": "SG Weinstadt 4",
+          "seven_meter": false
+        },
+        {
+          "minute": 49,
+          "second": 28,
+          "scorer": "Daniel Milke",
+          "team": "home",
+          "team_abbrev": "SG Weinstadt 4",
+          "seven_meter": false
+        },
+        {
+          "minute": 51,
+          "second": 41,
+          "scorer": "Daniel Milke",
+          "team": "home",
+          "team_abbrev": "SG Weinstadt 4",
+          "seven_meter": false
+        },
+        {
+          "minute": 52,
+          "second": 45,
+          "scorer": "Felix Lachenmaier",
+          "team": "away",
+          "team_abbrev": "HC Winnenden 4",
+          "seven_meter": false
+        },
+        {
+          "minute": 54,
+          "second": 0,
+          "scorer": "Felix Lachenmaier",
+          "team": "away",
+          "team_abbrev": "HC Winnenden 4",
+          "seven_meter": false
+        },
+        {
+          "minute": 54,
+          "second": 39,
+          "scorer": "Vassilios Sarantis",
+          "team": "home",
+          "team_abbrev": "SG Weinstadt 4",
+          "seven_meter": false
+        },
+        {
+          "minute": 57,
+          "second": 13,
+          "scorer": "Daniel Milke",
+          "team": "home",
+          "team_abbrev": "SG Weinstadt 4",
+          "seven_meter": false
+        },
+        {
+          "minute": 58,
+          "second": 38,
+          "scorer": "Alexander Hering",
+          "team": "home",
+          "team_abbrev": "SG Weinstadt 4",
+          "seven_meter": false
+        },
+        {
+          "minute": 59,
+          "second": 8,
+          "scorer": "Maximilian Dvorak",
+          "team": "away",
+          "team_abbrev": "HC Winnenden 4",
+          "seven_meter": false
+        },
+        {
+          "minute": 59,
+          "second": 40,
+          "scorer": "Felix Lachenmaier",
+          "team": "away",
+          "team_abbrev": "HC Winnenden 4",
+          "seven_meter": false
+        }
+      ],
+      "final_score": "29:18",
+      "half_duration": 30,
+      "officials": {
+        "referees": [
+          "Sven Schubert"
+        ],
+        "timekeepers": [
+          "Andreas Strau\u00df"
+        ],
+        "secretaries": [
+          "Krathwohl Alexander"
+        ]
+      },
+      "graphic_path": "output/graphics/SG_Weinstadt_4_vs_HC_Winnenden_4_Sa_1403.png"
+    }
+  ]
+}

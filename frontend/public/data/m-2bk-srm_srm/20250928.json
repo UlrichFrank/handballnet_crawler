@@ -1,0 +1,678 @@
+{
+  "date": "20250928",
+  "games": [
+    {
+      "game_id": "handball4all.baden-wuerttemberg.8779547",
+      "order": 9,
+      "date": "So, 28.09.",
+      "home": {
+        "team_name": "SG Weinstadt 4",
+        "players": [
+          {
+            "name": "Oliver Heck",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Benjamin Geyer",
+            "goals": 1,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Yannic Rotter",
+            "goals": 5,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Vassilios Sarantis",
+            "goals": 10,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Moritz Rokenbauch",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Markus Munz",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Ronny Zimmermann",
+            "goals": 7,
+            "two_min_penalties": 0,
+            "yellow_cards": 1,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 2,
+            "seven_meters_goals": 1
+          },
+          {
+            "name": "Michael Gaupp",
+            "goals": 0,
+            "two_min_penalties": 1,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Alexander Hering",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Philipp Gildein",
+            "goals": 1,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 1,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Sebastian Walden",
+            "goals": 1,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Elias Bernhard",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Simon Bosch",
+            "goals": 1,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 1,
+            "seven_meters_goals": 1
+          },
+          {
+            "name": "N.N. N.N.",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Daniel Milke",
+            "goals": 3,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          }
+        ]
+      },
+      "away": {
+        "team_name": "Hbi Weilimdorf/Feuerbach 3",
+        "players": [
+          {
+            "name": "Jonah Stich",
+            "goals": 4,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Sebastian Buchfink",
+            "goals": 1,
+            "two_min_penalties": 1,
+            "yellow_cards": 1,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Fabian K\u00fcmmerer",
+            "goals": 4,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 2,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Fabian Lindner",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Danny Herlan",
+            "goals": 1,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Phil Seidel",
+            "goals": 1,
+            "two_min_penalties": 0,
+            "yellow_cards": 1,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Niklas Renz",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 1,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Tom Weber",
+            "goals": 3,
+            "two_min_penalties": 1,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Joscha Solenthaler",
+            "goals": 6,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 1,
+            "seven_meters_goals": 1
+          },
+          {
+            "name": "Robin Schilling",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          }
+        ]
+      },
+      "goals_timeline": [
+        {
+          "minute": 1,
+          "second": 30,
+          "scorer": "Yannic Rotter",
+          "team": "home",
+          "team_abbrev": "SG Weinstadt 4",
+          "seven_meter": false
+        },
+        {
+          "minute": 3,
+          "second": 10,
+          "scorer": "Yannic Rotter",
+          "team": "home",
+          "team_abbrev": "SG Weinstadt 4",
+          "seven_meter": false
+        },
+        {
+          "minute": 4,
+          "second": 46,
+          "scorer": "Vassilios Sarantis",
+          "team": "home",
+          "team_abbrev": "SG Weinstadt 4",
+          "seven_meter": false
+        },
+        {
+          "minute": 5,
+          "second": 22,
+          "scorer": "Joscha Solenthaler",
+          "team": "away",
+          "team_abbrev": "Hbi Weil/Feuer 3",
+          "seven_meter": false
+        },
+        {
+          "minute": 6,
+          "second": 30,
+          "scorer": "Yannic Rotter",
+          "team": "home",
+          "team_abbrev": "SG Weinstadt 4",
+          "seven_meter": false
+        },
+        {
+          "minute": 7,
+          "second": 0,
+          "scorer": "Ronny Zimmermann",
+          "team": "home",
+          "team_abbrev": "SG Weinstadt 4",
+          "seven_meter": false
+        },
+        {
+          "minute": 11,
+          "second": 34,
+          "scorer": "Daniel Milke",
+          "team": "home",
+          "team_abbrev": "SG Weinstadt 4",
+          "seven_meter": false
+        },
+        {
+          "minute": 14,
+          "second": 21,
+          "scorer": "Simon Bosch",
+          "team": "home",
+          "team_abbrev": "SG Weinstadt 4",
+          "seven_meter": true
+        },
+        {
+          "minute": 15,
+          "second": 28,
+          "scorer": "Ronny Zimmermann",
+          "team": "home",
+          "team_abbrev": "SG Weinstadt 4",
+          "seven_meter": false
+        },
+        {
+          "minute": 15,
+          "second": 49,
+          "scorer": "Jonah Stich",
+          "team": "away",
+          "team_abbrev": "Hbi Weil/Feuer 3",
+          "seven_meter": false
+        },
+        {
+          "minute": 16,
+          "second": 0,
+          "scorer": "Vassilios Sarantis",
+          "team": "home",
+          "team_abbrev": "SG Weinstadt 4",
+          "seven_meter": false
+        },
+        {
+          "minute": 16,
+          "second": 40,
+          "scorer": "Fabian K\u00fcmmerer",
+          "team": "away",
+          "team_abbrev": "Hbi Weil/Feuer 3",
+          "seven_meter": false
+        },
+        {
+          "minute": 17,
+          "second": 30,
+          "scorer": "Ronny Zimmermann",
+          "team": "home",
+          "team_abbrev": "SG Weinstadt 4",
+          "seven_meter": false
+        },
+        {
+          "minute": 17,
+          "second": 43,
+          "scorer": "Fabian K\u00fcmmerer",
+          "team": "away",
+          "team_abbrev": "Hbi Weil/Feuer 3",
+          "seven_meter": false
+        },
+        {
+          "minute": 19,
+          "second": 14,
+          "scorer": "Tom Weber",
+          "team": "away",
+          "team_abbrev": "Hbi Weil/Feuer 3",
+          "seven_meter": false
+        },
+        {
+          "minute": 20,
+          "second": 5,
+          "scorer": "Daniel Milke",
+          "team": "home",
+          "team_abbrev": "SG Weinstadt 4",
+          "seven_meter": false
+        },
+        {
+          "minute": 21,
+          "second": 41,
+          "scorer": "Jonah Stich",
+          "team": "away",
+          "team_abbrev": "Hbi Weil/Feuer 3",
+          "seven_meter": false
+        },
+        {
+          "minute": 23,
+          "second": 3,
+          "scorer": "Tom Weber",
+          "team": "away",
+          "team_abbrev": "Hbi Weil/Feuer 3",
+          "seven_meter": false
+        },
+        {
+          "minute": 23,
+          "second": 33,
+          "scorer": "Ronny Zimmermann",
+          "team": "home",
+          "team_abbrev": "SG Weinstadt 4",
+          "seven_meter": false
+        },
+        {
+          "minute": 25,
+          "second": 17,
+          "scorer": "Sebastian Walden",
+          "team": "home",
+          "team_abbrev": "SG Weinstadt 4",
+          "seven_meter": false
+        },
+        {
+          "minute": 26,
+          "second": 9,
+          "scorer": "Vassilios Sarantis",
+          "team": "home",
+          "team_abbrev": "SG Weinstadt 4",
+          "seven_meter": false
+        },
+        {
+          "minute": 26,
+          "second": 27,
+          "scorer": "Phil Seidel",
+          "team": "away",
+          "team_abbrev": "Hbi Weil/Feuer 3",
+          "seven_meter": false
+        },
+        {
+          "minute": 27,
+          "second": 5,
+          "scorer": "Yannic Rotter",
+          "team": "home",
+          "team_abbrev": "SG Weinstadt 4",
+          "seven_meter": false
+        },
+        {
+          "minute": 28,
+          "second": 35,
+          "scorer": "Danny Herlan",
+          "team": "away",
+          "team_abbrev": "Hbi Weil/Feuer 3",
+          "seven_meter": false
+        },
+        {
+          "minute": 28,
+          "second": 58,
+          "scorer": "Ronny Zimmermann",
+          "team": "home",
+          "team_abbrev": "SG Weinstadt 4",
+          "seven_meter": false
+        },
+        {
+          "minute": 29,
+          "second": 23,
+          "scorer": "Joscha Solenthaler",
+          "team": "away",
+          "team_abbrev": "Hbi Weil/Feuer 3",
+          "seven_meter": false
+        },
+        {
+          "minute": 31,
+          "second": 16,
+          "scorer": "Benjamin Geyer",
+          "team": "home",
+          "team_abbrev": "SG Weinstadt 4",
+          "seven_meter": false
+        },
+        {
+          "minute": 31,
+          "second": 48,
+          "scorer": "Joscha Solenthaler",
+          "team": "away",
+          "team_abbrev": "Hbi Weil/Feuer 3",
+          "seven_meter": false
+        },
+        {
+          "minute": 32,
+          "second": 28,
+          "scorer": "Ronny Zimmermann",
+          "team": "home",
+          "team_abbrev": "SG Weinstadt 4",
+          "seven_meter": true
+        },
+        {
+          "minute": 33,
+          "second": 12,
+          "scorer": "Joscha Solenthaler",
+          "team": "away",
+          "team_abbrev": "Hbi Weil/Feuer 3",
+          "seven_meter": false
+        },
+        {
+          "minute": 34,
+          "second": 27,
+          "scorer": "Fabian K\u00fcmmerer",
+          "team": "away",
+          "team_abbrev": "Hbi Weil/Feuer 3",
+          "seven_meter": false
+        },
+        {
+          "minute": 35,
+          "second": 17,
+          "scorer": "Jonah Stich",
+          "team": "away",
+          "team_abbrev": "Hbi Weil/Feuer 3",
+          "seven_meter": false
+        },
+        {
+          "minute": 39,
+          "second": 26,
+          "scorer": "Vassilios Sarantis",
+          "team": "home",
+          "team_abbrev": "SG Weinstadt 4",
+          "seven_meter": false
+        },
+        {
+          "minute": 40,
+          "second": 56,
+          "scorer": "Vassilios Sarantis",
+          "team": "home",
+          "team_abbrev": "SG Weinstadt 4",
+          "seven_meter": false
+        },
+        {
+          "minute": 41,
+          "second": 54,
+          "scorer": "Joscha Solenthaler",
+          "team": "away",
+          "team_abbrev": "Hbi Weil/Feuer 3",
+          "seven_meter": true
+        },
+        {
+          "minute": 43,
+          "second": 18,
+          "scorer": "Vassilios Sarantis",
+          "team": "home",
+          "team_abbrev": "SG Weinstadt 4",
+          "seven_meter": false
+        },
+        {
+          "minute": 43,
+          "second": 34,
+          "scorer": "Joscha Solenthaler",
+          "team": "away",
+          "team_abbrev": "Hbi Weil/Feuer 3",
+          "seven_meter": false
+        },
+        {
+          "minute": 44,
+          "second": 19,
+          "scorer": "Vassilios Sarantis",
+          "team": "home",
+          "team_abbrev": "SG Weinstadt 4",
+          "seven_meter": false
+        },
+        {
+          "minute": 45,
+          "second": 20,
+          "scorer": "Sebastian Buchfink",
+          "team": "away",
+          "team_abbrev": "Hbi Weil/Feuer 3",
+          "seven_meter": false
+        },
+        {
+          "minute": 45,
+          "second": 47,
+          "scorer": "Philipp Gildein",
+          "team": "home",
+          "team_abbrev": "SG Weinstadt 4",
+          "seven_meter": false
+        },
+        {
+          "minute": 49,
+          "second": 57,
+          "scorer": "Tom Weber",
+          "team": "away",
+          "team_abbrev": "Hbi Weil/Feuer 3",
+          "seven_meter": false
+        },
+        {
+          "minute": 51,
+          "second": 1,
+          "scorer": "Ronny Zimmermann",
+          "team": "home",
+          "team_abbrev": "SG Weinstadt 4",
+          "seven_meter": false
+        },
+        {
+          "minute": 52,
+          "second": 43,
+          "scorer": "Vassilios Sarantis",
+          "team": "home",
+          "team_abbrev": "SG Weinstadt 4",
+          "seven_meter": false
+        },
+        {
+          "minute": 55,
+          "second": 2,
+          "scorer": "Yannic Rotter",
+          "team": "home",
+          "team_abbrev": "SG Weinstadt 4",
+          "seven_meter": false
+        },
+        {
+          "minute": 55,
+          "second": 34,
+          "scorer": "Jonah Stich",
+          "team": "away",
+          "team_abbrev": "Hbi Weil/Feuer 3",
+          "seven_meter": false
+        },
+        {
+          "minute": 56,
+          "second": 5,
+          "scorer": "Vassilios Sarantis",
+          "team": "home",
+          "team_abbrev": "SG Weinstadt 4",
+          "seven_meter": false
+        },
+        {
+          "minute": 58,
+          "second": 25,
+          "scorer": "Fabian K\u00fcmmerer",
+          "team": "away",
+          "team_abbrev": "Hbi Weil/Feuer 3",
+          "seven_meter": false
+        },
+        {
+          "minute": 58,
+          "second": 40,
+          "scorer": "Vassilios Sarantis",
+          "team": "home",
+          "team_abbrev": "SG Weinstadt 4",
+          "seven_meter": false
+        },
+        {
+          "minute": 59,
+          "second": 27,
+          "scorer": "Daniel Milke",
+          "team": "home",
+          "team_abbrev": "SG Weinstadt 4",
+          "seven_meter": false
+        }
+      ],
+      "final_score": "29:20",
+      "half_duration": 30,
+      "officials": {
+        "referees": [
+          "Klaus Konrad"
+        ],
+        "timekeepers": [
+          "Mia Munz"
+        ],
+        "secretaries": [
+          "Nico Kozuschek"
+        ]
+      },
+      "graphic_path": "output/graphics/SG_Weinstadt_4_vs_Hbi_Weilimdorf_Feuer_So_2809.png"
+    }
+  ]
+}

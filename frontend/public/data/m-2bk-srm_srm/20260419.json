@@ -1,0 +1,816 @@
+{
+  "date": "20260419",
+  "games": [
+    {
+      "game_id": "handball4all.baden-wuerttemberg.8779852",
+      "order": 80,
+      "date": "So, 19.04.",
+      "home": {
+        "team_name": "SG Heumaden-Sillenbuch",
+        "players": [
+          {
+            "name": "Sascha Ott",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Nathan Dorka",
+            "goals": 8,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 3,
+            "seven_meters_goals": 3
+          },
+          {
+            "name": "Fabian Daiber",
+            "goals": 7,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 2,
+            "seven_meters_goals": 1
+          },
+          {
+            "name": "Holger Blank",
+            "goals": 1,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Jakob Schulik",
+            "goals": 4,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Lorenz Kemmler",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Hannes Umbach",
+            "goals": 2,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Max Bergschneider",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Heiko Stirm",
+            "goals": 6,
+            "two_min_penalties": 0,
+            "yellow_cards": 1,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Mussa Najrees",
+            "goals": 1,
+            "two_min_penalties": 0,
+            "yellow_cards": 1,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Jan Brenner",
+            "goals": 1,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Tim Schuster",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Paul Umbach",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Felix R\u00f6ther",
+            "goals": 2,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          }
+        ]
+      },
+      "away": {
+        "team_name": "Croatia Stuttgart e.V",
+        "players": [
+          {
+            "name": "Stjepan Kardum",
+            "goals": 2,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Antonio Strkalj",
+            "goals": 6,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 1,
+            "seven_meters_goals": 1
+          },
+          {
+            "name": "Mario Celic",
+            "goals": 1,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Vedran Lovrenovic",
+            "goals": 5,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Matkovic Mario",
+            "goals": 2,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Christian Jelusic",
+            "goals": 1,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Freddi Mioca",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Jurica Hamonajec",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Tihomir Pilatic",
+            "goals": 2,
+            "two_min_penalties": 0,
+            "yellow_cards": 1,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Filip Matkovic",
+            "goals": 6,
+            "two_min_penalties": 1,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Petar Bulic",
+            "goals": 4,
+            "two_min_penalties": 1,
+            "yellow_cards": 1,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Matej Maric",
+            "goals": 4,
+            "two_min_penalties": 1,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          }
+        ]
+      },
+      "goals_timeline": [
+        {
+          "minute": 0,
+          "second": 38,
+          "scorer": "Fabian Daiber",
+          "team": "home",
+          "team_abbrev": "SG Heum-Sill",
+          "seven_meter": false
+        },
+        {
+          "minute": 0,
+          "second": 49,
+          "scorer": "Antonio Strkalj",
+          "team": "away",
+          "team_abbrev": "Croatia Lynx",
+          "seven_meter": false
+        },
+        {
+          "minute": 1,
+          "second": 27,
+          "scorer": "Petar Bulic",
+          "team": "away",
+          "team_abbrev": "Croatia Lynx",
+          "seven_meter": false
+        },
+        {
+          "minute": 2,
+          "second": 48,
+          "scorer": "Nathan Dorka",
+          "team": "home",
+          "team_abbrev": "SG Heum-Sill",
+          "seven_meter": false
+        },
+        {
+          "minute": 3,
+          "second": 2,
+          "scorer": "Antonio Strkalj",
+          "team": "away",
+          "team_abbrev": "Croatia Lynx",
+          "seven_meter": false
+        },
+        {
+          "minute": 3,
+          "second": 51,
+          "scorer": "Jakob Schulik",
+          "team": "home",
+          "team_abbrev": "SG Heum-Sill",
+          "seven_meter": false
+        },
+        {
+          "minute": 5,
+          "second": 34,
+          "scorer": "Filip Matkovic",
+          "team": "away",
+          "team_abbrev": "Croatia Lynx",
+          "seven_meter": false
+        },
+        {
+          "minute": 6,
+          "second": 31,
+          "scorer": "Stjepan Kardum",
+          "team": "away",
+          "team_abbrev": "Croatia Lynx",
+          "seven_meter": false
+        },
+        {
+          "minute": 7,
+          "second": 24,
+          "scorer": "Matej Maric",
+          "team": "away",
+          "team_abbrev": "Croatia Lynx",
+          "seven_meter": false
+        },
+        {
+          "minute": 7,
+          "second": 57,
+          "scorer": "Hannes Umbach",
+          "team": "home",
+          "team_abbrev": "SG Heum-Sill",
+          "seven_meter": false
+        },
+        {
+          "minute": 9,
+          "second": 39,
+          "scorer": "Matej Maric",
+          "team": "away",
+          "team_abbrev": "Croatia Lynx",
+          "seven_meter": false
+        },
+        {
+          "minute": 9,
+          "second": 48,
+          "scorer": "Fabian Daiber",
+          "team": "home",
+          "team_abbrev": "SG Heum-Sill",
+          "seven_meter": false
+        },
+        {
+          "minute": 10,
+          "second": 29,
+          "scorer": "Filip Matkovic",
+          "team": "away",
+          "team_abbrev": "Croatia Lynx",
+          "seven_meter": false
+        },
+        {
+          "minute": 13,
+          "second": 2,
+          "scorer": "Nathan Dorka",
+          "team": "home",
+          "team_abbrev": "SG Heum-Sill",
+          "seven_meter": false
+        },
+        {
+          "minute": 14,
+          "second": 18,
+          "scorer": "Nathan Dorka",
+          "team": "home",
+          "team_abbrev": "SG Heum-Sill",
+          "seven_meter": false
+        },
+        {
+          "minute": 15,
+          "second": 20,
+          "scorer": "Nathan Dorka",
+          "team": "home",
+          "team_abbrev": "SG Heum-Sill",
+          "seven_meter": false
+        },
+        {
+          "minute": 15,
+          "second": 54,
+          "scorer": "Antonio Strkalj",
+          "team": "away",
+          "team_abbrev": "Croatia Lynx",
+          "seven_meter": false
+        },
+        {
+          "minute": 16,
+          "second": 31,
+          "scorer": "Fabian Daiber",
+          "team": "home",
+          "team_abbrev": "SG Heum-Sill",
+          "seven_meter": false
+        },
+        {
+          "minute": 19,
+          "second": 37,
+          "scorer": "Vedran Lovrenovic",
+          "team": "away",
+          "team_abbrev": "Croatia Lynx",
+          "seven_meter": false
+        },
+        {
+          "minute": 20,
+          "second": 36,
+          "scorer": "Jakob Schulik",
+          "team": "home",
+          "team_abbrev": "SG Heum-Sill",
+          "seven_meter": false
+        },
+        {
+          "minute": 22,
+          "second": 33,
+          "scorer": "Heiko Stirm",
+          "team": "home",
+          "team_abbrev": "SG Heum-Sill",
+          "seven_meter": false
+        },
+        {
+          "minute": 24,
+          "second": 36,
+          "scorer": "Fabian Daiber",
+          "team": "home",
+          "team_abbrev": "SG Heum-Sill",
+          "seven_meter": true
+        },
+        {
+          "minute": 26,
+          "second": 54,
+          "scorer": "Matkovic Mario",
+          "team": "away",
+          "team_abbrev": "Croatia Lynx",
+          "seven_meter": false
+        },
+        {
+          "minute": 27,
+          "second": 26,
+          "scorer": "Stjepan Kardum",
+          "team": "away",
+          "team_abbrev": "Croatia Lynx",
+          "seven_meter": false
+        },
+        {
+          "minute": 28,
+          "second": 48,
+          "scorer": "Jan Brenner",
+          "team": "home",
+          "team_abbrev": "SG Heum-Sill",
+          "seven_meter": false
+        },
+        {
+          "minute": 29,
+          "second": 43,
+          "scorer": "Fabian Daiber",
+          "team": "home",
+          "team_abbrev": "SG Heum-Sill",
+          "seven_meter": false
+        },
+        {
+          "minute": 30,
+          "second": 0,
+          "scorer": "Vedran Lovrenovic",
+          "team": "away",
+          "team_abbrev": "Croatia Lynx",
+          "seven_meter": false
+        },
+        {
+          "minute": 32,
+          "second": 7,
+          "scorer": "Christian Jelusic",
+          "team": "away",
+          "team_abbrev": "Croatia Lynx",
+          "seven_meter": false
+        },
+        {
+          "minute": 33,
+          "second": 8,
+          "scorer": "Matkovic Mario",
+          "team": "away",
+          "team_abbrev": "Croatia Lynx",
+          "seven_meter": false
+        },
+        {
+          "minute": 33,
+          "second": 21,
+          "scorer": "Vedran Lovrenovic",
+          "team": "away",
+          "team_abbrev": "Croatia Lynx",
+          "seven_meter": false
+        },
+        {
+          "minute": 34,
+          "second": 6,
+          "scorer": "Felix R\u00f6ther",
+          "team": "home",
+          "team_abbrev": "SG Heum-Sill",
+          "seven_meter": false
+        },
+        {
+          "minute": 34,
+          "second": 50,
+          "scorer": "Petar Bulic",
+          "team": "away",
+          "team_abbrev": "Croatia Lynx",
+          "seven_meter": false
+        },
+        {
+          "minute": 35,
+          "second": 28,
+          "scorer": "Felix R\u00f6ther",
+          "team": "home",
+          "team_abbrev": "SG Heum-Sill",
+          "seven_meter": false
+        },
+        {
+          "minute": 37,
+          "second": 6,
+          "scorer": "Jakob Schulik",
+          "team": "home",
+          "team_abbrev": "SG Heum-Sill",
+          "seven_meter": false
+        },
+        {
+          "minute": 38,
+          "second": 35,
+          "scorer": "Matej Maric",
+          "team": "away",
+          "team_abbrev": "Croatia Lynx",
+          "seven_meter": false
+        },
+        {
+          "minute": 40,
+          "second": 3,
+          "scorer": "Hannes Umbach",
+          "team": "home",
+          "team_abbrev": "SG Heum-Sill",
+          "seven_meter": false
+        },
+        {
+          "minute": 40,
+          "second": 25,
+          "scorer": "Vedran Lovrenovic",
+          "team": "away",
+          "team_abbrev": "Croatia Lynx",
+          "seven_meter": false
+        },
+        {
+          "minute": 40,
+          "second": 38,
+          "scorer": "Fabian Daiber",
+          "team": "home",
+          "team_abbrev": "SG Heum-Sill",
+          "seven_meter": false
+        },
+        {
+          "minute": 41,
+          "second": 11,
+          "scorer": "Antonio Strkalj",
+          "team": "away",
+          "team_abbrev": "Croatia Lynx",
+          "seven_meter": false
+        },
+        {
+          "minute": 43,
+          "second": 25,
+          "scorer": "Petar Bulic",
+          "team": "away",
+          "team_abbrev": "Croatia Lynx",
+          "seven_meter": false
+        },
+        {
+          "minute": 45,
+          "second": 43,
+          "scorer": "Filip Matkovic",
+          "team": "away",
+          "team_abbrev": "Croatia Lynx",
+          "seven_meter": false
+        },
+        {
+          "minute": 45,
+          "second": 59,
+          "scorer": "Mussa Najrees",
+          "team": "home",
+          "team_abbrev": "SG Heum-Sill",
+          "seven_meter": false
+        },
+        {
+          "minute": 47,
+          "second": 21,
+          "scorer": "Heiko Stirm",
+          "team": "home",
+          "team_abbrev": "SG Heum-Sill",
+          "seven_meter": false
+        },
+        {
+          "minute": 47,
+          "second": 45,
+          "scorer": "Filip Matkovic",
+          "team": "away",
+          "team_abbrev": "Croatia Lynx",
+          "seven_meter": false
+        },
+        {
+          "minute": 48,
+          "second": 8,
+          "scorer": "Nathan Dorka",
+          "team": "home",
+          "team_abbrev": "SG Heum-Sill",
+          "seven_meter": true
+        },
+        {
+          "minute": 48,
+          "second": 31,
+          "scorer": "Petar Bulic",
+          "team": "away",
+          "team_abbrev": "Croatia Lynx",
+          "seven_meter": false
+        },
+        {
+          "minute": 50,
+          "second": 23,
+          "scorer": "Tihomir Pilatic",
+          "team": "away",
+          "team_abbrev": "Croatia Lynx",
+          "seven_meter": false
+        },
+        {
+          "minute": 51,
+          "second": 1,
+          "scorer": "Nathan Dorka",
+          "team": "home",
+          "team_abbrev": "SG Heum-Sill",
+          "seven_meter": true
+        },
+        {
+          "minute": 51,
+          "second": 31,
+          "scorer": "Filip Matkovic",
+          "team": "away",
+          "team_abbrev": "Croatia Lynx",
+          "seven_meter": false
+        },
+        {
+          "minute": 51,
+          "second": 38,
+          "scorer": "Heiko Stirm",
+          "team": "home",
+          "team_abbrev": "SG Heum-Sill",
+          "seven_meter": false
+        },
+        {
+          "minute": 52,
+          "second": 17,
+          "scorer": "Antonio Strkalj",
+          "team": "away",
+          "team_abbrev": "Croatia Lynx",
+          "seven_meter": true
+        },
+        {
+          "minute": 52,
+          "second": 28,
+          "scorer": "Nathan Dorka",
+          "team": "home",
+          "team_abbrev": "SG Heum-Sill",
+          "seven_meter": false
+        },
+        {
+          "minute": 53,
+          "second": 0,
+          "scorer": "Holger Blank",
+          "team": "home",
+          "team_abbrev": "SG Heum-Sill",
+          "seven_meter": false
+        },
+        {
+          "minute": 53,
+          "second": 30,
+          "scorer": "Vedran Lovrenovic",
+          "team": "away",
+          "team_abbrev": "Croatia Lynx",
+          "seven_meter": false
+        },
+        {
+          "minute": 54,
+          "second": 16,
+          "scorer": "Mario Celic",
+          "team": "away",
+          "team_abbrev": "Croatia Lynx",
+          "seven_meter": false
+        },
+        {
+          "minute": 54,
+          "second": 38,
+          "scorer": "Heiko Stirm",
+          "team": "home",
+          "team_abbrev": "SG Heum-Sill",
+          "seven_meter": false
+        },
+        {
+          "minute": 55,
+          "second": 6,
+          "scorer": "Tihomir Pilatic",
+          "team": "away",
+          "team_abbrev": "Croatia Lynx",
+          "seven_meter": false
+        },
+        {
+          "minute": 55,
+          "second": 16,
+          "scorer": "Fabian Daiber",
+          "team": "home",
+          "team_abbrev": "SG Heum-Sill",
+          "seven_meter": false
+        },
+        {
+          "minute": 56,
+          "second": 20,
+          "scorer": "Nathan Dorka",
+          "team": "home",
+          "team_abbrev": "SG Heum-Sill",
+          "seven_meter": true
+        },
+        {
+          "minute": 57,
+          "second": 5,
+          "scorer": "Antonio Strkalj",
+          "team": "away",
+          "team_abbrev": "Croatia Lynx",
+          "seven_meter": false
+        },
+        {
+          "minute": 57,
+          "second": 22,
+          "scorer": "Heiko Stirm",
+          "team": "home",
+          "team_abbrev": "SG Heum-Sill",
+          "seven_meter": false
+        },
+        {
+          "minute": 57,
+          "second": 40,
+          "scorer": "Matej Maric",
+          "team": "away",
+          "team_abbrev": "Croatia Lynx",
+          "seven_meter": false
+        },
+        {
+          "minute": 59,
+          "second": 23,
+          "scorer": "Heiko Stirm",
+          "team": "home",
+          "team_abbrev": "SG Heum-Sill",
+          "seven_meter": false
+        },
+        {
+          "minute": 59,
+          "second": 52,
+          "scorer": "Filip Matkovic",
+          "team": "away",
+          "team_abbrev": "Croatia Lynx",
+          "seven_meter": false
+        },
+        {
+          "minute": 60,
+          "second": 0,
+          "scorer": "Jakob Schulik",
+          "team": "home",
+          "team_abbrev": "SG Heum-Sill",
+          "seven_meter": false
+        }
+      ],
+      "final_score": "32:33",
+      "half_duration": 30,
+      "officials": {
+        "referees": [
+          "Sven Fischer"
+        ],
+        "timekeepers": [
+          "Sylvia Knust"
+        ],
+        "secretaries": [
+          "Oskar Dorka"
+        ]
+      },
+      "graphic_path": "output/graphics/SG_Heumaden-Sillenbu_vs_Croatia_Stuttgart_e._So_1904.png"
+    }
+  ]
+}

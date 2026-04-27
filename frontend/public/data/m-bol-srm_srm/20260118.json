@@ -1,0 +1,744 @@
+{
+  "date": "20260118",
+  "games": [
+    {
+      "game_id": "handball4all.baden-wuerttemberg.8773142",
+      "order": 91,
+      "date": "So, 18.01.",
+      "home": {
+        "team_name": "HSG Bargau/Bettringen 2",
+        "players": [
+          {
+            "name": "Lukas Knoblauch",
+            "goals": 1,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Chris Barthle",
+            "goals": 1,
+            "two_min_penalties": 1,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Marius Kreilinger",
+            "goals": 5,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Philipp Haas",
+            "goals": 1,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Maximilian Rieg",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Simon St\u00fctz",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Leo Mayer",
+            "goals": 4,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Daniel Barthle",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Julian Weinhold",
+            "goals": 12,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 3,
+            "seven_meters_goals": 3
+          },
+          {
+            "name": "Lennard Sonnentag",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Timo Schramm",
+            "goals": 5,
+            "two_min_penalties": 2,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Steffen Barthle",
+            "goals": 2,
+            "two_min_penalties": 0,
+            "yellow_cards": 1,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Fabio Emele",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Lukas Gro\u00dfkopf",
+            "goals": 0,
+            "two_min_penalties": 2,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          }
+        ]
+      },
+      "away": {
+        "team_name": "SV Magstadt",
+        "players": [
+          {
+            "name": "David Engelmann",
+            "goals": 5,
+            "two_min_penalties": 1,
+            "yellow_cards": 0,
+            "red_cards": 1,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Alexander Mende",
+            "goals": 1,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Valentin B\u00f6ttcher",
+            "goals": 2,
+            "two_min_penalties": 1,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Matteo Schafar",
+            "goals": 6,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 4,
+            "seven_meters_goals": 4
+          },
+          {
+            "name": "Benjamin Sch\u00f6nemann",
+            "goals": 1,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Fabian Fernbach",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Andreas Ohlau",
+            "goals": 1,
+            "two_min_penalties": 2,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Marcel Schiller",
+            "goals": 1,
+            "two_min_penalties": 2,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Timo W\u00f6rz",
+            "goals": 3,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Tim K\u00fchnle",
+            "goals": 4,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Matthias Raith",
+            "goals": 1,
+            "two_min_penalties": 0,
+            "yellow_cards": 1,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Hugo Caspar Reinicke",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          }
+        ]
+      },
+      "goals_timeline": [
+        {
+          "minute": 1,
+          "second": 4,
+          "scorer": "Matteo Schafar",
+          "team": "home",
+          "team_abbrev": "SV Magstadt",
+          "seven_meter": false
+        },
+        {
+          "minute": 1,
+          "second": 45,
+          "scorer": "Timo Schramm",
+          "team": "away",
+          "team_abbrev": "HSG Barg/Bettr 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 3,
+          "second": 30,
+          "scorer": "Tim K\u00fchnle",
+          "team": "home",
+          "team_abbrev": "SV Magstadt",
+          "seven_meter": false
+        },
+        {
+          "minute": 5,
+          "second": 53,
+          "scorer": "Marius Kreilinger",
+          "team": "away",
+          "team_abbrev": "HSG Barg/Bettr 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 6,
+          "second": 39,
+          "scorer": "Benjamin Sch\u00f6nemann",
+          "team": "home",
+          "team_abbrev": "SV Magstadt",
+          "seven_meter": false
+        },
+        {
+          "minute": 7,
+          "second": 24,
+          "scorer": "Julian Weinhold",
+          "team": "away",
+          "team_abbrev": "HSG Barg/Bettr 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 7,
+          "second": 57,
+          "scorer": "Matteo Schafar",
+          "team": "home",
+          "team_abbrev": "SV Magstadt",
+          "seven_meter": true
+        },
+        {
+          "minute": 8,
+          "second": 38,
+          "scorer": "Timo Schramm",
+          "team": "away",
+          "team_abbrev": "HSG Barg/Bettr 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 9,
+          "second": 15,
+          "scorer": "Julian Weinhold",
+          "team": "away",
+          "team_abbrev": "HSG Barg/Bettr 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 13,
+          "second": 52,
+          "scorer": "Leo Mayer",
+          "team": "away",
+          "team_abbrev": "HSG Barg/Bettr 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 14,
+          "second": 29,
+          "scorer": "Tim K\u00fchnle",
+          "team": "home",
+          "team_abbrev": "SV Magstadt",
+          "seven_meter": false
+        },
+        {
+          "minute": 15,
+          "second": 4,
+          "scorer": "Julian Weinhold",
+          "team": "away",
+          "team_abbrev": "HSG Barg/Bettr 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 15,
+          "second": 48,
+          "scorer": "Julian Weinhold",
+          "team": "away",
+          "team_abbrev": "HSG Barg/Bettr 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 16,
+          "second": 13,
+          "scorer": "Valentin B\u00f6ttcher",
+          "team": "home",
+          "team_abbrev": "SV Magstadt",
+          "seven_meter": false
+        },
+        {
+          "minute": 16,
+          "second": 20,
+          "scorer": "Leo Mayer",
+          "team": "away",
+          "team_abbrev": "HSG Barg/Bettr 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 16,
+          "second": 42,
+          "scorer": "Alexander Mende",
+          "team": "home",
+          "team_abbrev": "SV Magstadt",
+          "seven_meter": false
+        },
+        {
+          "minute": 17,
+          "second": 58,
+          "scorer": "Julian Weinhold",
+          "team": "away",
+          "team_abbrev": "HSG Barg/Bettr 2",
+          "seven_meter": true
+        },
+        {
+          "minute": 18,
+          "second": 23,
+          "scorer": "Tim K\u00fchnle",
+          "team": "home",
+          "team_abbrev": "SV Magstadt",
+          "seven_meter": false
+        },
+        {
+          "minute": 20,
+          "second": 34,
+          "scorer": "Timo Schramm",
+          "team": "away",
+          "team_abbrev": "HSG Barg/Bettr 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 21,
+          "second": 14,
+          "scorer": "David Engelmann",
+          "team": "home",
+          "team_abbrev": "SV Magstadt",
+          "seven_meter": false
+        },
+        {
+          "minute": 22,
+          "second": 12,
+          "scorer": "Matteo Schafar",
+          "team": "home",
+          "team_abbrev": "SV Magstadt",
+          "seven_meter": true
+        },
+        {
+          "minute": 24,
+          "second": 20,
+          "scorer": "David Engelmann",
+          "team": "home",
+          "team_abbrev": "SV Magstadt",
+          "seven_meter": false
+        },
+        {
+          "minute": 25,
+          "second": 30,
+          "scorer": "David Engelmann",
+          "team": "home",
+          "team_abbrev": "SV Magstadt",
+          "seven_meter": false
+        },
+        {
+          "minute": 26,
+          "second": 16,
+          "scorer": "Julian Weinhold",
+          "team": "away",
+          "team_abbrev": "HSG Barg/Bettr 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 26,
+          "second": 59,
+          "scorer": "Timo Schramm",
+          "team": "away",
+          "team_abbrev": "HSG Barg/Bettr 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 27,
+          "second": 44,
+          "scorer": "Julian Weinhold",
+          "team": "away",
+          "team_abbrev": "HSG Barg/Bettr 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 28,
+          "second": 9,
+          "scorer": "Matteo Schafar",
+          "team": "home",
+          "team_abbrev": "SV Magstadt",
+          "seven_meter": true
+        },
+        {
+          "minute": 29,
+          "second": 27,
+          "scorer": "Marcel Schiller",
+          "team": "home",
+          "team_abbrev": "SV Magstadt",
+          "seven_meter": false
+        },
+        {
+          "minute": 31,
+          "second": 9,
+          "scorer": "Philipp Haas",
+          "team": "away",
+          "team_abbrev": "HSG Barg/Bettr 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 33,
+          "second": 36,
+          "scorer": "Julian Weinhold",
+          "team": "away",
+          "team_abbrev": "HSG Barg/Bettr 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 33,
+          "second": 52,
+          "scorer": "David Engelmann",
+          "team": "home",
+          "team_abbrev": "SV Magstadt",
+          "seven_meter": false
+        },
+        {
+          "minute": 34,
+          "second": 49,
+          "scorer": "Julian Weinhold",
+          "team": "away",
+          "team_abbrev": "HSG Barg/Bettr 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 36,
+          "second": 10,
+          "scorer": "Steffen Barthle",
+          "team": "away",
+          "team_abbrev": "HSG Barg/Bettr 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 36,
+          "second": 41,
+          "scorer": "Timo W\u00f6rz",
+          "team": "home",
+          "team_abbrev": "SV Magstadt",
+          "seven_meter": false
+        },
+        {
+          "minute": 37,
+          "second": 17,
+          "scorer": "Leo Mayer",
+          "team": "away",
+          "team_abbrev": "HSG Barg/Bettr 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 39,
+          "second": 9,
+          "scorer": "Matteo Schafar",
+          "team": "home",
+          "team_abbrev": "SV Magstadt",
+          "seven_meter": true
+        },
+        {
+          "minute": 40,
+          "second": 11,
+          "scorer": "Matthias Raith",
+          "team": "home",
+          "team_abbrev": "SV Magstadt",
+          "seven_meter": false
+        },
+        {
+          "minute": 41,
+          "second": 7,
+          "scorer": "Marius Kreilinger",
+          "team": "away",
+          "team_abbrev": "HSG Barg/Bettr 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 42,
+          "second": 0,
+          "scorer": "David Engelmann",
+          "team": "home",
+          "team_abbrev": "SV Magstadt",
+          "seven_meter": false
+        },
+        {
+          "minute": 44,
+          "second": 32,
+          "scorer": "Timo W\u00f6rz",
+          "team": "home",
+          "team_abbrev": "SV Magstadt",
+          "seven_meter": false
+        },
+        {
+          "minute": 45,
+          "second": 6,
+          "scorer": "Steffen Barthle",
+          "team": "away",
+          "team_abbrev": "HSG Barg/Bettr 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 45,
+          "second": 22,
+          "scorer": "Timo W\u00f6rz",
+          "team": "home",
+          "team_abbrev": "SV Magstadt",
+          "seven_meter": false
+        },
+        {
+          "minute": 47,
+          "second": 22,
+          "scorer": "Marius Kreilinger",
+          "team": "away",
+          "team_abbrev": "HSG Barg/Bettr 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 48,
+          "second": 32,
+          "scorer": "Marius Kreilinger",
+          "team": "away",
+          "team_abbrev": "HSG Barg/Bettr 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 50,
+          "second": 11,
+          "scorer": "Marius Kreilinger",
+          "team": "away",
+          "team_abbrev": "HSG Barg/Bettr 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 51,
+          "second": 20,
+          "scorer": "Julian Weinhold",
+          "team": "away",
+          "team_abbrev": "HSG Barg/Bettr 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 51,
+          "second": 45,
+          "scorer": "Andreas Ohlau",
+          "team": "home",
+          "team_abbrev": "SV Magstadt",
+          "seven_meter": false
+        },
+        {
+          "minute": 52,
+          "second": 37,
+          "scorer": "Chris Barthle",
+          "team": "away",
+          "team_abbrev": "HSG Barg/Bettr 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 53,
+          "second": 51,
+          "scorer": "Leo Mayer",
+          "team": "away",
+          "team_abbrev": "HSG Barg/Bettr 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 54,
+          "second": 38,
+          "scorer": "Matteo Schafar",
+          "team": "home",
+          "team_abbrev": "SV Magstadt",
+          "seven_meter": false
+        },
+        {
+          "minute": 55,
+          "second": 28,
+          "scorer": "Tim K\u00fchnle",
+          "team": "home",
+          "team_abbrev": "SV Magstadt",
+          "seven_meter": false
+        },
+        {
+          "minute": 56,
+          "second": 35,
+          "scorer": "Julian Weinhold",
+          "team": "away",
+          "team_abbrev": "HSG Barg/Bettr 2",
+          "seven_meter": true
+        },
+        {
+          "minute": 57,
+          "second": 14,
+          "scorer": "Timo Schramm",
+          "team": "away",
+          "team_abbrev": "HSG Barg/Bettr 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 57,
+          "second": 34,
+          "scorer": "Valentin B\u00f6ttcher",
+          "team": "home",
+          "team_abbrev": "SV Magstadt",
+          "seven_meter": false
+        },
+        {
+          "minute": 57,
+          "second": 59,
+          "scorer": "Lukas Knoblauch",
+          "team": "away",
+          "team_abbrev": "HSG Barg/Bettr 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 58,
+          "second": 59,
+          "scorer": "Julian Weinhold",
+          "team": "away",
+          "team_abbrev": "HSG Barg/Bettr 2",
+          "seven_meter": true
+        }
+      ],
+      "final_score": "25:31",
+      "half_duration": 30,
+      "officials": {
+        "referees": [
+          "Holger Krieg"
+        ],
+        "timekeepers": [
+          "Steffen Baur"
+        ],
+        "secretaries": [
+          "Matthias Kraetzer"
+        ]
+      },
+      "graphic_path": "output/graphics/HSG_Bargau_Bettringe_vs_SV_Magstadt_So_1801.png"
+    }
+  ]
+}

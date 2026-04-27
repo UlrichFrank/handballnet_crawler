@@ -1,0 +1,766 @@
+{
+  "date": "20251026",
+  "games": [
+    {
+      "game_id": "handball4all.baden-wuerttemberg.8773277",
+      "order": 35,
+      "date": "So, 26.10.",
+      "home": {
+        "team_name": "TSV Schmiden 1902 2",
+        "players": [
+          {
+            "name": "Mattis Brantsch",
+            "goals": 8,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Luis Rau",
+            "goals": 1,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Luis Kr\u00e4nzle",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Julius B\u00e4hr",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Tim Schweickhardt",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Lenny Sabajanes Kieser",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Mika Funk",
+            "goals": 2,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Luca Nardi",
+            "goals": 5,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Konstantin W\u00fcrmle",
+            "goals": 1,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 2,
+            "seven_meters_goals": 1
+          },
+          {
+            "name": "Hannes Raiser",
+            "goals": 8,
+            "two_min_penalties": 1,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 2,
+            "seven_meters_goals": 2
+          },
+          {
+            "name": "Tim Paule",
+            "goals": 3,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Jakob Schneider",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Niklas Boss",
+            "goals": 3,
+            "two_min_penalties": 0,
+            "yellow_cards": 1,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Marc D\u00fcrr",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Niklas Rahn",
+            "goals": 1,
+            "two_min_penalties": 1,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          }
+        ]
+      },
+      "away": {
+        "team_name": "TSB Schw\u00e4bisch Gm\u00fcnd 2",
+        "players": [
+          {
+            "name": "Jonas St\u00fctz",
+            "goals": 1,
+            "two_min_penalties": 2,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Paul Fritz",
+            "goals": 1,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Sebastian Wittek",
+            "goals": 4,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Aaron Wild",
+            "goals": 5,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 4,
+            "seven_meters_goals": 3
+          },
+          {
+            "name": "Kai Kiesel",
+            "goals": 4,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Jonathan Leichs",
+            "goals": 2,
+            "two_min_penalties": 0,
+            "yellow_cards": 1,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Lasse Bladeck",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Can Oktay",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 1,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Noel Reibstein",
+            "goals": 1,
+            "two_min_penalties": 1,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Max Wollmann",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Kai Jaros",
+            "goals": 5,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Devin Immer",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Felix Daubner",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Tizian Daubner",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          }
+        ]
+      },
+      "goals_timeline": [
+        {
+          "minute": 0,
+          "second": 46,
+          "scorer": "Tim Paule",
+          "team": "home",
+          "team_abbrev": "TSV Schmiden 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 1,
+          "second": 40,
+          "scorer": "Konstantin W\u00fcrmle",
+          "team": "home",
+          "team_abbrev": "TSV Schmiden 2",
+          "seven_meter": true
+        },
+        {
+          "minute": 5,
+          "second": 21,
+          "scorer": "Aaron Wild",
+          "team": "away",
+          "team_abbrev": "TSB Schw.Gm\u00fcnd 2",
+          "seven_meter": true
+        },
+        {
+          "minute": 5,
+          "second": 53,
+          "scorer": "Niklas Boss",
+          "team": "home",
+          "team_abbrev": "TSV Schmiden 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 6,
+          "second": 37,
+          "scorer": "Sebastian Wittek",
+          "team": "away",
+          "team_abbrev": "TSB Schw.Gm\u00fcnd 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 8,
+          "second": 53,
+          "scorer": "Kai Kiesel",
+          "team": "away",
+          "team_abbrev": "TSB Schw.Gm\u00fcnd 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 9,
+          "second": 32,
+          "scorer": "Mattis Brantsch",
+          "team": "home",
+          "team_abbrev": "TSV Schmiden 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 11,
+          "second": 37,
+          "scorer": "Mattis Brantsch",
+          "team": "home",
+          "team_abbrev": "TSV Schmiden 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 11,
+          "second": 50,
+          "scorer": "Jonas St\u00fctz",
+          "team": "away",
+          "team_abbrev": "TSB Schw.Gm\u00fcnd 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 13,
+          "second": 26,
+          "scorer": "Kai Kiesel",
+          "team": "away",
+          "team_abbrev": "TSB Schw.Gm\u00fcnd 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 14,
+          "second": 5,
+          "scorer": "Niklas Rahn",
+          "team": "home",
+          "team_abbrev": "TSV Schmiden 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 14,
+          "second": 35,
+          "scorer": "Aaron Wild",
+          "team": "away",
+          "team_abbrev": "TSB Schw.Gm\u00fcnd 2",
+          "seven_meter": true
+        },
+        {
+          "minute": 16,
+          "second": 8,
+          "scorer": "Aaron Wild",
+          "team": "away",
+          "team_abbrev": "TSB Schw.Gm\u00fcnd 2",
+          "seven_meter": true
+        },
+        {
+          "minute": 17,
+          "second": 12,
+          "scorer": "Kai Jaros",
+          "team": "away",
+          "team_abbrev": "TSB Schw.Gm\u00fcnd 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 18,
+          "second": 12,
+          "scorer": "Sebastian Wittek",
+          "team": "away",
+          "team_abbrev": "TSB Schw.Gm\u00fcnd 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 18,
+          "second": 46,
+          "scorer": "Hannes Raiser",
+          "team": "home",
+          "team_abbrev": "TSV Schmiden 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 19,
+          "second": 14,
+          "scorer": "Kai Jaros",
+          "team": "away",
+          "team_abbrev": "TSB Schw.Gm\u00fcnd 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 19,
+          "second": 24,
+          "scorer": "Mattis Brantsch",
+          "team": "home",
+          "team_abbrev": "TSV Schmiden 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 20,
+          "second": 6,
+          "scorer": "Kai Kiesel",
+          "team": "away",
+          "team_abbrev": "TSB Schw.Gm\u00fcnd 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 21,
+          "second": 35,
+          "scorer": "Kai Kiesel",
+          "team": "away",
+          "team_abbrev": "TSB Schw.Gm\u00fcnd 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 21,
+          "second": 46,
+          "scorer": "Mattis Brantsch",
+          "team": "home",
+          "team_abbrev": "TSV Schmiden 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 22,
+          "second": 57,
+          "scorer": "Kai Jaros",
+          "team": "away",
+          "team_abbrev": "TSB Schw.Gm\u00fcnd 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 23,
+          "second": 38,
+          "scorer": "Aaron Wild",
+          "team": "away",
+          "team_abbrev": "TSB Schw.Gm\u00fcnd 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 25,
+          "second": 29,
+          "scorer": "Mika Funk",
+          "team": "home",
+          "team_abbrev": "TSV Schmiden 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 26,
+          "second": 19,
+          "scorer": "Mattis Brantsch",
+          "team": "home",
+          "team_abbrev": "TSV Schmiden 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 27,
+          "second": 6,
+          "scorer": "Hannes Raiser",
+          "team": "home",
+          "team_abbrev": "TSV Schmiden 2",
+          "seven_meter": true
+        },
+        {
+          "minute": 28,
+          "second": 8,
+          "scorer": "Sebastian Wittek",
+          "team": "away",
+          "team_abbrev": "TSB Schw.Gm\u00fcnd 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 28,
+          "second": 12,
+          "scorer": "Mattis Brantsch",
+          "team": "home",
+          "team_abbrev": "TSV Schmiden 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 30,
+          "second": 48,
+          "scorer": "Jonathan Leichs",
+          "team": "away",
+          "team_abbrev": "TSB Schw.Gm\u00fcnd 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 31,
+          "second": 17,
+          "scorer": "Hannes Raiser",
+          "team": "home",
+          "team_abbrev": "TSV Schmiden 2",
+          "seven_meter": true
+        },
+        {
+          "minute": 32,
+          "second": 36,
+          "scorer": "Mika Funk",
+          "team": "home",
+          "team_abbrev": "TSV Schmiden 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 33,
+          "second": 18,
+          "scorer": "Niklas Boss",
+          "team": "home",
+          "team_abbrev": "TSV Schmiden 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 35,
+          "second": 3,
+          "scorer": "Noel Reibstein",
+          "team": "away",
+          "team_abbrev": "TSB Schw.Gm\u00fcnd 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 35,
+          "second": 12,
+          "scorer": "Mattis Brantsch",
+          "team": "home",
+          "team_abbrev": "TSV Schmiden 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 37,
+          "second": 44,
+          "scorer": "Kai Jaros",
+          "team": "away",
+          "team_abbrev": "TSB Schw.Gm\u00fcnd 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 38,
+          "second": 36,
+          "scorer": "Hannes Raiser",
+          "team": "home",
+          "team_abbrev": "TSV Schmiden 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 39,
+          "second": 41,
+          "scorer": "Mattis Brantsch",
+          "team": "home",
+          "team_abbrev": "TSV Schmiden 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 42,
+          "second": 46,
+          "scorer": "Aaron Wild",
+          "team": "away",
+          "team_abbrev": "TSB Schw.Gm\u00fcnd 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 42,
+          "second": 53,
+          "scorer": "Hannes Raiser",
+          "team": "home",
+          "team_abbrev": "TSV Schmiden 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 43,
+          "second": 41,
+          "scorer": "Hannes Raiser",
+          "team": "home",
+          "team_abbrev": "TSV Schmiden 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 45,
+          "second": 14,
+          "scorer": "Jonathan Leichs",
+          "team": "away",
+          "team_abbrev": "TSB Schw.Gm\u00fcnd 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 45,
+          "second": 23,
+          "scorer": "Luca Nardi",
+          "team": "home",
+          "team_abbrev": "TSV Schmiden 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 46,
+          "second": 2,
+          "scorer": "Luca Nardi",
+          "team": "home",
+          "team_abbrev": "TSV Schmiden 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 47,
+          "second": 13,
+          "scorer": "Sebastian Wittek",
+          "team": "away",
+          "team_abbrev": "TSB Schw.Gm\u00fcnd 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 47,
+          "second": 27,
+          "scorer": "Tim Paule",
+          "team": "home",
+          "team_abbrev": "TSV Schmiden 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 48,
+          "second": 30,
+          "scorer": "Tim Paule",
+          "team": "home",
+          "team_abbrev": "TSV Schmiden 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 49,
+          "second": 28,
+          "scorer": "Luca Nardi",
+          "team": "home",
+          "team_abbrev": "TSV Schmiden 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 50,
+          "second": 6,
+          "scorer": "Luca Nardi",
+          "team": "home",
+          "team_abbrev": "TSV Schmiden 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 53,
+          "second": 5,
+          "scorer": "Niklas Boss",
+          "team": "home",
+          "team_abbrev": "TSV Schmiden 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 54,
+          "second": 50,
+          "scorer": "Hannes Raiser",
+          "team": "home",
+          "team_abbrev": "TSV Schmiden 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 55,
+          "second": 33,
+          "scorer": "Hannes Raiser",
+          "team": "home",
+          "team_abbrev": "TSV Schmiden 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 56,
+          "second": 3,
+          "scorer": "Paul Fritz",
+          "team": "away",
+          "team_abbrev": "TSB Schw.Gm\u00fcnd 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 57,
+          "second": 51,
+          "scorer": "Luca Nardi",
+          "team": "home",
+          "team_abbrev": "TSV Schmiden 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 59,
+          "second": 48,
+          "scorer": "Kai Jaros",
+          "team": "away",
+          "team_abbrev": "TSB Schw.Gm\u00fcnd 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 60,
+          "second": 0,
+          "scorer": "Luis Rau",
+          "team": "home",
+          "team_abbrev": "TSV Schmiden 2",
+          "seven_meter": false
+        }
+      ],
+      "final_score": "32:23",
+      "half_duration": 30,
+      "officials": {
+        "referees": [
+          "Gerd Mollenkopf"
+        ],
+        "timekeepers": [
+          "Tobias Rahn"
+        ],
+        "secretaries": [
+          "Joachim M\u00fcller"
+        ]
+      },
+      "graphic_path": "output/graphics/TSV_Schmiden_1902_2_vs_TSB_Schw\u00e4bisch_Gm\u00fcnd_So_2610.png"
+    }
+  ]
+}

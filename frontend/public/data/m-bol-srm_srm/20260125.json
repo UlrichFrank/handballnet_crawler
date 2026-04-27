@@ -1,0 +1,786 @@
+{
+  "date": "20260125",
+  "games": [
+    {
+      "game_id": "handball4all.baden-wuerttemberg.8773572",
+      "order": 99,
+      "date": "So, 25.01.",
+      "home": {
+        "team_name": "VfL Waiblingen Handball 2",
+        "players": [
+          {
+            "name": "Marco Brecht",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Carsten Lehmk\u00fchler",
+            "goals": 3,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Nils Dedner",
+            "goals": 1,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Marc Kallenberg",
+            "goals": 1,
+            "two_min_penalties": 1,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Sven Beisser",
+            "goals": 6,
+            "two_min_penalties": 1,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 3,
+            "seven_meters_goals": 3
+          },
+          {
+            "name": "Philipp Wiedemann",
+            "goals": 7,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "David Volmer",
+            "goals": 3,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Mark Leinhos",
+            "goals": 3,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Moritz Zimmer",
+            "goals": 5,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Philipp Rauscher",
+            "goals": 3,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Marvin B\u00f6lstler",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Theodor Goetz",
+            "goals": 1,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Marcel Engels",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Henri Konzelmann",
+            "goals": 3,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          }
+        ]
+      },
+      "away": {
+        "team_name": "TSB Schw\u00e4bisch Gm\u00fcnd 2",
+        "players": [
+          {
+            "name": "Jonas St\u00fctz",
+            "goals": 3,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Paul Fritz",
+            "goals": 1,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Sebastian Wittek",
+            "goals": 4,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Aaron Wild",
+            "goals": 1,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Dennis Slonek",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Kai Kiesel",
+            "goals": 4,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Jonathan Leichs",
+            "goals": 1,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Can Oktay",
+            "goals": 1,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 1,
+            "seven_meters_goals": 1
+          },
+          {
+            "name": "Noel Reibstein",
+            "goals": 1,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Max Wollmann",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Kai Jaros",
+            "goals": 1,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Felix Daubner",
+            "goals": 7,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 5,
+            "seven_meters_goals": 4
+          },
+          {
+            "name": "Tizian Daubner",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          }
+        ]
+      },
+      "goals_timeline": [
+        {
+          "minute": 1,
+          "second": 3,
+          "scorer": "Philipp Wiedemann",
+          "team": "home",
+          "team_abbrev": "VfL Waiblingen 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 2,
+          "second": 40,
+          "scorer": "Felix Daubner",
+          "team": "away",
+          "team_abbrev": "TSB Schw.Gm\u00fcnd 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 3,
+          "second": 11,
+          "scorer": "Mark Leinhos",
+          "team": "home",
+          "team_abbrev": "VfL Waiblingen 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 4,
+          "second": 6,
+          "scorer": "Felix Daubner",
+          "team": "away",
+          "team_abbrev": "TSB Schw.Gm\u00fcnd 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 4,
+          "second": 32,
+          "scorer": "Felix Daubner",
+          "team": "away",
+          "team_abbrev": "TSB Schw.Gm\u00fcnd 2",
+          "seven_meter": true
+        },
+        {
+          "minute": 5,
+          "second": 12,
+          "scorer": "Philipp Wiedemann",
+          "team": "home",
+          "team_abbrev": "VfL Waiblingen 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 5,
+          "second": 19,
+          "scorer": "Sebastian Wittek",
+          "team": "away",
+          "team_abbrev": "TSB Schw.Gm\u00fcnd 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 5,
+          "second": 53,
+          "scorer": "Moritz Zimmer",
+          "team": "home",
+          "team_abbrev": "VfL Waiblingen 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 6,
+          "second": 4,
+          "scorer": "Noel Reibstein",
+          "team": "away",
+          "team_abbrev": "TSB Schw.Gm\u00fcnd 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 6,
+          "second": 49,
+          "scorer": "Moritz Zimmer",
+          "team": "home",
+          "team_abbrev": "VfL Waiblingen 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 7,
+          "second": 34,
+          "scorer": "Kai Kiesel",
+          "team": "away",
+          "team_abbrev": "TSB Schw.Gm\u00fcnd 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 7,
+          "second": 56,
+          "scorer": "Moritz Zimmer",
+          "team": "home",
+          "team_abbrev": "VfL Waiblingen 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 9,
+          "second": 4,
+          "scorer": "Mark Leinhos",
+          "team": "home",
+          "team_abbrev": "VfL Waiblingen 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 10,
+          "second": 53,
+          "scorer": "Kai Kiesel",
+          "team": "away",
+          "team_abbrev": "TSB Schw.Gm\u00fcnd 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 11,
+          "second": 29,
+          "scorer": "Sven Beisser",
+          "team": "home",
+          "team_abbrev": "VfL Waiblingen 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 11,
+          "second": 38,
+          "scorer": "Sebastian Wittek",
+          "team": "away",
+          "team_abbrev": "TSB Schw.Gm\u00fcnd 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 12,
+          "second": 36,
+          "scorer": "Moritz Zimmer",
+          "team": "home",
+          "team_abbrev": "VfL Waiblingen 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 13,
+          "second": 54,
+          "scorer": "Sebastian Wittek",
+          "team": "away",
+          "team_abbrev": "TSB Schw.Gm\u00fcnd 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 16,
+          "second": 43,
+          "scorer": "Moritz Zimmer",
+          "team": "home",
+          "team_abbrev": "VfL Waiblingen 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 17,
+          "second": 45,
+          "scorer": "Nils Dedner",
+          "team": "home",
+          "team_abbrev": "VfL Waiblingen 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 19,
+          "second": 28,
+          "scorer": "Philipp Rauscher",
+          "team": "home",
+          "team_abbrev": "VfL Waiblingen 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 20,
+          "second": 37,
+          "scorer": "Philipp Rauscher",
+          "team": "home",
+          "team_abbrev": "VfL Waiblingen 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 21,
+          "second": 24,
+          "scorer": "Philipp Rauscher",
+          "team": "home",
+          "team_abbrev": "VfL Waiblingen 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 21,
+          "second": 36,
+          "scorer": "Kai Jaros",
+          "team": "away",
+          "team_abbrev": "TSB Schw.Gm\u00fcnd 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 22,
+          "second": 55,
+          "scorer": "Aaron Wild",
+          "team": "away",
+          "team_abbrev": "TSB Schw.Gm\u00fcnd 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 23,
+          "second": 30,
+          "scorer": "Carsten Lehmk\u00fchler",
+          "team": "home",
+          "team_abbrev": "VfL Waiblingen 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 25,
+          "second": 8,
+          "scorer": "Philipp Wiedemann",
+          "team": "home",
+          "team_abbrev": "VfL Waiblingen 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 25,
+          "second": 39,
+          "scorer": "Kai Kiesel",
+          "team": "away",
+          "team_abbrev": "TSB Schw.Gm\u00fcnd 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 26,
+          "second": 10,
+          "scorer": "Henri Konzelmann",
+          "team": "home",
+          "team_abbrev": "VfL Waiblingen 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 27,
+          "second": 31,
+          "scorer": "Sven Beisser",
+          "team": "home",
+          "team_abbrev": "VfL Waiblingen 2",
+          "seven_meter": true
+        },
+        {
+          "minute": 28,
+          "second": 20,
+          "scorer": "Felix Daubner",
+          "team": "away",
+          "team_abbrev": "TSB Schw.Gm\u00fcnd 2",
+          "seven_meter": true
+        },
+        {
+          "minute": 29,
+          "second": 48,
+          "scorer": "Marc Kallenberg",
+          "team": "home",
+          "team_abbrev": "VfL Waiblingen 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 31,
+          "second": 30,
+          "scorer": "Sven Beisser",
+          "team": "home",
+          "team_abbrev": "VfL Waiblingen 2",
+          "seven_meter": true
+        },
+        {
+          "minute": 34,
+          "second": 20,
+          "scorer": "Felix Daubner",
+          "team": "away",
+          "team_abbrev": "TSB Schw.Gm\u00fcnd 2",
+          "seven_meter": true
+        },
+        {
+          "minute": 34,
+          "second": 50,
+          "scorer": "Philipp Wiedemann",
+          "team": "home",
+          "team_abbrev": "VfL Waiblingen 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 37,
+          "second": 34,
+          "scorer": "Felix Daubner",
+          "team": "away",
+          "team_abbrev": "TSB Schw.Gm\u00fcnd 2",
+          "seven_meter": true
+        },
+        {
+          "minute": 38,
+          "second": 4,
+          "scorer": "Sven Beisser",
+          "team": "home",
+          "team_abbrev": "VfL Waiblingen 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 39,
+          "second": 8,
+          "scorer": "Mark Leinhos",
+          "team": "home",
+          "team_abbrev": "VfL Waiblingen 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 40,
+          "second": 8,
+          "scorer": "Jonas St\u00fctz",
+          "team": "away",
+          "team_abbrev": "TSB Schw.Gm\u00fcnd 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 41,
+          "second": 21,
+          "scorer": "Sven Beisser",
+          "team": "home",
+          "team_abbrev": "VfL Waiblingen 2",
+          "seven_meter": true
+        },
+        {
+          "minute": 44,
+          "second": 14,
+          "scorer": "Philipp Wiedemann",
+          "team": "home",
+          "team_abbrev": "VfL Waiblingen 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 44,
+          "second": 50,
+          "scorer": "Jonas St\u00fctz",
+          "team": "away",
+          "team_abbrev": "TSB Schw.Gm\u00fcnd 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 46,
+          "second": 33,
+          "scorer": "Jonas St\u00fctz",
+          "team": "away",
+          "team_abbrev": "TSB Schw.Gm\u00fcnd 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 47,
+          "second": 8,
+          "scorer": "Philipp Wiedemann",
+          "team": "home",
+          "team_abbrev": "VfL Waiblingen 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 47,
+          "second": 45,
+          "scorer": "Philipp Wiedemann",
+          "team": "home",
+          "team_abbrev": "VfL Waiblingen 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 48,
+          "second": 30,
+          "scorer": "Paul Fritz",
+          "team": "away",
+          "team_abbrev": "TSB Schw.Gm\u00fcnd 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 49,
+          "second": 52,
+          "scorer": "Kai Kiesel",
+          "team": "away",
+          "team_abbrev": "TSB Schw.Gm\u00fcnd 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 51,
+          "second": 3,
+          "scorer": "Sven Beisser",
+          "team": "home",
+          "team_abbrev": "VfL Waiblingen 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 52,
+          "second": 28,
+          "scorer": "Carsten Lehmk\u00fchler",
+          "team": "home",
+          "team_abbrev": "VfL Waiblingen 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 53,
+          "second": 12,
+          "scorer": "Felix Daubner",
+          "team": "away",
+          "team_abbrev": "TSB Schw.Gm\u00fcnd 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 53,
+          "second": 46,
+          "scorer": "David Volmer",
+          "team": "home",
+          "team_abbrev": "VfL Waiblingen 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 54,
+          "second": 6,
+          "scorer": "Henri Konzelmann",
+          "team": "home",
+          "team_abbrev": "VfL Waiblingen 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 54,
+          "second": 45,
+          "scorer": "Can Oktay",
+          "team": "away",
+          "team_abbrev": "TSB Schw.Gm\u00fcnd 2",
+          "seven_meter": true
+        },
+        {
+          "minute": 55,
+          "second": 12,
+          "scorer": "Carsten Lehmk\u00fchler",
+          "team": "home",
+          "team_abbrev": "VfL Waiblingen 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 55,
+          "second": 49,
+          "scorer": "David Volmer",
+          "team": "home",
+          "team_abbrev": "VfL Waiblingen 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 56,
+          "second": 20,
+          "scorer": "Jonathan Leichs",
+          "team": "away",
+          "team_abbrev": "TSB Schw.Gm\u00fcnd 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 56,
+          "second": 47,
+          "scorer": "Theodor Goetz",
+          "team": "home",
+          "team_abbrev": "VfL Waiblingen 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 57,
+          "second": 11,
+          "scorer": "Sebastian Wittek",
+          "team": "away",
+          "team_abbrev": "TSB Schw.Gm\u00fcnd 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 59,
+          "second": 6,
+          "scorer": "David Volmer",
+          "team": "home",
+          "team_abbrev": "VfL Waiblingen 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 59,
+          "second": 35,
+          "scorer": "Henri Konzelmann",
+          "team": "home",
+          "team_abbrev": "VfL Waiblingen 2",
+          "seven_meter": false
+        }
+      ],
+      "final_score": "36:24",
+      "half_duration": 30,
+      "officials": {
+        "referees": [
+          "Tom Felger"
+        ],
+        "timekeepers": [
+          "Cosima W\u00fcrdinger"
+        ],
+        "secretaries": [
+          "Nicole Wittek"
+        ]
+      },
+      "graphic_path": "output/graphics/VfL_Waiblingen_Handb_vs_TSB_Schw\u00e4bisch_Gm\u00fcnd_So_2501.png"
+    }
+  ]
+}

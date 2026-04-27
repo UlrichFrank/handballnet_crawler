@@ -1,0 +1,752 @@
+{
+  "date": "20251019",
+  "games": [
+    {
+      "game_id": "handball4all.baden-wuerttemberg.8773247",
+      "order": 28,
+      "date": "So, 19.10.",
+      "home": {
+        "team_name": "HSG Oberer Neckar",
+        "players": [
+          {
+            "name": "Laurin Raab",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Benjamin Innenmoser",
+            "goals": 2,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Finn Kowalke",
+            "goals": 5,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Robin Wegfahrt",
+            "goals": 7,
+            "two_min_penalties": 0,
+            "yellow_cards": 1,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Jan Billner",
+            "goals": 9,
+            "two_min_penalties": 1,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 1,
+            "seven_meters_goals": 1
+          },
+          {
+            "name": "Paul Kazmaier",
+            "goals": 1,
+            "two_min_penalties": 2,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Tim Burkhardt",
+            "goals": 2,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Jona Bastian",
+            "goals": 2,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Lukas Rueckle",
+            "goals": 1,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Manuel Grauer",
+            "goals": 1,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Sebastian Engler",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          }
+        ]
+      },
+      "away": {
+        "team_name": "HC Oppenweiler/Backnang 3",
+        "players": [
+          {
+            "name": "Frieder Hail",
+            "goals": 3,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Bennet Grotzke",
+            "goals": 3,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Christoph Dorn",
+            "goals": 2,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Kai Elser",
+            "goals": 1,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Nils Haffner",
+            "goals": 1,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Philian Grotzke",
+            "goals": 1,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Pascal Haffner",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Ignazio Petrusa",
+            "goals": 2,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Tom Elser",
+            "goals": 1,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Felix Richter",
+            "goals": 1,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Moritz B\u00fchler",
+            "goals": 2,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Felix Noll",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Malte Windm\u00fcller",
+            "goals": 1,
+            "two_min_penalties": 1,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Fabian Riegraf",
+            "goals": 4,
+            "two_min_penalties": 0,
+            "yellow_cards": 1,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 2,
+            "seven_meters_goals": 2
+          },
+          {
+            "name": "Luke Glaser",
+            "goals": 5,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          }
+        ]
+      },
+      "goals_timeline": [
+        {
+          "minute": 1,
+          "second": 32,
+          "scorer": "Finn Kowalke",
+          "team": "home",
+          "team_abbrev": "HSG Ob. Neckar",
+          "seven_meter": false
+        },
+        {
+          "minute": 2,
+          "second": 0,
+          "scorer": "Jan Billner",
+          "team": "home",
+          "team_abbrev": "HSG Ob. Neckar",
+          "seven_meter": false
+        },
+        {
+          "minute": 3,
+          "second": 0,
+          "scorer": "Finn Kowalke",
+          "team": "home",
+          "team_abbrev": "HSG Ob. Neckar",
+          "seven_meter": false
+        },
+        {
+          "minute": 5,
+          "second": 50,
+          "scorer": "Jan Billner",
+          "team": "home",
+          "team_abbrev": "HSG Ob. Neckar",
+          "seven_meter": false
+        },
+        {
+          "minute": 6,
+          "second": 40,
+          "scorer": "Luke Glaser",
+          "team": "away",
+          "team_abbrev": "HCOB Opp/BK 3",
+          "seven_meter": false
+        },
+        {
+          "minute": 7,
+          "second": 43,
+          "scorer": "Tim Burkhardt",
+          "team": "home",
+          "team_abbrev": "HSG Ob. Neckar",
+          "seven_meter": false
+        },
+        {
+          "minute": 8,
+          "second": 20,
+          "scorer": "Finn Kowalke",
+          "team": "home",
+          "team_abbrev": "HSG Ob. Neckar",
+          "seven_meter": false
+        },
+        {
+          "minute": 8,
+          "second": 50,
+          "scorer": "Frieder Hail",
+          "team": "away",
+          "team_abbrev": "HCOB Opp/BK 3",
+          "seven_meter": false
+        },
+        {
+          "minute": 9,
+          "second": 30,
+          "scorer": "Robin Wegfahrt",
+          "team": "home",
+          "team_abbrev": "HSG Ob. Neckar",
+          "seven_meter": false
+        },
+        {
+          "minute": 9,
+          "second": 42,
+          "scorer": "Luke Glaser",
+          "team": "away",
+          "team_abbrev": "HCOB Opp/BK 3",
+          "seven_meter": false
+        },
+        {
+          "minute": 10,
+          "second": 39,
+          "scorer": "Christoph Dorn",
+          "team": "away",
+          "team_abbrev": "HCOB Opp/BK 3",
+          "seven_meter": false
+        },
+        {
+          "minute": 10,
+          "second": 54,
+          "scorer": "Finn Kowalke",
+          "team": "home",
+          "team_abbrev": "HSG Ob. Neckar",
+          "seven_meter": false
+        },
+        {
+          "minute": 11,
+          "second": 25,
+          "scorer": "Fabian Riegraf",
+          "team": "away",
+          "team_abbrev": "HCOB Opp/BK 3",
+          "seven_meter": true
+        },
+        {
+          "minute": 11,
+          "second": 36,
+          "scorer": "Robin Wegfahrt",
+          "team": "home",
+          "team_abbrev": "HSG Ob. Neckar",
+          "seven_meter": false
+        },
+        {
+          "minute": 14,
+          "second": 53,
+          "scorer": "Luke Glaser",
+          "team": "away",
+          "team_abbrev": "HCOB Opp/BK 3",
+          "seven_meter": false
+        },
+        {
+          "minute": 16,
+          "second": 4,
+          "scorer": "Jan Billner",
+          "team": "home",
+          "team_abbrev": "HSG Ob. Neckar",
+          "seven_meter": false
+        },
+        {
+          "minute": 16,
+          "second": 34,
+          "scorer": "Frieder Hail",
+          "team": "away",
+          "team_abbrev": "HCOB Opp/BK 3",
+          "seven_meter": false
+        },
+        {
+          "minute": 17,
+          "second": 15,
+          "scorer": "Robin Wegfahrt",
+          "team": "home",
+          "team_abbrev": "HSG Ob. Neckar",
+          "seven_meter": false
+        },
+        {
+          "minute": 18,
+          "second": 34,
+          "scorer": "Fabian Riegraf",
+          "team": "away",
+          "team_abbrev": "HCOB Opp/BK 3",
+          "seven_meter": true
+        },
+        {
+          "minute": 19,
+          "second": 18,
+          "scorer": "Ignazio Petrusa",
+          "team": "away",
+          "team_abbrev": "HCOB Opp/BK 3",
+          "seven_meter": false
+        },
+        {
+          "minute": 19,
+          "second": 28,
+          "scorer": "Robin Wegfahrt",
+          "team": "home",
+          "team_abbrev": "HSG Ob. Neckar",
+          "seven_meter": false
+        },
+        {
+          "minute": 19,
+          "second": 39,
+          "scorer": "Bennet Grotzke",
+          "team": "away",
+          "team_abbrev": "HCOB Opp/BK 3",
+          "seven_meter": false
+        },
+        {
+          "minute": 20,
+          "second": 6,
+          "scorer": "Jan Billner",
+          "team": "home",
+          "team_abbrev": "HSG Ob. Neckar",
+          "seven_meter": false
+        },
+        {
+          "minute": 21,
+          "second": 14,
+          "scorer": "Finn Kowalke",
+          "team": "home",
+          "team_abbrev": "HSG Ob. Neckar",
+          "seven_meter": false
+        },
+        {
+          "minute": 21,
+          "second": 49,
+          "scorer": "Fabian Riegraf",
+          "team": "away",
+          "team_abbrev": "HCOB Opp/BK 3",
+          "seven_meter": false
+        },
+        {
+          "minute": 22,
+          "second": 23,
+          "scorer": "Jan Billner",
+          "team": "home",
+          "team_abbrev": "HSG Ob. Neckar",
+          "seven_meter": false
+        },
+        {
+          "minute": 25,
+          "second": 53,
+          "scorer": "Felix Richter",
+          "team": "away",
+          "team_abbrev": "HCOB Opp/BK 3",
+          "seven_meter": false
+        },
+        {
+          "minute": 26,
+          "second": 13,
+          "scorer": "Manuel Grauer",
+          "team": "home",
+          "team_abbrev": "HSG Ob. Neckar",
+          "seven_meter": false
+        },
+        {
+          "minute": 27,
+          "second": 31,
+          "scorer": "Jona Bastian",
+          "team": "home",
+          "team_abbrev": "HSG Ob. Neckar",
+          "seven_meter": false
+        },
+        {
+          "minute": 32,
+          "second": 34,
+          "scorer": "Nils Haffner",
+          "team": "away",
+          "team_abbrev": "HCOB Opp/BK 3",
+          "seven_meter": false
+        },
+        {
+          "minute": 34,
+          "second": 11,
+          "scorer": "Tom Elser",
+          "team": "away",
+          "team_abbrev": "HCOB Opp/BK 3",
+          "seven_meter": false
+        },
+        {
+          "minute": 36,
+          "second": 21,
+          "scorer": "Christoph Dorn",
+          "team": "away",
+          "team_abbrev": "HCOB Opp/BK 3",
+          "seven_meter": false
+        },
+        {
+          "minute": 36,
+          "second": 55,
+          "scorer": "Paul Kazmaier",
+          "team": "home",
+          "team_abbrev": "HSG Ob. Neckar",
+          "seven_meter": false
+        },
+        {
+          "minute": 40,
+          "second": 16,
+          "scorer": "Robin Wegfahrt",
+          "team": "home",
+          "team_abbrev": "HSG Ob. Neckar",
+          "seven_meter": false
+        },
+        {
+          "minute": 40,
+          "second": 48,
+          "scorer": "Moritz B\u00fchler",
+          "team": "away",
+          "team_abbrev": "HCOB Opp/BK 3",
+          "seven_meter": false
+        },
+        {
+          "minute": 41,
+          "second": 31,
+          "scorer": "Ignazio Petrusa",
+          "team": "away",
+          "team_abbrev": "HCOB Opp/BK 3",
+          "seven_meter": false
+        },
+        {
+          "minute": 44,
+          "second": 6,
+          "scorer": "Moritz B\u00fchler",
+          "team": "away",
+          "team_abbrev": "HCOB Opp/BK 3",
+          "seven_meter": false
+        },
+        {
+          "minute": 46,
+          "second": 29,
+          "scorer": "Benjamin Innenmoser",
+          "team": "home",
+          "team_abbrev": "HSG Ob. Neckar",
+          "seven_meter": false
+        },
+        {
+          "minute": 46,
+          "second": 38,
+          "scorer": "Bennet Grotzke",
+          "team": "away",
+          "team_abbrev": "HCOB Opp/BK 3",
+          "seven_meter": false
+        },
+        {
+          "minute": 47,
+          "second": 13,
+          "scorer": "Benjamin Innenmoser",
+          "team": "home",
+          "team_abbrev": "HSG Ob. Neckar",
+          "seven_meter": false
+        },
+        {
+          "minute": 48,
+          "second": 1,
+          "scorer": "Tim Burkhardt",
+          "team": "home",
+          "team_abbrev": "HSG Ob. Neckar",
+          "seven_meter": false
+        },
+        {
+          "minute": 48,
+          "second": 55,
+          "scorer": "Bennet Grotzke",
+          "team": "away",
+          "team_abbrev": "HCOB Opp/BK 3",
+          "seven_meter": false
+        },
+        {
+          "minute": 49,
+          "second": 14,
+          "scorer": "Jona Bastian",
+          "team": "home",
+          "team_abbrev": "HSG Ob. Neckar",
+          "seven_meter": false
+        },
+        {
+          "minute": 49,
+          "second": 53,
+          "scorer": "Jan Billner",
+          "team": "home",
+          "team_abbrev": "HSG Ob. Neckar",
+          "seven_meter": false
+        },
+        {
+          "minute": 50,
+          "second": 24,
+          "scorer": "Kai Elser",
+          "team": "away",
+          "team_abbrev": "HCOB Opp/BK 3",
+          "seven_meter": false
+        },
+        {
+          "minute": 51,
+          "second": 18,
+          "scorer": "Lukas Rueckle",
+          "team": "home",
+          "team_abbrev": "HSG Ob. Neckar",
+          "seven_meter": false
+        },
+        {
+          "minute": 51,
+          "second": 24,
+          "scorer": "Malte Windm\u00fcller",
+          "team": "away",
+          "team_abbrev": "HCOB Opp/BK 3",
+          "seven_meter": false
+        },
+        {
+          "minute": 52,
+          "second": 34,
+          "scorer": "Jan Billner",
+          "team": "home",
+          "team_abbrev": "HSG Ob. Neckar",
+          "seven_meter": true
+        },
+        {
+          "minute": 53,
+          "second": 35,
+          "scorer": "Frieder Hail",
+          "team": "away",
+          "team_abbrev": "HCOB Opp/BK 3",
+          "seven_meter": false
+        },
+        {
+          "minute": 54,
+          "second": 35,
+          "scorer": "Luke Glaser",
+          "team": "away",
+          "team_abbrev": "HCOB Opp/BK 3",
+          "seven_meter": false
+        },
+        {
+          "minute": 57,
+          "second": 23,
+          "scorer": "Jan Billner",
+          "team": "home",
+          "team_abbrev": "HSG Ob. Neckar",
+          "seven_meter": false
+        },
+        {
+          "minute": 57,
+          "second": 44,
+          "scorer": "Robin Wegfahrt",
+          "team": "home",
+          "team_abbrev": "HSG Ob. Neckar",
+          "seven_meter": false
+        },
+        {
+          "minute": 58,
+          "second": 4,
+          "scorer": "Fabian Riegraf",
+          "team": "away",
+          "team_abbrev": "HCOB Opp/BK 3",
+          "seven_meter": false
+        },
+        {
+          "minute": 59,
+          "second": 10,
+          "scorer": "Jan Billner",
+          "team": "home",
+          "team_abbrev": "HSG Ob. Neckar",
+          "seven_meter": false
+        },
+        {
+          "minute": 59,
+          "second": 24,
+          "scorer": "Luke Glaser",
+          "team": "away",
+          "team_abbrev": "HCOB Opp/BK 3",
+          "seven_meter": false
+        },
+        {
+          "minute": 59,
+          "second": 47,
+          "scorer": "Robin Wegfahrt",
+          "team": "home",
+          "team_abbrev": "HSG Ob. Neckar",
+          "seven_meter": false
+        },
+        {
+          "minute": 59,
+          "second": 56,
+          "scorer": "Philian Grotzke",
+          "team": "away",
+          "team_abbrev": "HCOB Opp/BK 3",
+          "seven_meter": false
+        }
+      ],
+      "final_score": "30:27",
+      "half_duration": 30,
+      "officials": {
+        "referees": [
+          "Tom Felger"
+        ],
+        "timekeepers": [
+          "Benediktringler"
+        ],
+        "secretaries": [
+          "Enrico Erb"
+        ]
+      },
+      "graphic_path": "output/graphics/HSG_Oberer_Neckar_vs_HC_Oppenweiler_Backn_So_1910.png"
+    }
+  ]
+}

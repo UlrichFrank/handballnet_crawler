@@ -1,0 +1,882 @@
+{
+  "date": "20251210",
+  "games": [
+    {
+      "game_id": "handball4all.baden-wuerttemberg.8773532",
+      "order": 76,
+      "date": "Mi, 10.12.",
+      "home": {
+        "team_name": "SF Schwaikheim 2",
+        "players": [
+          {
+            "name": "Robin Kuhnle",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Marcel Mahlfeld",
+            "goals": 0,
+            "two_min_penalties": 2,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Julian Slangen",
+            "goals": 5,
+            "two_min_penalties": 0,
+            "yellow_cards": 1,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 1,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Moritz Abelein",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Moritz Weller",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Pascal K\u00f6lz",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Paul Ehmann",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Julian W\u00fcrtele",
+            "goals": 8,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Simon Franz",
+            "goals": 8,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Maik Gronwald",
+            "goals": 3,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Fabian Lenz",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Elias Langerjahn",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Fabian Netz",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Fabian Ferhati",
+            "goals": 2,
+            "two_min_penalties": 0,
+            "yellow_cards": 1,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Nils Schweickhardt",
+            "goals": 10,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 4,
+            "seven_meters_goals": 4
+          }
+        ]
+      },
+      "away": {
+        "team_name": "TSV Alfdorf/Lorch/Waldhausen 2",
+        "players": [
+          {
+            "name": "Luca Paul",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Stephan Schenker",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Tom Barei\u00df",
+            "goals": 6,
+            "two_min_penalties": 0,
+            "yellow_cards": 1,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 1,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Lars Rauch",
+            "goals": 3,
+            "two_min_penalties": 1,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Ben Kordulla",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Lucas Mattheis",
+            "goals": 4,
+            "two_min_penalties": 0,
+            "yellow_cards": 1,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Ben Stettner",
+            "goals": 3,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Cedric Pohlmann",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Maximilian K\u00f6ngeter",
+            "goals": 3,
+            "two_min_penalties": 1,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Jens Heinzelmann",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Maximilian Fritz",
+            "goals": 0,
+            "two_min_penalties": 1,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Tim Kordulla",
+            "goals": 3,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Maximilian Kinkel",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Jonas Kinkel",
+            "goals": 4,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Lukas Egger",
+            "goals": 4,
+            "two_min_penalties": 1,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 2,
+            "seven_meters_goals": 2
+          },
+          {
+            "name": "Tobias Folter",
+            "goals": 1,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          }
+        ]
+      },
+      "goals_timeline": [
+        {
+          "minute": 2,
+          "second": 48,
+          "scorer": "Tom Barei\u00df",
+          "team": "home",
+          "team_abbrev": "TSV ALLOWA 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 4,
+          "second": 6,
+          "scorer": "Nils Schweickhardt",
+          "team": "away",
+          "team_abbrev": "SF Schwaikheim 2",
+          "seven_meter": true
+        },
+        {
+          "minute": 4,
+          "second": 32,
+          "scorer": "Julian W\u00fcrtele",
+          "team": "away",
+          "team_abbrev": "SF Schwaikheim 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 5,
+          "second": 31,
+          "scorer": "Simon Franz",
+          "team": "away",
+          "team_abbrev": "SF Schwaikheim 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 6,
+          "second": 12,
+          "scorer": "Jonas Kinkel",
+          "team": "home",
+          "team_abbrev": "TSV ALLOWA 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 6,
+          "second": 23,
+          "scorer": "Julian W\u00fcrtele",
+          "team": "away",
+          "team_abbrev": "SF Schwaikheim 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 7,
+          "second": 28,
+          "scorer": "Maik Gronwald",
+          "team": "away",
+          "team_abbrev": "SF Schwaikheim 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 8,
+          "second": 39,
+          "scorer": "Julian W\u00fcrtele",
+          "team": "away",
+          "team_abbrev": "SF Schwaikheim 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 9,
+          "second": 26,
+          "scorer": "Tom Barei\u00df",
+          "team": "home",
+          "team_abbrev": "TSV ALLOWA 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 10,
+          "second": 13,
+          "scorer": "Lucas Mattheis",
+          "team": "home",
+          "team_abbrev": "TSV ALLOWA 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 13,
+          "second": 43,
+          "scorer": "Julian Slangen",
+          "team": "away",
+          "team_abbrev": "SF Schwaikheim 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 14,
+          "second": 14,
+          "scorer": "Ben Stettner",
+          "team": "home",
+          "team_abbrev": "TSV ALLOWA 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 14,
+          "second": 22,
+          "scorer": "Simon Franz",
+          "team": "away",
+          "team_abbrev": "SF Schwaikheim 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 14,
+          "second": 57,
+          "scorer": "Ben Stettner",
+          "team": "home",
+          "team_abbrev": "TSV ALLOWA 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 15,
+          "second": 5,
+          "scorer": "Julian Slangen",
+          "team": "away",
+          "team_abbrev": "SF Schwaikheim 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 17,
+          "second": 2,
+          "scorer": "Nils Schweickhardt",
+          "team": "away",
+          "team_abbrev": "SF Schwaikheim 2",
+          "seven_meter": true
+        },
+        {
+          "minute": 17,
+          "second": 33,
+          "scorer": "Lukas Egger",
+          "team": "home",
+          "team_abbrev": "TSV ALLOWA 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 18,
+          "second": 37,
+          "scorer": "Julian Slangen",
+          "team": "away",
+          "team_abbrev": "SF Schwaikheim 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 19,
+          "second": 35,
+          "scorer": "Lucas Mattheis",
+          "team": "home",
+          "team_abbrev": "TSV ALLOWA 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 20,
+          "second": 12,
+          "scorer": "Ben Stettner",
+          "team": "home",
+          "team_abbrev": "TSV ALLOWA 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 21,
+          "second": 25,
+          "scorer": "Simon Franz",
+          "team": "away",
+          "team_abbrev": "SF Schwaikheim 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 22,
+          "second": 24,
+          "scorer": "Fabian Ferhati",
+          "team": "away",
+          "team_abbrev": "SF Schwaikheim 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 22,
+          "second": 49,
+          "scorer": "Lukas Egger",
+          "team": "home",
+          "team_abbrev": "TSV ALLOWA 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 23,
+          "second": 43,
+          "scorer": "Simon Franz",
+          "team": "away",
+          "team_abbrev": "SF Schwaikheim 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 24,
+          "second": 29,
+          "scorer": "Tim Kordulla",
+          "team": "home",
+          "team_abbrev": "TSV ALLOWA 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 25,
+          "second": 3,
+          "scorer": "Fabian Ferhati",
+          "team": "away",
+          "team_abbrev": "SF Schwaikheim 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 25,
+          "second": 54,
+          "scorer": "Tim Kordulla",
+          "team": "home",
+          "team_abbrev": "TSV ALLOWA 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 27,
+          "second": 21,
+          "scorer": "Tim Kordulla",
+          "team": "home",
+          "team_abbrev": "TSV ALLOWA 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 27,
+          "second": 30,
+          "scorer": "Simon Franz",
+          "team": "away",
+          "team_abbrev": "SF Schwaikheim 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 28,
+          "second": 1,
+          "scorer": "Tom Barei\u00df",
+          "team": "home",
+          "team_abbrev": "TSV ALLOWA 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 28,
+          "second": 50,
+          "scorer": "Nils Schweickhardt",
+          "team": "away",
+          "team_abbrev": "SF Schwaikheim 2",
+          "seven_meter": true
+        },
+        {
+          "minute": 29,
+          "second": 27,
+          "scorer": "Tom Barei\u00df",
+          "team": "home",
+          "team_abbrev": "TSV ALLOWA 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 30,
+          "second": 50,
+          "scorer": "Tom Barei\u00df",
+          "team": "home",
+          "team_abbrev": "TSV ALLOWA 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 31,
+          "second": 26,
+          "scorer": "Maik Gronwald",
+          "team": "away",
+          "team_abbrev": "SF Schwaikheim 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 32,
+          "second": 47,
+          "scorer": "Lukas Egger",
+          "team": "home",
+          "team_abbrev": "TSV ALLOWA 2",
+          "seven_meter": true
+        },
+        {
+          "minute": 34,
+          "second": 16,
+          "scorer": "Julian W\u00fcrtele",
+          "team": "away",
+          "team_abbrev": "SF Schwaikheim 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 35,
+          "second": 7,
+          "scorer": "Nils Schweickhardt",
+          "team": "away",
+          "team_abbrev": "SF Schwaikheim 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 35,
+          "second": 47,
+          "scorer": "Julian W\u00fcrtele",
+          "team": "away",
+          "team_abbrev": "SF Schwaikheim 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 36,
+          "second": 2,
+          "scorer": "Nils Schweickhardt",
+          "team": "away",
+          "team_abbrev": "SF Schwaikheim 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 36,
+          "second": 44,
+          "scorer": "Nils Schweickhardt",
+          "team": "away",
+          "team_abbrev": "SF Schwaikheim 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 37,
+          "second": 16,
+          "scorer": "Maximilian K\u00f6ngeter",
+          "team": "home",
+          "team_abbrev": "TSV ALLOWA 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 38,
+          "second": 52,
+          "scorer": "Lars Rauch",
+          "team": "home",
+          "team_abbrev": "TSV ALLOWA 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 40,
+          "second": 7,
+          "scorer": "Julian W\u00fcrtele",
+          "team": "away",
+          "team_abbrev": "SF Schwaikheim 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 40,
+          "second": 38,
+          "scorer": "Nils Schweickhardt",
+          "team": "away",
+          "team_abbrev": "SF Schwaikheim 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 40,
+          "second": 57,
+          "scorer": "Maximilian K\u00f6ngeter",
+          "team": "home",
+          "team_abbrev": "TSV ALLOWA 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 41,
+          "second": 35,
+          "scorer": "Julian W\u00fcrtele",
+          "team": "away",
+          "team_abbrev": "SF Schwaikheim 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 41,
+          "second": 53,
+          "scorer": "Tobias Folter",
+          "team": "home",
+          "team_abbrev": "TSV ALLOWA 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 43,
+          "second": 43,
+          "scorer": "Lukas Egger",
+          "team": "home",
+          "team_abbrev": "TSV ALLOWA 2",
+          "seven_meter": true
+        },
+        {
+          "minute": 44,
+          "second": 17,
+          "scorer": "Julian W\u00fcrtele",
+          "team": "away",
+          "team_abbrev": "SF Schwaikheim 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 45,
+          "second": 28,
+          "scorer": "Lucas Mattheis",
+          "team": "home",
+          "team_abbrev": "TSV ALLOWA 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 45,
+          "second": 58,
+          "scorer": "Simon Franz",
+          "team": "away",
+          "team_abbrev": "SF Schwaikheim 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 46,
+          "second": 50,
+          "scorer": "Jonas Kinkel",
+          "team": "home",
+          "team_abbrev": "TSV ALLOWA 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 48,
+          "second": 8,
+          "scorer": "Jonas Kinkel",
+          "team": "home",
+          "team_abbrev": "TSV ALLOWA 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 49,
+          "second": 29,
+          "scorer": "Maximilian K\u00f6ngeter",
+          "team": "home",
+          "team_abbrev": "TSV ALLOWA 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 49,
+          "second": 47,
+          "scorer": "Maik Gronwald",
+          "team": "away",
+          "team_abbrev": "SF Schwaikheim 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 51,
+          "second": 22,
+          "scorer": "Nils Schweickhardt",
+          "team": "away",
+          "team_abbrev": "SF Schwaikheim 2",
+          "seven_meter": true
+        },
+        {
+          "minute": 52,
+          "second": 54,
+          "scorer": "Julian Slangen",
+          "team": "away",
+          "team_abbrev": "SF Schwaikheim 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 54,
+          "second": 46,
+          "scorer": "Lucas Mattheis",
+          "team": "home",
+          "team_abbrev": "TSV ALLOWA 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 55,
+          "second": 31,
+          "scorer": "Lars Rauch",
+          "team": "home",
+          "team_abbrev": "TSV ALLOWA 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 56,
+          "second": 3,
+          "scorer": "Nils Schweickhardt",
+          "team": "away",
+          "team_abbrev": "SF Schwaikheim 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 56,
+          "second": 22,
+          "scorer": "Nils Schweickhardt",
+          "team": "away",
+          "team_abbrev": "SF Schwaikheim 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 57,
+          "second": 10,
+          "scorer": "Simon Franz",
+          "team": "away",
+          "team_abbrev": "SF Schwaikheim 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 57,
+          "second": 28,
+          "scorer": "Tom Barei\u00df",
+          "team": "home",
+          "team_abbrev": "TSV ALLOWA 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 57,
+          "second": 55,
+          "scorer": "Julian Slangen",
+          "team": "away",
+          "team_abbrev": "SF Schwaikheim 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 58,
+          "second": 41,
+          "scorer": "Simon Franz",
+          "team": "away",
+          "team_abbrev": "SF Schwaikheim 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 59,
+          "second": 13,
+          "scorer": "Lars Rauch",
+          "team": "home",
+          "team_abbrev": "TSV ALLOWA 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 59,
+          "second": 48,
+          "scorer": "Jonas Kinkel",
+          "team": "home",
+          "team_abbrev": "TSV ALLOWA 2",
+          "seven_meter": false
+        }
+      ],
+      "final_score": "31:36",
+      "half_duration": 30,
+      "officials": {
+        "referees": [
+          "Lars S\u00f6hner"
+        ],
+        "timekeepers": [
+          "Holger Reinhardt"
+        ],
+        "secretaries": [
+          "Felix Krazer"
+        ]
+      },
+      "graphic_path": "output/graphics/SF_Schwaikheim_2_vs_TSV_Alfdorf_Lorch_Wa_Mi_1012.png"
+    }
+  ]
+}

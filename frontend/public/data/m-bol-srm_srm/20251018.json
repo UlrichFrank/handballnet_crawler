@@ -1,0 +1,4651 @@
+{
+  "date": "20251018",
+  "games": [
+    {
+      "game_id": "handball4all.baden-wuerttemberg.8773242",
+      "order": 22,
+      "date": "Sa, 18.10.",
+      "home": {
+        "team_name": "TV Oeffingen 1897 2",
+        "players": [
+          {
+            "name": "Stefan Straub",
+            "goals": 2,
+            "two_min_penalties": 1,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Daniel R\u00fchle",
+            "goals": 7,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 6,
+            "seven_meters_goals": 6
+          },
+          {
+            "name": "Thomas Drexler",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Tobias Schurr",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Florian Rost",
+            "goals": 3,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Markus Lang",
+            "goals": 1,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Luca Bohl",
+            "goals": 4,
+            "two_min_penalties": 1,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Julian Gregorius",
+            "goals": 1,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Marius Stolper",
+            "goals": 0,
+            "two_min_penalties": 1,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Jan Stolper",
+            "goals": 2,
+            "two_min_penalties": 1,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Paul K\u00f6berle",
+            "goals": 6,
+            "two_min_penalties": 1,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Fabian B\u00fcrkle",
+            "goals": 4,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Jan Gerner",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Martin Jux",
+            "goals": 1,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          }
+        ]
+      },
+      "away": {
+        "team_name": "SV Hohenacker-Neustadt",
+        "players": [
+          {
+            "name": "Elias Hartmann",
+            "goals": 4,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Kalle Bregenzer",
+            "goals": 1,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Simeon Schnabel",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Tim Brand",
+            "goals": 7,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 3,
+            "seven_meters_goals": 3
+          },
+          {
+            "name": "Jan Kirchner",
+            "goals": 2,
+            "two_min_penalties": 1,
+            "yellow_cards": 1,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Julian Lehmann",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Sebastian Wunderlich",
+            "goals": 1,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "S\u00f6ren Th\u00fclly",
+            "goals": 2,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Laurin Wertz",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Jan Maierh\u00f6fer",
+            "goals": 5,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Kai Weber",
+            "goals": 2,
+            "two_min_penalties": 1,
+            "yellow_cards": 1,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "J\u00f6rg Rudolf",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          }
+        ]
+      },
+      "goals_timeline": [
+        {
+          "minute": 1,
+          "second": 4,
+          "scorer": "Daniel R\u00fchle",
+          "team": "home",
+          "team_abbrev": "TV Oeffingen 2",
+          "seven_meter": true
+        },
+        {
+          "minute": 1,
+          "second": 40,
+          "scorer": "Martin Jux",
+          "team": "home",
+          "team_abbrev": "TV Oeffingen 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 2,
+          "second": 15,
+          "scorer": "Tim Brand",
+          "team": "away",
+          "team_abbrev": "SV Hohen-Neu",
+          "seven_meter": false
+        },
+        {
+          "minute": 3,
+          "second": 4,
+          "scorer": "Daniel R\u00fchle",
+          "team": "home",
+          "team_abbrev": "TV Oeffingen 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 3,
+          "second": 42,
+          "scorer": "Florian Rost",
+          "team": "home",
+          "team_abbrev": "TV Oeffingen 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 5,
+          "second": 39,
+          "scorer": "Daniel R\u00fchle",
+          "team": "home",
+          "team_abbrev": "TV Oeffingen 2",
+          "seven_meter": true
+        },
+        {
+          "minute": 6,
+          "second": 24,
+          "scorer": "Paul K\u00f6berle",
+          "team": "home",
+          "team_abbrev": "TV Oeffingen 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 7,
+          "second": 58,
+          "scorer": "Tim Brand",
+          "team": "away",
+          "team_abbrev": "SV Hohen-Neu",
+          "seven_meter": false
+        },
+        {
+          "minute": 8,
+          "second": 14,
+          "scorer": "Paul K\u00f6berle",
+          "team": "home",
+          "team_abbrev": "TV Oeffingen 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 8,
+          "second": 47,
+          "scorer": "Kai Weber",
+          "team": "away",
+          "team_abbrev": "SV Hohen-Neu",
+          "seven_meter": false
+        },
+        {
+          "minute": 9,
+          "second": 3,
+          "scorer": "Daniel R\u00fchle",
+          "team": "home",
+          "team_abbrev": "TV Oeffingen 2",
+          "seven_meter": true
+        },
+        {
+          "minute": 10,
+          "second": 0,
+          "scorer": "Jan Stolper",
+          "team": "home",
+          "team_abbrev": "TV Oeffingen 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 11,
+          "second": 7,
+          "scorer": "Tim Brand",
+          "team": "away",
+          "team_abbrev": "SV Hohen-Neu",
+          "seven_meter": true
+        },
+        {
+          "minute": 11,
+          "second": 37,
+          "scorer": "Fabian B\u00fcrkle",
+          "team": "home",
+          "team_abbrev": "TV Oeffingen 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 12,
+          "second": 8,
+          "scorer": "Elias Hartmann",
+          "team": "away",
+          "team_abbrev": "SV Hohen-Neu",
+          "seven_meter": false
+        },
+        {
+          "minute": 13,
+          "second": 31,
+          "scorer": "Florian Rost",
+          "team": "home",
+          "team_abbrev": "TV Oeffingen 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 15,
+          "second": 48,
+          "scorer": "Paul K\u00f6berle",
+          "team": "home",
+          "team_abbrev": "TV Oeffingen 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 16,
+          "second": 42,
+          "scorer": "Fabian B\u00fcrkle",
+          "team": "home",
+          "team_abbrev": "TV Oeffingen 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 21,
+          "second": 26,
+          "scorer": "Luca Bohl",
+          "team": "home",
+          "team_abbrev": "TV Oeffingen 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 22,
+          "second": 15,
+          "scorer": "Elias Hartmann",
+          "team": "away",
+          "team_abbrev": "SV Hohen-Neu",
+          "seven_meter": false
+        },
+        {
+          "minute": 23,
+          "second": 7,
+          "scorer": "Paul K\u00f6berle",
+          "team": "home",
+          "team_abbrev": "TV Oeffingen 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 23,
+          "second": 35,
+          "scorer": "Tim Brand",
+          "team": "away",
+          "team_abbrev": "SV Hohen-Neu",
+          "seven_meter": true
+        },
+        {
+          "minute": 24,
+          "second": 11,
+          "scorer": "Daniel R\u00fchle",
+          "team": "home",
+          "team_abbrev": "TV Oeffingen 2",
+          "seven_meter": true
+        },
+        {
+          "minute": 25,
+          "second": 26,
+          "scorer": "Stefan Straub",
+          "team": "home",
+          "team_abbrev": "TV Oeffingen 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 29,
+          "second": 6,
+          "scorer": "Stefan Straub",
+          "team": "home",
+          "team_abbrev": "TV Oeffingen 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 30,
+          "second": 52,
+          "scorer": "Jan Maierh\u00f6fer",
+          "team": "away",
+          "team_abbrev": "SV Hohen-Neu",
+          "seven_meter": false
+        },
+        {
+          "minute": 31,
+          "second": 45,
+          "scorer": "Luca Bohl",
+          "team": "home",
+          "team_abbrev": "TV Oeffingen 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 32,
+          "second": 10,
+          "scorer": "Jan Maierh\u00f6fer",
+          "team": "away",
+          "team_abbrev": "SV Hohen-Neu",
+          "seven_meter": false
+        },
+        {
+          "minute": 33,
+          "second": 3,
+          "scorer": "Elias Hartmann",
+          "team": "away",
+          "team_abbrev": "SV Hohen-Neu",
+          "seven_meter": false
+        },
+        {
+          "minute": 33,
+          "second": 50,
+          "scorer": "Luca Bohl",
+          "team": "home",
+          "team_abbrev": "TV Oeffingen 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 34,
+          "second": 47,
+          "scorer": "Florian Rost",
+          "team": "home",
+          "team_abbrev": "TV Oeffingen 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 35,
+          "second": 5,
+          "scorer": "Jan Maierh\u00f6fer",
+          "team": "away",
+          "team_abbrev": "SV Hohen-Neu",
+          "seven_meter": false
+        },
+        {
+          "minute": 36,
+          "second": 56,
+          "scorer": "S\u00f6ren Th\u00fclly",
+          "team": "away",
+          "team_abbrev": "SV Hohen-Neu",
+          "seven_meter": false
+        },
+        {
+          "minute": 37,
+          "second": 26,
+          "scorer": "Markus Lang",
+          "team": "home",
+          "team_abbrev": "TV Oeffingen 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 38,
+          "second": 13,
+          "scorer": "Tim Brand",
+          "team": "away",
+          "team_abbrev": "SV Hohen-Neu",
+          "seven_meter": true
+        },
+        {
+          "minute": 39,
+          "second": 13,
+          "scorer": "Julian Gregorius",
+          "team": "home",
+          "team_abbrev": "TV Oeffingen 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 42,
+          "second": 6,
+          "scorer": "Fabian B\u00fcrkle",
+          "team": "home",
+          "team_abbrev": "TV Oeffingen 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 42,
+          "second": 45,
+          "scorer": "Kai Weber",
+          "team": "away",
+          "team_abbrev": "SV Hohen-Neu",
+          "seven_meter": false
+        },
+        {
+          "minute": 43,
+          "second": 34,
+          "scorer": "Jan Kirchner",
+          "team": "away",
+          "team_abbrev": "SV Hohen-Neu",
+          "seven_meter": false
+        },
+        {
+          "minute": 44,
+          "second": 6,
+          "scorer": "Paul K\u00f6berle",
+          "team": "home",
+          "team_abbrev": "TV Oeffingen 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 44,
+          "second": 52,
+          "scorer": "Kalle Bregenzer",
+          "team": "away",
+          "team_abbrev": "SV Hohen-Neu",
+          "seven_meter": false
+        },
+        {
+          "minute": 47,
+          "second": 32,
+          "scorer": "S\u00f6ren Th\u00fclly",
+          "team": "away",
+          "team_abbrev": "SV Hohen-Neu",
+          "seven_meter": false
+        },
+        {
+          "minute": 48,
+          "second": 8,
+          "scorer": "Paul K\u00f6berle",
+          "team": "home",
+          "team_abbrev": "TV Oeffingen 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 49,
+          "second": 2,
+          "scorer": "Jan Kirchner",
+          "team": "away",
+          "team_abbrev": "SV Hohen-Neu",
+          "seven_meter": false
+        },
+        {
+          "minute": 49,
+          "second": 51,
+          "scorer": "Fabian B\u00fcrkle",
+          "team": "home",
+          "team_abbrev": "TV Oeffingen 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 50,
+          "second": 48,
+          "scorer": "Sebastian Wunderlich",
+          "team": "away",
+          "team_abbrev": "SV Hohen-Neu",
+          "seven_meter": false
+        },
+        {
+          "minute": 51,
+          "second": 39,
+          "scorer": "Elias Hartmann",
+          "team": "away",
+          "team_abbrev": "SV Hohen-Neu",
+          "seven_meter": false
+        },
+        {
+          "minute": 53,
+          "second": 58,
+          "scorer": "Tim Brand",
+          "team": "away",
+          "team_abbrev": "SV Hohen-Neu",
+          "seven_meter": false
+        },
+        {
+          "minute": 54,
+          "second": 39,
+          "scorer": "Daniel R\u00fchle",
+          "team": "home",
+          "team_abbrev": "TV Oeffingen 2",
+          "seven_meter": true
+        },
+        {
+          "minute": 55,
+          "second": 18,
+          "scorer": "Jan Maierh\u00f6fer",
+          "team": "away",
+          "team_abbrev": "SV Hohen-Neu",
+          "seven_meter": false
+        },
+        {
+          "minute": 57,
+          "second": 49,
+          "scorer": "Jan Stolper",
+          "team": "home",
+          "team_abbrev": "TV Oeffingen 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 58,
+          "second": 38,
+          "scorer": "Jan Maierh\u00f6fer",
+          "team": "away",
+          "team_abbrev": "SV Hohen-Neu",
+          "seven_meter": false
+        },
+        {
+          "minute": 59,
+          "second": 11,
+          "scorer": "Luca Bohl",
+          "team": "home",
+          "team_abbrev": "TV Oeffingen 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 59,
+          "second": 29,
+          "scorer": "Tim Brand",
+          "team": "away",
+          "team_abbrev": "SV Hohen-Neu",
+          "seven_meter": false
+        },
+        {
+          "minute": 60,
+          "second": 0,
+          "scorer": "Daniel R\u00fchle",
+          "team": "home",
+          "team_abbrev": "TV Oeffingen 2",
+          "seven_meter": true
+        }
+      ],
+      "final_score": "31:24",
+      "half_duration": 30,
+      "officials": {
+        "referees": [
+          "Stefan He\u00dflinger"
+        ],
+        "timekeepers": [
+          "Christian Schwarz"
+        ],
+        "secretaries": [
+          "Leon Fritz"
+        ]
+      },
+      "graphic_path": "output/graphics/TV_Oeffingen_1897_2_vs_SV_Hohenacker-Neusta_Sa_1810.png"
+    },
+    {
+      "game_id": "handball4all.baden-wuerttemberg.8773232",
+      "order": 23,
+      "date": "Sa, 18.10.",
+      "home": {
+        "team_name": "TV Obert\u00fcrkheim",
+        "players": [
+          {
+            "name": "Timo Wenger",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Domenic Velte",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Patrick Goldbach",
+            "goals": 3,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Manuel Berner",
+            "goals": 3,
+            "two_min_penalties": 1,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 2,
+            "seven_meters_goals": 2
+          },
+          {
+            "name": "Tobias Klemme",
+            "goals": 1,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Philipp Wenger",
+            "goals": 5,
+            "two_min_penalties": 1,
+            "yellow_cards": 1,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Felix Beeg",
+            "goals": 6,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Florian Klar",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Fabio Serra",
+            "goals": 1,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Dominic Goldbach",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Pradyumin Arvind",
+            "goals": 4,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Nick Hollery",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Jendrik Hermann",
+            "goals": 2,
+            "two_min_penalties": 1,
+            "yellow_cards": 1,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          }
+        ]
+      },
+      "away": {
+        "team_name": "VfL Waiblingen Handball 2",
+        "players": [
+          {
+            "name": "Marco Brecht",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Nils Dedner",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Marc Kallenberg",
+            "goals": 1,
+            "two_min_penalties": 0,
+            "yellow_cards": 1,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Sven Beisser",
+            "goals": 2,
+            "two_min_penalties": 1,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Lino Pott",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Philipp Wiedemann",
+            "goals": 3,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Niklas Wiedemann",
+            "goals": 7,
+            "two_min_penalties": 1,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 5,
+            "seven_meters_goals": 5
+          },
+          {
+            "name": "Mark Leinhos",
+            "goals": 5,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "David Volmer",
+            "goals": 2,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Philipp Rauscher",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Marvin B\u00f6lstler",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Theodor Goetz",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Marcel Engels",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Henri Konzelmann",
+            "goals": 1,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          }
+        ]
+      },
+      "goals_timeline": [
+        {
+          "minute": 1,
+          "second": 23,
+          "scorer": "Philipp Wenger",
+          "team": "home",
+          "team_abbrev": "TV Obert\u00fcrkh.",
+          "seven_meter": false
+        },
+        {
+          "minute": 1,
+          "second": 47,
+          "scorer": "Mark Leinhos",
+          "team": "away",
+          "team_abbrev": "VfL Waiblingen 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 1,
+          "second": 59,
+          "scorer": "Pradyumin Arvind",
+          "team": "home",
+          "team_abbrev": "TV Obert\u00fcrkh.",
+          "seven_meter": false
+        },
+        {
+          "minute": 2,
+          "second": 22,
+          "scorer": "Sven Beisser",
+          "team": "away",
+          "team_abbrev": "VfL Waiblingen 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 2,
+          "second": 43,
+          "scorer": "Felix Beeg",
+          "team": "home",
+          "team_abbrev": "TV Obert\u00fcrkh.",
+          "seven_meter": false
+        },
+        {
+          "minute": 4,
+          "second": 53,
+          "scorer": "Manuel Berner",
+          "team": "home",
+          "team_abbrev": "TV Obert\u00fcrkh.",
+          "seven_meter": false
+        },
+        {
+          "minute": 6,
+          "second": 16,
+          "scorer": "Felix Beeg",
+          "team": "home",
+          "team_abbrev": "TV Obert\u00fcrkh.",
+          "seven_meter": false
+        },
+        {
+          "minute": 6,
+          "second": 26,
+          "scorer": "Sven Beisser",
+          "team": "away",
+          "team_abbrev": "VfL Waiblingen 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 6,
+          "second": 51,
+          "scorer": "Philipp Wenger",
+          "team": "home",
+          "team_abbrev": "TV Obert\u00fcrkh.",
+          "seven_meter": false
+        },
+        {
+          "minute": 8,
+          "second": 29,
+          "scorer": "Tobias Klemme",
+          "team": "home",
+          "team_abbrev": "TV Obert\u00fcrkh.",
+          "seven_meter": false
+        },
+        {
+          "minute": 8,
+          "second": 48,
+          "scorer": "Mark Leinhos",
+          "team": "away",
+          "team_abbrev": "VfL Waiblingen 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 9,
+          "second": 47,
+          "scorer": "Niklas Wiedemann",
+          "team": "away",
+          "team_abbrev": "VfL Waiblingen 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 10,
+          "second": 49,
+          "scorer": "Marc Kallenberg",
+          "team": "away",
+          "team_abbrev": "VfL Waiblingen 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 11,
+          "second": 59,
+          "scorer": "Mark Leinhos",
+          "team": "away",
+          "team_abbrev": "VfL Waiblingen 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 13,
+          "second": 22,
+          "scorer": "Philipp Wiedemann",
+          "team": "away",
+          "team_abbrev": "VfL Waiblingen 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 15,
+          "second": 32,
+          "scorer": "Philipp Wiedemann",
+          "team": "away",
+          "team_abbrev": "VfL Waiblingen 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 16,
+          "second": 30,
+          "scorer": "Fabio Serra",
+          "team": "home",
+          "team_abbrev": "TV Obert\u00fcrkh.",
+          "seven_meter": false
+        },
+        {
+          "minute": 18,
+          "second": 32,
+          "scorer": "Niklas Wiedemann",
+          "team": "away",
+          "team_abbrev": "VfL Waiblingen 2",
+          "seven_meter": true
+        },
+        {
+          "minute": 18,
+          "second": 32,
+          "scorer": "Niklas Wiedemann",
+          "team": "away",
+          "team_abbrev": "VfL Waiblingen 2",
+          "seven_meter": true
+        },
+        {
+          "minute": 21,
+          "second": 35,
+          "scorer": "Philipp Wenger",
+          "team": "home",
+          "team_abbrev": "TV Obert\u00fcrkh.",
+          "seven_meter": false
+        },
+        {
+          "minute": 22,
+          "second": 53,
+          "scorer": "Henri Konzelmann",
+          "team": "away",
+          "team_abbrev": "VfL Waiblingen 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 23,
+          "second": 37,
+          "scorer": "Jendrik Hermann",
+          "team": "home",
+          "team_abbrev": "TV Obert\u00fcrkh.",
+          "seven_meter": false
+        },
+        {
+          "minute": 25,
+          "second": 41,
+          "scorer": "Pradyumin Arvind",
+          "team": "home",
+          "team_abbrev": "TV Obert\u00fcrkh.",
+          "seven_meter": false
+        },
+        {
+          "minute": 26,
+          "second": 8,
+          "scorer": "Felix Beeg",
+          "team": "home",
+          "team_abbrev": "TV Obert\u00fcrkh.",
+          "seven_meter": false
+        },
+        {
+          "minute": 26,
+          "second": 41,
+          "scorer": "Felix Beeg",
+          "team": "home",
+          "team_abbrev": "TV Obert\u00fcrkh.",
+          "seven_meter": false
+        },
+        {
+          "minute": 31,
+          "second": 59,
+          "scorer": "Philipp Wenger",
+          "team": "home",
+          "team_abbrev": "TV Obert\u00fcrkh.",
+          "seven_meter": false
+        },
+        {
+          "minute": 32,
+          "second": 18,
+          "scorer": "Mark Leinhos",
+          "team": "away",
+          "team_abbrev": "VfL Waiblingen 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 32,
+          "second": 50,
+          "scorer": "Philipp Wenger",
+          "team": "home",
+          "team_abbrev": "TV Obert\u00fcrkh.",
+          "seven_meter": false
+        },
+        {
+          "minute": 33,
+          "second": 5,
+          "scorer": "Felix Beeg",
+          "team": "home",
+          "team_abbrev": "TV Obert\u00fcrkh.",
+          "seven_meter": false
+        },
+        {
+          "minute": 34,
+          "second": 53,
+          "scorer": "Felix Beeg",
+          "team": "home",
+          "team_abbrev": "TV Obert\u00fcrkh.",
+          "seven_meter": false
+        },
+        {
+          "minute": 35,
+          "second": 42,
+          "scorer": "Niklas Wiedemann",
+          "team": "away",
+          "team_abbrev": "VfL Waiblingen 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 40,
+          "second": 10,
+          "scorer": "Niklas Wiedemann",
+          "team": "away",
+          "team_abbrev": "VfL Waiblingen 2",
+          "seven_meter": true
+        },
+        {
+          "minute": 41,
+          "second": 18,
+          "scorer": "Manuel Berner",
+          "team": "home",
+          "team_abbrev": "TV Obert\u00fcrkh.",
+          "seven_meter": true
+        },
+        {
+          "minute": 41,
+          "second": 49,
+          "scorer": "Mark Leinhos",
+          "team": "away",
+          "team_abbrev": "VfL Waiblingen 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 43,
+          "second": 46,
+          "scorer": "David Volmer",
+          "team": "away",
+          "team_abbrev": "VfL Waiblingen 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 44,
+          "second": 49,
+          "scorer": "Jendrik Hermann",
+          "team": "home",
+          "team_abbrev": "TV Obert\u00fcrkh.",
+          "seven_meter": false
+        },
+        {
+          "minute": 47,
+          "second": 13,
+          "scorer": "Patrick Goldbach",
+          "team": "home",
+          "team_abbrev": "TV Obert\u00fcrkh.",
+          "seven_meter": false
+        },
+        {
+          "minute": 48,
+          "second": 38,
+          "scorer": "Manuel Berner",
+          "team": "home",
+          "team_abbrev": "TV Obert\u00fcrkh.",
+          "seven_meter": true
+        },
+        {
+          "minute": 50,
+          "second": 39,
+          "scorer": "Philipp Wiedemann",
+          "team": "away",
+          "team_abbrev": "VfL Waiblingen 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 51,
+          "second": 56,
+          "scorer": "Patrick Goldbach",
+          "team": "home",
+          "team_abbrev": "TV Obert\u00fcrkh.",
+          "seven_meter": false
+        },
+        {
+          "minute": 53,
+          "second": 4,
+          "scorer": "Patrick Goldbach",
+          "team": "home",
+          "team_abbrev": "TV Obert\u00fcrkh.",
+          "seven_meter": false
+        },
+        {
+          "minute": 54,
+          "second": 30,
+          "scorer": "Niklas Wiedemann",
+          "team": "away",
+          "team_abbrev": "VfL Waiblingen 2",
+          "seven_meter": true
+        },
+        {
+          "minute": 55,
+          "second": 32,
+          "scorer": "Pradyumin Arvind",
+          "team": "home",
+          "team_abbrev": "TV Obert\u00fcrkh.",
+          "seven_meter": false
+        },
+        {
+          "minute": 55,
+          "second": 57,
+          "scorer": "Niklas Wiedemann",
+          "team": "away",
+          "team_abbrev": "VfL Waiblingen 2",
+          "seven_meter": true
+        },
+        {
+          "minute": 56,
+          "second": 38,
+          "scorer": "David Volmer",
+          "team": "away",
+          "team_abbrev": "VfL Waiblingen 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 59,
+          "second": 56,
+          "scorer": "Pradyumin Arvind",
+          "team": "home",
+          "team_abbrev": "TV Obert\u00fcrkh.",
+          "seven_meter": false
+        }
+      ],
+      "final_score": "25:21",
+      "half_duration": 30,
+      "officials": {
+        "referees": [
+          "Markus Sanwald"
+        ],
+        "timekeepers": [
+          "Ben L\u00fcgering"
+        ],
+        "secretaries": [
+          "Rainer Gr\u00fcninger"
+        ]
+      },
+      "graphic_path": "output/graphics/TV_Obert\u00fcrkheim_vs_VfL_Waiblingen_Handb_Sa_1810.png"
+    },
+    {
+      "game_id": "handball4all.baden-wuerttemberg.8773227",
+      "order": 24,
+      "date": "Sa, 18.10.",
+      "home": {
+        "team_name": "TSB Schw\u00e4bisch Gm\u00fcnd 2",
+        "players": [
+          {
+            "name": "Jonas St\u00fctz",
+            "goals": 6,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Patrick Schamberger",
+            "goals": 2,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Sebastian Wittek",
+            "goals": 7,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 4,
+            "seven_meters_goals": 2
+          },
+          {
+            "name": "Aaron Wild",
+            "goals": 4,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Dennis Slonek",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Kai Kiesel",
+            "goals": 1,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Jonathan Leichs",
+            "goals": 3,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Lasse Bladeck",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Can Oktay",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Noel Reibstein",
+            "goals": 3,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Max Wollmann",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Devin Immer",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Felix Daubner",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Jochen Leitner",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Tizian Daubner",
+            "goals": 1,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          }
+        ]
+      },
+      "away": {
+        "team_name": "SG Schorndorf 1846",
+        "players": [
+          {
+            "name": "Max Barei\u00df",
+            "goals": 5,
+            "two_min_penalties": 1,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Heiko Beck",
+            "goals": 1,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Thomas Friz",
+            "goals": 3,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Joscha Netzer",
+            "goals": 1,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Stephen Mayer",
+            "goals": 3,
+            "two_min_penalties": 2,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Titian Bauer",
+            "goals": 4,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 1,
+            "seven_meters_goals": 1
+          },
+          {
+            "name": "Erik Rehlinger",
+            "goals": 7,
+            "two_min_penalties": 0,
+            "yellow_cards": 1,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Julian Sacher",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Dominik Werner",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Tobias Katterbe",
+            "goals": 5,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Matthias Steinhauer",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Anton Grau",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          }
+        ]
+      },
+      "goals_timeline": [
+        {
+          "minute": 0,
+          "second": 43,
+          "scorer": "Tobias Katterbe",
+          "team": "home",
+          "team_abbrev": "SG Schorndorf",
+          "seven_meter": false
+        },
+        {
+          "minute": 1,
+          "second": 3,
+          "scorer": "Erik Rehlinger",
+          "team": "home",
+          "team_abbrev": "SG Schorndorf",
+          "seven_meter": false
+        },
+        {
+          "minute": 2,
+          "second": 44,
+          "scorer": "Erik Rehlinger",
+          "team": "home",
+          "team_abbrev": "SG Schorndorf",
+          "seven_meter": false
+        },
+        {
+          "minute": 3,
+          "second": 10,
+          "scorer": "Sebastian Wittek",
+          "team": "away",
+          "team_abbrev": "TSB Schw.Gm\u00fcnd 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 4,
+          "second": 41,
+          "scorer": "Kai Kiesel",
+          "team": "away",
+          "team_abbrev": "TSB Schw.Gm\u00fcnd 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 4,
+          "second": 50,
+          "scorer": "Tobias Katterbe",
+          "team": "home",
+          "team_abbrev": "SG Schorndorf",
+          "seven_meter": false
+        },
+        {
+          "minute": 6,
+          "second": 1,
+          "scorer": "Stephen Mayer",
+          "team": "home",
+          "team_abbrev": "SG Schorndorf",
+          "seven_meter": false
+        },
+        {
+          "minute": 8,
+          "second": 6,
+          "scorer": "Jonas St\u00fctz",
+          "team": "away",
+          "team_abbrev": "TSB Schw.Gm\u00fcnd 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 8,
+          "second": 19,
+          "scorer": "Erik Rehlinger",
+          "team": "home",
+          "team_abbrev": "SG Schorndorf",
+          "seven_meter": false
+        },
+        {
+          "minute": 8,
+          "second": 28,
+          "scorer": "Sebastian Wittek",
+          "team": "away",
+          "team_abbrev": "TSB Schw.Gm\u00fcnd 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 10,
+          "second": 25,
+          "scorer": "Sebastian Wittek",
+          "team": "away",
+          "team_abbrev": "TSB Schw.Gm\u00fcnd 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 11,
+          "second": 7,
+          "scorer": "Noel Reibstein",
+          "team": "away",
+          "team_abbrev": "TSB Schw.Gm\u00fcnd 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 13,
+          "second": 30,
+          "scorer": "Thomas Friz",
+          "team": "home",
+          "team_abbrev": "SG Schorndorf",
+          "seven_meter": false
+        },
+        {
+          "minute": 13,
+          "second": 57,
+          "scorer": "Sebastian Wittek",
+          "team": "away",
+          "team_abbrev": "TSB Schw.Gm\u00fcnd 2",
+          "seven_meter": true
+        },
+        {
+          "minute": 14,
+          "second": 31,
+          "scorer": "Erik Rehlinger",
+          "team": "home",
+          "team_abbrev": "SG Schorndorf",
+          "seven_meter": false
+        },
+        {
+          "minute": 14,
+          "second": 58,
+          "scorer": "Patrick Schamberger",
+          "team": "away",
+          "team_abbrev": "TSB Schw.Gm\u00fcnd 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 17,
+          "second": 29,
+          "scorer": "Sebastian Wittek",
+          "team": "away",
+          "team_abbrev": "TSB Schw.Gm\u00fcnd 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 17,
+          "second": 41,
+          "scorer": "Titian Bauer",
+          "team": "home",
+          "team_abbrev": "SG Schorndorf",
+          "seven_meter": false
+        },
+        {
+          "minute": 18,
+          "second": 43,
+          "scorer": "Sebastian Wittek",
+          "team": "away",
+          "team_abbrev": "TSB Schw.Gm\u00fcnd 2",
+          "seven_meter": true
+        },
+        {
+          "minute": 19,
+          "second": 21,
+          "scorer": "Max Barei\u00df",
+          "team": "home",
+          "team_abbrev": "SG Schorndorf",
+          "seven_meter": false
+        },
+        {
+          "minute": 19,
+          "second": 52,
+          "scorer": "Max Barei\u00df",
+          "team": "home",
+          "team_abbrev": "SG Schorndorf",
+          "seven_meter": false
+        },
+        {
+          "minute": 20,
+          "second": 15,
+          "scorer": "Tobias Katterbe",
+          "team": "home",
+          "team_abbrev": "SG Schorndorf",
+          "seven_meter": false
+        },
+        {
+          "minute": 21,
+          "second": 43,
+          "scorer": "Jonathan Leichs",
+          "team": "away",
+          "team_abbrev": "TSB Schw.Gm\u00fcnd 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 22,
+          "second": 56,
+          "scorer": "Titian Bauer",
+          "team": "home",
+          "team_abbrev": "SG Schorndorf",
+          "seven_meter": false
+        },
+        {
+          "minute": 25,
+          "second": 39,
+          "scorer": "Jonas St\u00fctz",
+          "team": "away",
+          "team_abbrev": "TSB Schw.Gm\u00fcnd 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 26,
+          "second": 15,
+          "scorer": "Tobias Katterbe",
+          "team": "home",
+          "team_abbrev": "SG Schorndorf",
+          "seven_meter": false
+        },
+        {
+          "minute": 27,
+          "second": 28,
+          "scorer": "Joscha Netzer",
+          "team": "home",
+          "team_abbrev": "SG Schorndorf",
+          "seven_meter": false
+        },
+        {
+          "minute": 28,
+          "second": 18,
+          "scorer": "Aaron Wild",
+          "team": "away",
+          "team_abbrev": "TSB Schw.Gm\u00fcnd 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 28,
+          "second": 28,
+          "scorer": "Tobias Katterbe",
+          "team": "home",
+          "team_abbrev": "SG Schorndorf",
+          "seven_meter": false
+        },
+        {
+          "minute": 29,
+          "second": 32,
+          "scorer": "Patrick Schamberger",
+          "team": "away",
+          "team_abbrev": "TSB Schw.Gm\u00fcnd 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 30,
+          "second": 0,
+          "scorer": "Erik Rehlinger",
+          "team": "home",
+          "team_abbrev": "SG Schorndorf",
+          "seven_meter": false
+        },
+        {
+          "minute": 30,
+          "second": 29,
+          "scorer": "Jonathan Leichs",
+          "team": "away",
+          "team_abbrev": "TSB Schw.Gm\u00fcnd 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 31,
+          "second": 40,
+          "scorer": "Tizian Daubner",
+          "team": "away",
+          "team_abbrev": "TSB Schw.Gm\u00fcnd 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 32,
+          "second": 10,
+          "scorer": "Thomas Friz",
+          "team": "home",
+          "team_abbrev": "SG Schorndorf",
+          "seven_meter": false
+        },
+        {
+          "minute": 32,
+          "second": 23,
+          "scorer": "Jonas St\u00fctz",
+          "team": "away",
+          "team_abbrev": "TSB Schw.Gm\u00fcnd 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 32,
+          "second": 56,
+          "scorer": "Max Barei\u00df",
+          "team": "home",
+          "team_abbrev": "SG Schorndorf",
+          "seven_meter": false
+        },
+        {
+          "minute": 34,
+          "second": 35,
+          "scorer": "Aaron Wild",
+          "team": "away",
+          "team_abbrev": "TSB Schw.Gm\u00fcnd 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 34,
+          "second": 43,
+          "scorer": "Max Barei\u00df",
+          "team": "home",
+          "team_abbrev": "SG Schorndorf",
+          "seven_meter": false
+        },
+        {
+          "minute": 35,
+          "second": 39,
+          "scorer": "Erik Rehlinger",
+          "team": "home",
+          "team_abbrev": "SG Schorndorf",
+          "seven_meter": false
+        },
+        {
+          "minute": 36,
+          "second": 47,
+          "scorer": "Aaron Wild",
+          "team": "away",
+          "team_abbrev": "TSB Schw.Gm\u00fcnd 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 38,
+          "second": 26,
+          "scorer": "Jonas St\u00fctz",
+          "team": "away",
+          "team_abbrev": "TSB Schw.Gm\u00fcnd 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 39,
+          "second": 12,
+          "scorer": "Stephen Mayer",
+          "team": "home",
+          "team_abbrev": "SG Schorndorf",
+          "seven_meter": false
+        },
+        {
+          "minute": 40,
+          "second": 51,
+          "scorer": "Heiko Beck",
+          "team": "home",
+          "team_abbrev": "SG Schorndorf",
+          "seven_meter": false
+        },
+        {
+          "minute": 41,
+          "second": 48,
+          "scorer": "Aaron Wild",
+          "team": "away",
+          "team_abbrev": "TSB Schw.Gm\u00fcnd 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 43,
+          "second": 54,
+          "scorer": "Noel Reibstein",
+          "team": "away",
+          "team_abbrev": "TSB Schw.Gm\u00fcnd 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 44,
+          "second": 33,
+          "scorer": "Stephen Mayer",
+          "team": "home",
+          "team_abbrev": "SG Schorndorf",
+          "seven_meter": false
+        },
+        {
+          "minute": 44,
+          "second": 56,
+          "scorer": "Jonathan Leichs",
+          "team": "away",
+          "team_abbrev": "TSB Schw.Gm\u00fcnd 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 48,
+          "second": 24,
+          "scorer": "Thomas Friz",
+          "team": "home",
+          "team_abbrev": "SG Schorndorf",
+          "seven_meter": false
+        },
+        {
+          "minute": 49,
+          "second": 2,
+          "scorer": "Jonas St\u00fctz",
+          "team": "away",
+          "team_abbrev": "TSB Schw.Gm\u00fcnd 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 51,
+          "second": 38,
+          "scorer": "Erik Rehlinger",
+          "team": "home",
+          "team_abbrev": "SG Schorndorf",
+          "seven_meter": false
+        },
+        {
+          "minute": 51,
+          "second": 59,
+          "scorer": "Max Barei\u00df",
+          "team": "home",
+          "team_abbrev": "SG Schorndorf",
+          "seven_meter": false
+        },
+        {
+          "minute": 52,
+          "second": 55,
+          "scorer": "Noel Reibstein",
+          "team": "away",
+          "team_abbrev": "TSB Schw.Gm\u00fcnd 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 54,
+          "second": 14,
+          "scorer": "Jonas St\u00fctz",
+          "team": "away",
+          "team_abbrev": "TSB Schw.Gm\u00fcnd 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 55,
+          "second": 16,
+          "scorer": "Titian Bauer",
+          "team": "home",
+          "team_abbrev": "SG Schorndorf",
+          "seven_meter": true
+        },
+        {
+          "minute": 55,
+          "second": 45,
+          "scorer": "Sebastian Wittek",
+          "team": "away",
+          "team_abbrev": "TSB Schw.Gm\u00fcnd 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 56,
+          "second": 35,
+          "scorer": "Titian Bauer",
+          "team": "home",
+          "team_abbrev": "SG Schorndorf",
+          "seven_meter": false
+        }
+      ],
+      "final_score": "29:27",
+      "half_duration": 30,
+      "officials": {
+        "referees": [
+          "Axel Emele"
+        ],
+        "timekeepers": [
+          "Nicole Wittek"
+        ],
+        "secretaries": [
+          "Sophia Hieber"
+        ]
+      },
+      "graphic_path": "output/graphics/TSB_Schw\u00e4bisch_Gm\u00fcnd_vs_SG_Schorndorf_1846_Sa_1810.png"
+    },
+    {
+      "game_id": "handball4all.baden-wuerttemberg.8773237",
+      "order": 25,
+      "date": "Sa, 18.10.",
+      "home": {
+        "team_name": "SV Magstadt",
+        "players": [
+          {
+            "name": "Alexander Mende",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Florian Wolf",
+            "goals": 2,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Valentin B\u00f6ttcher",
+            "goals": 1,
+            "two_min_penalties": 2,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Matteo Schafar",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Marco W\u00f6rz",
+            "goals": 4,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Fabian Fernbach",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Matthias Raith",
+            "goals": 5,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Timo W\u00f6rz",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Andreas Ohlau",
+            "goals": 4,
+            "two_min_penalties": 0,
+            "yellow_cards": 1,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Nick Falke",
+            "goals": 1,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 1,
+            "seven_meters_goals": 1
+          },
+          {
+            "name": "Leon Janackov",
+            "goals": 16,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 1,
+            "seven_meters_goals": 1
+          },
+          {
+            "name": "Tim K\u00fchnle",
+            "goals": 3,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Hugo Caspar Reinicke",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Benjamin Sch\u00f6nemann",
+            "goals": 2,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "David Engelmann",
+            "goals": 4,
+            "two_min_penalties": 1,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          }
+        ]
+      },
+      "away": {
+        "team_name": "HC Winnenden 2",
+        "players": [
+          {
+            "name": "Philipp Rose",
+            "goals": 3,
+            "two_min_penalties": 0,
+            "yellow_cards": 1,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Nikita Drozd",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Daniel Hirsch",
+            "goals": 4,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Moritz Stetter",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Max Dengler",
+            "goals": 6,
+            "two_min_penalties": 1,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 6,
+            "seven_meters_goals": 4
+          },
+          {
+            "name": "Benjamin Traub",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Lars Knauseder",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Marvin Wohlfahrt",
+            "goals": 2,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Nils Pathenschneider",
+            "goals": 1,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Micha Roth",
+            "goals": 3,
+            "two_min_penalties": 0,
+            "yellow_cards": 1,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Tom Langner",
+            "goals": 2,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Tom Unterberg",
+            "goals": 3,
+            "two_min_penalties": 0,
+            "yellow_cards": 1,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Janis Goretzki",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Benjamin Heinze",
+            "goals": 1,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          }
+        ]
+      },
+      "goals_timeline": [
+        {
+          "minute": 1,
+          "second": 2,
+          "scorer": "Andreas Ohlau",
+          "team": "home",
+          "team_abbrev": "SV Magstadt",
+          "seven_meter": false
+        },
+        {
+          "minute": 2,
+          "second": 6,
+          "scorer": "Daniel Hirsch",
+          "team": "away",
+          "team_abbrev": "HC Winnenden 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 2,
+          "second": 31,
+          "scorer": "Leon Janackov",
+          "team": "home",
+          "team_abbrev": "SV Magstadt",
+          "seven_meter": false
+        },
+        {
+          "minute": 3,
+          "second": 49,
+          "scorer": "Andreas Ohlau",
+          "team": "home",
+          "team_abbrev": "SV Magstadt",
+          "seven_meter": false
+        },
+        {
+          "minute": 5,
+          "second": 1,
+          "scorer": "Matthias Raith",
+          "team": "home",
+          "team_abbrev": "SV Magstadt",
+          "seven_meter": false
+        },
+        {
+          "minute": 6,
+          "second": 32,
+          "scorer": "David Engelmann",
+          "team": "home",
+          "team_abbrev": "SV Magstadt",
+          "seven_meter": false
+        },
+        {
+          "minute": 8,
+          "second": 14,
+          "scorer": "Leon Janackov",
+          "team": "home",
+          "team_abbrev": "SV Magstadt",
+          "seven_meter": false
+        },
+        {
+          "minute": 8,
+          "second": 48,
+          "scorer": "Philipp Rose",
+          "team": "away",
+          "team_abbrev": "HC Winnenden 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 9,
+          "second": 15,
+          "scorer": "Tim K\u00fchnle",
+          "team": "home",
+          "team_abbrev": "SV Magstadt",
+          "seven_meter": false
+        },
+        {
+          "minute": 11,
+          "second": 12,
+          "scorer": "David Engelmann",
+          "team": "home",
+          "team_abbrev": "SV Magstadt",
+          "seven_meter": false
+        },
+        {
+          "minute": 12,
+          "second": 10,
+          "scorer": "Leon Janackov",
+          "team": "home",
+          "team_abbrev": "SV Magstadt",
+          "seven_meter": false
+        },
+        {
+          "minute": 14,
+          "second": 55,
+          "scorer": "Leon Janackov",
+          "team": "home",
+          "team_abbrev": "SV Magstadt",
+          "seven_meter": false
+        },
+        {
+          "minute": 16,
+          "second": 7,
+          "scorer": "Max Dengler",
+          "team": "away",
+          "team_abbrev": "HC Winnenden 2",
+          "seven_meter": true
+        },
+        {
+          "minute": 17,
+          "second": 15,
+          "scorer": "Matthias Raith",
+          "team": "home",
+          "team_abbrev": "SV Magstadt",
+          "seven_meter": false
+        },
+        {
+          "minute": 18,
+          "second": 24,
+          "scorer": "Nils Pathenschneider",
+          "team": "away",
+          "team_abbrev": "HC Winnenden 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 20,
+          "second": 12,
+          "scorer": "Tim K\u00fchnle",
+          "team": "home",
+          "team_abbrev": "SV Magstadt",
+          "seven_meter": false
+        },
+        {
+          "minute": 20,
+          "second": 26,
+          "scorer": "Micha Roth",
+          "team": "away",
+          "team_abbrev": "HC Winnenden 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 20,
+          "second": 51,
+          "scorer": "Leon Janackov",
+          "team": "home",
+          "team_abbrev": "SV Magstadt",
+          "seven_meter": false
+        },
+        {
+          "minute": 21,
+          "second": 11,
+          "scorer": "Leon Janackov",
+          "team": "home",
+          "team_abbrev": "SV Magstadt",
+          "seven_meter": false
+        },
+        {
+          "minute": 21,
+          "second": 45,
+          "scorer": "Max Dengler",
+          "team": "away",
+          "team_abbrev": "HC Winnenden 2",
+          "seven_meter": true
+        },
+        {
+          "minute": 22,
+          "second": 46,
+          "scorer": "Leon Janackov",
+          "team": "home",
+          "team_abbrev": "SV Magstadt",
+          "seven_meter": false
+        },
+        {
+          "minute": 23,
+          "second": 31,
+          "scorer": "Andreas Ohlau",
+          "team": "home",
+          "team_abbrev": "SV Magstadt",
+          "seven_meter": false
+        },
+        {
+          "minute": 24,
+          "second": 5,
+          "scorer": "Tim K\u00fchnle",
+          "team": "home",
+          "team_abbrev": "SV Magstadt",
+          "seven_meter": false
+        },
+        {
+          "minute": 24,
+          "second": 19,
+          "scorer": "Daniel Hirsch",
+          "team": "away",
+          "team_abbrev": "HC Winnenden 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 25,
+          "second": 14,
+          "scorer": "Benjamin Heinze",
+          "team": "away",
+          "team_abbrev": "HC Winnenden 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 25,
+          "second": 27,
+          "scorer": "Leon Janackov",
+          "team": "home",
+          "team_abbrev": "SV Magstadt",
+          "seven_meter": false
+        },
+        {
+          "minute": 25,
+          "second": 44,
+          "scorer": "Leon Janackov",
+          "team": "home",
+          "team_abbrev": "SV Magstadt",
+          "seven_meter": false
+        },
+        {
+          "minute": 26,
+          "second": 21,
+          "scorer": "Tom Unterberg",
+          "team": "away",
+          "team_abbrev": "HC Winnenden 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 26,
+          "second": 54,
+          "scorer": "Andreas Ohlau",
+          "team": "home",
+          "team_abbrev": "SV Magstadt",
+          "seven_meter": false
+        },
+        {
+          "minute": 27,
+          "second": 23,
+          "scorer": "Tom Unterberg",
+          "team": "away",
+          "team_abbrev": "HC Winnenden 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 27,
+          "second": 52,
+          "scorer": "Benjamin Sch\u00f6nemann",
+          "team": "home",
+          "team_abbrev": "SV Magstadt",
+          "seven_meter": false
+        },
+        {
+          "minute": 28,
+          "second": 5,
+          "scorer": "Philipp Rose",
+          "team": "away",
+          "team_abbrev": "HC Winnenden 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 29,
+          "second": 34,
+          "scorer": "Benjamin Sch\u00f6nemann",
+          "team": "home",
+          "team_abbrev": "SV Magstadt",
+          "seven_meter": false
+        },
+        {
+          "minute": 30,
+          "second": 39,
+          "scorer": "Marvin Wohlfahrt",
+          "team": "away",
+          "team_abbrev": "HC Winnenden 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 31,
+          "second": 12,
+          "scorer": "Matthias Raith",
+          "team": "home",
+          "team_abbrev": "SV Magstadt",
+          "seven_meter": false
+        },
+        {
+          "minute": 31,
+          "second": 54,
+          "scorer": "David Engelmann",
+          "team": "home",
+          "team_abbrev": "SV Magstadt",
+          "seven_meter": false
+        },
+        {
+          "minute": 33,
+          "second": 23,
+          "scorer": "Max Dengler",
+          "team": "away",
+          "team_abbrev": "HC Winnenden 2",
+          "seven_meter": true
+        },
+        {
+          "minute": 34,
+          "second": 48,
+          "scorer": "Tom Unterberg",
+          "team": "away",
+          "team_abbrev": "HC Winnenden 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 35,
+          "second": 22,
+          "scorer": "Florian Wolf",
+          "team": "home",
+          "team_abbrev": "SV Magstadt",
+          "seven_meter": false
+        },
+        {
+          "minute": 35,
+          "second": 54,
+          "scorer": "Valentin B\u00f6ttcher",
+          "team": "home",
+          "team_abbrev": "SV Magstadt",
+          "seven_meter": false
+        },
+        {
+          "minute": 37,
+          "second": 33,
+          "scorer": "David Engelmann",
+          "team": "home",
+          "team_abbrev": "SV Magstadt",
+          "seven_meter": false
+        },
+        {
+          "minute": 38,
+          "second": 3,
+          "scorer": "Max Dengler",
+          "team": "away",
+          "team_abbrev": "HC Winnenden 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 39,
+          "second": 1,
+          "scorer": "Florian Wolf",
+          "team": "home",
+          "team_abbrev": "SV Magstadt",
+          "seven_meter": false
+        },
+        {
+          "minute": 40,
+          "second": 27,
+          "scorer": "Max Dengler",
+          "team": "away",
+          "team_abbrev": "HC Winnenden 2",
+          "seven_meter": true
+        },
+        {
+          "minute": 42,
+          "second": 32,
+          "scorer": "Max Dengler",
+          "team": "away",
+          "team_abbrev": "HC Winnenden 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 43,
+          "second": 41,
+          "scorer": "Leon Janackov",
+          "team": "home",
+          "team_abbrev": "SV Magstadt",
+          "seven_meter": false
+        },
+        {
+          "minute": 44,
+          "second": 8,
+          "scorer": "Marco W\u00f6rz",
+          "team": "home",
+          "team_abbrev": "SV Magstadt",
+          "seven_meter": false
+        },
+        {
+          "minute": 45,
+          "second": 11,
+          "scorer": "Leon Janackov",
+          "team": "home",
+          "team_abbrev": "SV Magstadt",
+          "seven_meter": false
+        },
+        {
+          "minute": 45,
+          "second": 40,
+          "scorer": "Philipp Rose",
+          "team": "away",
+          "team_abbrev": "HC Winnenden 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 46,
+          "second": 24,
+          "scorer": "Marco W\u00f6rz",
+          "team": "home",
+          "team_abbrev": "SV Magstadt",
+          "seven_meter": false
+        },
+        {
+          "minute": 47,
+          "second": 0,
+          "scorer": "Marvin Wohlfahrt",
+          "team": "away",
+          "team_abbrev": "HC Winnenden 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 47,
+          "second": 30,
+          "scorer": "Leon Janackov",
+          "team": "home",
+          "team_abbrev": "SV Magstadt",
+          "seven_meter": false
+        },
+        {
+          "minute": 47,
+          "second": 40,
+          "scorer": "Daniel Hirsch",
+          "team": "away",
+          "team_abbrev": "HC Winnenden 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 49,
+          "second": 4,
+          "scorer": "Marco W\u00f6rz",
+          "team": "home",
+          "team_abbrev": "SV Magstadt",
+          "seven_meter": false
+        },
+        {
+          "minute": 49,
+          "second": 55,
+          "scorer": "Leon Janackov",
+          "team": "home",
+          "team_abbrev": "SV Magstadt",
+          "seven_meter": false
+        },
+        {
+          "minute": 50,
+          "second": 21,
+          "scorer": "Micha Roth",
+          "team": "away",
+          "team_abbrev": "HC Winnenden 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 52,
+          "second": 29,
+          "scorer": "Leon Janackov",
+          "team": "home",
+          "team_abbrev": "SV Magstadt",
+          "seven_meter": false
+        },
+        {
+          "minute": 53,
+          "second": 5,
+          "scorer": "Marco W\u00f6rz",
+          "team": "home",
+          "team_abbrev": "SV Magstadt",
+          "seven_meter": false
+        },
+        {
+          "minute": 53,
+          "second": 33,
+          "scorer": "Tom Langner",
+          "team": "away",
+          "team_abbrev": "HC Winnenden 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 54,
+          "second": 8,
+          "scorer": "Tom Langner",
+          "team": "away",
+          "team_abbrev": "HC Winnenden 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 55,
+          "second": 24,
+          "scorer": "Leon Janackov",
+          "team": "home",
+          "team_abbrev": "SV Magstadt",
+          "seven_meter": true
+        },
+        {
+          "minute": 57,
+          "second": 7,
+          "scorer": "Matthias Raith",
+          "team": "home",
+          "team_abbrev": "SV Magstadt",
+          "seven_meter": false
+        },
+        {
+          "minute": 58,
+          "second": 32,
+          "scorer": "Daniel Hirsch",
+          "team": "away",
+          "team_abbrev": "HC Winnenden 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 58,
+          "second": 48,
+          "scorer": "Leon Janackov",
+          "team": "home",
+          "team_abbrev": "SV Magstadt",
+          "seven_meter": false
+        },
+        {
+          "minute": 59,
+          "second": 26,
+          "scorer": "Matthias Raith",
+          "team": "home",
+          "team_abbrev": "SV Magstadt",
+          "seven_meter": false
+        },
+        {
+          "minute": 59,
+          "second": 46,
+          "scorer": "Micha Roth",
+          "team": "away",
+          "team_abbrev": "HC Winnenden 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 60,
+          "second": 0,
+          "scorer": "Nick Falke",
+          "team": "home",
+          "team_abbrev": "SV Magstadt",
+          "seven_meter": true
+        }
+      ],
+      "final_score": "42:25",
+      "half_duration": 30,
+      "officials": {
+        "referees": [
+          "Frank Mollenkopf"
+        ],
+        "timekeepers": [
+          "Simon Mahrt"
+        ],
+        "secretaries": [
+          "Philip Traub"
+        ]
+      },
+      "graphic_path": "output/graphics/SV_Magstadt_vs_HC_Winnenden_2_Sa_1810.png"
+    },
+    {
+      "game_id": "handball4all.baden-wuerttemberg.8773252",
+      "order": 26,
+      "date": "Sa, 18.10.",
+      "home": {
+        "team_name": "TSV Alfdorf/Lorch/Waldhausen 2",
+        "players": [
+          {
+            "name": "Stephan Schenker",
+            "goals": 2,
+            "two_min_penalties": 1,
+            "yellow_cards": 1,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Tom Barei\u00df",
+            "goals": 9,
+            "two_min_penalties": 0,
+            "yellow_cards": 1,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 4,
+            "seven_meters_goals": 3
+          },
+          {
+            "name": "David G\u00fcnther",
+            "goals": 1,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Lars Rauch",
+            "goals": 3,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Ben Kordulla",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Lucas Mattheis",
+            "goals": 4,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Ben Stettner",
+            "goals": 6,
+            "two_min_penalties": 1,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Luca Paul",
+            "goals": 2,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Maximilian K\u00f6ngeter",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 1,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Jens Heinzelmann",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Maximilian Fritz",
+            "goals": 1,
+            "two_min_penalties": 0,
+            "yellow_cards": 1,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Marcel Mattheis",
+            "goals": 1,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Tim Kordulla",
+            "goals": 1,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Maximilian Kinkel",
+            "goals": 1,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Jonas Kinkel",
+            "goals": 4,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Tobias Folter",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          }
+        ]
+      },
+      "away": {
+        "team_name": "HSG Bargau/Bettringen 2",
+        "players": [
+          {
+            "name": "Timo Schramm",
+            "goals": 3,
+            "two_min_penalties": 1,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Daniel Barthle",
+            "goals": 2,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Steffen Barthle",
+            "goals": 5,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Chris Barthle",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Maximilian Rieg",
+            "goals": 1,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Simon St\u00fctz",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Marius Kreilinger",
+            "goals": 1,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Lukas Knoblauch",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Timo Derst",
+            "goals": 7,
+            "two_min_penalties": 1,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 4,
+            "seven_meters_goals": 2
+          },
+          {
+            "name": "Alexander Seewald",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Lukas Gro\u00dfkopf",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 1,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Fabio Emele",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Philipp Haas",
+            "goals": 5,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 6,
+            "seven_meters_goals": 4
+          },
+          {
+            "name": "Mathis Munser",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          }
+        ]
+      },
+      "goals_timeline": [
+        {
+          "minute": 0,
+          "second": 41,
+          "scorer": "Lars Rauch",
+          "team": "home",
+          "team_abbrev": "TSV ALLOWA 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 2,
+          "second": 3,
+          "scorer": "Tom Barei\u00df",
+          "team": "home",
+          "team_abbrev": "TSV ALLOWA 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 4,
+          "second": 12,
+          "scorer": "Lars Rauch",
+          "team": "home",
+          "team_abbrev": "TSV ALLOWA 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 7,
+          "second": 14,
+          "scorer": "Tom Barei\u00df",
+          "team": "home",
+          "team_abbrev": "TSV ALLOWA 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 7,
+          "second": 51,
+          "scorer": "Stephan Schenker",
+          "team": "home",
+          "team_abbrev": "TSV ALLOWA 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 8,
+          "second": 26,
+          "scorer": "Jonas Kinkel",
+          "team": "home",
+          "team_abbrev": "TSV ALLOWA 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 10,
+          "second": 36,
+          "scorer": "Timo Derst",
+          "team": "away",
+          "team_abbrev": "HSG Barg/Bettr 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 10,
+          "second": 45,
+          "scorer": "Jonas Kinkel",
+          "team": "home",
+          "team_abbrev": "TSV ALLOWA 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 10,
+          "second": 51,
+          "scorer": "Philipp Haas",
+          "team": "away",
+          "team_abbrev": "HSG Barg/Bettr 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 13,
+          "second": 16,
+          "scorer": "Maximilian Kinkel",
+          "team": "home",
+          "team_abbrev": "TSV ALLOWA 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 14,
+          "second": 53,
+          "scorer": "Philipp Haas",
+          "team": "away",
+          "team_abbrev": "HSG Barg/Bettr 2",
+          "seven_meter": true
+        },
+        {
+          "minute": 16,
+          "second": 25,
+          "scorer": "Philipp Haas",
+          "team": "away",
+          "team_abbrev": "HSG Barg/Bettr 2",
+          "seven_meter": true
+        },
+        {
+          "minute": 17,
+          "second": 15,
+          "scorer": "Jonas Kinkel",
+          "team": "home",
+          "team_abbrev": "TSV ALLOWA 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 19,
+          "second": 47,
+          "scorer": "Philipp Haas",
+          "team": "away",
+          "team_abbrev": "HSG Barg/Bettr 2",
+          "seven_meter": true
+        },
+        {
+          "minute": 21,
+          "second": 34,
+          "scorer": "Ben Stettner",
+          "team": "home",
+          "team_abbrev": "TSV ALLOWA 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 22,
+          "second": 1,
+          "scorer": "Timo Derst",
+          "team": "away",
+          "team_abbrev": "HSG Barg/Bettr 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 22,
+          "second": 10,
+          "scorer": "Lucas Mattheis",
+          "team": "home",
+          "team_abbrev": "TSV ALLOWA 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 22,
+          "second": 19,
+          "scorer": "Steffen Barthle",
+          "team": "away",
+          "team_abbrev": "HSG Barg/Bettr 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 22,
+          "second": 49,
+          "scorer": "Ben Stettner",
+          "team": "home",
+          "team_abbrev": "TSV ALLOWA 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 23,
+          "second": 57,
+          "scorer": "Tom Barei\u00df",
+          "team": "home",
+          "team_abbrev": "TSV ALLOWA 2",
+          "seven_meter": true
+        },
+        {
+          "minute": 26,
+          "second": 36,
+          "scorer": "Philipp Haas",
+          "team": "away",
+          "team_abbrev": "HSG Barg/Bettr 2",
+          "seven_meter": true
+        },
+        {
+          "minute": 28,
+          "second": 5,
+          "scorer": "Lucas Mattheis",
+          "team": "home",
+          "team_abbrev": "TSV ALLOWA 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 29,
+          "second": 14,
+          "scorer": "Jonas Kinkel",
+          "team": "home",
+          "team_abbrev": "TSV ALLOWA 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 30,
+          "second": 31,
+          "scorer": "Marius Kreilinger",
+          "team": "away",
+          "team_abbrev": "HSG Barg/Bettr 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 31,
+          "second": 33,
+          "scorer": "Stephan Schenker",
+          "team": "home",
+          "team_abbrev": "TSV ALLOWA 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 31,
+          "second": 50,
+          "scorer": "Lucas Mattheis",
+          "team": "home",
+          "team_abbrev": "TSV ALLOWA 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 33,
+          "second": 11,
+          "scorer": "Marcel Mattheis",
+          "team": "home",
+          "team_abbrev": "TSV ALLOWA 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 33,
+          "second": 37,
+          "scorer": "Maximilian Rieg",
+          "team": "away",
+          "team_abbrev": "HSG Barg/Bettr 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 33,
+          "second": 55,
+          "scorer": "Ben Stettner",
+          "team": "home",
+          "team_abbrev": "TSV ALLOWA 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 34,
+          "second": 45,
+          "scorer": "Steffen Barthle",
+          "team": "away",
+          "team_abbrev": "HSG Barg/Bettr 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 35,
+          "second": 15,
+          "scorer": "Tom Barei\u00df",
+          "team": "home",
+          "team_abbrev": "TSV ALLOWA 2",
+          "seven_meter": true
+        },
+        {
+          "minute": 36,
+          "second": 21,
+          "scorer": "Tom Barei\u00df",
+          "team": "home",
+          "team_abbrev": "TSV ALLOWA 2",
+          "seven_meter": true
+        },
+        {
+          "minute": 37,
+          "second": 36,
+          "scorer": "Timo Derst",
+          "team": "away",
+          "team_abbrev": "HSG Barg/Bettr 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 37,
+          "second": 50,
+          "scorer": "Lucas Mattheis",
+          "team": "home",
+          "team_abbrev": "TSV ALLOWA 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 38,
+          "second": 27,
+          "scorer": "Ben Stettner",
+          "team": "home",
+          "team_abbrev": "TSV ALLOWA 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 42,
+          "second": 6,
+          "scorer": "Ben Stettner",
+          "team": "home",
+          "team_abbrev": "TSV ALLOWA 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 42,
+          "second": 16,
+          "scorer": "Timo Schramm",
+          "team": "away",
+          "team_abbrev": "HSG Barg/Bettr 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 43,
+          "second": 5,
+          "scorer": "Tom Barei\u00df",
+          "team": "home",
+          "team_abbrev": "TSV ALLOWA 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 43,
+          "second": 47,
+          "scorer": "Steffen Barthle",
+          "team": "away",
+          "team_abbrev": "HSG Barg/Bettr 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 44,
+          "second": 6,
+          "scorer": "Tom Barei\u00df",
+          "team": "home",
+          "team_abbrev": "TSV ALLOWA 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 45,
+          "second": 0,
+          "scorer": "Timo Derst",
+          "team": "away",
+          "team_abbrev": "HSG Barg/Bettr 2",
+          "seven_meter": true
+        },
+        {
+          "minute": 45,
+          "second": 18,
+          "scorer": "David G\u00fcnther",
+          "team": "home",
+          "team_abbrev": "TSV ALLOWA 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 45,
+          "second": 27,
+          "scorer": "Steffen Barthle",
+          "team": "away",
+          "team_abbrev": "HSG Barg/Bettr 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 46,
+          "second": 34,
+          "scorer": "Timo Derst",
+          "team": "away",
+          "team_abbrev": "HSG Barg/Bettr 2",
+          "seven_meter": true
+        },
+        {
+          "minute": 46,
+          "second": 49,
+          "scorer": "Lars Rauch",
+          "team": "home",
+          "team_abbrev": "TSV ALLOWA 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 48,
+          "second": 49,
+          "scorer": "Maximilian Fritz",
+          "team": "home",
+          "team_abbrev": "TSV ALLOWA 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 52,
+          "second": 20,
+          "scorer": "Steffen Barthle",
+          "team": "away",
+          "team_abbrev": "HSG Barg/Bettr 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 52,
+          "second": 37,
+          "scorer": "Luca Paul",
+          "team": "home",
+          "team_abbrev": "TSV ALLOWA 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 53,
+          "second": 5,
+          "scorer": "Tom Barei\u00df",
+          "team": "home",
+          "team_abbrev": "TSV ALLOWA 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 54,
+          "second": 46,
+          "scorer": "Daniel Barthle",
+          "team": "away",
+          "team_abbrev": "HSG Barg/Bettr 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 55,
+          "second": 8,
+          "scorer": "Tom Barei\u00df",
+          "team": "home",
+          "team_abbrev": "TSV ALLOWA 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 55,
+          "second": 35,
+          "scorer": "Daniel Barthle",
+          "team": "away",
+          "team_abbrev": "HSG Barg/Bettr 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 55,
+          "second": 55,
+          "scorer": "Ben Stettner",
+          "team": "home",
+          "team_abbrev": "TSV ALLOWA 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 57,
+          "second": 46,
+          "scorer": "Luca Paul",
+          "team": "home",
+          "team_abbrev": "TSV ALLOWA 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 57,
+          "second": 53,
+          "scorer": "Timo Schramm",
+          "team": "away",
+          "team_abbrev": "HSG Barg/Bettr 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 58,
+          "second": 14,
+          "scorer": "Timo Derst",
+          "team": "away",
+          "team_abbrev": "HSG Barg/Bettr 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 58,
+          "second": 48,
+          "scorer": "Tim Kordulla",
+          "team": "home",
+          "team_abbrev": "TSV ALLOWA 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 58,
+          "second": 55,
+          "scorer": "Timo Schramm",
+          "team": "away",
+          "team_abbrev": "HSG Barg/Bettr 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 59,
+          "second": 23,
+          "scorer": "Timo Derst",
+          "team": "away",
+          "team_abbrev": "HSG Barg/Bettr 2",
+          "seven_meter": false
+        }
+      ],
+      "final_score": "35:24",
+      "half_duration": 30,
+      "officials": {
+        "referees": [
+          "Volker Fritz"
+        ],
+        "timekeepers": [
+          "Felix Krazer"
+        ],
+        "secretaries": [
+          "Dominik M\u00fchlbacher"
+        ]
+      },
+      "graphic_path": "output/graphics/TSV_Alfdorf_Lorch_Wa_vs_HSG_Bargau_Bettringe_Sa_1810.png"
+    },
+    {
+      "game_id": "handball4all.baden-wuerttemberg.8773627",
+      "order": 27,
+      "date": "Sa, 18.10.",
+      "home": {
+        "team_name": "TSV Schmiden 1902 2",
+        "players": [
+          {
+            "name": "Yannik Schlauch",
+            "goals": 10,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Julian Wernecke",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Tim Schweickhardt",
+            "goals": 1,
+            "two_min_penalties": 1,
+            "yellow_cards": 1,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Luca Nardi",
+            "goals": 1,
+            "two_min_penalties": 1,
+            "yellow_cards": 1,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Konstantin W\u00fcrmle",
+            "goals": 2,
+            "two_min_penalties": 1,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Hannes Raiser",
+            "goals": 7,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Marlon Kauffmann",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Tim Paule",
+            "goals": 3,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Jakob Schneider",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 1,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Niklas Boss",
+            "goals": 8,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Niklas Rahn",
+            "goals": 3,
+            "two_min_penalties": 2,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Luke Fritz",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          }
+        ]
+      },
+      "away": {
+        "team_name": "SF Schwaikheim 2",
+        "players": [
+          {
+            "name": "Fabian Heyden",
+            "goals": 6,
+            "two_min_penalties": 0,
+            "yellow_cards": 1,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 5,
+            "seven_meters_goals": 3
+          },
+          {
+            "name": "Marcel Mahlfeld",
+            "goals": 1,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Timo Wissmann",
+            "goals": 4,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Marc Baumholz",
+            "goals": 2,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Moritz Abelein",
+            "goals": 6,
+            "two_min_penalties": 0,
+            "yellow_cards": 1,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Moritz Weller",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Pascal K\u00f6lz",
+            "goals": 0,
+            "two_min_penalties": 1,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Paul Ehmann",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Julian W\u00fcrtele",
+            "goals": 1,
+            "two_min_penalties": 1,
+            "yellow_cards": 1,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Simon Franz",
+            "goals": 4,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Maik Gronwald",
+            "goals": 3,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Fabian Lenz",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Moritz Karcher",
+            "goals": 2,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Fabian Netz",
+            "goals": 3,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          },
+          {
+            "name": "Fabian Ferhati",
+            "goals": 0,
+            "two_min_penalties": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "blue_cards": 0,
+            "seven_meters": 0,
+            "seven_meters_goals": 0
+          }
+        ]
+      },
+      "goals_timeline": [
+        {
+          "minute": 1,
+          "second": 15,
+          "scorer": "Niklas Rahn",
+          "team": "home",
+          "team_abbrev": "TSV Schmiden 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 3,
+          "second": 42,
+          "scorer": "Niklas Rahn",
+          "team": "home",
+          "team_abbrev": "TSV Schmiden 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 4,
+          "second": 12,
+          "scorer": "Tim Paule",
+          "team": "home",
+          "team_abbrev": "TSV Schmiden 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 5,
+          "second": 34,
+          "scorer": "Fabian Heyden",
+          "team": "away",
+          "team_abbrev": "SF Schwaikheim 2",
+          "seven_meter": true
+        },
+        {
+          "minute": 6,
+          "second": 3,
+          "scorer": "Yannik Schlauch",
+          "team": "home",
+          "team_abbrev": "TSV Schmiden 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 8,
+          "second": 17,
+          "scorer": "Fabian Heyden",
+          "team": "away",
+          "team_abbrev": "SF Schwaikheim 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 8,
+          "second": 25,
+          "scorer": "Yannik Schlauch",
+          "team": "home",
+          "team_abbrev": "TSV Schmiden 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 9,
+          "second": 31,
+          "scorer": "Hannes Raiser",
+          "team": "home",
+          "team_abbrev": "TSV Schmiden 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 9,
+          "second": 57,
+          "scorer": "Simon Franz",
+          "team": "away",
+          "team_abbrev": "SF Schwaikheim 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 11,
+          "second": 14,
+          "scorer": "Tim Paule",
+          "team": "home",
+          "team_abbrev": "TSV Schmiden 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 11,
+          "second": 43,
+          "scorer": "Timo Wissmann",
+          "team": "away",
+          "team_abbrev": "SF Schwaikheim 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 12,
+          "second": 51,
+          "scorer": "Moritz Abelein",
+          "team": "away",
+          "team_abbrev": "SF Schwaikheim 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 13,
+          "second": 24,
+          "scorer": "Niklas Boss",
+          "team": "home",
+          "team_abbrev": "TSV Schmiden 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 14,
+          "second": 7,
+          "scorer": "Timo Wissmann",
+          "team": "away",
+          "team_abbrev": "SF Schwaikheim 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 14,
+          "second": 40,
+          "scorer": "Niklas Boss",
+          "team": "home",
+          "team_abbrev": "TSV Schmiden 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 15,
+          "second": 30,
+          "scorer": "Luca Nardi",
+          "team": "home",
+          "team_abbrev": "TSV Schmiden 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 17,
+          "second": 8,
+          "scorer": "Yannik Schlauch",
+          "team": "home",
+          "team_abbrev": "TSV Schmiden 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 20,
+          "second": 54,
+          "scorer": "Moritz Abelein",
+          "team": "away",
+          "team_abbrev": "SF Schwaikheim 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 21,
+          "second": 20,
+          "scorer": "Hannes Raiser",
+          "team": "home",
+          "team_abbrev": "TSV Schmiden 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 22,
+          "second": 6,
+          "scorer": "Moritz Abelein",
+          "team": "away",
+          "team_abbrev": "SF Schwaikheim 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 23,
+          "second": 2,
+          "scorer": "Fabian Netz",
+          "team": "away",
+          "team_abbrev": "SF Schwaikheim 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 24,
+          "second": 51,
+          "scorer": "Moritz Karcher",
+          "team": "away",
+          "team_abbrev": "SF Schwaikheim 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 25,
+          "second": 28,
+          "scorer": "Maik Gronwald",
+          "team": "away",
+          "team_abbrev": "SF Schwaikheim 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 26,
+          "second": 13,
+          "scorer": "Yannik Schlauch",
+          "team": "home",
+          "team_abbrev": "TSV Schmiden 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 26,
+          "second": 56,
+          "scorer": "Yannik Schlauch",
+          "team": "home",
+          "team_abbrev": "TSV Schmiden 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 28,
+          "second": 8,
+          "scorer": "Yannik Schlauch",
+          "team": "home",
+          "team_abbrev": "TSV Schmiden 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 29,
+          "second": 17,
+          "scorer": "Tim Schweickhardt",
+          "team": "home",
+          "team_abbrev": "TSV Schmiden 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 30,
+          "second": 29,
+          "scorer": "Niklas Boss",
+          "team": "home",
+          "team_abbrev": "TSV Schmiden 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 32,
+          "second": 0,
+          "scorer": "Julian W\u00fcrtele",
+          "team": "away",
+          "team_abbrev": "SF Schwaikheim 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 32,
+          "second": 51,
+          "scorer": "Simon Franz",
+          "team": "away",
+          "team_abbrev": "SF Schwaikheim 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 33,
+          "second": 54,
+          "scorer": "Fabian Heyden",
+          "team": "away",
+          "team_abbrev": "SF Schwaikheim 2",
+          "seven_meter": true
+        },
+        {
+          "minute": 34,
+          "second": 27,
+          "scorer": "Yannik Schlauch",
+          "team": "home",
+          "team_abbrev": "TSV Schmiden 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 34,
+          "second": 57,
+          "scorer": "Fabian Heyden",
+          "team": "away",
+          "team_abbrev": "SF Schwaikheim 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 36,
+          "second": 20,
+          "scorer": "Fabian Heyden",
+          "team": "away",
+          "team_abbrev": "SF Schwaikheim 2",
+          "seven_meter": true
+        },
+        {
+          "minute": 37,
+          "second": 24,
+          "scorer": "Simon Franz",
+          "team": "away",
+          "team_abbrev": "SF Schwaikheim 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 38,
+          "second": 19,
+          "scorer": "Simon Franz",
+          "team": "away",
+          "team_abbrev": "SF Schwaikheim 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 39,
+          "second": 29,
+          "scorer": "Yannik Schlauch",
+          "team": "home",
+          "team_abbrev": "TSV Schmiden 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 39,
+          "second": 33,
+          "scorer": "Moritz Abelein",
+          "team": "away",
+          "team_abbrev": "SF Schwaikheim 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 39,
+          "second": 43,
+          "scorer": "Niklas Boss",
+          "team": "home",
+          "team_abbrev": "TSV Schmiden 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 40,
+          "second": 14,
+          "scorer": "Fabian Netz",
+          "team": "away",
+          "team_abbrev": "SF Schwaikheim 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 41,
+          "second": 37,
+          "scorer": "Konstantin W\u00fcrmle",
+          "team": "home",
+          "team_abbrev": "TSV Schmiden 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 42,
+          "second": 7,
+          "scorer": "Marc Baumholz",
+          "team": "away",
+          "team_abbrev": "SF Schwaikheim 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 43,
+          "second": 37,
+          "scorer": "Timo Wissmann",
+          "team": "away",
+          "team_abbrev": "SF Schwaikheim 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 43,
+          "second": 49,
+          "scorer": "Hannes Raiser",
+          "team": "home",
+          "team_abbrev": "TSV Schmiden 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 44,
+          "second": 25,
+          "scorer": "Marcel Mahlfeld",
+          "team": "away",
+          "team_abbrev": "SF Schwaikheim 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 46,
+          "second": 8,
+          "scorer": "Maik Gronwald",
+          "team": "away",
+          "team_abbrev": "SF Schwaikheim 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 46,
+          "second": 40,
+          "scorer": "Niklas Boss",
+          "team": "home",
+          "team_abbrev": "TSV Schmiden 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 47,
+          "second": 4,
+          "scorer": "Moritz Karcher",
+          "team": "away",
+          "team_abbrev": "SF Schwaikheim 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 47,
+          "second": 13,
+          "scorer": "Hannes Raiser",
+          "team": "home",
+          "team_abbrev": "TSV Schmiden 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 47,
+          "second": 29,
+          "scorer": "Maik Gronwald",
+          "team": "away",
+          "team_abbrev": "SF Schwaikheim 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 47,
+          "second": 59,
+          "scorer": "Niklas Boss",
+          "team": "home",
+          "team_abbrev": "TSV Schmiden 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 49,
+          "second": 2,
+          "scorer": "Konstantin W\u00fcrmle",
+          "team": "home",
+          "team_abbrev": "TSV Schmiden 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 49,
+          "second": 34,
+          "scorer": "Moritz Abelein",
+          "team": "away",
+          "team_abbrev": "SF Schwaikheim 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 50,
+          "second": 18,
+          "scorer": "Marc Baumholz",
+          "team": "away",
+          "team_abbrev": "SF Schwaikheim 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 51,
+          "second": 11,
+          "scorer": "Fabian Netz",
+          "team": "away",
+          "team_abbrev": "SF Schwaikheim 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 53,
+          "second": 30,
+          "scorer": "Hannes Raiser",
+          "team": "home",
+          "team_abbrev": "TSV Schmiden 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 54,
+          "second": 11,
+          "scorer": "Timo Wissmann",
+          "team": "away",
+          "team_abbrev": "SF Schwaikheim 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 54,
+          "second": 21,
+          "scorer": "Niklas Boss",
+          "team": "home",
+          "team_abbrev": "TSV Schmiden 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 55,
+          "second": 58,
+          "scorer": "Niklas Boss",
+          "team": "home",
+          "team_abbrev": "TSV Schmiden 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 56,
+          "second": 44,
+          "scorer": "Fabian Heyden",
+          "team": "away",
+          "team_abbrev": "SF Schwaikheim 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 57,
+          "second": 8,
+          "scorer": "Hannes Raiser",
+          "team": "home",
+          "team_abbrev": "TSV Schmiden 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 57,
+          "second": 14,
+          "scorer": "Tim Paule",
+          "team": "home",
+          "team_abbrev": "TSV Schmiden 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 57,
+          "second": 50,
+          "scorer": "Niklas Rahn",
+          "team": "home",
+          "team_abbrev": "TSV Schmiden 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 58,
+          "second": 49,
+          "scorer": "Yannik Schlauch",
+          "team": "home",
+          "team_abbrev": "TSV Schmiden 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 59,
+          "second": 25,
+          "scorer": "Hannes Raiser",
+          "team": "home",
+          "team_abbrev": "TSV Schmiden 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 59,
+          "second": 38,
+          "scorer": "Yannik Schlauch",
+          "team": "home",
+          "team_abbrev": "TSV Schmiden 2",
+          "seven_meter": false
+        },
+        {
+          "minute": 59,
+          "second": 58,
+          "scorer": "Moritz Abelein",
+          "team": "away",
+          "team_abbrev": "SF Schwaikheim 2",
+          "seven_meter": false
+        }
+      ],
+      "final_score": "35:32",
+      "half_duration": 30,
+      "officials": {
+        "referees": [
+          "Andreas Doderer"
+        ],
+        "timekeepers": [
+          "Torben Rahn"
+        ],
+        "secretaries": [
+          "Fabrizio Blefari"
+        ]
+      },
+      "graphic_path": "output/graphics/TSV_Schmiden_1902_2_vs_SF_Schwaikheim_2_Sa_1810.png"
+    }
+  ]
+}
